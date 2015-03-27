@@ -1,0 +1,767 @@
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <link rel="stylesheet" type="text/css" href="default.css" />
+    </head>
+    <body><p align="right">Version 1.0.1 3/22/15</p>
+<br>		This is a <b>work in progress.</b> If you find an error, formatting mistake, or something else that needs to be corrected, <b>let me know</b> by sending me an email at ceryliae@gmail.com. If you don't tell me there's a problem, there's a chance I don't know about it and it will never get fixed.
+<br>In addition, if you have other feedback, or a suggestion of something to add to the screen, let me know at ceryliae@gmail.com.
+		 <h1 id="toc">Table of Contents</h1>
+		<table>
+			<tr><td><a href="#combat">Combat</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#conditions">Conditions</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#blinded">Blinded</a> · <a href="#charmed">Charmed</a> · <a href="#deafened">Deafened</a> · <a href="#frightened">Frightened</a> · <a href="#Grappled">Grappled</a> · <a href="#incapacitated">Incapacitated</a> · <a href="#invisible">Invisible</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#paralyzed">Paralyzed</a> · <a href="#petrified">Petrified</a> · <a href="#poisoned">Poisoned</a> · <a href="#restrained">Restrained</a> · <a href="#stunned">Stunned</a> · <a href="#unconscious">Unconscious</a></td></tr>   
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#exhaustion">Exhaustion</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#cover">Cover</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#combatactions">Actions In Combat</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#stealthrules">The Rules of Stealth</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#grapplingshovingclimbing">Grappling, Shoving, and Climbing onto Bigger Creatures</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#readying">Readying an Action</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#death">Dropping To 0 Hit Points</a></td></tr>
+			<tr><td><a href="#abilityscores">Ability Scores</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#abilitymodifiers">Ability Modifiers</a></td></tr>			
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#abilityscores">Using Ability Scores</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#strength">Strength</a> · <a href="#dexterity">Dexterity</a> · <a href="#constitution">Constitution</a> · <a href="#intelligence">Intelligence</a> · <a href="#wisdom">Wisdom</a> · <a href="#charisma">Charisma</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#DCChart">Setting Difficulty Class</a></td></tr>
+			<tr><td><a href="#adventuring">Adventuring</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#maptravelpace">Map Travel Pace</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#travelpace">Travel Pace</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#encounterdistance">Encounter Distance</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#light">Light</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#traps">Trap Save DCs and Attack Bonuses</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#damageseverity">Damage Severity and Level</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#improvizingdamage">Improvizing Damage</a></td></tr>
+			<tr><td><a href="#equipment">Items and expenses</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#armor">Armor</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#weapons">Weapons</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#adventuringgear">Adventuring Gear</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tools">Tools</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lifestyle">Lifestyle Expenses</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lodging">Food, Drink, and Lodging</a></td></tr>
+			<tr><td><a href="#character">Character Building</a></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#characteradvancement">Character Advancement</a></td></tr>
+
+		</table>
+	
+	
+		<h1 id="combat">Combat</h1>
+		<h2 id="conditions">Conditions</h2>
+		<table>
+			<tr><th>Condition</th><th>Description</th></tr>
+			<tr><td id="blinded">Blinded</td><td align="left">
+			<li>A blinded creature can't see and automatically fails any ability check that requires sight.</li>
+			<li>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</li></td></tr>
+			<tr><td id="charmed">Charmed</td><td align="left">
+			<li>A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects</li>
+			<li>The charmer has advantage on any ability check to interact socially with the creature.</li></td></tr>
+			<tr><td id="deafened">Deafened</td><td align="left"text>
+			<li>A deafened creature can't hear and automatically fails any ability check that requires hearing.</li></td></tr>
+			<tr><td id="frightened">Frightened</td><td align="left"text>
+			<li>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</li>
+			<li>The creature can't willingly move closer to the source of its fear.</li></td></tr>
+			<tr><td id="grappled">Grappled</td><td align="left"text>
+            <li>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.</li>
+            <li>The condition ends if the grappler is <a href ="#incapacitated">incapacitated</a>.</li>
+            <li>The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell.</li></td></tr>
+			<tr><td id="incapacitated">Incapacitated</td><td align="left"text>
+			<li>An incapacitated creature can't take actions or reactions.</li></td></tr>
+			<tr><td id="invisible">Invisible</td><td align="left"text>
+            <li>An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</li>
+            <li>Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.</li></td></tr>
+			<tr><td id="paralyzed">Paralyzed</td><td align="left"text>
+            <li>A paralyzed creature is <a href ="#incapacitated">incapacitated</a> and can't move or speak.</li>
+            <li>The creature automatically fails Strength and Dexterity saving throws.</li>
+            <li>Attack rolls against the creature have advantage.</li>
+            <li>Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</li></td></tr>
+			<tr><td id="petrified">Petrified</td><td align="left"text>
+            <li>A petrified creature is transformed, along with an nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.</li>
+            <li>The creature is <a href ="#incapacitated">incapacitated</a>, can't move or speak, and is unaware of its surroundings.</li>
+            <li>Attack rolls against the creature have advantage.</li>
+            <li>The creature automatically fails Strength and Dexterity saving throws.</li>
+            <li>The creature has resistance to all damage.</li>
+            <li>The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.</li></td></tr>
+			<tr><td id="poisoned">Poisoned</td><td align="left"text>
+			<li>A poisoned creature has disadvantage on attack rolls and ability checks.</li></td></tr>
+			<tr><td id="prone">Prone</td><td align="left"text>
+            <li>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</li>
+            <li>The creature has disadvantage on attack rolls.</li>
+            <li>An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</li></td></tr>
+			<tr><td id="restrained">Restrained</td><td align="left"text>
+            <li>A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</li>
+            <li>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</li>
+            <li>The creature has disadvantage on Dexterity saving throws.</li></td></tr>
+			<tr><td id="stunned">Stunned</td><td align="left"text>
+            <li>A stunned creature is <a href ="#incapacitated">incapacitated</a>, can't move, and can speak only falteringly.</li>
+            <li>The creature automatically fails Strength and Dexterity saving throws.</li>
+            <li>Attack rolls against the creature have advantage.</li></td></tr>
+			<tr><td id="unconscious">Unconscious</td><td align="left"text>
+            <li>An unconscious creature is <a href ="#incapacitated">incapacitated</a>, can't move or speak, and is unaware of its surroundings.</li>
+            <li>The creature drops whatever it's holding and falls prone.</li>
+            <li>The creature automatically fails Strength and Dexterity saving throws.</li>
+            <li>Attack rolls against the creature have advantage.</li>
+            <li>Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</li></td></tr>
+		</table>		
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="exhaustion">Exhaustion</h2>
+		<table>
+            <tr><th width="20%">Level</th><th align="left">Effect</th></tr>
+			<tr><td>1</td><td align="left">Disadvantage on ability checks.</td></tr>
+			<tr><td>2</td><td align="left">Speed halved</td></tr>
+			<tr><td>3</td><td align="left">Disadvantage on attack rolls and saving throws</td></tr>
+			<tr><td>4</td><td align="left">Hit point maximum halved</td></tr>
+			<tr><td>5</td><td align="left">Speed reduced to 0</td></tr>
+			<tr><td>6</td><td align="left">Death</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2>Suffering Exhaustion</h2>		
+		<table>
+            <tr><th align="left">Cause</th><th align="left">Details</th></tr>
+			<tr><td>Forced March</td><td align="left">For each hour spent traveling past 8 hours make a CON save at DC 10 + 1 for each hour past 8. On a failed save, a character suffers 1 level of exhaustion.</td></tr>
+			<tr><td>Starvation</td><td align="left">If a creature doesn't eat enough food in a day, they start to starve. Food can be stretched out by eating half as much per day, which counts as half a day without food. A character can go without food for a number of days equal to 3 + CON mod, and then at the end of each day beyond that a character automatically suffers 1 level of exhaustion. A normal day of eating reduces the days without food to 0.</td></tr>
+			<tr><td>Dehydration</td><td align="left">A creature who drinks less than half as much water than they need in a day must succeed on a DC 15 CON save or suffer 1 level of exhaustion. A character with access to even less water automatically suffers 1 level of exhaustion at the end of the day. If a character already has any levels of exhaustion, they gain 2 levels in either case.</td></tr>
+			<tr><td>Barbarian's Frenzy</td><td align="left">A Barbarian who goes down the Path of the Berserker can choose to enter a frenzy if he is raging. When the rage ends, he suffers a level of exhaustion.</td></tr>
+		</table>
+<br>
+		<b>Reducing Levels of Exhaustion</b>
+<br>	At the end of a long rest, provided a character has had enough food and water that day, they reduce their level of exhaustion by 1.
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="cover">Cover</h2>
+		<table>
+			<tr><th width="20%"align="left">Cover</th><th>Effect</th></tr>
+			<tr><td>1/2 cover</td><td align="left">+2 bonus to AC and Dexterity saving throws against attacks and effects that originate on the opposite side of the cover.</td></tr>
+			<tr><td>3/4 cover</td><td align+"left">+5 bonus to AC and Dexterity saving throws against attacks and effects that originate on the opposite side of the cover.</td></tr>
+			<tr><td>Full cover</td><td align="left">Can't be targeted by an attack or a spell.</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="combatactions">Actions In Combat</h2>
+		<table>
+			<tr><th width="22%">Action</th><th>Description</th></tr>
+			<tr><td id="attackaction" align="left">Attack</td><td align="left">Make one¹ melee or ranged attack, a grapple, or a shove.</td></tr>
+			<tr><td align="left">Cast a Spell</td><td align="left">Casts a spell with a casting time of 1 action.</td></tr>
+			<tr><td align="left">Dash</td><td align="left">Gain extra movement equal to your speed for this turn, applying any modifiers.</td></tr>
+			<tr><td align="left">Disengage</td><td align="left">Your movement doesn't provoke opportunity attacks for the rest of the turn.</td></tr>
+			<tr><td align="left">Dodge</td><td align="left">Until the start of your next turn, any attacks against you are made with disadvantage provided you can see the attacker, and you have advantage on DEX saves. You lose this benefit if you are <a href ="#incapacitated">incapacitated</a> or your speed drops to 0.</td></tr>
+			<tr><td align="left">Help</td><td align="left">Creature you help gains advantage on next ability check to perform the task you are assisting with, or help with attack roll if enemy is within 5 feet of you.</td></tr>
+			<tr><td align="left">Hide</td><td align="left">You make a <a href="#stealth">stealth</a> check. Details <a href="#stealthrules">here</a>.</td></tr>
+			<tr><td align="left">Ready</td><td align="left">Prepare to do something when a specific trigger occurs. Details <a href="#readying">here</a>.</td></tr>
+			<tr><td align="left">Search</td><td align="left">Make either a perception or investigation check in an attempt to locate something.</td></tr>
+			<tr><td align="left">Use an Object</td><td align="left">Interacting with a second object on your turn (the first is free), or a more complicated object.</td></tr>
+			<tr><td align="left">Climb onto a Bigger Creature²</td><td align="left">Athletics or Acrobatics check opposed by creature's Acrobatics check. Details <a href="#climbingontobiggercreatures">here</a>.</td></tr>
+			<tr><td align="left">Disarm²</td><td align="left">Use an attack to make attack roll opposed by target's Athletics or Acrobatics check. Target has advantage if holding the item with 2 or more hands.</td></tr>
+			<tr><td align="left">Mark²</td><td align="left">When you make a melee attack and hit, you can mark them. Your opportunity attacks against the creature have advantage and don't expend your reaction, however you may only make 1 attack in this manner.</td></tr>
+			<tr><td align="left">Overrun²</td><td align="left">As an action or bonus action make Athletics check opposed by hostile's Athletics. If you win, you can move through the hostile's space once this turn.</td></tr>
+			<tr><td align="left">Shove aside²</td><td align="left">Use shove to push target to the side rather than away. Details <a href="#shove">here</a>.</td></tr>
+			<tr><td align="left">Tumble²</td><td align="left">As an action or bonus action make Acrobatics check opposed by hostile's Acrobatics. If you win, you can move through the hostile's space once this turn.</td></tr>
+		</table>
+		¹ Certain features allow you to make more than one attack, grapple, or shove with this action.
+<br>	² These actions are optional and can be found on pages 271-272 of the DMG.
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="stealthrules">The Rules of Stealth</h2>
+		When attempting to hide, there are 4 simple rules to remember.
+		<ol><li>If someone can see you, you can't attempt to hide from them.</li>
+		<li>Someone doesn't see you when they're not looking at you.</li>
+		<li>Once hidden, you can be detected via sight, hearing, or both, so don't be seen or heard. If their perception check or passive perception is higher than your stealth roll, they detect you.</li>
+		<li>You can hide in plain sight, given a moment of being unseen or unattended and an appropriate concealment strategy</li></ol>
+		If you are hidden, or when someone can't see you, you have advantage on attack rolls against them, and they have disadvantage on attack rolls against you. If you make an attack while hidden, regardless of whether it hits or misses, you are no longer hidden.
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="grapplingshovingclimbing">Grappling, Shoving, and Climbing onto Bigger Creatures</h2>
+		When you take the <a href="#attackaction">attack action</a> you can use one attack to grapple, shove, or climb onto an enemy.
+<br>	<b id="grappling">Grappling</b>
+<br>	You can grab a creature which is no more than one size category higher than you. Using at least one free hand, you make an Athletics check contested by the target's Athletics or Acrobatics check. If you succeed, the target is now <a href="#grappled">grappled</a> by you. You can also grapple an enemy to climb on top of it.
+<br>	<b>Escaping a grapple.</b> While grappled, a creature can use its action to make an Athletics or Acrobatics check opposed by your Athletics check. If the creature succeeds, it moves to a space next to you.
+<br>	<b>Moving a grappled creature.</b> When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
+<br>
+<br>	<b id="shoving">Shoving</b>
+<br>	Using the attack action, you can attempt to shove a creature no more than one size larger than you. You make an Athletics check opposed by its Athletics or Acrobatics check. If you succeed you either move it 5 feet in any direction or knock it <a href="#prone">prone</a>.
+<br>
+<br>	<b id="climbingontobiggercreatures">Climbing onto Bigger Creatures</b>
+<br>	A suitably large creature can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. Once you make any ability checks necessary to get into position and to get onto the bigger creature, the smaller creature uses its action to make an Athletics or Acrobatics check contested by the targets Acrobatics check. If it wins the contest, the smaller creature successfully moves into the target creature's space and clings to his body. While in the target's space, the smaller creature moves with the target and has advantage on attack rolls against it.
+<br>	&nbsp;&nbsp;&nbsp;&nbsp;The smaller creature can move around within the larger creature's space, treating the space as difficult terrain. The larger creature may or may not be able to attack the smaller creature, depending on the smaller creature's location, this is up to the DM. The larger creature can try to dislodge the creature as an action - shaking it off, scraping it against a wall, grabbing and throwing it off - by making an Athletics check opposed by the smaller creature's Athletics or Acrobatics check.
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="readying">Readying an Action</h2>
+		As an action on your turn, you can take the Ready action so that you may act later in the round using your reaction. To do this, you need to clearly define 2 things.
+<br>	First, you must decide what circumstances will trigger your prepared action. For example, you could say that the trigger is "A hostile creature comes through the door in front of me".
+<br>	Second, you must decide what you will do if the triggering event happens. You may take an <a href="#combatactions">action</a> such as the <a href="#attackaction">attack action</a> or you may move up to your speed. For example, you could say "I will attack with my greatsword".
+<br>	When you put both the trigger and the action together you get a coherent sentence. The example is "If a hostile creature comes through the door in front of me, I will attack with my greatsword".
+<br>	<b>Readying A Spell.</b> When you ready a spell, you cast it as normal but hold its energy, which you then release with your reaction. To be readied a spell must have a casting time of 1 action, and holding onto the spell's magic requires <a href="#concentration">concentration</a>. If your concentration is broken the spell dissipates.
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="death">Dropping to 0 Hit Points</h2>
+        <b>Death Saving Throws</b>
+<br>	When you start your turn at 0 hit points, you need to make a death saving throw. Rolling 9 and below counts as a failure, and 10 and above counts as a success. If you accrue 3 failures before 3 successes, you die. If you accrue 3 successes, you are stabilized. If you regain any hit points, both your successes and failures are reset.
+<br>    <b>Rolling 1 or 20.</b> When you make a death saving throw and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point.<br />
+<br>    <b>Damage at 0 Hit Points.</b> If you take any damage while you have 0 hit points, you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death.
+<br>
+        <b>Instant Death</b>
+<br>        Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum. For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies.
+<br>
+<br>    <b>Falling Unconscious</b>
+        If damage reduces you to 0 hit points and fails to kill you, you fall <a href="#unconscious">unconscious</a>. This unconsciousness ends if you regain any hit points.<br />
+<br>
+        <b>Stabilizing a Creature</b>
+<br>    The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn’t killed by a failed death saving throw. You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Medicine check. A stable creature doesn’t make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn’t healed regains 1 hit point after 1d4 hours.
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="damageseverity">Damage Severity and Level</h2>
+        <table>
+            <tr><th align="center">Character Level</th><th>Setback</th><th>Dangerous</th><th>Deadly</tr>
+            <tr><td align="center">1st-4th</td><td>1d10</td><td>2d10</td><td>4d10<td></tr>
+            <tr><td align="center">5th-10th</td><td>2d10</td><td>4d10</td><td>10d10<td></tr>
+            <tr><td align="center">11th-16th</td><td>4dl0</td><td>10d10</td><td>18d10<td></tr>
+            <tr><td align="center">17th-20th</td><td>10d10</td><td>18d10</td><td>24d10<td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+		<h1 id="Abilityscores">Ability Scores</h1>
+		<h2 id="abilitymodifiers">Ability Modifiers</h2>
+		<table>
+			<tr><th>Score</th><th>Modifier</th><th>Score</th><th>Modifier</th></tr>
+			<tr><td>1</td><td>-5</td><td>16-17</td><td>+3</td></tr>
+			<tr><td>2-3</td><td>-4</td><td>18-19</td><td>+4</td></tr>
+			<tr><td>4-5</td><td>-3</td><td>20-21</td><td>+5</td></tr>
+			<tr><td>6-7</td><td>-2</td><td>22-23</td><td>+6</td></tr>
+			<tr><td>8-9</td><td>-1</td><td>24-25</td><td>+7</td></tr>
+			<tr><td>10-11</td><td>+0</td><td>26-27</td><td>+8</td></tr>
+			<tr><td>12-13</td><td>+1</td><td>28-29</td><td>+9</td></tr>
+			<tr><td>14-15</td><td>+2</td><td>30</td><td>+10</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="abilityscores">Using Ability Scores</h2>	
+		<h2>Strength</h2>
+        <table>
+            <tr><th id="strength">Strength</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+            <tr><td /><td align="left" colspan="2"><i>Strength determines your physical force and athleticism</i></td></tr>
+			<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td /><td align="left">Carrying Capacity</td><td align="left">Strength score times 15 in pounds²</td></tr>
+			<tr><td /><td align="left">Push, Drag, or Lift</td><td align="left">Up to 2 times carrying capacity²</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to strength related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Save</td><td align="left">Opposing a force that would physically move or bind you</td><td align="left">1d20 + STR mod + Proficiency (if proficient)</td></tr>
+			<tr><td align="left">Strength Check</td><td align="left">Any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation.</td><td align="left">1d20 + STR mod</td></tr>
+			<tr><td /><td align="left">Breaking Manacles</td><td align="left">DC 20 check</td></tr> 
+			<tr><td /><td align="left">Breaking Rope</td><td align="left">DC 17 check</td></tr>
+			<tr><td>Other possible uses</td><td align="left">Force open a stuck, locked, or barred door. Push through a tunnel that is too small. Hang on to a wagon while being dragged behind it. Tip over a statue. Keep a builder from rolling.</td><td /></tr>
+		</table>
+		² For each size category above medium, double the creatures carrying capacity and the amount it can pull, drag, or lift. For a tiny creature, half these weights.
+<br>	² While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet.
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th align="left">Skill</td><th align="center">Used For...</th><th align="left">Rule</th></tr>
+			<tr><td>Athletics</td><td colspan="2" align="left"><i>Handling difficult situations while climbing, jumping, or swimming</i></td></tr>
+			<tr><td /><td align="left">Grappling an enemy</td><td align="left">Athletics check opposed by target's athletics or acrobatics check</td></tr> 
+			<tr><td /><td align="left">Escaping from a grapple</td><td align="left">Athletics or acrobatics check opposed by target's athletics check</td></tr> 
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+<br>	<h2>Dexterity</h2>
+        <table>
+            <tr><th id="dexterity">Dexterity</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+            <tr><td /><td align="left" colspan="2"><i>Dexterity determines your agility, reflexes, and balance</i></td></tr>
+			<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to Dexterity related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td /><td align="left">Armor Class</td><td align="left">Certain types of armor add all or some of your DEX mod to your AC</td></tr>
+			<tr><td /><td align="left">Initiative</td><td align="left">1d20 + DEX mod</td></tr>
+			<tr><td align="left">Save</td><td align="left">Dodging out of harm's way</td><td align="left">1d20 + DEX mod + Proficiency (if proficient)</td></tr>
+			<tr><td align="left">Dexterity Check</td><td align="left">Any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing</td><td align="left">1d20 + DEX mod</td></tr>
+			<tr><td /><td align="left">Lock picking (with thieves tools)</td><td align="left">1d20 + DEX mod + Proficiency (if proficient)</td></tr>
+			<tr><td>Other possible uses</td><td align="left">Control a heavily laden cart on a steep descent. Steer a chariot around a tight turn. Disable a trap. Securely tie up a prisoner. Wriggle free of bonds. Craft a small or detailed object.</td><td /></tr>
+		</table>
+		² Certain types of medium and heavy armor add disadvantage to this roll.
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th align="left">Skill</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+			<tr><td>Acrobatics</td><td colspan="2" align="left"><i>Staying on your feet in tricky situations</i></td></tr>
+			<tr><td /><td align="left">Escaping from a grapple</td><td align="left">Acrobatics or athletics check opposed by target's athletics check</td></tr> 
+			<tr><td>Sleight of Hand</td><td colspan="2" align="left"><i>Pickpocketing or other manual trickery</i></td></tr>
+			<tr><td /><td align="left">Pickpocketing</td><td align="left">Sleight of hand check opposed by their passive perception</td></tr>
+			<tr><td id="stealth">Stealth</td><td colspan="2" align="left"><i>Concealing yourself and moving quietly</i></td></tr>
+			<tr><td /><td align="left">Hiding or sneaking</td><td align="left">Stealth check opposed by passive perception or perception check</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+<br>	<h2>Constitution</h2>
+        <table>
+            <tr><th id="constitution">Constitution</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+            <tr><td /><td align="left" colspan="2"><i>Determines your stamina, health, and vitality<i></td></tr>
+			<tr><td align="left">Score</td><td align="left">Determines constitution modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to constitution related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td /><td align="left">Holding your breath</td><td align="left">Survive for minutes equal to 1 + CON mod (minimum 30 seconds), then survives for rounds equal to CON mod. Next turn drops to 0 HP and is dying.</td></tr>
+			<tr><td /><td align="left">Going without food</td><td align="left">Can go without enough food for days equal to 3 + CON mod. Each day past limit gain 1 level of exhaustion.</td></tr>
+			<tr><td /><td align="left">Determining Hit Points</td><td align="left">CON mod added to HP at each level</td></tr>
+			<tr><td /><td align="left">Using Hit Dice</td><td align="left">CON mod added to each hit dice used during short rest</td></tr>
+			<tr><td align="left">Save</td><td align="left">Endures a disease, poison, or other hazard that saps vitality</td><td align="left">1d20 + CON mod + Proficiency (if proficient)</td></tr>
+			<tr id="concentration"><td /><td align="left">Concentration</td><td align="left">DC equal to greater of 10 or ½ of damage taken while concentrating on a spell</td></tr>
+			<tr><td /><td align="left">Going without enough water</td><td align="left">DC 15 or gain 1 level of exhaustion.</td></tr>
+			<tr><td align="left">Check</td><td align="left">Very rarely used, but can be used to push yourself beyond normal limits</td><td /></tr>
+			<tr><td>Other possible uses</td><td align="left">Quaff an entire stein of ale in one go.</td><td /></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2>Intelligence</h2>
+        <table>
+            <tr><th id="intelligence">Intelligence</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+            <tr><td /><td align="left" colspan="2"><i>Determines memory and reasoning skills</i></td></tr>
+			<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to intelligence related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Save</td><td align="left">Disbelieving certain illusions and resisting mental assaults that can be refuted with logic, sharp memory, or both</td><td align="left">1d20 + Ability mod + Proficiency (if proficient)</td></tr>
+			<tr><td align="left">Check</td><td align="left">Drawing on logic, education, memory, or deductive reasoning</td><td align="left">1d20 + INT mod</td></tr>
+			<tr><td>Other possible uses</td><td align="left">Communicate with a creature without words. Estimate the value of a precious item. Forge a document. Recall lore about a craft or trade. Win a game of skill.</td><td /></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th align="left">Skill</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+			<tr><td>Arcana</td><td colspan="2" align="left"><i>Recalling lore about spells, magic items, the planes, and other magical topics</i></td></tr>
+			<tr><td /><td align="left">Disarming a magical trap</td><td align="left">DC depends on trap</td></tr>
+			<tr><td>History</td><td colspan="2" align="left"><i>Recalling lore about historical events, legends, past disputes, and other topics</i></td></tr>
+			<tr><td>Investigation</td><td colspan="2" align="left"><i>Looking around for clues and making deductions based on those clues</i></td></tr>
+			<tr><td /><td align="left">Finding a buyer for magical items</td><td align="left">DC 20</td></tr>
+			<tr><td /><td align="left">Search for something</td><td align="left">DC set by DM.</td></tr>
+			<tr><td>>Nature</td><td colspan="2" align="left"><i>Recalling lore about terrain, plants, animals, the weather, and natural cycles</i></td></tr>
+			<tr><td /><td align="left">Harvesting poison</td><td align="left">DC 20 check which requires 1d6 mins.</td></tr>
+			<tr><td>Religion</td><td colspan="2" align="left"><i>Recalling lore about deities, prayers, religions, cults, and other religious topics</i></td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+<br>	<h2>Wisdom</h2>
+        <table>
+            <tr><th id="wisdom">Wisdom</th><th align="center">Used For...</th><th align="left" width="40%">Rule</th></tr>
+            <tr><td /><td align="left" colspan="2"><i>Determines your perceptiveness, intuition, and willpower</i></td></tr>
+			<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to wisdom related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Save</td><td align="left">Resisting effects that charm, frighten, or otherwise assault your willpower</td><td align="left">1d20 + WIS mod + Proficiency (if proficient)</td></tr>
+			<tr><td align="left">Check</td><td align="left">Reading body language, understanding someone's feelings, noticing things about the environment, or caring for an injured person</td><td align="left">1d20 + WIS mod</td></tr>
+			<tr><td>Other possible uses</td><td align="left">Get a gut feeling about what course of action to follow. Discern whether a seemingly dead or living creature is undead.</td><td /></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th align="left">Skill</td><th align="center">Used For...</th><th align="left">Rule</th></tr>
+			<tr><td>Animal Handling</td><td colspan="2" align="left"><i>Calming animals and gaining insight on their actions</i></td></tr>
+			<tr><td>Insight</td><td colspan="2" align="left"><i>Determining the true intentions of creatures</i></td></tr>
+			<tr><td align="left">Passive</td><td align="left">Represents your insightfullness when you aren't actively trying to detect a lie</td><td align="left">10 + WIS mod + Proficiency (if proficient)</td></tr>
+			<tr><td /><td align="left">Determine an NPC's truthfulness</td><td align="left">Insight check or Passive insight opposed by NPC's deception check</td></tr>
+			<tr><td>Medicine</td><td colspan="2" align="left"><i>Stabilizing the dying and diagnosing illnesses</i></td></tr>
+			<tr><td /><td align="left">Stabilize a dying character</td><td align="left">DC 10</td></tr>
+			<tr><td>Perception</td><td colspan="2" align="left"><i>Spotting, hearing, searching for, or otherwise detecting the presence of something</i></td></tr>
+			<tr><td align="left">Passive</td><td align="left">Represents your perception when you aren't actively searching for something</td><td align="left">10 + WIS mod + Proficiency (if proficient)</td></tr>
+			<tr><td /><td align="left">Find someone who is hiding</td><td align="left">Perception check or passive perception opposed by NPC's stealth check</td></tr>
+			<tr><td /><td align="left">Search for something</td><td align="left">DC set by DM.</td></tr>
+			<tr><td /><td align="left">Detect a trap</td><td align="left">Passive perception or perception against the trap's DC</td></tr>
+			<tr><td>Survival</td><td colspan="2" align="left"><i>Following tracks, hunting, guiding your group through the wilderness, identifying animal signs, predicting the whether, and avoiding natural hazards</i></td></tr>
+			<tr><td align="left"></td><td align="left">Foraging</td><td align="left">1d6+WIS mod lbs. of food &amp; gallons of water</tr>
+			<tr><td /><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abundant sources</td><td align="left">DC 10</td></tr>
+			<tr><td /><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Limited sources</td><td align="left">DC 15</td></tr>
+			<tr><td /><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Very few sources</td><td align="left">DC 20</td></tr>
+			<tr><td align="left"></td><td align="left">Tracking</td><td align="left">On a failed check, the character loses the trail but can attempt to find it again by making a careful search of the area. It takes 10 minutes to find a trail in a confined area such as a dungeon, or 1 hour outdoors.</tr>
+			<tr><td align="left"></td><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;On a soft surface like snow</td><td align="left">DC 10</tr>
+			<tr><td align="left"></td><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;On dirt or grass</td><td align="left">DC 15</tr>
+			<tr><td align="left"></td><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;On bare stone</td><td align="left">DC 20</tr>
+			<tr><td align="left"></td><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Each day since the creature passed</td><td align="left">+5</tr>
+			<tr><td align="left"></td><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Creature left a trail</td><td align="left">-5</tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+<br>	<h2>Charisma</h2>
+        <table>
+            <tr><th id="charisma">Charisma</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+            <tr><td /><td align="left" colspan="2"><i>Determines your social influence and confidence</i></td></tr>
+			<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to charisma related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Save</td><td align="left">Withstanding effects, such as possession, that would subsume your personality or hurl you to another plane of existence</td><td align="left">1d20 + WIS mod + Proficiency (if proficient)</td></tr>
+			<tr><td align="left">Check</td><td align="left">Trying to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation</td><td align="left">1d20 + Ability mod</td></tr>
+			<tr><td>Other possible uses</td><td align="left">Find the best person to talk to for news and gossip. Blend into a crowd to get the sense of key topics of conversation.</td><td /></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th align="left">Skill</td><th align="center">Used For...</th><th align="left">Rule</th></tr>
+			<tr><td>Deception</td><td colspan="2" align="left"><i>Deceiving others either verbally or through your actions</i></td></tr>
+			<tr><td /><td align="left">Deceiving an NPC</td><td align="left">Check opposed by the NPC's insight check</td></tr>
+			<tr><td /><td align="left">Sowing rumors</td><td align="left">DC 15 deception or persuasion check</td></tr>
+			<tr><td>Intimidation</td><td colspan="2" align="left"><i>Influencing someone with threats, hostile actions, and physical violence</i></td></tr>
+			<tr><td>Performance</td><td colspan="2" align="left"><i>Delighting others with music, storytelling, or other entertainment</i></td></tr>
+			<tr><td>Persuasion</td><td colspan="2" align="left"><i>Influencing someone with tact, social grace, or good nature</i></td></tr>
+			<tr><td /><td align="left">Sowing rumors</td><td align="left">DC 15 persuasion or deception check</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="DCChart">Setting Difficulty Class</h2>
+		<table>
+			<tr><th>Task Difficulty</th><th>DC</th><th>Task Difficulty</th>  <th>DC</th></tr>
+			<tr><td>Very easy</td>      <td>5</td> <td>Hard</td>             <td>20</td></tr>
+			<tr><td>Easy</td>           <td>10</td><td>Very hard</td>        <td>25</td></tr>
+			<tr><td>Moderate</td>       <td>15</td><td>Nearly impossible</td><td>30</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br /> 
+        <h1 id="adventuring">Adventuring</h1>
+        <h2 id="maptravelpace">Map Travel Pace</h2>
+        <table>
+            <tr><th align="left">Map Scale</th><th align="left" width="100px">Slow Pace</th><th align="left" width="100px">Normal Pace</th><th align="left "width="100px">Fast Pace</th></tr>
+            <tr><td align="left">Dungeon (1 square  =  10 feet)</td><td align="left">20 squares/minute</td><td align="left">30 squares/minute</td><td align="left">40 squares/minute</td></tr>
+            <tr><td align="left">City (1 square  =  100 feet)</td><td align="left">2 squares/minute</td><td align="left">3 squares/minute</td><td align="left">4 squares/minute</td></tr>
+            <tr><td align="left">Province (1 hex = 1 miles)</td><td align="left">2 hexes/hour<br>18 hexes/day</td><td align="left">3 hexes/hour<br>24 hexes/day</td><td align="left">4 hexes/hour<br>30 hexes/day</td></tr>
+            <tr><td align="left">Kingdom (1 hex = 6 miles)</td><td align="left">1 hex/3 hours<br>3 hexes/day</td><td align="left">1 hex/2 hours<br>4 hexes/day</td><td align="left">1 hex/l½ hour<br>5 hexes/day</td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="travelpace">Travel Pace</h2>
+		<table>
+			<tr><th /><th colspan="4" align="left">Distance Traveled Per ...</th></tr>
+			<tr><th align="left">Pace</th><th align="left">Minute</th><th align="left">Hour</th><th align="left">Day</th><th align="left">Effect</th><tr>
+			<tr><td align="left">Fast</td><td align="left">400 feet</td><td align="left">4 miles</td><td align="left">30 miles</td><td align="left">-5 to passive perception score</td></tr>
+			<tr><td align="left">Normal</td><td align="left">300 feet</td><td align="left">3 miles</td><td align="left">24 miles</td><td align="left">--</td></tr>
+			<tr><td align="left">Slow</td><td align="left">200 feet</td><td align="left">2 miles</td><td align="left">18 miles</td><td align="left">Able to use stealth</td></tr>
+		</table>
+<!--Travel Pace Calculations Chart
+			<table>
+			<tr><th /><th colspan="4" align="left">Distance Traveled Per ...</th></tr>
+			<tr><th align="left">Pace</th><th align="left">Minute (Speed x 10)</th><th align="left">Hour (Minute / 10)</th><th align="left">Day (Hour x 8)</th><th align="left">Effect</th><tr>
+			<tr><td>Fast (Speed x 1.33)</td><td>400 feet</td><td>4 miles</td><td>30 miles</td><td>-5 to passive perception score</td></tr>
+			<tr><td>Normal (Speed x 1)</td><td>300 feet</td><td>3 miles</td><td>24 miles</td><td>--</td></tr>
+			<tr><td>Slow (Speed x 0.66)</td><td>200 feet</td><td>2 miles</td><td>18 miles</td><td>Able to use stealth</td></tr>
+		</table>
+-->
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="encounterdistance">Encounter Distance</h2>
+		<table>
+			<tr><th align="left">Terrain</th><th align="left">Encounter Distance</th></tr>
+			<tr><td align="left">Arctic, desert, farmland, or grassland</td><td align="left">6d6 x 10 feet</td></tr>
+			<tr><td align="left">Forest, swamp, or woodland</td><td align="left">2d8 x 10 feet</td>
+			<tr><td align="left">Hills or wastelands</td><td align="left">2d10 x 10 feet</td></tr>
+			<tr><td align="left">Jungle</td><td align="left">2d6 x 10 feet</td></tr>
+			<tr><td align="left">Mountains</td><td align="left">4d10 x 10 feet</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th colspan="2" align="left">Audible Distance</th></tr>
+			<tr><td align="left">Trying to be quiet</td><td align="left">2d6 x 5 feet</td></tr>
+			<tr><td align="left">Normal noise level</td><td align="left">2d6 x 10 feet</td></tr>
+			<tr><td align="left">Very loud</td><td align="left">2d6 x 50 feet</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<table>
+			<tr><th colspan="2" align="left">Visibility Outdoors</th></tr>
+			<tr><td align="left">Clear day, no obstructions</td><td align="left">2 miles</td></tr>
+			<tr><td align="left">Rain</td><td align="left">1 mile</td></tr>
+			<tr><td align="left">Fog</td><td align="left">100 to 300 feet</td></tr>
+			<tr><td align="left">From a height</td><td align="left">x 29</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="light">Light</h2>
+		<table>
+			<tr><th align="left">Source</th><th align="left">Bright Light</th><th align="left">Dim Light</th><th align="left">1 hour</th></tr>
+			<tr><td align="left">Candle</td><td align="left">5 feet</td><td align="left">+ 5 feet</td><td align="left">6 hours</td></tr>
+			<tr><td align="left">Lamp</td><td align="left">15 feet</td><td align="left">+ 30 feet</td><td align="left">6 hours</td></tr>
+			<tr><td align="left">Lantern, bullseye</td><td align="left">60 foot cone</td><td align="left">+ 60 feet</td><td align="left">6 hours</td></tr>
+			<tr><td align="left">Lantern, hooded<br>&nbsp;&nbsp;&nbsp;&nbsp;Lowered Hood</td><td align="left">30 foot<br>-</td><td align="left">+ 30 feet<br>+ 5 feet</td><td align="left">6 hours<br>-</td></tr>
+			<tr><td align="left">Torch</td><td align="left">20 feet</td><td align="left">+ 20 feet</td><td align="left">1 hour</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="traps">Trap Save DCs and Attack Bonuses</h2>
+        <table>
+            <tr><th>Trap Danger</th><th>Save DC</th><th>Attack Bonus</th></tr>
+            <tr><td>Setback</td><td>10-11</td><td>+3 to +5<td></tr>
+            <tr><td>Dangerous</td><td>12-15</td><td>+6 to +8<td></tr>
+            <tr><td>Deadly</td><td>16-20</td><td>+9 to +12<td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="damageseverity">Damage Severity and Level</h2>
+        <table>
+            <tr><th align="center">Character Level</th><th>Setback</th><th>Dangerous</th><th>Deadly</tr>
+            <tr><td align="center">1st-4th</td><td>1d10</td><td>2d10</td><td>4d10<td></tr>
+            <tr><td align="center">5th-10th</td><td>2d10</td><td>4d10</td><td>10d10<td></tr>
+            <tr><td align="center">11th-16th</td><td>4dl0</td><td>10d10</td><td>18d10<td></tr>
+            <tr><td align="center">17th-20th</td><td>10d10</td><td>18d10</td><td>24d10<td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="improvizingdamage">Improvizing damage</h2>
+		<table>
+			<tr><th>Damage</th><th>Example</th></tr>
+			<tr><td>1d10</td><td>Burned by coals, hit by a falling bookcase, pricked by a poison needle</td></tr>
+			<tr><td>2d10</td><td>Being struck by lightning, stumbling into a fire pit</td></tr>
+			<tr><td>4d10</td><td>Hit by falling rubble in a collapsing tunnel, stumbling into a vat of acid</td></tr>
+			<tr><td>10d10</td><td>Crushed by compacting walls, hit by whirling steel blades, wading through a lava stream</td></tr>
+			<tr><td>18d10</td><td>Being submerged in lava, being hit by a crashing flying fortress</td></tr>
+			<tr><td>24d10</td><td>Tumbling into a vortex of fire on the Elemental Plane of Fire, being crushed in the jaws of a godlike creature or a moon-sized monster </td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+        <h1 id="equipment">Items and Expenses</h1>
+        <h2 id="armor">Armor</h2>
+        <table>
+            <tr><th>Armor</th><th align="right" width="20%">Cost</th><th width="20%">AC</th><th align="right" width="20%">Weight</th></tr>
+            <tr><td colspan="4"><i>Light Armor</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Padded²</td><td align="right">5 gp</td><td>11</td><td align="right">8 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Leather</td><td align="right">10 gp</td><td>11</td><td align="right">10 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Studded leather</td><td align="right">45 gp</td><td>12</td><td align="right">13 lb.</td></tr>
+            <tr><td colspan="4"><i>Medium Armor</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Hide</td><td align="right">10 gp</td><td>12</td><td align="right">12 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Chain shirt</td><td align="right">50 gp</td><td>13</td><td align="right">20 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scale mail²</td><td align="right">50 gp</td><td>14</td><td align="right">45 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Breastplate</td><td align="right">400 gp</td><td>14</td><td align="right">20 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Half plate²</td><td align="right">750 gp</td><td>15</td><td align="right">40 lb.</td></tr>
+            <tr><td colspan="4"><i>Heavy Armor</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Ring mail²</td><td align="right">30 gp</td><td>14</td><td align="right">40 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Chain mail²</td><td align="right">75 gp</td><td>16</td><td align="right">55 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Splint²</td><td align="right">200 gp</td><td>17</td><td align="right">60 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Plate²</td><td align="right">1,500 gp</td><td>18</td><td align="right">65 lb.</td></tr>
+            <tr><td colspan="4"><i>Shield</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Shield</td><td align="right">10 gp</td><td>+2</td><td align="right">6 lb.</td></tr>
+        </table>
+        ² Disadvantage on Dexterity (Stealth) checks
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="weapons">Weapons</h2>
+        <table>
+            <tr><td>Name</td><td align="right" width="20%">Cost</td><td align="left" width="20%">Damage</td><td align="right" width="20%">Weight</td></tr>
+            <tr><td colspan="4"><i>Simple Melee Weapons</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Club</td><td align="right">1 sp</td><td align="left">1d4 B</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dagger</td><td align="right">2 gp</td><td align="left">1d4 P</td><td align="right">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Greatclub</td><td align="right">2 sp</td><td align="left">1d8 B</td><td align="right">10 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Handaxe</td><td align="right">5 gp</td><td align="left">1d6 S</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Javelin</td><td align="right">5 sp</td><td align="left">1d6 P</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Light hammer</td><td align="right">2 gp</td><td align="left">1d4 B</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Mace</td><td align="right">5 gp</td><td align="left">1d6 B</td><td align="right">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Quarterstaff</td><td align="right">2 sp</td><td align="left">1d6 B</td><td align="right">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Sickle</td><td align="right">1 gp</td><td align="left">1d4 S</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Spear</td><td align="right">1 gp</td><td align="left">1d6 P</td><td align="right">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Unarmed strike</td><td align="right">—</td><td align="left">1 B</td><td align="right">—</td></tr>
+            <tr><td colspan="4"><i>Simple Ranged Weapons</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Crossbow, light</td><td align="right">25 gp</td><td align="left">1d8 P</td><td align="right">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dart</td><td align="right">5 cp</td><td align="left">1d4 P</td><td align="right">1/4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Shortbow</td><td align="right">25 gp</td><td align="left">1d6 P</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Sling</td><td align="right">1 sp</td><td align="left">1d4 B</td><td align="right">—</td></tr>
+            <tr><td colspan="4"><i>Martial Melee Weapons</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Battleaxe</td><td align="right">10 gp</td><td align="left">1d8 S</td><td align="right">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Flail</td><td align="right">10 gp</td><td align="left">1d8 B</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Glaive</td><td align="right">20 gp</td><td align="left">1d10 S</td><td align="right">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Greataxe</td><td align="right">30 gp</td><td align="left">1d12 S</td><td align="right">7 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Greatsword</td><td align="right">50 gp</td><td align="left">2d6 S</td><td align="right">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Halberd</td><td align="right">20 gp</td><td align="left">1d10 S</td><td align="right">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lance</td><td align="right">10 gp</td><td align="left">1d12 P</td><td align="right">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Longsword</td><td align="right">15 gp</td><td align="left">1d8 S</td><td align="right">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Maul</td><td align="right">10 gp</td><td align="left">2d6 B</td><td align="right">10 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Morningstar</td><td align="right">15 gp</td><td align="left">1d8 P</td><td align="right">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Pike</td><td align="right">5 gp</td><td align="left">1d10 P</td><td align="right">18 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Rapier</td><td align="right">25 gp</td><td align="left">1d8 P</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scimitar</td><td align="right">25 gp</td><td align="left">1d6 S</td><td align="right">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Shortsword</td><td align="right">10 gp</td><td align="left">1d6 P</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Trident</td><td align="right">5 gp</td><td align="left">1d6 P</td><td align="right">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;War pick</td><td align="right">5 gp</td><td align="left">1d8 P</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Warhammer</td><td align="right">15 gp</td><td align="left">1d8 B</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Whip</td><td align="right">2 gp</td><td align="left">1d4 S</td><td align="right">3 lb.</td></tr>
+            <tr><td colspan="4"><i>Martial Ranged Weapons</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Blowgun</td><td align="right">10 gp</td><td align="left">1 P</td><td align="right">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Crossbow, hand</td><td align="right">75 gp</td><td align="left">1d6 P</td><td align="right">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Crossbow, heavy</td><td align="right">50 gp</td><td align="left">1d10 P</td><td align="right">18 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Longbow</td><td align="right">50 gp</td><td align="left">1d8 P</td><td align="right">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Net</td><td align="right">1 gp</td><td align="left">—</td><td align="right">3 lb.</td></tr>
+       </table>
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="adventuringgear">Adventuring Gear</h2>
+        <table>
+            <tr><th>Item</th><th alight="right" width="20%">Cost</th><th alight="right" width="20%">Weight</th></tr>
+            <tr><td>Abacus</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Acid (vial)</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Alchemist’s fire (flask)</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td colspan="3"><i>Ammunition</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Arrows (20)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Blowgun needles (50)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Crossbow bolts (20)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1½ lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Sling bullets (20)</td><td alight="right" width="20%">4 cp</td><td alight="right" width="20%">1½ lb.</td></tr>
+            <tr><td>Antitoxin (vial)</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td colspan="3"><i>Arcane focus</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Crystal</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Orb</td><td alight="right" width="20%">20 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Rod</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Staff</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Wand</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Backpack</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Ball bearings (bag of 1,000)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Barrel</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">70 lb.</td></tr>
+            <tr><td>Basket</td><td alight="right" width="20%">4 sp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Bedroll</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">7 lb.</td></tr>
+            <tr><td>Bell</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Blanket</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>Block and tackle</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Book</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Bottle, glass</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Bucket</td><td alight="right" width="20%">5 cp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Caltrops (bag of 20)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Candle</td><td alight="right" width="20%">1 cp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Case, crossbow bolt</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Case, map or scroll</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Chain (10 feet)</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>Chalk (1 piece)</td><td alight="right" width="20%">1 cp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Chest</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">25 lb.</td></tr>
+            <tr><td>Climber’s kit</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">12 lb.</td></tr>
+            <tr><td>Clothes, common</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>Clothes, costume</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>Clothes, fine</td><td alight="right" width="20%">15 gp</td><td alight="right" width="20%">6 lb.</td></tr>
+            <tr><td>Clothes, traveler’s</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>Component pouch</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Crowbar</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td colspan="3"><i>Druidic focus</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Sprig of mistletoe</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Totem</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Wooden staff</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Yew wand</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Fishing tackle</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>Flask or tankard</td><td alight="right" width="20%">2 cp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Grappling hook</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>Hammer</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>Hammer, sledge</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>Healer’s kit</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td colspan="3"><i>Holy symbol</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Amulet</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Emblem</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Reliquary</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Holy water (flask)</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Hourglass</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Hunting trap</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">25 lb.</td></tr>
+            <tr><td>Ink (1 ounce bottle)</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Ink pen</td><td alight="right" width="20%">2 cp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Jug or pitcher</td><td alight="right" width="20%">2 cp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>Ladder (10-foot)</td><td alight="right" width="20%">1 sp</td><td alight="right" width="20%">25 lb.</td></tr>
+            <tr><td>Lamp</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Lantern, bullseye</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Lantern, hooded</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Lock</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Magnifying glass</td><td alight="right" width="20%">100 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Manacles</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">6 lb.</td></tr>
+            <tr><td>Mess kit</td><td alight="right" width="20%">2 sp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Mirror, steel</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">1/2 lb.</td></tr>
+            <tr><td>Oil (flask)</td><td alight="right" width="20%">1 sp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Paper (one sheet)</td><td alight="right" width="20%">2 sp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Parchment (one sheet)</td><td alight="right" width="20%">1 sp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Perfume (vial)</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Pick, miner’s</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>Piton</td><td alight="right" width="20%">5 cp</td><td alight="right" width="20%">1/4 lb.</td></tr>
+            <tr><td>Poison, basic (vial)</td><td alight="right" width="20%">100 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Pole (10-foot)</td><td alight="right" width="20%">5 cp</td><td alight="right" width="20%">7 lb.</td></tr>
+            <tr><td>Pot, iron</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>Potion of healing</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">1/2 lb.</td></tr>
+            <tr><td>Pouch</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Quiver</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Ram, portable</td><td alight="right" width="20%">4 gp</td><td alight="right" width="20%">35 lb.</td></tr>
+            <tr><td>Rations (1 day)</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Robes</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">4 lb.</td></tr>
+            <tr><td>Rope, hempen (50 feet)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>Rope, silk (50 feet)</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Sack</td><td alight="right" width="20%">1 cp</td><td alight="right" width="20%">1/2 lb.</td></tr>
+            <tr><td>Scale, merchant’s</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>Sealing wax</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Shovel</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Signal whistle</td><td alight="right" width="20%">5 cp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Signet ring</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Soap</td><td alight="right" width="20%">2 cp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Spellbook</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>Spikes, iron (10)</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Spyglass</td><td alight="right" width="20%">1,000 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Tent, two-person</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">20 lb.</td></tr>
+            <tr><td>Tinderbox</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Torch</td><td alight="right" width="20%">1 cp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Vial</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Waterskin</td><td alight="right" width="20%">2 sp</td><td alight="right" width="20%">5 lb. (full)</td></tr>
+            <tr><td>Whetstone</td><td alight="right" width="20%">1 cp</td><td alight="right" width="20%">1 lb.</td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="tools">Tools</h2>
+        <table>
+            <tr><th>Item</th><th align="right" width="20%">Cost</th><th alight="right" width="20%">Weight</th></tr>
+            <tr><td colspan="3"><i>Artisan’s tools</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Alchemist’s supplies</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">8 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Brewer’s supplies</td><td alight="right" width="20%">20 gp</td><td alight="right" width="20%">9 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Calligrapher's supplies</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Carpenter’s tools</td><td alight="right" width="20%">8 gp</td><td alight="right" width="20%">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Cartographer’s tools</td><td alight="right" width="20%">15 gp.</td><td alight="right" width="20%">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Cobbler’s tools</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Cook’s utensils</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">8 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Glassblower’s tools</td><td alight="right" width="20%">30 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Jeweler’s tools</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Leatherworker’s tools</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Mason’s tools</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">8 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Painter’s supplies</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Potter’s tools</td><td alight="right" width="20%">10 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Smith’s tools</td><td alight="right" width="20%">20 gp</td><td alight="right" width="20%">8 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Tinker’s tools</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Weaver’s tools</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Woodcarver’s tools</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td>Disguise kit</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>Forgery kit</td><td alight="right" width="20%">15 gp</td><td alight="right" width="20%">5 lb.</td></tr>
+            <tr><td colspan="3"><i>Gaming set</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dice set</td><td alight="right" width="20%">1 sp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dragonchess set</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">1/2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Playing card set</td><td alight="right" width="20%">5 sp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Three-Dragon Ante set</td><td alight="right" width="20%">1 gp</td><td alight="right" width="20%">—</td></tr>
+            <tr><td>Herbalism kit</td><td alight="right" width="20%">5 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td colspan="3"><i>Musical instrument</i></td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Bagpipes</td><td alight="right" width="20%">30 gp</td><td alight="right" width="20%">6 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Drum</td><td alight="right" width="20%">6 gp</td><td alight="right" width="20%">3 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dulcimer</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">10 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Flute</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lute</td><td alight="right" width="20%">35 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lyre</td><td alight="right" width="20%">30 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Horn</td><td alight="right" width="20%">3 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Pan flute</td><td alight="right" width="20%">12 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Shawm</td><td alight="right" width="20%">2 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Viol</td><td alight="right" width="20%">30 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+            <tr><td>Navigator’s tools</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Poisoner’s kit</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">2 lb.</td></tr>
+            <tr><td>Thieves’ tools</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">1 lb.</td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+		<h2 id="lifestyle">Lifestyle Expenses</h2>
+		<table>
+			<tr><th align="left">Lifestyle</th><th align="left">Price/Day</th></tr>
+			<tr><td align="left">Wretched</td><td align="left">-</td></tr>
+			<tr><td align="left">Squalid</td><td align="left">1 sp</td></tr>
+			<tr><td align="left">Poor</td><td align="left">2 sp</td></tr>
+			<tr><td align="left">Modest</td><td align="left">1 gp</td></tr>
+			<tr><td align="left">Comfortable</td><td align="left">2 gp</td></tr>
+			<tr><td align="left">Wealthy</td><td align="left">4 gp</td></tr>
+			<tr><td align="left">Aristocratic</td><td align="left">10 gp minimum</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+        <h2 id="lodging">Food, Drink, and Lodging</h2>
+		<table>
+			<tr><th align="left">Item</th><th align="left">Cost</th></tr>
+			<tr><td align="left"><i>Ale</i></td><td align="left"></td></tr> 
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Gallon</td><td align="left">2 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Mug</td><td align="left">4 sp</td></tr>
+			<tr><td align="left">Banquet (per person)</td><td align="left">10 gp</td></tr>
+			<tr><td align="left">Bread, loaf</td><td align="left">2 cp</td></tr>
+			<tr><td align="left">Cheese, hunk</td><td align="left">1 sp</td></tr>
+			<tr><td align="left"><i>Inn stay (per day)</i></td><td align="left"></td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Squalid</td><td align="left">7 cp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Poor</td><td align="left">1 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Modest</td><td align="left">5 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Comfortable</td><td align="left">8 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Wealthy</td><td align="left">2 gp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Aristocratic</td><td align="left">4 gp</td></tr>
+			<tr><td align="left"><i>Meals (per day)</i></td><td align="left"></td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Squalid</td><td align="left">3 cp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Poor</td><td align="left">6 cp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Modest</td><td align="left">3 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Comfortable</td><td align="left">5 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Wealthy</td><td align="left">8 sp</td></tr>
+			<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Aristocratic</td><td align="left">2 gp</td></tr>
+			<tr><td align="left">Meat, chunk</td><td align="left">3 sp</td></tr>
+			<tr><td align="left"><i>Wine</i></td><td align="left"></td></tr>
+			<tr><td align="left">Common (pitcher)</td><td align="left">2 sp</td></tr>
+			<tr><td align="left">Fine (bottle)</td><td align="left">10 gp</td></tr>
+		</table>
+<br><a href="#toc">&#9650;</a><br />
+        <h1 id="character">Character Building</h1>
+        <h2 id="characteradvancement">Character Advancement</h2>
+        <table>
+            <tr><th width="40%">Experience Points</th><th width="30%">Level</th><th width="30%">Proficiency Bonus</th></tr>
+            <tr><td>0</td><td>1</td><td>+2</td></tr>
+            <tr><td>300</td><td>2</td><td>+2</td></tr>
+            <tr><td>900</td><td>3</td><td>+2</td></tr>
+            <tr><td>2,700</td><td>4</td><td>+2</td></tr>
+            <tr><td>6,500</td><td>5</td><td>+3</td></tr>
+            <tr><td>14,000</td><td>6</td><td>+3</td></tr>
+            <tr><td>23,000</td><td>7</td><td>+3</td></tr>
+            <tr><td>34,000</td><td>8</td><td>+3</td></tr>
+            <tr><td>48,000</td><td>9</td><td>+4</td></tr>
+            <tr><td>64,000</td><td>10</td><td>+4</td></tr>
+            <tr><td>85,000</td><td>11</td><td>+4</td></tr>
+            <tr><td>100,000</td><td>12</td><td>+4</td></tr>
+            <tr><td>120,000</td><td>13</td><td>+5</td></tr>
+            <tr><td>140,000</td><td>14</td><td>+5</td></tr>
+            <tr><td>165,000</td><td>15</td><td>+5</td></tr>
+            <tr><td>195,000</td><td>16</td><td>+5</td></tr>
+            <tr><td>225,000</td><td>17</td><td>+6</td></tr>
+            <tr><td>265,000</td><td>18</td><td>+6</td></tr>
+            <tr><td>305,000</td><td>19</td><td>+6</td></tr>
+            <tr><td>355,000</td><td>20</td><td>+6</td></tr>
+        </table>
+<br><a href="#toc">&#9650;</a><br />
+	</body>
+</html>
