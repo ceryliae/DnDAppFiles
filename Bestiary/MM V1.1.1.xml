@@ -185,6 +185,20 @@ Cantrips (at will): light, sacred flame, thaumaturgy
         <action><name>Multiattack</name><text>The armor makes two melee attacks.</text></action>
         <action><name>Slam</name><attack>|4|1d6+2</attack><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</text></action>
     </monster>
+
+    <monster>
+        <name>Ankheg</name>
+        <size>L</size><type>monstrosity</type><alignment>unaligned</alignment>
+        <ac>14 (natural armor)</ac>
+        <hp>39 (6d10+6)</hp>
+        <speed>30 ft., burrow 10ft.</speed>
+        <str>17</str><dex>11</dex><con>13</con><int>1</int><wis>13</wis><cha>6</cha>
+        <senses>darkvision 60 ft., tremorsense 60ft.</senses>
+        <passive>11</passive>
+        <cr>2</cr>
+        <action><name>Bite</name><attack>|5|(2d6+3)+(1d6)</attack><text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.</text></action>
+        <action><name>Acid Spray (Recharge 6)</name><attack>||3d6</attack><text>The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.</text></action>
+    </monster>
     
     <monster>
         <name>Ankylosaurus</name>
@@ -669,6 +683,104 @@ Cantrips (at will): light, sacred flame, thaumaturgy
         <action><name>Multiattack</name><text>The dog makes two bite attacks.</text></action>
         <action><name>Bite</name><attack>|4|1d6+2</attack><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.</text></action>
     </monster>
+
+<monster>
+    <name>Death Tyrant</name>
+    <size>L</size>
+    <type>undead</type>
+    <alignment>lawful evil</alignment>
+    <ac>19 (natural armor)</ac>
+    <hp>187 (25d10+50)</hp>
+    <speed>0 ft., 20ft. (hover)</speed>
+    <str>10</str>
+    <dex>14</dex>
+    <con>14</con>
+    <int>19</int>
+    <wis>15</wis>
+    <cha>9</cha>
+    <save>Str +5, Con +7, Int +9, Wis +7, Cha +9</save>
+    <skill>Perception +12</skill>
+    <immune>poison</immune>
+    <conditionImmune>charmed, exhaustion, paralyzed, petrified, poisoned, prone</conditionImmune>
+    <senses>darkvision 120 ft.</senses>
+    <passive>22</passive>
+    <cr>14</cr>
+    <trait>
+        <name>Negative Energy Cone</name>
+        <text> The death tyrant's central eye emits an invisi ble, magical 150-foot cone of negative energy. At the start of each of its turns, the tyrant decides which way the cone faces and whether the cone is active. Any creature in that area can't regain hit points. Any humanoid that dies there becomes a zombie under the tyrant's command. The dead humanoid retains its place in the initiative order and animates at the start of its next turn, provided that its body hasn't been completely destroyed.</text>
+    </trait>
+    <action>
+        <name>Bite</name>
+        <attack>Bite|5|4d6</attack>
+        <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14 (4d6) piercing damage.</text>
+    </action>
+    <action>
+        <name>Eye Rays</name>
+        <attack></attack>
+        <text>The death tyrant shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:</text>
+    </action>
+    <action>
+        <name>1. Charm Ray</name>
+        <attack></attack>
+        <text>The targeted creature must succeed on a DC 17 Wisdom saving throw or be charmed by the tyrant for 1 hour, or until the beholder harms the creature.</text>
+    </action>
+    <action>
+        <name>2. Paralyzing Ray</name>
+        <attack></attack>
+        <text>The targeted creature must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+    </action>
+    <action>
+        <name>3. Fear Ray</name>
+        <attack></attack>
+        <text>The targeted creature must succeed on a DC 17 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+    </action>
+    <action>
+        <name>4. Slowing Ray</name>
+        <attack></attack>
+        <text>The targeted creature must succeed on a DC 17 Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+    </action>
+    <action>
+        <name>5. Enervation Ray</name>
+        <attack>Enervation Ray|0|8d8</attack>
+        <text>The targeted creature must make a DC 17 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+    </action>
+    <action>
+        <name>6. Telekinetic Ray</name>
+        <attack></attack>
+        <text>If the target is a creature, it must succeed on a DC 17 Strength saving throw or the tyrant moves it up to 30 feet in any direction. The target is restrained by the ray's telekinetic grip until the start of the tyrant's next turn or until the tyrant is incapacitated.
+        If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The tyrant can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.</text>
+    </action>
+    <action>
+        <name>7. Sleep Ray</name>
+        <attack></attack>
+        <text>The targeted creature must succeed on a DC 17 Wisdom saving throw or fall asleep and remain unconscious for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. Th is ray has no effect on constructs and undead.</text>
+    </action>
+    <action>
+        <name>8. Petrification Ray</name>
+        <attack></attack>
+        <text>The targeted creature must make a DC 17 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified un til freed by the greater restoration spell or other magic.</text>
+    </action>
+    <action>
+        <name>9. Disintegration Ray</name>
+        <attack>Disintegration Ray|0|10d8</attack>
+        <text>If the target is a creature, it must succeed on a DC 17 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.
+         If the target is a Large or smaller non magical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.</text>
+    </action>
+    <action>
+        <name>10. Death Ray</name>
+        <attack>Death Ray|0|10d10</attack>
+        <text>The targeted creature must succeed on a DC 17 Dexterity saving throw or take 55 (10d10) necrotic damage. The target dies if the ray reduces it to 0 hit points.</text>
+    </action>
+    <legendary>
+        <text>The death tyrant can take 3 legendary actions, using the Eye Ray option below. It can take only one legendary action at a time and only at the end of another creature's turn. The tyrant regains spent legendary actions at the start of its turn.
+        </text>
+    </legendary>
+    <legendary>
+        <name>Eye Rays</name>
+        <text>The death tyrant uses one random eye ray.</text>
+    </legendary>
+</monster>
+
     
     <monster>
         <name>Deer</name>
