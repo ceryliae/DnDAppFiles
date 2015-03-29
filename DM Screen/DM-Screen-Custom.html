@@ -25,7 +25,7 @@
 		}
 
 		.collapsibleList label {
-		 cursor: pointer;
+		    /* Use this section for some of the formatting */
 		}
 		ol {
 		    counter-reset: li; /* Initiate a counter */
@@ -37,7 +37,7 @@
 		ol ol {
 			margin: 0 0 0 2em;
 		}
-		.collapsibleList a {
+		.collapsibleList a, label {
 		    position: relative;
 		    display: block;
 		    padding: .4em .4em .4em 2em;
@@ -57,7 +57,7 @@
 		    transform: rotate(360deg);  
 		}
 
-		.collapsibleList a:before{
+		.collapsibleList a:before {
 		    content: counter(li);
 		    counter-increment: li;
 		    position: absolute; 
@@ -87,7 +87,7 @@
 				<label for="Ability-Checks">Ability Checks</label>
 				<input type="checkbox" id="Ability-Checks" />
 				<ol type="A">
-					<li class="file"><a href="#abilitychecks">Ability Checks</a></li>
+					<!-- <li class="file"><a href="#abilitychecks">Ability Checks</a></li> -->
 					<li class="file"><a href="#skills">Skill Checks</a></li>
 					<li class="file"><a href="#difficultyclasses">Difficulty Classes</a></li>
 				</ol>
@@ -183,15 +183,15 @@
 							<li class="file"><a href="#unconscious">Unconscious</a></li>
 						</ol>
 					</li>
-					<li class="file"><a href="#damagetypes">Damage Types</a></li>
 					<li class="file"><a href="#exhaustion">Exhaustion</a></li>
+					<li class="file"><a href="#damagetypes">Damage Types</a></li>
+					<li class="file"><a href="#damageseverity">Damage Severity</a></li>
 					<li class="file"><a href="#cover">Cover</a></li>
 					<li class="file"><a href="#combatactions">Actions In Combat</a></li>
 					<li class="file"><a href="#stealthrules">The Rules of Stealth</a></li>
 					<li class="file"><a href="#grappling">Grappling, Shoving, and Climbing onto Bigger Creatures</a></li>
 					<li class="file"><a href="#readying">Readying an Action</a></li>
 					<li class="file"><a href="#death">Dropping to 0 Hit Points</a></li>
-					<li class="file"><a href="#damageseverity">Damage Severity</a></li>
 				</ol>
 			</li>
 			<li>
@@ -202,15 +202,19 @@
 					<li class="file"><a href="#characterlevel">PC Leveling Requirements</a></li>
 					<li class="file"><a href="#services">Adventuring Services</a></li>
 					<li class="file"><a href="#lifestyle">Lifestyle Expenses</a></li>
+					<li class="file"><a href="#lodging">Food, Drink, and Lodging</a></li>
 					<li class="file"><a href="#maptravelpace">Map Travel Pace</a></li>
+					<li class="file"><a href="#speed">Party Speed</a></li>
 					<li class="file"><a href="#encounterdistance">Encounter Distance</a></li>
-					<li class="file"><a href="#light">Light</a></li>
+					<li class="file"><a href="#vision">Vision and Light</a></li>
+					<li class="file"><a href="#light">Light Sources</a></li>
 					<li class="file"><a href="#traps">Trap Save DCs and Attack Bonuses</a></li>
 					<li class="file"><a href="#damageseverity">Damage Severity and Level</a></li>
 					<li class="file"><a href="#aoetargets">Targets in Areas of Effect</a></li>
 					<li class="file"><a href="#improvizingdamage">Improvising Damage</a></li>
+					<li class="file"><a href="#objectac">Object AC</a></li>
+					<li class="file"><a href="#objecthp">Object HP</a></li>
 					<li class="file"><a href="#resting">Resting</a></li>
-					<li class="file"><a href="#lodging">Food, Drink, and Lodging</a></li>
 				</ol>
 			</li>
 			<li>
@@ -253,402 +257,6 @@
 			</li>
 		</ol>
 			
-<!--		<h1 id="toc">
-			Table of Contents
-		</h1>
-		<table class="noborder">
-			<tr>
-				<td class="noborder" align="left">
-					<a href="#abilitychecks">Ability Checks</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#skills">Skill Checks</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#difficultyclasses">Difficulty Classes</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					<a href="#abilityscores">Ability Scores</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#strength">Strength</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#athletics">Athletics</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#featsofstrength">Feats of Strength</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#dexterity">Dexterity</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#acrobatics">Acrobatics</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#sleightofhand">Sleight of Hand</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#stealth">Stealth</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#picklock">Pick Lock, Disarm Trap, Other</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#constitution">Constitution</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concentration">Concentration</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#forcedmarch">Forced March</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#air">Air</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#food">Food</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#water">Water</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#intelligence">Intelligence</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#arcana">Arcana, History, Nature, Religion</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#investigation">Investigation, Other</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#wisdom">Wisdom</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#insight">Insight, Perception</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#survival">Survival</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#animalhandling">Animal Handling, Medicine, Other</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#charisma">Charisma</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#deception">Deception</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Intimidation">Intimidation</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Performance">Performance</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Persuasion">Persuasion</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					<a href="#combat">Combat</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#conditions">Conditions</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#blinded">Blinded</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#charmed">Charmed</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#deafened">Deafened</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#frightened">Frightened</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#grappled">Grappled</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#incapacitated">Incapacitated</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#invisible">Invisible</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#paralyzed">Paralyzed</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#petrified">Petrified</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#poisoned">Poisoned</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#restrained">Restrained</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#stunned">Stunned</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#unconscious">Unconscious</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#damagetypes">Damage Types</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#exhaustion">Exhaustion</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#cover">Cover</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#combatactions">Actions In Combat</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#stealthrules">The Rules of Stealth</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#grapplingshovingclimbing">Grappling, Shoving, and Climbing onto Bigger Creatures</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#readying">Readying an Action</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#death">Dropping To 0 Hit Points</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#damageseverity">Damage Severity</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					<a href="#adventuring">Adventuring</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#characterlevel">PC Leveling Requirements</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#services">Adventuring Services</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lifestyle">Lifestyle Expenses</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#maptravelpace">Map Travel Pace</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#encounterdistance">Encounter Distance</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#light">Light</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#traps">Trap Save DCs and Attack Bonuses</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#damageseverity">Damage Severity and Level</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#aoetargets">Targets in Areas of Effect</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#improvizingdamage">Improvizing Damage</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#resting">Resting</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					<a href="#worldbuilding">World Building</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#npcbuilding">NPC Building</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#npccharacteristics">NPC Characteristics</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#npcideals">NPC Ideals</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#npcbonds">NPC Bonds</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#npcflaws">NPC Flaws and Secrets</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#encounterprocess">Building Process</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#encounterbuilding">Building Encounters</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#encounterdifficulty">Encounter Difficulty</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#encounterexp">Encounter Exp</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#randomencounters">Random Encounters</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="noborder" align="left">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#sizecategories">Size Catagories</a>
-				</td>
-			</tr>
-		</table>
-		-->
 		<h1 id="abilitychecks">
 			Ability Checks
 		</h1>
@@ -787,6 +395,22 @@
 				<i>Strength measures bodily power and athletic training.</i>
 			</dd>
 		</dl>
+		        <table>
+		            <tr><th id="strength">Strength</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+					<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+					<tr><td /><td align="left">Carrying Capacity</td><td align="left">Strength score times 15 in pounds²</td></tr>
+					<tr><td /><td align="left">Push, Drag, or Lift</td><td align="left">Up to 2 times carrying capacity²</td></tr>
+					<tr><td align="left">Modifier</td><td align="left">Determines bonus to strength related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+					<tr><td align="left">Save</td><td align="left">Opposing a force that would physically move or bind you</td><td align="left">1d20 + STR mod + Proficiency (if proficient)</td></tr>
+					<tr><td align="left">Strength Check</td><td align="left">Any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation.</td><td align="left">1d20 + STR mod</td></tr>
+					<tr><td /><td align="left">Breaking Manacles</td><td align="left">DC 20 check</td></tr> 
+					<tr><td /><td align="left">Breaking Rope</td><td align="left">DC 17 check</td></tr>
+					<tr><td>Other possible uses</td><td align="left">Force open a stuck, locked, or barred door. Push through a tunnel that is too small. Hang on to a wagon while being dragged behind it. Tip over a statue. Keep a builder from rolling.</td><td /></tr>
+				</table>
+				² For each size category above medium, double the creatures carrying capacity and the amount it can pull, drag, or lift. For a tiny creature, half these weights.
+		<br>	² While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet.
+		<br><a href="#toc">&#9650;</a><br />
+		<dl><dt><h2>Strength Skills</h2></dt><dd><i>Below are all the skills associated with the Strength ability.</i></dd></dl>
 		<table>
 			<tr id="athletics">
 				<th colspan="2">
@@ -895,6 +519,20 @@
 			<i>Dexterity measures agility, reflexes, and balance.</i>
 </dd>
 </dl>
+        <table>
+            <tr><th id="dexterity">Dexterity</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+			<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td align="left">Modifier</td><td align="left">Determines bonus to Dexterity related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+			<tr><td /><td align="left">Armor Class</td><td align="left">Certain types of armor add all or some of your DEX mod to your AC</td></tr>
+			<tr><td /><td align="left">Initiative</td><td align="left">1d20 + DEX mod</td></tr>
+			<tr><td align="left">Save</td><td align="left">Dodging out of harm's way</td><td align="left">1d20 + DEX mod + Proficiency (if proficient)</td></tr>
+			<tr><td align="left">Dexterity Check</td><td align="left">Any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing</td><td align="left">1d20 + DEX mod</td></tr>
+			<tr><td /><td align="left">Lock picking (with thieves tools)</td><td align="left">1d20 + DEX mod + Proficiency (if proficient)</td></tr>
+			<tr><td>Other possible uses</td><td align="left">Control a heavily laden cart on a steep descent. Steer a chariot around a tight turn. Disable a trap. Securely tie up a prisoner. Wriggle free of bonds. Craft a small or detailed object.</td><td /></tr>
+		</table>
+		² Certain types of medium and heavy armor add disadvantage to this roll.
+<br><a href="#toc">&#9650;</a><br />
+<dl><dt><h2>Dexterity Skills</h2></dt><dd><i>Below are all the skills associated with the Dexterity ability.</i></dd></dl>
 		<table>
 			<tr id="acrobatics">
 				<th colspan="2">
@@ -956,7 +594,7 @@
 			</tr>
 			<tr>
 				<td align="left">
-					Contest (vs. WIS)
+					Contest (Perception)
 				</td>
 				<td align="left">
 					Plant or steal an object on or from a target, conceal an object on your person
@@ -971,7 +609,7 @@
 			</tr>
 			<tr>
 				<td align="left">
-					Contest (vs. WIS)
+					Contest (Perception)
 				</td>
 				<td align="left">
 					Conceal yourself from enemies, sneak past unsuspecting targets, slip away while others are distracted
@@ -980,7 +618,7 @@
 			<tr id="picklock">
 				<th colspan="2">
 					<h3 class="nobackground">
-						Pick Lock<sup>2</sup> • Disarm Trap<sup>2</sup> • Other
+						Pick Lock<sup>2</sup> &bull; Disarm Trap<sup>2</sup> &bull; Other
 					</h3>
 				</th>
 			</tr>
@@ -1031,6 +669,23 @@
 			<i>Constitution measures health, stamina, and vital force.</i>
 		</dd>
 	</dl>
+	        <table>
+	            <tr><th id="constitution">Constitution</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+				<tr><td align="left">Score</td><td align="left">Determines constitution modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+				<tr><td align="left">Modifier</td><td align="left">Determines bonus to constitution related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+				<tr><td /><td align="left">Holding your breath</td><td align="left">Survive for minutes equal to 1 + CON mod (minimum 30 seconds), then survives for rounds equal to CON mod. Next turn drops to 0 HP and is dying.</td></tr>
+				<tr><td /><td align="left">Going without food</td><td align="left">Can go without enough food for days equal to 3 + CON mod. Each day past limit gain 1 level of exhaustion.</td></tr>
+				<tr><td /><td align="left">Determining Hit Points</td><td align="left">CON mod added to HP at each level</td></tr>
+				<tr><td /><td align="left">Using Hit Dice</td><td align="left">CON mod added to each hit dice used during short rest</td></tr>
+				<tr><td align="left">Save</td><td align="left">Endures a disease, poison, or other hazard that saps vitality</td><td align="left">1d20 + CON mod + Proficiency (if proficient)</td></tr>
+				<tr id="concentration"><td /><td align="left">Concentration</td><td align="left">DC equal to greater of 10 or ½ of damage taken while concentrating on a spell</td></tr>
+				<tr><td /><td align="left">Going without enough water</td><td align="left">DC 15 or gain 1 level of exhaustion.</td></tr>
+				<tr><td align="left">Check</td><td align="left">Very rarely used, but can be used to push yourself beyond normal limits</td><td /></tr>
+				<tr><td>Other possible uses</td><td align="left">Quaff an entire stein of ale in one go.</td><td /></tr>
+			</table>
+	<br><a href="#toc">&#9650;</a><br />
+	
+	<dl><dt><h2>Constitution Skills</h2></dt><dd><i>Below are all the skills associated with the Constitution ability.</i></dd></dl>
 		<table>
 			<tr id="concentration">
 				<th colspan="2">
@@ -1068,7 +723,7 @@
 			</tr>
 			<tr>
 				<td align="left">
-					Variable (DC 10 +X)
+					Variable DC 10+X
 				</td>
 				<td align="left">
 					At the end of each hour a PC must make a Constitution saving throw with a DC equal to 10 + the number of hours traveled past 8. On a failed throw the PC advances one level of <a href="#exhaustion">exhaustion</a>.
@@ -1141,6 +796,16 @@
 			</dt>
 				<dd><i>Intelligence measures mental acuity, accuracy of recall, and the ability to reason.</i></dd>
 			</dl>
+			        <table>
+			            <tr><th id="intelligence">Intelligence</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+						<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+						<tr><td align="left">Modifier</td><td align="left">Determines bonus to intelligence related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+						<tr><td align="left">Save</td><td align="left">Disbelieving certain illusions and resisting mental assaults that can be refuted with logic, sharp memory, or both</td><td align="left">1d20 + Ability mod + Proficiency (if proficient)</td></tr>
+						<tr><td align="left">Check</td><td align="left">Drawing on logic, education, memory, or deductive reasoning</td><td align="left">1d20 + INT mod</td></tr>
+						<tr><td>Other possible uses</td><td align="left">Communicate with a creature without words. Estimate the value of a precious item. Forge a document. Recall lore about a craft or trade. Win a game of skill.</td><td /></tr>
+					</table>
+			<br><a href="#toc">&#9650;</a><br />
+				<dl><dt><h2>Intelligence Skills</h2></dt><dd><i>Below are all the skills associated with the Intelligence ability.</i></dd></dl>
 				<table>
 					<tr id="arcana">
 						<th colspan="2">
@@ -1235,6 +900,16 @@
 					<dd><i>Wisdom measures perceptiveness, intuition, and attunement with the surrounding world.</i>
 					</dd>
 				</dl>
+				        <table>
+				            <tr><th id="wisdom">Wisdom</th><th align="center">Used For...</th><th align="left" width="40%">Rule</th></tr>
+							<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+							<tr><td align="left">Modifier</td><td align="left">Determines bonus to wisdom related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+							<tr><td align="left">Save</td><td align="left">Resisting effects that charm, frighten, or otherwise assault your willpower</td><td align="left">1d20 + WIS mod + Proficiency (if proficient)</td></tr>
+							<tr><td align="left">Check</td><td align="left">Reading body language, understanding someone's feelings, noticing things about the environment, or caring for an injured person</td><td align="left">1d20 + WIS mod</td></tr>
+							<tr><td>Other possible uses</td><td align="left">Get a gut feeling about what course of action to follow. Discern whether a seemingly dead or living creature is undead.</td><td /></tr>
+						</table>
+				<br><a href="#toc">&#9650;</a><br />
+				<dl><dt><h2>Wisdom Skills</h2></dt><dd><i>Below are all the skills associated with the Wisdom ability.</i></dd></dl>
 				<table>
 					<tr id="insight">
 						<th colspan="2">
@@ -1274,12 +949,12 @@
 							Very Hard
 						</td>
 						<td align="left">
-							Spot a nearly­invisible object or feature, read the lips of a creature you can see but not hear
+							Spot a nearly­ invisible object or feature, read the lips of a creature you can see but not hear
 						</td>
 					</tr>
 					<tr>
 						<td align="left">
-							Context (vs. CHA)
+							Contest (Deception)
 						</td>
 						<td align="left">
 							Determine if someone is lying or disguising themselves or their intentions
@@ -1287,7 +962,7 @@
 					</tr>
 					<tr>
 						<td align="left">
-							Contest (vs. DEX)
+							Contest (Stealth)
 						</td>
 						<td align="left">
 							Spot a creature attempting to hide, hear the movements of a hidden foe
@@ -1385,6 +1060,16 @@
 					</dt>
 					<dd><i>Charisma measures force of personality, persuasiveness, personal magnetism, social influence, and physical attractiveness.</i></dd>
 				</dl>
+				        <table>
+				            <tr><th id="charisma">Charisma</th><th align="center">Used For...</th><th align="left">Rule</th></tr>
+							<tr><td align="left">Score</td><td align="left">Determines modifier</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+							<tr><td align="left">Modifier</td><td align="left">Determines bonus to charisma related rolls</td><td align="left">Refer to <a href="#abilitymodifiers">this</a> chart</td></tr>
+							<tr><td align="left">Save</td><td align="left">Withstanding effects, such as possession, that would subsume your personality or hurl you to another plane of existence</td><td align="left">1d20 + WIS mod + Proficiency (if proficient)</td></tr>
+							<tr><td align="left">Check</td><td align="left">Trying to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation</td><td align="left">1d20 + Ability mod</td></tr>
+							<tr><td>Other possible uses</td><td align="left">Find the best person to talk to for news and gossip. Blend into a crowd to get the sense of key topics of conversation.</td><td /></tr>
+						</table>
+				<br><a href="#toc">&#9650;</a><br />
+				<dl><dt><h2>Charisma Skills</h2></dt><dd><i>Below are all the skills associated with the Charisma ability.</i></dd></dl>
 				<table>
 					<tr id="deception">
 						<th colspan="2">
@@ -1397,10 +1082,10 @@
 					</tr>
 					<tr>
 						<td align="left">
-							Contest (vs WIS)
+							Contest (Insight)
 						</td>
 						<td align="left">
-							Fast­talk or con someone, adopt a disguise or impersonate another creature, tell a convincing lie or otherwise hide your true intentions
+							Fast­ talk or con someone, adopt a disguise or impersonate another creature, tell a convincing lie or otherwise hide your true intentions
 						</td>
 					</tr>
 					<tr id="intimidation">
@@ -1753,6 +1438,124 @@
 				</table><br>
 				<a href="#toc">▲</a><br>
 
+				<table id="exhaustion">
+					<th colspan="2">
+						<h3 class="nobackground">
+							Exhaustion
+						</h3>
+					</th>
+					<tr>
+						<th>
+							Level
+						</th>
+						<th align="left">
+							Effect
+						</th>
+					</tr>
+					<tr>
+						<td align="left">
+							1
+						</td>
+						<td align="left">
+							Disadvantage on ability checks.
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							2
+						</td>
+						<td align="left">
+							Speed halved
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							3
+						</td>
+						<td align="left">
+							Disadvantage on attack rolls and saving throws
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							4
+						</td>
+						<td align="left">
+							Hit point maximum halved
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							5
+						</td>
+						<td align="left">
+							Speed reduced to 0
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							6
+						</td>
+						<td align="left">
+							Death
+						</td>
+					</tr>
+				</table>
+				<a href="#toc">▲</a>
+				<br /><br />
+				
+				<table>
+					<th colspan="2">
+						<h3 class="nobackground">
+							Suffering Exhaustion
+						</h3>
+					</th>
+					<tr>
+						<th align="left">
+							Cause
+						</th>
+						<th align="left">
+							Details
+						</th>
+					</tr>
+					<tr>
+						<td align="left">
+							Forced March
+						</td>
+						<td align="left">
+							For each hour spent traveling past 8 hours make a CON save at DC 10 + 1 for each hour past 8. On a failed save, a character suffers 1 level of exhaustion.
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Starvation
+						</td>
+						<td align="left">
+							If a creature doesn't eat enough food in a day, they start to starve. Food can be stretched out by eating half as much per day, which counts as half a day without food. A character can go without food for a number of days equal to 3 + CON mod, and then at the end of each day beyond that a character automatically suffers 1 level of exhaustion. A normal day of eating reduces the days without food to 0.
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Dehydration
+						</td>
+						<td align="left">
+							A creature who drinks less than half as much water than they need in a day must succeed on a DC 15 CON save or suffer 1 level of exhaustion. A character with access to even less water automatically suffers 1 level of exhaustion at the end of the day. If a character already has any levels of exhaustion, they gain 2 levels in either case.
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Barbarian's Frenzy
+						</td>
+						<td align="left">
+							A Barbarian who goes down the Path of the Berserker can choose to enter a frenzy if he is raging. When the rage ends, he suffers a level of exhaustion.
+						</td>
+					</tr>
+				</table><br>
+				<b>Reducing Levels of Exhaustion</b><br>
+				At the end of a long rest, provided a character has had enough food and water that day, they reduce their level of exhaustion by 1.<br>
+				<a href="#toc">▲</a><br>
+				<br />
+				
 				<table id="damagetypes">
 					<tr>
 						<th colspan="2">
@@ -1875,123 +1678,89 @@
 					</tr>
 				</table><a href="#toc">▲</a><br>
 				<br />
-				<table id="exhaustion">
-					<th colspan="2">
-						<h3 class="nobackground">
-							Exhaustion
-						</h3>
-					</th>
+				<table id="damageseverity">
 					<tr>
+						<th colspan="4">
+							<h3 class="nobackground">Damage Severity and Level</h3>
+						</th>
+					</tr>
+					<tr>
+						<th align="center">
+							Character Level
+						</th>
 						<th>
-							Level
+							Setback
 						</th>
-						<th align="left">
-							Effect
+						<th>
+							Dangerous
+						</th>
+						<th>
+							Deadly
 						</th>
 					</tr>
 					<tr>
-						<td align="left">
-							1
+						<td align="center">
+							1st-4th
 						</td>
 						<td align="left">
-							Disadvantage on ability checks.
+							1d10
 						</td>
+						<td align="left">
+							2d10
+						</td>
+						<td align="left">
+							4d10
+						</td>
+						<td align="left"></td>
 					</tr>
 					<tr>
-						<td align="left">
-							2
+						<td align="center">
+							5th-10th
 						</td>
 						<td align="left">
-							Speed halved
+							2d10
 						</td>
+						<td align="left">
+							4d10
+						</td>
+						<td align="left">
+							10d10
+						</td>
+						<td align="left"></td>
 					</tr>
 					<tr>
-						<td align="left">
-							3
+						<td align="center">
+							11th-16th
 						</td>
 						<td align="left">
-							Disadvantage on attack rolls and saving throws
+							4dl0
 						</td>
+						<td align="left">
+							10d10
+						</td>
+						<td align="left">
+							18d10
+						</td>
+						<td align="left"></td>
 					</tr>
 					<tr>
-						<td align="left">
-							4
+						<td align="center">
+							17th-20th
 						</td>
 						<td align="left">
-							Hit point maximum halved
-						</td>
-					</tr>
-					<tr>
-						<td align="left">
-							5
+							10d10
 						</td>
 						<td align="left">
-							Speed reduced to 0
-						</td>
-					</tr>
-					<tr>
-						<td align="left">
-							6
+							18d10
 						</td>
 						<td align="left">
-							Death
+							24d10
 						</td>
+						<td align="left"></td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a>
-				<br /><br />
+				<a href="#toc">▲</a><br /><br />
 				
-				<table>
-					<th colspan="2">
-						<h3 class="nobackground">
-							Suffering Exhaustion
-						</h3>
-					</th>
-					<tr>
-						<th align="left">
-							Cause
-						</th>
-						<th align="left">
-							Details
-						</th>
-					</tr>
-					<tr>
-						<td align="left">
-							Forced March
-						</td>
-						<td align="left">
-							For each hour spent traveling past 8 hours make a CON save at DC 10 + 1 for each hour past 8. On a failed save, a character suffers 1 level of exhaustion.
-						</td>
-					</tr>
-					<tr>
-						<td align="left">
-							Starvation
-						</td>
-						<td align="left">
-							If a creature doesn't eat enough food in a day, they start to starve. Food can be stretched out by eating half as much per day, which counts as half a day without food. A character can go without food for a number of days equal to 3 + CON mod, and then at the end of each day beyond that a character automatically suffers 1 level of exhaustion. A normal day of eating reduces the days without food to 0.
-						</td>
-					</tr>
-					<tr>
-						<td align="left">
-							Dehydration
-						</td>
-						<td align="left">
-							A creature who drinks less than half as much water than they need in a day must succeed on a DC 15 CON save or suffer 1 level of exhaustion. A character with access to even less water automatically suffers 1 level of exhaustion at the end of the day. If a character already has any levels of exhaustion, they gain 2 levels in either case.
-						</td>
-					</tr>
-					<tr>
-						<td align="left">
-							Barbarian's Frenzy
-						</td>
-						<td align="left">
-							A Barbarian who goes down the Path of the Berserker can choose to enter a frenzy if he is raging. When the rage ends, he suffers a level of exhaustion.
-						</td>
-					</tr>
-				</table><br>
-				<b>Reducing Levels of Exhaustion</b><br>
-				At the end of a long rest, provided a character has had enough food and water that day, they reduce their level of exhaustion by 1.<br>
-				<a href="#toc">▲</a><br>
-				<br />
 				<table id="cover">
 					<th colspan="2">
 						<h3 class="nobackground">
@@ -2031,7 +1800,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br>
+				<a href="#toc">▲</a><br /><br />
 				<table id="combatactions">
 					<th colspan="2">
 						<h3 class="nobackground">
@@ -2276,88 +2045,7 @@
 						The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn’t killed by a failed death saving throw. You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Medicine check. A stable creature doesn’t make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn’t healed regains 1 hit point after 1d4 hours.
 					</dd>
 				</dl><a href="#toc">▲</a><br />
-				<table id="damageseverity">
-					<tr>
-						<th colspan="4">
-							<h3 class="nobackground">Damage Severity and Level</h3>
-						</th>
-					</tr>
-					<tr>
-						<th align="center">
-							Character Level
-						</th>
-						<th>
-							Setback
-						</th>
-						<th>
-							Dangerous
-						</th>
-						<th>
-							Deadly
-						</th>
-					</tr>
-					<tr>
-						<td align="center">
-							1st-4th
-						</td>
-						<td align="left">
-							1d10
-						</td>
-						<td align="left">
-							2d10
-						</td>
-						<td align="left">
-							4d10
-						</td>
-						<td align="left"></td>
-					</tr>
-					<tr>
-						<td align="center">
-							5th-10th
-						</td>
-						<td align="left">
-							2d10
-						</td>
-						<td align="left">
-							4d10
-						</td>
-						<td align="left">
-							10d10
-						</td>
-						<td align="left"></td>
-					</tr>
-					<tr>
-						<td align="center">
-							11th-16th
-						</td>
-						<td align="left">
-							4dl0
-						</td>
-						<td align="left">
-							10d10
-						</td>
-						<td align="left">
-							18d10
-						</td>
-						<td align="left"></td>
-					</tr>
-					<tr>
-						<td align="center">
-							17th-20th
-						</td>
-						<td align="left">
-							10d10
-						</td>
-						<td align="left">
-							18d10
-						</td>
-						<td align="left">
-							24d10
-						</td>
-						<td align="left"></td>
-					</tr>
-				</table>
-				<a href="#toc">▲</a><br />
+				
 				<h1 id="adventuring">
 					Adventuring
 				</h1>
@@ -2783,7 +2471,41 @@
 							10 gp minimum
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table><a href="#toc">▲</a><br /><br />
+				<table id="lodging">
+					<tr>
+						<th colspan="2">
+							<h3 class="nobackground">Food, Drink, and Lodging</h3>
+						</th>
+					</tr>
+					<tr><th align="left">Item</th><th align="left">Cost</th></tr>
+					<tr><td align="left"><i>Ale</i></td><td align="left"></td></tr> 
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Gallon</td><td align="left">2 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Mug</td><td align="left">4 sp</td></tr>
+					<tr><td align="left">Banquet (per person)</td><td align="left">10 gp</td></tr>
+					<tr><td align="left">Bread, loaf</td><td align="left">2 cp</td></tr>
+					<tr><td align="left">Cheese, hunk</td><td align="left">1 sp</td></tr>
+					<tr><td align="left"><i>Inn stay (per day)</i></td><td align="left"></td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Squalid</td><td align="left">7 cp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Poor</td><td align="left">1 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Modest</td><td align="left">5 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Comfortable</td><td align="left">8 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Wealthy</td><td align="left">2 gp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Aristocratic</td><td align="left">4 gp</td></tr>
+					<tr><td align="left"><i>Meals (per day)</i></td><td align="left"></td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Squalid</td><td align="left">3 cp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Poor</td><td align="left">6 cp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Modest</td><td align="left">3 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Comfortable</td><td align="left">5 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Wealthy</td><td align="left">8 sp</td></tr>
+					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Aristocratic</td><td align="left">2 gp</td></tr>
+					<tr><td align="left">Meat, chunk</td><td align="left">3 sp</td></tr>
+					<tr><td align="left"><i>Wine</i></td><td align="left"></td></tr>
+					<tr><td align="left">Common (pitcher)</td><td align="left">2 sp</td></tr>
+					<tr><td align="left">Fine (bottle)</td><td align="left">10 gp</td></tr>
+				</table>
+				<a href="#toc">▲</a><br /><br />
+				
 				<h1 id="maptravelpace">
 					Map Travel Paces
 				</h1>
@@ -2827,7 +2549,7 @@
 							<h3 class="nobackground">Fast</h3>
 						</th>
 					</tr>
-					<tr><th>Minute</th><th>Hour</th><th>Day</th><th>Effect</th></tr>
+					<tr><th width="20%">Minute</th><th width="20%">Hour</th><th width="20%">Day</th><th width="40%">Effect</th></tr>
 					<tr><td>400 ft</td><td>4 miles</td><td>30 miles</td><td>-5 to passive perception score</td></tr>
 				</table>
 				<br />
@@ -2837,7 +2559,7 @@
 							<h3 class="nobackground">Normal</h3>
 						</th>
 					</tr>
-					<tr><th>Minute</th><th>Hour</th><th>Day</th><th>Effect</th></tr>
+					<tr><th width="20%">Minute</th><th width="20%">Hour</th><th width="20%">Day</th><th width="40%">Effect</th></tr>
 					<tr><td>300 ft</td><td>3 miles</td><td>24 miles</td><td>--</td></tr>
 				</table>
 				<br />
@@ -2848,12 +2570,81 @@
 							<h3 class="nobackground">Slow</h3>
 						</th>
 					</tr>
-					<tr><th>Minute</th><th>Hour</th><th>Day</th><th>Effect</th></tr>
+					<tr><th width="20%">Minute</th><th width="20%">Hour</th><th width="20%">Day</th><th width="40%">Effect</th></tr>
 					<tr><td>200 ft</td><td>2 miles</td><td>18 miles</td><td>Able to stealth</td></tr>
 				</table>
-
-				<br />
-				<a href="#toc">▲</a><br>
+				<a href="#toc">▲</a><br /><br />
+				
+				<table id="speed">
+					<tr>
+						<th colspan="4">
+							<h3 class="nobackground">
+								Calculating Your Party's Pace
+							</h3>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Minute
+						</th>
+						<th>
+							Hour
+						</th>
+						<th>
+							Day
+						</th>
+						<th>
+							Pace Effect
+						</th>
+					</tr>
+					<tr>
+						<td>
+							Speed X 10 ft.
+						</td>
+						<td>
+							Speed ÷10 mi.
+						</td>
+						<td>
+							Speed X 0.6 mi.
+						</td>
+						<td>
+							Effect based on pace
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<th colspan="4">
+							<h3 class="nobackground">
+								Pace Effects
+							</h3>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Slow
+						</th>
+						<th>
+							Normal
+						</th>
+						<th>
+							Fast
+						</th>
+					</tr>
+					<tr>
+						<td>
+							Use 2/3 base speed, able to stealth
+						</td>
+						<td>
+							No effect
+						</td>
+						<td>
+							Use 1.33 base speed, -5 passive perception
+						</td>
+					</tr>
+				</table>
+				<a href="#toc">▲</a><br /><br />
+				
 				<h1 id="encounterdistance">
 					Encounter Distances
 				</h1>
@@ -2978,16 +2769,22 @@
 							From a height
 						</td>
 						<td align="left">
-							x 29
+							x 20
 						</td>
 					</tr>
-				</table><br>
+				</table>
 				<a href="#toc">▲</a><br><br />
-
+				<table id="vision">
+					<tr><th colspan="3"><h3 class="nobackground">Vision and Light</h3></th></tr>
+					<tr><th></th><th>Hinderance</th><th>Examples</th></tr>
+					<tr><td>Lightly Obscured</td><td>Disadvantage on Perception checks relying on sight</td><td>Dim light, patchy fog, moderate foliage</td></tr>
+					<tr><td>Heavily Obscured</td><td><a href="#blinded">Blinded condition</a></td><td>Darkness, opaque fog, dense foliage</td></tr>
+				</table>
+				<a href="#toc">▲</a><br><br />
 				<table id="light">
 					<tr>
 						<th colspan="4">
-							<h3 class="nobackground">Lighting</h3>
+							<h3 class="nobackground">Light Sources</h3>
 						</th>
 					</tr>
 					<tr>
@@ -3004,6 +2801,7 @@
 							1 hour
 						</th>
 					</tr>
+					<tr><th colspan="4"><h3 class="nobackground">Mundane Sources</h3></th></tr>
 					<tr>
 						<td align="left">
 							Candle
@@ -3012,7 +2810,7 @@
 							5 feet
 						</td>
 						<td align="left">
-							+ 5 feet
+							+5 feet
 						</td>
 						<td align="left">
 							6 hours
@@ -3026,7 +2824,7 @@
 							15 feet
 						</td>
 						<td align="left">
-							+ 30 feet
+							+30 feet
 						</td>
 						<td align="left">
 							6 hours
@@ -3040,7 +2838,7 @@
 							60 foot cone
 						</td>
 						<td align="left">
-							+ 60 feet
+							+60 feet
 						</td>
 						<td align="left">
 							6 hours
@@ -3052,11 +2850,11 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;Lowered Hood
 						</td>
 						<td align="left">
-							30 foot<br>
+							30 feet<br>
 							&nbsp;&nbsp;&nbsp;&nbsp;-
 						</td>
 						<td align="left">
-							+ 30 feet<br>
+							+30 feet<br>
 							&nbsp;&nbsp;&nbsp;&nbsp;+ 5 feet
 						</td>
 						<td align="left">
@@ -3072,10 +2870,151 @@
 							20 feet
 						</td>
 						<td align="left">
-							+ 20 feet
+							+20 feet
 						</td>
 						<td align="left">
 							1 hour
+						</td>
+					</tr>
+					<tr><th colspan="4"><h3 class="nobackground">Magic Sources</h3></th></tr>
+					<tr>
+						<td align="left">
+							Continual Flame
+						</td>
+						<td align="left">
+							20 feet
+						</td>
+						<td align="left">
+							+20 feet
+						</td>
+						<td align="left">
+							-
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Dancing Lights
+						</td>
+						<td align="left">
+							-
+						</td>
+						<td align="left">
+							10 feet
+						</td>
+						<td align="left">
+							1 minute
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Faerie Fire
+						</td>
+						<td align="left">
+							-
+						</td>
+						<td align="left">
+							10 feet
+						</td>
+						<td align="left">
+							1 minute
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Flame Blade
+						</td>
+						<td align="left">
+							10 feet
+						</td>
+						<td align="left">
+							+ 10 feet
+						</td>
+						<td align="left">
+							10 minutes
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Flaming Sphere
+						</td>
+						<td align="left">
+							20 feet
+						</td>
+						<td align="left">
+							+20 feet
+						</td>
+						<td align="left">
+							1 minute
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Holy Aura
+						</td>
+						<td align="left">
+							-
+						</td>
+						<td align="left">
+							5 feet
+						</td>
+						<td align="left">
+							1 minute
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Light
+						</td>
+						<td align="left">
+							20 feet
+						</td>
+						<td align="left">
+							+20 feet
+						</td>
+						<td align="left">
+							1 hour
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Moonbeam
+						</td>
+						<td align="left">
+							-
+						</td>
+						<td align="left">
+							5 ft cyl
+						</td>
+						<td align="left">
+							1 minute
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Prismatic Wall
+						</td>
+						<td align="left">
+							100 feet
+						</td>
+						<td align="left">
+							+100 feet
+						</td>
+						<td align="left">
+							10 minutes
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							Wall of Fire
+						</td>
+						<td align="left">
+							60 feet
+						</td>
+						<td align="left">
+							+60 feet
+						</td>
+						<td align="left">
+							1 minute
 						</td>
 					</tr>
 				</table><br>
@@ -3331,8 +3270,41 @@
 							Tumbling into a vortex of fire on the Elemental Plane of Fire, being crushed in the jaws of a godlike creature or a moon-sized monster
 						</td>
 					</tr>
-				</table><br>
-				<a href="#toc">▲</a><br>
+				</table>
+				<a href="#toc">▲</a><br /><br />
+				
+				<table id="objectac">
+					<tr><th colspan="2"><h3 class="nobackground">Object Armor Class</h3></th></tr>
+					<tr><th>Substance</th><th>AC</th></tr>
+					<tr><td>Cloth</td><td>11</td></tr>
+					<tr><td>Paper</td><td>11</td></tr>
+					<tr><td>Rope</td><td>11</td></tr>
+					<tr><td>Crystal</td><td>13</td></tr>
+					<tr><td>Glass</td><td>13</td></tr>
+					<tr><td>Ice</td><td>13</td></tr>
+					<tr><td>Wood</td><td>15</td></tr>
+					<tr><td>Bone</td><td>15</td></tr>
+					<tr><td>Stone</td><td>17</td></tr>
+					<tr><td>Iron</td><td>19</td></tr>
+					<tr><td>Steel</td><td>19</td></tr>
+					<tr><td>Mithril</td><td>21</td></tr>
+					<tr><td>Adamantine</td><td>23</td></tr>
+				</table>
+				
+				<a href="#toc">▲</a><br /><br />
+				
+				<table id="objectap">
+					<tr><th colspan="3"><h3 class="nobackground">Object Hit Points</h3></th></tr>
+					<tr><th>Size</th><th>Weak</th><th>Tough</th></tr>
+					<tr><td>TINY<br />&nbsp;&nbsp;&nbsp;&nbsp;Bottle, Lock</td><td>1d4</td><td>2d4</td></tr>
+					<tr><td>SMALL<br />&nbsp;&nbsp;&nbsp;&nbsp;Chest, Chain</td><td>1d6</td><td>3d6</td></tr>
+					<tr><td>MEDIUM<br />&nbsp;&nbsp;&nbsp;&nbsp;Barrel, Chandelier</td><td>1d8</td><td>4d8</td></tr>
+					<tr><td>LARGE<br />&nbsp;&nbsp;&nbsp;&nbsp;Cart, Window</td><td>1d10</td><td>5d10</td></tr>
+					<tr><td>HUGE+<br />&nbsp;&nbsp;&nbsp;&nbsp;Wagon, Hut</td><td colspan="2">DM's Discretion</td></tr>
+				</table>
+				
+				<a href="#toc">▲</a><br /><br />
+				
 				<h1 id="resting">
 					Resting
 				</h1>
@@ -3366,41 +3338,7 @@
 						</ul>
 					</dd>
 				</dl><br>
-				<a href="#toc">▲</a><br>
-				
-				<table id="lodging">
-					<tr>
-						<th colspan="2">
-							<h3 class="nobackground">Food, Drink, and Lodging</h3>
-						</th>
-					</tr>
-					<tr><th align="left">Item</th><th align="left">Cost</th></tr>
-					<tr><td align="left"><i>Ale</i></td><td align="left"></td></tr> 
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Gallon</td><td align="left">2 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Mug</td><td align="left">4 sp</td></tr>
-					<tr><td align="left">Banquet (per person)</td><td align="left">10 gp</td></tr>
-					<tr><td align="left">Bread, loaf</td><td align="left">2 cp</td></tr>
-					<tr><td align="left">Cheese, hunk</td><td align="left">1 sp</td></tr>
-					<tr><td align="left"><i>Inn stay (per day)</i></td><td align="left"></td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Squalid</td><td align="left">7 cp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Poor</td><td align="left">1 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Modest</td><td align="left">5 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Comfortable</td><td align="left">8 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Wealthy</td><td align="left">2 gp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Aristocratic</td><td align="left">4 gp</td></tr>
-					<tr><td align="left"><i>Meals (per day)</i></td><td align="left"></td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Squalid</td><td align="left">3 cp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Poor</td><td align="left">6 cp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Modest</td><td align="left">3 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Comfortable</td><td align="left">5 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Wealthy</td><td align="left">8 sp</td></tr>
-					<tr><td align="left">&nbsp;&nbsp;&nbsp;&nbsp;Aristocratic</td><td align="left">2 gp</td></tr>
-					<tr><td align="left">Meat, chunk</td><td align="left">3 sp</td></tr>
-					<tr><td align="left"><i>Wine</i></td><td align="left"></td></tr>
-					<tr><td align="left">Common (pitcher)</td><td align="left">2 sp</td></tr>
-					<tr><td align="left">Fine (bottle)</td><td align="left">10 gp</td></tr>
-				</table>
-				<a href="#toc">▲</a><br>
+				<a href="#toc">▲</a><br /><br />
 				<h1 id="worldbuilding">
 					World Building
 				</h1>
