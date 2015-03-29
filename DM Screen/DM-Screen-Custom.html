@@ -187,6 +187,7 @@
 					<li class="file"><a href="#exhaustion">Exhaustion</a></li>
 					<li class="file"><a href="#damagetypes">Damage Types</a></li>
 					<li class="file"><a href="#damageseverity">Damage Severity</a></li>
+					<li class="file"><a href="#aoetargets">Targets in Areas of Effect</a></li>
 					<li class="file"><a href="#cover">Cover</a></li>
 					<li class="file"><a href="#combatactions">Actions In Combat</a></li>
 					<li class="file"><a href="#stealthrules">The Rules of Stealth</a></li>
@@ -211,7 +212,6 @@
 					<li class="file"><a href="#light">Light Sources</a></li>
 					<li class="file"><a href="#traps">Trap Save DCs and Attack Bonuses</a></li>
 					<li class="file"><a href="#damageseverity">Damage Severity and Level</a></li>
-					<li class="file"><a href="#aoetargets">Targets in Areas of Effect</a></li>
 					<li class="file"><a href="#improvizingdamage">Improvising Damage</a></li>
 					<li class="file"><a href="#objectac">Object AC</a></li>
 					<li class="file"><a href="#objecthp">Object HP</a></li>
@@ -720,7 +720,7 @@
 			</tr>
 			<tr>
 				<td align="left">
-					Variable DC(10,X)
+					Variable max(10,x)
 				</td>
 				<td align="left">
 					After taking damage make a Constitution Saving throw with a DC of either 10 or half of the damage taken, whichever is higher.
@@ -1725,6 +1725,7 @@
 						<td align="left">
 							4d10
 						</td>
+						
 					</tr>
 					<tr>
 						<td align="center">
@@ -1739,7 +1740,7 @@
 						<td align="left">
 							10d10
 						</td>
-						</tr>
+					</tr>
 					<tr>
 						<td align="center">
 							11th-16th
@@ -1996,7 +1997,7 @@
 						<b id="shoving">Shoving</b>
 					</dt>
 					<dd>
-						Using the attack action, you can attempt to  	<a href="#prone">prone</a>.
+						Using the attack action, you can attempt to shove a creature no more than one size larger than you. You make an Athletics check opposed by its Athletics or Acrobatics check. If you succeed you either move it 5 feet in any direction or knock it <a href="#prone">prone</a>.
 					</dd>
 					<dt>
 						<b id="climbingontobiggercreatures">Climbing onto Bigger Creatures</b>
@@ -3159,9 +3160,8 @@
 							24d10
 						</td>
 					</tr>
-				</table><br />
+				</table>
 				<a href="#toc">▲</a><br><br />
-
 				<table id="aoetargets">
 					<tr>
 						<th colspan="2">
@@ -3216,8 +3216,7 @@
 							Radius / 5 (round up)
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
-
+				</table><a href="#toc">▲</a><br><br />
 				<table id="improvizingdamage">
 					<tr>
 						<th colspan="2">
@@ -4528,7 +4527,7 @@
 							# of Enemies
 						</th>
 						<th colspan="3">
-							Party Size Multiplier
+							Party Size & Modifier
 						</th>
 					</tr>
 					<tr>
@@ -4540,7 +4539,7 @@
 							3-5
 						</td>
 						<td align="left">
-							6-8
+							6+
 						</td>
 					</tr>
 					<tr>
