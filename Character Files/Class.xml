@@ -1,6 +1,852 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" auto_indent="YES">
-	<class>
+<!--Barbarian-->
+<class>
+	<name>Barbarian (Path of the Berserker)</name>
+	<hd>12</hd>
+	<proficiency>Strength, Constitution</proficiency>
+	<spellAbility></spellAbility>
+	<autolevel level="1">
+		<feature>
+			<name>Proficiencies</name>
+			<text>Armor: Light armor, medium armor, shields</text>
+			<text>Weapons: Simple weapons, martial weapons</text>
+			<text>Tools: None</text>
+			<text>Saving Throws: Strength, Constitution</text>
+			<text>Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+		</feature>
+		<feature>
+			<name>Starting Equipment</name>
+			<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+			<text>• (a) a greataxe or (b) any martial melee weapon </text>
+			<text>• (a) two handaxes or (b) any simple weapon </text>
+			<text>• 2d4 x 10 gp, an explorer's pack, and four javelins</text>
+		</feature>
+		<feature>
+			<name>Rage</name>
+			<text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</text>
+			<text>While raging, you gain the following benefits if you aren't wearing heavy armor:</text>
+			<text>• You have advantage on Strength checks and Strength saving throws.</text>
+			<text>• When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.</text>
+			<text>• You have resistance to bludgeoning, piercing, and slashing damage.</text>
+			<text>If you are able to cast spells, you can't cast them or concentrate on them while raging.</text>
+			<text>Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</text>
+			<text>Once you have raged twice, you must finish a long rest before you can rage again. The number of times you can rage between rages goes up as you level.</text>
+		</feature>
+		<feature>
+			<name>Unarmored Defense</name>
+			<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="2">
+		<feature>
+			<name>Reckless Attack</name>
+			<text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+		</feature>
+		<feature>
+			<name>Danger Sense</name>
+			<text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.</text>
+			<text>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="3">
+		<feature>
+			<name>Primal Path (Path of the Berserker)</name>
+			<text>For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</text>
+		</feature>
+		<feature>
+			<name>Frenzy</name>
+			<text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>
+		</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 3 times between long rests.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="4">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+	<autolevel level="5">
+		<feature>
+			<name>Extra Attack</name>
+			<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+		</feature>
+		<feature>
+			<name>Fast Movement</name>
+			<text>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="6">
+		<feature>
+			<name>Mindless Rage</name>
+			<text>Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</text>
+		</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 4 times between long rests.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<feature>
+			<name>Feral Instinct</name>
+			<text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</text>
+			<text>Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+	<autolevel level="9">
+		<feature>
+			<name>Brutal Critical</name>
+			<text>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</text>
+			<text>This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
+		</feature>
+		<feature>
+			<name>Rage Damage Increase</name>
+			<text>Your bonus to the damage rolls of melee attacks increases to +3.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="10">
+		<feature>
+			<name>Intimidating Presence</name>
+			<text>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8+your proficiency bonus+your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.</text>
+			<text>If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="11">
+		<feature>
+			<name>Relentless Rage</name>
+			<text>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</text>
+			<text>Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="12">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 5 times between long rests.</text>
+		</feature>
+		</autolevel>
+	<autolevel level="14">
+		<feature>
+			<name>Retaliation</name>
+			<text>Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="15">
+		<feature>
+			<name>Persistent Rage</name>
+			<text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="16">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+		<feature>
+			<name>Rage Damage Increase</name>
+			<text>Your bonus to the damage rolls of melee attacks increases to +4.</text>
+		</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 5 times between long rests.</text>
+		</feature>
+		</autolevel>
+	<autolevel level="18">
+		<feature>
+			<name>Indomitable Might</name>
+			<text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="19">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+	<autolevel level="20">
+		<feature>
+			<name>Primal Champion</name>
+			<text>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</text>
+		</feature>
+		<feature>
+			<name>Unlimited Rages</name>
+			<text>You have unlimited rages between long rests.</text>
+		</feature>
+	</autolevel>
+</class>
+<class>
+	<name>Barbarian (Path of the Totem Warrior)</name>
+	<hd>12</hd>
+	<proficiency>Strength, Constitution</proficiency>
+	<spellAbility></spellAbility>
+	<autolevel level="1">
+		<feature>
+			<name>Proficiencies</name>
+			<text>Armor: Light armor, medium armor, shields</text>
+			<text>Weapons: Simple weapons, martial weapons</text>
+			<text>Tools: None</text>
+			<text>Saving Throws: Strength, Constitution</text>
+			<text>Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+		</feature>
+		<feature>
+			<name>Starting Equipment</name>
+			<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+			<text>• (a) a greataxe or (b) any martial melee weapon </text>
+			<text>• (a) two handaxes or (b) any simple weapon </text>
+			<text>• 2d4 x 10 gp, an explorer's pack, and four javelins</text>
+		</feature>
+		<feature>
+			<name>Rage</name>
+			<text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</text>
+			<text>While raging, you gain the following benefits if you aren't wearing heavy armor:</text>
+			<text>• You have advantage on Strength checks and Strength saving throws.</text>
+			<text>• When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.</text>
+			<text>• You have resistance to bludgeoning, piercing, and slashing damage.</text>
+			<text>If you are able to cast spells, you can't cast them or concentrate on them while raging.</text>
+			<text>Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</text>
+			<text>Once you have raged twice, you must finish a long rest before you can rage again. The number of times you can rage between rages goes up as you level.</text>
+		</feature>
+		<feature>
+			<name>Unarmored Defense</name>
+			<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="2">
+		<feature>
+			<name>Reckless Attack</name>
+			<text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+		</feature>
+		<feature>
+			<name>Danger Sense</name>
+			<text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.</text>
+			<text>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="3">
+		<feature>
+			<name>Primal Path (Path of the Totem Warrior)</name>
+			<text>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.</text>
+			<text>Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</text>
+		</feature>
+		<feature>
+			<name>Spirit Seeker</name>
+			<text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10.</text>
+		</feature>
+		<feature>
+			<name>Totem Spirit</name>
+			<text>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment - that incorporates fur or feathers, claws, teeth, or b ones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.</text>
+			<text>Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</text>
+			<text> </text>
+			<text>Bear. While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</text>
+			<text> </text>
+			<text>Eagle. While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</text>
+			<text> </text>
+			<text>Wolf. While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</text>
+		</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 3 times between long rests.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="4">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+	<autolevel level="5">
+		<feature>
+			<name>Extra Attack</name>
+			<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+		</feature>
+		<feature>
+			<name>Fast Movement</name>
+			<text>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="6">
+		<feature>
+			<name>Aspect of the Beast</name>
+			<text>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</text>
+			<text> </text>
+			<text>Bear. You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</text>
+			<text> </text>
+			<text>Eagle. You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</text>
+			<text> </text>
+			<text>Wolf. You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).</text>
+		</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 4 times between long rests.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<feature>
+			<name>Feral Instinct</name>
+			<text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</text>
+			<text>Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+	<autolevel level="9">
+		<feature>
+			<name>Brutal Critical</name>
+			<text>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</text>
+			<text>This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
+		</feature>
+		<feature>
+			<name>Rage Damage Increase</name>
+			<text>Your bonus to the damage rolls of melee attacks increases to +3.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="10">
+		<feature>
+			<name>Spirit Walker</name>
+			<text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="11">
+		<feature>
+			<name>Relentless Rage</name>
+			<text>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</text>
+			<text>Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="12">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 5 times between long rests.</text>
+		</feature>
+		</autolevel>
+	<autolevel level="14">
+		<feature>
+			<name>Totemic Attunement</name>
+			<text>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.</text>
+			<text> </text>
+			<text>Bear. While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.</text>
+			<text> </text>
+			<text>Eagle. While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</text>
+			<text> </text>
+			<text>Wolf. While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="15">
+		<feature>
+			<name>Persistent Rage</name>
+			<text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="16">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+		<feature>
+			<name>Increased Rages</name>
+			<text>You can now rage up to 5 times between long rests.</text>
+		</feature>
+		<feature>
+			<name>Rage Damage Increase</name>
+			<text>Your bonus to the damage rolls of melee attacks increases to +4.</text>
+		</feature>
+		</autolevel>
+	<autolevel level="18">
+		<feature>
+			<name>Indomitable Might</name>
+			<text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="19">
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+	<autolevel level="20">
+		<feature>
+			<name>Primal Champion</name>
+			<text>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</text>
+		</feature>
+		<feature>
+			<name>Unlimited Rages</name>
+			<text>You have unlimited rages between long rests.</text>
+		</feature>
+	</autolevel>
+</class>
+<!--Bard-->
+<class>
+	<name>Bard (College of Lore)</name>
+	<hd>8</hd>
+	<proficiency>Dexterity, Charisma</proficiency>
+	<spellAbility>Charisma</spellAbility>
+		<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor</text>
+				<text>Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
+				<text>Tools: Three musical instruments of your choice</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose any three</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a rapier, (b) a longsword, or (c) any simple weapon </text>
+				<text>• (a) a diplomat's pack  or (b) an entertainer's pack </text>
+				<text>• (a) a lute or (b) any other musical instrument </text>
+				<text>• 5d4 x 10 gp, leather armor, and a dagger</text>
+			</feature>
+		<slots>2, 2</slots>
+		<feature>
+			<name>Spellcasting</name>
+			<text>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations.</text>
+			<text> </text>
+			<text>Cantrips</text>
+			<text>You know two cantrips of your choice from the bard spell list. You learn an additional Bard cantrip at 4th and 10th level.</text>
+			<text> </text>
+			<text>Spell Slots</text>
+			<text>You have two first level spell slots You gain additional spell slots as you level up..</text>
+			<text> </text>
+			<text>Spells Known of 1st Level and Higher</text>
+			<text>You know four 1st-level spells of your choice from the bard spell list.</text> 
+			<text>You learn an additional bard spell for which you have a spell slot for at 2nd, 3rd, 4th, 5th, 6th, 7th 8th, 9th, 11th, 13th, 15th, and 17th levels.</text>
+			<text>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</text>
+			<text> </text>
+			<text>Spellcasting Ability</text>
+			<text>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</text>
+			<text>Spell save DC = 8 + your proficiency bonus + your Charisma modifier</text>
+			<text>Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
+			<text> </text>
+			<text>Ritual Casting</text>
+			<text>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</text>
+			<text> </text>
+			<text>Spellcasting Focus</text>
+			<text>You can use a musical instrument as a spellcasting focus for your bard spells.</text>
+		</feature>
+		<feature>
+			<name>Bardic Inspiration</name>
+			<text>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.</text>
+			<text>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</text>
+			<text>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</text>
+			<text>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="2">
+		<slots>2, 3</slots>
+		<feature>
+			<name>Jack of All Trades</name>
+			<text>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</text>
+		</feature>
+		<feature>
+			<name>Song of Rest</name>
+			<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</text>
+			<text>The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="3">
+		<slots>2, 4, 2</slots>
+		<feature>
+			<name>Bard College (Lore)</name>
+			<text>Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.</text>
+			<text>The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.</text>
+			<text>The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</text>
+		</feature>
+		<feature>
+			<name>Bonus Proficiencies</name>
+			<text>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</text>
+		</feature>
+		<feature>
+			<name>Expertise</name>
+			<text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+		</feature>
+		<feature>
+			<name>Cutting Words</name>
+			<text>Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="4">
+		<slots>3, 4, 3</slots> 
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="5">
+		<slots>3, 4, 3, 2</slots>
+		<feature>
+			<name>Font of Inspiration</name>
+			<text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</text>
+		</feature>
+		<feature>
+			<name>Improved Bardic Inspiration</name>
+			<text>Your Bardic Inspiration die becomes a d8</text>
+		</feature>
+	</autolevel>
+	<autolevel level="6">
+		<slots>3, 4, 3, 3</slots>
+		<feature>
+			<name>Countercharm</name>
+			<text>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</text>
+		</feature>
+		<feature>
+			<name>Additional Magical Secrets</name>
+			<text>At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<slots>3, 4, 3, 3, 1</slots>
+	</autolevel>
+	<autolevel level="8">
+		<slots>3, 4, 3, 3, 2</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="9">
+		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Improved Song of Rest</name>
+			<text>The extra hit points increase to 1d8.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="10">
+		<slots>4, 4, 3, 3, 3, 2</slots>
+		<feature>
+			<name>Magical Secrets</name>
+			<text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+			<text>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+			<text>You learn two additional spells from any class at 14th level and again at 18th level.</text>
+		</feature>
+		<feature>
+			<name>Expertise</name>
+			<text>At 10th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+		</feature>
+		<feature>
+			<name>Improved Bardic Inspiration</name>
+			<text>Your Bardic Inspiration die becomes a d10</text>
+		</feature>
+	</autolevel>
+	<autolevel level="11">
+		<slots>4, 4, 3, 3, 3, 2, 1</slots>
+	</autolevel>
+	<autolevel level="12">
+		<slots>4, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="13">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Song of Rest</name>
+			<text>The extra hit points increase to 1d8.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="14">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Magical Secrets</name>
+			<text>By 14th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+			<text>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+		</feature>
+		<feature>
+			<name>Peerless Skill</name>
+			<text>Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roil the die for the ability check, but before the DM tells you whether you succeed or fail.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="15">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Bardic Inspiration</name>
+			<text>Your Bardic Inspiration die becomes a d12</text>
+		</feature>
+	</autolevel>
+	<autolevel level="16">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="17">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Song of Rest</name>
+			<text>The extra hit points increase to 1d8.</text>
+		</feature>
+		</autolevel>
+	<autolevel level="18">
+		<slots>4, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Magical Secrets</name>
+			<text>By 18th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+			<text>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="19">
+		<slots>4, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="20">
+		<slots>4, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Superior Inspiration</name>
+			<text>At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</text>
+		</feature>
+	</autolevel>
+</class>
+<class>
+	<name>Bard (College of Valor)</name>
+	<hd>8</hd>
+	<proficiency>Dexterity, Charisma</proficiency>
+	<spellAbility>Charisma</spellAbility>
+		<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor</text>
+				<text>Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
+				<text>Tools: Three musical instruments of your choice</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose any three</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a rapier, (b) a longsword, or (c) any simple weapon </text>
+				<text>• (a) a diplomat's pack  or (b) an entertainer's pack </text>
+				<text>• (a) a lute or (b) any other musical instrument </text>
+				<text>• 5d4 x 10 gp, leather armor, and a dagger</text>
+			</feature>
+		<slots>2, 2</slots>
+		<feature>
+			<name>Spellcasting</name>
+			<text>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations.</text>
+			<text> </text>
+			<text>Cantrips</text>
+			<text>You know two cantrips of your choice from the bard spell list. You learn an additional Bard cantrip at 4th and 10th level.</text>
+			<text> </text>
+			<text>Spell Slots</text>
+			<text>You have two first level spell slots You gain additional spell slots as you level up..</text>
+			<text> </text>
+			<text>Spells Known of 1st Level and Higher</text>
+			<text>You know four 1st-level spells of your choice from the bard spell list.</text> 
+			<text>You learn an additional bard spell for which you have a spell slot for at 2nd, 3rd, 4th, 5th, 6th, 7th 8th, 9th, 11th, 13th, 15th, and 17th levels.</text>
+			<text>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</text>
+			<text> </text>
+			<text>Spellcasting Ability</text>
+			<text>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</text>
+			<text>Spell save DC = 8 + your proficiency bonus + your Charisma modifier</text>
+			<text>Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
+			<text> </text>
+			<text>Ritual Casting</text>
+			<text>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</text>
+			<text> </text>
+			<text>Spellcasting Focus</text>
+			<text>You can use a musical instrument as a spellcasting focus for your bard spells.</text>
+		</feature>
+		<feature>
+			<name>Bardic Inspiration</name>
+			<text>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.</text>
+			<text>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</text>
+			<text>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</text>
+			<text>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="2">
+		<slots>2, 3</slots>
+		<feature>
+			<name>Jack of All Trades</name>
+			<text>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</text>
+		</feature>
+		<feature>
+			<name>Song of Rest</name>
+			<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</text>
+			<text>The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="3">
+		<slots>2, 4, 2</slots>
+		<feature>
+			<name>Bard College (Valor)</name>
+			<text>Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate</text>			
+			<text>Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.</text>
+		</feature>
+		<feature>
+			<name>Bonus Proficiencies</name>
+			<text>When you join the College of Lore at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.</text>
+		</feature>
+		<feature>
+			<name>Expertise</name>
+			<text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+		</feature>
+		<feature>
+			<name>Cutting Words</name>
+			<text>Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="4">
+		<slots>3, 4, 3</slots> 
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="5">
+		<slots>3, 4, 3, 2</slots>
+		<feature>
+			<name>Font of Inspiration</name>
+			<text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</text>
+		</feature>
+		<feature>
+			<name>Improved Bardic Inspiration</name>
+			<text>Your Bardic Inspiration die becomes a d8</text>
+		</feature>
+	</autolevel>
+	<autolevel level="6">
+		<slots>3, 4, 3, 3</slots>
+		<feature>
+			<name>Countercharm</name>
+			<text>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</text>
+		</feature>
+		<feature>
+		<name>Extra Attack</name>
+		<text>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<slots>3, 4, 3, 3, 1</slots>
+	</autolevel>
+	<autolevel level="8">
+		<slots>3, 4, 3, 3, 2</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="9">
+		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Improved Song of Rest</name>
+			<text>The extra hit points increase to 1d8.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="10">
+		<slots>4, 4, 3, 3, 3, 2</slots>
+		<feature>
+			<name>Magical Secrets</name>
+			<text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+			<text>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+			<text>You learn two additional spells from any class at 14th level and again at 18th level.</text>
+		</feature>
+		<feature>
+			<name>Expertise</name>
+			<text>At 10th level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+		</feature>
+		<feature>
+			<name>Improved Bardic Inspiration</name>
+			<text>Your Bardic Inspiration die becomes a d10</text>
+		</feature>
+	</autolevel>
+	<autolevel level="11">
+		<slots>4, 4, 3, 3, 3, 2, 1</slots>
+	</autolevel>
+	<autolevel level="12">
+		<slots>4, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="13">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Song of Rest</name>
+			<text>The extra hit points increase to 1d8.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="14">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Magical Secrets</name>
+			<text>By 14th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+			<text>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+		</feature>
+		<feature>
+			<name>Battle Magic </name>
+			<text>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="15">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Bardic Inspiration</name>
+			<text>Your Bardic Inspiration die becomes a d12</text>
+		</feature>
+	</autolevel>
+	<autolevel level="16">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="17">
+		<slots>4, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Song of Rest</name>
+			<text>The extra hit points increase to 1d8.</text>
+		</feature>
+		</autolevel>
+	<autolevel level="18">
+		<slots>4, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Magical Secrets</name>
+			<text>By 18th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+			<text>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="19">
+		<slots>4, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="20">
+		<slots>4, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Superior Inspiration</name>
+			<text>At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</text>
+		</feature>
+	</autolevel>
+</class>
+<class>
 		<name>Paladin (Vengeance)</name>
 		<hd>10</hd>
 		<proficiency>Wisdom, Charisma</proficiency>
@@ -78,10 +924,10 @@ Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, 
 			<feature>
 				<name>Starting Equipment</name>
 				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
-				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
-				<text>• (a) five javelins or (b) any simple melee weapon</text>
-				<text>• (a) a priest's pack or (b) an explorer's pack</text>
-				<text>• 5d4 x 10 gp, Chain mail, and a holy symbol</text>
+				<text>â€¢ (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>â€¢ (a) five javelins or (b) any simple melee weapon</text>
+				<text>â€¢ (a) a priest's pack or (b) an explorer's pack</text>
+				<text>â€¢ 5d4 x 10 gp, Chain mail, and a holy symbol</text>
 			</feature>
 			<feature>
 				<name>Divine Sense</name>
@@ -165,7 +1011,7 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="4">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="5">
@@ -196,7 +1042,7 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="8">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			</autolevel>
 		<autolevel level="9">
@@ -224,7 +1070,7 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="12">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			</autolevel>
 		<autolevel level="13">
@@ -251,7 +1097,7 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="16">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="17">
@@ -277,7 +1123,7 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="19">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="20">
@@ -307,11 +1153,11 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Starting Equipment</name>
-				<text>• You start with the following equipment, in addition to the equipment granted by your background:</text>
-				<text>• (a) a rapier or (b) a shortsword </text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
-				<text>• (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
-				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
+				<text>â€¢ You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>â€¢ (a) a rapier or (b) a shortsword </text>
+				<text>â€¢ (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
+				<text>â€¢ (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
+				<text>â€¢ 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
 			</feature>
 			<feature>
 				<name>Expertise</name>
@@ -319,8 +1165,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</text>
+				<text>Beginning at 1st level, you know how to strike subtly and exploit a foeâ€™s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
+				<text>You donâ€™t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isnâ€™t incapacitated, and you donâ€™t have disadvantage on the attack roll.</text>
 				<text>The amount of the extra damage increases as you gain levels in this class, as shown below.
 				</text>
 				<text>3rd level - 2d6</text>
@@ -335,8 +1181,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+				<text>During your rogue training you learned thievesâ€™ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thievesâ€™ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
+				<text>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thievesâ€™ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
 				</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -352,12 +1198,12 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Rogueish Archetype (Thief)</name>
-				<text>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn’t employ.</text>
+				<text>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldnâ€™t employ.</text>
 				<text>Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
 			</feature>
 			<feature>
 				<name>Fast Hands</name>
-				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.
+				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thievesâ€™ tools to disarm a trap or open a lock, or take the Use an Object action.
 				</text>
 			</feature>
 			<feature>
@@ -369,7 +1215,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="4">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="5">
@@ -379,7 +1225,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</text>
+				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attackâ€™s damage against you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="6">
@@ -395,13 +1241,13 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Evasion</name>
-				<text>Starting at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+				<text>Starting at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragonâ€™s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="8">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="9">
@@ -417,7 +1263,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="10">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="11">
@@ -433,7 +1279,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="12">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			</autolevel>
 		<autolevel level="13">
@@ -465,7 +1311,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="16">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			</autolevel>
 		<autolevel level="17">
@@ -475,13 +1321,13 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Thief's Reflexes</name>
-				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can’t use this feature when you are surprised.</text>
+				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You canâ€™t use this feature when you are surprised.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="18">
 			<feature>
 				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</text>
+				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you arenâ€™t incapacitated.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="19">
@@ -491,14 +1337,14 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			</autolevel>
 		<autolevel level="20">
 			<feature>
 				<name>Stroke of Luck</name>
 				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>Once you use this feature, you can’t use it again until you finish a short or long rest.</text>
+				<text>Once you use this feature, you canâ€™t use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 	</class>
@@ -519,11 +1365,11 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Starting Equipment</name>
-				<text>• You start with the following equipment, in addition to the equipment granted by your background:</text>
-				<text>• (a) a rapier or (b) a shortsword </text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
-				<text>• (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
-				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
+				<text>â€¢ You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>â€¢ (a) a rapier or (b) a shortsword </text>
+				<text>â€¢ (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
+				<text>â€¢ (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
+				<text>â€¢ 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
 			</feature>
 			<feature>
 				<name>Expertise</name>
@@ -531,8 +1377,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</text>
+				<text>Beginning at 1st level, you know how to strike subtly and exploit a foeâ€™s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
+				<text>You donâ€™t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isnâ€™t incapacitated, and you donâ€™t have disadvantage on the attack roll.</text>
 				<text>The amount of the extra damage increases as you gain levels in this class, as shown below.
 				</text>
 				<text>3rd level - 2d6</text>
@@ -547,8 +1393,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+				<text>During your rogue training you learned thievesâ€™ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thievesâ€™ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
+				<text>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thievesâ€™ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -579,7 +1425,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="4">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="5">
@@ -589,7 +1435,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</text>
+				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attackâ€™s damage against you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="6">
@@ -605,12 +1451,12 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Evasion</name>
-				<text>Starting at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+				<text>Starting at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragonâ€™s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="8">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 		</autolevel>
 		<autolevel level="9">
 			<feature>
@@ -625,7 +1471,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		</autolevel>
 		<autolevel level="10">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 		</autolevel>
 		<autolevel level="11">
 			<feature>
@@ -639,7 +1485,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		</autolevel>
 		<autolevel level="12">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 		</autolevel>
 		<autolevel level="13">
 			<feature>
@@ -670,7 +1516,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		</autolevel>
 		<autolevel level="16">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -685,7 +1531,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="18">
 			<feature>
 				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</text>
+				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you arenâ€™t incapacitated.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="19">
@@ -694,13 +1540,13 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 				<text>Your sneak attack damage increases by 1d6</text>
 			</feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 		</autolevel>
 		<autolevel level="20">
 			<feature>
 				<name>Stroke of Luck</name>
 				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>Once you use this feature, you can’t use it again until you finish a short or long rest.</text>
+				<text>Once you use this feature, you canâ€™t use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 	</class>	
@@ -783,10 +1629,10 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			<feature>
 				<name>Starting Equipment</name>
 				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
-				<text>• (a) a rapier or (b) a shortsword </text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
-				<text>• (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
-				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
+				<text>â€¢ (a) a rapier or (b) a shortsword </text>
+				<text>â€¢ (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
+				<text>â€¢ (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
+				<text>â€¢ 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
 			</feature>
 			<feature>
 				<name>Expertise</name>
@@ -794,8 +1640,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</text>
+				<text>Beginning at 1st level, you know how to strike subtly and exploit a foeâ€™s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
+				<text>You donâ€™t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isnâ€™t incapacitated, and you donâ€™t have disadvantage on the attack roll.</text>
 				<text>The amount of the extra damage increases as you gain levels in this class, as shown below.
 				</text>
 				<text>3rd level - 2d6</text>
@@ -810,8 +1656,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+				<text>During your rogue training you learned thievesâ€™ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thievesâ€™ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
+				<text>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thievesâ€™ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -843,9 +1689,9 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 				<name>Mage Hand Legerdemain</name>
 				<text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:
 				</text>
-				<text>• You can stow one object the hand is holding in a container worn or carried by another creature.</text>
-				<text>• You can retrieve an object in a container worn or carried by another creature.</text>
-				<text>• You can use thieves' tools to pick lock and disarm traps at range.</text>
+				<text>â€¢ You can stow one object the hand is holding in a container worn or carried by another creature.</text>
+				<text>â€¢ You can retrieve an object in a container worn or carried by another creature.</text>
+				<text>â€¢ You can use thieves' tools to pick lock and disarm traps at range.</text>
 				<text> You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.</text>
 				<text>In addition, you can use the bonus action granted by your Cunning Action to control the hand.</text>
 			</feature>
@@ -853,7 +1699,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="4">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			<feature>
 				<name>Spells Known</name>
@@ -867,7 +1713,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</text>
+				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attackâ€™s damage against you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="6">
@@ -883,7 +1729,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Evasion</name>
-				<text>Starting at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+				<text>Starting at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragonâ€™s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
 			</feature>
 			<feature>
 				<name>Spells Known</name>
@@ -892,7 +1738,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		</autolevel>
 		<autolevel level="8">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			<feature>
 				<name>Spells Known</name>
 				<text>You learn one additional 1st or 2nd level spells from the wizard spell list. They can be from any school of magic.</text>
@@ -910,7 +1756,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		</autolevel>
 		<autolevel level="10">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			<feature>
 				<name>Spells Known</name>
 				<text>You learn one additional 1st or 2nd level spells from the wizard spell list. It must be from the enchantment or illusion schools of magic.</text>
@@ -932,7 +1778,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		</autolevel>
 		<autolevel level="12">
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 		</autolevel>
 		<autolevel level="13">
 			<feature>
@@ -971,7 +1817,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="16">
 			<feature>	
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			<feature>
 				<name>Spells Known</name>
@@ -986,7 +1832,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			<feature>
 				<name>Spell Thief</name>
 				<text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</text>
-				<text>Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn’t need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can’t cast that spell until the 8 hours have passed.
+				<text>Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spellâ€™s effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesnâ€™t need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature canâ€™t cast that spell until the 8 hours have passed.
 				</text>
 				<text>Once you use this feature, you can't use it again until you finish a long rest.</text>
 				</feature>
@@ -994,7 +1840,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 		<autolevel level="18">
 			<feature>
 				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</text>
+				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you arenâ€™t incapacitated.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="19">
@@ -1004,7 +1850,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			</feature>
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you canâ€™t increase an ability score above 20 using this feature.</text>
 			</feature>
 			<feature>
 				<name>Spells Known</name>
@@ -1015,9 +1861,8 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 			<feature>
 				<name>Stroke of Luck</name>
 				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>Once you use this feature, you can’t use it again until you finish a short or long rest.</text>
+				<text>Once you use this feature, you canâ€™t use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 	</class>	
-	
 </compendium>
