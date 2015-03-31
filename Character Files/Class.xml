@@ -853,17 +853,33 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells.</text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
 			<text> </text>
 			<text>Preparing and Casting Spells</text>
-			<text>The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
-			<text>You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier+your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+			<text>The table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+			<text>You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
 			<text>For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
 			<text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. </text>
 			<text> </text>
@@ -879,23 +895,20 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>Death Domain</text>
+			<name>Divine Domain (Death)</name>
 			<text>The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and WeeJas are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder (Anubis, Bhaal, and Pyremius), pain (Iuz or Loviatar), disease or poison (Incabulos, Talona, or Morgion), and the underworld (Hades and He!). </text>
 			<text> </text>
 			<text>Death Domain Spells</text>
-			<text>At each indicated cleric level, add the listed spells to your spells prepared</text>
+			<text>At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit. </text>
 			<text>1st - false life, ray of sickness</text>
 			<text>3rd - blindness/deafness, ray of enfeeblement</text>
 			<text>5th - animate dead, vampiric touch</text>
 			<text>7th - blight, death ward</text>
 			<text>9th - antilife shell, cloudkill</text>
+		</feature>
+		<feature>
+			<name>Death Domain Spells</name>
+			<text>You add the false life and ray of sickness spells to your list of prepared spells. They do not count towards your limit.</text>
 		</feature>
 		<feature>
 			<name>Bonus Proficiency</name>
@@ -928,6 +941,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Death Domain Spells</name>
+			<text>You add the blindness/deafness and ray of enfeeblement spells to your list of prepared spells. They do not count towards your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -943,6 +960,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Death Domain Spells</name>
+			<text>You add the animate dead and vampiric touch spells to your list of prepared spells. They do not count towards your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -950,9 +971,17 @@
 			<name>Inescapable Destruction</name>
 			<text>Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>Death Domain Spells</name>
+			<text>You add the antilife shell and cloudkill spells to your list of prepared spells. They do not count towards your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -963,6 +992,10 @@
 		<feature>
 			<name>Ability Score Improvement</name>
 			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
 		</feature>
 	</autolevel>
 	<autolevel level="9">
@@ -980,6 +1013,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -993,6 +1030,10 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1003,7 +1044,6 @@
 				<name>Ability Score Improvement</name>
 				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
 			</feature>
-
 	</autolevel>
 	<autolevel level="17">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
@@ -1011,9 +1051,17 @@
 			<name>Improved Reaper</name>
 			<text>Starting at 17th level, when the cleric casts a Necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the cleric must provide them for each target.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 4 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 		<autolevel level="19">
 			<feature>
@@ -1023,6 +1071,10 @@
 		</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+			<feature>
+				<name>Improved Divine Intervention</name>
+				<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+			</feature>
 	</autolevel>
 </class>
 
@@ -1032,10 +1084,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+		<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -1058,16 +1126,9 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>Knowledge Domain</text>
+			<name>Divine Domain (Knowledge)</name>
 			<text>The gods of knowledge - including Oghma, Boccob, Gilean, Aureon, and Thoth - value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu. </text>
-			<text> </text>
+			<text></text>
 			<text>Knowledge Domain Spells</text>
 			<text>At each indicated cleric level, you add the listed spells to your spells prepared.</text>
 			<text>1st - command, identify</text>
@@ -1075,6 +1136,10 @@
 			<text>5th - nondetection, speak with dead</text>
 			<text>7th - arcane eye, confusion</text>
 			<text>9th - legend lore, scrying</text>
+		</feature>
+		<feature>
+			<name>Knowledge Domain Spells</name>
+			<text>You add the command and identify spells to your list of prepared spells. They do not count toward your limit.</text>
 		</feature>
 		<feature>
 			<name>Blessings of Knowledge</name>
@@ -1103,6 +1168,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Knowledge Domain Spells</name>
+			<text>You add the augury and suggestion spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -1118,6 +1187,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Knowledge Domain Spells</name>
+			<text>You add the nondetection and speak with dead spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -1128,9 +1201,17 @@
 			<text>If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.</text>
 			<text>During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>Knowledge Domain Spells</name>
+			<text>You add the arcane eye and confusion spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -1142,9 +1223,17 @@
 			<name>Potent Spellcasting</name>
 			<text>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Knowledge Domain Spells</name>
+			<text>You add the legend lore and scrying spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -1158,6 +1247,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -1171,6 +1264,10 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1193,9 +1290,17 @@
 			<text> </text>
 			<text>Area Reading. As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 4 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1206,6 +1311,10 @@
 		</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+		</feature>
 	</autolevel>
 </class>
 
@@ -1215,10 +1324,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -1241,14 +1366,7 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>Life Domain</text>
+			<name>Divine Domain (Life)</name>
 			<text>The Life domain focuses on the vibrant positive energy - one of the fundamental forces of the universe -  that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei). </text>
 			<text> </text>
 			<text>Life Domain Spells</text>
@@ -1258,6 +1376,18 @@
 			<text>5th - beacon of hope, revivify</text>
 			<text>7th - death ward, guardian of faith</text>
 			<text>9th - mass cure wounds, raise dead</text>
+		</feature>
+		<feature>
+			<name>Life Domain Spells</name>
+			<text>You add the bless and cure wounds spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
+		<feature>
+			<name>Bonus Proficiency</name>
+			<text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</text>
+		</feature>
+		<feature>
+			<name>Disciple of Life</name>
+			<text>Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2+the spell's level.</text>
 		</feature>
 		</autolevel>
 	<autolevel level="2">
@@ -1282,6 +1412,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Life Domain Spells</name>
+			<text>You add the lesser restoration and spiritual weapon spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -1297,6 +1431,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Life Domain Spells</name>
+			<text>You add the beacon of hope and revivify spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -1304,9 +1442,17 @@
 			<name>Blessed Healer</name>
 			<text>Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2+the spell's level.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>Life Domain Spells</name>
+			<text>You add the death ward and guardian of faith spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -1318,9 +1464,17 @@
 			<name>Divine Strike</name>
 			<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
 		</feature>
-	</autolevel>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Life Domain Spells</name>
+			<text>You add the mass cure wounds and raise dead spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -1334,7 +1488,11 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
-	</autolevel>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
 		<feature>
@@ -1347,7 +1505,11 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
-	</autolevel>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
 	</autolevel>
@@ -1364,9 +1526,17 @@
 			<name>Supreme Healing</name>
 			<text>Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 4 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1377,6 +1547,10 @@
 		</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+		</feature>
 	</autolevel>
 </class>
 <class>
@@ -1385,10 +1559,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+		<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -1411,12 +1601,10 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
+			<name>Divine Domain (Light)</name>
 			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
 			<text> </text>
 			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
 			<text> </text>
 			<text>Light Domain</text>
 			<text>Gods of light - including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty - promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.</text>
@@ -1428,6 +1616,10 @@
 			<text>5th - daylight, fireball</text>
 			<text>7th - guardian of faith, wall of fire</text>
 			<text>9th - flame strike, scrying</text>
+		</feature>
+		<feature>
+			<name>Light Domain Spells</name>
+			<text>You add the burning hands and faerie fire spells to your list of prepared spells. They do not count toward your limit.</text>
 		</feature>
 		<feature>
 			<name>Bonus Cantrip</name>
@@ -1461,6 +1653,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Light Domain Spells</name>
+			<text>You add the flaming sphere and scorching ray spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -1476,6 +1672,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Light Domain Spells</name>
+			<text>You add the daylight and fireball spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -1483,10 +1683,18 @@
 			<name>Improved Flare</name>
 			<text>Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
-	</autolevel>
+		<feature>
+			<name>Light Domain Spells</name>
+			<text>You add the guardian of faith and wall of fire spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
 		<feature>
@@ -1497,9 +1705,17 @@
 			<name>Potent Spellcasting</name>
 			<text>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Knowledge Domain Spells</name>
+			<text>You add the flame strike and scrying spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -1513,6 +1729,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -1526,6 +1746,10 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1546,6 +1770,10 @@
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1556,6 +1784,10 @@
 	</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+		</feature>
 	</autolevel>
 </class>
 
@@ -1565,10 +1797,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -1591,14 +1839,7 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>Nature Domain</text>
+			<name>Divine Domain (Nature)</name>
 			<text>Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods. </text>
 			<text> </text>
 			<text>Nature Domain Spells</text>
@@ -1608,6 +1849,10 @@
 			<text>5th - plant growth, wind wall</text>
 			<text>7th - dominate beast, grasping vine</text>
 			<text>9th - insect plague, tree stride</text>
+		</feature>
+		<feature>
+			<name>Nature Domain Spells</name>
+			<text>You add the animal friendship and speak with animals spells to your list of prepared spells. They do not count toward your limit.</text>
 		</feature>
 		<feature>
 			<name>Acolyte of Nature</name>
@@ -1640,6 +1885,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Nature Domain Spells</name>
+			<text>You add the barskin and spike growth spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -1655,6 +1904,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Nature Domain Spells</name>
+			<text>You add the plant growth and wind wall spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -1662,9 +1915,17 @@
 			<name>Dampen Elements</name>
 			<text>Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>Nature Domain Spells</name>
+			<text>You add the dominate beast and grasping vine spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -1676,9 +1937,17 @@
 			<name>Divine Strike</name>
 			<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Nature Domain Spells</name>
+			<text>You add the insect plague and tree stride spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -1692,6 +1961,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -1705,12 +1978,17 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
 	</autolevel>
 	<autolevel level="16">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
 			<name>Ability Score Improvement</name>
 			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
 		</feature>
@@ -1721,9 +1999,17 @@
 			<name>Master of Nature</name>
 			<text>At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 4 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -1734,6 +2020,10 @@
 	</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+		</feature>
 	</autolevel>
 </class>
 
@@ -1743,10 +2033,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -1769,14 +2075,7 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>Tempest Domain</text>
+			<name>Divine Domain (Tempest)</name>
 			<text>Gods whose portfolios include the Tempest domain - including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor - govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath. </text>
 			<text> </text>
 			<text>Tempest Domain Spells</text>
@@ -1786,6 +2085,10 @@
 			<text>5th - call lightning, sleet storm</text>
 			<text>7th - control water, ice storm</text>
 			<text>9th - destructive wave, insect plague</text>
+		</feature>
+		<feature>
+			<name>Tempest Domain Spells</name>
+			<text>You add the fog cloud and thunderwave spells to your list of prepared spells. They do not count toward your limit.</text>
 		</feature>
 		<feature>
 			<name>Bonus Proficiencies</name>
@@ -1819,6 +2122,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Tempest Domain Spells</name>
+			<text>You add the gust of wind and shatter spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -1834,6 +2141,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Tempest Domain Spells</name>
+			<text>You add the call lightning and sleet storm spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -1841,9 +2152,17 @@
 			<name>Thunderbolt Strike</name>
 			<text>At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>Tempest Domain Spells</name>
+			<text>You add the control weather and ice storm spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -1855,9 +2174,17 @@
 			<name>Divine Strike</name>
 			<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Tempest Domain Spells</name>
+			<text>You add the destructive wave and insect plague spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -1871,6 +2198,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -1884,7 +2215,11 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
-	</autolevel>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
 	</autolevel>
@@ -1904,15 +2239,23 @@
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
-	</autolevel>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+		<feature>
+			<name>Ability Score Improvement</name>
+			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
 		<feature>
-			<name>Ability Score Improvement</name>
-			<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
 		</feature>
 	</autolevel>
 </class>
@@ -1923,10 +2266,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -1949,22 +2308,20 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>Trickery Domain</text>
+			<name>Divine Domain (Trickery)</name>
 			<text>Gods of trickery - such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki - are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.</text>
 			<text> </text>
 			<text>Trickery Domain Spells</text>
 			<text>At each indicated cleric level, you add the listed spells to your spells prepared.</text>
 			<text>1st - charm person, disguise self</text>
 			<text>3rd - mirror image, pass without trace</text>
-			<text>5th - blink, dispel magic\7th - dimension door, polymorph</text>
+			<text>5th - blink, dispel magic</text>
+			<text>7th - dimension door, polymorph</text>
 			<text>9th - dominate person, modify memory</text>
+		</feature>
+		<feature>
+			<name>Trickery Domain Spells</name>
+			<text>You add the charm person and disguise self spells to your list of prepared spells. They do not count toward your limit.</text>
 		</feature>
 		<feature>
 			<name>Blessing of the Trickster</name>
@@ -1994,6 +2351,10 @@
 	</autolevel>
 	<autolevel level="3">
 		<slots>3, 4, 2</slots>
+		<feature>
+			<name>Trickery Domain Spells</name>
+			<text>You add the mirror image and pass without trace spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="4">
 		<slots>4, 4, 3</slots>
@@ -2009,6 +2370,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>Trickery Domain Spells</name>
+			<text>You add the blink and dispel magic spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -2017,9 +2382,17 @@
 			<text>Starting at 6th level, you can use your Channel Divinity to vanish.</text>
 			<text>As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>Trickery Domain Spells</name>
+			<text>You add the dimension door and polymorph spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -2031,9 +2404,17 @@
 			<name>Divine Strike</name>
 			<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>Trickery Domain Spells</name>
+			<text>You add the dominate person and modify memory spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -2047,6 +2428,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -2060,6 +2445,10 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -2077,9 +2466,17 @@
 			<name>Improved Duplicity</name>
 			<text>At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 4 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -2090,6 +2487,10 @@
 	</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+		</feature>
 	</autolevel>
 </class>
 
@@ -2099,10 +2500,26 @@
 	<proficiency>Wisdom, Charisma</proficiency>
 	<spellAbility>Wisdom</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: Light armor, medium armor, shields</text>
+				<text>Weapons: All simple weapons</text>
+				<text>Tools: None</text>
+				<text>Saving Throws: Dexterity, Charisma</text>
+				<text>Skills: Choose two from History, Insight, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a mace or (b) a warhammer (if proficient) </text>
+				<text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient) </text>
+				<text>• (a) a priest’s pack or (b) an explorer’s pack </text>
+				<text>• 5d4 x 10 gp, a shield, and a holy symbol</text>
+			</feature>
 		<slots>3, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
-			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+			<text>As a conduit for divine power, you can cast cleric spells. </text>
 			<text> </text>
 			<text>Cantrips</text>
 			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table. </text>
@@ -2125,14 +2542,7 @@
 			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
 		</feature>
 		<feature>
-			<name>Divine Domain</name>
-			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels. </text>
-			<text> </text>
-			<text>Domain Spells</text>
-			<text>Each domain has a list of spells - its domain spells -  that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
-			<text>If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
-			<text> </text>
-			<text>War Domain</text>
+			<name>Divine Domain (War)</name>
 			<text>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance. </text>
 			<text> </text>
 			<text>War Domain Spells</text>
@@ -2143,6 +2553,10 @@
 			<text>7th - freedom of movement, stoneskin</text>
 			<text>9th - flame strike, hold monster</text>
 		</feature>
+		<feature>
+			<name>War Domain Spells</name>
+			<text>You add the divine favor and shield of faith spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>		
 		<feature>
 			<name>Bonus Proficiencies</name>
 			<text>At 1st level, you gain proficiency with martial weapons and heavy armor.</text>
@@ -2172,6 +2586,10 @@
 		</feature>
 	</autolevel>
 	<autolevel level="3">
+		<feature>
+			<name>War Domain Spells</name>
+			<text>You add the magic weapon and spiritual weapon spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 		<slots>3, 4, 2</slots>
 	</autolevel>
 	<autolevel level="4">
@@ -2188,6 +2606,10 @@
 			<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold</text>
 			<text>At 5th level, you destroy undead of CR 1/2 or lower; at 8th level, CR 1 or lower; at 11th level, CR 2 or lower; at 14th level, CR 3 or lower; and at 17th level, CR 4 or lower.</text>
 		</feature>
+		<feature>
+			<name>War Domain Spells</name>
+			<text>You add the crusader's mantel and spirit guardians spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="6">
 		<slots>3, 4, 3, 3</slots>
@@ -2195,9 +2617,17 @@
 			<name>Channel Divinity: War God's Blessing</name>
 			<text>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</text>
 		</feature>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity twice between rests</text>
+		</feature>
 	</autolevel>
 	<autolevel level="7">
 		<slots>3, 4, 3, 3, 1</slots>
+		<feature>
+			<name>War Domain Spells</name>
+			<text>You add the freedom of movement and stoneskin spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="8">
 		<slots>3, 4, 3, 3, 2</slots>
@@ -2209,9 +2639,17 @@
 			<name>Divine Strike</name>
 			<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 1 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
 		<slots>3, 4, 3, 3, 3, 1</slots>
+		<feature>
+			<name>War Domain Spells</name>
+			<text>You add the flame strike and hold monster spells to your list of prepared spells. They do not count toward your limit.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
 		<slots>5, 4, 3, 3, 3, 2</slots>
@@ -2225,6 +2663,10 @@
 	</autolevel>
 	<autolevel level="11">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 2 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
 		<slots>5, 4, 3, 3, 3, 2, 1</slots>
@@ -2238,7 +2680,11 @@
 	</autolevel>
 	<autolevel level="14">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
-	</autolevel>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 3 or lower.</text>
+		</feature>
+		</autolevel>
 	<autolevel level="15">
 		<slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
 	</autolevel>
@@ -2255,9 +2701,17 @@
 			<name>Avatar of Battle</name>
 			<text>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
 		</feature>
+		<feature>
+			<name>Improved Destroy Undead</name>
+			<text>You destroy undead of CR 4 or lower.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
 		<slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+		<feature>
+			<name>Improved Channel Divinity</name>
+			<text>You can use your Channel Divinity three times between rests.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
 		<slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
@@ -2268,11 +2722,15 @@
 	</autolevel>
 	<autolevel level="20">
 		<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+		<feature>
+			<name>Improved Divine Intervention</name>
+			<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+		</feature>
 	</autolevel>
 </class>
 <!--Paladin-->
-<class>
-		<name>Paladin (Vengeance)</name>
+	<class>
+		<name>Paladin (Oath of Devotion)</name>
 		<hd>10</hd>
 		<proficiency>Wisdom, Charisma</proficiency>
 		<spellAbility>Charisma</spellAbility>
@@ -2352,91 +2810,753 @@ Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, 
 				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
 				<text>• (a) five javelins or (b) any simple melee weapon</text>
 				<text>• (a) a priest's pack or (b) an explorer's pack</text>
-				<text>• 5d4 x 10 gp, Chain mail, and a holy symbol</text>
+				<text>• Chain mail and a holy symbol</text>
 			</feature>
 			<feature>
 				<name>Divine Sense</name>
 				<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</text>
-				<text>You can use this feature a number of times equal to 1+ your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+				<text>You can use this feature a number of times equal to 1+your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
 			</feature>
 			<feature>
 				<name>Lay on Hands</name>
 				<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</text>
 				<text>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</text>
-				<text>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multi pIe poisons with a single use of Lay on Hands, expending hit points separately
-for each one.</text>
+				<text>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</text>
 				<text>This feature has no effect on undead and constructs.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
 			<feature>
 				<name>Fighting Style</name>
-				<text>At 2nd level, you adopt a style of fighting as your speciality. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
-				</text>
-				<text>DEFENSE: While you are wearing armor, you gain a +1 bonus to AC.
-				</text>
-				<text>DUELING: When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
-				</text>
-				<text>GREAT WEAPON FIGHTING:
-When you roll a 1or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
-</text>
-				<text>PROTECTION:
-When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+				<text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again. </text>
+				<text> </text>
+				<text>Defense</text>
+				<text>While you are wearing armor, you gain a +1 bonus to AC. </text>
+				<text> </text>
+				<text>Dueling</text>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. </text>
+				<text> </text>
+				<text>Great Weapon Fighting</text>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit. </text>
+				<text> </text>
+				<text>Protection</text>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
 			</feature>
 			<feature>
 				<name>Spellcasting</name>
-				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</text>
-				<text>
-PREPARING AND CASTING SPELLS
-The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain ali expended spell slots when you finish a long rest</text>
-				<text>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
-				<text>For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
-				<text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least I minute per spell level for each spell on your list.</text>
-				<text>
-SPELLCASTING ABILITY
-Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one. </text>
-				<text>Spell save DC = 8 + your proficiency bonus + your Charisma Modifier</text>
-				<text>Spell attack Modifier = your proficiency bonus + your Charisma Modifier</text>
-				<text>Spellcasting Focus
-You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells. </text>
+				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.</text>
+				<text> </text>
+				<text>Preparing and Casting Spells</text>
+				<text>To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier+half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. </text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Charisma is your spellcasting ability for your paladin spells.
+				</text>
+				<text>Spell save DC 
+	• 8+proficiency bonus+your Cha mod
+	  			</text>
+				<text>Spell attack modifier 
+	• Proficiency bonus+your Cha modifier 
+				</text>
+				<text>Spellcasting Focus</text>
+				<text>You can use a holy symbol as a spellcasting focus for your paladin spells.</text>
 			</feature>
 			<feature>
 				<name>Divine Smite</name>
-				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus ld8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by ld8 if the target is an undead or a fiend.</text>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="3">
 			<feature>
 				<name>Divine Health</name>
-				<text>By 3rd level, the divine magic flowing through you makes you immune to disease</text>
+				<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
 			</feature>
 			<feature>
-				<name>Tenents of Vengeance</name>
-				<text>The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</text>
-				<text>Fight the Greater Evil. Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.</text>
-				<text>No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.</text>
-				<text>By Any Means Necessary. My qualms can't get in the way of exterminating my foes.</text>
-				<text>Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</text>
+				<name>Oath of Devotion</name>
+				<text>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms. </text>
+				<text> </text>
+				<text>Tenets of Devotion</text>
+				<text>Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.
+				</text>
+				<text>Honesty. </text>
+				<text>Don't lie or cheat. Let your word be your promise.
+				</text>
+				<text>Courage. </text>
+				<text>Never fear to act, though caution is wise.
+				</text>
+				<text>Compassion.</text>
+				<text>Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
+				</text>
+				<text>Honor. </text>
+				<text>Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
+				</text>
+				<text>Duty.</text>
+				<text>Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you. 
+				</text>
 			</feature>
 			<feature>
-				<name>Channel Divinity (Vengeance)</name>
-				<text>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</text>
-				<text>Abjure Enemy. As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinlty. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
-On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and It can't benefit from any bonus to its speed.</text>
-				<text>On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.</text>
-				<text>Vow of Enmity. As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to O hit points or falls unconscious.</text>
+				<name>Channel Divinity (Devotion)</name>
+				<text>When you take this oath at 3rd level, you gain the following two Channel Divinity options.
+				</text>
+				<text>Sacred Weapon.</text>
+				<text>As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.</text>
+				<text>You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.
+				</text>
+				<text>Turn the Unholy.</text>
+				<text>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</text>
+				<text>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</text>
 			</feature>
 			<feature>
-				<name>Oath of Vengeance Spells (Level 3)</name>
-				<text>You gain access to the following spells: bane, and hunter's mark.</text>
+				<name>Oath of Devotion Spells (Level 3)</name>
+				<text>You gain access to the following spells: protection from evil and good, and sanctuary.
+				</text>
 				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
-				<text>If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="4">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature>
+				<name>Oath of Devotion Spells (Level 5)</name>
+				<text>You gain access to the following spells: lesser restoration, zone of truth.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Aura of Protection</name>
+				<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature>
+				<name>Aura of Devotion</name>
+				<text>Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Oath of Devotion Spells (Level 9)</name>
+				<text>You gain access to the following spells: beacon of hope, dispel magic.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Aura of Courage</name>
+				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Improved Divine Smite</name>
+				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Oath of Devotion Spells (Level 13)</name>
+				<text>You gain access to the following spells: freedom of movement, guardian of the faith.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature>
+				<name>Cleansing Touch</name>
+				<text>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.</text>
+				<text>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature>
+				<name>Purity of Spirit</name>
+				<text>Beginning at 15th level, you are always under the effects of a protection from evil and good spell.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Oath of Devotion Spells (Level 17)</name>
+				<text>You gain access to the following spells: commune, flame strike.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Aura of Courage (Improved)</name>
+				<text>You and friendly creatures within 30 feet of you can't be frightened while you are conscious.</text>
+			</feature>
+			<feature>
+				<name>Aura of Protection (Improved)</name>
+				<text>Whenever you or a friendly creature within 30 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+			</feature>
+			<feature>
+				<name>Aura of Devotion (Improved)</name>
+				<text>You and friendly creatures within 30 feet of you can't be charmed while you are conscious.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Holy Nimbus</name>
+				<text>At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.</text>
+				<text>Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.</text>
+				<text>In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.</text>
+				<text>Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</class>
+	<class>
+		<name>Paladin (Oath of the Ancients)</name>
+		<hd>10</hd>
+		<proficiency>Wisdom, Charisma</proficiency>
+		<spellAbility>Charisma</spellAbility>
+		<autolevel level="1">
+			<slots>0,0,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>0,2,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>0,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>0,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>0,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>0,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>0,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>0,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>0,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>0,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>0,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>0,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>0,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>0,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>0,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>0,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>0,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>0,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>0,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>0,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: All armor, Shields
+Weapons: Simple weapons, martial weapons
+Tools: None
+					
+Saving Throws: Wisdom, Charisma
+Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>• (a) five javelins or (b) any simple melee weapon</text>
+				<text>• (a) a priest's pack or (b) an explorer's pack</text>
+				<text>• Chain mail and a holy symbol</text>
+			</feature>
+			<feature>
+				<name>Divine Sense</name>
+				<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</text>
+				<text>You can use this feature a number of times equal to 1+your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+			</feature>
+			<feature>
+				<name>Lay on Hands</name>
+				<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</text>
+				<text>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</text>
+				<text>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</text>
+				<text>This feature has no effect on undead and constructs.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Fighting Style</name>
+				<text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again. </text>
+				<text> </text>
+				<text>Defense</text>
+				<text>While you are wearing armor, you gain a +1 bonus to AC. </text>
+				<text> </text>
+				<text>Dueling</text>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. </text>
+				<text> </text>
+				<text>Great Weapon Fighting</text>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit. </text>
+				<text> </text>
+				<text>Protection</text>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.</text>
+				<text> </text>
+				<text>Preparing and Casting Spells</text>
+				<text>To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier+half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. </text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Charisma is your spellcasting ability for your paladin spells.
+				</text>
+				<text>Spell save DC 
+	• 8+proficiency bonus+your Cha mod
+	  			</text>
+				<text>Spell attack modifier 
+	• Proficiency bonus+your Cha modifier 
+				</text>
+				<text>Spellcasting Focus</text>
+				<text>You can use a holy symbol as a spellcasting focus for your paladin spells.</text>
+			</feature>
+			<feature>
+				<name>Divine Smite</name>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Divine Health</name>
+				<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+			</feature>
+			<feature>
+				<name>Oath of the Ancients</name>
+				<text>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world. </text>
+				<text> </text>
+				<text>Tenets of the Ancients</text>
+				<text>The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple. 
+				</text>
+				<text>Kindle the Light.</text>
+				<text>Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.
+				</text>
+				<text>Shelter the Light.</text>
+				<text>Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren. 
+				</text>
+				<text>Preserve Your Own Light.</text>
+				<text>Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world. 
+				</text>
+				<text>Be the Light.</text>
+				<text>Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds. </text>
+			</feature>
+			<feature>
+				<name>Channel Divinity (Ancients)</name>
+				<text>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</text>
+				<text> </text>
+				<text>Nature's Wrath.</text>
+				<text>You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</text>
+				<text> </text>
+				<text>Turn the Faithless.</text>
+				<text>You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</text>
+				<text>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</text>
+				<text>If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.</text>
+			</feature>
+			<feature>
+				<name>Oath of the Ancients Spells (Level 3)</name>
+				<text>You gain access to the following spells: ensnaring strike, speak with animals.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature>
+				<name>Oath of the Ancients Spells (Level 5)</name>
+				<text>You gain access to the following spells: moonbeam, misty step.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Aura of Protection</name>
+				<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature>
+				<name>Aura of Warding</name>
+				<text>Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Oath of the Ancients Spells (Level 9)</name>
+				<text>You gain access to the following spells: plant growth, protection from energy.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Aura of Courage</name>
+				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Improved Divine Smite</name>
+				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Oath of the Ancients Spells (Level 13)</name>
+				<text>You gain access to the following spells: ice storm, stoneskin.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature>
+				<name>Cleansing Touch</name>
+				<text>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.</text>
+				<text>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature>
+				<name>Undying Sentinel</name>
+				<text>Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.</text>
+				<text>Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Oath of the Ancients Spells (Level 17)</name>
+				<text>You gain access to the following spells: commune with nature, tree stride.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Aura of Courage (Improved)</name>
+				<text>You and friendly creatures within 30 feet of you can't be frightened while you are conscious.</text>
+			</feature>
+			<feature>
+				<name>Aura of Warding (Improved)</name>
+				<text>Ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 30 feet of you have resistance to damage from spells.</text>
+			</feature>
+			<feature>
+				<name>Aura of Protection (Improved)</name>
+				<text>Whenever you or a friendly creature within 30 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Elder Champion</name>
+				<text>At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or mosslike, or you might sprout antlers or a lion-like mane.</text>
+				<text>Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:</text>
+				<text>• At the start of each of your turns, you regain 10 hit points.</text>
+				<text>• Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.</text>
+				<text>• Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.</text>
+				<text>Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</class>
+	<class>
+		<name>Paladin (Oath of Vengeance)</name>
+		<hd>10</hd>
+		<proficiency>Wisdom, Charisma</proficiency>
+		<spellAbility>Charisma</spellAbility>
+		<autolevel level="1">
+			<slots>0,0,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>0,2,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>0,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>0,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>0,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>0,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>0,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>0,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>0,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>0,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>0,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>0,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>0,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>0,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>0,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>0,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>0,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>0,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>0,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>0,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: All armor, Shields
+Weapons: Simple weapons, martial weapons
+Tools: None
+					
+Saving Throws: Wisdom, Charisma
+Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>• (a) five javelins or (b) any simple melee weapon</text>
+				<text>• (a) a priest's pack or (b) an explorer's pack</text>
+				<text>• Chain mail and a holy symbol</text>
+			</feature>
+			<feature>
+				<name>Divine Sense</name>
+				<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</text>
+				<text>You can use this feature a number of times equal to 1+your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+			</feature>
+			<feature>
+				<name>Lay on Hands</name>
+				<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</text>
+				<text>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</text>
+				<text>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</text>
+				<text>This feature has no effect on undead and constructs.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Fighting Style</name>
+				<text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again. </text>
+				<text> </text>
+				<text>Defense</text>
+				<text>While you are wearing armor, you gain a +1 bonus to AC. </text>
+				<text> </text>
+				<text>Dueling</text>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. </text>
+				<text> </text>
+				<text>Great Weapon Fighting</text>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit. </text>
+				<text> </text>
+				<text>Protection</text>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.</text>
+				<text> </text>
+				<text>Preparing and Casting Spells</text>
+				<text>To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier+half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. </text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Charisma is your spellcasting ability for your paladin spells.
+				</text>
+				<text>Spell save DC 
+	• 8+proficiency bonus+your Cha mod
+	  			</text>
+				<text>Spell attack modifier 
+	• Proficiency bonus+your Cha modifier 
+				</text>
+				<text>Spellcasting Focus</text>
+				<text>You can use a holy symbol as a spellcasting focus for your paladin spells.</text>
+			</feature>
+			<feature>
+				<name>Divine Smite</name>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Divine Health</name>
+				<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+			</feature>
+			<feature>
+				<name>Oath of Vengeance</name>
+				<text>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins -  sometimes called avengers or dark knights - their own purity is not as important as delivering justice.</text>
+				<text> </text>
+				<text>Tenets of Vengeance</text>
+				<text>The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple. 
+				</text>
+				<text>Fight the Greater Evil.</text>
+				<text>Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil. 
+				</text>
+				<text>No Mercy for the Wicked.</text>
+				<text>Ordinary foes might win my mercy, but my sworn enemies do not. 
+				</text>
+				<text>By Any Means Necessary.</text>
+				<text>My qualms can't get in the way of exterminating my foes. 
+				</text>
+				<text>Restitution.</text>
+				<text>If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds. </text>
+			</feature>
+			<feature>
+				<name>Channel Divinity (Vengeance)</name>
+				<text>When you take this oath at 3rd level, you gain the following two Channel Divinity options. </text>
+				<text> </text>
+				<text>Abjure Enemy.</text>
+				<text>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.</text>
+				<text>On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.</text>
+				<text>On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage. </text>
+				<text> </text>
+				<text>Vow of Enmity. </text>
+				<text>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</text>
+			</feature>
+			<feature>
+				<name>Oath of Vengeance Spells (Level 3)</name>
+				<text>You gain access to the following spells: bane, hunter's mark.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="5">
@@ -2446,9 +3566,10 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 			</feature>
 			<feature>
 				<name>Oath of Vengeance Spells (Level 5)</name>
-				<text>You gain access to the following spells: hold person, misty step.</text>
+				<text>You gain access to the following spells: hold person, misty step.
+				</text>
 				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
-				<text>If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="6">
@@ -2467,43 +3588,44 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="8">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
 			</feature>
-			</autolevel>
+		</autolevel>
 		<autolevel level="9">
 			<feature>
 				<name>Oath of Vengeance Spells (Level 9)</name>
-				<text>You gain access to the following spells: haste, protection from energy.</text>
+				<text>You gain access to the following spells: haste, protection from energy.
+				</text>
 				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
-				<text>If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="10">
 			<feature>
 				<name>Aura of Courage</name>
-				<text>Starting at 10th level. you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
+				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
 				<text>At 18th level, the range of this aura increases to 30 feet.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="11">
 			<feature>
 				<name>Improved Divine Smite</name>
-				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.
-				</text>
+				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="12">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
 			</feature>
-			</autolevel>
+		</autolevel>
 		<autolevel level="13">
 			<feature>
 				<name>Oath of Vengeance Spells (Level 13)</name>
-				<text>You gain access to the following spells: banishment, dimension door.</text>
+				<text>You gain access to the following spells: banishment, dimension door.
+				</text>
 				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
-				<text>If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="14">
@@ -2522,25 +3644,328 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="16">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="17">
 			<feature>
 				<name>Oath of Vengeance Spells (Level 17)</name>
-				<text>You gain access to the following spells: hold monster, scrying.</text>
+				<text>You gain access to the following spells: hold monster, scrying.
+				</text>
 				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
-				<text>If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="18">
 			<feature>
-				<name>Aura of Protection (Range Increase)</name>
-				<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+				<name>Aura of Courage</name>
+				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
 				<text>At 18th level, the range of this aura increases to 30 feet.</text>
 			</feature>
 			<feature>
-				<name>Aura of Courage (Range Increase)</name>
+				<name>Aura of Protection</name>
+				<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Avenging Angel</name>
+				<text>At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:</text>
+				<text>• Wings sprout from your back and grant you a flying speed of 60 feet.</text>
+				<text>• You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.</text>
+				<text>Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</class>
+	<class>
+		<name>Paladin (Oathbreaker)</name>
+		<hd>10</hd>
+		<proficiency>Wisdom, Charisma</proficiency>
+		<spellAbility>Charisma</spellAbility>
+		<autolevel level="1">
+			<slots>0,0,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>0,2,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>0,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>0,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>0,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>0,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>0,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>0,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>0,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>0,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>0,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>0,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>0,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>0,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>0,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>0,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>0,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>0,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>0,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>0,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: All armor, Shields
+Weapons: Simple weapons, martial weapons
+Tools: None
+					
+Saving Throws: Wisdom, Charisma
+Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>• (a) five javelins or (b) any simple melee weapon</text>
+				<text>• (a) a priest's pack or (b) an explorer's pack</text>
+				<text>• Chain mail and a holy symbol</text>
+			</feature>
+			<feature>
+				<name>Divine Sense</name>
+				<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</text>
+				<text>You can use this feature a number of times equal to 1+your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+			</feature>
+			<feature>
+				<name>Lay on Hands</name>
+				<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</text>
+				<text>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</text>
+				<text>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</text>
+				<text>This feature has no effect on undead and constructs.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Fighting Style</name>
+				<text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again. </text>
+				<text> </text>
+				<text>Defense</text>
+				<text>While you are wearing armor, you gain a +1 bonus to AC. </text>
+				<text> </text>
+				<text>Dueling</text>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. </text>
+				<text> </text>
+				<text>Great Weapon Fighting</text>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit. </text>
+				<text> </text>
+				<text>Protection</text>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.</text>
+				<text> </text>
+				<text>Preparing and Casting Spells</text>
+				<text>To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier+half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. </text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Charisma is your spellcasting ability for your paladin spells.
+				</text>
+				<text>Spell save DC 
+	• 8+proficiency bonus+your Cha mod
+	  			</text>
+				<text>Spell attack modifier 
+	• Proficiency bonus+your Cha modifier 
+				</text>
+				<text>Spellcasting Focus</text>
+				<text>You can use a holy symbol as a spellcasting focus for your paladin spells.</text>
+			</feature>
+			<feature>
+				<name>Divine Smite</name>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Divine Health</name>
+				<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+			</feature>
+			<feature>
+				<name>Oathbreaker</name>
+				<text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.</text>
+				<text>A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
+			</feature>
+			<feature>
+				<name>Channel Divinity (Oathbreaker)</name>
+				<text>An Oathbreaker paladin of 3rd level or higher gains the following two Channel Divinity options.</text>
+				<text> </text>
+				<text>Control Undead.</text>
+				<text>As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.</text>
+				<text> </text>
+				<text>Dreadful Aspect.</text>
+				<text>As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</text>
+			</feature>
+			<feature>
+				<name>Oathbreaker (Level 3)</name>
+				<text>You gain access to the following spells: hellish rebuke, inflict wounds.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Oathbreaker (Level 5)</name>
+				<text>You gain access to the following spells: crown of madness, darkness.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Aura of Protection</name>
+				<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature>
+				<name>Aura of Hate</name>
+				<text>Starting at 7th level, the paladin, as well as any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Oathbreaker (Level 9)</name>
+				<text>You gain access to the following spells: animate dead, bestow curse.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Aura of Courage</name>
+				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
+				<text>At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Improved Divine Smite</name>
+				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Oathbreaker (Level 13)</name>
+				<text>You gain access to the following spells: blight, confusion.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature>
+				<name>Cleansing Touch</name>
+				<text>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.</text>
+				<text>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature>
+				<name>Supernatural Resistance</name>
+				<text>At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Oathbreaker (Level 17)</name>
+				<text>You gain access to the following spells: contagion, dominate person.
+				</text>
+				<text>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</text>
+				<text>If you gain an oath spell that doesn't appear on the paladin spelllist, the spell is nonetheless a paladin spell for you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Aura of Protection (Improved)</name>
+				<text>Whenever you or a friendly creature within 30 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+			</feature>
+			<feature>
+				<name>Aura of Hate (Improved)</name>
+				<text>The paladin, as well as any fiends and undead within 30 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.</text>
+			</feature>
+			<feature>
+				<name>Aura of Courage (Improved)</name>
 				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
 				<text>At 18th level, the range of this aura increases to 30 feet.</text>
 			</feature>
@@ -2548,20 +3973,19 @@ On a failed save, the creature is frightened for 1 minute or until it takes any 
 		<autolevel level="19">
 			<feature>
 				<name>Ability Score Improvement</name>
-				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>You can increase one ability score of your choice by 2, you can increase two ability scores of your choice by 1, or you can take a feat (if your DM allows it). As normal, you can’t increase an ability score above 20 using this feature.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="20">
 			<feature>
-				<name>Avenging Angel</name>
-				<text>At 20th level, you ean assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:</text>
-				<text>Wings sprout from your back and grant you a flying speed of 60 feet.</text>
-				<text>You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or unti it takes any damage. Attack rolls against the frightened creature have advantage.</text>
-				<text>Once you use this feature, you can't use it again until you finish a long rest.</text>
+				<name>Dread Lord</name>
+				<text>At 20th-level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.</text>
+				<text>While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 +the paladin's Charisma modifier.</text>
+				<text>After activating the aura, the paladin can't do so again until he or she finishes a long rest.</text>
 			</feature>
 		</autolevel>
 	</class>
-
+<!--Rogue-->
 	<class>
 		<name>Rogue (Thief)</name>
 		<hd>8</hd>
