@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bestiary version="5">
-<!--Horde of the Dragon Queen-->
+<!--Hoard of the Dragon Queen-->
 	<monster>
 		<name>Ambush Drake</name>
 		<size>M</size>
@@ -78,6 +78,47 @@
 			<name>Dagger</name>
 			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 5 (1d4+ 3) piercing damage.</text>
 			<attack>Dagger|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Dragonclaw</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (leather armor)</ac>
+		<hp>16 (3d8 + 3)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>16</dex><con>13</con><int>11</int><wis>10</wis><cha>12</cha>
+		<save>Wis +2</save>
+		<skill>Deception +3, Stealth +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1</cr>
+		<action>
+			<name>Dragon Fanatic</name>
+			<text>The dragonclaw has advantage on saving throws against being charmed or frightened. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being charmed or frightened.</text>
+		</action>
+		<action>
+			<name>Fanatic Advantage</name>
+			<text>Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage.</text>
+		</action>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragonclaw attacks twice with its scimitar.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.</text>
+			<attack>Tail|5|1d6+3</attack>
 		</action>
 	</monster>
 	<monster>
