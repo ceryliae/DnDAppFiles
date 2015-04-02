@@ -31,7 +31,53 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.</text>
-			<attack>|4|1d6+1</attack>
+			<attack>Bite|4|1d6+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Azbara Jos</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>lawful evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>39 (6d8 + 12)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>16</dex><con>14</con><int>16</int><wis>13</wis><cha>11</cha>
+		<save>Int +5, Wis +3</save>
+		<skill>Arcana +5, Deception +2, Insight +3, Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Common, Draconic, Infernal, Primordial, Thayan</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Azbara has two scrolls of mage armor.</text>
+		</trait>
+		<trait>
+			<name>Potent Cantrips</name>
+			<text>When Azbara casts an evocation cantrip and misses, or the target succeeds on its saving throw, the target stil takes half the cantrip's damage but suffers no other effect.</text>
+		</trait>
+		<trait>
+			<name>Sculpt Spells</name>
+			<text>When Azbara cast an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1 + the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Azarba is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list:</text>
+			<text></text>
+			<text>Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp</text>
+			<text>1st level (4 slots): fog cloud, magic missile, shield, thunderwave</text>
+			<text>2nd level (3 slots): invisibility, misty step, scorching ray</text>
+			<text>3rd level (3 slots): counterspell, dispel magic, fireball</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 5 (1d4+ 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -60,12 +106,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage.</text>
-			<attack>|4|1d8+3</attack>
+			<attack>Bite|4|1d8+3</attack>
 		</action>
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning damage.</text>
-			<attack>|5|1d6+3</attack>
+			<attack>Tail|5|1d6+3</attack>
 		</action>
 	</monster>
 </bestiary>
