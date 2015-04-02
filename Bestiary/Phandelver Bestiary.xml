@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bestiary version="5">
+<!--MoP-->
+	<monster>
+		<name>Evil Mage</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>22 (5d8)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>14</dex><con>11</con><int>17</int><wis>12</wis><cha>11</cha>
+		<save>Int +5, Wis +3</save>
+		<skill>Arcana +5, History +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Common, Draconic, Dwarvish, Elvish</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The mage is a 4th-level spellcaster that uses intelligence as its spellcasting ability (spell save DC 13; +5 to hit with spell attacks). The mage knows the following spells from the wizard's spell list:</text>
+			<text></text>
+			<text>Cantrips (at will): light, mage hand, shocking grasp</text>
+			<text>1st level (4 slots): charm person, magic missile</text>
+			<text>2nd level (3 slots): hold person, misty step</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit 3 (1d8 -1) bludgeoning damage.</text>
+			<attack>|1|1d8-1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Mormesk The Wraith</name>
+		<size>M</size>
+		<type>undead</type>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>45 (6d8+18)</hp>
+		<speed>0 ft., fly 60 ft.</speed>
+		<str>6</str><dex>16</dex><con>16</con><int>12</int><wis>14</wis><cha>15</cha>
+		<save></save>
+		<skill></skill>
+		<resist>acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
+		<vulnerable></vulnerable>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>charmed, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Infernal</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The wraith can move through an object or another creature, but can't stop there.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the wraith has disadvantage on attack rolls and on Wisdom (Perception) checkes that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Life Drain</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit 16 (3d8+3) necrotic damage, and the target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. If this attack reduces the target's hit point maximum to 0, the target dies. This reduction to the target's hit point maximum lasts until the target finishes a long rest.</text>
+			<attack>|5|3d8+3</attack>
+		</action>
+	</monster>
+</bestiary>
