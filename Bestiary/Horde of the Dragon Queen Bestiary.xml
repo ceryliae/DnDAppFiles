@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bestiary version="5">
+<!--Horde of the Dragon Queen-->
+	<monster>
+		<name>Ambush Drake</name>
+		<size>M</size>
+		<type>dragon</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>22 (4d6 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str><dex>15</dex><con>14</con><int>4</int><wis>11</wis><cha>6</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +4</skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>understands Draconic but can't speak it</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>If the drake surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.</text>
+			<attack>|4|1d6+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Guard Drake</name>
+		<size>M</size>
+		<type>dragon</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>52 (7d8 + 21)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str><dex>11</dex><con>16</con><int>4</int><wis>10</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist>lightning</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>understands Draconic but can't speak it</languages>
+		<cr>2</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The drake attacks twice, once with its bite and once with its tail.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage.</text>
+			<attack>|4|1d8+3</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>|5|1d6+3</attack>
+		</action>
+	</monster>
+</bestiary>
