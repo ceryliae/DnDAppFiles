@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bestiary version="5">
-<!--Hoard of the Dragon Queen-->
+<!--Horde of the Dragon Queen-->
 	<monster>
 		<name>Ambush Drake</name>
 		<size>M</size>
@@ -392,4 +392,321 @@
 			<attack>Tail|5|1d6+3</attack>
 		</action>
 	</monster><!--Guard Drake-->
+	<monster>
+		<name>Jamna Gleamsilver</name>
+		<size>S</size>
+		<type>humanoid (gnome)</type>
+		<alignment>neutral</alignment>
+		<ac>15 (leather armor)</ac>
+		<hp>22 (4d6 + 8)</hp>
+		<speed>25 ft.</speed>
+		<str>8</str><dex>17</dex><con>14</con><int>15</int><wis>10</wis><cha>12</cha>
+		<save>Dex +5, Int +4</save>
+		<skill>Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Gnomish, Goblin, Sylvan</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>Jamna can take a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Gnome Cunning</name>
+			<text>Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Jemna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.</text>
+			<text></text>
+			<text>Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost</text>
+			<text>1st level (3 slots): charm person, color spray, disguise self, longstrider</text>			
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Jamna attacks twice with her shortswords.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3 plus 1d6) piercing damage if the target is Medium or larger.</text>
+			<attack>Shortsword|5|1d6+3+1d6</attack>
+		</action>
+	</monster><!--Jamna Gleamsilver-->
+	<monster>
+		<name>Langdedrosa Cyanwrath</name>
+		<size>M</size>
+		<type>humanoid (half-dragon)</type>
+		<alignment>lawful evil</alignment>
+		<ac>17 (splint)</ac>
+		<hp>57 (6d12 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>19</str><dex>13</dex><con>16</con><int>10</int><wis>14</wis><cha>12</cha>
+		<save>Str +6, Con +5</save>
+		<skill>Athletics +6, Intimidation +3, Perception +4</skill>
+		<resist>lightning</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Draconic</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Action Surge (Recharges when Langdedrosa Finishes a Short or Long Rest)</name>
+			<text>On his turn, Langdedrosa can take one additional action.</text>
+		</trait>
+		<trait>
+			<name>Improved Critical</name>
+			<text>Langdedrosa's weapon attacks score a critical hit on a roll of 19 or 20.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Langdedrosa attacks twice, either with his greatsword or spear.</text>
+		</action>
+		<action>
+			<name>Greatsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+			<attack>Greatsword|6|2d6+4</attack>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft.,/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Spear|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Lightning Breath (Recharge 5-6)</name>
+			<text>Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Lightning Breath|0|4d10</attack>
+		</action>
+	</monster><!--Langdedrosa Cyanwrath-->
+	<monster>
+		<name>Pharblex Spattergoo</name>
+		<size>M</size>
+		<type>humanoid (bullywug)</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (studded leather armor, shield)</ac>
+		<hp>59 (7d8 + 28)</hp>
+		<speed>20 ft., swim 40 ft.</speed>
+		<str>15</str><dex>12</dex><con>18</con><int>11</int><wis>16</wis><cha>7</cha>
+		<save>Str +4, Con +6</save>
+		<skill>Perception +5, Religion +2, Stealth +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common, Bullywug</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>Pharblex can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poison Strike (3/Day)</name>
+			<text>Once per turn, when Pharblex hits with a melee attack, he can expend a use of this trait to deal an extra 9 (2d8) poison damage.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list:</text>
+			<text></text>
+			<text>Cantrip (at will): druidcraft, guidance, poison cloud</text>
+			<text>1st level (4 slots): cure wounds, entangle, healing word, thunderwave</text>
+			<text>2nd level (3 slots): barkskin, beast sense, spike growth</text>
+			<text>3rd level (3 slots): plant growth, water walk</text>
+		</trait>		
+		<trait>
+			<name>Standing Leap</name>
+			<text>As part of his movement and without a running start, Pharblex can long jump up to 20 feet and high jump up to 10 feet.</text>
+		</trait>
+		<trait>
+			<name>Swamp Camouflage</name>
+			<text>Pharblex has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Pharblex attacks twice. Once with his bite and once with his spear.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.</text>
+			<attack>Bite|5|1d4+2</attack>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit. reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Spear|5|1d6+2</attack>
+		</action>
+	</monster><!--Pharblex Spattergoo-->
+	<monster>
+		<name>Rath Modar</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>lawful evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>71 (11d8 + 22)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str><dex>16</dex><con>14</con><int>18</int><wis>14</wis><cha>10</cha>
+		<save>Int +7, Wis +5</save>
+		<skill>Arcana +7, Deception +3, Insight +5, Stealth +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common, Draconic, Infernal, Primordial, Thayan</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Rath has a staff of fire, and scrolls of dimension door, feather fall, and fireball.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list:</text>
+			<text></text>
+			<text>Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp</text>
+			<text>1st level (4 slots): chromatic orb, color spray, mage armor, magic missile</text>
+			<text>2nd level (3 slots): detect thoughts, mirror image, phantasmal force</text>
+			<text>3rd level (3 slots): counterspell, fireball, major image</text>
+			<text>4th level (3 slots): confusion, greater invisibility</text>
+			<text>5th level (2 slots): mislead, seeming</text>
+			<text>6th level (1 slot): globe of invulnerability</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage.</text>
+			<attack>Quarterstaff|4|1d8</attack>
+		</action>
+		<reaction>
+			<name>Illusory Self (Recharges when Rath Finishes a Short or Long Rest).</name>
+			<text>When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.</text>
+		</reaction>	
+	</monster><!--Rath Modar-->
+	<monster>
+		<name>Rezmir</name>
+		<size>M</size>
+		<type>humanoid (half-black dragon)</type>
+		<alignment>neutral evil</alignment>
+		<ac>13 (15 with the Black Dragon Mask)</ac>
+		<hp>90 (12db + 36)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str><dex>16</dex><con>16</con><int>15</int><wis>12</wis><cha>14</cha>
+		<save>Dex +6, Wis +4</save>
+		<skill>Arcana +5, Stealth +9</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>acid</immune>
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<senses>blindsight 10 ft., darkvision 120 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Draconic, Infernal, Giant, Netherese</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Rezmir has the Black Dragon Mask, Hazirawn, and an insignia of claws.</text>
+		</trait>
+		<trait>
+			<name>Amphibious</name>
+			<text>Rezmir can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Dark Advantage</name>
+			<text>Once per turn, Rezmir can deal an extra 10 (3d6) damage when she hits with a weapon attack, provided Rezmir as advantage on the attack roll.</text>
+		</trait>
+		<trait>
+			<name>Draconic Majesty</name>
+			<text>While wearing no armor and wearing the Black Dragon Mask, Rezmir adds her Charisma bonus to her AC (included).</text>
+		</trait>
+		<trait>
+			<name>Immolation</name>
+			<text>When Rezmir is reduced to 0 hit points, her body disintegrates into a pile of ash.</text>
+		</trait>
+		<trait>
+			<name>Legedary Resistance (1/Day)</name>
+			<text>If Rezmir fails a saving throw while wearing the Black Dragon Mask, she can choose to succeed instead.</text>
+		</trait>
+		<action>
+			<name>Greatsword (Hazirawn)</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage. If the target is a creature, it can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.</text>
+			<attack>Greatsword (Hazirawn)|9|2d6+6+2d6</attack>
+		</action>
+		<action>
+			<name>Caustic Bolt</name>
+			<text>Ranged Spell Attack: +8 to hit, range 90 ft., one target. Hit: 18 (4d8) acid damage.</text>
+			<attack>Caustic Bolt|8|4d8</attack>
+		</action>
+		<action>
+			<name>Acid Breath (Recharge 5-6)</name>
+			<text>Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Acid Breath|0|5d8</attack>
+		</action>
+		<legendary>
+			<text>If she is wearing the Black Dragon Mask, Rezmir can take up to two legendary actions between each of her turns, taking the actions all at once or spreading them over the round. A legendary action can be taken only at the start or end of a turn. Rezmir has the following legendary actions options, some of which expended more than one action when taken:</text>
+		</legendary>	
+		<legendary>
+			<name>2 Actions</name>
+			<text>A 15-foot radius of magical darkness extends from a point Rezmir can see within 60 feet of her and spreads around corners. The darkness lasts as long as Rezmir maintains concentration, up to 1 minute. A creature with darkvision can't see through this darkness, and no natural light can illuminate it. If any of the area overlaps with a area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled.</text>
+		</legendary>	
+		<legendary>
+			<name>1 Action</name>
+			<text>Rezmir makes one melee attack.</text>
+		</legendary>	
+		<legendary>
+			<name>1 Action</name>
+			<text>Remir takes the Hide action.</text>
+		</legendary>	
+	</monster><!--Rezmir-->
+	<monster>
+		<name>Thalis The White</name>
+		<size>M</size>
+		<type>humanoid (half-elf)</type>
+		<alignment>lawful evil</alignment>
+		<ac>18 (+1 scale mail, shield)</ac>
+		<hp>58 (9d8 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str><dex>12</dex><con>14</con><int>10</int><wis>16</wis><cha>16</cha>
+		<save>Wis +6, Cha +6</save>
+		<skill>Deception +6, Insight +6, Perception +6, Persuasion +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>16</passive>
+		<languages>Common, Draconic, Elvish, Infernal</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Talis has +1 scale mail and a wand of winter.</text>
+		</trait>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Talis has advantage on saving throws against being charmed, and magic can't put her to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, resistance, thaumaturgy</text>
+			<text>1st level (4 slots): command, cure wounds, healing word, inflict wounds</text>
+			<text>2nd level (3 slots): blindness/deafness, lesser restoration, spiritual weapon (spear)</text>
+			<text>3rd level (3 slots): dispel magic, mass healing word, sending</text>
+			<text>4th level (3 slots): death ward, freedom of movement</text>
+			<text>5th level (1 slot): insect plague</text>
+		</trait>
+		<trait>
+			<name>Winter Strike (3/Day)</name>
+			<text>Once per turn, with Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.</text>
+			<attack>Spear|5|1d6+2</attack>
+		</action>
+	</monster><!--Talis The White-->
 </bestiary>
