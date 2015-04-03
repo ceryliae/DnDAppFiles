@@ -33,7 +33,7 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.</text>
 			<attack>Bite|4|1d6+1</attack>
 		</action>
-	</monster>
+	</monster><!--Ambush Drake-->
 	<monster>
 		<name>Azbara Jos</name>
 		<size>M</size>
@@ -76,10 +76,100 @@
 		</trait>
 		<action>
 			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 5 (1d4+ 3) piercing damage.</text>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 5 (1d4 + 3) piercing damage.</text>
 			<attack>Dagger|5|1d4+3</attack>
 		</action>
-	</monster>
+	</monster><!--Azbara Jos-->
+	<monster>
+		<name>Blagothkus</name>
+		<size>H</size>
+		<type>giant (cloud giant)</type>
+		<alignment>neutral evil</alignment>
+		<ac>17 (splint)</ac>
+		<hp>138 (12d12 + 60)</hp>
+		<speed>40 ft.</speed>
+		<str>26</str><dex>13</dex><con>20</con><int>16</int><wis>15</wis><cha>15</cha>
+		<save>Con +9, Wis +6, Cha +6</save>
+		<skill>Arcana +7, Insight +6, Intimidation +6, Perception +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>16</passive>
+		<languages>Common, Draconic, Giant</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Keen Smell</name>
+			<text>Blagothkus has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components:</text>
+			<text></text>
+			<text>3/day each: fog cloud, levitate</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list:</text>
+			<text></text>
+			<text>Cantrips (at will): light, mage hand, prestidigitation</text>
+			<text>1st level (4 slots): detect magic, identify, magic missile, shield</text>
+			<text>2nd level (3 slots): gust of wind, misty step, shatter</text>
+			<text>3rd level (2 slots): fly, lightningbolt</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Blagothkus attacks twice with his morningstar.</text>
+		</action>	
+		<action>
+			<name>Morningstar</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit 21 (3d8 +  8) piercing damage.</text>
+			<attack>Morningstar|10|3d8+8</attack>
+		</action>	
+	</monster><!--Blagothkus-->
+	<monster>
+		<name>Captain Othelstan</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>lawful evil</alignment>
+		<ac>19 (splint, shield)</ac>
+		<hp>93 (11d10 + 33)</hp>
+		<speed>30 ft.</speed>
+		<str>19</str><dex>10</dex><con>16</con><int>13</int><wis>14</wis><cha>12</cha>
+		<save>Str +7, Con +6</save>
+		<skill>Athletics +7, Intimidation +4, Perception +5, Religion +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common, Draconic, Giant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Action Surge (Recharges when Othelstan Finishes a Short or Long Rest)</name>
+			<text>On his turn, Othelstan can take one additional action.</text>
+		</trait>
+		<trait>
+			<name>Tiamat's Blessing of Retribution</name>
+			<text>When Othelstan takes damage that reduces him to 0 hit points, he immediately regains 20 hit points or fewer at the end of his next turn, he dies.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Othelstan attacks twice with his flail or spear, or makes two ranged attacks with his spears.</text>
+		</action>
+		<action>
+			<name>Flail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
+			<attack>Flail|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Spear|7|1d6+4</attack>
+		</action>
+	</monster><!--Captian Othelstan-->
 	<monster>
 		<name>Dragonclaw</name>
 		<size>M</size>
@@ -90,7 +180,7 @@
 		<speed>30 ft.</speed>
 		<str>9</str><dex>16</dex><con>13</con><int>11</int><wis>10</wis><cha>12</cha>
 		<save>Wis +2</save>
-		<skill>Deception +3, Stealth +3</skill>
+		<skill>Deception +3, Stealth +5</skill>
 		<resist></resist>
 		<vulnerable></vulnerable>
 		<immune></immune>
@@ -99,16 +189,16 @@
 		<passive>10</passive>
 		<languages>Common, Draconic</languages>
 		<cr>1</cr>
-		<action>
+		<trait>
 			<name>Dragon Fanatic</name>
 			<text>The dragonclaw has advantage on saving throws against being charmed or frightened. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being charmed or frightened.</text>
-		</action>
-		<action>
-			<name>Fanatic Advantage</name>
-			<text>Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage.</text>
-		</action>
+		</trait>
 		<trait>
-			<name>Pack Tactics</name>
+			<name>Fanatical Advantage</name>
+			<text>Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage.</text>
+		</trait>
+		<trait>
+			<name>Pack Tatics</name>
 			<text>The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
 		</trait>
 		<action>
@@ -117,10 +207,157 @@
 		</action>
 		<action>
 			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.</text>
-			<attack>Tail|5|1d6+3</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Scimitar|5|1d6+3</attack>
 		</action>
-	</monster>
+	</monster><!--Dragonclaw-->
+	<monster>
+		<name>Dragonwing</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (leather armor)</ac>
+		<hp>33 (6d8 + 6)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str><dex>16</dex><con>13</con><int>11</int><wis>11</wis><cha>13</cha>
+		<save>Wis +2</save>
+		<skill>Deception +3, Stealth +5</skill>
+		<resist>one of the following: acid, cold, fire, lightning, or poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Common, Draconic</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Dragon Fanatic</name>
+			<text>The dragonwing has advantage on saving throws against being charmed or frightened. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Fanatical Advantage</name>
+			<text>Once per turn, if the dragonwing makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage.</text>
+		</trait>
+		<trait>
+			<name>Limited Flight</name>
+			<text>The dragonwing can use a bonus action to gain a flying speed of 30 feet until the end of its turn.</text>
+		</trait>
+		<trait>
+			<name>Pack Tatics</name>
+			<text>The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwings's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The dragonwing attacks twice with its scimitar.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the cultist has damage resistance.</text>
+			<attack>Scimitar|5|1d6+3+1d6</attack>
+		</action>
+	</monster><!--Dragonwing-->
+	<monster>
+		<name>Dralmorrer Borngray</name>
+		<size>M</size>
+		<type>humanoid (high-elf)</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (studded leather armor, shield)</ac>
+		<hp>52 (7d10 + 14)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str><dex>14</dex><con>14</con><int>16</int><wis>10</wis><cha>8</cha>
+		<save>Str +6, Con +4</save>
+		<skill>Arcana +5, Deception +1, Insight +2, Perception +2, Religion +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Bullywug, Draconic, Elvish, Goblin, Sylvan</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Dralmorrer has advantage on saving throws against being charmed, and magic can't put him to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list:</text>
+		<text></text>
+		<text>Cantrips (at will): fire bolt, prestidigitation, shocking grasp</text>
+		<text>1st level (4 slots): lingstrider, magic missile, shield, thunderwave</text>
+		<text>2nd level (2 slots): magic weapon, misty step</text>
+		</trait>
+		<trait>
+			<name>War Magic</name>
+			<text>When Dralmorrer uses his action to cast a cantrip, he can also take a bonus action to make one weapon attack.</text>
+		</trait>
+		<trait>
+			<name>Weapon Bond</name>
+			<text>Provided his longsword is on the same plane Dralmorrer can take a bonus action to teleport it to his hand.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Dralmorrer attacks twice, either with his longsword or dagger.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage.</text>
+			<attack>Longsword|6|1d8+4</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 6 (1d4 + 4) piercing damage.</text>
+			<attack>Dagger|6|1d4+4</attack>
+		</action>
+		<reaction>
+			<name></name>
+			<text></text>
+			<attack>||</attack>
+		</reaction>	
+		<legendary>
+			<name></name>
+			<text></text>
+			<attack>||</attack>
+		</legendary>	
+	</monster><!--Dralmorrer Borngray-->
+	<monster>
+		<name>Frulam Mondath</name>
+		<size>M</size>
+		<type>humanoid (human)</type>
+		<alignment>lawful evil</alignment>
+		<ac>16 (chain mail)</ac>
+		<hp>44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str><dex>10</dex><con>13</con><int>11</int><wis>18</wis><cha>15</cha>
+		<save>Wis +6, Cha +4</save>
+		<skill>Deception +4, History +2, Religion +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Common, Draconic, Infernal</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Frulam is a 5th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list:</text>
+		<text></text>
+		<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
+		<text>1st level (4 slots): command, cure wounds, healing word, sanctuary</text>
+		<text>2nd level (3 slots): calm emotions, hold person, spiritual weapon</text>
+		<text>3rd level (2 slots): mass healing word, spirit guardians</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Frulam attacks twice with her halberd.</text>
+		</action>
+		<action>
+			<name>Halberd</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.</text>
+			<attack>Halberd|5|1d10+2</attack>
+		</action>	
+	</monster><!--Frulam Mondath-->
 	<monster>
 		<name>Guard Drake</name>
 		<size>M</size>
@@ -154,5 +391,5 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Tail|5|1d6+3</attack>
 		</action>
-	</monster>
+	</monster><!--Guard Drake-->
 </bestiary>
