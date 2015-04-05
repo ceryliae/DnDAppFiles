@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bestiary version="5">
 <!--Rise of Tiamat-->
-<monster>
+	<monster>
 		<name>Dragonclaw</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -35,16 +35,15 @@
 		<action>
 			<name>Multiattack</name>
 			<text>The Dragonclaw attacks twice with its scimitar.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Scimitar|5|1d6+3</attack>
 		</action>
-
 	</monster><!--Dragonclaw-->
-
-<monster>
+	<monster>
 		<name>Dragonfang</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -78,8 +77,9 @@
 		<action>
 			<name>Multiattack</name>
 			<text>The Dragonfang attacks twice with its shortsword.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage + 7 (2d6) damage of the type to which the dragonfang has resistance.</text>
 			<attack>Shortsword|5|(1d6+3) + (2d6)</attack>
@@ -90,7 +90,7 @@
 			<attack></attack>
 		</action>
 	</monster><!--Dragonfang-->	
-<monster>
+	<monster>
 		<name>Dragonsoul</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -128,8 +128,9 @@
 		<action>
 			<name>Multiattack</name>
 			<text>The Dragonsoul attacks twice with its shortsword.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage + 10 (3d6) damage of the type to which the dragonsoul has resistance.</text>
 			<attack>Shortsword|5|(1d6+3) + (3d6)</attack>
@@ -140,7 +141,7 @@
 			<attack></attack>
 		</action>
 	</monster><!--Dragonsoul-->	
-<monster>
+	<monster>
 		<name>Dragonwing</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -178,15 +179,15 @@
 		<action>
 			<name>Multiattack</name>
 			<text>The Dragonwing attacks twice with its scimitar.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the cultist has resitance.</text>
 			<attack>Scimitar|5|(1d6+3) + (1d6)</attack>
 		</action>
-
-</monster><!--Dragonwing-->
-<monster>
+	</monster><!--Dragonwing-->
+	<monster>
 		<name>Guard Drake</name>
 		<size>M</size>
 		<type>dragon</type>
@@ -209,20 +210,20 @@
 		<action>
 			<name>Multiattack</name>
 			<text>The drake makes two attacks; one with its bite and one with its tail.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
 			<attack>Bite|5|(1d8+3)</attack>
 		</action>
-<action>
+		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Tail|5|(1d6+3)</attack>
 		</action>
 	</monster><!--Guard Drake-->
-	
-<monster>
+	<monster>
 		<name>Ice Toad</name>
 		<size>M</size>
 		<type>monstrosity</type>
@@ -241,26 +242,25 @@
 		<passive>12</passive>
 		<languages>Ice Toad</languages>
 		<cr>1</cr>
-	<trait>
+		<trait>
 		<name>Amphibious</name>
 			<text>The toad can breathe air or water.</text>
 		</trait>
-	<trait>
+		<trait>
 		<name>Cold Aura</name>
 			<text>Any creature that starts its turn within 5 feet of the toad takes 3 (1d6) cold damage.</text>
 		</trait>
-	<trait>
+		<trait>
 		<name>Standing Leap</name>
 			<text>The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</text>
 		</trait>	
-	<action>
+		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) cold damage. If the target is a Medium or smaller creature it is grappled (escape DC 11). Until this grapple ends, the toad can't bite another target.</text>
 			<attack>Bite|5|(1d8+3)</attack>
 		</action>
 	</monster><!--Ice Toad-->
-	
-<monster>
+	<monster>
 		<name>Naergoth Bladelord</name>
 		<size>M</size>
 		<type>undead</type>
@@ -286,21 +286,21 @@
 		<action>
 			<name>Multiattack</name>
 			<text>Naergoth makes three attacks, either with his longsword or longbow. He can use Life Drain in place of one longsword attack.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Life Drain</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20 (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
 			<text>A humanoid slain by this attack rises 24 hours later as a zombie under Naergoth's control, unless the humanoid is restored to life or its body is destroyed. Naergoth can have no more than twelve zombies under his control at one time.</text>
 			<attack>Life Drain|9|(5d6+3)</attack>
 		</action>
-	<action>
+		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage.</text>
 			<attack>Longsword|9|(1d8+5) + (3d6)</attack>
 		</action>
 	</monster><!--Naegoth Bladelord-->	
-	
-<monster>
+	<monster>
 		<name>Nerovain</name>
 		<size>M</size>
 		<type>humanoid (elf)</type>
@@ -326,30 +326,31 @@
 		<action>
 			<name>Fey Ancestry</name>
 			<text>Magic can't put Neronvain to sleep.</text>
-	<attack></attack></action>
-<action>
+			<attack></attack>
+		</action>
+		<action>
 			<name>Multiattack</name>
 			<text>Neronvain makes two attacks, either with his shortsword or Eldritch Arrow.</text>
 			<attack></attack>
 		</action>
-	<action>
+		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage.</text>
 			<attack>Shortsword|7|(1d6+3) + (3d8)</attack>
 		</action>
-	<action>
+		<action>
 			<name>Eldrich Arrow</name>
 			<text>Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d10) force damage plus 9 (2d8) poison damage.</text>
 			<attack>Eldrich|7|(2d10) + (2d8)</attack>
 		</action>
 		<action>
 			<name>Poisonous Cloud (2/Day)</name>
-			<text>Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+			</text>
 			<attack></attack>
 		</action>
 	</monster><!--Neronvain-->	
-	
-<monster>
+	<monster>
 		<name>Severin</name>
 		<size>M</size>
 		<type>humanoid (human)</type>
@@ -388,18 +389,17 @@
 			<name>Legendary Resistance (5/Day)</name>
 			<text>While wearing the Mask ofthe Dragon Queen, if Severin fails a saving throw, he can choose to succeed instead.</text>
 		</trait>
-		
-<action>
+		<action>
 			<name>Burning Touch</name>
 			<text>Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 18 (4d8) fire damage.</text>
 			<attack>Burning Touch|5|4d8</attack>
 		</action>
-<action>
+		<action>
 			<name>Flaming Orb</name>
 			<text>Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit: 40 (9d8) fire damage.</text>
 			<attack>Flaming Orb|5|9d8</attack>
 		</action>
-<action>
+		<action>
 			<name>Scorching Burst</name>
 			<text>Severin chooses a point he can see within 60 feet of him. Each creature within 5 feet of that point must make a DC 17 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack></attack>
@@ -421,8 +421,7 @@
 			<text>Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and restrained. The restrained target takes 21 (6d6) fire damage at the start of each of its turns. At the end of its turns, the target can make a DC 17 Strength saving throw, ending the effect on itself on a success.</text>
 		</legendary>
 	</monster><!--Severin-->	
-	
-<monster>
+	<monster>
 		<name>Tiamat</name>
 		<size>G</size>
 		<type>fiend</type>
@@ -465,30 +464,30 @@
 			<name>Regeneration</name>
 			<text>Tiamat regains 30 hit points at the start of her turn.</text>
 		</trait>	
-<action>
+		<action>
 			<name>Multiattack</name>
 			<text>Tiamat can use her Frightful Presence. She then makes three attacks: two with her claws and one with her tail.</text>
 			<attack></attack>
 		</action>
-<action>
+		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage.</text>
 			<attack>Claw|19|4d6 + 10</attack>
 		</action>
-<action>
+		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +19 to hit, reach 25 ft., one target. Hit: 28 (4d8 + 10) piercing damage.</text>
 			<attack>Tail|19|4d8 + 10</attack>
 		</action>		
-<action>
+		<action>
 			<name>Frightful Presence</name>
 			<text>Each creature of Tiamat’s choice that is within 240 feet of Tiamat and aware of her must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours.</text>
 			<attack></attack>
 		</action>		
 		<legendary>
 			<name></name>
-			<text>Tiamat can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Tiamat regains spent legendary actions at the start of her turn.
-Tiamat’s legendary action options are associated with her five dragon heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary action option for one of her heads, she can’t choose another one associated with that head until the start of her next turn.</text>
+			<text>Tiamat can take 5 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Tiamat regains spent legendary actions at the start of her turn.</text>
+			<text>Tiamat’s legendary action options are associated with her five dragon heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary action option for one of her heads, she can’t choose another one associated with that head until the start of her next turn.</text>
 		</legendary>
 		<legendary>
 			<name>Bite</name>
