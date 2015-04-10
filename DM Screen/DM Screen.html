@@ -32,29 +32,25 @@
 		    list-style: none; /* Remove default numbering */
 		    padding: 0;
 		    margin-bottom: 4em;
-		    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+		    text-shadow: 0 1px 0 rgba(0,0,0,.2);
 		}
 		ol ol {
 			margin: 0 0 0 2em;
 		}
 		.collapsibleList a, label {
+			letter-spacing: .05em;
+			font-variant: small-caps;
+			font-weight: bold;
 		    position: relative;
 		    display: block;
 		    padding: .4em .4em .4em 2em;
 		    *padding: .4em;
 		    margin: .5em 0;
-		    background: #E0E4C0;
-		    color: #444;
+		    background: #CAAD6B;
+		    color: #FFF;
 		    text-decoration: none;
 		    border-radius: .3em;
 		    transition: all .3s ease-out;
-		}
-		.collapsibleList a:hover {
-		    background: #eee;
-		}
-
-		.collapsibleList a:hover:before{
-		    transform: rotate(360deg);  
 		}
 
 		.collapsibleList a:before {
@@ -64,25 +60,93 @@
 		    left: -1.3em;
 		    top: 50%;
 		    margin-top: -1.3em;
-		    background: #CAAD6B;
+		    background: #581A0F;
+		    color: #FFFFFF;
 		    height: 2em;
 		    width: 2em;
 		    line-height: 2em;
-		    border: .3em solid #fff;
+		    border: .2em solid #FFF;
 		    text-align: center;
-		    font-weight: bold;
 		    border-radius: 2em;
 		    transition: all .3s ease-out;
+		}
+	/* This is for the version number in the upper right hand corner */
+		.ribbon {
+		    background: #581A0F;
+		    border-left: 1px groove #CAAD6B;
+    		border-right: 1px groove #CAAD6B;
+		    border-radius: 5px 5px 0px 0px; 
+		    box-shadow: 5px 0 0 #581A0F,
+		                -5px 0 0 #581A0F;
+		    height: 52px;
+		    margin: 0 5px;
+		    position: relative;
+		    float: right;
+		    top: 40px;
+		    right: 7px;
+		    width: 40px;
+		    z-index: 1;
+		    -webkit-filter: drop-shadow(0 2px 5px hsla(0,0%,0%,.5));
+		}
+			/* Uncomment to give a banner effect */
+			
+		.ribbon:after,
+		.ribbon:before {
+		    border-top: 10px solid #581A0F;
+		    content: '';
+		    height: 0;
+		    position: absolute;
+		    top: 100%;
+		    width: 0;
+		    z-index: 1;
+		}
+		.ribbon:after {
+		    border-left: 27px solid transparent;
+		    right: -6px;
+		    z-index: 1;
+		}
+		.ribbon:before {
+		    border-right: 27px solid transparent;
+		    z-index: 1;
+		    left: -6px;
+		}
+			/* This centers text in the banner */
+		.ribbon-text {
+			position: absolute;
+		    top: 40%;
+		    left: 50%;
+		    height: 30%;
+		    width: 50%;
+		    margin: -15% 0 0 -47%;
+		    font-weight: bold;
+		    font-size: 10px;
+		    color: #f0f0f0;
+		    text-align: center;
+		}
+			
+		.behind { position: relative;
+			z-index: 0; 
+			padding-top: 5px;
+		}
+
+		body {
+			text-rendering: optimizeLegibility;
 		}
 		</style>
 		
 	</head>
 	<body>
-		<p align="right">Version 1.2.1 (4/8/15)</p>		
-		<h1 id="toc">
-			Table of Contents
-		</h1>
-		<i>Expand out the section and subsection you need to quickly go to the topic you need.</i>
+		<div style="position: relative;">
+			<div class="ribbon">
+				<div class="ribbon-text">Version<br />&nbsp;&nbsp;1.2.1
+				</div>
+			</div>
+		<!-- <p align="right">Version 1.2.1 (4/8/15)</p>	-->	
+			<div class="behind">
+				<h1 id="toc">Table of Contents</h1>
+			</div>
+			<i>Expand out the section and subsection you need to quickly go to the topic you need.</i>
+		</div>
 		<ol type="I" class="collapsibleList">
 			<li>
 				<label for="Ability-Checks">Ability Checks</label>
@@ -265,7 +329,37 @@
 					<li><label for="Mines-of-Phandelver">Lost Mine of Phandelver</label>
 						<input type="checkbox" id="Mines-of-Phandelver" />
 							<ol type="a">
-									<li class="file"><a href="#Mines-of-Phandelver">Coming Soon...</a></li>
+								<li><label for="I-Goblin-Arrows">Part 1: Goblin Arrows</label>
+								<input type="checkbox" id="I-Goblin-Arrows" />
+								
+								<ol type="i">
+									<li class="file"><a href="#Goblin-Arrows">Introduction</a></li>
+									<li class="file"><a href="#Goblin-Ambush">Goblin Ambush</a></li>
+									<li class="file"><a href="#Goblin-Trail">Goblin Trail</a></li>
+									<li class="file"><a href="#Cragmaw-Hideout">Cragmaw Hideout</a></li>
+								</ol>
+
+								<li><label for="II-Phandalin">Part 2: Phandalin</label>
+								<input type="checkbox" id="II-Phandalin" />
+
+								<ol type="i">
+									<li class="file"><a href="#Phandalin">Introduction</a></li>
+									<li class="file"><a href="#Redbrand Hideout">Redbrand Hideout</a></li>
+								</ol>
+
+								<li><label for="III-Spidersweb">Part 3: The Spider's Web</label>
+								<input type="checkbox" id="III-Spidersweb" />
+
+								<ol type="i">
+									<li class="file"><a href="#The-Spiders-Web">Introduction</a></li>
+									<li class="file"><a href="#Triboar-Trail">Triboar Trail</a></li>
+									<li class="file"><a href="#Old-Owl-Well">Old Owl Well</a></li>
+									<li class="file"><a href="#Ruins-Of-Thundertree">Ruins of Thundertree</a></li>
+									<li class="file"><a href="#Wyvern-Tor">Wyvern Tor <i>(Coming Soon)</i></a></li>
+									<li class="file"><a href="#Cragmaw-Castle">Cragmaw Castle <i>(Coming Soon)</i></a></li>
+								</ol>
+
+								<li class="file"><a href="#Wave-Echo-Cave">Part 4: Wave Echo Cave <i>(Coming Soon)</i></a></li>
 							</ol>
 					</li>
 					<li><label for="Tyranny-of-Dragons">Tyranny of Dragons</label>
@@ -5516,15 +5610,230 @@
 		</table>
 		<a href="#toc">▲</a><br>
 		<br>
-		<h1 id="Adventure-Modules">Adventure Modules</h1>
-		<h2 id="Mines-of-Phandelver">Lost Mines of Phandelver</h2>
+		<h1 id="Adventure-Modules">Adventure Modules</h1>			
 		<dl>
-		<dt><h3 class="nobackground">Starter Set: Lost Mines of Phandelver</h3></dt>
-		<dd><i>This is for adventurers of levels 1-4.</i></dd>
+			<dt><h3 class="nobackground">Starter Set: Lost Mines of Phandelver</h3></dt>
+				<dd><i>This is for adventurers of levels 1-4.</i></dd>
 		</dl>
-		Coming Soon!
-		<br /><br />
 
+		<h3 id="Goblin-Arrows">Part 1: Goblin Arrows</h3>
+		<i>Here are the combat encounters and main traps for Part 1.  Please note that the PCs can get to Phandelver before going to the Cragmaw Hideout.</i>
+		<dl>
+			<dt><h3 id="Goblin-Ambush" class="nobackground">Goblin Ambush</h3></dt>
+				<dd><b>Encounter:</b> Four goblins (hiding)</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 2 Goblins Melee</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 2 Goblins Ranged (30 ft.)</dd>
+				<dd><b>Goblin stealth modifier:</b> +6</dd>
+				<dd><b>Notes:</b>  When 3 goblins are defeated, 1 attempts to flee down the goblin trail.</dd>
+			<dt><h3 id="Goblin-Trail" class="nobackground">Goblin Trail</h3></dt>
+				<dd><b>Trap:</b> Snare</dd>
+				<dd><b>Perception Score Needed:</b> 12 or higher</dd>
+				<dd><b>Dex Saving Throw:</b> 10 or higher</dd>
+				<dd><b>On failed save:</b></dd>
+				<dd>• Character is hung upside down.</dd>
+				<dd>• 1d6 Bludgeoning damage if not lowered carefully.</dd>
+				<dd><br /></dd>
+				<dd><b>Trap:</b> Pit</dd>
+				<dd><b>Perception Score Needed:</b> 15 or higher</dd>
+				<dd><b>Dex Saving Throw:</b> 10 or higher</dd>
+				<dd><b>On failed save:</b></dd>
+				<dd>• Fall in taking 1d6 bludgeoning damage.</dd>
+				<dd>• No ability check is required to get out.</dd>
+		</dl>
+			<h3 id="Cragmaw-Hideout">Cragmaw Hideout</h3>
+		<dl>
+			<dt><h3 class="nobackground">Goblin Blind</h3></dt>
+				<dd><b>Combat:</b> Two goblins</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Characters moving slowly and carefully may suprise the goblins.</dd>
+				<dd>• Thickets around the clearing provide half cover to creatures attacking through them</dd>
+			<dt><h3 class="nobackground">Kennel</h3></dt>
+				<dd><b>Combat:</b> Three Wolves</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• They can't reach targets on the steps.</dd>
+				<dd>• All 3 attack any creature, except a goblin</dd>
+				<dd>• Goblins inside the cave ignore the noises</dd>
+				<dd>• Calm the wolves with a DC 15 Animal Handling check.  <i>(This goes to 10 if they are given food.)</i></dd>
+			<dt><h3 class="nobackground">Overpass</h3></dt>
+				<dd><b>Combat:</b> Goblin Guard </dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• A PC needs a perception check vs guard stealth check to see the guard.</dd>
+				<dd>• The goblin notices the PCs if they carry any light, or do no use stealth on approach</dd>
+				<dd>• Goblin signals companions to release flood, then throws javelins.</dd>
+			<dt><h3 class="nobackground">Goblin Den</h3></dt>
+				<dd><b>Encounter:</b> Six goblins (one leader with 12 HP)</dd>
+				<dd><b>Ordinary Goblins:</b> Tending fire in lower (northern) section</dd>
+				<dd><b>Leader Goblin (Yeemik):</b> Resting in upper (souther) part.</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• When Yeemik sees the goblins are losing, he drags a human (Sildar) to the cliff and wants a truce.</dd>
+				<dd>• If they parley, Yeemik (supposedly) will release Sildar when they bring Klarg's head</dd>
+				<dd>• If they refuse parley, fight continues and Sildar is pushed off the cliff and is unconcious</dd>
+			<dt><h3 class="nobackground">Twin Pools Cave</h3></dt>
+				<dd><b>Encounter:</b> Three Goblins</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• If the goblins were warned earlier by overpass goblin, these are ready for trouble.</dd>
+				<dd>• As soon as the fight starts, one goblin flees to warn Klarg</dd>
+			<dt><h3 class="nobackground">Klarg's Cave</h3></dt>
+				<dd><b>Combat:</b> 5 Total Creatures</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• Klarg (bugbear)</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 1 wolf (Ripper)</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 2 goblins</dd>
+				<dd><b>Fire Pit:</b>  Deals 1 damage to any that enter, or 1d6 to any who fall prone.</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• If he is warned, everyone hides to try and suprise the PCs.</dd>
+				<dd>• If he isn't warned, they can be suprised (best through chimmney).</dd>
+				<dd>• If the wolf is killed, he attempts to flee through the chimmney.</dd>
+		</dl>
+		<a href="#toc">▲</a><br>
+		<br>
+		<h3 id="Phandalin">Part 2: Phandalin</h3>
+		<i>Here are the combat encounters and main traps for Part 2.  Please note that there are many quests here and the Redbrand Hideout can be dealt with at a later time.</i>
+		<dl>
+			<dt><h3 id="Ruffians" class="nobackground">Redbrand Ruffians</h3></dt>
+				<dd><b>Encounter:</b> 4 Redband Ruffians</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• The ruffians attack in a round or two if PCs don't.</dd>
+				<dd>• When three of them are down, the 4th flees toward Tresendar Manor.
+		</dl>
+		<h3 id="Redbrand Hideout">Redbrand Hideout</h3>
+		<i>If the PCs begin their search at the Manor, they start in area 1.  If they follow Carp Alderleaf to the secret tunnel, they enter the dungeon at area 8.</i>
+		<dl>
+			<dt><h3 class="nobackground">Barracks</h3></dt>
+				<dd><b>Encounter:</b> 3 Redband Ruffians</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• If the ruffians hear noise from PCs in area one, they try for suprise attack</dd>
+			<dt><h3 class="nobackground">Trapped Hall</h3></dt>
+				<dd><b>Trap:</b> Pit</dd>
+				<dd><b>Perception Score Needed:</b> 15 or higher</dd>
+				<dd><b>Dex Saving Throw:</b> 15 or higher</dd>
+				<dd><b>On failed save:</b></dd>
+				<dd>• Fall in taking 2d6 bludgeoning damage and lands prone.</dd>
+				<dd>• If trap is found, PC needs DC 10 dex check to go around edges.</dd>
+			<dt><h3 class="nobackground">Tresendar Crypts</h3></dt>
+				<dd><b>Encounter:</b> 3 Skeletons</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• These attack when anyone comes within 10 feet of the door leading to area 5 or 6 unless that creature is wearing the scarlet cloak of the Redbrands or speaks the password "Illefarn".</dd>
+			<dt><h3 class="nobackground">Slave Pens</h3></dt>
+				<dd><b>Encounter:</b> 2 Redbrand Ruffians</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• If the ruffians hear fighting from area 5, they will try to surpise intruders.</dd>
+			<dt><h3 class="nobackground">Crevasse</h3></dt>
+				<dd><b>Encounter:</b> Nothic</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Lurks near west end of the bridges.</dd>
+				<dd>• If it sees people come in, it hides behind a stone pillar and watches them while trying to use its Weird Insight to discern characters' secrets.</dd>
+				<dd>• Communicates with telepathy if detected, and would rather negotiate and will betray Redbrands for the right incentives.</dd>
+			<dt><h3 class="nobackground">Guard Barracks</h3></dt>
+				<dd><b>Encounter:</b></dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 3 bugbears</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 1 goblin (Droop)</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• The goblin (Droop) falls unconcious for 1d10 minutes when seeing the party.</dd>
+				<dd>• If the party is wearing scarlet cloaks the bugbears assume they server Iarno.</dd>
+				<dd>• DC 15 can convince the bugbears to do what the party wants.</dd>
+			<dt><h3 class="nobackground">Common Room</h3></dt>
+				<dd><b>Encounter:</b> 4 Redband Ruffians</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• If the characters bust in through the room, they suprise the ruffians.</dd>
+				<dd>• The ruffians are poisoned from too much drinking.</dd>
+				<dd>• The ruffians recognize the party as imposters if they have the cloaks on.</dd>
+			<dt><h3 class="nobackground">Glasstaff's Quarters</h3></dt>
+				<dd><b>Encounter:</b> Evil Mage (Iarno)</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Iarno can be suprised if they come in from the secret passage in area 7, otherwise the rat familiar warns him of any who approach.</dd>
+				<dd>• If he isn't suprised, Iarno flees through the secret door in the northeast corner.</dd>
+				<dd>• If he manages to escape, he flees through area 1 from areas 7 and 8.</dd>
+				<dd>• Iarno instructs the nothic to waylay anyone that comes through if he makes it down there. </dd>
+		</dl>
+		<a href="#toc">▲</a><br>
+		<br>
+		<h3 id="The-Spiders-Web">Part 3: The Spider's Web</h3>
+		<i>Here are the combat encounters and main traps for Part 3.</i>
+		
+		<h3 id="Triboar-Trail">Triboar Trail</h3>
+		
+		<table>
+			<tr><th colspan="3"><h3 class="nobackground">Wilderness Encounters</h3></th></tr>
+			<tr><th>Day Roll</th><th>Night Roll</th><th>Result</th></tr>
+			<tr><td>1-2</td><td>1-3</td><td>Stirges (1d8+2)</td></tr>
+			<tr><td>-</td><td>4</td><td>Ghouls (1d4+1)</td></tr>
+			<tr><td>3-4</td><td>-</td><td>Orge (1)</td></tr>
+			<tr><td>5-6</td><td>5</td><td>Goblins (1d6+3)</td></tr>
+			<tr><td>7-8</td><td>6</td><td>Hobgoblins (1d4+2)</td></tr>
+			<tr><td>9-10</td><td>7-8</td><td>Orcs (1d4+2)</td></tr>
+			<tr><td>11</td><td>9-10</td><td>Wolves (1d4+2)</td></tr>
+			<tr><td>12</td><td>11-12</td><td>Owlbear (1)</td></tr>
+		</table>
+
+		<h3 id="Old-Owl-Well">Old Owl Well</h3>
+		<dl>
+				<dd><b>Encounter:</b></dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 12 zombies</dd>
+				<dd>&nbsp;&nbsp;&nbsp;&nbsp;• 1 evil mage (Hamun Kost)</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• The zombies can't be seen, but can be smelled with passive perception of 10 or higher.</dd>
+				<dd>• If battle erupts, the evil mage erupts from his tent.</dd>
+				<dd>• DC 10 arcana check reveals tatoo as necromatic symbol.</dd>
+				<dd>• DC 10 history check reveals he is a Thay.  A land where wizards tatoo their flesh with tatoos to represent school of magic. </dd>
+				<dd>• If anyone talks to Kost, he stops zombies from combat temprorarily. </dd>
+				<dd>• Kost is willing to strike a deal that advances his interests at helps the characters </dd>
+		</dl>
+			<h3 id="Ruins-Of-Thundertree">Ruins of Thundertree</h3>
+		<dl>
+			<dt><h3 class="nobackground">Westernmost Cottage</h3></dt>
+				<dd><b>Encounter:</b> 2 Twig Blights</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Compare the stealth check of the blights to the perception scores of the characters to determine if the blights are spotted.</dd>
+				<dd>• Blights here do not attack on their own (only self-defense).</dd>
+			<dt><h3 class="nobackground">Blighted Cottages</h3></dt>
+				<dd><b>Encounter:</b> 6 Twig Blights (+2 more)</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Compare the stealth check of the blights to the perception scores of the characters to determine if the blights are spotted.</dd>
+				<dd>• One round after the attack starts, the two twig blights from room 1 join the fray.</dd>
+			<dt><h3 class="nobackground">The Brown Horse</h3></dt>
+				<dd><b>Encounter:</b> 4 Ash Zombies</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• When living creatures enter, they stand from prone spending half their speed.</dd>
+			<dt><h3 class="nobackground">Blighted Farmhouse</h3></dt>
+				<dd><b>Encounter:</b> 8 Twig Blights</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Each round for 3 rounds, two twig blights head for the south doorway, while two more head for the north doorway.</dd>
+			<dt><h3 class="nobackground">Ruined Store</h3></dt>
+				<dd><b>Encounter:</b> 2 Giant Spiders</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• They suprise any character whose passive perception is less than 17.</dd>
+				<dd><br /></dd>
+				<dd><b>Trap:</b> Webs</dd>
+				<dd><b>Athletics Check Needed:</b> 10 or higher</dd>
+				<dd><b>On failed save:</b></dd>
+				<dd>• Creature is restratined in webs.</dd>
+				<dd>• DC 12 Strength check to break free rolled each round.</dd>
+				<dd>• Creature can cut its way free using a light weapon that deals slashing damage.  The webs have <b>AC 10 and 5HP</b>.</dd>
+			<dt><h3 class="nobackground">Dragon's Tower</h3></dt>
+				<dd><b>Encounter:</b> Young Green Dragon (Venomfang)</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• If the characters reduce the dragon to half HP, it climbs to the top of the tower and flies away.</dd>
+			<dt><h3 class="nobackground">Old Smithy</h3></dt>
+				<dd><b>Encounter:</b> 2 Ash Zombies</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• When living creatures enter, they stand from prone spending half their speed.</dd>
+			<dt><h3 class="nobackground">Old Garrison</h3></dt>
+				<dd><b>Encounter:</b> 5 Ash Zombies</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• They animate and attack if any living creature disturbs their rest.</dd>
+			<dt><h3 class="nobackground">Weaver's Cottage</h3></dt>
+				<dd><b>Encounter:</b> 6 Twig Blights</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• Compare the stealth check of the blights to the perception scores of the characters to determine if the blights are spotted.</dd>
+			<dt><h3 class="nobackground">Dragon Cultists</h3></dt>
+				<dd><b>Encounter:</b> 6 Human Cultists</dd>
+				<dd><b>Notes:</b></dd>
+				<dd>• 4 cultists stand guard (2 in each room), the others rest in the larger chamber.</dd>
+				<dd>• An alliance can be struck with the cultists through their leader, Favric.</dd> 
+		</dl>
+
+		<a href="#toc">▲</a><br>
+		<br>
 		<h2 id="tyrannyofdragons">
 			Tyranny of Dragons
 		</h2>
