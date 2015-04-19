@@ -4075,10 +4075,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Commander's Strike</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 bonus action</time>
-		<range>Creature that can see or hear you</range>
-		<components>Superiority die</components>
-		<duration>1 action</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll.</text>
 	</spell>
@@ -4086,10 +4082,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Disarming Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Weapon Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</text>
 	</spell>
@@ -4097,10 +4089,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Distracting Strike</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Weapon Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</text>
 	</spell>
@@ -4108,21 +4096,20 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Evasive Footwork</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 movement action</time>
-		<range>Creature within 5 feet</range>
-		<components>Superiority die</components>
-		<duration>Till next attack</duration>
 		<classes>Fighter (Battle Master)</classes>
-		<text>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving. Feinting Attack. You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll.</text>
+		<text>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving. Feinting Attack.</text>
+	</spell>
+	<spell>
+		<name>Feinting Attack</name>
+		<level>1</level>
+		<school>EV</school>
+		<classes>Fighter (Battle Master)</classes>
+		<text>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll.</text>
 	</spell>
 	<spell>
 		<name>Goading Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Weapon Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 turn</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</text>
 	</spell>
@@ -4130,10 +4117,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Lunging Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Melee attack range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll. </text>
 	</spell>
@@ -4141,10 +4124,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Maneuvering Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 action</time>
-		<range>Attack Range, and a creature that can see or hear you</range>
-		<components>Superiority die</components>
-		<duration>1 reaction</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</text>
 	</spell>
@@ -4152,10 +4131,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Menacing Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Weapon Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</text>
 	</spell>
@@ -4163,10 +4138,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Parry</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 reaction</time>
-		<range>Melee Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 reaction</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die+your Dexterity modifier</text>
 	</spell>
@@ -4174,10 +4145,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Precision Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Melee Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 roll</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</text>
 	</spell>
@@ -4185,10 +4152,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Pushing Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Melee Attack Range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</text>
 	</spell>
@@ -4196,10 +4159,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Rally</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 bonus action</time>
-		<range>Creature that can see or hear you</range>
-		<components>Superiority die</components>
-		<duration>1 turn</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll+your Charisma modifier.</text>
 	</spell>
@@ -4207,10 +4166,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Riposte</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 reaction</time>
-		<range>Melee weapon range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll.</text>
 	</spell>
@@ -4218,10 +4173,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Sweeping Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Melee weapon range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.</text>
 	</spell>
@@ -4229,10 +4180,6 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Trip Attack</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 attack</time>
-		<range>Melee weapon range</range>
-		<components>Superiority die</components>
-		<duration>1 attack</duration>
 		<classes>Fighter (Battle Master)</classes>
 		<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</text>
 	</spell>
@@ -5189,10 +5136,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Flurry of Blows</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>Immediately after attack</time>
-		<range>Melee Range</range>
-		<components>1 Ki Point</components>
-		<duration>1 bonus action</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strike as a bonus action.</text>
 	</spell>
@@ -5200,10 +5144,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Patient Defense</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>On your turn</time>
-		<range>Self</range>
-		<components>1 Ki Point</components>
-		<duration>1 bonus action</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</text>
 	</spell>
@@ -5211,10 +5152,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Step of the Wind</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>On your turn</time>
-		<range>Self</range>
-		<components>1 Ki Point</components>
-		<duration>1 bonus action</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</text>
 	</spell>
@@ -5222,10 +5160,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Deflect Missiles</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>Reaction</time>
-		<range>Self</range>
-		<components>1 Ki Point</components>
-		<duration>1 reaction</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack.  When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.</text>
 		<text>If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free.  If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction.  You make this attack with proficiency, regardless of your weapon proficiencies, and the missle counts as a monk weapon for the attack.</text>
@@ -5234,10 +5169,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Stunning Strike</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>After hitting creature</time>
-		<range>Self</range>
-		<components>1 Ki Point</components>
-		<duration>Till end of your next turn</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>You can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</text>
 	</spell>
@@ -5245,10 +5177,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Diamond Soul</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>Saving throw</time>
-		<range>Self</range>
-		<components>1 Ki Point</components>
-		<duration>During saving throw</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.</text>
 		<text>Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</text>
@@ -5257,10 +5186,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Empty Body</name>
 		<level>1</level>
 		<school>EV</school>
-		<time>1 Action</time>
-		<range>Self</range>
-		<components>4 Ki Points + 8 Ki points (Optional)</components>
-		<duration>1 Minute</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>You can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.</text>
 		<text>Additionallly, you can spend 8 ki points to cast the astral projection spell, without needing material components.  When you do so, you can't take any other creatures with you.</text>
@@ -5269,10 +5195,7 @@ Skills: Choose two from Acrobatics, Animal Handling, Athletics, History, Insight
 		<name>Astral Projection</name>
 		<level>1</level>
 		<school>N</school>
-		<time>1 hour</time>
-		<range>10 feet</range>
-		<components>Empty Body Ability + 8 Ki</components>
-		<duration>Special</duration>
+		<components />
 		<classes>Monk</classes>
 		<text>You project your astral body into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation, it doesn't need food or air and doesn't age.</text>
 		<text/>
@@ -7507,7 +7430,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 				<text>• (a) a rapier or (b) a shortsword </text>
 				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
 				<text>• (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
-				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
+				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves' tools</text>
 			</feature>
 			<feature>
 				<name>Expertise</name>
@@ -7718,7 +7641,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 				<text>• (a) a rapier or (b) a shortsword </text>
 				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
 				<text>• (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
-				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
+				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves' tools</text>
 			</feature>
 			<feature>
 				<name>Expertise</name>
@@ -7980,7 +7903,7 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 				<text>• (a) a rapier or (b) a shortsword </text>
 				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword </text>
 				<text>• (a) a burglar's pack or (b) a dungeoneer's pack or (c) an explorer's pack </text>
-				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves'</text>
+				<text>• 4d4 x 10 gp, Leather armor, two daggers, and thieves' tools</text>
 			</feature>
 			<feature>
 				<name>Expertise</name>
@@ -8220,6 +8143,22 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 	<proficiency>Constitution, Charisma</proficiency>
 	<spellAbility>Charisma</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: None
+Weapons: Daggers, darts, slings, quarterstaffs, light crossbows.
+Tools: None			
+Saving Throws: Constitution, Charisma
+Skills: Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a a light crossbow and 20 bolts or (b) any simple weapon </text>
+				<text>• (a) a component pouch or (b) an arcane focus </text>
+				<text>• (a) a dungeoneer's pack or (b) an explorer's pack </text>
+				<text>• 3d4 x 10 gp and two daggers </text>
+			</feature>
 		<slots>4, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
@@ -8436,6 +8375,22 @@ Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation
 	<proficiency>Constitution, Charisma</proficiency>
 	<spellAbility>Charisma</spellAbility>
 	<autolevel level="1">
+			<feature>
+				<name>Proficiencies</name>
+				<text>Armor: None
+Weapons: Daggers, darts, slings, quarterstaffs, light crossbows.
+Tools: None			
+Saving Throws: Constitution, Charisma
+Skills: Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a a light crossbow and 20 bolts or (b) any simple weapon </text>
+				<text>• (a) a component pouch or (b) an arcane focus </text>
+				<text>• (a) a dungeoneer's pack or (b) an explorer's pack </text>
+				<text>• 3d4 x 10 gp and two daggers </text>
+			</feature>
 		<slots>4, 2</slots>
 		<feature>
 			<name>Spellcasting</name>
