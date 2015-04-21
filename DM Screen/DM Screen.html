@@ -5,6 +5,10 @@
 		<link rel="stylesheet" type="text/css" href="default.css">
 		<title></title>
 		<style media="screen" type="text/css">
+		html, body {
+			margin-top: 0;
+			padding-top: 0;
+		}
 		dt { background-color:#CAAD6B; }
 		h3 { padding:0; margin:0; background-color:#E0E4C0; text-align:center;}
 		table.noborder, td.noborder { border-style: none;}
@@ -140,7 +144,32 @@
 			z-index: 0; 
 			padding-top: 5px;
 		}
+		/* Back to top option */
+		
+		nav {
+			position: relative;
+			z-index: 2;
+			top: 0px;
+			background: #fff;
+		}
 
+		.to-top, .to-top a, .to-top a:visited {
+			position:fixed;
+			top:0;
+			z-index:1;
+			display: block !important;
+			width:95%;
+			text-decoration: none !important;
+			text-shadow: 0 1px 0 rgba(0,0,0,.2);
+		    color: #FFFFFF !important;
+		    line-height: 2em;
+		    text-align: center; 
+			letter-spacing: .05em;
+			font-variant: small-caps;
+			font-weight: bold !important;
+		    background: #581A0F;      
+		    border-radius: .3em;
+		}
 		body {
 			text-rendering: optimizeLegibility;
 		}
@@ -148,6 +177,7 @@
 		
 	</head>
 	<body>
+	<nav>
 		<div style="position: relative;">
 			<div class="ribbon">
 				<div class="ribbon-text">Version<br />&nbsp;&nbsp;1.3.1
@@ -420,7 +450,8 @@
 				</ol>
 			</li>		
 		</ol>
-		
+	</nav>
+		<a href="#toc" class="to-top">Back To Top</a>
 		<h1 id="abilitychecks">
 			Ability Checks
 		</h1>
@@ -561,7 +592,7 @@
 			<tr><td>12-13</td><td>+1</td><td>28-29</td><td>+9</td></tr>
 			<tr><td>14-15</td><td>+2</td><td>30</td><td>+10</td></tr>
 		</table>
-		<br><a href="#toc">&#9650;</a><br />
+		
 		<dl>
 			<dt>
 				<h2 id="strength">
@@ -586,7 +617,7 @@
 		</table>
 		² For each size category above medium, double the creatures carrying capacity and the amount it can pull, drag, or lift. For a tiny creature, half these weights.
 		<br>	² While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet.
-		<br><a href="#toc">&#9650;</a><br />
+		
 		<dl><dt><h2>Strength Skills</h2></dt><dd><i>Below are all the skills associated with the Strength ability.</i></dd></dl>
 		<table>
 			<tr id="athletics">
@@ -685,7 +716,7 @@
 			<sup>1</sup> A PC can climb and swim under normal conditions without having to make a check; however, strenuous conditions may require that they pass an Athletics check. Each foot of movement during such a check costs an extra foot of movement, or an extra 2 feet if it is considered difficult terrain. Characters with climb and swim speeds ignore the extra costs associated with movement of this type. Similarly, the horizontal and vertical distance a PC can jump without having to make a check is determined by their Strength score and modifier respectively. An Athletics check is generally only required when attempting to jump a distance farther than the amount calculate in the table above.<br>
 			<sup>2</sup> During a vertical jump a PC can extend their arms in order to achieve an extra distance equal to 1⁄2 of their height, which they can effectively add to their jump distance in order to attempt to grab on to a ledge or other handhold.
 		</p>
-		<a href="#toc">▲</a><br>
+		
 		<dl>
 			<dt>
 		<h2 id="dexterity">
@@ -708,7 +739,7 @@
 			<tr><td>Other possible uses</td><td align="left">Control a heavily laden cart on a steep descent. Steer a chariot around a tight turn. Disable a trap. Securely tie up a prisoner. Wriggle free of bonds. Craft a small or detailed object.</td><td /></tr>
 		</table>
 		² Certain types of medium and heavy armor add disadvantage to this roll.
-<br><a href="#toc">&#9650;</a><br />
+
 <dl><dt><h2>Dexterity Skills</h2></dt><dd><i>Below are all the skills associated with the Dexterity ability.</i></dd></dl>
 		<table>
 			<tr id="acrobatics">
@@ -835,7 +866,7 @@
 			<sup>1</sup> Generally, becoming hidden in combat requires being heavily obscured or under total cover, but ultimately the rules leave it up to your personal adjudication.<br>
 			<sup>2</sup> Proficiency with Thieves’ Tools allows a player to add their proficiency bonus to checks made to open locks and disarm traps.<br>
 			<sup>3</sup> Such as Operation <sup>TM</sup><br>
-			<a href="#toc">▲</a><br>
+			
 			<dl>
 				<dt>
 		<h2 id="constitution">
@@ -860,7 +891,7 @@
 				<tr><td align="left">Check</td><td align="left">Very rarely used, but can be used to push yourself beyond normal limits</td><td /></tr>
 				<tr><td>Other possible uses</td><td align="left">Quaff an entire stein of ale in one go.</td><td /></tr>
 			</table>
-	<br><a href="#toc">&#9650;</a><br />
+	
 	
 	<dl><dt><h2>Constitution Skills</h2></dt><dd><i>Below are all the skills associated with the Constitution ability.</i></dd></dl>
 		<table>
@@ -964,7 +995,7 @@
 				<sup>2</sup> A PC can only travel for eight hours a day before they risk becoming exhausted.<br>
 				<sup>3</sup> A PC requires one gallon of water per day, or two if the climate is harsh.
 				<br>
-				<a href="#toc">▲</a><br>
+				
 				<dl>
 					<dt>
 				<h2 id="intelligence">
@@ -981,7 +1012,7 @@
 						<tr><td align="left">Check</td><td align="left">Drawing on logic, education, memory, or deductive reasoning</td><td align="left">1d20 + INT mod</td></tr>
 						<tr><td>Other possible uses</td><td align="left">Communicate with a creature without words. Estimate the value of a precious item. Forge a document. Recall lore about a craft or trade. Win a game of skill.</td><td /></tr>
 					</table>
-			<br><a href="#toc">&#9650;</a><br />
+			
 				<dl><dt><h2>Intelligence Skills</h2></dt><dd><i>Below are all the skills associated with the Intelligence ability.</i></dd></dl>
 				<table>
 					<tr id="arcana">
@@ -1067,7 +1098,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<dl>
 					<dt>
 				<h2 id="wisdom">
@@ -1085,7 +1116,7 @@
 							<tr><td align="left">Check</td><td align="left">Reading body language, understanding someone's feelings, noticing things about the environment, or caring for an injured person</td><td align="left">1d20 + WIS mod</td></tr>
 							<tr><td>Other possible uses</td><td align="left">Get a gut feeling about what course of action to follow. Discern whether a seemingly dead or living creature is undead.</td><td /></tr>
 						</table>
-				<br><a href="#toc">&#9650;</a><br />
+				
 				<dl><dt><h2>Wisdom Skills</h2></dt><dd><i>Below are all the skills associated with the Wisdom ability.</i></dd></dl>
 				<table>
 					<tr id="insight">
@@ -1228,7 +1259,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<dl>
 					<dt>
 				<h2 id="charisma">
@@ -1245,7 +1276,7 @@
 							<tr><td align="left">Check</td><td align="left">Trying to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation</td><td align="left">1d20 + Ability mod</td></tr>
 							<tr><td>Other possible uses</td><td align="left">Find the best person to talk to for news and gossip. Blend into a crowd to get the sense of key topics of conversation.</td><td /></tr>
 						</table>
-				<br><a href="#toc">&#9650;</a><br />
+				
 				<dl><dt><h2>Charisma Skills</h2></dt><dd><i>Below are all the skills associated with the Charisma ability.</i></dd></dl>
 				<table>
 					<tr id="deception">
@@ -1389,7 +1420,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<h1 id="combat">
 					Combat
 				</h1><br />
@@ -1613,7 +1644,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 
 				<table id="exhaustion">
 					<th colspan="2">
@@ -1678,7 +1709,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a>
+				
 				<br /><br />
 				
 				<table>
@@ -1730,7 +1761,7 @@
 				</table><br>
 				<b>Reducing Levels of Exhaustion</b><br>
 				At the end of a long rest, provided a character has had enough food and water that day, they reduce their level of exhaustion by 1.<br>
-				<a href="#toc">▲</a><br>
+				
 				<br />
 				
 				<table id="damagetypes">
@@ -1853,7 +1884,7 @@
 							Concussive burst of sound or shock wave
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<br />
 				<table id="damageseverity">
 					<tr>
@@ -1933,7 +1964,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<table id="cover">
 					<th colspan="2">
@@ -1974,7 +2005,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				<table id="combatactions">
 					<th colspan="2">
 						<h3 class="nobackground">
@@ -2119,21 +2150,22 @@
 					</tr>
 				</table>¹ Certain features allow you to make more than one attack, grapple, or shove with this action.<br>
 				² These actions are optional and can be found on pages 271-272 of the DMG.<br>
-				<a href="#toc">▲</a><br>
+				
 				<h1 id="stealthrules">
 					The Rules of Stealth
-				</h1>When attempting to hide, there are 4 simple rules to remember.
-				<ol><i>
-					<li>If someone can see you, you can't attempt to hide from them.
+				</h1>When attempting to hide, there are 4 simple rules to remember. <br />
+				<ol>
+					<li>1) If someone can see you, you can't attempt to hide from them.
 					</li>
-					<li>Someone doesn't see you when they're not looking at you.
+					<li>2) Someone doesn't see you when they're not looking at you.
 					</li>
-					<li>Once hidden, you can be detected via sight, hearing, or both, so don't be seen or heard. If their perception check or passive perception is higher than your stealth roll, they detect you.
+					<li>3) Once hidden, you can be detected via sight, hearing, or both, so don't be seen or heard. If their perception check or passive perception is higher than your stealth roll, they detect you.
 					</li>
-					<li>You can hide in plain sight, given a moment of being unseen or unattended and an appropriate concealment strategy
-					</li></i>
-				</ol>If you are hidden, or when someone can't see you, you have advantage on attack rolls against them, and they have disadvantage on attack rolls against you. If you make an attack while hidden, regardless of whether it hits or misses, you are no longer hidden.<br>
-				<a href="#toc">▲</a><br>
+					<li>4)You can hide in plain sight, given a moment of being unseen or unattended and an appropriate concealment strategy
+					</li>
+				</ol>
+				If you are hidden, or when someone can't see you, you have advantage on attack rolls against them, and they have disadvantage on attack rolls against you. If you make an attack while hidden, regardless of whether it hits or misses, you are no longer hidden.<br>
+				
 				<h1 id="grapplingshovingclimbing">
 					Grappling, Shoving, and Climbing onto Bigger Creatures
 				</h1>When you take the <a href="#attackaction">attack action</a> you can use one attack to grapple, shove, or climb onto an enemy.<br>
@@ -2169,7 +2201,7 @@
 						A suitably large creature can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. Once you make any ability checks necessary to get into position and to get onto the bigger creature, the smaller creature uses its action to make an Athletics or Acrobatics check contested by the targets Acrobatics check. If it wins the contest, the smaller creature successfully moves into the target creature's space and clings to his body. While in the target's space, the smaller creature moves with the target and has advantage on attack rolls against it.<br>
 						&nbsp;&nbsp;&nbsp;&nbsp;The smaller creature can move around within the larger creature's space, treating the space as difficult terrain. The larger creature may or may not be able to attack the smaller creature, depending on the smaller creature's location, this is up to the DM. The larger creature can try to dislodge the creature as an action - shaking it off, scraping it against a wall, grabbing and throwing it off - by making an Athletics check opposed by the smaller creature's Athletics or Acrobatics check.
 					</dd>
-				</dl><a href="#toc">▲</a><br>
+				</dl>
 				<h1 id="readying">
 					Readying an Action
 				</h1>&nbsp;&nbsp;&nbsp;&nbsp;As an action on your turn, you can take the Ready action so that you may act later in the round using your reaction. To do this, you need to clearly define 2 things.<br>
@@ -2177,7 +2209,7 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;Second, you must decide what you will do if the triggering event happens. You may take an <a href="#combatactions">action</a> such as the <a href="#attackaction">attack action</a> or you may move up to your speed. For example, you could say "I will attack with my greatsword".<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;When you put both the trigger and the action together you get a coherent sentence. The example is "If a hostile creature comes through the door in front of me, I will attack with my greatsword".<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;<b>Readying A Spell.</b> When you ready a spell, you cast it as normal but hold its energy, which you then release with your reaction. To be readied a spell must have a casting time of 1 action, and holding onto the spell's magic requires <a href="#concentration">concentration</a>. If your concentration is broken the spell dissipates.<br>
-				<a href="#toc">▲</a><br>
+				
 				<h1 id="death">
 					Dropping to 0 Hit Points
 				</h1>
@@ -2218,7 +2250,9 @@
 					<dd>
 						The best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn’t killed by a failed death saving throw. You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Medicine check. A stable creature doesn’t make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn’t healed regains 1 hit point after 1d4 hours.
 					</dd>
-				</dl><a href="#toc">▲</a><br />
+				</dl><br />
+				<h1 id="wildmagic">Wild Magic</h1>
+				<i>Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect.</i><br /><br />
 				<table id="wildmagic">
 					<tr>
 						<th colspan="4">
@@ -2634,7 +2668,7 @@
 						</td>	
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				<h1 id="adventuring">
 					Adventuring
 				</h1>
@@ -2877,7 +2911,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br>
+				
 				<br />
 
 				<div class="small-font">
@@ -2892,7 +2926,7 @@
 				</table>
 				</div>
 
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 
 				<table id="services">
 					<tr>
@@ -3003,7 +3037,7 @@
 				<sup>2</sup> Third level and higher spells are much more rare and can only be found with any amount of regularity in a large city, perhaps home to a University or Temple.<br>
 				<sup>3</sup> Often times a spellcaster might ask for a service rather than monetary payment.
 			</dd><br />
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<table id="lifestyle">
 					<tr>
@@ -3075,7 +3109,7 @@
 							10 gp minimum
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br /><br />
+				</table><br /><br />
 				<table id="lodging">
 					<tr>
 						<th colspan="2">
@@ -3108,7 +3142,7 @@
 					<tr><td align="left">Common (pitcher)</td><td align="left">2 sp</td></tr>
 					<tr><td align="left">Fine (bottle)</td><td align="left">10 gp</td></tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<h1 id="maptravelpace">
 					Map Travel Paces
@@ -3143,7 +3177,7 @@
 					<tr><th colspan="3"><i><center>1 hex = 6 miles</center></i></th></tr>
 				</table>
 				<br />
-				<a href="#toc">▲</a><br>
+				
 				<h1 id="travelpace">
 					Travel Paces
 				</h1><i>Below are guidelines for how fast a PC can travel on foot in actual distances at different paces (slow, normal and fast.)</i><br /><br />
@@ -3177,7 +3211,7 @@
 					<tr><th width="20%">Minute</th><th width="20%">Hour</th><th width="20%">Day</th><th width="40%">Effect</th></tr>
 					<tr><td>200 ft</td><td>2 miles</td><td>18 miles</td><td>Able to stealth</td></tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<table id="speed">
 					<tr>
@@ -3247,7 +3281,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<h1 id="encounterdistance">
 					Encounter Distances
@@ -3302,7 +3336,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<table>
 					<tr>
 						<th colspan="2">
@@ -3336,7 +3370,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<br />
 				<table>
 					<tr>
@@ -3377,14 +3411,14 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br><br />
+				<br />
 				<table id="vision">
 					<tr><th colspan="3"><h3 class="nobackground">Vision and Light</h3></th></tr>
 					<tr><th></th><th>Hinderance</th><th>Examples</th></tr>
 					<tr><td>Lightly Obscured</td><td>Disadvantage on Perception checks relying on sight</td><td>Dim light, patchy fog, moderate foliage</td></tr>
 					<tr><td>Heavily Obscured</td><td><a href="#blinded">Blinded condition</a></td><td>Darkness, opaque fog, dense foliage</td></tr>
 				</table>
-				<a href="#toc">▲</a><br><br />
+				<br />
 				<table id="light">
 					<tr>
 						<th colspan="4">
@@ -3622,7 +3656,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<br />
 				<table id="traps">
 					<tr>
@@ -3675,7 +3709,7 @@
 						</td>
 					</tr>
 				</table><br>
-				<a href="#toc">▲</a><br>
+				
 				<br />
 				<table id="damageseverity">
 					<tr>
@@ -3754,7 +3788,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br><br />
+				<br />
 				<table id="aoetargets">
 					<tr>
 						<th colspan="2">
@@ -3809,7 +3843,7 @@
 							Radius / 5 (round up)
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br><br />
+				</table><br />
 				<table id="improvizingdamage">
 					<tr>
 						<th colspan="2">
@@ -3873,7 +3907,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<table id="objectac">
 					<tr><th colspan="2"><h3 class="nobackground">Object Armor Class</h3></th></tr>
@@ -3893,7 +3927,7 @@
 					<tr><td>Adamantine</td><td>23</td></tr>
 				</table>
 				
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<table id="objectap">
 					<tr><th colspan="3"><h3 class="nobackground">Object Hit Points</h3></th></tr>
@@ -3905,7 +3939,7 @@
 					<tr><td>HUGE+<br />&nbsp;&nbsp;&nbsp;&nbsp;Wagon, Hut</td><td colspan="2">DM's Discretion</td></tr>
 				</table>
 				
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				
 				<h1 id="resting">
 					Resting
@@ -3946,7 +3980,7 @@
 						A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits.
 					</dd>
 				</dl><br>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				<h1 id="worldbuilding">
 					World Building
 				</h1>
@@ -4122,7 +4156,7 @@
 							Uses flowery speech or long words
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<h2 id="npcideals">
 					NPC Ideals
 				</h2>
@@ -4509,7 +4543,7 @@
 							Self-knowing
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<br />
 				<table id="npcbonds">
 					<tr>
@@ -4605,7 +4639,7 @@
 							Roll 2 times (ignoring d10 result)
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<br />
 				<table id="npcflaws">
 					<tr>
@@ -4717,7 +4751,7 @@
 							Foolhardy bravery
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<h1 id="encounterbuilding">
 					Building Encounters
 				</h1>
@@ -4749,7 +4783,7 @@
 					<dd>
 						Compare the adjusted encounter Exp Value with the difficulty thresholds you calculated in Step 1 to get an estimate of the encounter’s difficulty. Adjust the encounter accordingly.
 					</dd>
-				</dl><a href="#toc">▲</a><br>
+				</dl>
 				<br />
 				<table id="encounterdifficulty">
 					<tr>
@@ -5115,7 +5149,7 @@
 						</td>
 					</tr>
 				</table>
-				<a href="#toc">▲</a><br /><br />
+				<br /><br />
 				<table id="encounterexp">
 					<tr>
 						<th colspan="4">
@@ -5226,7 +5260,7 @@
 							x 3
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<br />
 				<table id="randomencounters">
 					<tr>
@@ -5322,7 +5356,7 @@
 							</center>
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 				<br />
 				<table id="sizecategories">
 					<tr>
@@ -5428,7 +5462,7 @@
 							Ancient Dragon, Kraken
 						</td>
 					</tr>
-				</table><a href="#toc">▲</a><br>
+				</table>
 			</dd>
 		</dl>
         <h1 id="items">Adventuring Items List</h1><br />
@@ -5454,7 +5488,7 @@
             <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Shield</td><td align="right">10 gp</td><td>+2</td><td align="right">6 lb.</td></tr>
         </table>
 		        ² Disadvantage on Dexterity (Stealth) checks
-		<br><a href="#toc">&#9650;</a><br /><br />
+		<br />
 
 		<div class="small-font">
          <table id="weapons">
@@ -5518,7 +5552,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;Th = Thrown<br />
         &nbsp;&nbsp;&nbsp;&nbsp;V = Versatile<br /></i>
 
-		<a href="#toc">&#9650;</a><br /><br />
+		<br /><br />
 
 		<h2 id="weapon-properties">Weapon Properties</h2>
 		<dl>
@@ -5551,7 +5585,7 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</dd>
 		</dl>
 
-		<a href="#toc">&#9650;</a><br /><br />
+		<br /><br />
 		
 		<table id="adventuringgear">
 			<tr><th colspan="4"><h3 class="nobackground">Adventuring Gear</h3></th></tr>
@@ -5660,7 +5694,7 @@
 			<tr><td>Waterskin</td><td alight="right" width="20%">2 sp</td><td alight="right" width="20%">5 lb. (full)</td></tr>
 			<tr><td>Whetstone</td><td alight="right" width="20%">1 cp</td><td alight="right" width="20%">1 lb.</td></tr>
 		</table>
-		<a href="#toc">&#9650;</a><br /><br />
+		<br /><br />
 		<table id="tools">
 			<tr><th colspan="4"><h3 class="nobackground">Tools</h3></th></tr>
 			<tr><th>Item</th><th align="right" width="20%">Cost</th><th alight="right" width="20%">Weight</th></tr>
@@ -5705,7 +5739,7 @@
 			<tr><td>Poisoner’s kit</td><td alight="right" width="20%">50 gp</td><td alight="right" width="20%">2 lb.</td></tr>
 			<tr><td>Thieves’ tools</td><td alight="right" width="20%">25 gp</td><td alight="right" width="20%">1 lb.</td></tr>
 		</table>
-		<a href="#toc">&#9650;</a><br /><br />
+		<br /><br />
 		<table id="mounts">
 			<tr>
 				<th colspan="4">
@@ -5841,7 +5875,7 @@
 				</td>
 			</tr>
 		</table>
-			<a href="#toc">▲</a><br>
+			
 			<br>
 		<table id="tack">
 			<tr>
@@ -6022,7 +6056,7 @@
 				</td>
 			</tr>
 		</table>
-			<a href="#toc">▲</a><br>
+			
 			<br>
 		<table id="watervehicles">
 			<tr>
@@ -6110,7 +6144,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="#toc">▲</a><br>
+		
 		<br>
 		<h1 id="Adventure-Modules">Adventure Modules</h1>			
 		<dl>
@@ -6188,7 +6222,7 @@
 				<dd>• If he isn't warned, they can be suprised (best through chimmney).</dd>
 				<dd>• If the wolf is killed, he attempts to flee through the chimmney.</dd>
 		</dl>
-		<a href="#toc">▲</a><br>
+		
 		<br>
 		<h3 id="Phandalin">Part 2: Phandalin</h3>
 		<i>Here are the combat encounters and main traps for Part 2.  Please note that there are many quests here and the Redbrand Hideout can be dealt with at a later time.</i>
@@ -6249,7 +6283,7 @@
 				<dd>• If he manages to escape, he flees through area 1 from areas 7 and 8.</dd>
 				<dd>• Iarno instructs the nothic to waylay anyone that comes through if he makes it down there. </dd>
 		</dl>
-		<a href="#toc">▲</a><br>
+		
 		<br>
 		<h3 id="The-Spiders-Web">Part 3: The Spider's Web</h3>
 		<i>Here are the combat encounters and main traps for Part 3.  In this part of the adventure, the characters follow up on existing leads and lines of inquiry. They can't learn much more in Phandalin, so they need to set out into the forests and hills surrounding the town to uncover the larger plots they are caught up in.</i><br /><br />
@@ -6426,7 +6460,7 @@
 				<dd>• If the villians were warned, Vyerith hides behind the door to the northeast and King Grol holds Gundren hostage.</dd>
 		</dl>
 
-		<a href="#toc">▲</a><br>
+		
 		<br>
 
 		<h3 id="Wave-Echo-Cave">Part 4: Wave Echo Cave</h3>
@@ -6521,7 +6555,7 @@
 				<dd>• If creatures from room 18 can hear sounds in this room, they arrive 3 rounds after and act immediately.</dd>
 		</dl>
 
-		<a href="#toc">▲</a><br>
+		
 		<br>
 		<h2 id="tyrannyofdragons">
 			Tyranny of Dragons
@@ -6615,7 +6649,7 @@
 		</table>
 		<sup>*</sup> Acolytes have <i>command</i> prepared instead of <i>sanctuary</i>.
 		<br/>
-		<a href="#toc">▲</a><br/>
+		<br/>
 		<br/>
 		<table id="wanderingmonsters">
 			<tr>
@@ -6682,7 +6716,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="#toc">▲</a><br/>
+		<br/>
 		<br/>
 		<table id="hiringout">
 			<tr>
@@ -6733,7 +6767,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="#toc">▲</a><br/>
+		<br/>
 		<br/>
 		<table id="tradewayevents">
 			<tr>
@@ -6848,7 +6882,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="#toc">▲</a><br/>
+		<br/>
 		<br/>
 		<table id="encountersnorthofwaterdeep">
 			<tr>
@@ -6939,7 +6973,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="#toc">▲</a><br/>
+		<br/>
 		<br/>
 		<table id="mereofdeadmenencounters">
 			<tr>
@@ -7038,7 +7072,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="#toc">▲</a><br/>
+		<br/>
 		<br/>
 		<dl>
 		<dt><h3 class="nobackground" id="Rise-of-Tiamat">The Rise of Tiamat</h3></dt>
