@@ -1,324 +1,1959 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<items version="5">
-    <item><type>LA</type><name>Padded Armor</name><ac>11</ac><stealth>1</stealth><weight>8</weight></item>
-    <item><type>LA</type><name>Leather Armor</name><ac>11</ac><weight>10</weight></item>
-    <item><type>LA</type><name>Studded Leather Armor</name><ac>12</ac><weight>13</weight></item>
-    
-    <item><type>MA</type><name>Hide Armor</name><ac>12</ac><weight>12</weight></item>
-    <item><type>MA</type><name>Chain shirt</name><ac>13</ac><weight>20</weight></item>
-    <item><type>MA</type><name>Scale mail</name><ac>14</ac><stealth>1</stealth><weight>45</weight></item>
-    <item><type>MA</type><name>Breastplate</name><ac>14</ac><weight>20</weight></item>
-    <item><type>MA</type><name>Half plate</name><ac>15</ac><stealth>1</stealth><weight>40</weight></item>
-    
-    <item><type>HA</type><name>Ring mail</name><ac>14</ac><stealth>1</stealth><weight>40</weight></item>
-    <item><type>HA</type><name>Chain mail</name><ac>16</ac><strength>13</strength><stealth>1</stealth><weight>55</weight></item>
-    <item><type>HA</type><name>Splint Armor</name><ac>17</ac><strength>15</strength><stealth>1</stealth><weight>60</weight></item>
-    <item><type>HA</type><name>Plate Armor</name><ac>18</ac><strength>15</strength><stealth>1</stealth><weight>65</weight></item>
-    
-    <item><type>S</type><name>Shield</name><ac>2</ac><weight>6</weight></item>
-
-    <item><type>M</type><name>Club</name><dmg1>1d4</dmg1><dmgType>B</dmgType><weight>2</weight><property>L</property></item>
-    <item><type>M</type><name>Dagger</name><dmg1>1d4</dmg1><dmgType>P</dmgType><weight>1</weight><property>F,L,T</property><range>20/60</range></item>
-    <item><type>M</type><name>Greatclub</name><dmg1>1d8</dmg1><dmgType>B</dmgType><weight>10</weight><property>2H</property></item>
-    <item><type>M</type><name>Handaxe</name><dmg1>1d6</dmg1><dmgType>S</dmgType><weight>2</weight><property>L,T</property><range>20/60</range></item>
-    <item><type>M</type><name>Javelin</name><dmg1>1d6</dmg1><dmgType>P</dmgType><weight>2</weight><property>T</property><range>30/120</range></item>
-    <item><type>M</type><name>Light hammer</name><dmg1>1d4</dmg1><dmgType>B</dmgType><weight>2</weight><property>L,T</property><range>20/60</range></item>
-    <item><type>M</type><name>Mace</name><dmg1>1d6</dmg1><dmgType>B</dmgType><weight>4</weight>></item>
-    <item><type>M</type><name>Quarterstaff</name><dmg1>1d6</dmg1><dmg2>1d8</dmg2><dmgType>B</dmgType><weight>4</weight><property>V</property></item>
-    <item><type>M</type><name>Sickle</name><dmg1>1d4</dmg1><dmgType>S</dmgType><weight>2</weight><property>L</property></item>
-    <item><type>M</type><name>Spear</name><dmg1>1d6</dmg1><dmg2>1d8</dmg2><dmgType>P</dmgType><weight>3</weight><property>T,V</property><range>20/60</range></item>
-    <item><type>M</type><name>Unarmed strike</name><dmg1>1</dmg1><dmgType>B</dmgType><weight>0</weight>></item>
-    
-    <item><type>R</type><name>Light crossbow</name><dmg1>1d8</dmg1><dmgType>P</dmgType><weight>5</weight><property>A,LD,2H</property><range>80/320</range></item>
-    <item><type>R</type><name>Dart</name><dmg1>1d4</dmg1><dmgType>P</dmgType><weight>0.25</weight><property>F,T</property><range>20/60</range></item>
-    <item><type>R</type><name>Shortbow</name><dmg1>1d6</dmg1><dmgType>P</dmgType><weight>2</weight><property>A,2H</property><range>80/320</range></item>
-    <item><type>R</type><name>Sling</name><dmg1>1d4</dmg1><dmgType>B</dmgType><property>A</property><range>30/120</range></item>
-    
-    <item><type>M</type><name>Battleaxe</name><dmg1>1d8</dmg1><dmg2>1d10</dmg2><dmgType>S</dmgType><weight>4</weight><property>V</property></item>
-    <item><type>M</type><name>Flail</name><dmg1>1d8</dmg1><dmgType>B</dmgType><weight>2</weight>></item>
-    <item><type>M</type><name>Glaive</name><dmg1>1d10</dmg1><dmgType>S</dmgType><weight>6</weight><property>H,R,2H</property></item>
-    <item><type>M</type><name>Greataxe</name><dmg1>1d12</dmg1><dmgType>S</dmgType><weight>7</weight><property>H,2H</property></item>
-    <item><type>M</type><name>Greatsword</name><dmg1>2d6</dmg1><dmgType>S</dmgType><weight>6</weight><property>H,2H</property></item>
-    <item><type>M</type><name>Halberd</name><dmg1>1d10</dmg1><dmgType>S</dmgType><weight>6</weight><property>H,R,2H</property></item>
-    <item><type>M</type><name>Lance</name><dmg1>1d12</dmg1><dmgType>P</dmgType><weight>6</weight><property>R,S</property><text>You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted.</text></item>
-    <item><type>M</type><name>Longsword</name><dmg1>1d8</dmg1><dmg2>1d10</dmg2><dmgType>S</dmgType><weight>3</weight><property>V</property></item>
-    <item><type>M</type><name>Maul</name><dmg1>2d6</dmg1><dmgType>B</dmgType><weight>10</weight><property>H,2H</property></item>
-    <item><type>M</type><name>Morningstar</name><dmg1>1d8</dmg1><dmgType>P</dmgType><weight>4</weight>></item>
-    <item><type>M</type><name>Pike</name><dmg1>1d10</dmg1><dmgType>P</dmgType><weight>18</weight><property>H,R,2H</property></item>
-    <item><type>M</type><name>Rapier</name><dmg1>1d8</dmg1><dmgType>P</dmgType><weight>2</weight><property>F</property></item>
-    <item><type>M</type><name>Scimitar</name><dmg1>1d6</dmg1><dmgType>S</dmgType><weight>3</weight><property>F,L</property></item>
-    <item><type>M</type><name>Shortsword</name><dmg1>1d6</dmg1><dmgType>P</dmgType><weight>2</weight><property>F,L</property></item>
-    <item><type>M</type><name>Trident</name><dmg1>1d6</dmg1><dmg2>1d8</dmg2><dmgType>P</dmgType><weight>4</weight><property>T,V</property><range>20/60</range></item>
-    <item><type>M</type><name>War pick</name><dmg1>1d8</dmg1><dmgType>P</dmgType><weight>2</weight>></item>
-    <item><type>M</type><name>Warhammer</name><dmg1>1d8</dmg1><dmg2>1d10</dmg2><dmgType>B</dmgType><weight>2</weight><property>V</property></item>
-    <item><type>M</type><name>Whip</name><dmg1>1d4</dmg1><dmgType>S</dmgType><weight>3</weight><property>F,R</property></item>
-    
-    <item><type>R</type><name>Blowgun</name><dmg1>1</dmg1><dmgType>P</dmgType><weight>1</weight><property>A,LD</property><range>25/100</range></item>
-    <item><type>R</type><name>Hand crossbow</name><dmg1>1d6</dmg1><dmgType>P</dmgType><weight>3</weight><property>A,L,LD</property><range>30/120</range></item>
-    <item><type>R</type><name>Heavy crossbow</name><dmg1>1d10</dmg1><dmgType>P</dmgType><weight>18</weight><property>A,H,LD,2H</property><range>100/400</range></item>
-    <item><type>R</type><name>Longbow</name><dmg1>1d8</dmg1><dmgType>P</dmgType><weight>2</weight><property>A,H,2H</property><range>150/600</range></item>
-    <item><type>R</type><name>Net</name><weight>3</weight><property>S,T</property><range>5/15</range><text>A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.\n\tWhen you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</text></item>"
-
-    <item><type>A</type><quantity>20</quantity><name>Arrows</name><weight>0.05</weight></item>
-    <item><type>A</type><quantity>50</quantity><name>Blowgun needles</name><weight>0.02</weight></item>
-    <item><type>A</type><quantity>20</quantity><name>Crossbow bolts</name><weight>0.075</weight></item>
-    <item><type>A</type><quantity>20</quantity><name>Sling bullets</name><weight>0.075</weight></item>
-
-    <item><type>G</type><name>Abacus</name><weight>2</weight></item>
-    <item><type>G</type><name>Acid (vial)</name><weight>1</weight><text>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</text></item>
-    <item><type>G</type><name>Alchemist's fire (flask)</name><weight>1</weight><text>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist’s fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text></item>
-    <item><type>G</type><name>Antitoxin</name><text>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</text></item>
-    <item><type>G</type><name>Crystal</name><weight>1</weight></item>
-    <item><type>G</type><name>Orb</name><weight>3</weight></item>
-    <item><type>G</type><name>Rod</name><weight>2</weight></item>
-    <item><type>G</type><name>Staff</name><weight>4</weight></item>
-    <item><type>G</type><name>Wand</name><weight>1</weight></item>
-    <item><type>G</type><name>Backpack</name><weight>5</weight></item>
-    <item><type>G</type><quantity>1000</quantity><name>Ball bearings</name><weight>0.002</weight><text>As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the saving throw.</text></item>
-    <item><type>G</type><name>Barrel</name><weight>70</weight></item>
-    <item><type>G</type><name>Basket</name><weight>2</weight></item>
-    <item><type>G</type><name>Bedroll</name><weight>7</weight></item>
-    <item><type>G</type><name>Bell</name></item>
-    <item><type>G</type><name>Blanket</name><weight>3</weight></item>
-    <item><type>G</type><name>Block and tackle</name><weight>5</weight><text>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</text></item>
-    <item><type>G</type><name>Book</name><weight>5</weight><text>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).</text></item>
-    <item><type>G</type><name>Glass bottle</name><weight>2</weight></item>
-    <item><type>G</type><name>Bucket</name><weight>2</weight></item>
-    <item><type>G</type><quantity>20</quantity><name>Caltrops</name><weight>0.1</weight><text>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn’t need to make the saving throw.</text></item>
-    <item><type>G</type><name>Candle</name><text>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</text></item>
-    <item><type>G</type><name>Crossbow bolt case</name><weight>1</weight><text>This wooden case can hold up to twenty crossbow bolts.</text></item>
-    <item><type>G</type><name>Map or scroll case</name><weight>1</weight><text>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</text></item>
-    <item><type>G</type><name>Chain (10 feet)</name><weight>10</weight><text>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</text></item>
-    <item><type>G</type><name>Chalk (1 piece)</name></item>
-    <item><type>G</type><name>Chest</name><weight>25</weight></item>
-    <item><type>G</type><name>Climber's kit</name><weight>12</weight><text>A climber’s kit includes special pitons, boot tips, gloves, and a harness. You can use the climber’s kit as an action to anchor yourself; when you do, you can’t fall more than 25 feet from the point where you anchored yourself, and you can’t climb more than 25 feet away from that point without undoing the anchor.</text></item>
-    <item><type>G</type><name>Common clothes</name><weight>3</weight></item>
-    <item><type>G</type><name>Costume clothes</name><weight>4</weight></item>
-    <item><type>G</type><name>Fine clothes</name><weight>6</weight></item>
-    <item><type>G</type><name>Traveler's clothes</name><weight>4</weight></item>
-    <item><type>G</type><name>Component pouch</name><weight>2</weight><text>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell’s description).</text></item>
-    <item><type>G</type><name>Crowbar</name><weight>5</weight><text>Using a crowbar grants advantage to Strength checks where the crowbar’s leverage can be applied.</text></item>
-    <item><type>G</type><name>Sprig of mistletoe</name></item>
-    <item><type>G</type><name>Totem</name></item>
-    <item><type>G</type><name>Wooden staff</name><weight>4</weight></item>
-    <item><type>G</type><name>Yew wand</name><weight>1</weight></item>
-    <item><type>G</type><name>Fishing tackle</name><weight>4</weight><text>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</text></item>
-    <item><type>G</type><name>Flask</name><weight>1</weight></item>
-    <item><type>G</type><name>Grappling hook</name><weight>4</weight></item>
-    <item><type>G</type><name>Hammer</name><weight>3</weight></item>
-    <item><type>G</type><name>Hammer, sledge</name><weight>10</weight></item>
-    <item><type>G</type><name>Healer's kit</name><weight>3</weight><text>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</text></item>
-    <item><type>G</type><name>Amulet</name><weight>1</weight></item>
-    <item><type>G</type><name>Emblem</name></item>
-    <item><type>G</type><name>Reliquary</name><weight>2</weight></item>
-    <item><type>G</type><name>Holy Water</name><weight>1</weight><text>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\n\tA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</text></item>"
-    <item><type>G</type><name>Hourglass</name><weight>1</weight></item>
-    <item><type>G</type><name>Hunting trap</name><weight>25</weight><text>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</text></item>
-    <item><type>G</type><name>Ink (1 ounce bottle)</name></item>
-    <item><type>G</type><name>Ink pen</name></item>
-    <item><type>G</type><name>Jug</name><weight>4</weight></item>
-    <item><type>G</type><name>Ladder (10-foot)</name><weight>25</weight></item>
-    <item><type>G</type><name>Lamp</name><weight>1</weight><text>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</text></item>
-    <item><type>G</type><name>Bullseye Lantern</name><weight>2</weight><text>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</text></item>
-    <item><type>G</type><name>Hooded Lantern</name><weight>2</weight><text>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</text></item>
-    <item><type>G</type><name>Lock</name><weight>1</weight><text>A key is provided with the lock. Without the key, a creature proficient with thieves’ tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.</text></item>
-    <item><type>G</type><name>Magnifying glass</name><text>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</text></item>
-    <item><type>G</type><name>Manacles</name><weight>6</weight><text>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves’ tools can pick the manacles’ lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</text></item>
-    <item><type>G</type><name>Mess kit</name><weight>1</weight><text>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</text></item>
-    <item><type>G</type><name>Mirror, steel</name><weight>0.5</weight></item>
-    <item><type>G</type><name>Oil (flask)</name><weight>1</weight><text>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</text></item>
-    <item><type>G</type><name>Paper (one sheet)</name></item>
-    <item><type>G</type><name>Parchment (one sheet)</name></item>
-    <item><type>G</type><name>Perfume (vial)</name></item>
-    <item><type>G</type><name>Pick, miner's</name><weight>10</weight></item>
-    <item><type>G</type><name>Pitcher</name><weight>4</weight></item>
-    <item><type>G</type><name>Piton</name><weight>0.25</weight></item>
-    <item><type>G</type><name>Poison, basic (vial)</name><text>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</text></item>
-    <item><type>G</type><name>Pole (10-foot)</name><weight>7</weight></item>
-    <item><type>G</type><name>Iron pot</name><weight>10</weight></item>
-    <item><type>G</type><name>Potion of healing</name><weight>0.5</weight><text>A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.</text></item>
-    <item><type>G</type><name>Pouch</name><weight>1</weight><text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section).</text></item>
-    <item><type>G</type><name>Quiver</name><weight>1</weight><text>A quiver can hold up to 20 arrows.</text></item>
-    <item><type>G</type><name>Portable ram</name><weight>35</weight><text>You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.</text></item>
-    <item><type>G</type><name>Rations (1 day)</name><weight>2</weight><text>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</text></item>
-    <item><type>G</type><name>Robes</name><weight>4</weight></item>
-    <item><type>G</type><name>Hempen rope (50 feet)</name><weight>10</weight><text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text></item>
-    <item><type>G</type><name>Silk rope (50 feet)</name><weight>5</weight><text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text></item>
-    <item><type>G</type><name>Sack</name><weight>0.5</weight></item>
-    <item><type>G</type><name>Merchant's scale</name><weight>3</weight><text>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</text></item>
-    <item><type>G</type><name>Sealing wax</name></item>
-    <item><type>G</type><name>Shovel</name><weight>5</weight></item>
-    <item><type>G</type><name>Signal whistle</name></item>
-    <item><type>G</type><name>Signet ring</name></item>
-    <item><type>G</type><name>Soap</name></item>
-    <item><type>G</type><name>Spellbook</name><weight>3</weight><text>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</text></item>
-    <item><type>G</type><quantity>10</quantity><name>Iron spikes</name><weight>0.5</weight></item>
-    <item><type>G</type><name>Spyglass</name><weight>1</weight><text>Objects viewed through a spyglass are magnified to twice their size.</text></item>
-    <item><type>G</type><name>Tankard</name></item>
-    <item><type>G</type><name>Two-person tent</name><weight>20</weight><text>A simple and portable canvas shelter, a tent sleeps two.</text></item>
-    <item><type>G</type><name>Tinderbox</name><weight>1</weight><text>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.</text></item>
-    <item><type>G</type><name>Torch</name><weight>1</weight><text>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</text></item>
-    <item><type>G</type><name>Vial</name></item>
-    <item><type>G</type><name>Waterskin</name><weight>5</weight></item>
-    <item><type>G</type><name>Whetstone</name><weight>1</weight></item>
-    
-    <item><type>G</type><name>Alchemist's supplies</name><weight>8</weight></item>
-    <item><type>G</type><name>Brewer's supplies</name><weight>9</weight></item>
-    <item><type>G</type><name>Calligrapher's supplies</name><weight>5</weight></item>
-    <item><type>G</type><name>Carpenter's tools</name><weight>6</weight></item>
-    <item><type>G</type><name>Cartographer's tools</name><weight>6</weight></item>
-    <item><type>G</type><name>Cobbler's tools</name><weight>5</weight></item>
-    <item><type>G</type><name>Cook's utensils</name><weight>8</weight></item>
-    <item><type>G</type><name>Glassblower's tools</name><weight>5</weight></item>
-    <item><type>G</type><name>Jeweler's tools</name><weight>2</weight></item>
-    <item><type>G</type><name>Leatherworker's tools</name><weight>5</weight></item>
-    <item><type>G</type><name>Mason's tools</name><weight>8</weight></item>
-    <item><type>G</type><name>Painter's supplies</name><weight>5</weight></item>
-    <item><type>G</type><name>Potter's tools</name><weight>3</weight></item>
-    <item><type>G</type><name>Smith's tools</name><weight>8</weight></item>
-    <item><type>G</type><name>Tinker's tools</name><weight>10</weight></item>
-    <item><type>G</type><name>Weaver's tools</name><weight>5</weight></item>
-    <item><type>G</type><name>Woodcarver's tools</name><weight>5</weight></item>
-    <item><type>G</type><name>Disguise kit</name><weight>3</weight><text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</text></item>
-    <item><type>G</type><name>Forgery kit</name><weight>5</weight><text>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</text></item>
-    <item><type>G</type><name>Dice set</name></item>
-    <item><type>G</type><name>Dragonchess set</name><weight>0.5</weight></item>
-    <item><type>G</type><name>Playing card set</name></item>
-    <item><type>G</type><name>Three-Dragon Ante set</name></item>
-    <item><type>G</type><name>Herbalism kit</name><weight>3</weight><text>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</text></item>
-    <item><type>G</type><name>Bagpipes</name><weight>6</weight></item>
-    <item><type>G</type><name>Drum</name><weight>3</weight></item>
-    <item><type>G</type><name>Dulcimer</name><weight>10</weight></item>
-    <item><type>G</type><name>Flute</name><weight>1</weight></item>
-    <item><type>G</type><name>Lute</name><weight>2</weight></item>
-    <item><type>G</type><name>Lyre</name><weight>2</weight></item>
-    <item><type>G</type><name>Horn</name><weight>2</weight></item>
-    <item><type>G</type><name>Pan flute</name><weight>2</weight></item>
-    <item><type>G</type><name>Shawm</name><weight>1</weight></item>
-    <item><type>G</type><name>Viol</name><weight>1</weight></item>
-    <item><type>G</type><name>Navigator's tools</name><weight>2</weight><text>This set of instruments is used for navigation at sea. Proficiency with navigator’s tools lets you chart a ship’s course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</text></item>
-    <item><type>G</type><name>Poisoner's kit</name><weight>2</weight><text>A poisoner’s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</text></item>
-    <item><type>G</type><name>Thieves' tools</name><weight>1</weight><text>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</text></item>
-
-    <item><type>$</type><name>Copper (cp)</name><weight>0.02</weight></item>
-    <item><type>$</type><name>Silver (sp)</name><weight>0.02</weight></item>
-    <item><type>$</type><name>Electrum (ep)</name><weight>0.02</weight></item>
-    <item><type>$</type><name>Gold (gp)</name><weight>0.02</weight></item>
-    <item><type>$</type><name>Platinum (pp)</name><weight>0.02</weight></item>
-
+<compendium version="5" auto_indent="YES">
+	<item>
+		<name>Copper (cp)</name>
+		<type>$</type>
+		<weight>0.02</weight>
+		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
+		<text>With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.</text>
+		<text>One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.</text>
+		<text>One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.</text>
+		<text>In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.</text>
+		<text>A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.</text>
+		<text />
+		<text>Source: Player's Handbook p. 143</text>
+	</item>
+	<item>
+		<name>Electrum (ep)</name>
+		<type>$</type>
+		<weight>0.02</weight>
+		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
+		<text>With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.</text>
+		<text>One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.</text>
+		<text>One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.</text>
+		<text>In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.</text>
+		<text>A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.</text>
+		<text />
+		<text>Source: Player's Handbook p. 143</text>
+	</item>
+	<item>
+		<name>Gold (gp)</name>
+		<type>$</type>
+		<weight>0.02</weight>
+		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
+		<text>With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.</text>
+		<text>One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.</text>
+		<text>One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.</text>
+		<text>In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.</text>
+		<text>A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.</text>
+		<text />
+		<text>Source: Player's Handbook p. 143</text>
+	</item>
+	<item>
+		<name>Platinum (pp)</name>
+		<type>$</type>
+		<weight>0.02</weight>
+		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
+		<text>With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.</text>
+		<text>One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.</text>
+		<text>One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.</text>
+		<text>In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.</text>
+		<text>A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.</text>
+		<text />
+		<text>Source: Player's Handbook p. 143</text>
+	</item>
+	<item>
+		<name>Silver (sp)</name>
+		<type>$</type>
+		<weight>0.02</weight>
+		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
+		<text>With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.</text>
+		<text>One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.</text>
+		<text>One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.</text>
+		<text>In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.</text>
+		<text>A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.</text>
+		<text />
+		<text>Source: Player's Handbook p. 143</text>
+	</item>
+	<item>
+		<name>Arrows</name>
+		<type>A</type>
+		<weight>0.05</weight>
+		<range></range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Blowgun Needles</name>
+		<type>A</type>
+		<weight>0.02</weight>
+		<range></range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Crossbow Bolts</name>
+		<type>A</type>
+		<weight>0.075</weight>
+		<range></range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Sling Bullets</name>
+		<type>A</type>
+		<weight>0.075</weight>
+		<range></range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Abacus</name>
+		<type>G</type>
+		<weight>2</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Acid (vial)</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</text>
+		<text />
+		<text>Source: Player's Handbook p. 148</text>
+	</item>
+	<item>
+		<name>Alchemist's Fire (flask)</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text>
+		<text />
+		<text>Source: Player's Handbook p. 148</text>
+	</item>
+	<item>
+		<name>Alchemist's Supplies</name>
+		<type>G</type>
+		<weight>8</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Amulet</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>A holy symbol is a representation of a god or pantheon </text>
+		<text>A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Antitoxin</name>
+		<type>G</type>
+		<range></range>
+		<text>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Backpack</name>
+		<type>G</type>
+		<weight>5</weight>
+		<range></range>
+		<text>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Bagpipes</name>
+		<type>G</type>
+		<weight>6</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Ball Bearings</name>
+		<type>G</type>
+		<weight>0.002</weight>
+		<range></range>
+		<text>As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Barrel</name>
+		<type>G</type>
+		<weight>70</weight>
+		<range></range>
+		<text>A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Basic Poison (vial)</name>
+		<type>G</type>
+		<text>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Basket</name>
+		<type>G</type>
+		<weight>2</weight>
+		<range></range>
+		<text>A basket holds 2 cubic feet or 40 pounds of gear.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Bedroll</name>
+		<type>G</type>
+		<weight>7</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Bell</name>
+		<type>G</type>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Blanket</name>
+		<type>G</type>
+		<weight>3</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Block and Tackle</name>
+		<type>G</type>
+		<weight>5</weight>
+		<range></range>
+		<text>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Book</name>
+		<type>G</type>
+		<weight>5</weight>
+		<range></range>
+		<text>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Brewer's Supplies</name>
+		<type>G</type>
+		<weight>9</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Bucket</name>
+		<type>G</type>
+		<weight>2</weight>
+		<range></range>
+		<text>A bucket holds 3 gallons of liquid or 1/2 cubic foot of solids.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Bullseye Lantern</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
 	<item>
 		<name>Burglar's Pack</name>
 		<type>G</type>
 		<weight>44.5</weight>
 		<text>Includes:</text>
-		<text>• a backpack</text>
-		<text>• a bag of 1,000 ball bearings</text>
-		<text>• 10 feet of string</text>
-		<text>• a bell</text>
-		<text>• 5 candles</text>
-		<text>• a crowbar</text>
-		<text>• a hammer</text>
-		<text>• 10 pitons</text>
-		<text>• a hooded lantern</text>
-		<text>• 2 flasks of oil</text>
-		<text>• 5 days rations</text>
-		<text>• a tinderbox</text>
-		<text>• a waterskin</text>
-		<text>• 50 feet of hempen rope</text>
+		<text>&#8226; a backpack</text>
+		<text>&#8226; a bag of 1,000 ball bearings</text>
+		<text>&#8226; 10 feet of string</text>
+		<text>&#8226; a bell</text>
+		<text>&#8226; 5 candles</text>
+		<text>&#8226; a crowbar</text>
+		<text>&#8226; a hammer</text>
+		<text>&#8226; 10 pitons</text>
+		<text>&#8226; a hooded lantern</text>
+		<text>&#8226; 2 flasks of oil</text>
+		<text>&#8226; 5 days rations</text>
+		<text>&#8226; a tinderbox</text>
+		<text>&#8226; a waterskin</text>
+		<text>&#8226; 50 feet of hempen rope</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
+	<item>
+		<name>Calligrapher's Supplies</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Caltrops</name>
+		<type>G</type>
+		<weight>0.1</weight>
+		<range></range>
+		<text>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Candle</name>
+		<type>G</type>
+		<range></range>
+		<text>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Carpenter's Tools</name>
+		<type>G</type>
+		<weight>6</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Cartographer's Tools</name>
+		<type>G</type>
+		<weight>6</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Chain (10 feet)</name>
+		<type>G</type>
+		<weight>10</weight>
+		<range></range>
+		<text>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Chalk (1 piece)</name>
+		<type>G</type>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Chest</name>
+		<type>G</type>
+		<weight>25</weight>
+		<range></range>
+		<text>A chest holds 12 cubic feet or 300 pounds of gear.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Climber's Kit</name>
+		<type>G</type>
+		<weight>12</weight>
+		<range></range>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Cobbler's Tools</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Common Clothes</name>
+		<type>G</type>
+		<weight>3</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Component Pouch</name>
+		<type>G</type>
+		<weight>2</weight>
+		<range></range>
+		<text>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Cook's Utensils</name>
+		<type>G</type>
+		<weight>8</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Costume Clothes</name>
+		<type>G</type>
+		<weight>4</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Crossbow Bolt Case</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>This wooden case can hold up to twenty crossbow bolts.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Crowbar</name>
+		<type>G</type>
+		<weight>5</weight>
+		<range></range>
+		<text>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Crystal</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Dice Set</name>
+		<type>G</type>
+		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
 	<item>
 		<name>Diplomat's Pack</name>
 		<type>G</type>
 		<weight>36</weight>
 		<text>Includes:</text>
-		<text>• a chest</text>
-		<text>• 2 cases for maps and scrolls</text>
-		<text>• a set of fine clothes</text>
-		<text>• a bottle of ink</text>
-		<text>• an ink pen</text>
-		<text>• a lamp</text>
-		<text>• 2 flasks of oil</text>
-		<text>• 5 sheets of paper</text>
-		<text>• a vial of perfume</text>
-		<text>• sealing wax</text>
-		<text>• soap</text>
+		<text>&#8226; a chest</text>
+		<text>&#8226; 2 cases for maps and scrolls</text>
+		<text>&#8226; a set of fine clothes</text>
+		<text>&#8226; a bottle of ink</text>
+		<text>&#8226; an ink pen</text>
+		<text>&#8226; a lamp</text>
+		<text>&#8226; 2 flasks of oil</text>
+		<text>&#8226; 5 sheets of paper</text>
+		<text>&#8226; a vial of perfume</text>
+		<text>&#8226; sealing wax</text>
+		<text>&#8226; soap.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
+	<item>
+		<name>Disguise Kit</name>
+		<type>G</type>
+		<weight>3</weight>
+		<text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Dragonchess Set</name>
+		<type>G</type>
+		<weight>0.5</weight>
+		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Drum</name>
+		<type>G</type>
+		<weight>3</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Dulcimer</name>
+		<type>G</type>
+		<weight>10</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
 	<item>
 		<name>Dungeoneer's Pack</name>
 		<type>G</type>
 		<weight>61.5</weight>
 		<text>Includes:</text>
-		<text>• a backpack</text>
-		<text>• a crowbar</text>
-		<text>• a hammer</text>
-		<text>• 10 pitons</text>
-		<text>• 10 torches</text>
-		<text>• a tinderbox</text>
-		<text>• 10 days of rations</text>
-		<text>• a waterskin</text>
-		<text>• 50 feet of hempen rope</text>
+		<text>&#8226; a backpack</text>
+		<text>&#8226; a crowbar</text>
+		<text>&#8226; a hammer</text>
+		<text>&#8226; 10 pitons</text>
+		<text>&#8226; 10 torches</text>
+		<text>&#8226; a tinderbox</text>
+		<text>&#8226; 10 days of rations</text>
+		<text>&#8226; a waterskin</text>
+		<text>&#8226; 50 feet of hempen rope</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
+	<item>
+		<name>Emblem</name>
+		<type>G</type>
+		<text>A holy symbol is a representation of a god or pantheon </text>
+		<text>A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
 	<item>
 		<name>Entertainer's Pack</name>
 		<type>G</type>
 		<weight>38</weight>
 		<text>Includes:</text>
-		<text>• a backpack</text>
-		<text>• a bedroll</text>
-		<text>• 2 costumes</text>
-		<text>• 5 candles</text>
-		<text>• 5 days of rations</text>
-		<text>• a waterskin</text>
-		<text>• a disguise kit</text>
+		<text>&#8226; a backpack</text>
+		<text>&#8226; a bedroll</text>
+		<text>&#8226; 2 costumes</text>
+		<text>&#8226; 5 candles</text>
+		<text>&#8226; 5 days of rations</text>
+		<text>&#8226; a waterskin</text>
+		<text>&#8226; a disguise kit.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
 	<item>
 		<name>Explorer's Pack</name>
 		<type>G</type>
 		<weight>59</weight>
 		<text>Includes:</text>
-		<text>• a backpack</text>
-		<text>• a bedroll</text>
-		<text>• a mess kit</text>
-		<text>• a tinderbox</text>
-		<text>• 10 torches</text>
-		<text>• 10 days of rations</text>
-		<text>• a waterskin</text>
-		<text>• 50 feet of hempen rope</text>
+		<text>&#8226; a backpack</text>
+		<text>&#8226; a bedroll</text>
+		<text>&#8226; a mess kit</text>
+		<text>&#8226; a tinderbox</text>
+		<text>&#8226; 10 torches</text>
+		<text>&#8226; 10 days of rations</text>
+		<text>&#8226; a waterskin</text>
+		<text>&#8226; 50 feet of hempen rope</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
+	<item>
+		<name>Fine Clothes</name>
+		<type>G</type>
+		<weight>6</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Fishing Tackle</name>
+		<type>G</type>
+		<weight>4</weight>
+		<range></range>
+		<text>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Flask</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>A flask holds 1 pint of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Flute</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Forgery Kit</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Glass Bottle</name>
+		<type>G</type>
+		<weight>2</weight>
+		<range></range>
+		<text>A bottle holds 1 1/2 pints of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Glassblower's Tools</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Grappling Hook</name>
+		<type>G</type>
+		<weight>4</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Hammer</name>
+		<type>G</type>
+		<weight>3</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Healer's Kit</name>
+		<type>G</type>
+		<weight>3</weight>
+		<range></range>
+		<text>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Hempen Rope (50 feet)</name>
+		<type>G</type>
+		<weight>10</weight>
+		<text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Herbalism Kit</name>
+		<type>G</type>
+		<weight>3</weight>
+		<text>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Holy Water (flask)</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\n\tA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Hooded Lantern</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Horn</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Hourglass</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Hunting Trap</name>
+		<type>G</type>
+		<weight>25</weight>
+		<text>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Ink (1 ounce bottle)</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Ink Pen</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Iron Pot</name>
+		<type>G</type>
+		<weight>10</weight>
+		<text>An iron pot holds 1 gallon of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Iron Spikes</name>
+		<type>G</type>
+		<weight>0.5</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Jeweler's Tools</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Jug</name>
+		<type>G</type>
+		<weight>4</weight>
+		<text>A jug holds 1 gallon of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Ladder (10-foot)</name>
+		<type>G</type>
+		<weight>25</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Lamp</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Leatherworker's Tools</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Lock</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Lute</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Lyre</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Magnifying Glass</name>
+		<type>G</type>
+		<text>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Manacles</name>
+		<type>G</type>
+		<weight>6</weight>
+		<text>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Map or Scroll Case</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Mason's Tools</name>
+		<type>G</type>
+		<weight>8</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Merchant's Scale</name>
+		<type>G</type>
+		<weight>3</weight>
+		<text>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Mess Kit</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Miner's Pick</name>
+		<type>G</type>
+		<weight>10</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Navigator's Tools</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Oil (flask)</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</text>
+		<text />
+		<text>Source: Player's Handbook p. 152</text>
+	</item>
+	<item>
+		<name>Orb</name>
+		<type>G</type>
+		<weight>3</weight>
+		<range></range>
+		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Painter's Supplies</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Pan Flute</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Paper (one sheet)</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Parchment (one sheet)</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Perfume (vial)</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Pitcher</name>
+		<type>G</type>
+		<weight>4</weight>
+		<text>A pitcher holds 1 gallon of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Piton</name>
+		<type>G</type>
+		<weight>0.25</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Playing Card Set</name>
+		<type>G</type>
+		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Poisoner's Kit</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Pole (10-foot)</name>
+		<type>G</type>
+		<weight>7</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Portable Ram</name>
+		<type>G</type>
+		<weight>35</weight>
+		<text>You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Potter's Tools</name>
+		<type>G</type>
+		<weight>3</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Pouch</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
 	<item>
 		<name>Priest's Pack</name>
 		<type>G</type>
 		<weight>24</weight>
 		<text>Includes:</text>
-		<text>• a backpack</text>
-		<text>• a blanket</text>
-		<text>• 10 candles</text>
-		<text>• a tinderbox</text>
-		<text>• an alms box</text>
-		<text>• 2 blocks of incense</text>
-		<text>• a censer</text>
-		<text>• vestments</text>
-		<text>• 2 days of rations</text>
-		<text>• a waterskin</text>
+		<text>&#8226; a backpack</text>
+		<text>&#8226; a blanket</text>
+		<text>&#8226; 10 candles</text>
+		<text>&#8226; a tinderbox</text>
+		<text>&#8226; an alms box</text>
+		<text>&#8226; 2 blocks of incense</text>
+		<text>&#8226; a censer</text>
+		<text>&#8226; vestments</text>
+		<text>&#8226; 2 days of rations</text>
+		<text>&#8226; a waterskin.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
+	<item>
+		<name>Quiver</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>A quiver can hold up to 20 arrows.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Rations (1 day)</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Reliquary</name>
+		<type>G</type>
+		<weight>2</weight>
+		<text>A holy symbol is a representation of a god or pantheon </text>
+		<text>A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Robes</name>
+		<type>G</type>
+		<weight>4</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Rod</name>
+		<type>G</type>
+		<weight>2</weight>
+		<range></range>
+		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Sack</name>
+		<type>G</type>
+		<weight>0.5</weight>
+		<text>A sack can hold up to 1 cubic foot or 30 pounds of gear.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
 	<item>
 		<name>Scholar's Pack</name>
 		<type>G</type>
 		<weight>10</weight>
 		<text>Includes:</text>
-		<text>• a backpack</text>
-		<text>• a book of lore</text>
-		<text>• a bottle of ink</text>
-		<text>• an ink pen</text>
-		<text>• 10 sheets of parchment</text>
-		<text>• a little bag of sand</text>
-		<text>• a small knife</text>
+		<text>&#8226; a backpack</text>
+		<text>&#8226; a book of lore</text>
+		<text>&#8226; a bottle of ink</text>
+		<text>&#8226; an ink pen</text>
+		<text>&#8226; 10 sheets of parchment</text>
+		<text>&#8226; a little bag of sand</text>
+		<text>&#8226; a small knife.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
 	</item>
-
-</items>
+	<item>
+		<name>Sealing Wax</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Shawm</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Shovel</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Signal Whistle</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Signet Ring</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Silk Rope (50 feet)</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Sledge Hammer</name>
+		<type>G</type>
+		<weight>10</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Smith's Tools</name>
+		<type>G</type>
+		<weight>8</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Soap</name>
+		<type>G</type>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Spellbook</name>
+		<type>G</type>
+		<weight>3</weight>
+		<text>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Sprig of Mistletoe</name>
+		<type>G</type>
+		<range></range>
+		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Spyglass</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>Objects viewed through a spyglass are magnified to twice their size.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Staff</name>
+		<type>G</type>
+		<weight>4</weight>
+		<range></range>
+		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Steel Mirror</name>
+		<type>G</type>
+		<weight>0.5</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Tankard</name>
+		<type>G</type>
+		<text>A tankard holds 1 pint of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Thieves' Tools</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Three-Dragon Ante Set</name>
+		<type>G</type>
+		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Tinderbox</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Tinker's Tools</name>
+		<type>G</type>
+		<weight>10</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Torch</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Totem</name>
+		<type>G</type>
+		<range></range>
+		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Traveler's Clothes</name>
+		<type>G</type>
+		<weight>4</weight>
+		<range></range>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Two-Person Tent</name>
+		<type>G</type>
+		<weight>20</weight>
+		<text>A simple and portable canvas shelter, a tent sleeps two.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Vial</name>
+		<type>G</type>
+		<text>A vial can hold up to 4 ounces of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Viol</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
+		<text>A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.</text>
+		<text>Each type of musical instrument requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Wand</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Waterskin</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>A waterskin can hold up to 4 pints of liquid.</text>
+		<text />
+		<text>Source: Player's Handbook p. 153</text>
+	</item>
+	<item>
+		<name>Weaver's Tools</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Whetstone</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text />
+		<text>Source: Player's Handbook p. 150</text>
+	</item>
+	<item>
+		<name>Woodcarver's Tools</name>
+		<type>G</type>
+		<weight>5</weight>
+		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
+		<text />
+		<text>Source: Player's Handbook p. 154</text>
+	</item>
+	<item>
+		<name>Wooden Staff</name>
+		<type>G</type>
+		<weight>4</weight>
+		<range></range>
+		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Yew Wand</name>
+		<type>G</type>
+		<weight>1</weight>
+		<range></range>
+		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
+		<text />
+		<text>Source: Player's Handbook p. 151</text>
+	</item>
+	<item>
+		<name>Chain Mail</name>
+		<type>HA</type>
+		<ac>16</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>55</weight>
+		<range></range>
+		<text>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</text>
+		<text />
+		<text>Source: Player's Handbook p. 145</text>
+	</item>
+	<item>
+		<name>Plate Armor</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>15</strength>
+		<stealth>YES</stealth>
+		<weight>65</weight>
+		<range></range>
+		<text>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</text>
+		<text />
+		<text>Source: Player's Handbook p. 145</text>
+	</item>
+	<item>
+		<name>Ring Mail</name>
+		<type>HA</type>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<weight>40</weight>
+		<range></range>
+		<text>This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.</text>
+		<text />
+		<text>Source: Player's Handbook p. 145</text>
+	</item>
+	<item>
+		<name>Splint Armor</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>15</strength>
+		<stealth>YES</stealth>
+		<weight>60</weight>
+		<range></range>
+		<text>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</text>
+		<text />
+		<text>Source: Player's Handbook p. 145</text>
+	</item>
+	<item>
+		<name>Leather Armor</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>10</weight>
+		<range></range>
+		<text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+	<item>
+		<name>Padded Armor</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>8</weight>
+		<range></range>
+		<text>Padded armor consists of quilted layers of cloth and batting.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+	<item>
+		<name>Studded Leather Armor</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>13</weight>
+		<range></range>
+		<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+	<item>
+		<name>Battleaxe</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmg2>1d10</dmg2>
+		<dmgType>S</dmgType>
+		<weight>4</weight>
+		<property>V</property>
+		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property &#8212; the damage when the weapon is used with two hands to make a melee attack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Club</name>
+		<type>M</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>B</dmgType>
+		<weight>2</weight>
+		<property>L</property>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Dagger</name>
+		<type>M</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<weight>1</weight>
+		<property>F,L,T</property>
+		<range>20/60</range>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Flail</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<weight>2</weight>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Glaive</name>
+		<type>M</type>
+		<dmg1>1d10</dmg1>
+		<dmgType>S</dmgType>
+		<weight>6</weight>
+		<property>H,R,2H</property>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Reach: This weapon adds 5 feet to your reach when you attack with it.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Greataxe</name>
+		<type>M</type>
+		<dmg1>1d12</dmg1>
+		<dmgType>S</dmgType>
+		<weight>7</weight>
+		<property>H,2H</property>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Greatclub</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<weight>10</weight>
+		<property>2H</property>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Greatsword</name>
+		<type>M</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>S</dmgType>
+		<weight>6</weight>
+		<property>H,2H</property>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Halberd</name>
+		<type>M</type>
+		<dmg1>1d10</dmg1>
+		<dmgType>S</dmgType>
+		<weight>6</weight>
+		<property>H,R,2H</property>
+		<text>Reach: This weapon adds 5 feet to your reach when you attack with it.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Handaxe</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>S</dmgType>
+		<weight>2</weight>
+		<property>L,T</property>
+		<range>20/60</range>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Javelin</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>2</weight>
+		<property>T</property>
+		<range>30/120</range>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Lance</name>
+		<type>M</type>
+		<dmg1>1d12</dmg1>
+		<dmgType>P</dmgType>
+		<weight>6</weight>
+		<property>R,S</property>
+		<text>Reach: This weapon adds 5 feet to your reach when you attack with it.</text>
+		<text></text>
+		<text>Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Light Hammer</name>
+		<type>M</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>B</dmgType>
+		<weight>2</weight>
+		<property>L,T</property>
+		<range>20/60</range>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Longsword</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmg2>1d10</dmg2>
+		<dmgType>S</dmgType>
+		<weight>3</weight>
+		<property>V</property>
+		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property &#8212; the damage when the weapon is used with two hands to make a melee attack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Mace</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>B</dmgType>
+		<weight>4</weight>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Maul</name>
+		<type>M</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>B</dmgType>
+		<weight>10</weight>
+		<property>H,2H</property>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Morningstar</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>4</weight>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Pike</name>
+		<type>M</type>
+		<dmg1>1d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>18</weight>
+		<property>H,R,2H</property>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Reach: This weapon adds 5 feet to your reach when you attack with it.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Quarterstaff</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmg2>1d8</dmg2>
+		<dmgType>B</dmgType>
+		<weight>4</weight>
+		<property>V</property>
+		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property &#8212; the damage when the weapon is used with two hands to make a melee attack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Rapier</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>2</weight>
+		<property>F</property>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Scimitar</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>S</dmgType>
+		<weight>3</weight>
+		<property>F,L</property>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Shortsword</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>2</weight>
+		<property>F,L</property>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Sickle</name>
+		<type>M</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>S</dmgType>
+		<weight>2</weight>
+		<property>L</property>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Spear</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmg2>1d8</dmg2>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>T,V</property>
+		<range>20/60</range>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text></text>
+		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property &#8212; the damage when the weapon is used with two hands to make a melee attack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Trident</name>
+		<type>M</type>
+		<dmg1>1d6</dmg1>
+		<dmg2>1d8</dmg2>
+		<dmgType>P</dmgType>
+		<weight>4</weight>
+		<property>T,V</property>
+		<range>20/60</range>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text></text>
+		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property &#8212; the damage when the weapon is used with two hands to make a melee attack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>War Pick</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>2</weight>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Warhammer</name>
+		<type>M</type>
+		<dmg1>1d8</dmg1>
+		<dmg2>1d10</dmg2>
+		<dmgType>B</dmgType>
+		<weight>2</weight>
+		<property>V</property>
+		<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property &#8212; the damage when the weapon is used with two hands to make a melee attack.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Whip</name>
+		<type>M</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>S</dmgType>
+		<weight>3</weight>
+		<property>F,R</property>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Reach: This weapon adds 5 feet to your reach when you attack with it.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Breastplate</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>20</weight>
+		<range></range>
+		<text>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</text>
+		<text />
+		<text>Source: Player's Handbook p. 145</text>
+	</item>
+	<item>
+		<name>Chain Shirt</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>20</weight>
+		<range></range>
+		<text>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+	<item>
+		<name>Half Plate</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<stealth>YES</stealth>
+		<weight>40</weight>
+		<range></range>
+		<text>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</text>
+		<text />
+		<text>Source: Player's Handbook p. 145</text>
+	</item>
+	<item>
+		<name>Hide Armor</name>
+		<type>MA</type>
+		<ac>12</ac>
+		<weight>12</weight>
+		<range></range>
+		<text>This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+	<item>
+		<name>Scale Mail</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<weight>45</weight>
+		<range></range>
+		<text>This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+	<item>
+		<name>Blowgun</name>
+		<type>R</type>
+		<dmg1>1</dmg1>
+		<dmgType>P</dmgType>
+		<weight>1</weight>
+		<property>A,LD</property>
+		<range>25/100</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Dart</name>
+		<type>R</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<weight>0.25</weight>
+		<property>F,T</property>
+		<range>20/60</range>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Hand Crossbow</name>
+		<type>R</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A,L,LD</property>
+		<range>30/120</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text></text>
+		<text>Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Heavy Crossbow</name>
+		<type>R</type>
+		<dmg1>1d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>18</weight>
+		<property>A,H,LD,2H</property>
+		<range>100/400</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Light Crossbow</name>
+		<type>R</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>5</weight>
+		<property>A,LD,2H</property>
+		<range>80/320</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Longbow</name>
+		<type>R</type>
+		<dmg1>1d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>2</weight>
+		<property>A,H,2H</property>
+		<range>150/600</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Net</name>
+		<type>R</type>
+		<weight>3</weight>
+		<property>S,T</property>
+		<range>5/15</range>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Special: A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Shortbow</name>
+		<type>R</type>
+		<dmg1>1d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>2</weight>
+		<property>A,2H</property>
+		<range>80/320</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Sling</name>
+		<type>R</type>
+		<dmg1>1d4</dmg1>
+		<dmgType>B</dmgType>
+		<property>A</property>
+		<range>30/120</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text />
+		<text>Source: Player's Handbook p. 149</text>
+	</item>
+	<item>
+		<name>Shield</name>
+		<type>S</type>
+		<ac>2</ac>
+		<weight>6</weight>
+		<range></range>
+		<text>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</text>
+		<text />
+		<text>Source: Player's Handbook p. 144</text>
+	</item>
+</compendium>
