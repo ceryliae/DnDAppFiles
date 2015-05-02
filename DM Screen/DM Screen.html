@@ -177,7 +177,7 @@
 	<nav>
 		<div style="position: relative;">
 			<div class="ribbon">
-				<div class="ribbon-text">Version<br />&nbsp;&nbsp;1.3.3
+				<div class="ribbon-text">Version<br />&nbsp;&nbsp;1.4.0
 				</div>
 			</div>
 			<div class="behind">
@@ -323,43 +323,44 @@
 					<li class="file"><a href="#weather">Weather</a></li>
 					<li class="file"><a href="#languages">Languages</a></li>	
 				</ol>
-				<li><label for="randomtables">Random Tables</label>
-					<input type="checkbox" id="randomtables" />
+			<li>
+				<label for="randomtables">Random Tables</label>
+				<input type="checkbox" id="randomtables" />
+				<ol type="a">
+					<li class="file"><a href="#quickfind">Quick Find</a></li>					
+					<li class="file"><a href="#somethinghappened">Something Happened</a></li>					
+					<li class="file"><a href="#randomhazards">Dungeon Hazards</a></li>					
+					<li class="file"><a href="#randomobstacles">Dungeon Obstacles</a></li>					
+					<li><label for="mytraps">Random Traps</label>
+					<input type="checkbox" id="mytraps" />
 					<ol type="a">
-						<li class="file"><a href="#quickfind">Quick Find</a></li>					
-						<li class="file"><a href="#somethinghappened">Something Happened</a></li>					
-						<li class="file"><a href="#randomhazards">Dungeon Hazards</a></li>					
-						<li class="file"><a href="#randomobstacles">Dungeon Obstacles</a></li>					
-						<li><label for="mytraps">Random Traps</label>
-						<input type="checkbox" id="mytraps" />
-						<ol type="a">
-							<li class="file"><a href="#randomtraptrigger">Trap Trigger</a></li>
-							<li class="file"><a href="#randomtrapdamageseverity">Trap Damage Severity</a></li>
-							<li class="file"><a href="#randomtrapeffect">Trap Effect</a></li>
-						</ol>
-						</li>
-						<li><label for="mytricks">Random Tricks</label>
-						<input type="checkbox" id="mytricks" />
-						<ol type="a">
-							<li class="file"><a href="#trickobjects">Trick Objects</a></li>
-							<li class="file"><a href="#trickeffects">Trick Effects</a></li>
-						</ol>
-						</li>
-						<li><label for="dungeondressing">Dungeon Dressing</label>
-						<input type="checkbox" id="dungeondressing" />
-						<ol type="a">
-						<li class="file"><a href="#dungeonnoises">Noises</a></li>
-						<li class="file"><a href="#dungeonair">Air</a></li>
-						<li class="file"><a href="#dungeonodor">Odor</a></li>
-						<li class="file"><a href="#dungeongeneralfeatures">General Features</a></li>
-						<li class="file"><a href="#dungeongeneralfurnishing">General Furnishing and Appoinments</a></li>
-						<li class="file"><a href="#dungeonmagefurnishings">Mage Furnishings</a></li>
-						<li class="file"><a href="#dungeonpersonalitems">Utensils and Personal Items</a></li>
-						<li class="file"><a href="#dungeoncontainercontents">Container Contents</a></li>
-						<li class="file"><a href="#dungeonbooks">Books, Scrolls, and Tomes</a></li>				
+						<li class="file"><a href="#randomtraptrigger">Trap Trigger</a></li>
+						<li class="file"><a href="#randomtrapseverity">Trap Damage Severity</a></li>
+						<li class="file"><a href="#randomtrapeffect">Trap Effect</a></li>
 					</ol>
-				</li>
+					</li>
+					<li><label for="mytricks">Random Tricks</label>
+					<input type="checkbox" id="mytricks" />
+					<ol type="a">
+						<li class="file"><a href="#trickobjects">Trick Objects</a></li>
+						<li class="file"><a href="#trickeffects">Trick Effects</a></li>
+					</ol>
+					</li>
+					<li><label for="dungeondressing">Dungeon Dressing</label>
+					<input type="checkbox" id="dungeondressing" />
+					<ol type="a">
+					<li class="file"><a href="#dungeonnoises">Noises</a></li>
+					<li class="file"><a href="#dungeonair">Air</a></li>
+					<li class="file"><a href="#dungeonodor">Odor</a></li>
+					<li class="file"><a href="#dungeongeneralfeatures">General Features</a></li>
+					<li class="file"><a href="#dungeongeneralfurnishing">General Furnishing and Appoinments</a></li>
+					<li class="file"><a href="#dungeonmagefurnishings">Mage Furnishings</a></li>
+					<li class="file"><a href="#dungeonpersonalitems">Utensils and Personal Items</a></li>
+					<li class="file"><a href="#dungeoncontainercontents">Container Contents</a></li>
+					<li class="file"><a href="#dungeonbooks">Books, Scrolls, and Tomes</a></li>				
 				</ol>
+			</li>
+			</ol>
 			<li>
 				<label for="World-Building">World Building</label>
 				<input type="checkbox" id="World-Building" />
@@ -4067,13 +4068,296 @@
 					<tr><td>Primordial</td><td>Elementals</td><td>Dwarvish</td></tr>	
 					<tr><td>Sylvan</td><td>Fey creatures</td><td>Elvish</td></tr>	
 					<tr><td>Undercommon</td><td>Underdark traders</td><td>Elvish</td></tr>	
-				</table>		 
-				<h1 id="worldbuilding">
-					World Building
-				</h1>
-				<h2 id="npcbuilding">
-					NPC Building
-				</h2><br />
+				</table>
+				<h1 id="randomtables">Random Tables</h1>		 
+				<h2 id="quickfind">Quick Find</h2>
+				<table>
+					<tr>
+						<th align="left">d12</th>
+						<th align="left">Find</th>
+					</tr>
+					<tr>
+						<td align="left">1</td>
+						<td align="left">Artwork</td>
+					</tr>
+					<tr>
+						<td align="left">2</td>
+						<td align="left">Body</td>
+					</tr>
+					<tr>
+						<td align="left">3 </td>
+						<td align="left">Food or drink</td>
+					</tr>
+					<tr>
+						<td align="left">4</td>
+						<td align="left">Jewelry</td>
+					</tr>
+					<tr>
+						<td align="left">5</td>
+						<td align="left">Key</td>
+					</tr>
+					<tr>
+						<td align="left">6</td>
+						<td align="left">Letter</td>
+					</tr>
+					<tr>
+						<td align="left">7</td>
+						<td align="left">Magic herbs</td>
+					</tr>
+					<tr>
+						<td align="left">8</td>
+						<td align="left">Map</td>
+					</tr>
+					<tr>
+						<td align="left">9</td>
+						<td align="left">Monster parts</td>
+					</tr>
+					<tr>
+						<td align="left">10</td>
+						<td align="left">Secret message</td>
+					</tr>
+					<tr>
+						<td align="left">11</td>
+						<td align="left">Signet or insignia</td>
+					</tr>
+					<tr>
+						<td align="left">12</td>
+						<td align="left">Tome</td>
+					</tr>
+				</table>
+				<br />
+			<h2 id="somethinghappened">Something Happened</h2>
+			<table>
+				<tr>
+					<th align="left">d20</th>
+					<th align="left">Event</th>
+				</tr>
+				<tr>
+					<td align="left">1</td>
+					<td align="left">A door opens</td>
+				</tr>
+				<tr>
+					<td align="left">2</td>
+					<td align="left">A fire starts</td>
+				</tr>
+				<tr>
+					<td align="left">3 </td>
+					<td align="left">A meteor shoots across the sky</td>
+				</tr>
+				<tr>
+					<td align="left">4</td>
+					<td align="left">A monster appears</td>
+				</tr>
+				<tr>
+					<td align="left">5</td>
+					<td align="left">A screech pierces the air</td>
+				</tr>
+				<tr>
+					<td align="left">6</td>
+					<td align="left">A storm begins</td>
+				</tr>
+				<tr>
+					<td align="left">7</td>
+					<td align="left">A strange star appears in the sky</td>
+				</tr>
+				<tr>
+					<td align="left">8</td>
+					<td align="left">A strong gust of wind blows through</td>
+				</tr>
+				<tr>
+					<td align="left">9</td>
+					<td align="left">A tremor shakes the ground</td>
+				</tr>
+				<tr>
+					<td align="left">10</td>
+					<td align="left">Someone experiences déjà vu</td>
+				</tr>
+				<tr>
+					<td align="left">11</td>
+					<td align="left">Someone gets angry</td>
+				</tr>
+				<tr>
+					<td align="left">12</td>
+					<td align="left">Someone glimpses the future</td>
+				</tr>
+				<tr>
+					<td align="left">13</td>
+					<td align="left">Someone has a sense of foreboding</td>
+				</tr>
+				<tr>
+					<td align="left">14</td>
+					<td align="left">Someone has to go to the bathroom</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Something spills or falls to the ground</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Something isn't where it's supposed to be</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">The lights go out</td>
+				</tr>
+				<tr>
+					<td align="left">18</td>
+					<td align="left">The sun comes out</td>
+				</tr>
+				<tr>
+					<td align="left">19</td>
+					<td align="left">There's a foul smell in the air</td>
+				</tr>
+				<tr>
+					<td align="left">20</td>
+					<td align="left">Unexplained magic occurs</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="randomhazards">Dungeon Hazards</h2>
+			<table>
+				<tr>
+					<th>d20</th>
+					<th>Hazard</th>
+				</tr>
+				<tr>
+					<td>1-3</td>
+					<td>Brown Mold</td>
+				</tr>
+				<tr>
+					<td>4-8 </td>
+					<td>Green slime</td>
+				</tr>
+				<tr>
+					<td>9-10</td>
+					<td>Shrieker</td>
+				</tr>
+				<tr>
+					<td>11-15</td>
+					<td>Spiderwebs</td>
+				</tr>
+				<tr>
+					<td>16-17</td>
+					<td>Violet fungus</td>
+				</tr>
+				<tr>
+					<td>18-20</td>
+					<td>Yellow mold</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="randomobstacles">Dungeon Obstacles</h2>
+			<table>
+				<tr>
+					<th>d20</th>
+					<th>Obstacle</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Antilife aura with a radius of 1d10 x 10 ft.; while in the aura, living creatures can't regain hit points</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Battering winds reduce speed by half, impose disadvantage on ranged attack rolls</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Blade barrier blocks passage</td>
+				</tr>
+				<tr>
+					<td>4-8</td>
+					<td>Cave-in</td>
+				</tr>
+				<tr>
+					<td>9-12</td>
+					<td>Chasm 1d4 x 10 ft. wide and 2d6 x 10 ft. deep, possibly connected to other levels of the dungeon</td>
+				</tr>
+				<tr>
+					<td>13-14</td>
+					<td>Flooding leaves 2d10 ft. of water in the area; create nearby upward-sloping passages, raised floors, or rising stairs to contain the water</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>Lava flows through the area (50% chance of a stone bridge crossing it)</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>Overgrown mushrooms block progress and most be hacked down (25% chance of a mold or fungus dungeon hazard hidden among them)</td>
+				</tr>
+				<tr>
+					<td>18 </td>
+					<td>Poisonous gas (deals 1d6 poison damage per minute of exposure)</td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>Reverse gravity effect causes creatures to fall towards the ceiling</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>wall of fire blocks passage</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>Wall of force blocks passage</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="randomtraptrigger">Trap Trigger</h2>
+			<table>
+				<tr>
+					<th>d6</th>
+					<th>Trigger</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Stepped on (floor, stairs)</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Moved through (doorway, hallway)</td>
+				</tr>
+				<tr>
+					<td>3 </td>
+					<td>Touched (doorknob, statue)</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Opened (door, treasure chest)</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Looked at (mural, arcane symbo)</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Moved</td>
+				</tr>
+			</table>
+			<h2 id="randomtrapseverity">Trap Severity</h2>			
+			<table>
+				<tr>
+					<th>d6</th>
+					<th>Severity</th>
+				</tr>
+				<tr>
+					<td>1-2</td>
+					<td>Setback</td>
+				</tr>
+				<tr>
+					<td>3-5</td>
+					<td>Dangerous</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Deadly</td>
+				</tr>
+			</table>
+Use <a href="#traps">these charts</a> to determine attack bonus, save DC, and damage for the trap.
+			<br />
+			<h2 id="randomtrapeffect">Trap Effect</h2>
+			<br />						
+				<h1 id="worldbuilding">World Building</h1><h2 id="npcbuilding">	NPC Building</h2>
+					<br />
 				<table id="npccharacteristics">
 					<tr>
 						<th>
