@@ -6,55 +6,49 @@
 		<weight>0.1</weight>
 		<text>The ammunition of a firearm is destroyed upon use. Modern firearms use bullets. </text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
 	<item>
 		<name>Dynamite (Stick)</name>
 		<type>G</type>
 		<weight>1</weight>
 		<text>Dynamite is a modern-era explosive.</text>
-		<text />
 		<text>As an action, a creature can light a s tick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking 3d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
-		<text />
 		<text>A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by 1d6 (to a maximum of 10d6) and the burst radius by 5 feet (to a maximum of 20 feet).</text>
-		<text />
 		<text>Dynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<roll>3d6</roll>
 	</item>
 	<item>
 		<name>Fragmentation Grenade</name>
 		<type>G</type>
 		<weight>1</weight>
 		<text>A fragmentation grenade is a modern-era explosive.</text>
-		<text />
 		<text>As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.</text>
-		<text />
 		<text>Each creature within 20 feet of an exploding fragmentation grenade must make a DC 15 Dexterity saving throw, taking 5d6 piercing damage on a failed save, or half as much damage on a successful one.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<roll>5d6</roll>
 	</item>
 	<item>
 		<name>Grenade Launcher</name>
 		<type>G</type>
 		<weight>7</weight>
 		<text>A grenade launcher is a modern-era item.</text>
-		<text />
 		<text>With a grenade launcher, a character can propel a grenade up to 120 feet away.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
 	<item>
 		<name>Smoke Grenade</name>
 		<type>G</type>
 		<weight>2</weight>
 		<text>A smoke grenade is a modern-era explosive</text>
-		<text />
 		<text>As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.</text>
-		<text />
 		<text>One round after a smoke grenade lands, it emits a cloud of smoke that creates a heavily obscured area in a 20-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
 	</item>
 	<item>
 		<name>Forced Entry Unit</name>
@@ -63,9 +57,188 @@
 		<strength>13</strength>
 		<stealth>YES</stealth>
 		<weight>20</weight>
-		<text>A forced entry unit is modern armot.  It provides resistance to ballistic and slashing damage.</text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
 		<text />
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit +1</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Forced Entry Unit +2</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Forced Entry Unit +3</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Acid Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Cold Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Fire Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Force Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Lightning Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Necrotic Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Poison Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Psychic Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Radiant Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Forced Entry Unit of Thunder Resistance</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
 	<item>
 		<name>Land Warrior Armor</name>
@@ -79,6 +252,221 @@
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
 	<item>
+		<name>Land Warrior Armor +1</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Land Warrior Armor +2</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Land Warrior Armor +3</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Acid Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Cold Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Fire Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Force Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Lightning Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Necrotic Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Poison Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Psychic Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Radiant Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Land Warrior Armor of Thunder Resistance</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Mariner's Forced Entry Unit</name>
+		<type>HA</type>
+		<ac>18</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>20</weight>
+		<text>A forced entry unit is modern armor.  It provides resistance to ballistic and slashing damage.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Land Warrior Armor</name>
+		<type>HA</type>
+		<ac>17</ac>
+		<strength>13</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Land warrior armor is modern armor.  It reduces damage from ballistic or slashing attacks by 5.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Special Response Vest</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
 		<name>Special Response Vest</name>
 		<type>HA</type>
 		<ac>15</ac>
@@ -88,6 +476,185 @@
 		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
 		<text />
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
+	</item>
+	<item>
+		<name>Special Response Vest +1</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Special Response Vest +2</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Special Response Vest +3</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Special Response Vest of Acid Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Cold Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Fire Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Force Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Lightning Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Necrotic Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Poison Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Psychic Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Radiant Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Special Response Vest of Thunder Resistance</name>
+		<type>HA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>15</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A special response vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
 	<item>
 		<name>Heavy Coat</name>
@@ -100,6 +667,172 @@
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
 	<item>
+		<name>Heavy Coat +1</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Heavy Coat +2</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Heavy Coat +3</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Heavy Coat of Acid Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Cold Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Fire Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Force Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Lightning Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Necrotic Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Poison Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Psychic Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Radiant Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Heavy Coat of Thunder Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A heavy coat is modern armor.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
 		<name>Kevlar-Lined Coat</name>
 		<type>LA</type>
 		<ac>12</ac>
@@ -107,6 +840,159 @@
 		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
 		<text />
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat +1</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat +2</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat +3</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Acid Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Cold Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Fire Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Force Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Lightning Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Necrotic Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Poison Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Psychic Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Radiant Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Kevlar-Lined Coat of Thunder Resistance</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
 	</item>
 	<item>
 		<name>Leather Jacket</name>
@@ -118,6 +1004,159 @@
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
 	<item>
+		<name>Leather Jacket +1</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Leather Jacket +2</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Leather Jacket +3</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Leather Jacket of Acid Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Cold Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Fire Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Force Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Lightning Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Necrotic Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Poison Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Psychic Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Radiant Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Leather Jacket of Thunder Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A leather jacket is modern armor.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
 		<name>Light Undercover Shirt</name>
 		<type>LA</type>
 		<ac>11</ac>
@@ -125,6 +1164,210 @@
 		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
 		<text />
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt +1</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Light Undercover Shirt +2</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Light Undercover Shirt +3</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Acid Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Cold Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Fire Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Force Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Lightning Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Necrotic Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Poison Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Psychic Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Radiant Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light Undercover Shirt of Thunder Resistance</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Mariner's Heavy Coat</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<stealth>YES</stealth>
+		<weight>6</weight>
+		<text>A heavy coat is modern armor.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Kevlar-Lined Coat</name>
+		<type>LA</type>
+		<ac>12</ac>
+		<weight>8</weight>
+		<text>A kevlar-lined coat is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Leather Jacket</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>4</weight>
+		<text>A leather jacket is modern armor.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Light Undercover Shirt</name>
+		<type>LA</type>
+		<ac>11</ac>
+		<weight>2</weight>
+		<text>A light undercover shirt is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Undercover Vest</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
 	<item>
 		<name>Undercover Vest</name>
@@ -136,6 +1379,159 @@
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
 	<item>
+		<name>Undercover Vest +1</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Undercover Vest +2</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Undercover Vest +3</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Undercover Vest of Acid Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Cold Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Fire Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Force Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Lightning Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Necrotic Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Poison Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Psychic Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Radiant Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Undercover Vest of Thunder Resistance</name>
+		<type>LA</type>
+		<ac>13</ac>
+		<weight>3</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An undercover vest is modern armor.  It reduces damage from ballistic attacks by 2.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
 		<name>Concealable Vest</name>
 		<type>MA</type>
 		<ac>13</ac>
@@ -145,6 +1541,159 @@
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
 	<item>
+		<name>Concealable Vest +1</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Concealable Vest +2</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Concealable Vest +3</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Concealable Vest of Acid Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Cold Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Fire Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Force Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Lightning Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Necrotic Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Poison Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Psychic Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Radiant Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Concealable Vest of Thunder Resistance</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
 		<name>Light-Duty Vest</name>
 		<type>MA</type>
 		<ac>14</ac>
@@ -152,6 +1701,191 @@
 		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
 		<text />
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest +1</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Light-Duty Vest +2</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Light-Duty Vest +3</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Acid Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Cold Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Fire Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Force Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Lightning Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Necrotic Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Poison Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Psychic Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Radiant Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Light-Duty Vest of Thunder Resistance</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Mariner's Concealable Vest</name>
+		<type>MA</type>
+		<ac>13</ac>
+		<weight>4</weight>
+		<text>A concealable vest is modern armor.  It reduces damage from ballistic attacks by 3.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Light-Duty Vest</name>
+		<type>MA</type>
+		<ac>14</ac>
+		<weight>8</weight>
+		<text>A light-duty vest is modern armor.  It reduces damage from ballistic attacks by 3.  Additionally, you may apply up to 3 points of your Dex modifier to your AC while wearing it if your Dexterity is 16 or higher.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mariner's Tactical Vest</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
 	</item>
 	<item>
 		<name>Tactical Vest</name>
@@ -165,70 +1899,845 @@
 		<text>Source: Behind the Screens: My New d20 Modern Campaign</text>
 	</item>
 	<item>
+		<name>Tactical Vest +1</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Tactical Vest +2</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Tactical Vest +3</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Tactical Vest of Acid Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Cold Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Fire Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Force Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Lightning Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Necrotic Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Poison Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Psychic Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Radiant Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Tactical Vest of Thunder Resistance</name>
+		<type>MA</type>
+		<ac>15</ac>
+		<strength>10</strength>
+		<stealth>YES</stealth>
+		<weight>10</weight>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A tactical vest is modern armor.  It provides resistance to ballistic damage.</text>
+		<text>You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
 		<name>Automatic Pistol</name>
 		<type>R</type>
 		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
 		<weight>3</weight>
 		<property>A</property>
 		<range>50/150</range>
 		<text>An automatic pistol is a modern-era firearm.</text>
-		<text />
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
 		<text>Reload (15 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+	</item>
+	<item>
+		<name>Automatic Pistol +1</name>
+		<type>R</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>50/150</range>
+		<text>An automatic pistol is a modern-era firearm.</text>
+		<text>You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (15 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +1</modifier>
+		<modifier category="bonus">ranged damage +1</modifier>
+	</item>
+	<item>
+		<name>Automatic Pistol +2</name>
+		<type>R</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>50/150</range>
+		<text>An automatic pistol is a modern-era firearm.</text>
+		<text>You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (15 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +2</modifier>
+		<modifier category="bonus">ranged damage +2</modifier>
+	</item>
+	<item>
+		<name>Automatic Pistol +3</name>
+		<type>R</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>50/150</range>
+		<text>An automatic pistol is a modern-era firearm.</text>
+		<text>You have a +3 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (15 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +3</modifier>
+		<modifier category="bonus">ranged damage +3</modifier>
+	</item>
+	<item>
+		<name>Automatic Pistol of Warning</name>
+		<type>R</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>50/150</range>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An automatic pistol is a modern-era firearm.</text>
+		<text>This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (15 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
 	<item>
 		<name>Automatic Rifle</name>
 		<type>R</type>
 		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
 		<weight>8</weight>
 		<property>A,2H</property>
 		<range>80/240</range>
 		<text>An automatic rifle is a modern-era firearm.</text>
-		<text />
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
 		<text>Burst Fire: A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</text>
-		<text />
+		<text></text>
 		<text>Reload (30 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+	</item>
+	<item>
+		<name>Automatic Rifle +1</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>An automatic rifle is a modern-era firearm.</text>
+		<text>You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Burst Fire: A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</text>
+		<text>Reload (30 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +1</modifier>
+		<modifier category="bonus">ranged damage +1</modifier>
+	</item>
+	<item>
+		<name>Automatic Rifle +2</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>An automatic rifle is a modern-era firearm.</text>
+		<text>You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Burst Fire: A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</text>
+		<text>Reload (30 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +2</modifier>
+		<modifier category="bonus">ranged damage +2</modifier>
+	</item>
+	<item>
+		<name>Automatic Rifle +3</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>An automatic rifle is a modern-era firearm.</text>
+		<text>You have a +3 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Burst Fire: A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</text>
+		<text>Reload (30 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +3</modifier>
+		<modifier category="bonus">ranged damage +3</modifier>
+	</item>
+	<item>
+		<name>Automatic Rifle of Warning</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>An automatic rifle is a modern-era firearm.</text>
+		<text>This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Burst Fire: A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</text>
+		<text></text>
+		<text>Reload (30 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
 	<item>
 		<name>Hunting Rifle</name>
 		<type>R</type>
 		<dmg1>2d10</dmg1>
+		<dmgType>P</dmgType>
 		<weight>8</weight>
 		<property>A,2H</property>
 		<range>80/240</range>
 		<text>A hunting rifle is a modern-era firearm.</text>
-		<text />
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
 		<text>Reload (5 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+	</item>
+	<item>
+		<name>Hunting Rifle +1</name>
+		<type>R</type>
+		<dmg1>2d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>A hunting rifle is a modern-era firearm.</text>
+		<text>You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (5 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +1</modifier>
+		<modifier category="bonus">ranged damage +1</modifier>
+	</item>
+	<item>
+		<name>Hunting Rifle +2</name>
+		<type>R</type>
+		<dmg1>2d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>A hunting rifle is a modern-era firearm.</text>
+		<text>You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (5 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +2</modifier>
+		<modifier category="bonus">ranged damage +2</modifier>
+	</item>
+	<item>
+		<name>Hunting Rifle +3</name>
+		<type>R</type>
+		<dmg1>2d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>A hunting rifle is a modern-era firearm.</text>
+		<text>You have a +3 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (5 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +3</modifier>
+		<modifier category="bonus">ranged damage +3</modifier>
+	</item>
+	<item>
+		<name>Hunting Rifle of Warning</name>
+		<type>R</type>
+		<dmg1>2d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A hunting rifle is a modern-era firearm.</text>
+		<text>This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (5 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
 	<item>
 		<name>Revolver</name>
 		<type>R</type>
 		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
 		<weight>3</weight>
 		<property>A</property>
 		<range>40/120</range>
 		<text>A revolver is a modern-era firearm.</text>
-		<text />
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
 		<text>Reload (6 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+	</item>
+	<item>
+		<name>Revolver +1</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>40/120</range>
+		<text>A revolver is a modern-era firearm.</text>
+		<text>You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (6 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +1</modifier>
+		<modifier category="bonus">ranged damage +1</modifier>
+	</item>
+	<item>
+		<name>Revolver +2</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>40/120</range>
+		<text>A revolver is a modern-era firearm.</text>
+		<text>You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (6 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +2</modifier>
+		<modifier category="bonus">ranged damage +2</modifier>
+	</item>
+	<item>
+		<name>Revolver +3</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>40/120</range>
+		<text>A revolver is a modern-era firearm.</text>
+		<text>You have a +3 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (6 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +3</modifier>
+		<modifier category="bonus">ranged damage +3</modifier>
+	</item>
+	<item>
+		<name>Revolver of Warning</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>40/120</range>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A revolver is a modern-era firearm.</text>
+		<text>This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (6 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 213</text>
 	</item>
 	<item>
 		<name>Shotgun</name>
 		<type>R</type>
 		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
 		<weight>7</weight>
 		<property>A,2H</property>
 		<range>30/90</range>
 		<text>A shotgun is a modern-era firearm.</text>
-		<text />
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
 		<text>Reload (2 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
 		<text />
-		<text>Source: Dungeon Master's Guide p. 267</text>
+		<text>Source: Dungeon Master's Guide, page 267</text>
+	</item>
+	<item>
+		<name>Shotgun +1</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>7</weight>
+		<property>A,2H</property>
+		<range>30/90</range>
+		<text>A shotgun is a modern-era firearm.</text>
+		<text>You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (2 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +1</modifier>
+		<modifier category="bonus">ranged damage +1</modifier>
+	</item>
+	<item>
+		<name>Shotgun +2</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>7</weight>
+		<property>A,2H</property>
+		<range>30/90</range>
+		<text>A shotgun is a modern-era firearm.</text>
+		<text>You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (2 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +2</modifier>
+		<modifier category="bonus">ranged damage +2</modifier>
+	</item>
+	<item>
+		<name>Shotgun +3</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>7</weight>
+		<property>A,2H</property>
+		<range>30/90</range>
+		<text>A shotgun is a modern-era firearm.</text>
+		<text>You have a +3 bonus to attack and damage rolls made with this weapon.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (2 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 267</text>
+		<modifier category="bonus">ranged attacks +3</modifier>
+		<modifier category="bonus">ranged damage +3</modifier>
+	</item>
+	<item>
+		<name>Shotgun of Warning</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>7</weight>
+		<property>A,2H</property>
+		<range>30/90</range>
+		<text>Requires Attunement</text>
+		<text></text>
+		<text>A shotgun is a modern-era firearm.</text>
+		<text>This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (2 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 213</text>
+	</item>
+	<item>
+		<name>Vicious Automatic Pistol</name>
+		<type>R</type>
+		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>50/150</range>
+		<text>An automatic pistol is a modern-era firearm.</text>
+		<text>When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (15 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 209</text>
+	</item>
+	<item>
+		<name>Vicious Automatic Rifle</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>An automatic rifle is a modern-era firearm.</text>
+		<text>When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Burst Fire: A weapon that has the burst fire property can make a normal single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition.</text>
+		<text></text>
+		<text>Reload (30 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 209</text>
+	</item>
+	<item>
+		<name>Vicious Hunting Rifle</name>
+		<type>R</type>
+		<dmg1>2d10</dmg1>
+		<dmgType>P</dmgType>
+		<weight>8</weight>
+		<property>A,2H</property>
+		<range>80/240</range>
+		<text>A hunting rifle is a modern-era firearm.</text>
+		<text>When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (5 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 209</text>
+	</item>
+	<item>
+		<name>Vicious Revolver</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>3</weight>
+		<property>A</property>
+		<range>40/120</range>
+		<text>A revolver is a modern-era firearm.</text>
+		<text>When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (6 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 209</text>
+	</item>
+	<item>
+		<name>Vicious Shotgun</name>
+		<type>R</type>
+		<dmg1>2d8</dmg1>
+		<dmgType>P</dmgType>
+		<weight>7</weight>
+		<property>A,2H</property>
+		<range>30/90</range>
+		<text>A shotgun is a modern-era firearm.</text>
+		<text>When you roll a 20 with this magic weapon, the target takes an extra 7 piercing damage.</text>
+		<text></text>
+		<text>Ammunition: The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.</text>
+		<text></text>
+		<text>Reload (2 Shots): A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</text>
+		<text></text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 209</text>
+	</item>
+	<item>
+		<name>Bullets +1 (Modern)</name>
+		<type></type>
+		<weight>0.1</weight>
+		<text>The ammunition of a firearm is destroyed upon use. Modern firearms use bullets. </text>
+		<text>You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 150</text>
+		<modifier category="bonus">ranged attacks +1</modifier>
+		<modifier category="bonus">ranged damage +1</modifier>
+	</item>
+	<item>
+		<name>Bullets +2 (Modern)</name>
+		<type></type>
+		<weight>0.1</weight>
+		<text>The ammunition of a firearm is destroyed upon use. Modern firearms use bullets. </text>
+		<text>You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 150</text>
+		<modifier category="bonus">ranged attacks +2</modifier>
+		<modifier category="bonus">ranged damage +2</modifier>
+	</item>
+	<item>
+		<name>Bullets +3 (Modern)</name>
+		<type></type>
+		<weight>0.1</weight>
+		<text>The ammunition of a firearm is destroyed upon use. Modern firearms use bullets. </text>
+		<text>You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 150</text>
+		<modifier category="bonus">ranged attacks +3</modifier>
+		<modifier category="bonus">ranged damage +3</modifier>
+	</item>
+	<item>
+		<name>Bullets of Slaying (Modern)</name>
+		<type></type>
+		<weight>0.1</weight>
+		<text>The ammunition of a firearm is destroyed upon use. Modern firearms use bullets.</text>
+		<text>A bullet of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both bullets of dragon slaying and bullets of blue dragon slaying. If a creature belonging to the type, race, or group associated with an arrow of slaying takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one. </text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<roll>6d10</roll>
 	</item>
 </compendium>
