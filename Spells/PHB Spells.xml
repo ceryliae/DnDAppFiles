@@ -534,10 +534,10 @@
 		<text>Interposing Hand. The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>4d8</roll>
-		<roll>5*%0</roll>
-		<roll>2d6+%0</roll>
+		<roll>5*SPELL</roll>
+		<roll>2d6+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Blade Barrier</name>
@@ -768,7 +768,7 @@
 		<text>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</text>
 		<text />
 		<text>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -787,7 +787,7 @@
 		<text>You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. At Higher Levels: When you cast this spell using a spell slot of or higher, the damage increases by 1d8 for each slot level above 1st.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d8</roll>
 	</spell>
 	<spell>
@@ -1226,7 +1226,7 @@
 		<text>Seizure: The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.</text>
 		<text />
 		<text>Slimy Doom: The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 	</spell>
 	<spell>
 		<name>Contingency</name>
@@ -1462,7 +1462,7 @@
 		<text>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</text>
-		<roll>1d8+%0</roll>
+		<roll>1d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Dancing Lights</name>
@@ -1711,7 +1711,7 @@
 		<text>Break Enchantment: As your action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.</text>
 		<text />
 		<text>Dismissal: As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 	</spell>
 	<spell>
 		<name>Dispel Magic</name>
@@ -1947,9 +1947,9 @@
 		<text>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</text>
 		<text />
 		<text>The spell creates more than one beam when you reach higher levels - two beams at 5th level, three beams at 11th level, and four beams at 17th level. you can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d10</roll>
-		<roll>1d10+%6</roll>
+		<roll>1d10+CHA</roll>
 	</spell>
 	<spell>
 		<name>Elemental Weapon</name>
@@ -2326,7 +2326,7 @@
 		<text>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</text>
 		<text />
 		<text>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d10</roll>
 		<roll>2d10</roll>
 		<roll>3d10</roll>
@@ -2398,7 +2398,7 @@
 		<text>The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d6</roll>
 	</spell>
 	<spell>
@@ -2852,7 +2852,7 @@
 		<text>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>4d6</roll>
 	</spell>
 	<spell>
@@ -2993,7 +2993,7 @@
 		<text>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</text>
-		<roll>1d4+%0</roll>
+		<roll>1d4+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Heat Metal</name>
@@ -3277,7 +3277,7 @@
 		<text>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d10</roll>
 	</spell>
 	<spell>
@@ -3535,7 +3535,7 @@
 		<duration>8 hours</duration>
 		<classes>Sorcerer, Wizard, Fighter (Eldritch Knight)</classes>
 		<text>You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.</text>
-		<roll>13+%2</roll>
+		<roll>13+DEX</roll>
 	</spell>
 	<spell>
 		<name>Mage Hand</name>
@@ -3677,7 +3677,7 @@
 		<text>A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.</text>
-		<roll>3d8+%0</roll>
+		<roll>3d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Mass Heal</name>
@@ -3704,7 +3704,7 @@
 		<text>As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.</text>
-		<roll>1d4+%0</roll>
+		<roll>1d4+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Mass Suggestion</name>
@@ -3772,7 +3772,7 @@
 		<text>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>4d4</roll>
 		<roll>2d4</roll>
 	</spell>
@@ -3887,7 +3887,7 @@
 		<text />
 		<text>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</text>
 		<roll>d20</roll>
-		<roll>10+%2</roll>
+		<roll>10+DEX</roll>
 	</spell>
 	<spell>
 		<name>Mislead</name>
@@ -3974,7 +3974,7 @@
 		<text />
 		<text>At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage.</text>
 		<roll>4d8</roll>
-		<roll>%0+%8</roll>
+		<roll>SPELL+PROF</roll>
 	</spell>
 	<spell>
 		<name>Mordenkainen's Magnificent Mansion</name>
@@ -4035,7 +4035,7 @@
 		<text>You create a sword-shaped plane of force that hovers within range. It lasts for the duration.</text>
 		<text />
 		<text>When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit. the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d10</roll>
 	</spell>
 	<spell>
@@ -4268,7 +4268,7 @@
 		<text>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</text>
 		<text />
 		<text>You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails the save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 	</spell>
 	<spell>
 		<name>Plant Growth</name>
@@ -4377,7 +4377,7 @@
 		<text>Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.</text>
-		<roll>2d8+%0</roll>
+		<roll>2d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Prestidigitation</name>
@@ -4483,7 +4483,7 @@
 		<text>You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.</text>
 		<text />
 		<text>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -4622,7 +4622,7 @@
 		<text>A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.</text>
 		<text />
 		<text>At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 	</spell>
 	<spell>
 		<name>Ray of Frost</name>
@@ -4637,7 +4637,7 @@
 		<text>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</text>
 		<text />
 		<text>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -4656,7 +4656,7 @@
 		<text>A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>2d8</roll>
 	</spell>
 	<spell>
@@ -4844,7 +4844,7 @@
 		<text>Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>2d6</roll>
 	</spell>
 	<spell>
@@ -5042,7 +5042,7 @@
 		<text>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.</text>
 		<text />
 		<text>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d8</roll>
 		<roll>2d8</roll>
 		<roll>3d8</roll>
@@ -5266,8 +5266,8 @@
 		<text>The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot 3rd level of or higher, the damage increases by 1d8 for every two slot levels above the 2nd.</text>
-		<roll>1d20+%0+%8</roll>
-		<roll>1d8+%0</roll>
+		<roll>1d20+SPELL+PROF</roll>
+		<roll>1d8+SPELL</roll>
 	</spell>
 	<spell>
 		<name>Staggering Smite</name>
@@ -5485,7 +5485,7 @@
 		<text>If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</text>
 		<text />
 		<text>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</text>
-		<roll>1d20+%0</roll>
+		<roll>1d20+SPELL</roll>
 		<text />
 	</spell>
 	<spell>
@@ -5608,7 +5608,7 @@
 		<text>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</text>
 		<text />
 		<text>This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>1d6</roll>
 		<roll>2d6</roll>
 		<roll>3d6</roll>
@@ -5818,7 +5818,7 @@
 		<text>The touch of your shadow-wreathed hand can siphon force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</text>
-		<roll>1d20+%0+%8</roll>
+		<roll>1d20+SPELL+PROF</roll>
 		<roll>3d6</roll>
 	</spell>
 	<spell>
