@@ -15,7 +15,7 @@
 		.nobackground { background:rgba(0,0,0,0);}
 		td { border: 1px solid #CAAD6B;}
 		th { border: 1px solid #CAAD6B; background-color: #CAAD6B;}
-		a { text-decoration: none !important; font-weight: bold !important;}
+		a { text-decoration: underline !important; font-weight: bold !important;}
 
 		/* For smaller table font */
 		.small-font table tr td {
@@ -54,7 +54,7 @@
 		.collapsibleList a, label {
 			letter-spacing: .05em;
 			font-variant: small-caps;
-			font-weight: bold;
+			font-weight: bold !important;
 		    position: relative;
 		    display: block;
 		    padding: .4em .4em .4em 2em;
@@ -62,7 +62,7 @@
 		    margin: .5em 0;
 		    background: #CAAD6B;
 		    color: #FFF;
-		    text-decoration: none;
+		    text-decoration: none !important;
 		    border-radius: .3em;
 		    transition: all .3s ease-out;
 		}
@@ -355,6 +355,7 @@
 					<li class="file"><a href="#dungeonodor">Odor</a></li>
 					<li class="file"><a href="#dungeongeneralfeatures">General Features</a></li>
 					<li class="file"><a href="#dungeongeneralfurnishing">General Furnishing and Appoinments</a></li>
+					<li class="file"><a href="#dungeonreligiousarticles">Religious Articles and Furnishings</a></li>
 					<li class="file"><a href="#dungeonmagefurnishings">Mage Furnishings</a></li>
 					<li class="file"><a href="#dungeonpersonalitems">Utensils and Personal Items</a></li>
 					<li class="file"><a href="#dungeoncontainercontents">Container Contents</a></li>
@@ -4218,145 +4219,2481 @@
 			<h2 id="randomhazards">Dungeon Hazards</h2>
 			<table>
 				<tr>
-					<th>d20</th>
-					<th>Hazard</th>
+					<th align="left">d20</th>
+					<th align="left">Hazard</th>
 				</tr>
 				<tr>
-					<td>1-3</td>
-					<td>Brown Mold</td>
+					<td align="left">1-3</td>
+					<td align="left">Brown Mold</td>
 				</tr>
 				<tr>
-					<td>4-8 </td>
-					<td>Green slime</td>
+					<td align="left">4-8 </td>
+					<td align="left">Green slime</td>
 				</tr>
 				<tr>
-					<td>9-10</td>
-					<td>Shrieker</td>
+					<td align="left">9-10</td>
+					<td align="left">Shrieker</td>
 				</tr>
 				<tr>
-					<td>11-15</td>
-					<td>Spiderwebs</td>
+					<td align="left">11-15</td>
+					<td align="left">Spiderwebs</td>
 				</tr>
 				<tr>
-					<td>16-17</td>
-					<td>Violet fungus</td>
+					<td align="left">16-17</td>
+					<td align="left">Violet fungus</td>
 				</tr>
 				<tr>
-					<td>18-20</td>
-					<td>Yellow mold</td>
+					<td align="left">18-20</td>
+					<td align="left">Yellow mold</td>
 				</tr>
 			</table>
 			<br />
 			<h2 id="randomobstacles">Dungeon Obstacles</h2>
 			<table>
 				<tr>
-					<th>d20</th>
-					<th>Obstacle</th>
+					<th align="left">d20</th>
+					<th align="left">Obstacle</th>
 				</tr>
 				<tr>
-					<td>1</td>
-					<td>Antilife aura with a radius of 1d10 x 10 ft.; while in the aura, living creatures can't regain hit points</td>
+					<td align="left">1</td>
+					<td align="left">Antilife aura with a radius of 1d10 x 10 ft.; while in the aura, living creatures can't regain hit points</td>
 				</tr>
 				<tr>
-					<td>2</td>
-					<td>Battering winds reduce speed by half, impose disadvantage on ranged attack rolls</td>
+					<td align="left">2</td>
+					<td align="left">Battering winds reduce speed by half, impose disadvantage on ranged attack rolls</td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td>Blade barrier blocks passage</td>
+					<td align="left">3</td>
+					<td align="left"><i>Blade barrier</i> blocks passage</td>
 				</tr>
 				<tr>
-					<td>4-8</td>
-					<td>Cave-in</td>
+					<td align="left">4-8</td>
+					<td align="left">Cave-in</td>
 				</tr>
 				<tr>
-					<td>9-12</td>
-					<td>Chasm 1d4 x 10 ft. wide and 2d6 x 10 ft. deep, possibly connected to other levels of the dungeon</td>
+					<td align="left">9-12</td>
+					<td align="left">Chasm 1d4 x 10 ft. wide and 2d6 x 10 ft. deep, possibly connected to other levels of the dungeon</td>
 				</tr>
 				<tr>
-					<td>13-14</td>
-					<td>Flooding leaves 2d10 ft. of water in the area; create nearby upward-sloping passages, raised floors, or rising stairs to contain the water</td>
+					<td align="left">13-14</td>
+					<td align="left">Flooding leaves 2d10 ft. of water in the area; create nearby upward-sloping passages, raised floors, or rising stairs to contain the water</td>
 				</tr>
 				<tr>
-					<td>15</td>
-					<td>Lava flows through the area (50% chance of a stone bridge crossing it)</td>
+					<td align="left">15</td>
+					<td align="left">Lava flows through the area (50% chance of a stone bridge crossing it)</td>
 				</tr>
 				<tr>
-					<td>16</td>
-					<td>Overgrown mushrooms block progress and most be hacked down (25% chance of a mold or fungus dungeon hazard hidden among them)</td>
+					<td align="left">16</td>
+					<td align="left">Overgrown mushrooms block progress and most be hacked down (25% chance of a mold or fungus dungeon hazard hidden among them)</td>
 				</tr>
 				<tr>
-					<td>18 </td>
-					<td>Poisonous gas (deals 1d6 poison damage per minute of exposure)</td>
+					<td align="left">18 </td>
+					<td align="left">Poisonous gas (deals 1d6 poison damage per minute of exposure)</td>
 				</tr>
 				<tr>
-					<td>18</td>
-					<td>Reverse gravity effect causes creatures to fall towards the ceiling</td>
+					<td align="left">18</td>
+					<td align="left"><i>Reverse gravity</i> effect causes creatures to fall towards the ceiling</td>
 				</tr>
 				<tr>
-					<td>19</td>
-					<td>wall of fire blocks passage</td>
+					<td align="left">19</td>
+					<td align="left"><i>Wall of fire</i> blocks passage</td>
 				</tr>
 				<tr>
-					<td>20</td>
-					<td>Wall of force blocks passage</td>
+					<td align="left">20</td>
+					<td align="left"><i>Wall of force</i> blocks passage</td>
 				</tr>
 			</table>
 			<br />
 			<h2 id="randomtraptrigger">Trap Trigger</h2>
 			<table>
 				<tr>
-					<th>d6</th>
-					<th>Trigger</th>
+					<th align="left">d6</th>
+					<th align="left">Trigger</th>
 				</tr>
 				<tr>
-					<td>1</td>
-					<td>Stepped on (floor, stairs)</td>
+					<td align="left">1</td>
+					<td align="left">Stepped on (floor, stairs)</td>
 				</tr>
 				<tr>
-					<td>2</td>
-					<td>Moved through (doorway, hallway)</td>
+					<td align="left">2</td>
+					<td align="left">Moved through (doorway, hallway)</td>
 				</tr>
 				<tr>
-					<td>3 </td>
-					<td>Touched (doorknob, statue)</td>
+					<td align="left">3 </td>
+					<td align="left">Touched (doorknob, statue)</td>
 				</tr>
 				<tr>
-					<td>4</td>
-					<td>Opened (door, treasure chest)</td>
+					<td align="left">4</td>
+					<td align="left">Opened (door, treasure chest)</td>
 				</tr>
 				<tr>
-					<td>5</td>
-					<td>Looked at (mural, arcane symbo)</td>
+					<td align="left">5</td>
+					<td align="left">Looked at (mural, arcane symbo)</td>
 				</tr>
 				<tr>
-					<td>6</td>
-					<td>Moved</td>
+					<td align="left">6</td>
+					<td align="left">Moved</td>
 				</tr>
 			</table>
+			<br />
 			<h2 id="randomtrapseverity">Trap Severity</h2>			
 			<table>
 				<tr>
-					<th>d6</th>
-					<th>Severity</th>
+					<th align="left">d6</th>
+					<th align="left">Severity</th>
 				</tr>
 				<tr>
-					<td>1-2</td>
-					<td>Setback</td>
+					<td align="left">1-2</td>
+					<td align="left">Setback</td>
 				</tr>
 				<tr>
-					<td>3-5</td>
-					<td>Dangerous</td>
+					<td align="left">3-5</td>
+					<td align="left">Dangerous</td>
 				</tr>
 				<tr>
-					<td>6</td>
-					<td>Deadly</td>
+					<td align="left">6</td>
+					<td align="left">Deadly</td>
 				</tr>
 			</table>
 Use <a href="#traps">these charts</a> to determine attack bonus, save DC, and damage for the trap.
 			<br />
 			<h2 id="randomtrapeffect">Trap Effect</h2>
-			<br />						
+			<table>
+				<tr>
+					<th width="8%" align="left">d100</th>
+					<th align="left">Effect</th>
+				</tr>
+				<tr>
+					<td align="left">01-04</td>
+					<td align="left">Magic missiles shoot from a statue or object</td>
+				</tr>
+				<tr>
+					<td align="left">05-07</td>
+					<td align="left">Collapsing staircase creates a ramp that deposits characters into a pit at its lower end`</td>
+				</tr>
+				<tr>
+					<td align="left">08-10</td>
+					<td align="left">Ceiling block falls, or entire ceiling collapses</td>
+				</tr>
+				<tr>
+					<td align="left">11-12</td>
+					<td align="left">Ceiling lowers slowly into locked room</td>
+				</tr>
+				<tr>
+					<td align="left">13-14</td>
+					<td align="left">Chute opens in floor</td>
+				</tr>
+				<tr>
+					<td align="left">15-16</td>
+					<td align="left">Clanging noise attracts nearby monsters</td>
+				</tr>
+				<tr>
+					<td align="left">17-19</td>
+					<td align="left">Touching an object triggers a disintegrate spell</td>
+				</tr>
+				<tr>
+					<td align="left">20-23</td>
+					<td align="left">Door or other object is coated with contact poison</td>
+				</tr>
+				<tr>
+					<td align="left">24-27</td>
+					<td align="left">Fire shoots out from wall, floor, or object</td>
+				</tr>
+				<tr>
+					<td align="left">28-30</td>
+					<td align="left">Touching an object triggers a flesh to stone spell</td>
+				</tr>
+				<tr>
+					<td align="left">31-33</td>
+					<td align="left">Floor collapses or is an illusion</td>
+				</tr>
+				<tr>
+					<td align="left">34-36</td>
+					<td align="left">Vent releases gas: blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing</td>
+				</tr>
+				<tr>
+					<td align="left">37-39</td>
+					<td align="left">Floor tiles are electrified</td>
+				</tr>
+				<tr>
+					<td align="left">40-43 </td>
+					<td align="left">Glyph of warding</td>
+				</tr>
+				<tr>
+					<td align="left">44-46</td>
+					<td align="left">Huge wheeled statue rolls down corridor</td>
+				</tr>
+				<tr>
+					<td align="left">47-49</td>
+					<td align="left">Lightning bolt shoots from wall or object</td>
+				</tr>
+				<tr>
+					<td align="left">50-52</td>
+					<td align="left">Locked room floods with water or acid</td>
+				</tr>
+				<tr>
+					<td align="left">53-56</td>
+					<td align="left">Darts shoot out of an opened chest</td>
+				</tr>
+				<tr>
+					<td align="left">57-59</td>
+					<td align="left">A weapon, suit of armor, or rug animates and attacks when touched (see "Animated objects" in the Monster Manual)</td>
+				</tr>
+				<tr>
+					<td align="left">60-62</td>
+					<td align="left">Pendulum, either bladed or weighted as a maul, swings across the room or hall</td>
+				</tr>
+				<tr>
+					<td align="left">63-67</td>
+					<td align="left">Hidden pit opens beneath characters (25% chance that a black pudding or gelatinous cube fills the bottom of the pit)</td>
+				</tr>
+				<tr>
+					<td align="left">68-70</td>
+					<td align="left">Hidden pit floods with acid or fire</td>
+				</tr>
+				<tr>
+					<td align="left">71-73</td>
+					<td align="left">Locking pit floods with water</td>
+				</tr>
+				<tr>
+					<td align="left">74-77</td>
+					<td align="left">Scything blade emerges from wall or object</td>
+				</tr>
+				<tr>
+					<td align="left">78-81</td>
+					<td align="left">Spears (possibly poisoned) spring out</td>
+				</tr>
+				<tr>
+					<td align="left">82-84</td>
+					<td align="left">Brittle stairs collapse over spikes</td>
+				</tr>
+				<tr>
+					<td align="left">85-88</td>
+					<td align="left">Thunderwave knocks characters into a pit or spikes</td>
+				</tr>
+				<tr>
+					<td align="left">89-91</td>
+					<td align="left">Steel or stone jaws restrain a character</td>
+				</tr>
+				<tr>
+					<td align="left">92-94</td>
+					<td align="left">Stone block smashes across hallway</td>
+				</tr>
+				<tr>
+					<td align="left">95-97</td>
+					<td align="left">Symbol</td>
+				</tr>
+				<tr>
+					<td align="left">98-00</td>
+					<td align="left">Walls slide together</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="randomtrickobjects">Trick Objects</h2>
+			<table>
+				<tr>
+					<th align="left">d20</th>
+					<th align="left">Object</th>
+				</tr>
+				<tr>
+					<td align="left">1</td>
+					<td align="left">Book</td>
+				</tr>
+				<tr>
+					<td align="left">2</td>
+					<td align="left">Brain preserved in a jar</td>
+				</tr>
+				<tr>
+					<td align="left">3</td>
+					<td align="left">Burning fire</td>
+				</tr>
+				<tr>
+					<td align="left">4</td>
+					<td align="left">Cracked gem</td>
+				</tr>
+				<tr>
+					<td align="left">5</td>
+					<td align="left">Door</td>
+				</tr>
+				<tr>
+					<td align="left">6</td>
+					<td align="left">Fresco </td>
+				</tr>
+				<tr>
+					<td align="left">7</td>
+					<td align="left">Furniture</td>
+				</tr>
+				<tr>
+					<td align="left">8</td>
+					<td align="left">Glass sculpture</td>
+				</tr>
+				<tr>
+					<td align="left">9</td>
+					<td align="left">Mushroom field</td>
+				</tr>
+				<tr>
+					<td align="left">10</td>
+					<td align="left">Painting</td>
+				</tr>
+				<tr>
+					<td align="left">11</td>
+					<td align="left">Plant or tree</td>
+				</tr>
+				<tr>
+					<td align="left">12</td>
+					<td align="left">Pool of water</td>
+				</tr>
+				<tr>
+					<td align="left">13</td>
+					<td align="left">Runes engraved on wall or floor</td>
+				</tr>
+				<tr>
+					<td align="left">14</td>
+					<td align="left">Skull</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Sphere of magical energy</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Statue</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">Stone Obelisk</td>
+				</tr>
+				<tr>
+					<td align="left">18</td>
+					<td align="left">Suit of armor</td>
+				</tr>
+				<tr>
+					<td align="left">19</td>
+					<td align="left">Tapestry or Rug</td>
+				</tr>
+				<tr>
+					<td align="left">20</td>
+					<td align="left">Target Dummy</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="randomtrickeffect"></h2>
+			<table>
+				<tr>
+					<th align="left">d100</th>
+					<th align="left">Trick Effect</th>
+				</tr>
+				<tr>
+					<td align="left">01-06</td>
+					<td align="left">Ages the first person to touch the object</td>
+				</tr>
+				<tr>
+					<td align="left">04-06</td>
+					<td align="left">The touched object animates, or it animates other objects nearby</td>
+				</tr>
+				<tr>
+					<td align="left">07-10</td>
+					<td align="left">Asks three skill-testing questions (if all three are answered correctly a reward appears)</td>
+				</tr>
+				<tr>
+					<td align="left">11-13</td>
+					<td align="left">Bestows resistances or vulnerability</td>
+				</tr>
+				<tr>
+					<td align="left">14-16</td>
+					<td align="left">Changes a character's alignment, personality, size, appearance, or sex when touched</td>
+				</tr>
+				<tr>
+					<td align="left">17-19</td>
+					<td align="left">Changes one substance into another, such as gold to lead or metal to brittle crystal</td>
+				</tr>
+				<tr>
+					<td align="left">20-22</td>
+					<td align="left">Creates a force field</td>
+				</tr>
+				<tr>
+					<td align="left">23-26</td>
+					<td align="left">Creates an illusion</td>
+				</tr>
+				<tr>
+					<td align="left">27-29</td>
+					<td align="left">Supresses magic items for a time</td>
+				</tr>
+				<tr>
+					<td align="left">30-32</td>
+					<td align="left">Enlarges or reduces characters</td>
+				</tr>
+				<tr>
+					<td align="left">33-35</td>
+					<td align="left">Magic mouth speaks a riddle</td>
+				</tr>
+				<tr>
+					<td align="left">36-38</td>
+					<td align="left">Confusion (targets all creatures within 10 ft.)</td>
+				</tr>
+				<tr>
+					<td align="left">39-41</td>
+					<td align="left">Gives directions (true or false)</td>
+				</tr>
+				<tr>
+					<td align="left">42-44</td>
+					<td align="left">Grants a wish</td>
+				</tr>
+				<tr>
+					<td align="left">45-47</td>
+					<td align="left">Flies about to avoid being touched</td>
+				</tr>
+				<tr>
+					<td align="left">48-50</td>
+					<td align="left">Casts geas on the characters</td>
+				</tr>
+				<tr>
+					<td align="left">51-53</td>
+					<td align="left">Increases, reduces, negates, or reverses gravity</td>
+				</tr>
+				<tr>
+					<td align="left">54-56</td>
+					<td align="left">Induces greed</td>
+				</tr>
+				<tr>
+					<td align="left">57-59</td>
+					<td align="left">Contains an imprisoned creature</td>
+				</tr>
+				<tr>
+					<td align="left">60-62</td>
+					<td align="left">Locks or unlocks exits</td>
+				</tr>
+				<tr>
+					<td align="left">63-65</td>
+					<td align="left">Offers a game of chance, with the promise of a reward or valuable information</td>
+				</tr>
+				<tr>
+					<td align="left">66-68</td>
+					<td align="left">Helps or harms certain types of creatures</td>
+				</tr>
+				<tr>
+					<td align="left">69-71</td>
+					<td align="left">Casts polymorph on the characters (lasts 1 hour)</td>
+				</tr>
+				<tr>
+					<td align="left">72-75</td>
+					<td align="left">Presents a puzzle or riddle</td>
+				</tr>
+				<tr>
+					<td align="left">76-78</td>
+					<td align="left">Prevents movement</td>
+				</tr>
+				<tr>
+					<td align="left">79-81</td>
+					<td align="left">Releases coins, false coins, gems, false gems, a magic item, or a map</td>
+				</tr>
+				<tr>
+					<td align="left">82-84</td>
+					<td align="left">Releases, summons, or turns into a monster</td>
+				</tr>
+				<tr>
+					<td align="left">85-87</td>
+					<td align="left">Casts suggestion on the characters</td>
+				</tr>
+				<tr>
+					<td align="left">88-90</td>
+					<td align="left">Wails loudly when touched</td>
+				</tr>
+				<tr>
+					<td align="left">91-93</td>
+					<td align="left">Talks (normal speech, nonsense, poetry and rhymes, singing, spellcasting, or screaming)</td>
+				</tr>
+				<tr>
+					<td align="left">94-97</td>
+					<td align="left">Teleports characters to another place</td>
+				</tr>
+				<tr>
+					<td align="left">98-00</td>
+					<td align="left">Swaps two or more character's minds</td>
+				</tr>
+			</table>
+			<br />
+			<h1 id="dungeondressing">Dungeon Dressing</h1>
+			<br />				
+			<h2 id="dungeonnoises">Noises</h2>		
+			<table>
+				<tr>
+					<th align="left">d100</th>
+					<th align="left">Effect</th>
+				</tr>
+				<tr>
+					<td align="left">01-05</td>
+					<td align="left">Bang or slam</td>
+				</tr>
+				<tr>
+					<td align="left">06</td>
+					<td align="left">Bellowing</td>
+				</tr>
+				<tr>
+					<td align="left">07</td>
+					<td align="left">Buzzing</td>
+				</tr>
+				<tr>
+					<td align="left">08-10</td>
+					<td align="left">Chanting</td>
+				</tr>
+				<tr>
+					<td align="left">11</td>
+					<td align="left">Chiming</td>
+				</tr>
+				<tr>
+					<td align="left">12</td>
+					<td align="left">Chirping</td>
+				</tr>
+				<tr>
+					<td align="left">13</td>
+					<td align="left">Clanking</td>
+				</tr>
+				<tr>
+					<td align="left">14</td>
+					<td align="left">Clashing</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Clicking</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Coughing</td>
+				</tr>
+				<tr>
+					<td align="left">17-18</td>
+					<td align="left">Creaking</td>
+				</tr>
+				<tr>
+					<td align="left">19</td>
+					<td align="left">Drumming</td>
+				</tr>
+				<tr>
+					<td align="left">20-23</td>
+					<td align="left">Footsteps ahead</td>
+				</tr>
+				<tr>
+					<td align="left">24-26</td>
+					<td align="left">Footsteps approaching</td>
+				</tr>
+				<tr>
+					<td align="left">27-29</td>
+					<td align="left">Footsteps behind</td>
+				</tr>
+				<tr>
+					<td align="left">30-31</td>
+					<td align="left">Footsteps receding</td>
+				</tr>
+				<tr>
+					<td align="left">32-33</td>
+					<td align="left">Footsteps to the side</td>
+				</tr>
+				<tr>
+					<td align="left">34-35</td>
+					<td align="left">Giggling (faint)</td>
+				</tr>
+				<tr>
+					<td align="left">36</td>
+					<td align="left">Gong</td>
+				</tr>
+				<tr>
+					<td align="left">37-39</td>
+					<td align="left">Grating</td>
+				</tr>
+				<tr>
+					<td align="left">40-41</td>
+					<td align="left">Groaning</td>
+				</tr>
+				<tr>
+					<td align="left">42</td>
+					<td align="left">Grunting</td>
+				</tr>
+				<tr>
+					<td align="left">43-44</td>
+					<td align="left">Hissing</td>
+				</tr>
+				<tr>
+					<td align="left">45</td>
+					<td align="left">Horn or trumpet sounding</td>
+				</tr>
+				<tr>
+					<td align="left">46</td>
+					<td align="left">Howling</td>
+				</tr>
+				<tr>
+					<td align="left">47-48</td>
+					<td align="left">Humming</td>
+				</tr>
+				<tr>
+					<td align="left">49</td>
+					<td align="left">Jingling</td>
+				</tr>
+				<tr>
+					<td align="left">50-53</td>
+					<td align="left">knocking</td>
+				</tr>
+				<tr>
+					<td align="left">54-55</td>
+					<td align="left">Laughter</td>
+				</tr>
+				<tr>
+					<td align="left">56-57</td>
+					<td align="left">Moaning</td>
+				</tr>
+				<tr>
+					<td align="left">58-60</td>
+					<td align="left">Murmuring</td>
+				</tr>
+				<tr>
+					<td align="left">61-62</td>
+					<td align="left">Music</td>
+				</tr>
+				<tr>
+					<td align="left">63</td>
+					<td align="left">Rattling</td>
+				</tr>
+				<tr>
+					<td align="left">64</td>
+					<td align="left">Ringing</td>
+				</tr>
+				<tr>
+					<td align="left">65-687</td>
+					<td align="left">Rustling</td>
+				</tr>
+				<tr>
+					<td align="left">69-72</td>
+					<td align="left">Scratching or scrabbling</td>
+				</tr>
+				<tr>
+					<td align="left">73-74</td>
+					<td align="left">Screaming</td>
+				</tr>
+				<tr>
+					<td align="left">75-77</td>
+					<td align="left">Scuttling</td>
+				</tr>
+				<tr>
+					<td align="left">78</td>
+					<td align="left">Shuffling</td>
+				</tr>
+				<tr>
+					<td align="left">79-80</td>
+					<td align="left">Slithering</td>
+				</tr>
+				<tr>
+					<td align="left">81</td>
+					<td align="left">Snapping</td>
+				</tr>
+				<tr>
+					<td align="left">82</td>
+					<td align="left">Sneezing</td>
+				</tr>
+				<tr>
+					<td align="left">83</td>
+					<td align="left">Sobbing</td>
+				</tr>
+				<tr>
+					<td align="left">84</td>
+					<td align="left">Splashing</td>
+				</tr>
+				<tr>
+					<td align="left">85</td>
+					<td align="left">Splintering</td>
+				</tr>
+				<tr>
+					<td align="left">86-87</td>
+					<td align="left">Squeaking</td>
+				</tr>
+				<tr>
+					<td align="left">88</td>
+					<td align="left">Squealing</td>
+				</tr>
+				<tr>
+					<td align="left">89-90</td>
+					<td align="left">Tapping</td>
+				</tr>
+				<tr>
+					<td align="left">91-92</td>
+					<td align="left">Thud</td>
+				</tr>
+				<tr>
+					<td align="left">93-94</td>
+					<td align="left">Thumping</td>
+				</tr>
+				<tr>
+					<td align="left">95</td>
+					<td align="left">Tinkling</td>
+				</tr>
+				<tr>
+					<td align="left">96</td>
+					<td align="left">Twanging</td>
+				</tr>
+				<tr>
+					<td align="left">97</td>
+					<td align="left">Whining</td>
+				</tr>
+				<tr>
+					<td align="left">98</td>
+					<td align="left">Whispering</td>
+				</tr>
+				<tr>
+					<td align="left">99-00</td>
+					<td align="left">Whistling</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeonair">Air</h2>
+			<table>
+				<tr>
+				<th align="left">d100</th>
+				<th align="left">Effect</th>
+				</tr>
+				<tr>
+					<td align="left">01-60</td>
+					<td align="left">Clear and damp</td>
+				</tr>
+				<tr>
+					<td align="left">61-70</td>
+					<td align="left">Clear and drafty</td>
+				</tr>
+				<tr>
+					<td align="left">71-80</td>
+					<td align="left">Clear but cold</td>
+				</tr>
+				<tr>
+					<td align="left">81-83</td>
+					<td align="left">Foggy or misty and cold</td>
+				</tr>
+				<tr>
+					<td align="left">84-85</td>
+					<td align="left">Clear, with mist covering floor</td>
+				</tr>
+				<tr>
+					<td align="left">86-90</td>
+					<td align="left">Clear and warm</td>
+				</tr>
+				<tr>
+					<td align="left">91-93</td>
+					<td align="left">Hazy and humid</td>
+				</tr>
+				<tr>
+					<td align="left">95-96</td>
+					<td align="left">Smoky or steamy</td>
+				</tr>
+				<tr>
+					<td align="left">97-98</td>
+					<td align="left">Clear, with smoke covering ceiling</td>
+				</tr>
+				<tr>
+					<td align="left">99-00</td>
+					<td align="left">Cleary and windy</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeonodor">Odor</h2>							
+			<table>
+			<tr>
+				<th align="left">d100</th>
+				<th align="left">Effect</th>
+				</tr>
+				<tr>
+					<td align="left">01-03</td>
+					<td align="left">Acrid</td>
+				</tr>
+				<tr>
+					<td align="left">04-05</td>
+					<td align="left">Chlorine</td>
+				</tr>
+				<tr>
+					<td align="left">06-39</td>
+					<td align="left">Dank or moldy</td>
+				</tr>
+				<tr>
+					<td align="left">40-49</td>
+					<td align="left">Earthy</td>
+				</tr>
+				<tr>
+					<td align="left">50-57</td>
+					<td align="left">Manure</td>
+				</tr>
+				<tr>
+					<td align="left">58-61</td>
+					<td align="left">Metallic</td>
+				</tr>
+				<tr>
+					<td align="left">62-65</td>
+					<td align="left">Ozone</td>
+				</tr>
+				<tr>
+					<td align="left">66-70</td>
+					<td align="left">Putrid</td>
+				</tr>
+				<tr>
+					<td align="left">71-75</td>
+					<td align="left">Rotting vegetation</td>
+				</tr>
+				<tr>
+					<td align="left">76-77</td>
+					<td align="left">Salty and wet</td>
+				</tr>
+				<tr>
+					<td align="left">78-82</td>
+					<td align="left">Smoky</td>
+				</tr>
+				<tr>
+					<td align="left">83-89</td>
+					<td align="left">Stale</td>
+				</tr>
+				<tr>
+					<td align="left">90-95</td>
+					<td align="left">Sulfurous</td>
+				</tr>
+				<tr>
+					<td align="left">96-00</td>
+					<td align="left">Urine</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeongeneralfeatures">General Features</h2>
+			<table>
+				<tr>
+					<th align="left">d100</th>
+					<th align="left">Item</th>
+				</tr>
+				<tr>
+					<td align="left">01</td>
+					<td align="left">Arrow, broken</td>
+				</tr>
+				<tr>
+					<td align="left">02-04</td>
+					<td align="left">Ashes</td>
+				</tr>
+				<tr>
+					<td align="left">05-06</td>
+					<td align="left">Bones</td>
+				</tr>
+				<tr>
+					<td align="left">07</td>
+					<td align="left">Bottle, broken</td>
+				</tr>
+				<tr>
+					<td align="left">08</td>
+					<td align="left">Chain, corroded</td>
+				</tr>
+				<tr>
+					<td align="left">09</td>
+					<td align="left">Club, splintered</td>
+				</tr>
+				<tr>
+					<td align="left">10-019</td>
+					<td align="left">Cobwebs</td>
+				</tr>
+				<tr>
+					<td align="left">20</td>
+					<td align="left">Coin, copper</td>
+				</tr>
+				<tr>
+					<td align="left">21-22</td>
+					<td align="left">Cracks, ceiling</td>
+				</tr>
+				<tr>
+					<td align="left">23-24</td>
+					<td align="left">Cracks, floor</td>
+				</tr>
+				<tr>
+					<td align="left">25-26</td>
+					<td align="left">Cracks, wall</td>
+				</tr>
+				<tr>
+					<td align="left">27</td>
+					<td align="left">Dagger hilt</td>
+				</tr>
+				<tr>
+					<td align="left">28-29</td>
+					<td align="left">Damp ceiling</td>
+				</tr>
+				<tr>
+					<td align="left">30-33</td>
+					<td align="left">Dampness, wall</td>
+				</tr>
+				<tr>
+					<td align="left">34</td>
+					<td align="left">Dried blood</td>
+				</tr>
+				<tr>
+					<td align="left">35-41</td>
+					<td align="left">Dripping blood</td>
+				</tr>
+				<tr>
+					<td align="left">42-44</td>
+					<td align="left">Dung</td>
+				</tr>
+				<tr>
+					<td align="left">45-49</td>
+					<td align="left">Dust</td>
+				</tr>
+				<tr>
+					<td align="left">50</td>
+					<td align="left">Flask, cracked</td>
+				</tr>
+				<tr>
+					<td align="left">51</td>
+					<td align="left">Food scraps</td>
+				</tr>
+				<tr>
+					<td align="left">52</td>
+					<td align="left">Fungi (common)</td>
+				</tr>
+				<tr>
+					<td align="left">53-55</td>
+					<td align="left">guano</td>
+				</tr>
+				<tr>
+					<td align="left">56</td>
+					<td align="left">hair or fur</td>
+				</tr>
+				<tr>
+					<td align="left">57</td>
+					<td align="left">Hammer head, cracked</td>
+				</tr>
+				<tr>
+					<td align="left">58</td>
+					<td align="left">Helmet, badly dented</td>
+				</tr>
+				<tr>
+					<td align="left">59</td>
+					<td align="left">Iron bar, bent and rusted</td>
+				</tr>
+				<tr>
+					<td align="left">60</td>
+					<td align="left">Javelin head, blunt</td>
+				</tr>
+				<tr>
+					<td align="left">61</td>
+					<td align="left">Leather boot</td>
+				</tr>
+				<tr>
+					<td align="left">62-64</td>
+					<td align="left">Leaves and twigs</td>
+				</tr>
+				<tr>
+					<td align="left">65-68</td>
+					<td align="left">Mold (common)</td>
+				</tr>
+				<tr>
+					<td align="left">69</td>
+					<td align="left">Pick handle</td>
+				</tr>
+				<tr>
+					<td align="left">70</td>
+					<td align="left">Pole, broken (5 ft. long)</td>
+				</tr>
+				<tr>
+					<td align="left">71</td>
+					<td align="left">Pottery shards</td>
+				</tr>
+				<tr>
+					<td align="left">72-73</td>
+					<td align="left">Rags</td>
+				</tr>
+				<tr>
+					<td align="left">74</td>
+					<td align="left">Rope, rotten</td>
+				</tr>
+				<tr>
+					<td align="left">75-76</td>
+					<td align="left">Rubble and dirt</td>
+				</tr>
+				<tr>
+					<td align="left">77</td>
+					<td align="left">Sack, torn</td>
+				</tr>
+				<tr>
+					<td align="left">78-80</td>
+					<td align="left">Slime (harmless)</td>
+				</tr>
+				<tr>
+					<td align="left">81</td>
+					<td align="left">Spike, rusted</td>
+				</tr>
+				<tr>
+					<td align="left">82-83</td>
+					<td align="left">Sticks</td>
+				</tr>
+				<tr>
+					<td align="left">84</td>
+					<td align="left">Stones, small</td>
+				</tr>
+				<tr>
+					<td align="left">85</td>
+					<td align="left">Straw</td>
+				</tr>
+				<tr>
+					<td align="left">86</td>
+					<td align="left">Sword blade, broken</td>
+				</tr>
+				<tr>
+					<td align="left">87</td>
+					<td align="left">Teeth or fangs, scattered</td>
+				</tr>
+				<tr>
+					<td align="left">88</td>
+					<td align="left">Torch stub</td>
+				</tr>
+				<tr>
+					<td align="left">89</td>
+					<td align="left">Wall Scratching</td>
+				</tr>
+				<tr>
+					<td align="left">90-91</td>
+					<td align="left">Water, large puddle</td>
+				</tr>
+				<tr>
+					<td align="left">92-93</td>
+					<td align="left">Water, small puddle</td>
+				</tr>
+				<tr>
+					<td align="left">94-95</td>
+					<td align="left">Water, trickle</td>
+				</tr>
+				<tr>
+					<td align="left">96</td>
+					<td align="left">Wax blob (candle stub)</td>
+				</tr>
+				<tr>
+					<td align="left">97</td>
+					<td align="left">Wax drippings</td>
+				</tr>
+				<tr>
+					<td align="left">98-00</td>
+					<td align="left">Wood pieces, rotting</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeongeneralfurnishing">General Furnishing</h2>			
+			<table>
+				<tr>
+				<th>d100</th>
+				<th>Item</th>
+				</tr>
+				<tr>
+					<td align="left">01</td>
+					<td align="left">Altar</td>
+				</tr>
+				<tr>
+					<td align="left">02</td>
+					<td align="left">Armchair</td>
+				</tr>
+				<tr>
+					<td align="left">03</td>
+					<td align="left">Armoire</td>
+				</tr>
+				<tr>
+					<td align="left">04</td>
+					<td align="left">Arras or curtain</td>
+				</tr>
+				<tr>
+					<td align="left">05</td>
+					<td align="left">Bag</td>
+				</tr>
+				<tr>
+					<td align="left">06</td>
+					<td align="left">Barrel (40 gallon)</td>
+				</tr>
+				<tr>
+					<td align="left">07-08</td>
+					<td align="left">Bed</td>
+				</tr>
+				<tr>
+					<td align="left">09</td>
+					<td align="left">Bench</td>
+				</tr>
+				<tr>
+					<td align="left">10</td>
+					<td align="left">Blanket</td>
+				</tr>
+				<tr>
+					<td align="left">11</td>
+					<td align="left">Box (large)</td>
+				</tr>
+				<tr>
+					<td align="left">12</td>
+					<td align="left">Brazier and charcoal</td>
+				</tr>
+				<tr>
+					<td align="left">13</td>
+					<td align="left">Bucket</td>
+				</tr>
+				<tr>
+					<td align="left">14</td>
+					<td align="left">Buffet cabinet</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Bunks</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Butt (huge cask, 125 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">Cabinet</td>
+				</tr>
+				<tr>
+					<td align="left">18</td>
+					<td align="left">Candleabrum</td>
+				</tr>
+				<tr>
+					<td align="left">19</td>
+					<td align="left">Carpet (large)</td>
+				</tr>
+				<tr>
+					<td align="left">20</td>
+					<td align="left">Cask (40 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">21</td>
+					<td align="left">Chandelier</td>
+				</tr>
+				<tr>
+					<td align="left">22</td>
+					<td align="left">Charcoal</td>
+				</tr>
+				<tr>
+					<td align="left">23-24</td>
+					<td align="left">Chair, plain</td>
+				</tr>
+				<tr>
+					<td align="left">25</td>
+					<td align="left">Chair, padded</td>
+				</tr>
+				<tr>
+					<td align="left">26</td>
+					<td align="left">Chair, padded, or divan</td>
+				</tr>
+				<tr>
+					<td align="left">27</td>
+					<td align="left">Chest, large</td>
+				</tr>
+				<tr>
+					<td align="left">28</td>
+					<td align="left">Chest, medium</td>
+				</tr>
+				<tr>
+					<td align="left">29</td>
+					<td align="left">Chest of drawers</td>
+				</tr>
+				<tr>
+					<td align="left">30</td>
+					<td align="left">Closet (wardrobe)</td>
+				</tr>
+				<tr>
+					<td align="left">31</td>
+					<td align="left">Coal</td>
+				</tr>
+				<tr>
+					<td align="left">32-33</td>
+					<td align="left">Couch</td>
+				</tr>
+				<tr>
+					<td align="left">34</td>
+					<td align="left">Crate</td>
+				</tr>
+				<tr>
+					<td align="left">35</td>
+					<td align="left">Cresset</td>
+				</tr>
+				<tr>
+					<td align="left">36</td>
+					<td align="left">Cupboard</td>
+				</tr>
+				<tr>
+					<td align="left">37</td>
+					<td align="left">Cushion</td>
+				</tr>
+				<tr>
+					<td align="left">38</td>
+					<td align="left">Dais</td>
+				</tr>
+				<tr>
+					<td align="left">39</td>
+					<td align="left">Desk</td>
+				</tr>
+				<tr>
+					<td align="left">40-42</td>
+					<td align="left">Fireplace and wood</td>
+				</tr>
+				<tr>
+					<td align="left">43</td>
+					<td align="left">Fireplace with mantle</td>
+				</tr>
+				<tr>
+					<td align="left">44</td>
+					<td align="left">Firkin (small cask, 10 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">45</td>
+					<td align="left">Fountain</td>
+				</tr>
+				<tr>
+					<td align="left">46</td>
+					<td align="left">Fresco</td>
+				</tr>
+				<tr>
+					<td align="left">47</td>
+					<td align="left">Grindstone</td>
+				</tr>
+				<tr>
+					<td align="left">48</td>
+					<td align="left">Hamper</td>
+				</tr>
+				<tr>
+					<td align="left">49</td>
+					<td align="left">Hassock</td>
+				</tr>
+				<tr>
+					<td align="left">50</td>
+					<td align="left">Hogshead (large cask, 65 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">51</td>
+					<td align="left">Idol (large)</td>
+				</tr>
+				<tr>
+					<td align="left">52</td>
+					<td align="left">Keg (small barrel, 20 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">53</td>
+					<td align="left">Loom</td>
+				</tr>
+				<tr>
+					<td align="left">54</td>
+					<td align="left">Mat</td>
+				</tr>
+				<tr>
+					<td align="left">55</td>
+					<td align="left">Mattress</td>
+				</tr>
+				<tr>
+					<td align="left">56</td>
+					<td align="left">Pail</td>
+				</tr>
+				<tr>
+					<td align="left">57</td>
+					<td align="left">Painting</td>
+				</tr>
+				<tr>
+					<td align="left">58-60</td>
+					<td align="left">Pallet</td>
+				</tr>
+				<tr>
+					<td align="left">61</td>
+					<td align="left">Pedestal</td>
+				</tr>
+				<tr>
+					<td align="left">62-64</td>
+					<td align="left">Pegs</td>
+				</tr>
+				<tr>
+					<td align="left">65</td>
+					<td align="left">Pillow</td>
+				</tr>
+				<tr>
+					<td align="left">66</td>
+					<td align="left">Pipe (large cask, 105 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">67</td>
+					<td align="left">Quilt</td>
+				</tr>
+				<tr>
+					<td align="left">68-70</td>
+					<td align="left">Rug (small or medium)</td>
+				</tr>
+				<tr>
+					<td align="left">71</td>
+					<td align="left">Rushes</td>
+				</tr>
+				<tr>
+					<td align="left">72</td>
+					<td align="left">Sack</td>
+				</tr>
+				<tr>
+					<td align="left">73</td>
+					<td align="left">Sconce</td>
+				</tr>
+				<tr>
+					<td align="left">74</td>
+					<td align="left">Screen</td>
+				</tr>
+				<tr>
+					<td align="left">75</td>
+					<td align="left">Sheet</td>
+				</tr>
+				<tr>
+					<td align="left">76-77</td>
+					<td align="left">Shelf</td>
+				</tr>
+				<tr>
+					<td align="left">78</td>
+					<td align="left">Shrine</td>
+				</tr>
+				<tr>
+					<td align="left">79</td>
+					<td align="left">Sideboard</td>
+				</tr>
+				<tr>
+					<td align="left">80</td>
+					<td align="left">Sofa</td>
+				</tr>
+				<tr>
+					<td align="left">81</td>
+					<td align="left">Staff, normal</td>
+				</tr>
+				<tr>
+					<td align="left">82</td>
+					<td align="left">Stand</td>
+				</tr>
+				<tr>
+					<td align="left">83</td>
+					<td align="left">Statue</td>
+				</tr>
+				<tr>
+					<td align="left">84</td>
+					<td align="left">Stool, high</td>
+				</tr>
+				<tr>
+					<td align="left">85</td>
+					<td align="left">Stool, normal</td>
+				</tr>
+				<tr>
+					<td align="left">86</td>
+					<td align="left">Table, large</td>
+				</tr>
+				<tr>
+					<td align="left">87</td>
+					<td align="left">Table, long</td>
+				</tr>
+				<tr>
+					<td align="left">88</td>
+					<td align="left">Table, low</td>
+				</tr>
+				<tr>
+					<td align="left">89</td>
+					<td align="left">Table, round</td>
+				</tr>
+				<tr>
+					<td align="left">90</td>
+					<td align="left">Table, small</td>
+				</tr>
+				<tr>
+					<td align="left">91</td>
+					<td align="left">Table, trestle</td>
+				</tr>
+				<tr>
+					<td align="left">92</td>
+					<td align="left">Tapestry</td>
+				</tr>
+				<tr>
+					<td align="left">93</td>
+					<td align="left">Throne</td>
+				</tr>
+				<tr>
+					<td align="left">94</td>
+					<td align="left">Trunk</td>
+				</tr>
+				<tr>
+					<td align="left">95</td>
+					<td align="left">Tub</td>
+				</tr>
+				<tr>
+					<td align="left">96</td>
+					<td align="left">Tun (huge cask, 250 gallons)</td>
+				</tr>
+				<tr>
+					<td align="left">97</td>
+					<td align="left">Urn</td>
+				</tr>
+				<tr>
+					<td align="left">98</td>
+					<td align="left">Wall basin and font</td>
+				</tr>
+				<tr>
+					<td align="left">99</td>
+					<td align="left">Wood billets</td>
+				</tr>
+				<tr>
+					<td align="left">00</td>
+					<td align="left">Workbench</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeonreligiousarticles">Religious Articles and Furnishings</h2>
+			<table>
+				<tr>
+				<th align="left">d100</th>
+				<th align="left">Item</th>
+				</tr>
+				<tr>
+					<td align="left">01-05</td>
+					<td align="left">Altar</td>
+				</tr>
+				<tr>
+					<td align="left">06-08</td>
+					<td align="left">Bells</td>
+				</tr>
+				<tr>
+					<td align="left">09-11</td>
+					<td align="left">Brazier</td>
+				</tr>
+				<tr>
+					<td align="left">12</td>
+					<td align="left">Candelabra</td>
+				</tr>
+				<tr>
+					<td align="left">13-14</td>
+					<td align="left">Candels</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Candlesticks</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Cassocks</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">Chimes</td>
+				</tr>
+				<tr>
+					<td align="left">18-19</td>
+					<td align="left">Cloth, altar</td>
+				</tr>
+				<tr>
+					<td align="left">20-23</td>
+					<td align="left">Columns or pillars</td>
+				</tr>
+				<tr>
+					<td align="left">24</td>
+					<td align="left">Curtain or tapestry</td>
+				</tr>
+				<tr>
+					<td align="left">25</td>
+					<td align="left">Drum</td>
+				</tr>
+				<tr>
+					<td align="left">26-27</td>
+					<td align="left">Font</td>
+				</tr>
+				<tr>
+					<td align="left">28-29</td>
+					<td align="left">Gong</td>
+				</tr>
+				<tr>
+					<td align="left">30-35</td>
+					<td align="left">Holy or unholy symbol</td>
+				</tr>
+				<tr>
+					<td align="left">36-37</td>
+					<td align="left">Holy or unholy writings</td>
+				</tr>
+				<tr>
+					<td align="left">38-43</td>
+					<td align="left">Idol</td>
+				</tr>
+				<tr>
+					<td align="left">44-48</td>
+					<td align="left">Incense Burner</td>
+				</tr>
+				<tr>
+					<td align="left">49</td>
+					<td align="left">Kneeling bench</td>
+				</tr>
+				<tr>
+					<td align="left">50-53</td>
+					<td align="left">Lamp</td>
+				</tr>
+				<tr>
+					<td align="left">54</td>
+					<td align="left">Lectern</td>
+				</tr>
+				<tr>
+					<td align="left">55</td>
+					<td align="left">Mosaic</td>
+				</tr>
+				<tr>
+					<td align="left">56-58</td>
+					<td align="left">Offertory container</td>
+				</tr>
+				<tr>
+					<td align="left">59</td>
+					<td align="left">Paintings or frescoes</td>
+				</tr>
+				<tr>
+					<td align="left">60-61</td>
+					<td align="left">Pews</td>
+				</tr>
+				<tr>
+					<td align="left">62</td>
+					<td align="left">Pipes, musical</td>
+				</tr>
+				<tr>
+					<td align="left">63</td>
+					<td align="left">Prayer rug</td>
+				</tr>
+				<tr>
+					<td align="left">64</td>
+					<td align="left">Pulpit</td>
+				</tr>
+				<tr>
+					<td align="left">65</td>
+					<td align="left">Rail</td>
+				</tr>
+				<tr>
+					<td align="left">66-69</td>
+					<td align="left">Robes</td>
+				</tr>
+				<tr>
+					<td align="left">70-71</td>
+					<td align="left">Screen</td>
+				</tr>
+				<tr>
+					<td align="left">72-76</td>
+					<td align="left">Shrine</td>
+				</tr>
+				<tr>
+					<td align="left">77</td>
+					<td align="left">Side chairs</td>
+				</tr>
+				<tr>
+					<td align="left">78-79</td>
+					<td align="left">Stand</td>
+				</tr>
+				<tr>
+					<td align="left">80-82</td>
+					<td align="left">Statue</td>
+				</tr>
+				<tr>
+					<td align="left">83</td>
+					<td align="left">Throne</td>
+				</tr>
+				<tr>
+					<td align="left">84-85</td>
+					<td align="left">Thurible</td>
+				</tr>
+				<tr>
+					<td align="left">86-90</td>
+					<td align="left">Tripod</td>
+				</tr>
+				<tr>
+					<td align="left">91-97</td>
+					<td align="left">Vestments</td>
+				</tr>
+				<tr>
+					<td align="left">98-99</td>
+					<td align="left">Votive light</td>
+				</tr>
+				<tr>
+					<td align="left">00</td>
+					<td align="left">Whistle</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeonmagefurnishings">Mage Furnishings</h2>
+			<table>
+				<tr>
+					<th align="left">d100</th>
+					<th align="left">Item</th>
+				</tr>
+				<tr>
+					<td align="left">01-03</td>
+					<td align="left">Alembic</td>
+				</tr>
+				<tr>
+					<td align="left">04-05</td>
+					<td align="left">Balance and weights</td>
+				</tr>
+				<tr>
+					<td align="left">06-09</td>
+					<td align="left">Bellows</td>
+				</tr>
+				<tr>
+					<td align="left">10</td>
+					<td align="left">Book</td>
+				</tr>
+				<tr>
+					<td align="left">11-14</td>
+					<td align="left">Bottle</td>
+				</tr>
+				<tr>
+					<td align="left">15-16</td>
+					<td align="left">Bowl</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">Box</td>
+				</tr>
+				<tr>
+					<td align="left">18</td>
+					<td align="left">Brazier</td>
+				</tr>
+				<tr>
+					<td align="left">19-22</td>
+					<td align="left">Cage</td>
+				</tr>
+				<tr>
+					<td align="left">23</td>
+					<td align="left">Candle</td>
+				</tr>
+				<tr>
+					<td align="left">24</td>
+					<td align="left">Candlestick</td>
+				</tr>
+				<tr>
+					<td align="left">25-26</td>
+					<td align="left">Cauldron</td>
+				</tr>
+				<tr>
+					<td align="left">27-28</td>
+					<td align="left">Chalk</td>
+				</tr>
+				<tr>
+					<td align="left">29-30</td>
+					<td align="left">Crucible</td>
+				</tr>
+				<tr>
+					<td align="left">31-32</td>
+					<td align="left">Crystal ball</td>
+				</tr>
+				<tr>
+					<td align="left">33</td>
+					<td align="left">Decanter</td>
+				</tr>
+				<tr>
+					<td align="left">34</td>
+					<td align="left">Desk</td>
+				</tr>
+				<tr>
+					<td align="left">35</td>
+					<td align="left">Dish</td>
+				</tr>
+				<tr>
+					<td align="left">36</td>
+					<td align="left">Flask or jar</td>
+				</tr>
+				<tr>
+					<td align="left">37-40</td>
+					<td align="left">Funnel</td>
+				</tr>
+				<tr>
+					<td align="left">41</td>
+					<td align="left">Furnace</td>
+				</tr>
+				<tr>
+					<td align="left">42</td>
+					<td align="left">Herbs</td>
+				</tr>
+				<tr>
+					<td align="left">43-44</td>
+					<td align="left">Horn</td>
+				</tr>
+				<tr>
+					<td align="left">45</td>
+					<td align="left">Hourglass</td>
+				</tr>
+				<tr>
+					<td align="left">46-47</td>
+					<td align="left">Juge</td>
+				</tr>
+				<tr>
+					<td align="left">48-49</td>
+					<td align="left">Kettle</td>
+				</tr>
+				<tr>
+					<td align="left">50</td>
+					<td align="left">Ladle</td>
+				</tr>
+				<tr>
+					<td align="left">51</td>
+					<td align="left">Lamp or lanterns</td>
+				</tr>
+				<tr>
+					<td align="left">52</td>
+					<td align="left">Lens (concave or convex)`</td>
+				</tr>
+				<tr>
+					<td align="left">53</td>
+					<td align="left">Magic circle</td>
+				</tr>
+				<tr>
+					<td align="left">54</td>
+					<td align="left">Mortar and pestle</td>
+				</tr>
+				<tr>
+					<td align="left">55</td>
+					<td align="left">Pan</td>
+				</tr>
+				<tr>
+					<td align="left">56</td>
+					<td align="left">Parchment</td>
+				</tr>
+				<tr>
+					<td align="left">57-58</td>
+					<td align="left">Pentacle</td>
+				</tr>
+				<tr>
+					<td align="left">59</td>
+					<td align="left">Pentagram</td>
+				</tr>
+				<tr>
+					<td align="left">60</td>
+					<td align="left">Pipe, smoking</td>
+				</tr>
+				<tr>
+					<td align="left">61</td>
+					<td align="left">Pot</td>
+				</tr>
+				<tr>
+					<td align="left">62</td>
+					<td align="left">Prism</td>
+				</tr>
+				<tr>
+					<td align="left">63</td>
+					<td align="left">Quill</td>
+				</tr>
+				<tr>
+					<td align="left">64-65</td>
+					<td align="left">Retort</td>
+				</tr>
+				<tr>
+					<td align="left">66-68</td>
+					<td align="left">Rod, mixing or stirring</td>
+				</tr>
+				<tr>
+					<td align="left">69</td>
+					<td align="left">Scroll</td>
+				</tr>
+				<tr>
+					<td align="left">70-72</td>
+					<td align="left">Sexton</td>
+				</tr>
+				<tr>
+					<td align="left">73</td>
+					<td align="left">Skull</td>
+				</tr>
+				<tr>
+					<td align="left">74-75</td>
+					<td align="left">Spatula</td>
+				</tr>
+				<tr>
+					<td align="left">76</td>
+					<td align="left">Spoon, measuring</td>
+				</tr>
+				<tr>
+					<td align="left">77</td>
+					<td align="left">Stand</td>
+				</tr>
+				<tr>
+					<td align="left">78</td>
+					<td align="left">Stool</td>
+				</tr>
+				<tr>
+					<td align="left">79</td>
+					<td align="left">Stuffed animal</td>
+				</tr>
+				<tr>
+					<td align="left">80</td>
+					<td align="left">Tank (container</td>
+				</tr>
+				<tr>
+					<td align="left">81</td>
+					<td align="left">Tongs</td>
+				</tr>
+				<tr>
+					<td align="left">82</td>
+					<td align="left">Tripod</td>
+				</tr>
+				<tr>
+					<td align="left">83</td>
+					<td align="left">Tube (container)</td>
+				</tr>
+				<tr>
+					<td align="left">84</td>
+					<td align="left">Tube (piping)</td>
+				</tr>
+				<tr>
+					<td align="left">85-86</td>
+					<td align="left">Tweezers</td>
+				</tr>
+				<tr>
+					<td align="left">87</td>
+					<td align="left">Vial</td>
+				</tr>
+				<tr>
+					<td align="left">88-90</td>
+					<td align="left">Water clock</td>
+				</tr>
+				<tr>
+					<td align="left">91</td>
+					<td align="left">Wire</td>
+				</tr>
+				<tr>
+					<td align="left">92</td>
+					<td align="left">Workbench</td>
+				</tr>
+				<tr>
+					<td align="left">93-00</td>
+					<td align="left"></td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeonpersonalitems">Utensils and Personal Items</h2>								
+			<table>
+				<tr>
+					<th align="left">d100</th>
+					<th align="left">Item</th>
+				</tr>
+				<tr>
+					<td align="left">01</td>
+					<td align="left">Awl</td>
+				</tr>
+				<tr>
+					<td align="left">02</td>
+					<td align="left">Bandages</td>
+				</tr>
+				<tr>
+					<td align="left">03</td>
+					<td align="left">Basin</td>
+				</tr>
+				<tr>
+					<td align="left">04-05</td>
+					<td align="left">Basket</td>
+				</tr>
+				<tr>
+					<td align="left">06-07</td>
+					<td align="left">Book</td>
+				</tr>
+				<tr>
+					<td align="left">08-09</td>
+					<td align="left">Bottle</td>
+				</tr>
+				<tr>
+					<td align="left">10</td>
+					<td align="left">Bowl</td>
+				</tr>
+				<tr>
+					<td align="left">11</td>
+					<td align="left">Box</td>
+				</tr>
+				<tr>
+					<td align="left">12-13</td>
+					<td align="left">Brush</td>
+				</tr>
+				<tr>
+					<td align="left">14</td>
+					<td align="left">Candle</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Candle snuffer</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Candlestick</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">Cane or walking stick</td>
+				</tr>
+				<tr>
+					<td align="left">18</td>
+					<td align="left">Case</td>
+				</tr>
+				<tr>
+					<td align="left">19</td>
+					<td align="left">Casket (small)</td>
+				</tr>
+				<tr>
+					<td align="left">20-21</td>
+					<td align="left">Coffer</td>
+				</tr>
+				<tr>
+					<td align="left">22</td>
+					<td align="left">Cologne or perfume</td>
+				</tr>
+				<tr>
+					<td align="left">23</td>
+					<td align="left">Comb</td>
+				</tr>
+				<tr>
+					<td align="left">24</td>
+					<td align="left">Cup</td>
+				</tr>
+				<tr>
+					<td align="left">25</td>
+					<td align="left">Decanter</td>
+				</tr>
+				<tr>
+					<td align="left">26-27</td>
+					<td align="left">Dish</td>
+				</tr>
+				<tr>
+					<td align="left">28</td>
+					<td align="left">Ear spoon</td>
+				</tr>
+				<tr>
+					<td align="left">29</td>
+					<td align="left">Ewer</td>
+				</tr>
+				<tr>
+					<td align="left">30</td>
+					<td align="left">Flagon, mug, or tankard</td>
+				</tr>
+				<tr>
+					<td align="left">31-32</td>
+					<td align="left">Flask or jar</td>
+				</tr>
+				<tr>
+					<td align="left">33</td>
+					<td align="left">Food</td>
+				</tr>
+				<tr>
+					<td align="left">34</td>
+					<td align="left">Fork</td>
+				</tr>
+				<tr>
+					<td align="left">35</td>
+					<td align="left">Grater</td>
+				</tr>
+				<tr>
+					<td align="left">36</td>
+					<td align="left">Grinder</td>
+				</tr>
+				<tr>
+					<td align="left">37</td>
+					<td align="left">Horn, drinking</td>
+				</tr>
+				<tr>
+					<td align="left">38</td>
+					<td align="left">Hourglass</td>
+				</tr>
+				<tr>
+					<td align="left">39</td>
+					<td align="left">Jug or pitcher</td>
+				</tr>
+				<tr>
+					<td align="left">40</td>
+					<td align="left">Kettle</td>
+				</tr>
+				<tr>
+					<td align="left">41</td>
+					<td align="left">Key</td>
+				</tr>
+				<tr>
+					<td align="left">42</td>
+					<td align="left">Knife</td>
+				</tr>
+				<tr>
+					<td align="left">43</td>
+					<td align="left">Knucklebones or dice</td>
+				</tr>
+				<tr>
+					<td align="left">44</td>
+					<td align="left">Ladle</td>
+				</tr>
+				<tr>
+					<td align="left">45-46</td>
+					<td align="left">Lamp or lantern</td>
+				</tr>
+				<tr>
+					<td align="left">47-48</td>
+					<td align="left">Mirror</td>
+				</tr>
+				<tr>
+					<td align="left">49</td>
+					<td align="left">Needle(s)</td>
+				</tr>
+				<tr>
+					<td align="left">50</td>
+					<td align="left">Oil, cooking</td>
+				</tr>
+				<tr>
+					<td align="left">51</td>
+					<td align="left">Oil, fuel</td>
+				</tr>
+				<tr>
+					<td align="left">52</td>
+					<td align="left">Oil, scented</td>
+				</tr>
+				<tr>
+					<td align="left">53</td>
+					<td align="left">Pan</td>
+				</tr>
+				<tr>
+					<td align="left">54-55</td>
+					<td align="left">Parchment</td>
+				</tr>
+				<tr>
+					<td align="left">56</td>
+					<td align="left">Pipe, musical</td>
+				</tr>
+				<tr>
+					<td align="left">57</td>
+					<td align="left">Pipe, smoking</td>
+				</tr>
+				<tr>
+					<td align="left">58</td>
+					<td align="left">Plate, platter, or saucer</td>
+				</tr>
+				<tr>
+					<td align="left">59</td>
+					<td align="left">Pot</td>
+				</tr>
+				<tr>
+					<td align="left">60-61</td>
+					<td align="left">Pouch</td>
+				</tr>
+				<tr>
+					<td align="left">62</td>
+					<td align="left">Powder puff</td>
+				</tr>
+				<tr>
+					<td align="left">63</td>
+					<td align="left">Quill</td>
+				</tr>
+				<tr>
+					<td align="left">64</td>
+					<td align="left">Razor</td>
+				</tr>
+				<tr>
+					<td align="left">65</td>
+					<td align="left">Rope</td>
+				</tr>
+				<tr>
+					<td align="left">66</td>
+					<td align="left">Salve or unguent</td>
+				</tr>
+				<tr>
+					<td align="left">67-68</td>
+					<td align="left">Scroll</td>
+				</tr>
+				<tr>
+					<td align="left">69</td>
+					<td align="left">Shaker</td>
+				</tr>
+				<tr>
+					<td align="left">70</td>
+					<td align="left">Sifter or strainer</td>
+				</tr>
+				<tr>
+					<td align="left">71-72</td>
+					<td align="left">Soap</td>
+				</tr>
+				<tr>
+					<td align="left">73</td>
+					<td align="left">Spigot</td>
+				</tr>
+				<tr>
+					<td align="left">74</td>
+					<td align="left">Spoon</td>
+				</tr>
+				<tr>
+					<td align="left">75</td>
+					<td align="left">Stopper</td>
+				</tr>
+				<tr>
+					<td align="left">76-77</td>
+					<td align="left">Statuette or figurine</td>
+				</tr>
+				<tr>
+					<td align="left">78-79</td>
+					<td align="left">Thread</td>
+				</tr>
+				<tr>
+					<td align="left">80-82</td>
+					<td align="left">Tinderbox (with flint and steel)</td>
+				</tr>
+				<tr>
+					<td align="left">83</td>
+					<td align="left">Towel</td>
+				</tr>
+				<tr>
+					<td align="left">84</td>
+					<td align="left">Tray</td>
+				</tr>
+				<tr>
+					<td align="left">85</td>
+					<td align="left">Trivet or tripod</td>
+				</tr>
+				<tr>
+					<td align="left">86</td>
+					<td align="left">Tureen</td>
+				</tr>
+				<tr>
+					<td align="left">87-88</td>
+					<td align="left">Twine</td>
+				</tr>
+				<tr>
+					<td align="left">89</td>
+					<td align="left">Missing Entry</td>
+				</tr>
+				<tr>
+					<td align="left">90</td>
+					<td align="left">Vase</td>
+				</tr>
+				<tr>
+					<td align="left">91-92</td>
+					<td align="left">Vial</td>
+				</tr>
+				<tr>
+					<td align="left">93</td>
+					<td align="left">Washcloth</td>
+				</tr>
+				<tr>
+					<td align="left">94</td>
+					<td align="left">Whetstone</td>
+				</tr>
+				<tr>
+					<td align="left">95-96</td>
+					<td align="left">Wig</td>
+				</tr>
+				<tr>
+					<td align="left">97-98</td>
+					<td align="left">Wool</td>
+				</tr>
+				<tr>
+					<td align="left">99-00</td>
+					<td align="left">Yarn</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeoncontainercontents">Container Contents</h2>			
+			<table>
+				<tr>
+					<th align="left">d100</th>
+					<th align="left">Item</th>
+				</tr>
+				<tr>
+					<td align="left">01-03</td>
+					<td align="left">Ash</td>
+				</tr>
+				<tr>
+					<td align="left">04-06</td>
+					<td align="left">Bark</td>
+				</tr>
+				<tr>
+					<td align="left">07-09</td>
+					<td align="left">Bodily organs</td>
+				</tr>
+				<tr>
+					<td align="left">10-14</td>
+					<td align="left">Bones</td>
+				</tr>
+				<tr>
+					<td align="left">15-17</td>
+					<td align="left">Cinders</td>
+				</tr>
+				<tr>
+					<td align="left">18-22</td>
+					<td align="left">Crystals</td>
+				</tr>
+				<tr>
+					<td align="left">23-26</td>
+					<td align="left">Dust</td>
+				</tr>
+				<tr>
+					<td align="left">27-28</td>
+					<td align="left">Fibers</td>
+				</tr>
+				<tr>
+					<td align="left">29-31</td>
+					<td align="left">Gelatin</td>
+				</tr>
+				<tr>
+					<td align="left">32-35</td>
+					<td align="left">Grains</td>
+				</tr>
+				<tr>
+					<td align="left">36-38</td>
+					<td align="left">Grease</td>
+				</tr>
+				<tr>
+					<td align="left">39-41</td>
+					<td align="left">Husks</td>
+				</tr>
+				<tr>
+					<td align="left">42-46</td>
+					<td align="left">Leaves</td>
+				</tr>
+				<tr>
+					<td align="left">47-54</td>
+					<td align="left">Liquid, thin</td>
+				</tr>
+				<tr>
+					<td align="left">55-59</td>
+					<td align="left">Liquid, viscous</td>
+				</tr>
+				<tr>
+					<td align="left">60-61</td>
+					<td align="left">Lumps, unidentifiable</td>
+				</tr>
+				<tr>
+					<td align="left">62-64</td>
+					<td align="left">Oil</td>
+				</tr>
+				<tr>
+					<td align="left">65-68</td>
+					<td align="left">Paste</td>
+				</tr>
+				<tr>
+					<td align="left">69-71</td>
+					<td align="left">Pellets</td>
+				</tr>
+				<tr>
+					<td align="left">72-84</td>
+					<td align="left">Powder</td>
+				</tr>
+				<tr>
+					<td align="left">85-86</td>
+					<td align="left">Semiliquid suspension</td>
+				</tr>
+				<tr>
+					<td align="left">87-88</td>
+					<td align="left">Skin or hide</td>
+				</tr>
+				<tr>
+					<td align="left">89-90</td>
+					<td align="left">Spheres (metal, stone, or wood)</td>
+				</tr>
+				<tr>
+					<td align="left">91-92</td>
+					<td align="left">Splinters</td>
+				</tr>
+				<tr>
+					<td align="left">93-94</td>
+					<td align="left">Stalks</td>
+				</tr>
+				<tr>
+					<td align="left">95-97</td>
+					<td align="left">Strands</td>
+				</tr>
+				<tr>
+					<td align="left">98-00</td>
+					<td align="left">Strips</td>
+				</tr>
+			</table>
+			<br />
+			<h2 id="dungeonbooks">Books, Scrolls, and Tomes</h2>
+			<table>
+				<tr>
+				<th align="left">d100</th>
+				<th align="left">Contents</th>
+				</tr>
+				<tr>
+					<td align="left">01-02</td>
+					<td align="left">Account records</td>
+				</tr>
+				<tr>
+					<td align="left">03-04</td>
+					<td align="left">Alchemist's notebook</td>
+				</tr>
+				<tr>
+					<td align="left">05-06</td>
+					<td align="left">Almanac</td>
+				</tr>
+				<tr>
+					<td align="left">07-08</td>
+					<td align="left">Bestiary</td>
+				</tr>
+				<tr>
+					<td align="left">09-11</td>
+					<td align="left">Biography</td>
+				</tr>
+				<tr>
+					<td align="left">12-14</td>
+					<td align="left">Book of heraldry</td>
+				</tr>
+				<tr>
+					<td align="left">15</td>
+					<td align="left">Book of myths</td>
+				</tr>
+				<tr>
+					<td align="left">16</td>
+					<td align="left">Book of pressed flowers</td>
+				</tr>
+				<tr>
+					<td align="left">17</td>
+					<td align="left">Calendar</td>
+				</tr>
+				<tr>
+					<td align="left">18-22</td>
+					<td align="left">Catalog</td>
+				</tr>
+				<tr>
+					<td align="left">23-24</td>
+					<td align="left">Contract</td>
+				</tr>
+				<tr>
+					<td align="left">25-27</td>
+					<td align="left">Diary</td>
+				</tr>
+				<tr>
+					<td align="left">28-29</td>
+					<td align="left">Dictionary</td>
+				</tr>
+				<tr>
+					<td align="left">30-32</td>
+					<td align="left">Doodles or sketches</td>
+				</tr>
+				<tr>
+					<td align="left">33</td>
+					<td align="left">Forged document</td>
+				</tr>
+				<tr>
+					<td align="left">34</td>
+					<td align="left">Grammar workbook</td>
+				</tr>
+				<tr>
+					<td align="left">35-36</td>
+					<td align="left">Heretical text</td>
+				</tr>
+				<tr>
+					<td align="left">37-41</td>
+					<td align="left">Historical text</td>
+				</tr>
+				<tr>
+					<td align="left">42-43</td>
+					<td align="left">Last will and testament</td>
+				</tr>
+				<tr>
+					<td align="left">44-45</td>
+					<td align="left">Legal code</td>
+				</tr>
+				<tr>
+					<td align="left">46-53</td>
+					<td align="left">Letter</td>
+				</tr>
+				<tr>
+					<td align="left">54</td>
+					<td align="left">Lunatic's ravings</td>
+				</tr>
+				<tr>
+					<td align="left">55</td>
+					<td align="left">Magic tricks (not a spellbook)</td>
+				</tr>
+				<tr>
+					<td align="left">56</td>
+					<td align="left">Magic scroll</td>
+				</tr>
+				<tr>
+					<td align="left">57-59</td>
+					<td align="left">Map or atlas</td>
+				</tr>
+				<tr>
+					<td align="left">60</td>
+					<td align="left">Memoir</td>
+				</tr>
+				<tr>
+					<td align="left">61-62</td>
+					<td align="left">Navigational chart or star chart</td>
+				</tr>
+				<tr>
+					<td align="left">63-64</td>
+					<td align="left">Novel</td>
+				</tr>
+				<tr>
+					<td align="left">65</td>
+					<td align="left">Painting</td>
+				</tr>
+				<tr>
+					<td align="left">66-67</td>
+					<td align="left">Poetry</td>
+				</tr>
+				<tr>
+					<td align="left">68-69</td>
+					<td align="left">Prayer book</td>
+				</tr>
+				<tr>
+					<td align="left">70</td>
+					<td align="left">Property deed</td>
+				</tr>
+				<tr>
+					<td align="left">71-74</td>
+					<td align="left">Recipe book or cookbook</td>
+				</tr>
+				<tr>
+					<td align="left">75</td>
+					<td align="left">Record or a criminal trial</td>
+				</tr>
+				<tr>
+					<td align="left">76</td>
+					<td align="left">Royal proclamation</td>
+				</tr>
+				<tr>
+					<td align="left">77-78</td>
+					<td align="left">Sheet music</td>
+				</tr>
+				<tr>
+					<td align="left">79</td>
+					<td align="left">Spellbook</td>
+				</tr>
+				<tr>
+					<td align="left">80</td>
+					<td align="left">Text on armor making</td>
+				</tr>
+				<tr>
+					<td align="left">81-82</td>
+					<td align="left">Text on astrology</td>
+				</tr>
+				<tr>
+					<td align="left">83-84</td>
+					<td align="left">Text on brewing</td>
+				</tr>
+				<tr>
+					<td align="left">85-86</td>
+					<td align="left">Text on exotic flora or fauna</td>
+				</tr>
+				<tr>
+					<td align="left">87-88</td>
+					<td align="left">Text on herbalism</td>
+				</tr>
+				<tr>
+					<td align="left">89-90</td>
+					<td align="left">Text on local flora</td>
+				</tr>
+				<tr>
+					<td align="left">91-92</td>
+					<td align="left">Text on mathematics</td>
+				</tr>
+				<tr>
+					<td align="left">93</td>
+					<td align="left">Text on masonry</td>
+				</tr>
+				<tr>
+					<td align="left">94</td>
+					<td align="left">Text on medicine</td>
+				</tr>
+				<tr>
+					<td align="left">95</td>
+					<td align="left">Theological text</td>
+				</tr>
+				<tr>
+					<td align="left">96</td>
+					<td align="left">Tome of forbidden lore</td>
+				</tr>
+				<tr>
+					<td align="left">97-99</td>
+					<td align="left">Travelogue for an exotic land</td>
+				</tr>
+				<tr>
+					<td align="left">00</td>
+					<td align="left">Travelogue of the planes</td>
+				</tr>
+			</table>
 				<h1 id="worldbuilding">World Building</h1><h2 id="npcbuilding">	NPC Building</h2>
 					<br />
 				<table id="npccharacteristics">
