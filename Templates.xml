@@ -1,75 +1,163 @@
-	<monster>
+<!--Class template-->
+<class>
+	<name></name>
+	<hd></hd>
+	<Proficiency></Proficiency>
+	<spellAbility></spellAbility>
+	<autolevel level="1">
+		<feature>
+			<name>Proficiencies</name>
+			<text>Armor: </text>
+			<text> </text><!--this is a line break in the text block-->
+			<text>Weapons: </text>
+			<text> </text>
+			<text>Tools: </text>
+			<text> </text>
+			<text>Saving Throws: </text>
+			<text> </text>
+			<text>Skills: </text>
+		</feature>
+		<feature>
+			<name>Starting Equipment</name>
+			<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
+			<text> </text>
+			<text>• </text>
+			<text> </text>
+			<text>• </text>
+			<text> </text>
+			<text>• </text>
+		</feature>
+		<feature>
+			<name></name>
+			<text></text>
+		</feature>
+	</autolevel>
+	<autolevel level="2">
+	</autolevel>
+	<autolevel level="3">
+	</autolevel>
+	<autolevel level="4">
+	</autolevel>
+	<autolevel level="5">
+	</autolevel>
+	<autolevel level="6">
+	</autolevel>
+	<autolevel level="7">
+	</autolevel>
+	<autolevel level="8">
+	</autolevel>
+	<autolevel level="9">
+	</autolevel>
+	<autolevel level="10">
+	</autolevel>
+	<autolevel level="11">
+	</autolevel>
+	<autolevel level="12">
+	</autolevel>
+	<autolevel level="13">
+	</autolevel>
+	<autolevel level="14">
+	</autolevel>
+	<autolevel level="15">
+	</autolevel>
+	<autolevel level="16">
+	</autolevel>
+	<autolevel level="17">
+	</autolevel>
+	<autolevel level="18">
+	</autolevel>
+	<autolevel level="19">
+	</autolevel>
+	<autolevel level="20">
+	</autolevel>
+</class>
+<!--Item template-->
+<item>
+	<name></name>
+	<type></type>
+	<weight></weight>
+	<text></text>
+	<ac></ac>
+	<strength></strength>
+	<stealth></stealth>
+	<dmg1></dmg1>
+	<dmg2></dmg2>
+	<dmgType></dmgType>
+	<property></property>
+	<range></range>
+</item>
+<!--Moster template-->
+<monster>
+	<name></name>
+	<size></size>
+	<type></type>
+	<alignment></alignment>
+	<ac></ac>
+	<hp></hp>
+	<speed></speed>
+	<str></str><dex></dex><con></con><int></int><wis></wis><cha></cha>
+	<save></save>
+	<skill></skill>
+	<resist></resist>
+	<vulnerable></vulnerable>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive></passive>
+	<languages></languages>
+	<cr></cr>
+	<trait>
 		<name></name>
-		<size></size>
-		<type></type>
-		<alignment></alignment>
-		<ac></ac>
-		<hp></hp>
-		<speed></speed>
-		<str></str><dex></dex><con></con><int></int><wis></wis><cha></cha>
-		<save></save>
-		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
-		<passive></passive>
-		<languages></languages>
-		<cr></cr>
-		<trait>
-			<name></name>
-			<text></text>
-		</trait>
-		<action>
-			<name></name>
-			<text></text>
-			<attack>||</attack>
-		</action>
-		<reaction>
-			<name></name>
-			<text></text>
-			<attack>||</attack>
-		</reaction>	
-		<legendary>
-			<name></name>
-			<text></text>
-			<attack>||</attack>
-		</legendary>	
-	</monster><!---->
-	<item>
+		<text></text>
+	</trait>
+	<action>
 		<name></name>
-		<type></type>
-		<weight></weight>
 		<text></text>
-		<ac></ac>
-		<strength></strength>
-		<stealth></stealth>
-		<dmg1></dmg1>
-		<dmg2></dmg2>
-		<dmgType></dmgType>
-		<property></property>
-		<range></range>
-	</item><!---->
-	<spell>
+		<attack>||</attack>
+	</action>
+	<reaction>
 		<name></name>
-		<level></level>
-		<school></school>
-		<ritual /> <!--if yes ritual, use <ritual>YES</ritual>-->
-		<time></time>
-		<range></range>
-		<components></components>
-		<duration></duration>
-		<classes></classes>
 		<text></text>
-		<text /> <!--this is a line break in the text block-->
+		<attack>||</attack>
+	</reaction>	
+	<legendary>
+		<name></name>
 		<text></text>
-		<roll>xdx+SPELL</roll> <!--add Spellcasting Ability-->
-		<roll>xdx+STR</roll> <!--add STR MOD-->
-		<roll>xdx+DEX</roll> <!--add DEX MOD-->
-		<roll>xdx+CON</roll> <!--add CON MOD-->
-		<roll>xdx+INT</roll> <!--add INT MOD-->
-		<roll>xdx+WIS</roll> <!--add WIS MOD-->
-		<roll>xdx+CHA</roll> <!--add CHA MOD-->
-		<roll>xdx+PROF</roll> <!--add PROF-->
-	</spell>
+		<attack>||</attack>
+	</legendary>	
+</monster>
+<!--Race template-->
+<race>
+	<name></name>
+	<size></size>
+	<speed></speed>
+	<ability></ability>
+	<trait>
+		<name></name>
+		<text></text>
+	</trait>
+</race>
+!--Spell template-->
+<spell>
+	<name></name>
+	<level></level>
+	<school></school>
+	<ritual /> <!--if yes ritual, use <ritual>YES</ritual>-->
+	<time></time>
+	<range></range>
+	<components></components>
+	<duration></duration>
+	<classes></classes>
+	<text></text>
+	<text /> <!--this is a line break in the text block, format only works for Spells-->
+	<text></text>
+	<roll>xdx+SPELL</roll> <!--add Spellcasting Ability-->
+	<roll>xdx+STR</roll> <!--add STR MOD-->
+	<roll>xdx+DEX</roll> <!--add DEX MOD-->
+	<roll>xdx+CON</roll> <!--add CON MOD-->
+	<roll>xdx+INT</roll> <!--add INT MOD-->
+	<roll>xdx+WIS</roll> <!--add WIS MOD-->
+	<roll>xdx+CHA</roll> <!--add CHA MOD-->
+	<roll>xdx+PROF</roll> <!--add PROF-->
+</spell>
+
