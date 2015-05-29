@@ -432,6 +432,24 @@
         <autolevel level="18"><slots>4,4,3,3,3,3,1,1,1,1</slots></autolevel>
         <autolevel level="19"><slots>4,4,3,3,3,3,2,1,1,1</slots></autolevel>
         <autolevel level="20"><slots>4,4,3,3,3,3,2,2,1,1</slots></autolevel>
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</text>
+                <text>Weapons: clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</text>
+                <text>Tools: herbalism kit</text>
+                <text>Skills: Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a wooden shield or (b) any simple weapon</text>
+                <text>&#8226; (a) a scimitar or (b) any simple melee weapon</text>
+                <text>&#8226; Leather armor, an explorer's pack, a druidic focus, and 2d4 x 10 gp.</text>
+            </feature>
+        </autolevel>
         
         <autolevel level="1">
             <feature><name>Druidic</name><text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</text></feature>
@@ -442,7 +460,7 @@
                 <text>Starting at 2nd level, you can use your action to  magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</text>
                 <text>    Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn’t have a flying or swimming speed.</text>
                 <text></text>
-                <text>Be a s t S h a p e s</text>
+                <text>Beast Shapes</text>
                 <text>Level    Max. CR    Limitations    Example</text>
                 <text>2nd    1/4 No flying or swimming speed    Wolf</text>
                 <text>4th    1/2 No flying speed    Crocodile</text>
@@ -522,6 +540,26 @@
         <autolevel level="18"><slots optional="YES">3,4,3,3,0</slots></autolevel>
         <autolevel level="19"><slots optional="YES">3,4,3,3,1</slots></autolevel>
         <autolevel level="20"><slots optional="YES">3,4,3,3,1</slots></autolevel>
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor, medium armor, heavy armor, shields</text>
+                <text>Weapons: simple weapons, martial weapons</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) chain mail or (b) leather, longbow, and 20 arrows</text>
+                <text>&#8226; (a) a martial weapon and a shield or (b) two martial weapons</text>
+                <text>&#8226; (a) a light crossbow and 20 bolts or (b) two handaxes</text>
+                <text>&#8226; (a) a dungeoneer's pack or (b) an explorer's pack </text>
+                <text>&#8226; 5d4 x 10 gp.</text>
+            </feature>
+        </autolevel>
         
         <autolevel level="1">
             <feature optional="YES"><name>Fighting Style: Archery</name><text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text></feature>
@@ -626,7 +664,24 @@
     <class><name>Monk</name>
         <hd>8</hd>
         <proficiency>Strength, Dexterity</proficiency>
-        
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: none</text>
+                <text>Weapons: simple weapons, shortswords</text>
+                <text>Tools: any one type of artisan's tools or any one musical instrument of your choice</text>
+                <text>Skills: Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a shortsword or (b) any simple weapon</text>
+                <text>&#8226; (a) a dungeoneer's pack or (b) an explorer's pack</text>
+                <text>&#8226; 10 darts and 5d4 gp.</text>
+            </feature>
+        </autolevel>      
         <autolevel level="1">
             <feature><name>Unarmored Defense</name><text>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity m odifier + your Wisdom modifier.</text></feature>
             <feature><name>Martial Arts</name>
@@ -737,7 +792,25 @@
         <autolevel level="18"><slots>0,4,3,3,3,1</slots></autolevel>
         <autolevel level="19"><slots>0,4,3,3,3,2</slots></autolevel>
         <autolevel level="20"><slots>0,4,3,3,3,2</slots></autolevel>
-        
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor, medium armor, heavy armor, shields</text>
+                <text>Weapons: simple weapons, martial weapons</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a martial weapon and a shield or (b) two martial weapons</text>
+                <text>&#8226; (a) five javelins or (b) any simple melee weapon</text>
+                <text>&#8226; (a) a priest's pack or (b) an explorer's pack</text>
+                <text>&#8226; Chain mail and a holy symbol, and 5d4 x 10 gp.</text>
+            </feature>
+        </autolevel>       
         <autolevel level="1">
             <feature><name>Divine Sense</name>
                 <text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</text>
@@ -889,6 +962,25 @@
         <autolevel level="18"><slots>0,4,3,3,3,1</slots></autolevel>
         <autolevel level="19"><slots>0,4,3,3,3,2</slots></autolevel>
         <autolevel level="20"><slots>0,4,3,3,3,2</slots></autolevel>
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor, medium armor, shields</text>
+                <text>Weapons: simple weapons, martial weapons</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) scale mail or (b) leather armor</text>
+                <text>&#8226; (a) two shortswords or (b) two simple melee weapons</text>
+                <text>&#8226; (a) a dungeoneer's pack or (b) an explorer's pack</text>
+                <text>&#8226; A longbow, a quiver of 20 arrows, and 5d4 xp 10 gp.</text>
+            </feature>
+        </autolevel>
         
         <autolevel level="1">
             <feature><name>Favored Enemy</name>
@@ -908,7 +1000,8 @@
                 <text>• When you forage, you find twice as much food as you normally would.</text>
                 <text>• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</text>
                 <text></text>
-                <text>    You choose additional favored terrain types at 6th and 10th level.</text></feature>
+                <text>    You choose additional favored terrain types at 6th and 10th level.</text>
+                </feature>
         </autolevel>
         
         <autolevel level="2">
@@ -1010,7 +1103,25 @@
         <autolevel level="18"><slots optional="YES">4,4,3,3,0</slots></autolevel>
         <autolevel level="19"><slots optional="YES">4,4,3,3,1</slots></autolevel>
         <autolevel level="20"><slots optional="YES">4,4,3,3,1</slots></autolevel>
-        
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor</text>
+                <text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
+                <text>Tools: thieves' tools</text>
+                <text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a rapier or (b) a shortsword</text>
+                <text>&#8226; (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
+                <text>&#8226; (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
+                <text>&#8226; Leather armor, two daggers, thieves' tools, and 4d4 x 10 gp.</text>
+            </feature>
+      
         <autolevel level="1">
             <feature><name>Expertise</name>
                 <text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves’ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
@@ -1128,7 +1239,25 @@
         <autolevel level="18"><slots>6,4,3,3,3,3,1,1,1,1</slots></autolevel>
         <autolevel level="19"><slots>6,4,3,3,3,3,2,1,1,1</slots></autolevel>
         <autolevel level="20"><slots>6,4,3,3,3,3,2,2,1,1</slots></autolevel>
-        
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: none</text>
+                <text>Weapons: daggers, darts, slings, quarterstaffs, light crossbows</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
+                <text>&#8226; (a) a component pouch or (b) an arcane focus</text>
+                <text>&#8226; (a) a dungeoneer's pack or (b) an explorer's pack</text>
+                <text>&#8226; Two daggers and 3d4 x 10 gp.</text>
+            </feature>
+        </autolevel>        
         <autolevel level="1">
             <feature><name>Sorcerous Origin</name>
                 <text>Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.</text>
@@ -1231,6 +1360,25 @@
         <autolevel level="18"><slots>4,0,0,0,0,4,0,0,0,0</slots></autolevel>
         <autolevel level="19"><slots>4,0,0,0,0,4,0,0,0,0</slots></autolevel>
         <autolevel level="20"><slots>4,0,0,0,0,4,0,0,0,0</slots></autolevel>
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor</text>
+                <text>Weapons: simple weapons</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
+                <text>&#8226; (a) a component pouch or (b) an arcane focus</text>
+                <text>&#8226; (a) a scholar's pack or (b) a dungeoneer's pack</text>
+                <text>&#8226; Leather armor, any simple weapon, two daggers, and 4d4 x 10 gp.
+            </feature>
+        </autolevel>
         
         <autolevel level="1">
             <feature optional="YES"><name>The Archfey: Fey Presence</name>
@@ -1365,7 +1513,25 @@
         <autolevel level="18"><slots>5,4,3,3,3,3,1,1,1,1</slots></autolevel>
         <autolevel level="19"><slots>5,4,3,3,3,3,2,1,1,1</slots></autolevel>
         <autolevel level="20"><slots>5,4,3,3,3,3,2,2,1,1</slots></autolevel>
-        
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: none</text>
+                <text>Weapons: daggers, darts, slings, quarterstaffs, light crossbows</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+                <text> </text>
+                <text>&#8226; (a) a quarterstaff or (b) a dagger</text>
+                <text>&#8226; (a) a component pouch or (b) an arcane focus</text>
+                <text>&#8226; (a) a scholar's pack or (b) an explorer's pack</text>
+                <text>&#8226; A spellbook and 4d4 x 10 gp.</text>
+            </feature>
+        </autolevel>        
         <autolevel level="1">
             <feature><name>Arcane Recovery</name>
                 <text>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</text>
