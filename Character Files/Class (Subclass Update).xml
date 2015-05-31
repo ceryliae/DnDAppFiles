@@ -347,34 +347,28 @@
             <feature>
                 <name>Spellcasting</name>
                 <text>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See chapter 10 for the general rules of spellcasting and chapter 11 for the bard spell list.</text>
-            </feature>
-            <feature>
-                <name>Cantrips</name>
+                <text> </text>
+                <text>Cantrips</text>
                 <text>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.</text>
-            </feature>
-            <feature>
-                <name>Spell Slots</name>
+                <text> </text>
+                <text>Spell Slots</text>
                 <text>The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
                 <text>    For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</text>
-            </feature>
-            <feature>
-                <name>Spells Known of 1st Level and Higher</name>
+                <text> </text>
+                <text>Spells Known of 1st Level and Higher</text>
                 <text>You know four 1st-level spells of your choice from the bard spell list.</text>
                 <text>    You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</text>
                 <text>    Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</text>
-            </feature>
-            <feature>
-                <name>Spellcasting Ability</name>
+                <text> </text>
+                <text>Spellcasting Ability</text>
                 <text>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</text>
                 <text>    Spell save DC = 8 + your proficiency bonus + your Charisma modifier</text>
                 <text>    Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
-            </feature>
-            <feature>
-                <name>Ritual Casting</name>
+                <text> </text>
+                <text>Ritual Casting</text>
                 <text>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</text>
-            </feature>
-            <feature>
-                <name>Spellcasting Focus</name>
+                <text> </text>
+                <text>Spellcasting Focus</text>
                 <text>You can use a musical instrument (found in chapter 5) as a spellcasting focus for your bard spells.</text>
             </feature>
         </autolevel>
@@ -390,7 +384,7 @@
             <feature>
                 <name>Song of Rest</name>
                 <text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</text>
-                <text>    The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d 10 at 13th level, and to 1d 12 at 17th level.</text>
+                <text>    The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</text>
             </feature>
         </autolevel>
         
@@ -422,10 +416,22 @@
             </feature>
         </autolevel>
         
+        <autolevel level="4">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
         <autolevel level="5">
             <feature>
                 <name>Font of Inspiration</name>
                 <text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</text>
+            </feature>
+            <feature>
+                <name>Bardic Inspiration (d8)</name>
+                <text>Your Bardic Inspiration die changes to a d8.</text>
             </feature>
         </autolevel>
         
@@ -444,6 +450,21 @@
             </feature>
         </autolevel>
         
+        <autolevel level="8">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="9">
+            <feature>
+                <name>Song of Rest (1d8)</name>
+                <text>The extra hit points gained from Song of Rest increases to 1d8.</text>
+            </feature>
+        </autolevel>
+
         <autolevel level="10">
             <feature>
                 <name>Magical Secrets</name>
@@ -451,8 +472,31 @@
                 <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
                 <text>    You learn two additional spells from any class at 14th level and again at 18th level.</text>
             </feature>
+            <feature>
+                <name>Bardic Inspiration (d10)</name>
+                <text>Your Bardic Inspiration die changes to a d10.</text>
+            </feature>
+            <feature>
+                <name>Expertise</name>
+                <text>At 10th level, you can choose another two skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+            </feature>
         </autolevel>
         
+        <autolevel level="12">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="13">
+            <feature>
+                <name>Song of Rest (1d10)</name>
+                <text>The extra hit points gained from Song of Rest increases to 1d10.</text>
+            </feature>
+        </autolevel>
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>College of Lore: Peerless Skill</name>
@@ -462,8 +506,51 @@
                 <name>College of Valor: Battle Magic</name>
                 <text>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.</text>
             </feature>
+            <feature>
+                <name>Magical Secrets</name>
+                <text>At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+                <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+            </feature>
         </autolevel>
         
+        <autolevel level="15">
+            <feature>
+                <name>Bardic Inspiration (d12)</name>
+                <text>Your Bardic Inspiration die changes to a d12.</text>
+            </feature>
+        </autolevel>
+        
+        <autolevel level="16">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="17">
+            <feature>
+                <name>Song of Rest (1d12)</name>
+                <text>The extra hit points gained from Song of Rest increases to 1d12.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="18">
+            <feature>
+                <name>Magical Secrets</name>
+                <text>At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+                <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="19">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
         <autolevel level="20">
             <feature>
                 <name>Superior Inspiration</name>
@@ -868,7 +955,7 @@
         
         <autolevel level="6">
             <feature optional="YES">
-                <name>Circle of Land: Land's' Stride</name>
+                <name>Circle of Land: Land's Stride</name>
                 <text>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</text>
                 <text>    In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</text>
             </feature>
