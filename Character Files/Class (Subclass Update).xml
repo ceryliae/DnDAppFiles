@@ -345,9 +345,6 @@
                 <text>    You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</text>
                 <text>    Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</text>
             </feature>
-        </autolevel>
-
-        <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
                 <text>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See chapter 10 for the general rules of spellcasting and chapter 11 for the bard spell list.</text>
@@ -397,6 +394,11 @@
                 <name>Bard College</name>
                 <text>At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore or the College of Valor, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.</text>
             </feature>
+            <feature>
+                <name>Expertise</name>
+                <text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+                <text>    At 10th level, you can choose another two skill proficiencies to gain this benefit.</text>
+            </feature>
             <feature optional="YES">
                 <name>College of Lore: Bonus Proficiencies</name>
                 <text>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</text>
@@ -413,11 +415,6 @@
                 <name>College of Valor: Combat Inspiration</name>
                 <text>Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</text>
             </feature>
-            <feature>
-                <name>Expertise</name>
-                <text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-                <text>    At 10th level, you can choose another two skill proficiencies to gain this benefit.</text>
-            </feature>
         </autolevel>
 
         <autolevel level="4">
@@ -430,12 +427,12 @@
 
         <autolevel level="5">
             <feature>
-                <name>Font of Inspiration</name>
-                <text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</text>
+                <name>Bardic Inspiration (d8)</name>
+                <text>At 5th level, your Bardic Inspiration die changes to a d8.</text>
             </feature>
             <feature>
-                <name>Bardic Inspiration (d8)</name>
-                <text>Your Bardic Inspiration die changes to a d8.</text>
+                <name>Font of Inspiration</name>
+                <text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</text>
             </feature>
         </autolevel>
 
@@ -465,24 +462,24 @@
         <autolevel level="9">
             <feature>
                 <name>Song of Rest (1d8)</name>
-                <text>The extra hit points gained from Song of Rest increases to 1d8.</text>
+                <text>At 9th level, the extra hit points gained from Song of Rest increases to 1d8.</text>
             </feature>
         </autolevel>
 
         <autolevel level="10">
             <feature>
-                <name>Magical Secrets</name>
-                <text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
-                <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
-                <text>    You learn two additional spells from any class at 14th level and again at 18th level.</text>
-            </feature>
-            <feature>
                 <name>Bardic Inspiration (d10)</name>
-                <text>Your Bardic Inspiration die changes to a d10.</text>
+                <text>At 10th level, your Bardic Inspiration die changes to a d10.</text>
             </feature>
             <feature>
                 <name>Expertise</name>
                 <text>At 10th level, you can choose another two skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
+            </feature>
+            <feature>
+                <name>Magical Secrets</name>
+                <text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+                <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+                <text>    You learn two additional spells from any class at 14th level and again at 18th level.</text>
             </feature>
         </autolevel>
 
@@ -497,11 +494,16 @@
         <autolevel level="13">
             <feature>
                 <name>Song of Rest (1d10)</name>
-                <text>The extra hit points gained from Song of Rest increases to 1d10.</text>
+                <text>At 13th level, the extra hit points gained from Song of Rest increases to 1d10.</text>
             </feature>
         </autolevel>
 
         <autolevel level="14">
+            <feature>
+                <name>Magical Secrets</name>
+                <text>At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+                <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+            </feature>
             <feature optional="YES">
                 <name>College of Lore: Peerless Skill</name>
                 <text>Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roil the die for the ability check, but before the DM tells you whether you succeed or fail.</text>
@@ -510,17 +512,12 @@
                 <name>College of Valor: Battle Magic</name>
                 <text>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.</text>
             </feature>
-            <feature>
-                <name>Magical Secrets</name>
-                <text>At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
-                <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
-            </feature>
         </autolevel>
 
         <autolevel level="15">
             <feature>
                 <name>Bardic Inspiration (d12)</name>
-                <text>Your Bardic Inspiration die changes to a d12.</text>
+                <text>At 15th level, your Bardic Inspiration die changes to a d12.</text>
             </feature>
         </autolevel>
 
@@ -535,14 +532,14 @@
         <autolevel level="17">
             <feature>
                 <name>Song of Rest (1d12)</name>
-                <text>The extra hit points gained from Song of Rest increases to 1d12.</text>
+                <text>At 17th level, the extra hit points gained from Song of Rest increases to 1d12.</text>
             </feature>
         </autolevel>
 
         <autolevel level="18">
             <feature>
                 <name>Magical Secrets</name>
-                <text>At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
+                <text>At 18th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
                 <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
             </feature>
         </autolevel>
