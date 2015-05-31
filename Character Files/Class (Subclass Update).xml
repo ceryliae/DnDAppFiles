@@ -4,7 +4,7 @@
         <name>Barbarian</name>
         <hd>12</hd>
         <proficiency>Strength, Constitution</proficiency>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Starting Proficiencies</name>
@@ -13,17 +13,19 @@
                 <text>Weapons: simple weapons, martial weapons</text>
                 <text>Tools: none</text>
                 <text>Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
-            </feature>           
+            </feature>
             <feature>
                 <name>Starting Equipment</name>
                 <text>You start with the following items, plus anything provided by your background.</text>
                 <text> </text>
                 <text>• (a) a greataxe or (b) any martial melee weapon</text>
                 <text>• (a) two handaxes or (b) any simple weapon</text>
-                <text>• An explorer's pack, four javelins, and 2d4 x 10 gp.</text>
+                <text>• An explorer's pack, and four javelins</text>
+                <text></text>
+                <text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
             </feature>
-        </autolevel> 
-    
+        </autolevel>
+
         <autolevel level="1">
             <feature>
                 <name>Rage</name>
@@ -43,7 +45,7 @@
                 <text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Reckless Attack</name>
@@ -54,7 +56,7 @@
                 <text>At 2nd level, you gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Increased Rages</name>
@@ -66,7 +68,7 @@
             </feature>
             <feature optional="YES">
                 <name>Path of the Berserker: Frenzy</name>
-                <text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>               
+                <text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>
             </feature>
             <feature optional="YES">
                 <name>Path of the Totem Warrior: Spirit Seeker</name>
@@ -88,7 +90,7 @@
             <feature optional="YES">
                 <name>Totem Spirit (Wolf)</name>
                 <text>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</text>
-            </feature>                        
+            </feature>
         </autolevel>
 
         <autolevel level="4">
@@ -110,7 +112,7 @@
                 <modifier category="bonus">speed +10</modifier>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Increased Rages</name>
@@ -135,9 +137,9 @@
             <feature optional="YES">
                 <name>Aspect of the Beast: Wolf</name>
                 <text>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</text>
-            </feature>          
+            </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Feral Instinct</name>
@@ -145,7 +147,7 @@
                 <text>    Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8">
             <feature>
                 <name>Ability Score Improvement></name>
@@ -153,7 +155,7 @@
                 <text>If your DM uses the optional Feats, you can instead take a feat.</text>
             </feature>
         </autolevel>
-      
+
         <autolevel level="9">
             <feature>
                 <name>Brutal Critical (1 die)</name>
@@ -161,11 +163,11 @@
                 <text>    This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
             </feature>
             <feature>
-                <name>Increased Rage Damage</name> 
+                <name>Increased Rage Damage</name>
                 <text>You now have a +3 bonus to melee damage rolls while raging.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Path of the Berserker: Intimidating Presence</name>
@@ -174,10 +176,10 @@
             </feature>
             <feature optional="YES">
                 <name>Path of the Totem Warrior: Spirit Walker</name>
-                <text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</text>               
+                <text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Relentless Rage</name>
@@ -185,7 +187,7 @@
                 <text>    Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -196,15 +198,15 @@
                 <name>Increased Rages</name>
                 <text>You may now rage 5 times before a long rest</text>
             </feature>
-        </autolevel>        
-        
+        </autolevel>
+
         <autolevel level="13">
             <feature>
                 <name>Brutal Critical (2 dice)</name>
                 <text>You now roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
             </feature>
         </autolevel>
-       
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Path of the Berserker: Retaliation</name>
@@ -227,7 +229,7 @@
                 <text>While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Persistent Rage</name>
@@ -242,7 +244,7 @@
                 <text>If your DM uses the optional Feats, you can instead take a feat.</text>
             </feature>
             <feature>
-                <name>Increased Rage Damage</name> 
+                <name>Increased Rage Damage</name>
                 <text>You now have a +4 bonus to melee damage rolls while raging.</text>
             </feature>
         </autolevel>
@@ -257,7 +259,7 @@
                 <text>You may now rage 6 times before a long rest</text>
             </feature>
         </autolevel>
-                     
+
         <autolevel level="18">
             <feature>
                 <name>Indomitable Might</name>
@@ -271,8 +273,8 @@
                 <text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
                 <text>If your DM uses the optional Feats, you can instead take a feat.</text>
             </feature>
-        </autolevel>       
-                  
+        </autolevel>
+
         <autolevel level="20">
             <feature>
                 <name>Primal Champion</name>
@@ -286,7 +288,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Bard</name>
         <hd>8</hd>
@@ -312,7 +314,7 @@
         <autolevel level="18"><slots>4,4,3,3,3,3,1,1,1,1</slots></autolevel>
         <autolevel level="19"><slots>4,4,3,3,3,3,2,1,1,1</slots></autolevel>
         <autolevel level="20"><slots>4,4,3,3,3,3,2,2,1,1</slots></autolevel>
-            
+
         <autolevel level="1">
             <feature>
                 <name>Starting Proficiencies</name>
@@ -329,10 +331,12 @@
                 <text>• (a) a rapier, (b) a longsword, or (c) any simple weapon</text>
                 <text>• (a) a diplomat's pack or (b) an entertainer's pack</text>
                 <text>• (a) a lute or (b) any other musical instrument</text>
-                <text>• Leather armor, a dagger, and 5d4 x 10 gp</text>
+                <text>• Leather armor, and a dagger</text>
+                <text></text>
+                <text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Bardic Inspiration</name>
@@ -342,7 +346,7 @@
                 <text>    Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
@@ -372,14 +376,14 @@
                 <text>You can use a musical instrument (found in chapter 5) as a spellcasting focus for your bard spells.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Jack of All Trades</name>
                 <text>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Song of Rest</name>
@@ -387,7 +391,7 @@
                 <text>    The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Bard College</name>
@@ -415,7 +419,7 @@
                 <text>    At 10th level, you can choose another two skill proficiencies to gain this benefit.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -434,7 +438,7 @@
                 <text>Your Bardic Inspiration die changes to a d8.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Countercharm</name>
@@ -449,11 +453,11 @@
                 <text>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8">
             <feature>
                 <name>Ability Score Improvement</name>
-                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
                 <text>If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
@@ -481,11 +485,11 @@
                 <text>At 10th level, you can choose another two skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12">
             <feature>
                 <name>Ability Score Improvement</name>
-                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
                 <text>If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
@@ -512,18 +516,18 @@
                 <text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Bardic Inspiration (d12)</name>
                 <text>Your Bardic Inspiration die changes to a d12.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16">
             <feature>
                 <name>Ability Score Improvement</name>
-                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
                 <text>If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
@@ -546,7 +550,7 @@
         <autolevel level="19">
             <feature>
                 <name>Ability Score Improvement</name>
-                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
                 <text>If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
@@ -558,7 +562,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Cleric</name>
         <hd>8</hd>
@@ -601,10 +605,12 @@
                 <text>• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)</text>
                 <text>• (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
                 <text>• (a) a priest's pack or (b) an explorer's pack</text>
-                <text>• A shield, a holy symbol, and 5d4 x 10 gp.</text>
+                <text>• A shield and a holy symbol</text>
+                <text></text>
+                <text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Death Domain: Bonus Proficiency</name>
@@ -666,7 +672,7 @@
                 <text>From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Channel Divinity</name>
@@ -720,7 +726,7 @@
                 <text>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Destroy Undead</name>
@@ -734,7 +740,7 @@
                 <text>17th 4 or lower</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Death Domain: Inescapable Destruction</name>
@@ -773,7 +779,7 @@
                 <text>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8">
             <feature optional="YES">
                 <name>Death Domain: Divine Strike</name>
@@ -808,7 +814,7 @@
                 <text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Divine Intervention</name>
@@ -817,7 +823,7 @@
                 <text>    At 20th level, your call for intervention succeeds automatically, no roll required.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Death Domain: Improved Reaper</name>
@@ -856,7 +862,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Druid</name>
         <hd>8</hd>
@@ -897,17 +903,19 @@
                 <text> </text>
                 <text>• (a) a wooden shield or (b) any simple weapon</text>
                 <text>• (a) a scimitar or (b) any simple melee weapon</text>
-                <text>• Leather armor, an explorer's pack, a druidic focus, and 2d4 x 10 gp.</text>
+                <text>• Leather armor, an explorer's pack, and a druidic focus</text>
+                <text></text>
+                <text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Druidic</name>
                 <text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Wild Shape</name>
@@ -952,7 +960,7 @@
                 <text>    Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Circle of Land: Land's Stride</name>
@@ -964,7 +972,7 @@
                 <text>Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Circle of Land: Nature's Ward</name>
@@ -975,7 +983,7 @@
                 <text>You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Circle of Land: Nature's Sanctuary</name>
@@ -987,7 +995,7 @@
                 <text>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Timeless Body</name>
@@ -998,7 +1006,7 @@
                 <text>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Archdruid</name>
@@ -1007,12 +1015,12 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Fighter</name>
         <hd>10</hd>
         <proficiency>Strength, Constitution</proficiency>
-        
+
         <spellAbility>Wisdom</spellAbility>
         <autolevel level="3"> <slots optional="YES">2,2,0,0,0</slots></autolevel>
         <autolevel level="4"> <slots optional="YES">2,3,0,0,0</slots></autolevel>
@@ -1048,11 +1056,12 @@
                 <text>• (a) chain mail or (b) leather, longbow, and 20 arrows</text>
                 <text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
                 <text>• (a) a light crossbow and 20 bolts or (b) two handaxes</text>
-                <text>• (a) a dungeoneer's pack or (b) an explorer's pack </text>
-                <text>• 5d4 x 10 gp.</text>
+                <text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
+                <text></text>
+                <text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Archery</name>
@@ -1084,7 +1093,7 @@
                 <text>    Once you use this feature, you must finish a short or long rest before you can use it again.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Action Surge</name>
@@ -1092,7 +1101,7 @@
                 <text>    Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Champion: Improved Critical</name>
@@ -1118,7 +1127,7 @@
                 <text>    You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -1126,7 +1135,7 @@
                 <text>    The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Champion: Remarkable Athlete</name>
@@ -1149,7 +1158,7 @@
                 <text>When you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature>
                 <name>Indomitable</name>
@@ -1157,7 +1166,7 @@
                 <text>    You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Champion: Additional Fighting Style</name>
@@ -1172,7 +1181,7 @@
                 <text>You learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Champion: Superior Critical</name>
@@ -1187,7 +1196,7 @@
                 <text>You gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Champion: Survivor</name>
@@ -1202,7 +1211,7 @@
                 <text>When you use your action to cast a spell, you can make one weapon attack as a bonus action.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Maneuver: Commander's Strike</name>
@@ -1266,7 +1275,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Monk</name>
         <hd>8</hd>
@@ -1286,9 +1295,11 @@
                 <text> </text>
                 <text>• (a) a shortsword or (b) any simple weapon</text>
                 <text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
-                <text>• 10 darts and 5d4 gp.</text>
+                <text>• 10 darts</text>
+                <text></text>
+                <text>Alternatively, you may start with 5d4 gp to buy your own equipment.</text>
             </feature>
-        </autolevel>      
+        </autolevel>
         <autolevel level="1">
             <feature>
                 <name>Unarmored Defense</name>
@@ -1306,7 +1317,7 @@
                 <text>    Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wo od connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon in chapter 5.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Ki</name>
@@ -1330,7 +1341,7 @@
                 <text>    At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Manastic Tradition</name>
@@ -1342,14 +1353,14 @@
                 <text>    If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the  same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4">
             <feature>
                 <name>Slow Fall</name>
                 <text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -1360,35 +1371,35 @@
                 <text>Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Ki-Empowered Strikes</name>
                 <text>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Stillness of Mind</name>
                 <text>Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Purity of Body</name>
                 <text>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <feature>
                 <name>Tongue of the Sun and Moon</name>
                 <text>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Diamond Soul</name>
@@ -1396,14 +1407,14 @@
                 <text>    Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Timeless Body</name>
                 <text>At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Empty Body</name>
@@ -1411,7 +1422,7 @@
                 <text>    Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can’t take any other creatures with you.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Perfect Soul</name>
@@ -1419,7 +1430,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Paladin</name>
         <hd>8</hd>
@@ -1461,9 +1472,11 @@
                 <text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
                 <text>• (a) five javelins or (b) any simple melee weapon</text>
                 <text>• (a) a priest's pack or (b) an explorer's pack</text>
-                <text>• Chain mail and a holy symbol, and 5d4 x 10 gp.</text>
+                <text>• Chain mail and a holy symbol</text>
+                <text></text>
+                <text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
             </feature>
-        </autolevel>       
+        </autolevel>
         <autolevel level="1">
             <feature>
                 <name>Divine Sense</name>
@@ -1478,7 +1491,7 @@
                 <text>    This feature has no effect on undead and constructs.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Defense</name>
@@ -1501,7 +1514,7 @@
                 <text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Divine Health</name>
@@ -1563,14 +1576,14 @@
                 <text>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
                 <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Aura of Protection</name>
@@ -1578,7 +1591,7 @@
                 <text>    At 18th level, the range of this aura increases to 30 feet.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Oath of Devotion: Aura of Devotion</name>
@@ -1595,7 +1608,7 @@
                 <text>By 7th level, your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Aura of Courage</name>
@@ -1603,14 +1616,14 @@
                 <text>    At 18th level, the range of this aura increases to 30 feet.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Improved Divine Smite</name>
                 <text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Cleansing Touch</name>
@@ -1618,7 +1631,7 @@
                 <text>    You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Oath of Devotion: Purity of Spirit</name>
@@ -1634,7 +1647,7 @@
                 <text>Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature optional="YES">
                 <name>Oath of Devotion: Holy Nimbus</name>
@@ -1665,7 +1678,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Ranger</name>
         <hd>10</hd>
@@ -1707,10 +1720,12 @@
                 <text>• (a) scale mail or (b) leather armor</text>
                 <text>• (a) two shortswords or (b) two simple melee weapons</text>
                 <text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
-                <text>• A longbow, a quiver of 20 arrows, and 5d4 xp 10 gp.</text>
+                <text>• A longbow and a quiver of 20 arrows</text>
+                <text></text>
+                <text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Favored Enemy</name>
@@ -1735,7 +1750,7 @@
                 <text>    You choose additional favored terrain types at 6th and 10th level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Archery</name>
@@ -1754,7 +1769,7 @@
                 <text>When you engage in two-weapon fighting, you can add your ability m odifier to the damage of the second attack.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Hunter: Hunter's Prey</name>
@@ -1775,14 +1790,14 @@
                 <text>Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
                 <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Hunter: Defensive Tactics</name>
@@ -1796,7 +1811,7 @@
                 <text>On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on its turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8">
             <feature>
                 <name>Land's Stride</name>
@@ -1804,7 +1819,7 @@
                 <text>    In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Hide in Plain Sight</name>
@@ -1812,7 +1827,7 @@
                 <text>    Once you are camouflaged in this way, you can try to hide by p ressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Hunter: Multiattack</name>
@@ -1825,14 +1840,14 @@
                 <text>Your beast companion can make two attacks when you command it to use the Attack action.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Vanish</name>
                 <text>Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Hunter: Superior Hunter's Defense</name>
@@ -1846,14 +1861,14 @@
                 <text>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Feral Senses</name>
                 <text>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it. You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Foe Slayer</name>
@@ -1861,12 +1876,12 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Rogue</name>
         <hd>8</hd>
         <proficiency>Dexterity, Intelligence</proficiency>
-        
+
         <spellAbility>Intelligence</spellAbility>
         <autolevel level="3"> <slots optional="YES">3,2,0,0,0</slots></autolevel>
         <autolevel level="4"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
@@ -1902,10 +1917,12 @@
                 <text>• (a) a rapier or (b) a shortsword</text>
                 <text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
                 <text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-                <text>• Leather armor, two daggers, thieves' tools, and 4d4 x 10 gp.</text>
+                <text>• Leather armor, two daggers, and thieves' tools</text>
+                <text></text>
+                <text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-      
+
         <autolevel level="1">
             <feature>
                 <name>Expertise</name>
@@ -1924,14 +1941,14 @@
                 <text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Cunning Action</name>
                 <text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can b e used only to take the Dash, Disengage, or Hide action.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Roguish Archetype</name>
@@ -1966,21 +1983,21 @@
                 <text>    In addition, you can use the bonus action granted by your Cunning Action to control the hand.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Uncanny Dodge</name>
                 <text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Evasion</name>
                 <text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature optional="YES">
                 <name>Thief: Supreme Sneak</name>
@@ -1996,14 +2013,14 @@
                 <text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Reliable Talent</name>
                 <text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <feature optional="YES">
                 <name>Thief: Use Magic Device</name>
@@ -2019,21 +2036,21 @@
                 <text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Blindsense</name>
                 <text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Slippery Mind</name>
                 <text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Thief: Thief's Reflexes</name>
@@ -2043,7 +2060,7 @@
                 <name>Assassin: Death Strike</name>
                 <text>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</text>
             </feature>
-            
+
             <feature optional="YES">
                 <name>Arcane Trickster: Spell Thief</name>
                 <text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</text>
@@ -2051,14 +2068,14 @@
                 <text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Elusive</name>
                 <text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Stroke of Luck</name>
@@ -2067,7 +2084,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Sorcerer</name>
         <hd>6</hd>
@@ -2109,9 +2126,11 @@
                 <text>• (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
                 <text>• (a) a component pouch or (b) an arcane focus</text>
                 <text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
-                <text>• Two daggers and 3d4 x 10 gp.</text>
+                <text>• Two daggers</text>
+                <text></text>
+                <text>Alternatively, you may start with 3d4 x 10 gp to buy your own equipment.</text>
             </feature>
-        </autolevel>        
+        </autolevel>
         <autolevel level="1">
             <feature>
                 <name>Sorcerous Origin</name>
@@ -2138,7 +2157,7 @@
                 <text>    Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Sorcery Points</name>
@@ -2160,7 +2179,7 @@
                 <text>    Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points  equal to the slot’s level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Metamagic</name>
@@ -2168,7 +2187,7 @@
                 <text>    You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Draconic Bloodline: Elemental Affinity</name>
@@ -2180,7 +2199,7 @@
                 <text>Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Draconic Bloodline: Dragon Wings</name>
@@ -2192,7 +2211,7 @@
                 <text>At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Draconic Bloodline: Draconic Presence</name>
@@ -2203,14 +2222,14 @@
                 <text>Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Sorcerous Restoration</name>
                 <text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Careful Spell</name>
@@ -2248,7 +2267,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Warlock</name>
         <hd>8</hd>
@@ -2290,10 +2309,12 @@
                 <text>• (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
                 <text>• (a) a component pouch or (b) an arcane focus</text>
                 <text>• (a) a scholar's pack or (b) a dungeoneer's pack</text>
-                <text>• Leather armor, any simple weapon, two daggers, and 4d4 x 10 gp.</text>
+                <text>• Leather armor, any simple weapon, and two daggers</text>
+                <text></text>
+                <text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>The Archfey: Fey Presence</name>
@@ -2309,7 +2330,7 @@
                 <text>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Eldritch Invocations</name>
@@ -2318,7 +2339,7 @@
                 <text>    Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Pact of the Chain</name>
@@ -2337,7 +2358,7 @@
                 <text>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list. While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>The Archfey: Misty Escape</name>
@@ -2355,7 +2376,7 @@
                 <text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>The Archfey: Beguiling Defenses</name>
@@ -2370,7 +2391,7 @@
                 <text>Starting at 10th level, your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Mystic Arcanum</name>
@@ -2379,7 +2400,7 @@
                 <text>    At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic A rcanum when you finish a long rest.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>The Archfey: Dark Delirium</name>
@@ -2399,14 +2420,14 @@
                 <text>    You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Eldritch Master</name>
                 <text>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Agonizing Blast</name>
@@ -2539,7 +2560,7 @@
             </feature>
         </autolevel>
     </class>
-    
+
     <class>
         <name>Wizard</name>
         <hd>6</hd>
@@ -2581,9 +2602,11 @@
                 <text>• (a) a quarterstaff or (b) a dagger</text>
                 <text>• (a) a component pouch or (b) an arcane focus</text>
                 <text>• (a) a scholar's pack or (b) an explorer's pack</text>
-                <text>• A spellbook and 4d4 x 10 gp.</text>
+                <text>• A spellbook</text>
+                <text></text>
+                <text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
             </feature>
-        </autolevel>        
+        </autolevel>
         <autolevel level="1">
             <feature>
                 <name>Arcane Recovery</name>
@@ -2592,7 +2615,7 @@
                 <text>    You can recover either a 2nd-level spell slot or two 1st-level spell slots.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Arcane Tradition</name>
@@ -2670,7 +2693,7 @@
                 <text>Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>School of Abjuration: Projected Ward</name>
@@ -2719,7 +2742,7 @@
                 <text>    If you create a new transmuter's stone, the previous one ceases to function.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>School of Abjuration: Improved Abjuration</name>
@@ -2760,7 +2783,7 @@
                 <text>    Once you cast polymorph in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>School of Abjuration: Spell Resistance</name>
@@ -2804,7 +2827,7 @@
                 <text>    Restore Youth. You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3 d 10 years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Spell Mastery</name>
@@ -2812,7 +2835,7 @@
                 <text>    By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Signature Spells</name>
