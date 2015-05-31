@@ -1077,8 +1077,12 @@
                 <text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
             </feature>
             <feature optional="YES">
+                <name>Fighting Style: Mariner</name>
+                <text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
+            </feature>
+            <feature optional="YES">
                 <name>Fighting Style: Protection</name>
-                <text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. </text>
+                <text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
             </feature>
             <feature optional="YES">
                 <name>Fighting Style: Two-Weapon Fighting</name>
@@ -1177,7 +1181,7 @@
             </feature>
             <feature optional="YES">
                 <name>Maneuver: Lunging Attack</name>
-                <text>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll. </text>
+                <text>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll.</text>
             </feature>
             <feature optional="YES">
                 <name>Maneuver: Maneuvering Attack</name>
@@ -1460,7 +1464,7 @@
             <feature>
                 <name>Ki</name>
                 <text>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.</text>
-                <text>    You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class. </text>
+                <text>    You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.</text>
                 <text>    When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.</text>
                 <text>    Some of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows: Ki save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
                 <text></text>
@@ -1642,6 +1646,10 @@
             <feature optional="YES">
                 <name>Fighting Style: Great Weapon Fighting</name>
                 <text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Fighting Style: Mariner</name>
+                <text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
             </feature>
             <feature optional="YES">
                 <name>Fighting Style: Protection</name>
@@ -1903,6 +1911,10 @@
                 <text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
             </feature>
             <feature optional="YES">
+                <name>Fighting Style: Mariner</name>
+                <text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
+            </feature>
+            <feature optional="YES">
                 <name>Fighting Style: Two-Weapon Fighting</name>
                 <text>When you engage in two-weapon fighting, you can add your ability m odifier to the damage of the second attack.</text>
             </feature>
@@ -1911,9 +1923,9 @@
         <autolevel level="3">
             <feature optional="YES">
                 <name>Hunter: Hunter's Prey</name>
-                <text>You gain one of the following features of your choice. </text>
-                <text>    Colossus Slayer. Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn. </text>
-                <text>    Giant Killer. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature. </text>
+                <text>You gain one of the following features of your choice.</text>
+                <text>    Colossus Slayer. Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.</text>
+                <text>    Giant Killer. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</text>
                 <text>    Horde Breaker. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</text>
             </feature>
             <feature optional="YES">
@@ -1939,9 +1951,9 @@
         <autolevel level="7">
             <feature optional="YES">
                 <name>Hunter: Defensive Tactics</name>
-                <text>You gain one of the following features of your choice. </text>
-                <text>    Escape the Horde. Opportunity attacks against you are made with disadvantage. </text>
-                <text>    Multiattack Defense. When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn. </text>
+                <text>You gain one of the following features of your choice.</text>
+                <text>    Escape the Horde. Opportunity attacks against you are made with disadvantage.</text>
+                <text>    Multiattack Defense. When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</text>
                 <text>    Steel Will. You have advantage on saving throws against being frightened.</text>
             </feature>
             <feature optional="YES">
@@ -1969,8 +1981,8 @@
         <autolevel level="11">
             <feature optional="YES">
                 <name>Hunter: Multiattack</name>
-                <text>At 11th level, you gain one of the following features of your choice. </text>
-                <text>    Volley. You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target. </text>
+                <text>At 11th level, you gain one of the following features of your choice.</text>
+                <text>    Volley. You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</text>
                 <text>    Whirlwind Attack. You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</text>
             </feature>
             <feature optional="YES">
@@ -1989,8 +2001,8 @@
         <autolevel level="15">
             <feature optional="YES">
                 <name>Hunter: Superior Hunter's Defense</name>
-                <text>    You gain one of the following features of your choice. </text>
-                <text>    Evasion. You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. </text>
+                <text>    You gain one of the following features of your choice.</text>
+                <text>    Evasion. You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
                 <text>    Stand Against the Tide. When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.</text>
                 <text>    Uncanny Dodge. When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
             </feature>
@@ -2371,7 +2383,7 @@
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Careful Spell</name>
-                <text>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell. </text>
+                <text>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</text>
             </feature>
             <feature optional="YES">
                 <name>Metamagic: Distant Spell</name>
@@ -2893,9 +2905,9 @@
             <feature optional="YES">
                 <name>School of Divination: The Third Eye</name>
                 <text>Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can't use the feature again until you finish a rest.</text>
-                <text>    Darkvision. You gain darkvision out to a range of 60 feet. </text>
-                <text>    Ethereal Sight. You can see into the Ethereal Plane within 60 feet of you. </text>
-                <text>    Greater Comprehension. You can read any language. </text>
+                <text>    Darkvision. You gain darkvision out to a range of 60 feet.</text>
+                <text>    Ethereal Sight. You can see into the Ethereal Plane within 60 feet of you.</text>
+                <text>    Greater Comprehension. You can read any language.</text>
                 <text>    See Invisibility. You can see invisible creatures and objects within 10 feet of you that are within line of sight.</text>
             </feature>
             <feature optional="YES">
@@ -2958,10 +2970,10 @@
             </feature>
             <feature optional="YES">
                 <name>School of Transmutation: Master Transmuter</name>
-                <text>Starting at 14th level, you can use your action to consume the reserve of transmutation magic stored within your transmuter's stone in a single burst. When you do so, choose one of the following effects. Your transmuter's stone is destroyed and can't be remade until you finish a long rest. </text>
-                <text>    Major Transformation. You can transmute one nonmagical object - no larger than a 5-foot cube - into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it. </text>
-                <text>    Panacea. You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter's stone. The creature also regains all its hit points. </text>
-                <text>    Restore Life. You cast the raise dead spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook. </text>
+                <text>Starting at 14th level, you can use your action to consume the reserve of transmutation magic stored within your transmuter's stone in a single burst. When you do so, choose one of the following effects. Your transmuter's stone is destroyed and can't be remade until you finish a long rest.</text>
+                <text>    Major Transformation. You can transmute one nonmagical object - no larger than a 5-foot cube - into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.</text>
+                <text>    Panacea. You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter's stone. The creature also regains all its hit points.</text>
+                <text>    Restore Life. You cast the raise dead spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook.</text>
                 <text>    Restore Youth. You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3 d 10 years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan.</text>
             </feature>
         </autolevel>
@@ -2969,7 +2981,7 @@
         <autolevel level="18">
             <feature>
                 <name>Spell Mastery</name>
-                <text>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. </text>
+                <text>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
                 <text>    By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</text>
             </feature>
         </autolevel>
