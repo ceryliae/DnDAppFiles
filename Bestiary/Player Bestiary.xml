@@ -6,7 +6,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>15</ac>
-		<hp>90 (12d10+24)</hp>
+		<hp>90 (12d10 + 24)</hp>
 		<speed>fly 90 ft. (hover)</speed>
 		<str>14</str><dex>20</dex><con>14</con><int>6</int><wis>10</wis><cha>6</cha>
 		<save></save>
@@ -29,13 +29,13 @@
 		</action>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
 			<attack>Slam|8|2d8+5</attack>
 		</action>
 		<action>
 			<name>Whirlwind (Recharge 4-6)</name>
-			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8+2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
-			<text> If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
+			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -45,7 +45,7 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
+		<hp>117 (18d8 + 36)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>18</str><dex>14</dex><con>14</con><int>9</int><wis>10</wis><cha>10</cha>
 		<save></save>
@@ -68,7 +68,7 @@
 		</action>
 		<action>
 			<name>Flail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
 			<attack>Flail|7|1d8+4</attack>
 		</action>
 		<action>
@@ -84,7 +84,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>60 (6d10+18)</hp>
+		<hp>60 (6d10 + 18)</hp>
 		<speed>60 ft.</speed>
 		<str>19</str><dex>13</dex><con>17</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
@@ -103,12 +103,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.</text>
 			<attack>Bite|6|2d10+4</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
 			<attack>Claw|6|1d8+4</attack>
 		</action>
 		<spells></spells>
@@ -119,7 +119,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>68 (8d12+16)</hp>
+		<hp>68 (8d12 + 16)</hp>
 		<speed>30 ft.</speed>
 		<str>19</str><dex>11</dex><con>15</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
@@ -134,7 +134,7 @@
 		<cr>3</cr>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6+4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -144,7 +144,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>19 (3d8+6)</hp>
+		<hp>19 (3d8 + 6)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>16</str><dex>14</dex><con>14</con><int>6</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -163,12 +163,12 @@
 		</action>
 		<action>
 			<name>Fist</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Fist|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Rock</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
+			<text>Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Rock|5|1d6+3</attack>
 		</action>
 		<spells></spells>
@@ -209,7 +209,7 @@
 		<type>plant, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>59 (7d12+14)</hp>
+		<hp>59 (7d12 + 14)</hp>
 		<speed>20 ft.</speed>
 		<str>19</str><dex>6</dex><con>15</con><int>10</int><wis>10</wis><cha>7</cha>
 		<save></save>
@@ -228,7 +228,7 @@
 		</trait>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.</text>
 			<attack>|6|3d6+4</attack>
 		</action>
 		<spells></spells>
@@ -239,7 +239,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>50 ft.</speed>
 		<str>14</str><dex>12</dex><con>12</con><int>2</int><wis>10</wis><cha>5</cha>
 		<save></save>
@@ -254,7 +254,7 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Beak</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</text>
 			<attack>Beak|4|1d8+2</attack>
 		</action>
 		<spells></spells>
@@ -265,7 +265,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>lawful neutral</alignment>
 		<ac>17 (natural armor, shield)</ac>
-		<hp>39 (6d8+12)</hp>
+		<hp>39 (6d8 + 12)</hp>
 		<speed>30 ft.</speed>
 		<str>17</str><dex>12</dex><con>15</con><int>12</int><wis>13</wis><cha>10</cha>
 		<save>Con +4</save>
@@ -293,7 +293,7 @@
 		</trait>
 		<action>
 			<name>Warhammer</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage, or 8 (1d10+3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
 			<attack>Warhammer|5|1d8+3+1d6</attack>
 		</action>
 		<spells></spells>
@@ -334,7 +334,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>3 (1d4+1)</hp>
+		<hp>3 (1d4 + 1)</hp>
 		<speed>20 ft., burrow 5 ft.</speed>
 		<str>4</str><dex>11</dex><con>12</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
@@ -398,7 +398,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11 (natural armor)</ac>
-		<hp>19 (3d8+6)</hp>
+		<hp>19 (3d8 + 6)</hp>
 		<speed>40 ft., climb 30 ft.</speed>
 		<str>15</str><dex>10</dex><con>14</con><int>2</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -421,12 +421,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|3|1d6+2</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
 			<attack>Claws|3|2d4+2</attack>
 		</action>
 		<spells></spells>
@@ -437,7 +437,7 @@
 		<type>fey, monster manual</type>
 		<alignment>lawful good</alignment>
 		<ac>13</ac>
-		<hp>22 (4d8+4)</hp>
+		<hp>22 (4d8 + 4)</hp>
 		<speed>40 ft.</speed>
 		<str>12</str><dex>17</dex><con>12</con><int>10</int><wis>13</wis><cha>11</cha>
 		<save></save>
@@ -456,7 +456,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<action>
@@ -494,7 +494,7 @@
 		</trait>
 		<action>
 			<name>Beak</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Beak|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -505,7 +505,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11 (natural armor)</ac>
-		<hp>11 (2d8+2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>13</str><dex>11</dex><con>12</con><int>2</int><wis>9</wis><cha>5</cha>
 		<save></save>
@@ -529,7 +529,7 @@
 		</trait>
 		<action>
 			<name>Tusk</name>
-			<text>Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage.</text>
+			<text>Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
 			<attack>Tusk|3|1d6+1</attack>
 		</action>
 		<spells></spells>
@@ -540,7 +540,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11 (natural armor)</ac>
-		<hp>34 (4d10+12)</hp>
+		<hp>34 (4d10 + 12)</hp>
 		<speed>40 ft., climb 30 ft.</speed>
 		<str>19</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
 		<save></save>
@@ -563,12 +563,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
 			<attack>Bite|5|1d8+4</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
 			<attack>Claws|5|2d6+4</attack>
 		</action>
 		<spells></spells>
@@ -579,7 +579,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>9</ac>
-		<hp>15 (2d10+4)</hp>
+		<hp>15 (2d10 + 4)</hp>
 		<speed>50 ft.</speed>
 		<str>16</str><dex>8</dex><con>14</con><int>2</int><wis>8</wis><cha>5</cha>
 		<save></save>
@@ -635,7 +635,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>42 (5d10+15)</hp>
+		<hp>42 (5d10 + 15)</hp>
 		<speed>40 ft., swim 30 ft.</speed>
 		<str>20</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
 		<save></save>
@@ -658,12 +658,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) piercing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
 			<attack>Bite|7|1d8+5</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
 			<attack>Claws|7|2d6+5</attack>
 		</action>
 		<spells></spells>
@@ -674,7 +674,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>13 (2d10+2)</hp>
+		<hp>13 (2d10 + 2)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>15</str><dex>14</dex><con>12</con><int>1</int><wis>10</wis><cha>3</cha>
 		<save></save>
@@ -689,12 +689,12 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Constrict</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
 			<attack>Constrict|4|1d8+2</attack>
 		</action>
 		<spells></spells>
@@ -705,7 +705,7 @@
 		<type>celestial, monster manual</type>
 		<alignment>lawful good</alignment>
 		<ac>19 (natural armor)</ac>
-		<hp>97 (13d8+39)</hp>
+		<hp>97 (13d8 + 39)</hp>
 		<speed>30 ft., fly 90 ft.</speed>
 		<str>16</str><dex>20</dex><con>17</con><int>18</int><wis>20</wis><cha>18</cha>
 		<save>Con +5, Wis +7, Cha +6</save>
@@ -736,18 +736,18 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6+5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.</text>
 			<attack>Bite|8|1d6+5</attack>
 		</action>
 		<action>
 			<name>Constrict</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6+3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.</text>
 			<attack>Constrict|6|2d6+3</attack>
 		</action>
 		<action>
 			<name>Change Shape</name>
 			<text>The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).</text>
-			<text> In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.</text>
+			<text>In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.</text>
 		</action>
 		<spells>detect evil and good, detect magic, detect thoughts, bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield, dream, greater restoration, scrying</spells>
 	</monster>
@@ -787,7 +787,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>20 ft., swim 20 ft.</speed>
 		<str>15</str><dex>10</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
 		<save></save>
@@ -806,7 +806,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10+2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target</text>
 			<attack>Bite|4|1d10+2</attack>
 		</action>
 		<spells></spells>
@@ -843,7 +843,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>37 (5d10+10)</hp>
+		<hp>37 (5d10 + 10)</hp>
 		<speed>50 ft.</speed>
 		<str>17</str><dex>15</dex><con>15</con><int>3</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -866,7 +866,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|5|2d6+3</attack>
 		</action>
 		<spells></spells>
@@ -877,7 +877,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>40 ft.</speed>
 		<str>18</str><dex>10</dex><con>12</con><int>2</int><wis>11</wis><cha>7</cha>
 		<save></save>
@@ -892,7 +892,7 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|2d4+4</attack>
 		</action>
 		<spells></spells>
@@ -938,14 +938,14 @@
 		</trait>
 		<action>
 			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with shillelagh.</text>
+			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
 			<attack>Club|2|1d4</attack>
 		</action>
 		<action>
 			<name>Fey Charm</name>
 			<text>The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.</text>
-			<text> Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.</text>
-			<text> The dryad can have no more than one humanoid and up to three beasts charmed at a time.</text>
+			<text>Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.</text>
+			<text>The dryad can have no more than one humanoid and up to three beasts charmed at a time.</text>
 		</action>
 		<spells>druidcraft, entangle, goodberry, barkskin, pass without trace, shillelagh</spells>
 	</monster>
@@ -978,7 +978,7 @@
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Claws|4|1d4+2</attack>
 		</action>
 		<action>
@@ -1016,7 +1016,7 @@
 		</trait>
 		<action>
 			<name>Talons</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Talons|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -1027,7 +1027,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>17 (natural armor)</ac>
-		<hp>126 (12d10+60)</hp>
+		<hp>126 (12d10 + 60)</hp>
 		<speed>30 ft., burrow 30 ft.</speed>
 		<str>20</str><dex>8</dex><con>20</con><int>5</int><wis>10</wis><cha>5</cha>
 		<save></save>
@@ -1054,7 +1054,7 @@
 		</action>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8+5) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
 			<attack>Slam|8|2d8+5</attack>
 		</action>
 		<spells></spells>
@@ -1065,7 +1065,7 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
+		<hp>127 (17d8 + 51)</hp>
 		<speed>30 ft.</speed>
 		<str>18</str><dex>10</dex><con>17</con><int>8</int><wis>10</wis><cha>10</cha>
 		<save></save>
@@ -1088,7 +1088,7 @@
 		</action>
 		<action>
 			<name>Maul</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Maul|7|2d6+4</attack>
 		</action>
 		<action>
@@ -1104,7 +1104,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>76 (8d12+24)</hp>
+		<hp>76 (8d12 + 24)</hp>
 		<speed>40 ft.</speed>
 		<str>22</str><dex>9</dex><con>17</con><int>3</int><wis>11</wis><cha>6</cha>
 		<save></save>
@@ -1123,12 +1123,12 @@
 		</trait>
 		<action>
 			<name>Gore</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8+5) piercing damage.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage.</text>
 			<attack>Gore|8|3d8+5</attack>
 		</action>
 		<action>
 			<name>Stomp</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 21 (3d10+5) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 21 (3d10 + 5) bludgeoning damage.</text>
 			<attack>Stomp|8|3d10+5</attack>
 		</action>
 		<spells></spells>
@@ -1139,7 +1139,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>13 (2d10+2)</hp>
+		<hp>13 (2d10 + 2)</hp>
 		<speed>50 ft.</speed>
 		<str>16</str><dex>10</dex><con>12</con><int>2</int><wis>10</wis><cha>6</cha>
 		<save></save>
@@ -1159,11 +1159,11 @@
 		</trait>
 		<action>
 			<name>Ram</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 		</action>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -1173,7 +1173,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>13</ac>
-		<hp>102 (12d10+36)</hp>
+		<hp>102 (12d10 + 36)</hp>
 		<speed>50 ft.</speed>
 		<str>10</str><dex>17</dex><con>16</con><int>6</int><wis>10</wis><cha>7</cha>
 		<save></save>
@@ -1206,7 +1206,7 @@
 		</action>
 		<action>
 			<name>Touch</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
 			<attack>Touch|6|2d6+3</attack>
 		</action>
 		<spells></spells>
@@ -1217,7 +1217,7 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>117 (18d8+36)</hp>
+		<hp>117 (18d8 + 36)</hp>
 		<speed>40 ft.</speed>
 		<str>13</str><dex>18</dex><con>15</con><int>9</int><wis>10</wis><cha>10</cha>
 		<save></save>
@@ -1248,7 +1248,7 @@
 		</action>
 		<action>
 			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) slashing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
 			<attack>Scimitar|7|1d6+4</attack>
 		</action>
 		<action>
@@ -1288,12 +1288,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 3 (1d6) fire damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage plus 3 (1d6) fire damage.</text>
 			<attack>Bite|3|1d4+1+1d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) bludgeoning damage plus 3 (1d6) fire damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage plus 3 (1d6) fire damage.</text>
 			<attack>Tail|3|1d4+1+1d6</attack>
 		</action>
 		<spells></spells>
@@ -1363,7 +1363,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>16 (natural armor)</ac>
-		<hp>85 (9d8+45)</hp>
+		<hp>85 (9d8 + 45)</hp>
 		<speed>15 ft. (30 ft. when rolling, 60 ft. rolling downhill)</speed>
 		<str>20</str><dex>14</dex><con>20</con><int>11</int><wis>12</wis><cha>11</cha>
 		<save></save>
@@ -1387,7 +1387,7 @@
 		</trait>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft ., one target. Hit: 12 (2d6+5) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft ., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
 			<attack>Slam|8|2d6+5</attack>
 		</action>
 		<action>
@@ -1402,7 +1402,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>52 (7d8+21)</hp>
+		<hp>52 (7d8 + 21)</hp>
 		<speed>30 ft., fly 60 ft.</speed>
 		<str>15</str><dex>11</dex><con>16</con><int>6</int><wis>11</wis><cha>7</cha>
 		<save></save>
@@ -1425,12 +1425,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
 			<attack>Claws|4|1d6+2</attack>
 		</action>
 		<spells></spells>
@@ -1464,12 +1464,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12 (2d8+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12 (2d8 + 3) piercing damage.</text>
 			<attack>Bite|3|2d8+3</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Claws|5|2d6+3</attack>
 		</action>
 		<spells></spells>
@@ -1495,12 +1495,12 @@
 		<cr>1</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.</text>
 			<attack>Bite|2|2d6+2</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -1510,7 +1510,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>13 (2d8+4)</hp>
+		<hp>13 (2d8 + 4)</hp>
 		<speed>30 ft., burrow 10 ft.</speed>
 		<str>13</str><dex>10</dex><con>15</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
@@ -1533,12 +1533,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4+1) slashing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
 			<attack>Claws|3|2d4+1</attack>
 		</action>
 		<spells></spells>
@@ -1572,7 +1572,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 		<spells></spells>
@@ -1583,7 +1583,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>42 (5d10+5)</hp>
+		<hp>42 (5d10 + 5)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str><dex>10</dex><con>16</con><int>2</int><wis>7</wis><cha>5</cha>
 		<save></save>
@@ -1607,7 +1607,7 @@
 		</trait>
 		<action>
 			<name>Tusk</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
 			<attack>Tusk|5|2d6+3</attack>
 		</action>
 		<spells></spells>
@@ -1618,7 +1618,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>4 (1d6+1)</hp>
+		<hp>4 (1d6 + 1)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>5</str><dex>14</dex><con>12</con><int>1</int><wis>7</wis><cha>3</cha>
 		<save></save>
@@ -1633,7 +1633,7 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Bite</name>
-			<text>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<text>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -1644,7 +1644,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>60 (8d12+8)</hp>
+		<hp>60 (8d12 + 8)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>19</str><dex>14</dex><con>12</con><int>1</int><wis>10</wis><cha>3</cha>
 		<save></save>
@@ -1659,12 +1659,12 @@
 		<cr>2</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.</text>
 			<attack>Bite|6|2d6+4</attack>
 		</action>
 		<action>
 			<name>Constrict</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8+4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
 			<attack>Constrict|6|2d8+4</attack>
 		</action>
 		<spells></spells>
@@ -1694,7 +1694,7 @@
 		</trait>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.</text>
 			<attack>Claw|3|1d6+1</attack>
 		</action>
 		<spells></spells>
@@ -1705,7 +1705,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>85 (9d12+27)</hp>
+		<hp>85 (9d12 + 27)</hp>
 		<speed>30 ft., swim 50 ft.</speed>
 		<str>21</str><dex>9</dex><con>17</con><int>2</int><wis>10</wis><cha>7</cha>
 		<save></save>
@@ -1728,12 +1728,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10+5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.</text>
 			<attack>Bite|8|3d10+5</attack>
 		</action>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8+5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
 			<attack>Tail|8|2d8+5</attack>
 		</action>
 		<spells></spells>
@@ -1744,7 +1744,7 @@
 		<type>beast, monster manual</type>
 		<alignment>neutral good</alignment>
 		<ac>13</ac>
-		<hp>26 (4d10+4)</hp>
+		<hp>26 (4d10 + 4)</hp>
 		<speed>10 ft., fly 80 ft.</speed>
 		<str>16</str><dex>17</dex><con>13</con><int>8</int><wis>14</wis><cha>10</cha>
 		<save></save>
@@ -1767,12 +1767,12 @@
 		</action>
 		<action>
 			<name>Beak</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
 			<attack>Beak|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Talons</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
 			<attack>Talons|5|2d6+3</attack>
 		</action>
 		<spells></spells>
@@ -1783,7 +1783,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>42 (5d12+10)</hp>
+		<hp>42 (5d12 + 10)</hp>
 		<speed>60 ft.</speed>
 		<str>19</str><dex>16</dex><con>14</con><int>7</int><wis>14</wis><cha>10</cha>
 		<save></save>
@@ -1803,12 +1803,12 @@
 		</trait>
 		<action>
 			<name>Ram</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Ram|6|2d6+4</attack>
 		</action>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|4d8+4</attack>
 		</action>
 		<spells></spells>
@@ -1819,7 +1819,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>4 (1d6+1)</hp>
+		<hp>4 (1d6 + 1)</hp>
 		<speed>30 ft.</speed>
 		<str>8</str><dex>10</dex><con>12</con><int>1</int><wis>7</wis><cha>3</cha>
 		<save></save>
@@ -1849,7 +1849,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>30 ft., fly 60 ft.</speed>
 		<str>14</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
 		<save></save>
@@ -1893,7 +1893,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<action>
@@ -1908,7 +1908,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11 (natural armor)</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str><dex>11</dex><con>12</con><int>3</int><wis>12</wis><cha>6</cha>
 		<save></save>
@@ -1932,7 +1932,7 @@
 		</trait>
 		<action>
 			<name>Ram</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 			<attack>Ram|5|2d4+3</attack>
 		</action>
 		<spells></spells>
@@ -1943,7 +1943,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>45 (6d10+12)</hp>
+		<hp>45 (6d10 + 12)</hp>
 		<speed>50 ft.</speed>
 		<str>16</str><dex>14</dex><con>14</con><int>2</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -1962,7 +1962,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</text>
 			<attack>Bite|5|1d6+3</attack>
 		</action>
 		<spells></spells>
@@ -1973,7 +1973,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>15</str><dex>12</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
 		<save></save>
@@ -1996,7 +1996,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
 			<attack>Bite|4|1d8+2</attack>
 		</action>
 		<spells></spells>
@@ -2007,7 +2007,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
-		<hp>52 (8d10+8)</hp>
+		<hp>52 (8d10 + 8)</hp>
 		<speed>10 ft., swim 60 ft.</speed>
 		<str>17</str><dex>13</dex><con>13</con><int>4</int><wis>10</wis><cha>4</cha>
 		<save></save>
@@ -2034,7 +2034,7 @@
 		</trait>
 		<action>
 			<name>Tentacles</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6+3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</text>
 			<attack>Tentacles|5|2d6+3</attack>
 		</action>
 		<action>
@@ -2049,7 +2049,7 @@
 		<type>beast, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>12</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>5 ft., fly 60 ft.</speed>
 		<str>13</str><dex>15</dex><con>12</con><int>8</int><wis>13</wis><cha>10</cha>
 		<save></save>
@@ -2072,7 +2072,7 @@
 		</trait>
 		<action>
 			<name>Talons</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6+1) slashing damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.</text>
 			<attack>Talons|3|2d6+1</attack>
 		</action>
 		<spells></spells>
@@ -2083,7 +2083,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>14</ac>
-		<hp>11 (2d8+2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>10</str><dex>18</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
 		<save></save>
@@ -2098,7 +2098,7 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4+4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|6|1d4+4</attack>
 		</action>
 		<spells></spells>
@@ -2132,7 +2132,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -2158,7 +2158,7 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
 			<attack>Bite|3|1d4+1</attack>
 		</action>
 		<spells></spells>
@@ -2169,7 +2169,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>52 (7d10+14)</hp>
+		<hp>52 (7d10 + 14)</hp>
 		<speed>40 ft.</speed>
 		<str>15</str><dex>13</dex><con>15</con><int>1</int><wis>9</wis><cha>3</cha>
 		<save></save>
@@ -2184,7 +2184,7 @@
 		<cr>3</cr>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target.</text>
 			<attack>Claw|4|1d8+2</attack>
 		</action>
 		<action>
@@ -2193,7 +2193,7 @@
 		</action>
 		<action>
 			<name>Sting</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10+2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting|4|1d10+2</attack>
 		</action>
 		<spells></spells>
@@ -2228,7 +2228,7 @@
 		</trait>
 		<action>
 			<name>Ram</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
 			<attack>|3|1d6+1</attack>
 		</action>
 		<spells></spells>
@@ -2239,7 +2239,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>126 (11d12+55)</hp>
+		<hp>126 (11d12 + 55)</hp>
 		<speed>swim 50 ft.</speed>
 		<str>23</str><dex>11</dex><con>21</con><int>1</int><wis>10</wis><cha>5</cha>
 		<save></save>
@@ -2262,7 +2262,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10+6) piercing damage.</text>
+			<text>Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.</text>
 			<attack>Bite|9|3d10+6</attack>
 		</action>
 		<spells></spells>
@@ -2273,7 +2273,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>26 (4d10+4)</hp>
+		<hp>26 (4d10 + 4)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>14</str><dex>16</dex><con>12</con><int>2</int><wis>11</wis><cha>4</cha>
 		<save></save>
@@ -2300,7 +2300,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8+3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|5|1d8+3</attack>
 		</action>
 		<action>
@@ -2316,7 +2316,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
-		<hp>39 (6d10+6)</hp>
+		<hp>39 (6d10 + 6)</hp>
 		<speed>20 ft., swim 40 ft.</speed>
 		<str>15</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
 		<save></save>
@@ -2339,13 +2339,13 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.</text>
 			<attack>Bite|4|1d10+2</attack>
 		</action>
 		<action>
 			<name>Swallow</name>
 			<text>The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.</text>
-			<text> If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</text>
+			<text>If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -2355,7 +2355,7 @@
 		<type>beast, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>10</ac>
-		<hp>22 (3d10+6)</hp>
+		<hp>22 (3d10 + 6)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>15</str><dex>10</dex><con>15</con><int>6</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -2382,12 +2382,12 @@
 		</action>
 		<action>
 			<name>Beak</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.</text>
 			<attack>Beak|4|2d4+2</attack>
 		</action>
 		<action>
 			<name>Talons</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</text>
 			<attack>Talons|4|2d6+2</attack>
 		</action>
 		<spells></spells>
@@ -2413,7 +2413,7 @@
 		<cr>1/2</cr>
 		<action>
 			<name>Sting</name>
-			<text>Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6+2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<text>Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Sting|4|1d6+2</attack>
 		</action>
 		<spells></spells>
@@ -2443,7 +2443,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage.</text>
+			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
 			<attack>Bite|5|1d4+3</attack>
 		</action>
 		<spells></spells>
@@ -2454,7 +2454,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13</ac>
-		<hp>11 (2d8+2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft., climb 40 ft.</speed>
 		<str>12</str><dex>16</dex><con>13</con><int>3</int><wis>12</wis><cha>4</cha>
 		<save></save>
@@ -2481,7 +2481,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6+1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<text>Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<spells></spells>
@@ -2516,7 +2516,7 @@
 		</trait>
 		<action>
 			<name>Ram</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</text>
 			<attack>Ram|3|1d4+1</attack>
 		</action>
 		<spells></spells>
@@ -2527,7 +2527,7 @@
 		<type>fey, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>17 (natural armor)</ac>
-		<hp>82 (11d8+33)</hp>
+		<hp>82 (11d8 + 33)</hp>
 		<speed>30 ft.</speed>
 		<str>18</str><dex>12</dex><con>16</con><int>13</int><wis>14</wis><cha>14</cha>
 		<save></save>
@@ -2557,17 +2557,17 @@
 		<trait>
 			<name>Hag Coven</name>
 			<text>When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.</text>
-			<text> A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
+			<text>A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
 		</trait>
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
 			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
 			<text></text>
-			<text>&#8226; 1st level (4 slots): identify, ray of sickness </text>
-			<text>&#8226; 2nd level (3 slots): hold person, locate object </text>
-			<text>&#8226; 3rd level (3 slots): bestow curse, counterspell, lightning bolt </text>
-			<text>&#8226; 4th level (3 slots): phantasmal killer, polymorph </text>
-			<text>&#8226; 5th level (2 slots): contact other plane, scrying </text>
+			<text>&#8226; 1st level (4 slots): identify, ray of sickness</text>
+			<text>&#8226; 2nd level (3 slots): hold person, locate object</text>
+			<text>&#8226; 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
+			<text>&#8226; 4th level (3 slots): phantasmal killer, polymorph</text>
+			<text>&#8226; 5th level (2 slots): contact other plane, scrying</text>
 			<text>&#8226; 6th level (1 slot): eye bite</text>
 			<text></text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
@@ -2575,17 +2575,17 @@
 		<trait>
 			<name>Hag Eye (Coven Only)</name>
 			<text>A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.</text>
-			<text> A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.</text>
+			<text>A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.</text>
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
 			<attack>Claws|6|2d8+4</attack>
 		</action>
 		<action>
 			<name>Illusory Appearance</name>
 			<text>The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.</text>
-			<text> The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.</text>
+			<text>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.</text>
 		</action>
 		<action>
 			<name>Invisible Passage</name>
@@ -2629,7 +2629,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>45 (6d10+12)</hp>
+		<hp>45 (6d10 + 12)</hp>
 		<speed>swim 40 ft.</speed>
 		<str>18</str><dex>13</dex><con>15</con><int>1</int><wis>10</wis><cha>4</cha>
 		<save></save>
@@ -2652,7 +2652,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</text>
 			<attack>Bite|6|2d8+4</attack>
 		</action>
 		<spells></spells>
@@ -2663,7 +2663,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
-		<hp>5 (1d8+1)</hp>
+		<hp>5 (1d8 + 1)</hp>
 		<speed>50 ft.</speed>
 		<str>11</str><dex>13</dex><con>12</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
@@ -2721,7 +2721,7 @@
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4+1) slashing damage plus 2 (1d4) cold damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
 			<attack>Claws|3|1d4+1</attack>
 		</action>
 		<action>
@@ -2740,7 +2740,7 @@
 		<type>fiend (devil), monster manual</type>
 		<alignment>lawful evil</alignment>
 		<ac>13</ac>
-		<hp>10 (3d4+3)</hp>
+		<hp>10 (3d4 + 3)</hp>
 		<speed>20 ft., fly 40 ft.</speed>
 		<str>6</str><dex>17</dex><con>13</con><int>11</int><wis>12</wis><cha>14</cha>
 		<save></save>
@@ -2771,7 +2771,7 @@
 		</trait>
 		<action>
 			<name>Sting (Bite in Beast Form)</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft ., one target. Hit: 5 (1d4+3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft ., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting/Bite|5|1d4+3</attack>
 		</action>
 		<action>
@@ -2786,7 +2786,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>14</ac>
-		<hp>104 (16d8+32)</hp>
+		<hp>104 (16d8 + 32)</hp>
 		<speed>50 ft., fly 50 ft. (hover)</speed>
 		<str>16</str><dex>19</dex><con>14</con><int>10</int><wis>15</wis><cha>11</cha>
 		<save></save>
@@ -2813,7 +2813,7 @@
 		</action>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
 			<attack>Slam|6|2d6+3</attack>
 		</action>
 		<spells></spells>
@@ -2858,7 +2858,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>90 (12d12+12)</hp>
+		<hp>90 (12d12 + 12)</hp>
 		<speed>swim 60 ft.</speed>
 		<str>19</str><dex>10</dex><con>13</con><int>3</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -2885,7 +2885,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -2895,7 +2895,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>26 (4d10+4)</hp>
+		<hp>26 (4d10 + 4)</hp>
 		<speed>50 ft.</speed>
 		<str>17</str><dex>15</dex><con>13</con><int>3</int><wis>12</wis><cha>8</cha>
 		<save></save>
@@ -2926,12 +2926,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
 			<attack>Bite|5|1d8+3</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Claw|5|1d6+3</attack>
 		</action>
 		<spells></spells>
@@ -2968,7 +2968,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>11</ac>
-		<hp>22 (5d6+5)</hp>
+		<hp>22 (5d6 + 5)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>8</str><dex>12</dex><con>12</con><int>7</int><wis>10</wis><cha>10</cha>
 		<save></save>
@@ -2996,7 +2996,7 @@
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft ., one creature. Hit: 3 (1d4+1) slashing damage plus 2 (1d4) fire damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft ., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
 			<attack>Claws|3|1d4+1</attack>
 		</action>
 		<action>
@@ -3015,7 +3015,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>chaotic neutral</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>9 (2d6+2)</hp>
+		<hp>9 (2d6 + 2)</hp>
 		<speed>30 ft.</speed>
 		<str>7</str><dex>15</dex><con>12</con><int>8</int><wis>11</wis><cha>10</cha>
 		<save></save>
@@ -3050,7 +3050,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>126 (11d12+55)</hp>
+		<hp>126 (11d12 + 55)</hp>
 		<speed>40 ft.</speed>
 		<str>24</str><dex>9</dex><con>21</con><int>3</int><wis>11</wis><cha>6</cha>
 		<save></save>
@@ -3069,12 +3069,12 @@
 		</trait>
 		<action>
 			<name>Gore</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8+7) piercing damage.</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.</text>
 			<attack>Gore|10|4d8+7</attack>
 		</action>
 		<action>
 			<name>Stomp</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10+7) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
 			<attack>Stomp|10|4d10+7</attack>
 		</action>
 		<spells></spells>
@@ -3085,7 +3085,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>5 (1d8+1)</hp>
+		<hp>5 (1d8 + 1)</hp>
 		<speed>40 ft.</speed>
 		<str>13</str><dex>14</dex><con>12</con><int>3</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -3104,7 +3104,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<spells></spells>
@@ -3115,7 +3115,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>11</ac>
-		<hp>27 (6d6+6)</hp>
+		<hp>27 (6d6 + 6)</hp>
 		<speed>20 ft., fly 20 ft., swim 20 ft.</speed>
 		<str>8</str><dex>12</dex><con>12</con><int>9</int><wis>11</wis><cha>7</cha>
 		<save></save>
@@ -3138,7 +3138,7 @@
 		</trait>
 		<action>
 			<name>Fists</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6+1) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
 			<attack>Fists|3|1d6+1</attack>
 		</action>
 		<action>
@@ -3157,7 +3157,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>11 (2d8+2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>14</str><dex>10</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
 		<save></save>
@@ -3180,7 +3180,7 @@
 		</trait>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
 			<attack>Hooves|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -3191,7 +3191,7 @@
 		<type>undead, monster manual</type>
 		<alignment>lawful evil</alignment>
 		<ac>11 (natural armor)</ac>
-		<hp>58 (9d8+18)</hp>
+		<hp>58 (9d8 + 18)</hp>
 		<speed>20 ft.</speed>
 		<str>16</str><dex>8</dex><con>15</con><int>6</int><wis>10</wis><cha>12</cha>
 		<save>Wis +2</save>
@@ -3210,7 +3210,7 @@
 		</action>
 		<action>
 			<name>Rotting Fist</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.</text>
 			<attack>Rotting Fist|5|2d6+3</attack>
 		</action>
 		<action>
@@ -3324,12 +3324,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Claw|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -3340,7 +3340,7 @@
 		<type>celestial, monster manual</type>
 		<alignment>chaotic good</alignment>
 		<ac>12</ac>
-		<hp>59 (7d10+21)</hp>
+		<hp>59 (7d10 + 21)</hp>
 		<speed>60 ft., fly 90 ft.</speed>
 		<str>18</str><dex>15</dex><con>16</con><int>10</int><wis>15</wis><cha>13</cha>
 		<save>Dex +4, Wis +4, Cha +3</save>
@@ -3355,7 +3355,7 @@
 		<cr>2</cr>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|2d6+4</attack>
 		</action>
 		<spells></spells>
@@ -3402,7 +3402,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>68 (8d10+24)</hp>
+		<hp>68 (8d10 + 24)</hp>
 		<speed>20 ft., swim 40 ft.</speed>
 		<str>18</str><dex>15</dex><con>16</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
@@ -3421,7 +3421,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.</text>
 			<attack>Bite|6|3d6+4</attack>
 		</action>
 		<spells></spells>
@@ -3458,7 +3458,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>42 (5d10+15)</hp>
+		<hp>42 (5d10 + 15)</hp>
 		<speed>40 ft., swim 30 ft.</speed>
 		<str>20</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
 		<save></save>
@@ -3481,12 +3481,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) piercing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
 			<attack>Bite|7|1d8+5</attack>
 		</action>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
 			<attack>Claws|7|2d6+5</attack>
 		</action>
 		<spells></spells>
@@ -3497,7 +3497,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>11 (2d8+2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>15</str><dex>10</dex><con>13</con><int>2</int><wis>11</wis><cha>7</cha>
 		<save></save>
@@ -3512,7 +3512,7 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.</text>
 			<attack>Hooves|4|2d4+2</attack>
 		</action>
 		<spells></spells>
@@ -3523,7 +3523,7 @@
 		<type>dragon, monster manual</type>
 		<alignment>neutral good</alignment>
 		<ac>13</ac>
-		<hp>7 (2d4+2)</hp>
+		<hp>7 (2d4 + 2)</hp>
 		<speed>15 ft., fly 60 ft.</speed>
 		<str>6</str><dex>15</dex><con>13</con><int>10</int><wis>12</wis><cha>10</cha>
 		<save></save>
@@ -3554,12 +3554,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
 		<action>
 			<name>Sting</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</text>
 			<attack>Sting|4|1d4+2</attack>
 		</action>
 		<spells></spells>
@@ -3589,7 +3589,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4+1) piercing damage</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -3626,7 +3626,7 @@
 		</trait>
 		<action>
 			<name>Claw (Bite in Beast Form)</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft ., one target. Hit: 5 (1d4+3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft ., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Claw/Bite|4|1d4+3</attack>
 		</action>
 		<action>
@@ -3738,7 +3738,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>22 (4d8+4)</hp>
+		<hp>22 (4d8 + 4)</hp>
 		<speed>swim 40 ft.</speed>
 		<str>14</str><dex>13</dex><con>13</con><int>1</int><wis>10</wis><cha>4</cha>
 		<save></save>
@@ -3761,7 +3761,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
 			<attack>Bite|4|1d8+2</attack>
 		</action>
 		<spells></spells>
@@ -3772,7 +3772,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11 (natural armor)</ac>
-		<hp>45 (6d10+12)</hp>
+		<hp>45 (6d10 + 12)</hp>
 		<speed>40 ft.</speed>
 		<str>21</str><dex>8</dex><con>15</con><int>2</int><wis>12</wis><cha>6</cha>
 		<save></save>
@@ -3792,7 +3792,7 @@
 		</trait>
 		<action>
 			<name>Gore</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
 			<attack>Gore|7|2d8+5</attack>
 		</action>
 		<spells></spells>
@@ -3803,7 +3803,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>13 (2d10+2)</hp>
+		<hp>13 (2d10 + 2)</hp>
 		<speed>60 ft.</speed>
 		<str>16</str><dex>10</dex><con>12</con><int>2</int><wis>11</wis><cha>7</cha>
 		<save></save>
@@ -3818,7 +3818,7 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 			<attack>Hooves|2|2d4+3</attack>
 		</action>
 		<spells></spells>
@@ -3829,7 +3829,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>52 (7d10+14)</hp>
+		<hp>52 (7d10 + 14)</hp>
 		<speed>40 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>3</int><wis>12</wis><cha>8</cha>
 		<save></save>
@@ -3852,12 +3852,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.</text>
 			<attack>Bite|6|1d10+5</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
 			<attack>Claw|6|2d6+5</attack>
 		</action>
 		<spells></spells>
@@ -3868,7 +3868,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>90 (12d10+24)</hp>
+		<hp>90 (12d10 + 24)</hp>
 		<speed>30 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>11</int><wis>10</wis><cha>12</cha>
 		<save></save>
@@ -3896,12 +3896,12 @@
 		</action>
 		<action>
 			<name>Spear</name>
-			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6+4) piercing damage, or 13 (2d8+4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
 			<attack>Spear|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6+4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.</text>
 			<attack>Tail|7|2d6+4+2d6</attack>
 		</action>
 		<spells></spells>
@@ -3931,17 +3931,17 @@
 		</trait>
 		<action>
 			<name>Ram</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4+1) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage.</text>
 			<attack>Ram|3|2d4+1</attack>
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1 d6+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1 d6 + 3) piercing damage.</text>
 			<attack>Shortsword|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Shortbow</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
 			<attack>Shortbow|5|1d6+3</attack>
 		</action>
 		<action>
@@ -3982,7 +3982,7 @@
 		<type>fey, monster manual</type>
 		<alignment>chaotic evil</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>52 (7d8+21)</hp>
+		<hp>52 (7d8 + 21)</hp>
 		<speed>30 ft., swim 40 ft.</speed>
 		<str>16</str><dex>13</dex><con>16</con><int>12</int><wis>12</wis><cha>13</cha>
 		<save></save>
@@ -4002,22 +4002,22 @@
 		<trait>
 			<name>Horrific Appearance</name>
 			<text>Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form must make a DC 11 Wisdom saving throw. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Appearance for the next 24 hours.</text>
-			<text> Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.</text>
+			<text>Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.</text>
 		</trait>
 		<trait>
 			<name>Hag Coven</name>
 			<text>When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.</text>
-			<text> A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
+			<text>A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.</text>
 		</trait>
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
 			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
 			<text></text>
-			<text>&#8226; 1st level (4 slots): identify, ray of sickness </text>
-			<text>&#8226; 2nd level (3 slots): hold person, locate object </text>
-			<text>&#8226; 3rd level (3 slots): bestow curse, counterspell, lightning bolt </text>
-			<text>&#8226; 4th level (3 slots): phantasmal killer, polymorph </text>
-			<text>&#8226; 5th level (2 slots): contact other plane, scrying </text>
+			<text>&#8226; 1st level (4 slots): identify, ray of sickness</text>
+			<text>&#8226; 2nd level (3 slots): hold person, locate object</text>
+			<text>&#8226; 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
+			<text>&#8226; 4th level (3 slots): phantasmal killer, polymorph</text>
+			<text>&#8226; 5th level (2 slots): contact other plane, scrying</text>
 			<text>&#8226; 6th level (1 slot): eye bite</text>
 			<text></text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
@@ -4025,11 +4025,11 @@
 		<trait>
 			<name>Hag Eye (Coven Only)</name>
 			<text>A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.</text>
-			<text> A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.</text>
+			<text>A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.</text>
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
 			<attack>Claws|5|2d6+3</attack>
 		</action>
 		<action>
@@ -4039,7 +4039,7 @@
 		<action>
 			<name>Illusory Appearance</name>
 			<text>The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.</text>
-			<text> The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.</text>
+			<text>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.</text>
 		</action>
 		<spells>identify, ray of sickness, hold person, locate object, bestow curse, counterspell, lightning bolt, phantasmal killer, polymorph, contact other plane, scrying, eyebite</spells>
 	</monster>
@@ -4074,7 +4074,7 @@
 		<type>undead, monster manual</type>
 		<alignment>lawful evil</alignment>
 		<ac>13 (armor scraps)</ac>
-		<hp>13 (2d8+4)</hp>
+		<hp>13 (2d8 + 4)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str><dex>14</dex><con>15</con><int>6</int><wis>8</wis><cha>5</cha>
 		<save></save>
@@ -4089,12 +4089,12 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Shortbow</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 		<spells></spells>
@@ -4105,7 +4105,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>12</ac>
-		<hp>22 (5d6+5)</hp>
+		<hp>22 (5d6 + 5)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>6</str><dex>14</dex><con>12</con><int>10</int><wis>10</wis><cha>11</cha>
 		<save></save>
@@ -4128,7 +4128,7 @@
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4+2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Claws|4|1d4+2</attack>
 		</action>
 		<action>
@@ -4205,7 +4205,7 @@
 		</action>
 		<action>
 			<name>Shortbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for l minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.</text>
+			<text>Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.</text>
 			<attack>Shortbow|6|1</attack>
 		</action>
 		<action>
@@ -4282,8 +4282,8 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Blood Drain</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4+3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4+3) hit points due to blood loss.</text>
-			<text> The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</text>
+			<text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
 			<attack>Blood Drain|5|1d4+3</attack>
 		</action>
 		<spells></spells>
@@ -4294,7 +4294,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>37 (5d10+10)</hp>
+		<hp>37 (5d10 + 10)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str><dex>15</dex><con>14</con><int>3</int><wis>12</wis><cha>8</cha>
 		<save></save>
@@ -4317,12 +4317,12 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
 			<attack>Bite|5|1d10+3</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -4332,7 +4332,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>95 (10d12+30)</hp>
+		<hp>95 (10d12 + 30)</hp>
 		<speed>50 ft.</speed>
 		<str>22</str><dex>9</dex><con>17</con><int>2</int><wis>11</wis><cha>5</cha>
 		<save></save>
@@ -4351,12 +4351,12 @@
 		</trait>
 		<action>
 			<name>Gore</name>
-			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8+6) piercing damage.</text>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage.</text>
 			<attack>Gore|9|4d8+6</attack>
 		</action>
 		<action>
 			<name>Stomp</name>
-			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10+6) bludgeoning damage</text>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage</text>
 			<attack>Stomp|9|3d10+6</attack>
 		</action>
 		<spells></spells>
@@ -4367,7 +4367,7 @@
 		<type>celestial, monster manual</type>
 		<alignment>lawful good</alignment>
 		<ac>12</ac>
-		<hp>67 (9d10+18)</hp>
+		<hp>67 (9d10 + 18)</hp>
 		<speed>50 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>11</int><wis>17</wis><cha>16</cha>
 		<save></save>
@@ -4406,17 +4406,17 @@
 		</action>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Hooves|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Horn</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 8 (1d8+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
 			<attack>Horn|7|1d8+4</attack>
 		</action>
 		<action>
 			<name>Healing Touch (3/Day)</name>
-			<text>The unicorn touches another creature with its horn. The target magically regains 11 (2d8+2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.</text>
+			<text>The unicorn touches another creature with its horn. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.</text>
 		</action>
 		<action>
 			<name>Teleport (1/Day)</name>
@@ -4432,7 +4432,7 @@
 		</legendary>
 		<legendary>
 			<name>Heal Self (Costs 3 Actions)</name>
-			<text>The unicorn magically regains 11 (2d8+2) hit points.</text>
+			<text>The unicorn magically regains 11 (2d8 + 2) hit points.</text>
 		</legendary>
 		<spells>detect evil and good, druidcraft, pass without trace, calm emotions, dispel evil and good, entangle</spells>
 	</monster>
@@ -4442,7 +4442,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>10</ac>
-		<hp>5 (1d8+1)</hp>
+		<hp>5 (1d8 + 1)</hp>
 		<speed>10 ft., fly 50 ft.</speed>
 		<str>7</str><dex>10</dex><con>13</con><int>2</int><wis>12</wis><cha>4</cha>
 		<save></save>
@@ -4476,7 +4476,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
-		<hp>19 (3d10+3)</hp>
+		<hp>19 (3d10 + 3)</hp>
 		<speed>60 ft.</speed>
 		<str>18</str><dex>12</dex><con>13</con><int>2</int><wis>12</wis><cha>7</cha>
 		<save></save>
@@ -4495,7 +4495,7 @@
 		</trait>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>|4|2d6+4</attack>
 		</action>
 		<spells></spells>
@@ -4506,7 +4506,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>114 (12d10+48)</hp>
+		<hp>114 (12d10 + 48)</hp>
 		<speed>30 ft., swim 90 ft.</speed>
 		<str>18</str><dex>14</dex><con>18</con><int>5</int><wis>10</wis><cha>8</cha>
 		<save></save>
@@ -4533,13 +4533,13 @@
 		</action>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
 			<attack>Slam|7|2d8+4</attack>
 		</action>
 		<action>
 			<name>Whelm (Recharge 4-6)</name>
-			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8+4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
-			<text> The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8+4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
+			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
+			<text>The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
 		</action>
 		<spells></spells>
 	</monster>
@@ -4549,7 +4549,7 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>127 (17d8+51)</hp>
+		<hp>127 (17d8 + 51)</hp>
 		<speed>40 ft., swim 40 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>8</int><wis>10</wis><cha>10</cha>
 		<save></save>
@@ -4572,7 +4572,7 @@
 		</action>
 		<action>
 			<name>Trident</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
 			<attack>Trident|7|1d6+4</attack>
 		</action>
 		<action>
@@ -4588,7 +4588,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>13</ac>
-		<hp>58 (9d10+9)</hp>
+		<hp>58 (9d10 + 9)</hp>
 		<speed>0 ft., swim 60 ft.</speed>
 		<str>17</str><dex>16</dex><con>13</con><int>11</int><wis>10</wis><cha>10</cha>
 		<save></save>
@@ -4611,7 +4611,7 @@
 		</trait>
 		<action>
 			<name>Constrict</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6+3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target.</text>
 			<attack>Constrict|5|3d6+3</attack>
 		</action>
 		<spells></spells>
@@ -4652,7 +4652,7 @@
 		<type>beast, monster manual</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>11 (2d8+2)</hp>
+		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>12</str><dex>15</dex><con>12</con><int>3</int><wis>12</wis><cha>6</cha>
 		<save></save>
@@ -4675,7 +4675,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|4|2d4+2</attack>
 		</action>
 		<spells></spells>
@@ -4686,7 +4686,7 @@
 		<type>elemental, monster manual</type>
 		<alignment>neutral</alignment>
 		<ac>19 (natural armor)</ac>
-		<hp>73 (7d8+42)</hp>
+		<hp>73 (7d8 + 42)</hp>
 		<speed>20 ft., burrow 20 ft.</speed>
 		<str>17</str><dex>10</dex><con>22</con><int>11</int><wis>10</wis><cha>11</cha>
 		<save></save>
@@ -4717,12 +4717,12 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) piercing damage.</text>
 			<attack>Bite|6|3d6+3</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Claw|6|1d6+3</attack>
 		</action>
 		<spells></spells>
@@ -4733,7 +4733,7 @@
 		<type>undead, monster manual</type>
 		<alignment>neutral evil</alignment>
 		<ac>8</ac>
-		<hp>22 (3d8+9)</hp>
+		<hp>22 (3d8 + 9)</hp>
 		<speed>20 ft.</speed>
 		<str>13</str><dex>6</dex><con>16</con><int>3</int><wis>6</wis><cha>5</cha>
 		<save>Wis +0</save>
@@ -4752,7 +4752,7 @@
 		</trait>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
 			<attack>Slam|3|1d6+1</attack>
 		</action>
 		<spells></spells>
