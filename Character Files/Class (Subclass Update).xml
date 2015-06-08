@@ -609,6 +609,41 @@
 		</autolevel>
 
 		<autolevel level="1">
+		<feature>
+			<name>Spellcasting</name>
+			<text>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for a selection of cleric spells.</text>
+			<text> </text>
+			<text>Cantrips</text>
+			<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</text>
+			<text> </text>
+			<text>Preparing and Casting Spells</text>
+			<text>The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</text>
+			<text>    You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+			<text>    For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</text>
+			<text>    You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</text>
+			<text> </text>
+			<text>Spellcasting Ability</text>
+			<text>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</text>
+			<text>    Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+			<text>    Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+			<text> </text>
+			<text>Ritual Casting</text>
+			<text>You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.</text>
+			<text> </text>
+			<text>Spellcasting Focus</text>
+			<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells.</text>
+		</feature>
+		<feature>
+			<name>Divine Domain</name>
+			<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.</text>
+			<text> </text>
+			<text>Domain Spells</text>
+			<text>Each domain has a list of spells-its domain spells-that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
+			<text>    If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
+		</feature>
+	</autolevel>
+
+		<autolevel level="1">
 			<feature optional="YES">
 				<name>Death Domain: Bonus Proficiency</name>
 				<text>When the cleric chooses this domain at 1st level, he or she gains proficiency with martial weapons.</text>
@@ -724,6 +759,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="5">
 			<feature>
 				<name>Destroy Undead</name>
@@ -778,6 +821,14 @@
 		</autolevel>
 
 		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
 			<feature optional="YES">
 				<name>Death Domain: Divine Strike</name>
 				<text>At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra 1d8 necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to 2d8.</text>
@@ -821,6 +872,22 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+		
 		<autolevel level="17">
 			<feature optional="YES">
 				<name>Death Domain: Improved Reaper</name>
@@ -858,6 +925,15 @@
 				<text>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
 			</feature>
 		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 	</class>
 
 	<class>
