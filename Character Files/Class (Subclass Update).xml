@@ -720,7 +720,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Death Domain Channel Divinity: Touch of Death</name>
-				<text>Starting at 2nd level, the cleric can use Channel Divinity to  destroy another creature's life force by touch.</text>
+				<text>Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch.</text>
 				<text>    When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level.</text>
 			</feature>
 			<feature optional="YES">
@@ -769,19 +769,16 @@
 
 		<autolevel level="5">
 			<feature>
-				<name>Destroy Undead</name>
-				<text>Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.</text>
-				<text></text>
-				<text>Cleric Level Destroys Undead of CR</text>
-				<text>5th 1/2 or lower</text>
-				<text>8th 1 or lower</text>
-				<text>11th 2 or lower</text>
-				<text>14th 3 or lower</text>
-				<text>17th 4 or lower</text>
+				<name>Destroy Undead (CR 1/2)</name>
+				<text>Starting at 5th level, when an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="6">
+			<feature>
+				<name>Channel Divinity (2/rest)</name>
+				<text>Beginning at 6th level, you can use your Channel Divinity twice between rests.</text>
+			</feature>
 			<feature optional="YES">
 				<name>Death Domain: Inescapable Destruction</name>
 				<text>Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage.</text>
@@ -825,6 +822,10 @@
 				<name>Ability Score Improvement</name>
 				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+			<feature>
+				<name>Destroy Undead (CR 1)</name>
+				<text>Starting at 8th level, when an undead of CR 1 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
 			</feature>
 		</autolevel>
 
@@ -872,6 +873,13 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="11">
+			<feature>
+				<name>Destroy Undead (CR 2)</name>
+				<text>Starting at 11th level, when an undead of CR 2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="12">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -879,7 +887,14 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
+		<autolevel level="14">
+			<feature>
+				<name>Destroy Undead (CR 3)</name>
+				<text>Starting at 14th level, when an undead of CR 3 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="16">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -887,8 +902,12 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="17">
+			<feature>
+				<name>Destroy Undead (CR 4)</name>
+				<text>Starting at 17th level, when an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+			</feature>
 			<feature optional="YES">
 				<name>Death Domain: Improved Reaper</name>
 				<text>Starting at 17th level, when the cleric casts a Necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the cleric must provide them for each target.</text>
@@ -926,6 +945,13 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="18">
+			<feature>
+				<name>Channel Divinity (3/rest)</name>
+				<text>Beginning at 18th level, you can use your Channel Divinity twice between rests.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="19">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -934,6 +960,12 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="20">
+			<feature>
+				<name>Divine Intervention Improvement</name>
+				<text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
+			</feature>
+		</autolevel>
 	</class>
 
 	<class>
@@ -2756,7 +2788,7 @@
 				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="4">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -2764,7 +2796,7 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="6">
 			<feature optional="YES">
 				<name>Draconic Bloodline: Elemental Affinity</name>
@@ -2798,7 +2830,7 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="10">
 			<feature>
 				<name>Metamagic Option (3rd)</name>
@@ -2839,7 +2871,7 @@
 				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="12">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -2847,7 +2879,7 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="14">
 			<feature optional="YES">
 				<name>Draconic Bloodline: Dragon Wings</name>
@@ -2876,7 +2908,7 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="17">
 			<feature>
 				<name>Metamagic Option (4th)</name>
@@ -2917,7 +2949,7 @@
 				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="18">
 			<feature optional="YES">
 				<name>Draconic Bloodline: Draconic Presence</name>
@@ -2945,7 +2977,7 @@
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
-		
+
 		<autolevel level="20">
 			<feature>
 				<name>Sorcerous Restoration</name>
