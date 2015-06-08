@@ -3302,6 +3302,34 @@
 				<name>School of Transmutation: Minor Alchemy</name>
 				<text>Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Artificer: Infuse Potions</name>
+				<text>Starting at 2nd level, you can produce magic potions. You spend 10 minutes focusing your magic on a vial of mundane water and expend a spell slot to transform it into a potion. Once you have expended a spell slot to create a potion, you cannot regain that slot until the potion is consumed or after 1 week, at which time the potion loses its effectiveness. You can create up to three potions at a time; creating a fourth potion causes the oldest currently active one to immediately lose its potency. If that potion has been consumed, its effects immediately end.</text>
+				<text> </text>
+				<text>The spell slot you expend determines the type of potion you can create.</text>
+				<text> </text>
+				<text>1st - Climbing, growth, or healing</text>
+				<text> </text>
+				<text>2nd - Mind reading or greater healing</text>
+				<text> </text>
+				<text>3rd - Invisibility, superior healing, or water breathing</text>
+				<text> </text>
+				<text>4th - Resistance</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer: Infuse Scrolls</name>
+				<text>At 2nd level, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended spell slots.</text>
+				<text> </text>
+				<text>You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest.</text>				
+			</feature>
+		</autolevel>
+
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="6">
@@ -3351,6 +3379,30 @@
 				<text>Each time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if the stone is on your person.</text>
 				<text>    If you create a new transmuter's stone, the previous one ceases to function.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Artificer: Infuse Weapons and Armor</name>
+				<text>Beginning at 6th level, you can produce magic weapons and armor. You spend 10 minutes focusing your magic on a mundane weapon, suit of armor, shield, or bundle of twenty pieces of ammunition, and expend a spell slot to infuse it with magical energy. The magic item retains its enhancement for 8 hours or until used (in the case of magic ammunition). You can infuse only one item at a time; if you infuse a second one, the first immediately loses its potency. Once you have expended a spell slot to create such an item, you cannot regain that slot until the item becomes nonmagical.</text>
+				<text> </text>
+				<text>The spell slot you expend determines the type of weapon, armor, or shield you can create.</text>
+				<text> </text>
+				<text>2nd - +1 ammunition (20 pieces)</text>
+				<text> </text>
+				<text>3rd - +1 weapon or +1 shield</text>
+				<text> </text>
+				<text>4th - +1 armor</text>
+				<text> </text>
+				<text>5th - +2 weapon or +2 ammunition (20 pieces)</text>
+				<text> </text>
+				<text>6th - +2 armor</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="10">
@@ -3391,6 +3443,20 @@
 				<name>School of Transmutation: Shapechanger</name>
 				<text>At 10th level, you add the polymorph spell to your spellbook, if it is not there already. You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower.</text>
 				<text>    Once you cast polymorph in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer: Superior Artificer</name>
+				<text>Starting at 10th level, you can create a second magic weapon, suit of armor, shield, or bundle of ammunition using your Infuse Weapons and Armor ability. Attempting to infuse a third item causes the oldest one to immediately lose its potency.</text>
+				<text> </text>
+				<text>You can also create one additional potion or scroll using Infuse Potions or Infuse Scrolls.</text>
+			</feature>			
+		</autolevel>
+
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -3436,6 +3502,67 @@
 				<text>    Restore Life. You cast the raise dead spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook.</text>
 				<text>    Restore Youth. You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3 d 10 years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan.</text>
 			</feature>
+			<feature>
+				<name>Artificer: Master Artificer</name>
+				<text>On reaching 14th level, your mastery of arcane magic allows you to produce a variety of magic items. You can create a single item chosen from the lists below. It takes you 1 week to produce such an item, and you must rest for 1 month before using this ability to craft another item.</text>
+				<text> </text>
+				<text>d100 Magic Item (List A)</text>
+				<text> </text>
+				<text>01-50 Potion of healing</text>
+				<text>51-60 Spell scroll (cantrip)</text>
+				<text>61-70 Potion of climbing</text>
+				<text>71-90 Spell scroll (1st level)</text>
+				<text>91-94 Spell scroll (2nd level)</text>
+				<text>95-98 Potion of greater healing</text>
+				<text>99 Bag of holding</text>
+				<text>00 Driftglobe</text>
+				<text> </text>
+				<text>d100 Magic Item (List B)</text>
+				<text> </text>
+				<text>01-15 Potion of greater healing</text>
+				<text>16-22 Potion of fire breath</text>
+				<text>23-29 Potion of resistance</text>
+				<text>30-34 Ammunition , +1</text>
+				<text>35-39 Potion of animal friendship</text>
+				<text>40-44 Potion of hill giant strength</text>
+				<text>45-49 Potion of growth</text>
+				<text>50-54 Potion of water breathing</text>
+				<text>55-59 Spell scroll (2nd level)</text>
+				<text>60-64 Spell scroll (3rd level)</text>
+				<text>65-67 Bag of holding</text>
+				<text>68-70 Keoghtom's ointment</text>
+				<text>71-73 Oil of slipperiness</text>
+				<text>74-75 Dust of disappearance</text>
+				<text>76-77 Dust of dryness</text>
+				<text>78-79 Dust of sneezing and choking</text>
+				<text>80-81 Elemental gem</text>
+				<text>82-83 Philter of love</text>
+				<text>84 Alchemy jug</text>
+				<text>85 Cap of water breathing</text>
+				<text>86 Cloak of the manta ray</text>
+				<text>87 Driftglobe</text>
+				<text>88 Goggles of night</text>
+				<text>89 Helm of comprehending languages</text>
+				<text>90 Immovable rod</text>
+				<text>91 Lantern of revealing</text>
+				<text>92 Mariner's armor</text>
+				<text>93 Mithral armor</text>
+				<text>94 Potion of poison</text>
+				<text>95 Ring of swimming</text>
+				<text>96 Robe of useful items</text>
+				<text>97 Rope of climbing</text>
+				<text>98 Saddle of the cavalier</text>
+				<text>99 Wand of magic detection</text>
+				<text>00 Wand of secrets</text>
+			</feature>			
+		</autolevel>
+
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="18">
@@ -3443,6 +3570,14 @@
 				<name>Spell Mastery</name>
 				<text>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
 				<text>    By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
