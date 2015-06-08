@@ -617,9 +617,9 @@
 				<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</text>
 				<text> </text>
 				<text>Preparing and Casting Spells</text>
-				<text>The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
 				<text>    You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
-				<text>    For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</text>
+				<text>    For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
 				<text>    You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</text>
 				<text> </text>
 				<text>Spellcasting Ability</text>
@@ -1312,7 +1312,7 @@
 				<text>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</text>
 				<text> </text>
 				<text>Cantrips</text>
-				<text>You learn two cantrips of your choice fram the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.</text>
+				<text>You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.</text>
 				<text> </text>
 				<text>Spell Slots</text>
 				<text>The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
@@ -1790,7 +1790,7 @@
 
 		<autolevel level="3">
 			<feature>
-				<name>Manastic Tradition</name>
+				<name>Monastic Tradition</name>
 				<text>When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, the Way of Shadow, or the Way of the Four Elements, all detailed at the end of the class description. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</text>
 			</feature>
 			<feature>
@@ -2551,23 +2551,6 @@
 				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Thief: Fast Hands</name>
-				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Thief: Second-Story Work</name>
-				<text>Starting at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.</text>
-				<text>    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Assassin: Bonus Proficiencies</name>
-				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Assassin: Assassinate</name>
-				<text>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Arcane Trickster: Mage Hand Legerdemain</name>
 				<text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:</text>
 				<text></text>
@@ -2577,6 +2560,55 @@
 				<text></text>
 				<text>    You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.</text>
 				<text>    In addition, you can use the bonus action granted by your Cunning Action to control the hand.</text>
+			</feature>
+			<feature>
+				<name>Arcane Trickster: Spellcasting</name>
+				<text>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</text>
+				<text> </text>
+				<text>Cantrips</text>
+				<text>At 1st level, You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.</text>
+				<text> </text>
+				<text>Spell Slots</text>
+				<text>The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>    For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.</text>
+				<text> </text>
+				<text>Spells Known of 1st-Level and Higher</text>
+				<text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.</text>
+				<text>    The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</text>
+				<text>    The spells you learn at 8th, 14th, and 20th level can come fram any school of magic.</text>
+				<text>    Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.</text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</text>
+				<text>    Spell save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
+				<text>    Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Assassin: Assassinate</name>
+				<text>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Assassin: Bonus Proficiencies</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Swashbuckler: Fancy Footwork</name>
+				<text>Starting at 3rd level, you are a continuous blur of motion in battle as you dart in, attack, and slip away to safety. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Swashbuckler: Toujours l'Audace</name>
+				<text>At 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls.</text>
+				<text>    In addition, you can use Sneak Attack with any melee attack made against a target that has none of your allies adjacent to it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Thief: Fast Hands</name>
+				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Thief: Second-Story Work</name>
+				<text>Starting at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.</text>
+				<text>    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
 			</feature>
 		</autolevel>
 
@@ -2612,8 +2644,8 @@
 
 		<autolevel level="9">
 			<feature optional="YES">
-				<name>Thief: Supreme Sneak</name>
-				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
+				<name>Arcane Trickster: Magical Ambush</name>
+				<text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Assassin: Infiltration Expertise</name>
@@ -2621,8 +2653,14 @@
 				<text>    Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Arcane Trickster: Magical Ambush</name>
-				<text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</text>
+				<name>Swashbuckler: Panache</name>
+				<text>At 9th level, your charm becomes as sharp and dangerous as your blade. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
+				<text>    If you succeed on the check and the creature is hostile, it must target you with any attacks it makes and cannot willingly move farther away from you. This effect lasts for 1 minute or until you move more than 60 feet away from the target.</text>
+				<text>    If you succeed on the check and the creature is not hostile, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Thief: Supreme Sneak</name>
+				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
 			</feature>
 		</autolevel>
 
@@ -2651,8 +2689,8 @@
 
 		<autolevel level="13">
 			<feature optional="YES">
-				<name>Thief: Use Magic Device</name>
-				<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
+				<name>Arcane Trickster: Versatile Trickster</name>
+				<text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Assassin: Imposter</name>
@@ -2660,8 +2698,12 @@
 				<text>    Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Arcane Trickster: Versatile Trickster</name>
-				<text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
+				<name>Swashbuckler: Elegant Maneuver</name>
+				<text>You complete difficult maneuvers with practiced ease. Starting at 13th level, you can use a bonus action to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Thief: Use Magic Device</name>
+				<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
 			</feature>
 		</autolevel>
 
@@ -2689,19 +2731,22 @@
 
 		<autolevel level="17">
 			<feature optional="YES">
-				<name>Thief: Thief's Reflexes</name>
-				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
+				<name>Arcane Trickster: Spell Thief</name>
+				<text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</text>
+				<text>    Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Assassin: Death Strike</name>
 				<text>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</text>
 			</feature>
-
 			<feature optional="YES">
-				<name>Arcane Trickster: Spell Thief</name>
-				<text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</text>
-				<text>    Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
+				<name>Swashbuckler: Master Duelist</name>
+				<text>At 17th level your mastery of the blade lets you turn failure to success in combat. If you miss with an attack, you can choose to roll the attack again with advantage. Once you use this ability, you cannot use it again until you finish a short or long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Thief: Thief's Reflexes</name>
+				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
 			</feature>
 		</autolevel>
 
