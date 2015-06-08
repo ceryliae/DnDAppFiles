@@ -1019,12 +1019,37 @@
 				<name>Druidic</name>
 				<text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</text>
 			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 for the general rules of spellcasting and chapter 11 for the druid spell list.</text>
+				<text> </text>
+				<text>Cantrips</text>
+				<text>At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.</text>
+				<text> </text>
+				<text>Preparing and Casting Spells</text>
+				<text>The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>    Vou prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>    For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare
+the 1st-level spell cure wounds, you can cast it using a 1st-level ar 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
+				<text>    You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.</text>
+				<text>    Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				<text>    Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+				<text> </text>
+				<text>Ritual Casting</text>
+				<text>You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.</text>
+				<text> </text>
+				<text>Spellcasting Focus</text>
+				<text>You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="2">
 			<feature>
 				<name>Wild Shape</name>
-				<text>Starting at 2nd level, you can use your action to  magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</text>
+				<text>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</text>
 				<text>    Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.</text>
 				<text></text>
 				<text>Beast Shapes</text>
@@ -1042,7 +1067,7 @@
 				<text>• You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.</text>
 			</feature>
 			<feature>
-				<name>Druidic Shape</name>
+				<name>Druid Circle</name>
 				<text>At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
 			</feature>
 			<feature optional="YES">
@@ -1051,7 +1076,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Circle of Land: Natural Recovery</name>
-				<text>You can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest</text>
+				<text>Starling at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest</text>
 				<text>    For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</text>
 			</feature>
 			<feature optional="YES">
@@ -1066,38 +1091,70 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="6">
 			<feature optional="YES">
 				<name>Circle of Land: Land's Stride</name>
-				<text>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</text>
+				<text>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</text>
 				<text>    In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Circle of Moon: Primal Strike</name>
-				<text>Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+				<text>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="10">
 			<feature optional="YES">
 				<name>Circle of Land: Nature's Ward</name>
-				<text>You can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.</text>
+				<text>When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Circle of Moon: Elemental Wild Shape</name>
-				<text>You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</text>
+				<text>At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="14">
 			<feature optional="YES">
 				<name>Circle of Land: Nature's Sanctuary</name>
-				<text>Creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.</text>
+				<text>When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.</text>
 				<text>    The creature is aware of this effect before it makes its attack against you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Circle of Moon: Thousand Forms</name>
 				<text>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -1109,6 +1166,14 @@
 			<feature>
 				<name>Beast Spells</name>
 				<text>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
