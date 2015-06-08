@@ -1802,6 +1802,11 @@
 
 		<autolevel level="4">
 			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+			<feature>
 				<name>Slow Fall</name>
 				<text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</text>
 			</feature>
@@ -1832,10 +1837,26 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="10">
 			<feature>
 				<name>Purity of Body</name>
 				<text>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -1861,11 +1882,27 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="18">
 			<feature>
 				<name>Empty Body</name>
 				<text>Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.</text>
 				<text>    Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -1939,6 +1976,10 @@
 		</autolevel>
 
 		<autolevel level="2">
+			<feature>
+				<name>Divine Smite</name>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+			</feature>
 			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
@@ -1960,8 +2001,25 @@
 				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
 			</feature>
 			<feature>
-				<name>Divine Smite</name>
-				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+				<name>Spellcasting</name>
+				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</text>
+				<text> </text>
+				<text>Cantrips</text>
+				<text>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</text>
+				<text> </text>
+				<text>Preparing and Casting Spells</text>
+				<text>The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>    You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>    For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
+				<text>    You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</text>
+				<text> </text>
+				<text>Spellcasting Ability</text>
+				<text>Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.</text>
+				<text>    Spell save DC = 8 + your proficiency bonus + your Charisma modifier</text>
+				<text>    Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
+				<text> </text>
+				<text>Spellcasting Focus</text>
+				<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells.</text>
 			</feature>
 		</autolevel>
 
@@ -2027,6 +2085,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="5">
 			<feature>
 				<name>Extra Attack</name>
@@ -2059,6 +2125,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="10">
 			<feature>
 				<name>Aura of Courage</name>
@@ -2071,6 +2145,14 @@
 			<feature>
 				<name>Improved Divine Smite</name>
 				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -2095,6 +2177,29 @@
 			<feature optional="YES">
 				<name>Oath of Vengeance: Soul of Vengeance</name>
 				<text>Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature>
+				<name>Aura of Protection Improvement</name>
+				<text>At 18th level, the range of your Aura of Protection increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -2245,6 +2350,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="5">
 			<feature>
 				<name>Extra Attack</name>
@@ -2267,6 +2380,11 @@
 		</autolevel>
 
 		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
 			<feature>
 				<name>Land's Stride</name>
 				<text>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</text>
@@ -2295,6 +2413,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="14">
 			<feature>
 				<name>Vanish</name>
@@ -2316,10 +2442,26 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="18">
 			<feature>
 				<name>Feral Senses</name>
 				<text>At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -2438,6 +2580,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="5">
 			<feature>
 				<name>Uncanny Dodge</name>
@@ -2449,6 +2599,14 @@
 			<feature>
 				<name>Evasion</name>
 				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -2468,10 +2626,26 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="10">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="11">
 			<feature>
 				<name>Reliable Talent</name>
 				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -2505,6 +2679,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="17">
 			<feature optional="YES">
 				<name>Thief: Thief's Reflexes</name>
@@ -2527,6 +2709,14 @@
 			<feature>
 				<name>Elusive</name>
 				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -3142,6 +3332,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="6">
 			<feature optional="YES">
 				<name>The Archfey: Misty Escape</name>
@@ -3157,6 +3355,14 @@
 				<name>The Great Old One: Entropic Ward</name>
 				<text>At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.</text>
 				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
@@ -3184,6 +3390,14 @@
 			</feature>
 		</autolevel>
 
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
 		<autolevel level="14">
 			<feature optional="YES">
 				<name>The Archfey: Dark Delirium</name>
@@ -3201,6 +3415,22 @@
 				<name>The Great Old One: Create Thrall</name>
 				<text>At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.</text>
 				<text>    You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 
