@@ -1784,6 +1784,7 @@
 				<name>Patient Defense</name>
 				<text>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</text>
 			</feature>
+			<feature>
 				<name>Step of the Wind</name>
 				<text>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</text>
 			</feature>
@@ -1893,7 +1894,6 @@
 				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
 			</feature>
 			<feature optional="YES">
-			<feature>
 				<name>Way of Shadow: Shadow Step</name>
 				<text>You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</text>
 			</feature>
@@ -2294,7 +2294,73 @@
 		<text/>
 		<text>If you maintain your concentration on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.</text>
 	</spell>
-	
+<!--Shadow Monk Spells-->
+	<spell>
+		<name>Darkness (Monk)</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<range>60 feet</range>
+		<components>2 Ki Points</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.</text>
+		<text/>
+		<text>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</text>
+		<text/>
+		<text>If any of this spell's area overlaps with an area of light created by a spell of or lower, the spell that created the light is dispelled.</text>
+	</spell>
+	<spell>
+		<name>Darkvision (Monk)</name>
+		<level>1</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>2 Ki Points</components>
+		<duration>8 hours</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.</text>
+	</spell>
+	<spell>
+		<name>Pass without trace (Monk)</name>
+		<level>1</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>2 Ki Points</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.</text>
+	</spell>
+	<spell>
+		<name>Silence (Monk)</name>
+		<level>1</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>120 feet</range>
+		<components>2 Ki Points</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</text>
+	</spell>
+	<spell>
+		<name>Minor Illusion (Monk)</name>
+		<level>0</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>S, M</components>
+		<duration>1 Minute</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</text>
+		<text/>
+		<text>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</text>
+		<text/>
+		<text>If you create an image of an object, such as a chair, muddy footprints, or a small chest. It must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</text>
+		<text/>
+		<text>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</text>
+	</spell>
+		
 	<class>
 		<name>Paladin</name>
 		<hd>8</hd>
@@ -2961,6 +3027,7 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 		<name>Ranger (Variant)</name>
 		<hd>10</hd>
 		<proficiency>Strength, Dexterity</proficiency>
+		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
 				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
@@ -2980,9 +3047,7 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 				<text></text>
 				<text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
 			</feature>
-		</autolevel>
 
-		<autolevel level="1">
 			<feature>
 				<name>Favored Enemy</name>
 				<text>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.</text>
@@ -3110,12 +3175,12 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 		</autolevel>
 
 		<autolevel level="3">
-		<feature>
-			<name>Poultices</name>
-			<text>At 3rd level, you can create special herbal poultices that have healing power comparable to some potions. You can spend 1 hour gathering herbs and preparing herbal poultices using treated bandages to create a number of such poultices equal to your Wisdom modifier (minimum 1). You can carry a number of poultices at one time equal to your Wisdom modifier (minimum 1). The poultices you create cannot be applied by anyone but you. After 24 hours, any poultices that you have not used lose their potency.</text>
-			<text> </text>
-			<text>If you spend 1 minute applying one of your poultices to a wounded humanoid creature, thereby expending its use, that creature regains 1d6 hit points for every two ranger levels you have (rounded up).</text>
-		</feature>
+			<feature>
+				<name>Poultices</name>
+				<text>At 3rd level, you can create special herbal poultices that have healing power comparable to some potions. You can spend 1 hour gathering herbs and preparing herbal poultices using treated bandages to create a number of such poultices equal to your Wisdom modifier (minimum 1). You can carry a number of poultices at one time equal to your Wisdom modifier (minimum 1). The poultices you create cannot be applied by anyone but you. After 24 hours, any poultices that you have not used lose their potency.</text>
+				<text> </text>
+				<text>If you spend 1 minute applying one of your poultices to a wounded humanoid creature, thereby expending its use, that creature regains 1d6 hit points for every two ranger levels you have (rounded up).</text>
+			</feature>
 			<feature optional="YES">
 				<name>Hunter: Hunter's Prey</name>
 				<text>At 3rd level, you gain one of the following features of your choice: Colossus Slayer, Giant Killer, or Horde Breaker.</text>
@@ -3363,18 +3428,18 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 		</autolevel>
 
 		<autolevel level="11">
-		<feature optional="YES">
-			<name>Hunter: Multiattack</name>
-			<text>At 11th level, you gain one of the following features of your choice: Volley or Whirlwind Attack.</text>
-		</feature>
-		<feature optional="YES">
-			<name>Multiattack: Volley</name>
-			<text>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target. </text>
-		</feature>
-		<feature optional="YES">
-			<name>Multiattack: Whirlwind Attack</name>
-			<text>You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</text>
-		</feature>
+			<feature optional="YES">
+				<name>Hunter: Multiattack</name>
+				<text>At 11th level, you gain one of the following features of your choice: Volley or Whirlwind Attack.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Multiattack: Volley</name>
+				<text>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target. </text>
+			</feature>
+			<feature optional="YES">
+				<name>Multiattack: Whirlwind Attack</name>
+				<text>You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</text>
+			</feature>
 			<feature optional="YES">
 				<name>Beast Master: Bestial Fury</name>
 				<text>Your beast companion can make two attacks when you command it to use the Attack action.</text>
@@ -3514,7 +3579,7 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 			</feature>
 		</autolevel>
 		
-		<autolevel>
+		<autolevel level="17">
 			<feature>
 				<name>Relentless</name>
 				<text>Starting at 17th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</text>
@@ -4471,6 +4536,62 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 		</autolevel>
 
 		<autolevel level="1">
+			<feature>
+				<name>Otherworldly Patron</name>
+				<text>At 1st level, you have struck a bargain with an otherworldly being of your choice - the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Otherworldly Patron: The Archfey</name>
+				<text>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</text>
+				<text> </text>
+				<text>Expanded Spell List: The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text> </text>
+				<text>1st - faerie fire, sleep</text>
+				<text> </text>
+				<text>2nd - calm emotions, phantasmal force</text>
+				<text> </text>
+				<text>3rd - blink, plant growth</text>
+				<text> </text>
+				<text>4th - dominate beast, greater invisibility</text>
+				<text> </text>
+				<text>5th - dominate person, seeming</text>
+			</feature>
+			<feature optional="YES">
+				<name>Otherworldly Patron: The Archfey</name>
+				<text>At 1st level, you have struck a bargain with an otherworldly being of your choice - the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</text>
+				<text> </text>
+				<text>The Fiend: You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</text>
+				<text> </text>
+				<text>Expanded Spell List: The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text> </text>
+				<text>1st - burning hands, command</text>
+				<text> </text>
+				<text>2nd - blindness/deafness, scorching ray</text>
+				<text> </text>
+				<text>3rd - fireball, stinking cloud</text>
+				<text> </text>
+				<text>4th - fire shield, wall of fire</text>
+				<text> </text>
+				<text>5th - flame strike, hallow</text>
+			</feature>
+			<feature optional="YES">
+				<name>Otherworldly Patron: The Great Old One</name>
+				<text>At 1st level, you have struck a bargain with an otherworldly being of your choice - the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</text>
+				<text> </text>
+				<text>The Great Old One: Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.</text>
+				<text> </text>
+				<text>Expanded Spell List: The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text> </text>
+				<text>1st - dissonant whispers, Tasha's hideous laughter</text>
+				<text> </text>
+				<text>2nd - detect thoughts, phantasmal force</text>
+				<text> </text>
+				<text>3rd - clairvoyance, sending</text>
+				<text> </text>
+				<text>4th - dominate beast, Evard's black tentacles</text>
+				<text> </text>
+				<text>5th - dominate person, telekinesis</text>
+			</feature>
 			<feature optional="YES">
 				<name>The Archfey: Fey Presence</name>
 				<text>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</text>
@@ -4484,32 +4605,58 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 				<name>The Great Old One: Awakened Mind</name>
 				<text>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</text>
 			</feature>
+			<feature>
+				<name>Pact Magic</name>
+				<text>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.</text>
+				<text> </text>
+				<text>Cantrips: You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</text>
+				<text> </text>
+				<text>Spell Slots: The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</text>
+				<text> </text>
+				<text>For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell.</text>
+				<text> </text>
+				<text>Spells Known of 1st Level and Higher: At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</text>
+				<text> </text>
+				<text> You learn a new warlock spell every time you gain a level from 2 through 9, as well as at level 19. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</text>
+				<text> </text>
+				<text>Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</text>
+				<text> </text>
+				<text>Spellcasting Ability: Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</text>
+				<text> </text>
+				<text>Spell save DC: 8 + Proficiency bonus + Charisma modifier</text>
+				<text> </text>
+				<text>Spell attack modifier: Proficiency bonus + Charisma modifier</text>
+				<text> </text>
+				<text>Spellcasting Focus: You can use an arcane focus (found in chapter 5) as a spellcasting focus for your warlock spells.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="2">
 			<feature>
 				<name>Eldritch Invocations</name>
 				<text>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</text>
-				<text>    At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.</text>
+				<text>    At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice.</text>
 				<text>    Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</text>
+				<text> </text>
+				<text>For those of you who are multiclassing, be aware that the level prerequisites for Invocations is based on your character level, not your class level. When choosing Invocations, you should select them from the highest level list of Invocations. For example, if your character is an 8th level Sorcerer and a 2nd level Warlock, scroll down until you see the Invocations listed under level 9. That list will have the Invocations with prequisites of 5th, 7th, and 9th level, in addition to the ones available at 2nd level.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="3">
 			<feature optional="YES">
-				<name>Pact of the Chain</name>
+				<name>Pact Boon: Pact of the Chain</name>
 				<text>You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.</text>
 				<text>    When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</text>
 				<text>    Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Pact of the Blade</name>
+				<name>Pact Boon: Pact of the Blade</name>
 				<text>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
 				<text>    Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</text>
 				<text>    You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Pact of the Tome</name>
+				<name>Pact Boon: Pact of the Tome</name>
 				<text>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</text>
 			</feature>
 		</autolevel>
@@ -4522,6 +4669,12 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 			</feature>
 		</autolevel>
 
+		<autolevel level="5">
+			<feature>
+				<name>Eldritch Invocation</name>
+				<text>You learn an additional eldritch invocation</text>
+			</feature>
+		</autolevel>
 		<autolevel level="6">
 			<feature optional="YES">
 				<name>The Archfey: Misty Escape</name>
@@ -4540,6 +4693,13 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 			</feature>
 		</autolevel>
 
+		<autolevel level="7">
+			<feature>
+				<name>Eldritch Invocation</name>
+				<text>You learn an additional eldritch invocation</text>
+			</feature>
+		</autolevel>
+		
 		<autolevel level="8">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -4548,6 +4708,13 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 			</feature>
 		</autolevel>
 
+		<autolevel level="9">
+			<feature>
+				<name>Eldritch Invocation</name>
+				<text>You learn an additional eldritch invocation</text>
+			</feature>
+		</autolevel>
+		
 		<autolevel level="10">
 			<feature optional="YES">
 				<name>The Archfey: Beguiling Defenses</name>
@@ -4565,7 +4732,7 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 
 		<autolevel level="11">
 			<feature>
-				<name>Mystic Arcanum</name>
+				<name>Mystic Arcanum (6th level)</name>
 				<text>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.</text>
 				<text>    You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</text>
 				<text>    At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic A rcanum when you finish a long rest.</text>
@@ -4578,8 +4745,20 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
 				<text>   If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
+			<feature>
+				<name>Eldritch Invocation</name>
+				<text>You learn an additional eldritch invocation</text>
+			</feature>
 		</autolevel>
 
+		<autolevel level="13">
+			<feature>
+				<name>Mystic Arcanum (7th level)</name>
+				<text>At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one 7th-level spell from the warlock spell list as this arcanum.</text>
+				<text>    You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</text>
+			</feature>
+		</autolevel>
+		
 		<autolevel level="14">
 			<feature optional="YES">
 				<name>The Archfey: Dark Delirium</name>
@@ -4600,6 +4779,18 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 			</feature>
 		</autolevel>
 
+		<autolevel level="15">
+			<feature>
+				<name>Eldritch Invocation</name>
+				<text>You learn an additional eldritch invocation</text>
+			</feature>
+			<feature>
+				<name>Mystic Arcanum (8th level)</name>
+				<text>At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one 8th-level spell from the warlock spell list as this arcanum.</text>
+				<text>    You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</text>
+			</feature>
+		</autolevel>
+		
 		<autolevel level="16">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -4608,6 +4799,21 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 			</feature>
 		</autolevel>
 
+		<autolevel level="17">
+			<feature>
+				<name>Mystic Arcanum (9th level)</name>
+				<text>At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one 9th-level spell from the warlock spell list as this arcanum.</text>
+				<text>    You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature>
+				<name>Eldritch Invocation</name>
+				<text>You learn an additional eldritch invocation</text>
+			</feature>
+		</autolevel>
+		
 		<autolevel level="19">
 			<feature>
 				<name>Ability Score Improvement</name>
@@ -4625,132 +4831,942 @@ to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum o
 
 		<autolevel level="2">
 			<feature optional="YES">
-				<name>Agonizing Blast</name>
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
 				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Armor of Shadows</name>
+				<name>Eldritch Invocation: Armor of Shadows</name>
 				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Ascendant Step</name>
-				<text>You can cast levitate on yourself at will, without expending a spell slot or material components.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Beast Speech</name>
+				<name>Eldritch Invocation: Beast Speech</name>
 				<text>You can cast speak with animals at will, without expending a spell slot.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Beguiling Influence</name>
+				<name>Eldritch Invocation: Beguiling Influence</name>
 				<text>You gain proficiency in the Deception and Persuasion skills.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Bewitching Whispers</name>
-				<text>You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Book of Ancient Secrets</name>
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
 				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
 				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Chains of Carceri</name>
-				<text>You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Devil's Sight</name>
+				<name>Eldritch Invocation: Devil's Sight</name>
 				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Dreadful Word</name>
-				<text>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Eldritch Sight</name>
+				<name>Eldritch Invocation: Eldritch Sight</name>
 				<text>You can cast detect magic at will, without expending a spell slot.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Eldritch Spear</name>
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
 				<text>When you cast eldritch blast, its range is 300 feet.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Eyes of the Rune Keeper</name>
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
 				<text>You can read all writing.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Fiendish Vigor</name>
+				<name>Eldritch Invocation: Fiendish Vigor</name>
 				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Gaze of Two Minds</name>
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
 				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Lifedrinker</name>
-				<text>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mask of Many Faces</name>
+				<name>Eldritch Invocation: Mask of Many Faces</name>
 				<text>You can cast disguise self at will, without expending a spell slot.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Master of Myriad Forms</name>
-				<text>You can cast alter self at will, without expending a spell slot.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Minions of Chaos</name>
-				<text>You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mire the Mind</name>
-				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Misty Visions</name>
+				<name>Eldritch Invocation: Misty Visions</name>
 				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
 			</feature>
 			<feature optional="YES">
-				<name>One with Shadows</name>
-				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Otherworldly Leap</name>
-				<text>You can cast jump on yourself at will, without expending a spell slot or material components.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Repelling Blast</name>
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
 				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Sculptor of Flesh</name>
-				<text>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Signs of Ill Omen</name>
-				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Thief of Five Fates</name>
+				<name>Eldritch Invocation: Thief of Five Fates</name>
 				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Thirsting Blade</name>
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
+				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature optional="YES">
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Armor of Shadows</name>
+				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beast Speech</name>
+				<text>You can cast speak with animals at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beguiling Influence</name>
+				<text>You gain proficiency in the Deception and Persuasion skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Devil's Sight</name>
+				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Sight</name>
+				<text>You can cast detect magic at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, its range is 300 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
+				<text>You can read all writing.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Fiendish Vigor</name>
+				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
+				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mask of Many Faces</name>
+				<text>You can cast disguise self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mire the Mind</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Misty Visions</name>
+				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: One with Shadows</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Signs of Ill Omen</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thief of Five Fates</name>
+				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thirsting Blade</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text></text>
 				<text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Visions of Distant Realms</name>
-				<text>You can cast arcane eye at will, without expending a spell slot.</text>
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
+				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Voice of the Chain Master</name>
+				<name>Eldritch Invocation: Armor of Shadows</name>
+				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beast Speech</name>
+				<text>You can cast speak with animals at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beguiling Influence</name>
+				<text>You gain proficiency in the Deception and Persuasion skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Bewitching Whispers</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Devil's Sight</name>
+				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Dreadful Word</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Sight</name>
+				<text>You can cast detect magic at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, its range is 300 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
+				<text>You can read all writing.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Fiendish Vigor</name>
+				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
+				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mask of Many Faces</name>
+				<text>You can cast disguise self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mire the Mind</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Misty Visions</name>
+				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: One with Shadows</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Sculptor of Flesh</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Signs of Ill Omen</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thief of Five Fates</name>
+				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thirsting Blade</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text></text>
+				<text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
+				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Armor of Shadows</name>
+				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Ascendant Step</name>
+				<text>Prerequisite: 9th level </text>
+				<text></text>
+				<text>You can cast levitate on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beast Speech</name>
+				<text>You can cast speak with animals at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beguiling Influence</name>
+				<text>You gain proficiency in the Deception and Persuasion skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Bewitching Whispers</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Devil's Sight</name>
+				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Dreadful Word</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Sight</name>
+				<text>You can cast detect magic at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, its range is 300 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
+				<text>You can read all writing.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Fiendish Vigor</name>
+				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
+				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mask of Many Faces</name>
+				<text>You can cast disguise self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Minions of Chaos</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mire the Mind</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Misty Visions</name>
+				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: One with Shadows</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Otherworldly Leap</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast jump on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Sculptor of Flesh</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Signs of Ill Omen</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thief of Five Fates</name>
+				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thirsting Blade</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text></text>
+				<text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
 				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Whispers of the Grave</name>
+				<name>Eldritch Invocation: Whispers of the Grave</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast speak with dead at will, without expending a spell slot.</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="12">
+			<feature optional="YES">
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Armor of Shadows</name>
+				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Ascendant Step</name>
+				<text>Prerequisite: 9th level </text>
+				<text></text>
+				<text>You can cast levitate on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beast Speech</name>
+				<text>You can cast speak with animals at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beguiling Influence</name>
+				<text>You gain proficiency in the Deception and Persuasion skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Bewitching Whispers</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Devil's Sight</name>
+				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Dreadful Word</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Sight</name>
+				<text>You can cast detect magic at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, its range is 300 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
+				<text>You can read all writing.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Fiendish Vigor</name>
+				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
+				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Lifedrinker</name>
+				<text>Prerequisite: 12th level</text>
+				<text></text>
+				<text>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mask of Many Faces</name>
+				<text>You can cast disguise self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Minions of Chaos</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mire the Mind</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Misty Visions</name>
+				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: One with Shadows</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Otherworldly Leap</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast jump on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Sculptor of Flesh</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Signs of Ill Omen</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thief of Five Fates</name>
+				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thirsting Blade</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text></text>
+				<text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
+				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Whispers of the Grave</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast speak with dead at will, without expending a spell slot.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Armor of Shadows</name>
+				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Ascendant Step</name>
+				<text>Prerequisite: 9th level </text>
+				<text></text>
+				<text>You can cast levitate on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beast Speech</name>
+				<text>You can cast speak with animals at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beguiling Influence</name>
+				<text>You gain proficiency in the Deception and Persuasion skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Bewitching Whispers</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Chains of Carceri</name>
+				<text>Prerequisite: 15th level, Pact of the Chain feature</text>
+				<text></text>
+				<text>You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Devil's Sight</name>
+				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Dreadful Word</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Sight</name>
+				<text>You can cast detect magic at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, its range is 300 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
+				<text>You can read all writing.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Fiendish Vigor</name>
+				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
+				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Lifedrinker</name>
+				<text>Prerequisite: 12th level</text>
+				<text></text>
+				<text>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mask of Many Faces</name>
+				<text>You can cast disguise self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Master of Myriad Forms</name>
+				<text>Prerequisite: 15th level</text>
+				<text></text>
+				<text>You can cast alter self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Minions of Chaos</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mire the Mind</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Misty Visions</name>
+				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: One with Shadows</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Otherworldly Leap</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast jump on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Sculptor of Flesh</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Signs of Ill Omen</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thief of Five Fates</name>
+				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thirsting Blade</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text></text>
+				<text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Visions of Distant Realms</name>
+				<text>Prerequisite: 15th level</text>
+				<text></text>
+				<text>You can cast arcane eye at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
+				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Whispers of the Grave</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
 				<text>You can cast speak with dead at will, without expending a spell slot.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Witch Sight</name>
+				<name>Eldritch Invocation: Witch Sight</name>
+				<text>Prerequisite: 15th level</text>
+				<text></text>
+				<text>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Eldritch Invocation: Agonizing Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Armor of Shadows</name>
+				<text>You can cast mage armor on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Ascendant Step</name>
+				<text>Prerequisite: 9th level </text>
+				<text></text>
+				<text>You can cast levitate on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beast Speech</name>
+				<text>You can cast speak with animals at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Beguiling Influence</name>
+				<text>You gain proficiency in the Deception and Persuasion skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Bewitching Whispers</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Book of Ancient Secrets</name>
+				<text>Prerequisite: Pact of the Tome feature</text>
+				<text></text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Chains of Carceri</name>
+				<text>Prerequisite: 15th level, Pact of the Chain feature</text>
+				<text></text>
+				<text>You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Devil's Sight</name>
+				<text>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Dreadful Word</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Sight</name>
+				<text>You can cast detect magic at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eldritch Spear</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you cast eldritch blast, its range is 300 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Eyes of the Rune Keeper</name>
+				<text>You can read all writing.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Fiendish Vigor</name>
+				<text>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Gaze of Two Minds</name>
+				<text>You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Lifedrinker</name>
+				<text>Prerequisite: 12th level</text>
+				<text></text>
+				<text>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mask of Many Faces</name>
+				<text>You can cast disguise self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Master of Myriad Forms</name>
+				<text>Prerequisite: 15th level</text>
+				<text></text>
+				<text>You can cast alter self at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Minions of Chaos</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Mire the Mind</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Misty Visions</name>
+				<text>You can cast silent image at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: One with Shadows</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Otherworldly Leap</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast jump on yourself at will, without expending a spell slot or material components.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Repelling Blast</name>
+				<text>Prerequisite: eldritch blast cantrip</text>
+				<text></text>
+				<text>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Sculptor of Flesh</name>
+				<text>Prerequisite: 7th level</text>
+				<text></text>
+				<text>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Signs of Ill Omen</name>
+				<text>Prerequisite: 5th level</text>
+				<text></text>
+				<text>You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thief of Five Fates</name>
+				<text>You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Thirsting Blade</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text></text>
+				<text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Visions of Distant Realms</name>
+				<text>Prerequisite: 15th level</text>
+				<text></text>
+				<text>You can cast arcane eye at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Voice of the Chain Master</name>
+				<text>Prerequisite: Pact of the Chain feature</text>
+				<text></text>
+				<text>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Whispers of the Grave</name>
+				<text>Prerequisite: 9th level</text>
+				<text></text>
+				<text>You can cast speak with dead at will, without expending a spell slot.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Eldritch Invocation: Witch Sight</name>
+				<text>Prerequisite: 15th level</text>
+				<text></text>
 				<text>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</text>
 			</feature>
 		</autolevel>
