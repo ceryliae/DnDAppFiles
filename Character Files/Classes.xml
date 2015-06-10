@@ -394,7 +394,7 @@
 		<autolevel level="2">
 			<feature>
 				<name>Song of Rest</name>
-				<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</text>
+				<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</text>
 				<text>    The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</text>
 			</feature>
 		</autolevel>
@@ -1526,7 +1526,11 @@
 			</feature>
 			<feature optional="YES">
 				<name>Maneuver: Evasive Footwork</name>
-				<text>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving. Feinting Attack. You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack's damage roll.</text>
+				<text>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Maneuver: Feinting Attack</name>
+				<text>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature. If that attack hits, add the superiority die to the attack's damage roll.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Maneuver: Goading Attack</name>
@@ -2023,7 +2027,7 @@
 			<feature>
 				<name>Deflect Missiles</name>
 				<text>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d 10 + your Dexterity modifier + your monk level.</text>
-				<text>    If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the  same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
+				<text>    If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
 			</feature>
 		</autolevel>
 
@@ -2286,7 +2290,7 @@
 		<text>• Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute.</text>
 	</spell>
 	<spell>
-		<name>Eternal Mountain Defense (11th level required)</name>
+		<name>Eternal Mountain Defense (17th level required)</name>
 		<level>3</level>
 		<school>A</school>
 		<time>1 Action</time>
@@ -2448,7 +2452,7 @@
 		<components>2 Ki Points + 1 per extra damage (optional)</components>
 		<duration>1 turn</duration>
 		<classes>Monk (Way of the Four Elements)</classes>
-		<text>You can spend 2 ki points as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone.</text>
+		<text>You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone.</text>
 	</spell>
 	<spell>
 		<name>Wave of Rolling Earth (17th level required)</name>
@@ -2602,7 +2606,7 @@
 		<autolevel level="2">
 			<feature>
 				<name>Divine Smite</name>
-				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
@@ -3043,6 +3047,7 @@
 				<name>Beast Master: Ranger's Companion</name>
 				<text>You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower. Add your proficiency bonus to the beast's AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.</text>
 				<text>    The beast obeys your commands as best as it can. It takes its turn on your initiative, though it doesn't take an action unless you command it to. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, Dodge, or Help action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action.</text>
+				<text>    If you are incapacitated or absent, your beast companion acts on its own, focusing on protecting you and itself. It never requires your command to use its reaction, such as when making an opportunity attack.</text>
 				<text>    While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.</text>
 				<text>    If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one.</text>
 			</feature>
@@ -3141,7 +3146,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Beast Master: Bestial Fury</name>
-				<text>Your beast companion can make two attacks when you command it to use the Attack action.</text>
+				<text>Your beast companion can make two attacks or use Multiattack (if available) when you command it to use the Attack action.</text>
 			</feature>
 		</autolevel>
 
@@ -4425,6 +4430,7 @@
 				<name>Wild Magic: Wild Magic Surge</name>
 				<text>Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect.</text>
 				<text></text>
+				<text>    If a Wild Magic effect is a spell, it’s too wild to be affected by Metamagic. If it normally requires concentration, it doesn’t require concentration in this case; the spell lasts for its full duration.</text>
 				<text>Wild Magic Surge</text>
 				<text>d100 — Effect</text>
 				<text>01-02 — Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.</text>
@@ -4492,7 +4498,7 @@
 			<feature>
 				<name>Flexible Casting</name>
 				<text>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.</text>
-				<text>    Creating Spell Slots. You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</text>
+				<text>    Creating Spell Slots. You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</text>
 				<text></text>
 				<text>Creating Spell Slots</text>
 				<text>Spell Slot Level  —  Sorcery Point Cost</text>
@@ -4544,7 +4550,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Metamagic: Twinned Spell</name>
-				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				<text>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
 
@@ -4559,7 +4565,7 @@
 		<autolevel level="6">
 			<feature optional="YES">
 				<name>Draconic Bloodline: Elemental Affinity</name>
-				<text>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage.</text>
+				<text>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage. The damage bonus applies to one damage roll of a spell, not multiple rolls.</text>
 				<text>    In addition, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</text>
 			</feature>
 			<feature optional="YES">
@@ -4889,9 +4895,7 @@
 				<name>Eldritch Invocations</name>
 				<text>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</text>
 				<text>    At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice.</text>
-				<text>    Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</text>
-				<text> </text>
-				<text>For those of you who are multiclassing, be aware that the level prerequisites for Invocations is based on your character level, not your class level. When choosing Invocations, you should select them from the highest level list of Invocations. For example, if your character is an 8th level Sorcerer and a 2nd level Warlock, scroll down until you see the Invocations listed under level 9. That list will have the Invocations with prequisites of 5th, 7th, and 9th level, in addition to the ones available at 2nd level.</text>
+				<text>    Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level. A level prerequisite in an invocation refers to warlock level, not character level.</text>
 			</feature>
 		</autolevel>
 
@@ -4900,7 +4904,7 @@
 				<name>Pact Boon: Pact of the Chain</name>
 				<text>You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.</text>
 				<text>    When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</text>
-				<text>    Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own.</text>
+				<text>    Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Pact Boon: Pact of the Blade</name>
@@ -4910,7 +4914,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Pact Boon: Pact of the Tome</name>
-				<text>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</text>
+				<text>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. Any cantrip you cast with this feature is considered a warlock cantrip for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</text>
 			</feature>
 		</autolevel>
 
@@ -5105,7 +5109,7 @@
 				<name>Eldritch Invocation: Book of Ancient Secrets</name>
 				<text>Prerequisite: Pact of the Tome feature</text>
 				<text></text>
-				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
+				<text>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list; they do not have to be from the same class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</text>
 				<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
 			</feature>
 			<feature optional="YES">
@@ -6354,7 +6358,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>School of Evocation: Empowered Evocation</name>
-				<text>Beginning at 10th level, you can add your Intelligence modifier to the damage roll of any wizard evocation spell you cast</text>
+				<text>Beginning at 10th level, you can add your Intelligence modifier to the damage roll of any wizard evocation spell you cast. The damage bonus applies to one damage roll of a spell, not multiple rolls.</text>
 			</feature>
 			<feature optional="YES">
 				<name>School of Illusion: Illusory Step</name>
@@ -6407,8 +6411,8 @@
 			</feature>
 			<feature optional="YES">
 				<name>School of Evocation: Overchannel</name>
-				<text>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 5th level or lower that deals damage, you can deal maximum damage with that spell.</text>
-				<text>    The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d 12. This damage ignores resistance and immunity.</text>
+				<text>Starting at 14th level, you can increase the power of your simpler spells. When you cast a non-cantrip wizard spell of 5th level or lower that deals damage, you can deal maximum damage with that spell.</text>
+				<text>    The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</text>
 			</feature>
 			<feature optional="YES">
 				<name>School of Illusion: Illusory Reality</name>

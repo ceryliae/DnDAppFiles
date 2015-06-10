@@ -3666,7 +3666,7 @@
 	<spell>
 		<name>Mass Cure Wounds</name>
 		<level>5</level>
-		<school>C</school>
+		<school>E</school>
 		<ritual />
 		<time>1 action</time>
 		<range>60 feet</range>
@@ -3681,7 +3681,7 @@
 	<spell>
 		<name>Mass Heal</name>
 		<level>9</level>
-		<school>C</school>
+		<school>E</school>
 		<ritual />
 		<time>1 action</time>
 		<range>60 feet</range>
@@ -4195,7 +4195,7 @@
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Wizard, Rogue (Arcane Trickster)</classes>
-		<text>You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the start of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.</text>
+		<text>You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</text>
 		<roll>4d10</roll>
@@ -4315,7 +4315,7 @@
 		<components>V, S, M (a caterpillar cocoon)</components>
 		<duration>Concentration, up to 1 hour</duration>
 		<classes>Bard, Cleric (Trickery), Druid, Sorcerer, Wizard</classes>
-		<text>This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw.</text>
+		<text>This spell transforms a creature with at least 1 hit point that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw.</text>
 		<text />
 		<text>The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.</text>
 		<text />
@@ -4769,7 +4769,7 @@
 	<spell>
 		<name>Revivify</name>
 		<level>3</level>
-		<school>C</school>
+		<school>N</school>
 		<ritual />
 		<time>1 action</time>
 		<range>Touch</range>
@@ -5708,7 +5708,7 @@
 		<components>V, S, M (a drop of mercury, a dollop of gum arabic, and a wisp of smoke)</components>
 		<duration>Concentration, up to 1 hour</duration>
 		<classes>Bard, Warlock, Wizard</classes>
-		<text>Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.</text>
+		<text>Choose one creature with at least 1 hit point or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.</text>
 		<text />
 		<text>Shapechangers aren't affected by this spell. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.</text>
 		<text />
@@ -6005,7 +6005,7 @@
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Wizard, Rogue (Arcane Trickster)</classes>
-		<text>Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the start of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.</text>
+		<text>Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.</text>
 		<roll>4d10</roll>
 	</spell>
 	<spell>
