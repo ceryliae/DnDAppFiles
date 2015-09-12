@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="YES">
+	<monster>
+		<name>Derro</name>
+		<size>S</size>
+		<type>humanoid (derro), out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (leather armor)</ac>
+		<hp>13 (3d6+3)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>14</dex><con>12</con><int>11</int><wis>5</wis><cha>9</cha>
+		<save></save>
+		<skill>Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>7</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Insanity</name>
+			<text>The derro has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The derro has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Hooked Shortspear</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone.</text>
+			<attack>|2|1d4-1</attack>
+		</action>
+		<action>
+			<name>Light Repeating Crossbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.</text>
+			<attack>|4|1d8+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Derro Savant</name>
+		<size>S</size>
+		<type>humanoid (derro), out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (leather armor)</ac>
+		<hp>49 (11d6+11)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>14</dex><con>12</con><int>11</int><wis>5</wis><cha>14</cha>
+		<save></save>
+		<skill>Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>7</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Insanity</name>
+			<text>The derro has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The derro has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:</text>
+			<text></text>			
+			<text>Cantrips (at will): acid splash, light, mage hand, message, ray of frost</text>
+			<text>1st level (4 slots): burning hands, chromatic orb, sleep</text>
+			<text>2nd level (3 slots): invisibility, spider climb</text>
+			<text>3rd level (2 slots): blink, lightning bolt</text>
+		</trait>
+		<action>
+			<name>Hooked Shortspear</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone.</text>
+			<attack>|2|1d4-1</attack>
+		</action>
+		<action>
+			<name>Light Repeating Crossbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.</text>
+			<attack>|4|1d8+2</attack>
+		</action>
+		<spells>acid splash, light, mage hand, message, ray of frost, burning hands, chromatic orb, sleep, invisibility, spider climb, blink, lightning bolt</spells>
+	</monster>
+	<monster>
+		<name>Ixitxachitl</name>
+		<size>S</size>
+		<type>abberation, out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>18 (4d6+4)</hp>
+		<speed>0 ft., swim 30 ft.</speed>
+		<str>12</str><dex>16</dex><con>13</con><int>12</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Abyssal, Ixitxachitl</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+			<attack>|3|1d6+1</attack>
+		</action>
+		<reaction>
+			<name>Barbed Tail</name>
+			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|5|1d8+3</attack>
+		</reaction>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Ixitxachitl Cleric</name>
+		<size>S</size>
+		<type>abberation, out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>18 (4d6+4)</hp>
+		<speed>0 ft., swim 30 ft.</speed>
+		<str>12</str><dex>16</dex><con>13</con><int>12</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Abyssal, Ixitxachitl</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, thaumaturgy</text>
+			<text>1st level (4 slots): charm person, create or destroy water</text>
+			<text>2nd level (3 slots): hold person, silence</text>
+			<text>3rd level (2 slots): dispel magic, tongues</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+			<attack>|3|1d6+1</attack>
+		</action>
+		<reaction>
+			<name>Barbed Tail</name>
+			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>|5|1d8+3</attack>
+		</reaction>
+		<spells>guidance, thaumaturgy, charm person, create or destroy water, hold person, silence, dispel magic, tongues</spells>
+	</monster>
+	<monster>
+		<name>Vampiric Ixitxachitl</name>
+		<size>M</size>
+		<type>abberation, out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>44 (8d8+8)</hp>
+		<speed>0 ft., swim 30 ft.</speed>
+		<str>14</str><dex>18</dex><con>13</con><int>12</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Abyssal, Ixitxachitl</languages>
+		<cr>2</cr>
+		<action>
+			<name>Vampiric Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
+			<attack>|4|1d8+2</attack>
+		</action>
+		<reaction>
+			<name>Barbed Tail</name>
+			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
+			<attack>|6|1d10+4</attack>
+		</reaction>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Vampiric Ixitxachitl Cleric</name>
+		<size>M</size>
+		<type>abberation, out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>44 (8d8+8)</hp>
+		<speed>0 ft., swim 30 ft.</speed>
+		<str>14</str><dex>18</dex><con>13</con><int>12</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Abyssal, Ixitxachitl</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, thaumaturgy</text>
+			<text>1st level (4 slots): charm person, create or destroy water</text>
+			<text>2nd level (3 slots): hold person, silence</text>
+			<text>3rd level (2 slots): dispel magic, tongues</text>
+		</trait>
+		<action>
+			<name>Vampiric Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
+			<attack>|4|1d8+2</attack>
+		</action>
+		<reaction>
+			<name>Barbed Tail</name>
+			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
+			<attack>|6|1d10+4</attack>
+		</reaction>
+		<spells>guidance, thaumaturgy, charm person, create or destroy water, hold person, silence, dispel magic, tongues</spells>
+	</monster>
+	<monster>
+		<name>Duergar Darkhaft</name>
+		<size>M</size>
+		<type>humanoid (dwarf), out of the abyss</type>
+		<alignment>lawful evil</alignment>
+		<ac>16 (scale mail, shield)</ac>
+		<hp>26 (4d8 + 4)</hp>
+		<speed>25 ft.</speed>
+		<str>14</str><dex>11</dex><con>14</con><int>11</int><wis>10</wis><cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The darkhaft's innate spellcasting ability is Intelligence (spell save DC 10) it can innately cast the following spells, requiring no components:</text>
+			<text></text>
+			<text>At will: friends, mage hand</text>
+			<text>1/day each: disguise self, sleep</text>
+		</trait>
+		<trait>
+			<name>Duergar Resilience</name>
+			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
+			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+		</action>
+		<action>
+			<name>War Pick</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.</text>
+			<attack>War Pick|4|1d8+2</attack>
+			<attack>Enlarged|4|2d8+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.</text>
+			<attack>Javelin|4|1d6+2</attack>
+			<attack>Enlarged|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility (Recharges after a Short or Long Rest)</name>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells>friends, mage hand, disguise self, sleep</spells>
+	</monster>
+	<monster>
+		<name>Duergar Kavalrachni</name>
+		<size>M</size>
+		<type>humanoid (dwarf), out of the abyss</type>
+		<alignment>lawful evil</alignment>
+		<ac>16 (scale mail, shield)</ac>
+		<hp>26 (4d8 + 4)</hp>
+		<speed>25 ft.</speed>
+		<str>14</str><dex>11</dex><con>14</con><int>11</int><wis>10</wis><cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Mounted</name>
+			<text>The vicious kavalrachni are the duergar cavalry of Gracklstugh, riding giant tarantualas known as steeders (see the female steeder stat block)</text>
+		</trait>
+		<trait>
+			<name>Cavalry Training</name>
+			<text>When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make a melee attack agains the same target as a reaction.</text>
+		</trait>
+		<trait>
+			<name>Duergar Resilience</name>
+			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
+			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+		</action>
+		<action>
+			<name>War Pick</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.</text>
+			<attack>War Pick|4|1d8+2</attack>
+			<attack>Enlarged|4|2d8+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.</text>
+			<attack>Javelin|4|1d6+2</attack>
+			<attack>Enlarged|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Heavy Crossbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.</text>
+			<attack>|4|1d10</attack>
+		</action>
+		<action>
+			<name>Invisibility (Recharges after a Short or Long Rest)</name>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Duergar Keeper of the Flame</name>
+		<size>M</size>
+		<type>humanoid (dwarf), out of the abyss</type>
+		<alignment>lawful evil</alignment>
+		<ac>16 (scale mail, shield)</ac>
+		<hp>26 (4d8 + 4)</hp>
+		<speed>25 ft.</speed>
+		<str>14</str><dex>11</dex><con>14</con><int>11</int><wis>10</wis><cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:</text>
+			<text></text>
+			<text>At will: friends, message</text>
+			<text>1/day: command</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, mending, sacred flame</text>
+			<text>1st level (4 slots): bane, inflict wounds, shield of faith</text>
+			<text>2nd level (2 slots): enhance ability, spiritual weapon</text>
+		</trait>
+		<trait>
+			<name>Duergar Resilience</name>
+			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
+			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+		</action>
+		<action>
+			<name>War Pick</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.</text>
+			<attack>War Pick|4|1d8+2</attack>
+			<attack>Enlarged|4|2d8+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.</text>
+			<attack>Javelin|4|1d6+2</attack>
+			<attack>Enlarged|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility (Recharges after a Short or Long Rest)</name>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells>friends, message, command, guidance, mending, sacred flame, bane, inflict wounds, shield of faith, enhance ability, spiritual weapon</spells>
+	</monster>
+	<monster>
+		<name>Duergar Soulblade</name>
+		<size>M</size>
+		<type>humanoid (dwarf), out of the abyss</type>
+		<alignment>lawful evil</alignment>
+		<ac>14 (leather armor)</ac>
+		<hp>18 (4d8)</hp>
+		<speed>25 ft.</speed>
+		<str>11</str><dex>16</dex><con>10</con><int>11</int><wis>10</wis><cha>12</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Duergar Resilience</name>
+			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The duergar's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text></text>
+			<text>At will: blade ward, true strike</text>
+			<text>1/day each: jump, hunter's mark</text>
+		</trait>
+		<action>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
+			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+		</action>
+		<action>
+			<name>Create Soulblade</name>
+			<text>The duergar creates a visible, shortword-sized blade of psionic energy. The weapon appears int he duergar's hand and vanishes if it leaves the duergar's grip, or if the duergar dies or is incapacitated.</text>
+		</action>
+		<action>
+			<name>Soulblade</name>
+			<text>Melee Weapon Attackk: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, th eattack deals an extra 3 (1d6) force damage.</text>
+			<attack>Soulblade|6|1d6+3</attack>
+			<attack>Enlarged|6|2d6+3</attack>
+		</action>
+		<action>
+			<name>Invisibility (Recharges after a Short or Long Rest)</name>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells>blade ward, true strike, jump, hunter's mark</spells>
+	</monster>
+	<monster>
+		<name>Duergar Stone Guard</name>
+		<size>M</size>
+		<type>humanoid (dwarf), monster manual</type>
+		<alignment>lawful evil</alignment>
+		<ac>18 (chain mail, shield)</ac>
+		<hp>39 (6d8 + 12)</hp>
+		<speed>25 ft.</speed>
+		<str>18</str><dex>11</dex><con>14</con><int>11</int><wis>10</wis><cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Duergar Resilience</name>
+			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
+			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+		</action>
+		<action>
+			<name>War Pick</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.</text>
+			<attack>War Pick|4|1d8+2</attack>
+			<attack>Enlarged|4|2d8+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.</text>
+			<attack>Javelin|4|1d6+2</attack>
+			<attack>Enlarged|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility (Recharges after a Short or Long Rest)</name>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Awakened Zurkhwood</name>
+		<size>H</size>
+		<type>plant, out of the abyss </type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>59 (7d12 + 14)</hp>
+		<speed>20 ft.</speed>
+		<str>19</str><dex>6</dex><con>15</con><int>10</int><wis>10</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist>bludgeoning, piercing</resist>
+		<vulnerable>fire</vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>one language known by its creator</languages>
+		<cr>2</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the tree remains motionless, it is indistinguishable from a normal zurkhwood mushroom.</text>
+		</trait>
+		<trait>
+			<name>Mute</name>
+			<text>If the awakened zurkhwood was created by a myconid sovereign, it can't speak.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.</text>
+			<attack>|6|3d6+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Bridesmaid of Zuggtmoy</name>
+		<size>M</size>
+		<type>plant, out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>22 (5d8)</hp>
+		<speed>20 ft.</speed>
+		<str>14</str><dex>11</dex><con>11</con><int>14</int><wis>8</wis><cha>18</cha>
+		<save></save>
+		<skill></skill>
+		<resist>bludgeoning, piercing</resist>
+		<vulnerable>fire</vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>one language known by its creator</languages>
+		<cr>2</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the tree remains motionless, it is indistinguishable from a normal zurkhwood mushroom.</text>
+		</trait>
+		<trait>
+			<name>Mute</name>
+			<text>If the awakened zurkhwood was created by a myconid sovereign, it can't speak.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.</text>
+			<attack>|6|3d6+4</attack>
+		</action>
+		<spells></spells>
+	</monster>	
