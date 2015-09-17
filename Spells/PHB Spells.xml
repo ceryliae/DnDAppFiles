@@ -2,7 +2,7 @@
 <spells version="5">
 <!--Spell Attack rolls assume PROF added to roll, not applicable for Ranged while engaged in Melee range-->
 <!--replaced ":" as intro to list with ".", and as in-line text with " - "-->
-<!--after bold w/ : is implemented in app, check "x - x:" (ie "Reincarnate")-->
+<!--after bold w/ : is implemented in app, check "x - x:" (e.g. "Reincarnate")-->
 <!--after bold w/ : is implemented in app, check stats table from "Animate Objects"-->
 <!--after bold w/ : is implemented in app, check "Storm of Vengeance"-->
 	<spell>
@@ -98,7 +98,7 @@
 		<classes>Bard, Druid, Ranger</classes>
 		<text>By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue ray, or a bird. You specify a location, which you must have visited, and a recipient who matches a general description, such as a man or woman dressed in the uniform of the town guard or a red-haired dwarf wearing a pointed hat. You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell towards the specified location, covering about 50 miles per 24 hours for a flying messenger or 25 miles for other animals.</text>
 		<text />
-		<text>When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes it way back to where you cast this spell.</text>
+		<text>When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.</text>
 		<text />
 		<text>At Higher Levels: If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.</text>
 	</spell>
@@ -143,7 +143,7 @@
 		<ritual />
 		<time>1 action</time>
 		<range>120 feet</range>
-		<components>V,S</components>
+		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Bard, Sorcerer, Wizard</classes>
 		<text>Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.</text>
@@ -224,11 +224,11 @@
 		<classes>Druid, Wizard, Rogue (Arcane Trickster)</classes>
 		<text>This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.</text>
 		<text />
-		<text>Antipathy: The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened , but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.</text>
+		<text>Antipathy: The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.</text>
 		<text />
-		<text>Sympathy: The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom savig throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willinging move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisom saving throw to end the effect, as described below.</text>
+		<text>Sympathy: The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.</text>
 		<text />
-		<text>Ending the Effect: If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. ON a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magica. In addation, a creature affected by the spells is allowed another Wisdom saving throw every 24 hours while the spell persists.</text>
+		<text>Ending the Effect: If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. ON a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spells is allowed another Wisdom saving throw every 24 hours while the spell persists.</text>
 		<text />
 		<text>A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.</text>
 	</spell>
@@ -262,7 +262,7 @@
 		<text />
 		<text>The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.</text>
 		<text />
-		<text>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other, passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</text>
+		<text>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other, passing through a portal from the non-portal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</text>
 	</spell>
 	<spell>
 		<name>Arcane Lock</name>
@@ -363,7 +363,7 @@
 		<components>V</components>
 		<duration>Concentration, up to 10 minutes</duration>
 		<classes>Paladin</classes>
-		<text>Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.</text>
+		<text>Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.</text>
 	</spell>
 	<spell>
 		<name>Aura of Purity</name>
@@ -375,7 +375,7 @@
 		<components>V</components>
 		<duration>Concentration, up to 10 minutes</duration>
 		<classes>Paladin</classes>
-		<text>Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions - blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.</text>
+		<text>Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions - blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.</text>
 	</spell>
 	<spell>
 		<name>Aura of Vitality</name>
@@ -428,7 +428,7 @@
 		<components>V</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Paladin</classes>
-		<text>The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the on you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the tart reappears in the space it left or in the nearest unoccupied space if that space is occupied.</text>
+		<text>The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the tart reappears in the space it left or in the nearest unoccupied space if that space is occupied.</text>
 		<roll>5d10</roll>
 	</spell>
 	<spell>
@@ -638,7 +638,7 @@
 		<components>V, S</components>
 		<duration>1 minute</duration>
 		<classes>Cleric (Trickery), Sorcerer, Warlock (Archfey), Wizard</classes>
-		<text>Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more that one space is equally near). You can dismiss this spell as an action.</text>
+		<text>Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</text>
 		<text />
 		<text>While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creature that aren't there can't perceive you or interact with you, unless they have the ability to do so.</text>
 		<roll>d20</roll>
@@ -1263,7 +1263,7 @@
 		<ritual />
 		<time>1 action</time>
 		<range>300 feet</range>
-		<components>V, S , M (a drop of water and a pinch of dust)</components>
+		<components>V, S, M (a drop of water and a pinch of dust)</components>
 		<duration>Concentration, up to 10 minutes</duration>
 		<classes>Cleric, Cleric (Tempest), Druid, Druid (Coast), Wizard</classes>
 		<text>Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.</text>
@@ -1387,7 +1387,7 @@
 		<components>V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse.)</components>
 		<duration>Instantaneous</duration>
 		<classes>Cleric, Warlock, Wizard</classes>
-		<text>You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.) .</text>
+		<text>You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.)</text>
 		<text />
 		<text>As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</text>
 		<text />
@@ -1446,7 +1446,7 @@
 		<components>V</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Cleric (War), Paladin</classes>
-		<text>Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.</text>
+		<text>Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.</text>
 		<roll>1d4</roll>
 	</spell>
 	<spell>
@@ -1634,7 +1634,7 @@
 		<classes>Bard, Sorcerer, Warlock (Great Old One), Wizard</classes>
 		<text>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</text>
 		<text />
-		<text>You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creatures thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check if it succeeds, the spell ends.</text>
+		<text>You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check if it succeeds, the spell ends.</text>
 		<text />
 		<text>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</text>
 		<text />
@@ -1666,12 +1666,12 @@
 		<ritual />
 		<time>1 action</time>
 		<range>Self</range>
-		<components>V,S</components>
+		<components>V, S</components>
 		<duration>1 hour</duration>
 		<classes>Bard, Cleric (Trickery), Sorcerer, Wizard, Rogue (Arcane Trickster)</classes>
 		<text>You make yourself, including your clothing, armor, weapons, and other belongings on your person, look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</text>
 		<text />
-		<text>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of some one who reaches out to touch you would bump into you while it was seemingly still in midair.</text>
+		<text>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</text>
 		<text />
 		<text>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</text>
 	</spell>
@@ -2342,7 +2342,7 @@
 		<components>V, S, M (a bit of phosphorous or a firefly)</components>
 		<duration>10 minutes</duration>
 		<classes>Warlock (Fiend), Wizard, Fighter (Eldritch Knight)</classes>
-		<text>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.</text>
+		<text>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</text>
 		<text />
 		<text>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.</text>
 		<text />
@@ -2477,7 +2477,7 @@
 		<components>V, S</components>
 		<duration>Concentration, up to 1 hour</duration>
 		<classes>Cleric (Tempest), Druid, Ranger, Sorcerer, Wizard</classes>
-		<text>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured, It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</text>
+		<text>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.</text>
 	</spell>
@@ -3425,7 +3425,7 @@
 		<components>V, M (a firefly or phosphorescent moss)</components>
 		<duration>1 hour</duration>
 		<classes>Bard, Cleric, Sorcerer, Wizard, Fighter (Eldritch Knight)</classes>
-		<text>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light cant be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</text>
+		<text>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</text>
 		<text />
 		<text>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</text>
 	</spell>
@@ -3439,7 +3439,7 @@
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
 		<classes>Ranger</classes>
-		<text>The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal, The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.</text>
+		<text>The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.</text>
 		<text />
 		<text>Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.</text>
 		<text />
@@ -4606,7 +4606,7 @@
 		<classes>Wizard</classes>
 		<text>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.</text>
 		<text />
-		<text>Until the spell ends, the targets can communicated telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.</text>
+		<text>Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.</text>
 	</spell>
 	<spell>
 		<name>Ray of Enfeeblement</name>
@@ -4950,7 +4950,7 @@
 		<components>V, S, M (a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes)</components>
 		<duration>Until dispelled</duration>
 		<classes>Wizard</classes>
-		<text>By means of this spell, a willing creature of an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells or perceived through scrying sensors created by the divination of spells.</text>
+		<text>By means of this spell, a willing creature or an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells or perceived through scrying sensors created by the divination of spells.</text>
 		<text />
 		<text>If the target is a creature, it falls into a state of suspended animation. Time ceases to flow for it, and it doesn't grow older.</text>
 		<text />
@@ -5202,7 +5202,7 @@
 		<text />
 		<text>Plants might be able to perform other tasks on your behalf, at the DM's discretion. The spell doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.</text>
 		<text />
-		<text>If a plant creature is in the area, you can communicate with it as if you shard a common language, but you gain no magical ability to influence it.</text>
+		<text>If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.</text>
 		<text />
 		<text>This spell can cause the plants created by the entangle spell to release a restrained creature.</text>
 	</spell>
@@ -5532,9 +5532,9 @@
 		<text />
 		<text>On Target: You and your group (or the target object) appear where you want to go.</text>
 		<text />
-		<text>Off Target: You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be travelled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at see, you could be in trouble.</text>
+		<text>Off Target: You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be travelled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.</text>
 		<text />
-		<text>Similar Area: You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as you laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.</text>
+		<text>Similar Area: You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.</text>
 		<text />
 		<text>Mishap: The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</text>
 	</spell>
