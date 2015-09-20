@@ -480,7 +480,7 @@
 	<monster>
 		<name>Duergar Stone Guard</name>
 		<size>M</size>
-		<type>humanoid (dwarf), monster manual</type>
+		<type>humanoid (dwarf), out of the abyss</type>
 		<alignment>lawful evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>39 (6d8 + 12)</hp>
@@ -523,6 +523,165 @@
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
 			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Duergar Xarron</name>
+		<size>M</size>
+		<type>humanoid (dwarf), out of the abyss</type>
+		<alignment>lawful evil</alignment>
+		<ac>18 (platemail)</ac>
+		<hp>26 (4d8 + 8)</hp>
+		<speed>25 ft.</speed>
+		<str>16</str><dex>11</dex><con>14</con><int>11</int><wis>10</wis><cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Duergar Resilience</name>
+			<text>The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Enlarge (Recharges after a Short or Long Rest)</name>
+			<text>For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.</text>
+		</action>
+		<action>
+			<name>Fire Lance</name>
+			<text>Melee Weapon Attack: +5 to hit (with ddisadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 3 (1d6) fire damage, or 16 (2d12 + 3) piercing damage plus 3 (1d6) fire damage while enlarged.</text>
+			<attack>Fire Lancek|5|1d12+3</attack>
+			<attack>Enlarged|5|2d12+3</attack>
+		</action>
+		<action>
+			<name>Fire Spray (Recharge 5-6)</name>
+			<text>From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a sucessful one.</text>
+		</action>
+		<action>
+			<name>Invisibility (Recharges after a Short or Long Rest)</name>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Chuul Spore Servant</name>
+		<size>L</size>
+		<type>plant, out of the abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>93 (11d10 + 33)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>19</str><dex>10</dex><con>16</con><int>2</int><wis>6</wis><cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>blinded, charmed, frightened, paralyzed, poisoned</conditionImmune>
+		<senses>blindsight 30 ft. (blind beyond this radius)</senses>
+		<passive>8</passive>
+		<languages>-</languages>
+		<cr>4</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The spore servant makes two pincer attacks.</text>
+		</action>
+		<action>
+			<name>Pincer</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (Escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures grappled.</text>
+			<attack>Pincer|7|2d6+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Drow Spore Servant</name>
+		<size>M</size>
+		<type>plant, out of the abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (chain shirt)</ac>
+		<hp>13 (3d8)</hp>
+		<speed>20 ft.</speed>
+		<str>10</str><dex>14</dex><con>10</con><int>2</int><wis>6</wis><cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, charmed, frightened, paralyzed</conditionImmune>
+		<senses>blindsight 30 ft. (blind beyond this radius)</senses>
+		<passive>8</passive>
+		<languages>-</languages>
+		<cr>1/8</cr>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Duergar Spore Servant</name>
+		<size>M</size>
+		<type>plant, out of the abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>16 (scale armor, shield)</ac>
+		<hp>26 (4d8 + 8)</hp>
+		<speed>15 ft.</speed>
+		<str>14</str><dex>11</dex><con>14</con><int>2</int><wis>6</wis><cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, charmed, frightened, paralyzed</conditionImmune>
+		<senses>blindsight 30 ft. (blind beyond this radius)</senses>
+		<passive>8</passive>
+		<languages>-</languages>
+		<cr>1/2</cr>
+		<action>
+			<name>War Pick</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>War Pick|4|1d8+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Hook Horror Spore Servant</name>
+		<size>M</size>
+		<type>plant, out of the abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>75 (10d10 + 10)</hp>
+		<speed>20 ft., climb 20 ft.</speed>
+		<str>18</str><dex>10</dex><con>15</con><int>2</int><wis>6</wis><cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<resist>poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, charmed, frightened, paralyzed</conditionImmune>
+		<senses>blindsight 30 ft. (blind beyond this radius)</senses>
+		<passive>8</passive>
+		<languages>-</languages>
+		<cr>3</cr>
+		<action>
+			<name>Multiattack</name>
+				<text>The spore servant makes two hyook attacks.</text>
+		</action>
+		<action>
+			<name>Hook</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Hook|6|2d6+4</attack>
 		</action>
 		<spells></spells>
 	</monster>
