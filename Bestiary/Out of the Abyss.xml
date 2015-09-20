@@ -565,7 +565,7 @@
 		</action>
 		<action>
 			<name>Fire Spray (Recharge 5-6)</name>
-			<text>From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a sucessful one.</text>
+			<text>From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
@@ -686,6 +686,62 @@
 		<spells></spells>
 	</monster>
 	<monster>
+		<name>Troglodyte Champion of Laogzed</name>
+		<size>M</size>
+		<type>humanoid (troglodyte), out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>59 (7d8 + 28)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str><dex>12</dex><con>18</con><int>8</int><wis>23</wis><cha>12</cha>
+		<save></save>
+		<skill>Athletics +6, Intimidation +3, Stealth +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Troglodyte</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Chameleon Skin</name>
+			<text>The troglodyte has aadvantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Stench</name>
+			<text>Any creature other than a ttroglodyte that starts its turn within 5 feet of the troglodyte must succeed on a DC 14 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all ttroglodytes for 1 hour.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the troglodyte has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The troglodyte makes three attacks: one with its bite and two with either its claws or its greatclub.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</text>
+			<attack>|6|1d4+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.</text>
+			<attack>|6|1d4+4</attack>
+		</action>
+		<action>
+			<name>Greatclub</name>
+			<text>Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
+			<attack>|6|1d8+4</attack>
+		</action>
+		<action>
+			<name>Acid Spray (Recharge 6)</name>
+			<text>The troglodyte spits acid in a line 15 feet long and 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>||3d6</attack>
+		</action>
+	</monster>
+	<monster>
 		<name>Awakened Zurkhwood</name>
 		<size>H</size>
 		<type>plant, out of the abyss </type>
@@ -730,26 +786,149 @@
 		<str>14</str><dex>11</dex><con>11</con><int>14</int><wis>8</wis><cha>18</cha>
 		<save></save>
 		<skill></skill>
-		<resist>bludgeoning, piercing</resist>
-		<vulnerable>fire</vulnerable>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>understands Abyssal but can't speak</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Fungus Stride</name>
+			<text>Once on its turn, the bridesmaid can use 10 feet of its movement to step magically into one living mushroom or fungus patch within 5 feet and emerge from another winin 60 feet of the first one, appearing in an unoccupied space within 5 feet of the second mushroom or fungus patch. The mushrooms and patches must be large or bigger.</text>
+		</trait>
+		<action>
+			<name>Hallucination Spores</name>
+			<text>The bridesmaid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target is incapacitated. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+		<action>
+			<name>Infestation Spores (1/Day)</name>
+			<text>The bridesmaid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 10 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Chamberlain of Zuggtmoy</name>
+		<size>L</size>
+		<type>plant, out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>45 (6d10 + 12)</hp>
+		<speed>20 ft.</speed>
+		<str>17</str><dex>7</dex><con>14</con><int>11</int><wis>8</wis><cha>12</cha>
+		<save></save>
+		<skill></skill>
+		<resist>bbludgeoning, piercing</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Abywssal, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Mushroom Portal</name>
+			<text>The chamberlain counts as a mushroom for the Fungus Stride feature of the bridesmaid of Zuggtmoy.</text>
+		</trait>
+		<trait>
+			<name>Poison Spores</name>
+			<text>Whenever the chamberlain takes damage, it releases a cloud of spores. Creatures within 5 feet of the chamberlain when this happens must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the savng throw at t ehe end of each of its turns, ending the effect on a success.</text>
+		</trait>
+		<action>
+			<name>Hallucination Spores</name>
+			<text>The bridesmaid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target is incapacitated. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+		<action>
+			<name>Multiattack</name>
+			<text>The chamberlain makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: =5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
+			<attack>|5|2d6+3</attack>
+		</action>
+		<action>
+			<name>Infestation Spores (1/Day)</name>
+			<text>The chanberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Female Steeder</name>
+		<size>L</size>
+		<type>beast, out of the abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>30 (4d10 + 8)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>15</str><dex>16</dex><con>14</con><int>2</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill>Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune></immune>
 		<conditionImmune></conditionImmune>
 		<senses>darkvision 120 ft.</senses>
 		<passive>10</passive>
-		<languages>one language known by its creator</languages>
-		<cr>2</cr>
+		<languages>-</languages>
+		<cr>1</cr>
 		<trait>
-			<name>False Appearance</name>
-			<text>While the tree remains motionless, it is indistinguishable from a normal zurkhwood mushroom.</text>
+			<name>Spider Climb</name>
+			<text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
 		</trait>
 		<trait>
-			<name>Mute</name>
-			<text>If the awakened zurkhwood was created by a myconid sovereign, it can't speak.</text>
-		</trait>
+			<name>Leap</name>
+			<text>The steeder can expend all its movement on iuts turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
+		</ttrait>
 		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.</text>
-			<attack>|6|3d6+4</attack>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a faile dsave, or half as much damage on a successful one.</text>
+			<attack>|5|1d8+3</attack>
+			<attack>||2d8</attack>
 		</action>
-		<spells></spells>
-	</monster>	
+		<action>
+			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
+			<attack>|5|</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Male Steeder</name>
+		<size>M</size>
+		<type>beast, out of the abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>13 (2d8 + 4)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>15</str><dex>12</dex><con>14</con><int>2</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill>Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>-</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Leap</name>
+			<text>The steeder can expend all its movement on iuts turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
+		</ttrait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a faile dsave, or half as much damage on a successful one.</text>
+			<attack>|4|1d8+2</attack>
+			<attack>||1d8</attack>
+		</action>
+		<action>
+			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
+			<attack>|4|</attack>
+		</action>
+	</monster>
