@@ -880,7 +880,7 @@
 		<trait>
 			<name>Leap</name>
 			<text>The steeder can expend all its movement on iuts turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
-		</ttrait>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a faile dsave, or half as much damage on a successful one.</text>
@@ -919,7 +919,7 @@
 		<trait>
 			<name>Leap</name>
 			<text>The steeder can expend all its movement on iuts turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
-		</ttrait>
+		</trait>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a faile dsave, or half as much damage on a successful one.</text>
@@ -932,3 +932,277 @@
 			<attack>|4|</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Droki</name>
+		<size>S</size>
+		<type>humanoid (derro), out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (studded leather)</ac>
+		<hp>31 (7d6 + 7)</hp>
+		<speed>30 ft. (60 ft. with boots of speed)</speed>
+		<str>11</str><dex>16</dex><con>13</con><int>10</int><wis>5</wis><cha>16</cha>
+		<save></save>
+		<skill>Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>7</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Droki wears boots of speed</text>
+		</trait>
+		<trait>
+			<name>Insanity</name>
+			<text>Droki has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Droki's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: minor illusion</text>
+			<text>1/day each: darkness, fear, shatter</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>Droki deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage ont he attack roll, or when the target is within 5 feet of an ally of Droki that isn't incapacitated and Droki doesn't have disadvantage on the attack roll.</text>
+			<attack>||2d6</attack>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The derro has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Droki makes two attacks with his shortsword</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) piercing damage. The sword is coated with serpent venom that wears off after the first hit. A target subjected to the venom must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>|5|1d6+3</attack>
+			<attack>||3d6</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+		<spells>minor illusion, darkness, fear, shatter</spells>
+	</monster>
+	<monster>
+		<name>Grisha</name>
+		<size>M</size>
+		<type>humanoid (Damaran human), out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>18 (chain mail, shield)</ac>
+		<hp>33 (6d8 + 6)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str><dex>12</dex><con>12</con><int>11</int><wis>14</wis><cha>16</cha>
+		<save>Wis +4, Cha +5</save>
+		<skill>Persuasion +5, Religion +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:</text>
+			<text></text>
+			<text>Cantrips (at will): guidance, light, sacred flame, thaumaturgy</text>
+			<text>1st level (4 slots): cure wounds, divine favor, inflict wounds, protection from good, shield of faith</text>
+			<text>2nd level (3 slots): continual flame, hold person, magic weapon, spiritual weapon</text>
+			<text>3rd level (3 slots): bestow curse, dispel magic, spirit guardian</text>
+			</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Grisha makes two attacks with his +1 flail.</text>
+		</action>
+		<action>
+			<name>+1 Flail</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage</text>
+			<attack>|5|1d8+3</attack>
+		</action>
+		<spells>guidance, light, sacred flame, thaumaturgy, cure wounds, divine favor, inflict wounds, protection from evil and good, shield of faith, continual flame, hold person, magic weapon, spiritual weapon, bestow curse, dispel magic, spirit guardian</spells>
+	</monster>
+	<monster>
+		<name>Narrak</name>
+		<size>S</size>
+		<type>humanoid (derro), out of the abyss </type>
+		<alignment>chaotic evil</alignment>
+		<ac>12 (15 to mage armor</ac>
+		<hp>40 (9d6 + 9)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>14</dex><con>13</con><int>14</int><wis>5</wis><cha>16</cha>
+		<save></save>
+		<skill>Arcana +4, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>7</passive>
+		<languages>Dwarvish, Undercommon</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Insanity</name>
+			<text>Droki has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The derro has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing ashort or long rest, and knows the following Warlock spells:			</text>
+			<text></text>
+			<text>Cantrips (at will): eldritch blast, friends, poison spray</text>
+			<text>1st level: armor of Agathys, charm person, hex</text>
+			<text>2nd level: hold person, ray of enfeeblement, spider climb</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Armor of Shadows (Recharges after a Short or Long Rest)</name>
+			<text>Narrak casts mage armor on himself</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.</text>
+			<attack>|4|1d6+2</attack>
+		</action>
+		<reaction>
+			<name>One with Shadows</name>
+			<text>While he is in adim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.</text>
+		</reaction>
+		<spells>eldritch blast, friends, poison spray, armor of agathys, charm person ,hex, hold person, ray of enfeeblement, spider climb</spells>
+	</monster>
+	<monster>
+		<name>The Pudding King</name>
+		<size>S</size>
+		<type>humanoid (gnome, shapechanger), out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>49 (9d6 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str><dex>16</dex><con>14</con><int>12</int><wis>8</wis><cha>17</cha>
+		<save>Con +5, Cha +6</save>
+		<skill>Arcana +4, Perception +2, Stealth +6, Survival +2</skill>
+		<resist>acid, poison</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Abyssal, Gnomish, Terran, Undercommon</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Stone Camouflage</name>
+			<text>The Pudding King has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
+		</trait>
+		<trait>
+			<name>Gnome Cunning</name>
+			<text>The Pudding King has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: nondetection (self only)</text>
+			<text>1/day each: blindness/deafness, blur, disguise self</text>
+		</trait>
+		<trait>
+			<name>Insanity</name>
+			<text>The Pudding King has advantage on saving throws against being charmed or frightened.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:</text>
+			<text></text>
+			<text>Cantrips (at will): acid splash, light, mage hand, poison spray, prestidigitation</text>
+			<text>1st level (4 slots): false life, mage armor, ray of sickness, shield</text>
+			<text>2nd level (3 slots): crown of madness, misty step</text>
+			<text>3rd level (3 slots): gaseous form, stinking cloud</text>
+			<text>4th level (3 slots): blight, confusion</text>
+			<text>5th level (1 slot): cloudkill</text>
+			</trait>
+		<action>
+			<name>War Pick</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit 4 (1d8) piercing damage.</text>
+			<attack>|3|1d8</attack>
+		</action>
+		<action>
+			<name>Change Shape</name>
+			<text>The Pudding King magically transforms into an ooze, or back into his true form. He reverts to his true form if he dies. Any equipment he is wearing or carrying is absorbed by the new form. In ooze form, the Pudding King retains his alignment, hit points, Hit Dice, and Intelligence, Wisdom, and Charisma scores, as well as this action. His statistics and capabilities are otherwise replaced by those of the new form.</text>
+		</action>
+		<action>
+			<name>Create Green Slime (Recharges after a Long Rest)</name>
+			<text>The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.</text>
+		</action>
+		<spells>acid splash, light, mage hand, poison spray, prestidigitation, false life, mage armor, ray of sickness, shield, crown of madness, misty step, gaseous form, stinking cloud, blight, confusion, cloudkill</spells>
+	</monster>
+	<monster>
+		<name>Yestabrod</name>
+		<size>L</size>
+		<type>monstrosity, out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>75 (10d10 + 20)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str><dex>10</dex><con>14</con><int>13</int><wis>15</wis><cha>10</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>12</passive>
+		<languages>Abyssal, telepathy 60 ft.</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Legendary Resistance (1/Day)</name>
+			<text>If Yestabrod fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.</text>
+			<attack>|3|3d4+1</attack>
+			<attack>||3d4</attack>
+		</action>
+		<action>
+			<name>Caustic Spores (1/Day)</name>
+			<text>Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw ortake 1d6 acid damage at the start of each of Yestbrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success.</text>
+		</action>
+		<action>
+			<name>Infestation Spores (1/Day)</name>
+			<text>Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+		</action>
+		<legendary>
+			<name></name>
+			<text>Yestabrod can take 2 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Yestabrod regains spent legendary actions at the start of its turn.</text>
+		</legendary>
+		<legendary>
+			<name>Corpse Burst</name>
+			<text>Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod. Creatures within 10 feet of the corpse must succeed on a DC 12 Dexterity saving throw or take 7 (2d6) acid damage.</text>
+			<attack>||2d6</attack>
+		</legendary>
+		<legendary>
+			<name>Foul Absorption</name>
+			<text>Yestabrod absorbs pullrescence from a corpse within 5 feet of it, regainign 1d8 + 2 hit points</text>
+			<attack>||1d8+2</attack>
+		</legendary>
+		<spells></spells>
+</monster>
+</compendium>
