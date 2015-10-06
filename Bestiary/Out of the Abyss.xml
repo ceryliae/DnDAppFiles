@@ -1204,5 +1204,97 @@
 			<attack>||1d8+2</attack>
 		</legendary>
 		<spells></spells>
-</monster>
+	</monster>
+	<monster>
+		<name>Baphomet</name>
+		<size>H</size>
+		<type>fiend (demon), out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>22 (natural armor)</ac>
+		<hp>333 (23d12 + 184)</hp>
+		<speed>40 ft.</speed>
+		<str>30</str><dex>14</dex><con>26</con><int>18</int><wis>24</wis><cha>16</cha>
+		<save>Dex +9, Con +15, Wis +14</save>
+		<skill>Intimidation +17, Perception +14</skill>
+		<resist>cold, fire, lightning</resist>
+		<vulnerable></vulnerable>
+		<immune>poison; bludgeoning, piercing, and slashing that is nonmagical</immune>
+		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+		<senses>truesight 120 ft.</senses>
+		<passive>24</passive>
+		<languages>all, telepathy 120 ft.</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Charge</name>
+			<text>If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 22 (4d10) piercing damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked prone.</text>
+			<attack>||4d10</attack>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components</text>
+			<text></text>
+			<text>At will: detect magic</text>
+			<text>3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone</text>
+			<text>1/day each: teleport</text>
+		</trait>
+		<trait>
+			<name>Labyrinthine Recall</name>
+			<text>Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Baphomet fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Baphomet has advantage on saving throws against spell and other magic effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapon</name>
+			<text>Baphomet's weapon attacks are magical</text>
+		</trait>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start of his turn, Baphomet can gain avantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Baphomet makes three attacks: one with Heartcleaver, one with his bite, and one with his gore attack.</text>
+		</action>
+		<action>
+			<name>Heartcleaver</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage</text>
+			<attack>|17|4d6+10</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 19 (2d8+10) piercing damage.</text>
+			<attack>|17|2d8+10</attack>
+		</action>
+		<action>
+			<name>Gore</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) piericng damage.</text>
+			<attack>|17|2d10+10</attack>
+		</action>
+		<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on tiself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.</text>
+			<text>If a creature succeeds on any of these saves or the effect ends on it, the creature is immune is Baphomet's Frightful Presence for the next 24 hours.</text>
+		</action>
+		<legendary>
+			<name></name>
+			<text>Baphomet can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Baphomet regains spent legendary actions at the start of his turn.</text>
+		</legendary>
+		<legendary>
+			<name>Heartcleaver attack</name>
+			<text>Baphomet makes a melee attack with Heartcleaver.</text>
+			<attack>|17|4d6+10</attack>
+		</legendary>
+		<legendary>
+			<name>Charge (Costs 2 actions)</name>
+			<text>Baphomet moves up to his speed, then makes a gore attack.</text>
+			<attack>|17|2d10+10</attack>
+		</legendary>
+		<spells></spells>
+	</monster>
 </compendium>
