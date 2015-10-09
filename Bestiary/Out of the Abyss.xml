@@ -1231,7 +1231,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components</text>
+			<text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: detect magic</text>
 			<text>3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone</text>
@@ -1318,7 +1318,7 @@
 		<cr>26</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components</text>
+			<text>Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: detect magic, major image</text>
 			<text>3/day each: dispel magic, fear, telekinesis</text>
@@ -1393,7 +1393,7 @@
 		<cr>23</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components</text>
+			<text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force</text>
 			<text>3/day each: confusion, dream, mislead, programmed illusion, seeming</text>
@@ -1469,7 +1469,7 @@
 		</trait>		
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components</text>
+			<text>Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:</text>
 			<text></text>
 			<text>At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers</text>
 			<text>3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport</text>
@@ -1521,5 +1521,88 @@
 			<text>Graz'zt uses his Teleport action.</text>
 		</legendary>
 		<spells>charm person, crown of madness, detect magic, dispel magic, dissonant whispers, counterspell, darkness, dominate person, sanctuary, telekinesis, teleport, dominate monster, greater invisibility</spells>
+	</monster>
+	<monster>
+		<name>Juiblex</name>
+		<size>H</size>
+		<type>fiend (demon), out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>350 (28d12 + 168)</hp>
+		<speed>30 ft.</speed>
+		<str>24</str><dex>10</dex><con>23</con><int>20</int><wis>20</wis><cha>16</cha>
+		<save>Dex +7, Con +13, Wis +12</save>
+		<skill>Perception +12</skill>
+		<resist>cold, fire, lightning</resist>
+		<vulnerable></vulnerable>
+		<immune>poison; bludgeoning, piercing, and slashing that is nonmagical</immune>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious</conditionImmune>
+		<senses>truesight 120 ft.</senses>
+		<passive>22</passive>
+		<languages>all, telepathy 120 ft.</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Foul</name>
+			<text>Any creature, other than an ooze, that starts its turn within 10 feet of Juiblex must succeed on a DC 21 Constitution saving throw or be poisoned until the start of the creature's next turn.</text>
+		</trait>		
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: acid splash (17th level), detect magic</text>
+			<text>3/day each: blight, contagion, gaseous form</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Juiblex fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Juiblex has advantage on saving throws against spell and other magic effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapon</name>
+			<text>Juiblex's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>Juiblex regains 20 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. Juiblex dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Juiblex makes three acid lash attacks.</text>
+		</action>
+		<action>
+			<name>Acid Lash</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) acid damage. Any creature killed by this attack is drawn into Juiblex's body, and the corpse is obliterated after 1 minute.</text>
+			<attack>|14|4d6+7</attack>
+		</action>
+		<action>
+			<name>Eject Slime (Recharge 5—6)</name>
+			<text>Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 (10d10) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent -1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent -1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to -5, the object is destroyed.</text>
+			<attack>||10d10</attack>
+		</action>
+		<legendary>
+			<name></name>
+			<text>Juiblex can take 3 legendary actions, choosing from the options below, Only one legendary action option can be used at a time and only at the end of another creature's turn. Juiblex regains spent legendary actions at the start of its turn.</text>
+		</legendary>
+		<legendary>
+			<name>Acid Splash</name>
+			<text>Juiblex casts acid splash.</text>
+		</legendary>
+		<legendary>
+			<name>Attack</name>
+			<text>Juiblex makes one acid lash attack.</text>
+		</legendary>
+		<legendary>
+			<name>Corrupting Touch (Costs 2 Actions)</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one creature. Hit: 21 (4d6+ 7) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is poisoned, and any creature, other than an ooze, is poisoned while Within 10 of the target.</text>
+			<attack>|14|4d6+7</attack>
+		</legendary>
+		<spells>acid splash, detect magic, blight, contagion, gaseous form</spells>
 	</monster>
 </compendium>
