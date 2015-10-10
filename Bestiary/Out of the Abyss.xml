@@ -1605,4 +1605,84 @@
 		</legendary>
 		<spells>acid splash, detect magic, blight, contagion, gaseous form</spells>
 	</monster>
+	<monster>
+		<name>Orcus</name>
+		<size>H</size>
+		<type>fiend (demon), out of the abyss</type>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor), 20 with the Wand of Orcus</ac>
+		<hp>405 (30d12 + 210)</hp>
+		<speed>40 ft., fly 40 ft.</speed>
+		<str>27</str><dex>14</dex><con>25</con><int>20</int><wis>20</wis><cha>25</cha>
+		<save>Dex +10, Con +15, Wis +13</save>
+		<skill>Arcana +12, Perception +12</skill>
+		<resist>cold, fire, lightning</resist>
+		<vulnerable></vulnerable>
+		<immune>necrotic, poison; bludgeoning, piercing, and slashing that is nonmagical</immune>
+		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+		<senses>truesight 120 ft.</senses>
+		<passive>22</passive>
+		<languages>all, telepathy 120 ft.</languages>
+		<cr>26</cr>
+		<trait>
+			<name>Wand of Orcus</name>
+			<text>The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast animate dead, blight, or speak with dead. Alternatively, he can expend or 1 or more of the wand's charges to cast one of the following spells from it: circle of death (1 charge), finger of death (1 charge), or power word kill (2 charges). The wand regains 1d4 + 3 charges daily at dawn.</text>
+			<text>While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500, These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn.</text>
+		</trait>		
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
+			<text></text>
+			<text>At will: chill touch (17th level), detect magic</text>
+			<text>3/day each: create undead, dispel magic</text>
+			<text>1/day: time stop</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Orcus fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Orcus has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapon</name>
+			<text>Orcus's weapon attacks are magical.</text>
+		</trait>
+		<trait>
+			<name>Master of Undeath</name>
+			<text>When Orcus casts animate dead or create undead, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Orcus makes two Wand of Orcus attacks.</text>
+		</action>
+		<action>
+			<name>Wand of Orcus</name>
+			<text>Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) bludgeoning damage plus 13 (2d12) necrotic damage.</text>
+			<attack>|19|3d8+8+2d12</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage plus 18 (4d8) poison damage.</text>
+			<attack>|17|30d8+8+4d8</attack>
+		</action>
+		<legendary>
+			<name></name>
+			<text>Orcus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Orcus regains spent legendary actions at the start of his turn.</text>
+		</legendary>
+		<legendary>
+			<name>Tail</name>
+			<text>Orcus makes one tail attack.</text>
+		</legendary>
+		<legendary>
+			<name>A Taste of Undeath</name>
+			<text>Orcus casts chill touch (17th level).</text>
+		</legendary>
+		<legendary>
+			<name>Creeping Death (Costs 2 Actions)</name>
+			<text>Orcus chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of Orcus's next turn. Creatures in that area are vulnerable to necrotic damage.</text>
+		</legendary>
+		<spells>chill touch, detect magic, create undead, dispel magic, time stop</spells>
+	</monster>
 </compendium>
