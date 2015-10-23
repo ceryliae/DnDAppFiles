@@ -714,11 +714,29 @@
 			</feature>
 			<feature>
 				<name>Divine Domain</name>
-				<text>Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.</text>
+				<text>Choose one domain related to your deity: Arcana, Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.</text>
 				<text> </text>
 				<text>Domain Spells</text>
 				<text>Each domain has a list of spells-its domain spells-that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
 				<text>    If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Divine Domain Arcana</name>
+				<text>Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.</text>
+				<text></text>
+				<text>The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and WeeJas of Greyhawk.</text>
+				<text></text>
+				<text>Arcana Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text></text>
+				<text>1st - detect magic, magic missile</text>
+				<text></text>
+				<text>3rd - magic weapon, Nystul's magic aura</text>
+				<text></text>
+				<text>5th - dispel magic, magic circle</text>
+				<text></text>
+				<text>7th - arcane eye, Leomund's secret chest</text>
+				<text></text>
+				<text>9th - planar binding, teleportation circle</text>
 			</feature>
 			<feature optional="YES">
 				<name>Divine Domain: Death</name>
@@ -849,6 +867,10 @@
 				<text>9th - flame strike, hold monster</text>
 			</feature>
 			<feature optional="YES">
+				<name>Arcana Domain: Arcane Initiate</name>
+				<text>When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips.</text>
+			</feature>	
+			<feature optional="YES">
 				<name>Death Domain: Bonus Proficiency</name>
 				<text>When the cleric chooses this domain at 1st level, he or she gains proficiency with martial weapons.</text>
 			</feature>
@@ -923,6 +945,28 @@
 				<text>    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Arcana Domain Channel Divinity: Arcane Abjuration</name>	
+				<text>Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures</text>
+				<text></text>
+				<text>As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. IF the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</text>
+				<text></text>
+				<text>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use use the Dash action or try to escape from an effect that prevents it form moving. If there's nowhere to move, then the creature can use the Dodge action.</text>
+				<text></text>
+				<text>After you reach 5th level, when a creature fails its saving throw against you Arcane Abjuration feature, the creature is banished for 1 minute (as in the banishment spell, no concentration required) if it isn't oin its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.</text>
+				<text></text>
+				<text>Cleric level - Banishes Creatures of CR...</text>
+				<text></text>
+				<text>5th - 1/2 or lower</text>
+				<text></text>
+				<text>8th - 1 or lower</text>
+				<text></text>
+				<text>11th - 2 or lower</text>
+				<text></text>
+				<text>14th - 3 or lower</text>
+				<text></text>
+				<text>17th - 4 or lower</text>
+			</feature>
+			<feature optional="YES">
 				<name>Death Domain Channel Divinity: Touch of Death</name>
 				<text>Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch.</text>
 				<text>    When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level.</text>
@@ -984,6 +1028,10 @@
 				<text>Beginning at 6th level, you can use your Channel Divinity twice between rests.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Arcana Domain: Spell Breaker</name>
+				<text>Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell</text>
+			</feature>
+			<feature optional="YES">
 				<name>Death Domain: Inescapable Destruction</name>
 				<text>Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage.</text>
 			</feature>
@@ -1034,6 +1082,10 @@
 		</autolevel>
 
 		<autolevel level="8">
+			<feature optionl="YES">
+				<name>Arcana Domain: Potent Spellcasting</name>
+				<text>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
+			</feature>
 			<feature optional="YES">
 				<name>Death Domain: Divine Strike</name>
 				<text>At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra 1d8 necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to 2d8.</text>
@@ -1111,6 +1163,10 @@
 			<feature>
 				<name>Destroy Undead (CR 4)</name>
 				<text>Starting at 17th level, when an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Arcana Domain: Arcane MAstery</name>
+				<text>At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Death Domain: Improved Reaper</name>
