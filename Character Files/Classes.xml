@@ -2173,6 +2173,24 @@
 				<text>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d 10 + your Dexterity modifier + your monk level.</text>
 				<text>    If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Monastic Tradition: Way of the Long Death</name>
+				<text>Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Long Death: Touch of Death</name>
+				<text>Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Monastic Tradition: Way of the Sun Soul</name>
+				<text>Monks of the Way of the Sun Soul learn to channel their own life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Sun Soul: Radiant Sun Bolt</name>
+				<text>Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.</text>
+				<text>	You gain a ranged spell attack that you can use with the Attack action. The attack has a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels &#8212; to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.</text>
+				<text>	When you use the Attack action on your turn to use this special attack, you can spend 1 ki point to make two additional attacks with it as a bonus action.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="4">
@@ -2223,9 +2241,18 @@
 				<text>You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Wholeness of Body</name>
+				<name>Way of the Open Hand: Wholeness of Body</name>
 				<text>You gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Way of the Long Death: Hour of Reaping</name>
+				<text>At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Sun Soul: Searing Arc Strike</name>
+				<text>At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the 1st-level spell burning hands as a bonus action.</text>
+				<text>	You can spend additional ki points to cast burning hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level (round down).</text>
+			</feature>		
 		</autolevel>
 
 		<autolevel level="7">
@@ -2289,6 +2316,16 @@
 				<text> </text>
 				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Way of the Long Death: Mastery of Death</name>
+				<text>Beginning at 11th level, you use your familiarity with death to escape its grasp. When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Sun Soul: Searing Sunburst</name>
+				<text>At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.</text>
+				<text>	Each creature in that 20-foot radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.</text>
+				<text>	You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="12">
@@ -2311,6 +2348,7 @@
 				<name>Diamond Soul</name>
 				<text>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.</text>
 				<text>    Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</text>
+				<proficiency>constitution, intelligence, wisdom, charisma</proficiency>
 			</feature>
 			<feature>
 				<name>Unarmed Movement (+ 25 ft.)</name>
@@ -2354,6 +2392,15 @@
 				<text>You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.</text>
 				<text> </text>
 				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Long Death: Touch of the Long Death</name>
+				<text>Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes 2d10 necrotic damage per ki point spent on a failed save, or half as much damage on a successful one.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Sun Soul: Sun Shield</name>
+				<text>At 17th level, you become wreathed in a luminous aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.</text>
+				<text>	If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier.</text>
 			</feature>
 		</autolevel>
 
@@ -3157,7 +3204,7 @@
 			</feature>
 			<feature>
 				<name>Sacred Oath</name>
-				<text>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, ar the Oath of Vengeance, all detailed at the end of the c1ass description.</text>
+				<text>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, the Oath of the Crown, or the Oath of Vengeance, all detailed at the end of the c1ass description.</text>
 				<text>    Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</text>
 			</feature>
 			<feature optional="YES">
@@ -3185,7 +3232,7 @@
 				<text>17th - commune with nature, tree stride</text>
 			</feature>
 			<feature optional="YES">
-				<name>Oath of the Ancients</name>
+				<name>Sacred Oath: Oath of the Ancients</name>
 				<text>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world.</text>
 				<text> </text>
 				<text>Tenets of the Ancients</text>
@@ -3221,7 +3268,7 @@
 				<text>17th - commune, flame strike</text>
 			</feature>
 			<feature optional="YES">
-				<name>Oath of Devotion</name>
+				<name>Sacred Oath: Oath of Devotion</name>
 				<text>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.</text>
 				<text> </text>
 				<text>Tenets of Devotion</text>
@@ -3258,7 +3305,7 @@
 				<text>17th - hold monster, scrying</text>
 			</feature>
 			<feature optional="YES">
-				<name>Oath of Vengeance</name>
+				<name>Sacred Oath: Oath of Vengeance</name>
 				<text>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins - sometimes called avengers or dark knights - their own purity is not as important as delivering justice.</text>
 				<text> </text>
 				<text>Tenets of Vengeance: The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</text>
@@ -3266,6 +3313,11 @@
 				<text>    No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.</text>
 				<text>    By Any Means Necessary. My qualms can't get in the way of exterminating my foes.</text>
 				<text>    Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</text>
+			</feature>
+			<feature>
+				<name>Sacred Oath: Oathbreaker</name>
+				<text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.</text>
+				<text>	A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Oathbreaker: Oathbreaker Spells</name>
@@ -3288,6 +3340,43 @@
 			<feature optional="YES">
 				<name>Oathbreaker Channel Divinity: Dreadful Aspect</name>
 				<text>As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Crown</name>
+				<text>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.</text>
+				<text>	 </text>
+				<text>Tenets of the Crown:</text>
+				<text>	The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
+				<text>	 </text>
+				<text>Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</text>
+				<text>	 </text>
+				<text>Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.</text>
+				<text>	 </text>
+				<text>Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</text>
+				<text>	 </text>
+				<text>Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations. </text>
+				</feature>
+			<feature optional="YES">
+				<name>Oath of the Crown: Oath Spells</name>
+				<text>	You gain oath spells at the paladin levels listed.</text>
+				<text>	 </text>
+				<text>3rd - command, compelled duel</text>
+				<text></text>
+				<text>5th - warding bond, zone of truth</text>
+				<text></text>
+				<text>9th - aura of vitality, spirit guardians</text>
+				<text></text>
+				<text>13th - banishment, guardian of faith</text>
+				<text></text>
+				<text>17th - circle of power, geas</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Crown Channel Divinity: Champion Challenge</name>
+				<text>You issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is moved more than 30 feet away from you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Crown Channel Divinity: Turn the Tide</name>
+				<text>As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.</text>
 			</feature>
 		</autolevel>
 
@@ -3334,6 +3423,10 @@
 				<text>Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.</text>
 				<text>    At 18th level, the range of this aura increases to 30 feet.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Oath of the Crown: Divine Allegiance</name>
+				<text>Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way.</text>
+			</feature>	
 		</autolevel>
 
 		<autolevel level="8">
@@ -3393,6 +3486,10 @@
 				<name>Oathbreaker: Supernatural Resistance</name>
 				<text>At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Oath of the Crown: Unyielding Spirit</name>
+				<text>Starting at 15th level, you have advantage on saving throws to avoid becoming paralyzed or stunned.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="16">
@@ -3451,6 +3548,18 @@
 				<text>At 20th-level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.</text>
 				<text>    While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + the paladin's Charisma modifier.</text>
 				<text>    After activating the aura, the paladin can't do so again until he or she finishes a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Crown: Exalted Champion</name>
+				<text>At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour: </text>
+				<text>	 </text>
+				<text>- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
+				<text>	 </text>
+				<text>- Your allies have advantage on death saving throws while within 30 feet of you.</text>
+				<text>	 </text>
+				<text>- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.</text>
+				<text>	 </text>
+				<text>	This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 		</autolevel>
 	</class>
