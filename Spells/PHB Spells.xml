@@ -362,7 +362,7 @@
 		<range>Self (30-foot radius)</range>
 		<components>V</components>
 		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Paladin</classes>
+		<classes>Paladin, Warlock (Undying)</classes>
 		<text>Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.</text>
 	</spell>
 	<spell>
@@ -623,7 +623,7 @@
 		<range>30 feet</range>
 		<components>V</components>
 		<duration>1 minute</duration>
-		<classes>Bard, Cleric, Cleric (Death), Sorcerer, Warlock (Fiend), Wizard</classes>
+		<classes>Bard, Cleric, Cleric (Death), Sorcerer, Warlock (Fiend), Warlock (Undying), Wizard</classes>
 		<text>You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
@@ -1220,7 +1220,7 @@
 		<range>Touch</range>
 		<components>V, S</components>
 		<duration>7 days</duration>
-		<classes>Cleric, Druid, Paladin (Oathbreaker)</classes>
+		<classes>Cleric, Druid, Paladin (Oathbreaker), Warlock (Undying)</classes>
 		<text>Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.</text>
 		<text />
 		<text>At the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.</text>
@@ -1543,7 +1543,7 @@
 		<range>Touch</range>
 		<components>V, S</components>
 		<duration>8 hours</duration>
-		<classes>Cleric, Cleric (Death), Cleric (Life), Paladin</classes>
+		<classes>Cleric, Cleric (Death), Cleric (Life), Paladin, Warlock (Undying)</classes>
 		<text>You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends.</text>
 	</spell>
 	<spell>
@@ -2175,7 +2175,7 @@
 		<range>Self</range>
 		<components>V, S, M (a small amount of alcohol or distilled spirits)</components>
 		<duration>1 hour</duration>
-		<classes>Cleric (Death), Sorcerer, Wizard</classes>
+		<classes>Cleric (Death), Sorcerer, Warlock (Undying), Wizard</classes>
 		<text>Bolstering yourself with a necromantic facsimile of life, you gain 1d4+4 temporary hit points for the duration.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</text>
@@ -2235,7 +2235,7 @@
 		<range>Touch</range>
 		<components>V, S, M (a pinch of graveyard dirt)</components>
 		<duration>1 hour</duration>
-		<classes>Bard, Cleric, Druid, Wizard</classes>
+		<classes>Bard, Cleric, Druid, Warlock (Undying), Wizard</classes>
 		<text>You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.</text>
 		<text />
 		<text>For the spell's duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell's effect, the disease and poison have no effect until the spell ends.</text>
@@ -3361,7 +3361,7 @@
 		<range>Self</range>
 		<components>V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)</components>
 		<duration>Instantaneous</duration>
-		<classes>Bard, Cleric, Cleric (Knowledge), Wizard</classes>
+		<classes>Bard, Cleric, Cleric (Knowledge), Warlock (Undying), Wizard</classes>
 		<text>Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information.</text>
 		<text />
 		<text>The more information you already have about the thing, the more precise and detailed the information you receive is. The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information - Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips.</text>
@@ -4663,7 +4663,7 @@
 		<range>60 feet</range>
 		<components>V, S</components>
 		<duration>Instantaneous</duration>
-		<classes>Cleric (Death), Sorcerer, Wizard</classes>
+		<classes>Cleric (Death), Sorcerer, Warlock (Undying), Wizard</classes>
 		<text>A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
@@ -5070,7 +5070,7 @@
 		<range>120 feet</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Bard, Cleric, Druid (Desert), Ranger</classes>
+		<classes>Bard, Cleric, Druid (Desert), Ranger, Warlock (Undying)</classes>
 		<text>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</text>
 	</spell>
 	<spell>
@@ -5193,7 +5193,7 @@
 		<range>10 feet</range>
 		<components>V, S, M (burning incense)</components>
 		<duration>10 minutes</duration>
-		<classes>Bard, Cleric, Cleric (Knowledge)</classes>
+		<classes>Bard, Cleric, Cleric (Knowledge), Warlock (Undying)</classes>
 		<text>You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.</text>
 		<text />
 		<text>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.</text>
