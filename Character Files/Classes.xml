@@ -4695,12 +4695,12 @@
 			</feature>
 			<feature optional="YES">
 				<name>Swashbuckler: Fancy Footwork</name>
-				<text>Starting at 3rd level, you are a continuous blur of motion in battle as you dart in, attack, and slip away to safety. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
+				<text>When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Swashbuckler: Toujours l'Audace</name>
-				<text>At 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls.</text>
-				<text>    In addition, you can use Sneak Attack with any melee attack made against a target that has none of your allies adjacent to it.</text>
+				<name>Swashbuckler: Rakish Audacity</name>
+				<text>Starting at 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls. </text>
+				<text>	In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Fast Hands</name>
@@ -4710,6 +4710,21 @@
 				<name>Thief: Second-Story Work</name>
 				<text>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.</text>
 				<text>    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Rougeish Archetype: Mastermind</name>
+				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
+				<text>	</text>
+				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
+			</feature>
+			<feature optional="YES">
+				<name>Mastermind: Master of Intrigue</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
+				<text>	Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Mastermind: Master of Tactics</name>
+				<text>Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.</text>
 			</feature>
 		</autolevel>
 
@@ -4755,13 +4770,24 @@
 			</feature>
 			<feature optional="YES">
 				<name>Swashbuckler: Panache</name>
-				<text>At 9th level, your charm becomes as sharp and dangerous as your blade. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
-				<text>    If you succeed on the check and the creature is hostile, it must target you with any attacks it makes and cannot willingly move farther away from you. This effect lasts for 1 minute or until you move more than 60 feet away from the target.</text>
-				<text>    If you succeed on the check and the creature is not hostile, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance.</text>
+				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
+				<text>	If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
+				<text>	If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Supreme Sneak</name>
 				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Mastermind: Insightful Manipulator</name>
+				<text>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: </text>
+				<text>	 </text>
+				<text>- Intelligence score </text>
+				<text>- Wisdom score </text>
+				<text>- Charisma score </text>
+				<text>- Class levels (if any) </text>
+				<text>	 </text>
+				<text>	At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
 			</feature>
 		</autolevel>
 
@@ -4800,11 +4826,15 @@
 			</feature>
 			<feature optional="YES">
 				<name>Swashbuckler: Elegant Maneuver</name>
-				<text>You complete difficult maneuvers with practiced ease. Starting at 13th level, you can use a bonus action to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make on your turn.</text>
+				<text>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Use Magic Device</name>
 				<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Mastermind: Misdirection</name>
+				<text>Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you.</text>
 			</feature>
 		</autolevel>
 
@@ -4843,11 +4873,16 @@
 			</feature>
 			<feature optional="YES">
 				<name>Swashbuckler: Master Duelist</name>
-				<text>At 17th level your mastery of the blade lets you turn failure to success in combat. If you miss with an attack, you can choose to roll the attack again with advantage. Once you use this ability, you cannot use it again until you finish a short or long rest.</text>
+				<text>Beginning at 17th level, your mastery of the blade lets you turn failure to success in combat. If you miss with an attack roll, you can choose to roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Thief's Reflexes</name>
 				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Mastermind: Soul of Deceit</name>
+				<text>Starting at 17th level, your thoughts can&#8217;t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
+				<text>	Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
 			</feature>
 		</autolevel>
 
@@ -5078,21 +5113,12 @@
 				<text>    Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Storm: Bonus Spells</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known.</text>
-				<text> </text>
-				<text>1st — fog cloud, thunderwave</text>
-				<text>3rd — gust of wind, levitate</text>
-				<text>5th — call lightning, sleet storm</text>
-				<text>7th — conjure minor elementals*, ice storm</text>
-				<text>9th — conjure elemental**</text>
-				<text></text>
-				<text>* Unless you gain this spell from another source, you can summon only smoke mephits, steam mephits, ice mephits, or dust mephits with it.</text>
-				<text>**Unless you gain this spell from another source, you can summon only air elementals with it.</text>
+				<name>Storm: Tempestuous Magic</name>
+				<text>Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Storm: Tempestuous Magic</name>
-				<text>At 1st level, you are attuned to elemental air magic. Whenever you cast a spell other than a cantrip during your turn, whirling gusts of elemental air surround you. You can use a bonus action to fly 10 feet without provoking opportunity attacks.</text>
+				<name>Storm: Wind Speaker</name>
+				<text>The arcane magic you command is infused with elemental air. You can speak, read, and write Primordial. (Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.)</text>
 			</feature>
 			<feature optional="YES">
 				<name>Wild Magic: Wild Magic Surge</name>
@@ -5242,13 +5268,13 @@
 			</feature>
 			<feature optional="YES">
 				<name>Storm: Heart of the Storm</name>
-				<text>At 6th level, you gain resistance to lightning and thunder damage. Whenever you cast a spell other than a cantrip that deals lightning or thunder damage, a stormy aura surrounds you. In addition to the spell's effects, creatures of your choice within 10 feet of you take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level.</text>
+				<text>At 6th level, you gain resistance to lightning and thunder damage. In addition, whenever you cast a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Storm: Storm Guide</name>
 				<text>At 6th level, you gain the ability to subtly control the weather around you.</text>
-				<text>If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
-				<text>If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
+				<text>	If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
+				<text>	If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Favored Soul: Extra Attack</name>
@@ -5326,7 +5352,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Storm: Storm's Fury</name>
-				<text>At 14th level, the storm energy you channel through your magic seethes within your soul. When you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker equal to your sorcerer level. The attacker must also make a Strength saving throw, with a DC equal to 8+your Charisma bonus+your proficiency bonus. On a failed save, the attacker is pushed in a straight line 20 feet away from you.</text>
+				<text>Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Wild Magic: Controlled Chaos</name>
