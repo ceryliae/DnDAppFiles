@@ -1573,6 +1573,22 @@
 				<text>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Martial Archetype: Purple Dragon Knight (Banneret)</name>
+				<text>Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.</text>
+				<text>	A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.</text>
+				<text>	A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Purple Dragon Knight: Restriction: Knighthood</name>
+				<text>Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.</text>
+				<text>	Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Purple Dragon Knight: Rallying Cry</name>
+				<text>When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.</text>
+				<text>	When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Battle Master: Combat Superiority</name>
 				<text>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.</text>
 				<text> </text>
@@ -1742,6 +1758,14 @@
 				<name>Eldritch Knight: War Magic</name>
 				<text>Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Purple Dragon Knight: Royal Envoy</name>
+				<text>A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.</text>
+				<text>	At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.</text>
+				<text>	Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature.</text>
+				<proficiency>Persuasion</proficiency>
+				<modifier category="skills">Persuasion+%0</modifier>
+			</feature>
 		</autolevel>
 
 		<autolevel level="8">
@@ -1780,6 +1804,11 @@
 			<feature optional="YES">
 				<name>Eldritch Knight: Eldritch Strike</name>
 				<text>At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Purple Dragon Knight: Inspiring Surge</name>
+				<text>Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.</text>
+				<text>	Starting at 17th level, you can choose two allies within 60 feet of you, rather than one.</text>
 			</feature>
 		</autolevel>
 
@@ -1833,6 +1862,10 @@
 			<feature optional="YES">
 				<name>Eldritch Knight: Arcane Charge</name>
 				<text>At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Purple Dragon Knight: Bulwark</name>
+				<text>Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't incapacitated, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.</text>
 			</feature>
 		</autolevel>
 
