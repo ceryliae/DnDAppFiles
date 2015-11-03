@@ -328,7 +328,7 @@
 		<autolevel level="18">
 			<feature>
 				<name>Indomitable Might</name>
-				<text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+				<text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
 			</feature>
 		</autolevel>
 
@@ -5002,6 +5002,19 @@
 				<text>Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Sorcerous Origin: Shadow</name>
+				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental way.</text>
+				<text> </text>
+				<text>    The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the following table to create a unique quirk for your character.</text>
+				<text> </text>
+				<text>1 — You are always icy cold to the touch.</text>
+				<text>2 — When you are asleep, you don't appear to breathe (though you must still breathe to survive).</text>
+				<text>3 — You don't seem to bleed, even when badly injured.</text>
+				<text>4 — Your heart beats once per minute. This even sometimes surprises you.</text>
+				<text>5 — You have trouble remembering that living creatures and corpses should be treated differently.</text>
+				<text>6 — You blinked. Once. Last week.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Favored Soul: Bonus Proficiency</name>
 				<text>At 1st level, you gain proficiency in light armor, medium armor, shields, and simple weapons.</text>
 			</feature>
@@ -5183,6 +5196,14 @@
 				<text>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.</text>
 				<text>    Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Eyes of the Dark</name>
+				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Strength of the Grave</name>
+				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Consitution daving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
+			</feature>
 		</autolevel>
 		<autolevel level="2">
 			<feature>
@@ -5280,6 +5301,16 @@
 				<name>Favored Soul: Extra Attack</name>
 				<text>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Shadow: Hound of Ill Omen</name>
+				<text>At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see. The hound uses a dire wolf's statistics with the following changes:</text>
+				<text></text>
+				<text>The hound is size Medium</text>
+				<text>It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
+				<text>At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
+				<text></text>
+				<text>    The hound appears in an unoccupied space of your choice within 30 feer of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="8">
@@ -5358,6 +5389,10 @@
 				<name>Wild Magic: Controlled Chaos</name>
 				<text>At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Shadow: Shadow Walk</name>
+				<text>At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="16">
@@ -5426,6 +5461,10 @@
 				<name>Storm: Wind Soul</name>
 				<text>At 18th level, you gain a flying speed of 60 feet and immunity to lightning and thunder damage.</text>
 				<text>As an action, you can reduce your flying speed to 30 feet for one hour and choose a number of creatures within 30 feet of you equal to 3+your Charisma modifier. The chosen creatures gain a flying speed of 30 feet for 1 hour.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Shadow Form</name>
+				<text>At 18th level, you can spend 3 sorcery points to transform yourself into a shadow form as a bonus action. In this form, you have resistance to all damage except force damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object. You remain in this form for 1 minute.</text>
 			</feature>
 		</autolevel>
 
