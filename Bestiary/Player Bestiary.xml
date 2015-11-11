@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" auto_indent="YES">
+<compendium version="5">
 	<monster>
 		<name>Air Elemental</name>
 		<size>L</size>
@@ -9,10 +9,8 @@
 		<hp>90 (12d10 + 24)</hp>
 		<speed>fly 90 ft. (hover)</speed>
 		<str>14</str><dex>20</dex><con>14</con><int>6</int><wis>10</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
 		<resist>lightning; thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -37,7 +35,6 @@
 			<text>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.</text>
 			<text>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Air Elemental Myrmidon</name>
@@ -48,10 +45,8 @@
 		<hp>117 (18d8 + 36)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>18</str><dex>14</dex><con>14</con><int>9</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill></skill>
 		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -76,7 +71,6 @@
 			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
 			<attack>Lightning Strike|7|1d8+4+4d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Allosaurus</name>
@@ -87,13 +81,7 @@
 		<hp>60 (6d10 + 18)</hp>
 		<speed>60 ft.</speed>
 		<str>19</str><dex>13</dex><con>17</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>15</passive>
 		<languages></languages>
 		<cr>2</cr>
@@ -111,7 +99,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
 			<attack>Claw|6|1d8+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Ankylosaurus</name>
@@ -122,13 +109,7 @@
 		<hp>68 (8d12 + 16)</hp>
 		<speed>30 ft.</speed>
 		<str>19</str><dex>11</dex><con>15</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>3</cr>
@@ -136,7 +117,6 @@
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Ape</name>
@@ -147,13 +127,7 @@
 		<hp>19 (3d8 + 6)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>16</str><dex>14</dex><con>14</con><int>6</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Athletics +5, Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -171,7 +145,6 @@
 			<text>Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Rock|5|1d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Awakened Shrub</name>
@@ -182,13 +155,9 @@
 		<hp>10 (3d6)</hp>
 		<speed>20 ft.</speed>
 		<str>3</str><dex>8</dex><con>11</con><int>10</int><wis>10</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
 		<resist>piercing</resist>
 		<vulnerable>fire</vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>one language known by its creator</languages>
 		<cr>0</cr>
@@ -201,7 +170,6 @@
 			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 &#8212; 1) slashing damage.</text>
 			<attack>|1|1d4-1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Awakened Tree</name>
@@ -212,13 +180,9 @@
 		<hp>59 (7d12 + 14)</hp>
 		<speed>20 ft.</speed>
 		<str>19</str><dex>6</dex><con>15</con><int>10</int><wis>10</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing</resist>
 		<vulnerable>fire</vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>one language known by its creator</languages>
 		<cr>2</cr>
@@ -231,7 +195,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.</text>
 			<attack>|6|3d6+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Axe Beak</name>
@@ -242,13 +205,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>50 ft.</speed>
 		<str>14</str><dex>12</dex><con>12</con><int>2</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -257,7 +214,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</text>
 			<attack>Beak|4|1d8+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Azer</name>
@@ -270,11 +226,8 @@
 		<str>17</str><dex>12</dex><con>15</con><int>12</int><wis>13</wis><cha>10</cha>
 		<save>Con +4</save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages>Ignan</languages>
 		<cr>2</cr>
@@ -296,7 +249,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
 			<attack>Warhammer|5|1d8+3+1d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Baboon</name>
@@ -307,13 +259,7 @@
 		<hp>3 (1d6)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>8</str><dex>14</dex><con>11</con><int>4</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -326,7 +272,6 @@
 			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 &#8212; 1) piercing damage.</text>
 			<attack>Bite|1|1d4-1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Badger</name>
@@ -337,12 +282,7 @@
 		<hp>3 (1d4 + 1)</hp>
 		<speed>20 ft., burrow 5 ft.</speed>
 		<str>4</str><dex>11</dex><con>12</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>11</passive>
 		<languages></languages>
@@ -356,7 +296,6 @@
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
 			<attack>Bite|2|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Bat</name>
@@ -367,12 +306,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>5 ft., fly 30 ft.</speed>
 		<str>2</str><dex>15</dex><con>8</con><int>2</int><wis>12</wis><cha>4</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>11</passive>
 		<languages></languages>
@@ -390,7 +324,6 @@
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
 			<attack>Bite||1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Black Bear</name>
@@ -401,13 +334,7 @@
 		<hp>19 (3d8 + 6)</hp>
 		<speed>40 ft., climb 30 ft.</speed>
 		<str>15</str><dex>10</dex><con>14</con><int>2</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -429,7 +356,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
 			<attack>Claws|3|2d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Blink Dog</name>
@@ -440,13 +366,7 @@
 		<hp>22 (4d8 + 4)</hp>
 		<speed>40 ft.</speed>
 		<str>12</str><dex>17</dex><con>12</con><int>10</int><wis>13</wis><cha>11</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Blink Dog, understands Sylvan but can't speak it</languages>
 		<cr>1/4</cr>
@@ -463,7 +383,6 @@
 			<name>Teleport (Recharge 4-6)</name>
 			<text>The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Blood Hawk</name>
@@ -474,13 +393,7 @@
 		<hp>7 (2d6)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>6</str><dex>14</dex><con>10</con><int>3</int><wis>14</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages></languages>
 		<cr>1/8</cr>
@@ -497,7 +410,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Beak|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Boar</name>
@@ -508,13 +420,7 @@
 		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>13</str><dex>11</dex><con>12</con><int>2</int><wis>9</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>9</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -532,7 +438,6 @@
 			<text>Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
 			<attack>Tusk|3|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Brown Bear</name>
@@ -543,13 +448,7 @@
 		<hp>34 (4d10 + 12)</hp>
 		<speed>40 ft., climb 30 ft.</speed>
 		<str>19</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1</cr>
@@ -571,7 +470,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
 			<attack>Claws|5|2d6+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Camel</name>
@@ -582,13 +480,7 @@
 		<hp>15 (2d10 + 4)</hp>
 		<speed>50 ft.</speed>
 		<str>16</str><dex>8</dex><con>14</con><int>2</int><wis>8</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>9</passive>
 		<languages></languages>
 		<cr>1/8</cr>
@@ -597,7 +489,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
 			<attack>Bite|5|1d4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Cat</name>
@@ -608,13 +499,7 @@
 		<hp>2 (1d4)</hp>
 		<speed>40 ft., climb 30 ft.</speed>
 		<str>3</str><dex>15</dex><con>10</con><int>3</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -627,7 +512,6 @@
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
 			<attack>Claws||1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Cave Bear</name>
@@ -638,12 +522,7 @@
 		<hp>42 (5d10 + 15)</hp>
 		<speed>40 ft., swim 30 ft.</speed>
 		<str>20</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -666,7 +545,6 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
 			<attack>Claws|7|2d6+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Constrictor Snake</name>
@@ -677,12 +555,7 @@
 		<hp>13 (2d10 + 2)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>15</str><dex>14</dex><con>12</con><int>1</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -697,7 +570,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
 			<attack>Constrict|4|1d8+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Couatl</name>
@@ -711,9 +583,7 @@
 		<save>Con +5, Wis +7, Cha +6</save>
 		<skill></skill>
 		<resist>radiant</resist>
-		<vulnerable></vulnerable>
 		<immune>psychic; bludgeoning, piercing, and slashing from nonmagical weapons</immune>
-		<conditionImmune></conditionImmune>
 		<senses>truesight 120 ft.</senses>
 		<passive>15</passive>
 		<languages>all, telepathy 120 ft.</languages>
@@ -721,7 +591,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: </text>
-			<text></text>
+			<text> </text>
 			<text>At will: detect evil and good, detect magic, detect thoughts</text>
 			<text>3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</text>
 			<text>1/day each: dream, greater restoration, scrying</text>
@@ -760,12 +630,7 @@
 		<hp>2 (1d4)</hp>
 		<speed>20 ft., swim 20 ft.</speed>
 		<str>2</str><dex>11</dex><con>10</con><int>1</int><wis>8</wis><cha>2</cha>
-		<save></save>
 		<skill>Stealth +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>9</passive>
 		<languages></languages>
@@ -779,7 +644,6 @@
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</text>
 			<attack>Claw||1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Crocodile</name>
@@ -790,13 +654,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>20 ft., swim 20 ft.</speed>
 		<str>15</str><dex>10</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill>Stealth +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -809,7 +667,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target</text>
 			<attack>Bite|4|1d10+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Deer</name>
@@ -820,13 +677,7 @@
 		<hp>4 (1d8)</hp>
 		<speed>50 ft.</speed>
 		<str>11</str><dex>16</dex><con>11</con><int>2</int><wis>14</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -835,7 +686,6 @@
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
 			<attack>Bite|2|1d4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dire Wolf</name>
@@ -846,13 +696,7 @@
 		<hp>37 (5d10 + 10)</hp>
 		<speed>50 ft.</speed>
 		<str>17</str><dex>15</dex><con>15</con><int>3</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1</cr>
@@ -869,7 +713,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|5|2d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Draft Horse</name>
@@ -880,13 +723,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>40 ft.</speed>
 		<str>18</str><dex>10</dex><con>12</con><int>2</int><wis>11</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -895,7 +732,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|2d4+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dryad</name>
@@ -906,12 +742,7 @@
 		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str><dex>12</dex><con>11</con><int>14</int><wis>15</wis><cha>18</cha>
-		<save></save>
 		<skill>Perception +4, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Elvish, Sylvan</languages>
@@ -919,7 +750,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components: </text>
-			<text></text>
+			<text> </text>
 			<text>At will: druidcraft</text>
 			<text>3/day each: entangle, goodberry</text>
 			<text>1/day each: barkskin, pass without trace, shillelagh</text>
@@ -958,9 +789,7 @@
 		<hp>17 (5d6)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>5</str><dex>14</dex><con>10</con><int>9</int><wis>11</wis><cha>10</cha>
-		<save></save>
 		<skill>Perception +2, Stealth +4</skill>
-		<resist></resist>
 		<vulnerable>fire</vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
@@ -1000,13 +829,7 @@
 		<hp>3 (1d6)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>6</str><dex>15</dex><con>10</con><int>2</int><wis>14</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -1019,7 +842,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Talons|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Earth Elemental</name>
@@ -1030,7 +852,6 @@
 		<hp>126 (12d10 + 60)</hp>
 		<speed>30 ft., burrow 30 ft.</speed>
 		<str>20</str><dex>8</dex><con>20</con><int>5</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<vulnerable>thunder</vulnerable>
@@ -1057,7 +878,6 @@
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
 			<attack>Slam|8|2d8+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Earth Elemental Myrmidon</name>
@@ -1068,10 +888,8 @@
 		<hp>127 (17d8 + 51)</hp>
 		<speed>30 ft.</speed>
 		<str>18</str><dex>10</dex><con>17</con><int>8</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1096,7 +914,6 @@
 			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Elephant</name>
@@ -1107,13 +924,7 @@
 		<hp>76 (8d12 + 24)</hp>
 		<speed>40 ft.</speed>
 		<str>22</str><dex>9</dex><con>17</con><int>3</int><wis>11</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>4</cr>
@@ -1131,7 +942,6 @@
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 21 (3d10 + 5) bludgeoning damage.</text>
 			<attack>Stomp|8|3d10+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Elk</name>
@@ -1142,13 +952,7 @@
 		<hp>13 (2d10 + 2)</hp>
 		<speed>50 ft.</speed>
 		<str>16</str><dex>10</dex><con>12</con><int>2</int><wis>10</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -1165,7 +969,6 @@
 			<name>Hooves</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Fire Elemental</name>
@@ -1176,10 +979,8 @@
 		<hp>102 (12d10 + 36)</hp>
 		<speed>50 ft.</speed>
 		<str>10</str><dex>17</dex><con>16</con><int>6</int><wis>10</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1209,7 +1010,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
 			<attack>Touch|6|2d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Fire Elemental Myrmidon</name>
@@ -1220,10 +1020,8 @@
 		<hp>117 (18d8 + 36)</hp>
 		<speed>40 ft.</speed>
 		<str>13</str><dex>18</dex><con>15</con><int>9</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1256,7 +1054,6 @@
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
 			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Fire Snake</name>
@@ -1267,12 +1064,10 @@
 		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<str>12</str><dex>14</dex><con>11</con><int>7</int><wis>10</wis><cha>8</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<vulnerable>cold</vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages>understands Ignan but can't speak</languages>
@@ -1296,7 +1091,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage plus 3 (1d6) fire damage.</text>
 			<attack>Tail|3|1d4+1+1d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Flying Snake</name>
@@ -1307,12 +1101,7 @@
 		<hp>5 (2d4)</hp>
 		<speed>30 ft., fly 60 ft., swim 30 ft.</speed>
 		<str>4</str><dex>18</dex><con>11</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>11</passive>
 		<languages></languages>
@@ -1326,7 +1115,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</text>
 			<attack>Bite|6|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Frog</name>
@@ -1337,12 +1125,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>20 ft., swim 20 ft.</speed>
 		<str>1</str><dex>13</dex><con>8</con><int>1</int><wis>8</wis><cha>3</cha>
-		<save></save>
 		<skill>Perception +1, Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>11</passive>
 		<languages></languages>
@@ -1355,7 +1138,6 @@
 			<name>Standing Leap</name>
 			<text>The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.</text>
 		</trait>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Galeb Duhr</name>
@@ -1366,10 +1148,8 @@
 		<hp>85 (9d8 + 45)</hp>
 		<speed>15 ft. (30 ft. when rolling, 60 ft. rolling downhill)</speed>
 		<str>20</str><dex>14</dex><con>20</con><int>11</int><wis>12</wis><cha>11</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, paralyzed, poisoned, petrified</conditionImmune>
 		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
@@ -1394,7 +1174,6 @@
 			<name>Animate Boulders (1/Day)</name>
 			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell) .</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Gargoyle</name>
@@ -1405,10 +1184,8 @@
 		<hp>52 (7d8 + 21)</hp>
 		<speed>30 ft., fly 60 ft.</speed>
 		<str>15</str><dex>11</dex><con>16</con><int>6</int><wis>11</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, petrified, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1433,7 +1210,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
 			<attack>Claws|4|1d6+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Ghast</name>
@@ -1444,10 +1220,7 @@
 		<hp>36 (8d8)</hp>
 		<speed>30 ft.</speed>
 		<str>16</str><dex>17</dex><con>10</con><int>11</int><wis>10</wis><cha>8</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>necrotic</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1472,7 +1245,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Claws|5|2d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Ghoul</name>
@@ -1483,11 +1255,7 @@
 		<hp>22 (5d8)</hp>
 		<speed>30 ft.</speed>
 		<str>13</str><dex>15</dex><con>10</con><int>7</int><wis>10</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
@@ -1502,7 +1270,6 @@
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Badger</name>
@@ -1513,12 +1280,7 @@
 		<hp>13 (2d8 + 4)</hp>
 		<speed>30 ft., burrow 10 ft.</speed>
 		<str>13</str><dex>10</dex><con>15</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>11</passive>
 		<languages></languages>
@@ -1541,7 +1303,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
 			<attack>Claws|3|2d4+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Bat</name>
@@ -1552,12 +1313,7 @@
 		<hp>22 (4d10)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>15</str><dex>16</dex><con>11</con><int>2</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>11</passive>
 		<languages></languages>
@@ -1575,7 +1331,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Bite|4|1d6+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Boar</name>
@@ -1586,13 +1341,7 @@
 		<hp>42 (5d10 + 5)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str><dex>10</dex><con>16</con><int>2</int><wis>7</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>8</passive>
 		<languages></languages>
 		<cr>2</cr>
@@ -1610,7 +1359,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
 			<attack>Tusk|5|2d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Centipede</name>
@@ -1621,12 +1369,7 @@
 		<hp>4 (1d6 + 1)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>5</str><dex>14</dex><con>12</con><int>1</int><wis>7</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>8</passive>
 		<languages></languages>
@@ -1636,7 +1379,6 @@
 			<text>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Constrictor Snake</name>
@@ -1647,12 +1389,7 @@
 		<hp>60 (8d12 + 8)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>19</str><dex>14</dex><con>12</con><int>1</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill>Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -1667,7 +1404,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
 			<attack>Constrict|6|2d8+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Crab</name>
@@ -1678,12 +1414,7 @@
 		<hp>13 (3d8)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>13</str><dex>15</dex><con>11</con><int>1</int><wis>9</wis><cha>3</cha>
-		<save></save>
 		<skill>Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>9</passive>
 		<languages></languages>
@@ -1697,7 +1428,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.</text>
 			<attack>Claw|3|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Crocodile</name>
@@ -1708,13 +1438,7 @@
 		<hp>85 (9d12 + 27)</hp>
 		<speed>30 ft., swim 50 ft.</speed>
 		<str>21</str><dex>9</dex><con>17</con><int>2</int><wis>10</wis><cha>7</cha>
-		<save></save>
 		<skill>Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>5</cr>
@@ -1736,7 +1460,6 @@
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
 			<attack>Tail|8|2d8+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Eagle</name>
@@ -1747,13 +1470,7 @@
 		<hp>26 (4d10 + 4)</hp>
 		<speed>10 ft., fly 80 ft.</speed>
 		<str>16</str><dex>17</dex><con>13</con><int>8</int><wis>14</wis><cha>10</cha>
-		<save></save>
 		<skill>Perception +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Giant Eagle, understands Common and Auran but can't speak</languages>
 		<cr>1</cr>
@@ -1775,7 +1492,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
 			<attack>Talons|5|2d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Elk</name>
@@ -1786,13 +1502,7 @@
 		<hp>42 (5d12 + 10)</hp>
 		<speed>60 ft.</speed>
 		<str>19</str><dex>16</dex><con>14</con><int>7</int><wis>14</wis><cha>10</cha>
-		<save></save>
 		<skill>Perception +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Giant Elk, understands Common, Elvish, and Sylvan but can't speak</languages>
 		<cr>2</cr>
@@ -1811,7 +1521,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|4d8+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Fire Beetle</name>
@@ -1822,12 +1531,7 @@
 		<hp>4 (1d6 + 1)</hp>
 		<speed>30 ft.</speed>
 		<str>8</str><dex>10</dex><con>12</con><int>1</int><wis>7</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>8</passive>
 		<languages></languages>
@@ -1841,7 +1545,6 @@
 			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 &#8212; 1) slashing damage.</text>
 			<attack>Bite|1|1d6-1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Fly</name>
@@ -1852,17 +1555,11 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>30 ft., fly 60 ft.</speed>
 		<str>14</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>0</cr>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Frog</name>
@@ -1873,12 +1570,7 @@
 		<hp>18 (4d8)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>12</str><dex>13</dex><con>11</con><int>2</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill>Perception +2, Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -1900,7 +1592,6 @@
 			<name>Swallow</name>
 			<text>The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Goat</name>
@@ -1911,13 +1602,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str><dex>11</dex><con>12</con><int>3</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -1935,7 +1620,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 			<attack>Ram|5|2d4+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Hyena</name>
@@ -1946,13 +1630,7 @@
 		<hp>45 (6d10 + 12)</hp>
 		<speed>50 ft.</speed>
 		<str>16</str><dex>14</dex><con>14</con><int>2</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1</cr>
@@ -1965,7 +1643,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</text>
 			<attack>Bite|5|1d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Lizard</name>
@@ -1976,12 +1653,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>15</str><dex>12</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -1999,7 +1671,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
 			<attack>Bite|4|1d8+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Octopus</name>
@@ -2010,12 +1681,7 @@
 		<hp>52 (8d10 + 8)</hp>
 		<speed>10 ft., swim 60 ft.</speed>
 		<str>17</str><dex>13</dex><con>13</con><int>4</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill>Perception +4, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages></languages>
@@ -2041,7 +1707,6 @@
 			<name>Ink Cloud (Recharges after a Short or Long Rest)</name>
 			<text>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Owl</name>
@@ -2052,12 +1717,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>5 ft., fly 60 ft.</speed>
 		<str>13</str><dex>15</dex><con>12</con><int>8</int><wis>13</wis><cha>10</cha>
-		<save></save>
 		<skill>Perception +5, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 120 ft.</senses>
 		<passive>15</passive>
 		<languages>Giant Owl, understands Common, Elvish, and Sylvan but can't speak</languages>
@@ -2075,7 +1735,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.</text>
 			<attack>Talons|3|2d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Poisonous Snake</name>
@@ -2086,12 +1745,7 @@
 		<hp>11 (2d8 + 2)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>10</str><dex>18</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill>Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -2101,7 +1755,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|6|1d4+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Rat</name>
@@ -2112,12 +1765,7 @@
 		<hp>7 (2d6)</hp>
 		<speed>30 ft.</speed>
 		<str>7</str><dex>15</dex><con>11</con><int>2</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -2135,7 +1783,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Rat (Diseased)</name>
@@ -2146,12 +1793,7 @@
 		<hp>7 (2d6)</hp>
 		<speed>30 ft.</speed>
 		<str>7</str><dex>15</dex><con>11</con><int>2</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -2161,7 +1803,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
 			<attack>Bite|3|1d4+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Scorpion</name>
@@ -2172,12 +1813,7 @@
 		<hp>52 (7d10 + 14)</hp>
 		<speed>40 ft.</speed>
 		<str>15</str><dex>13</dex><con>15</con><int>1</int><wis>9</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>9</passive>
 		<languages></languages>
@@ -2196,7 +1832,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting|4|1d10+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Sea Horse</name>
@@ -2207,13 +1842,7 @@
 		<hp>16 (3d10)</hp>
 		<speed>0 ft., swim 40 ft.</speed>
 		<str>12</str><dex>15</dex><con>11</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -2231,7 +1860,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
 			<attack>|3|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Shark</name>
@@ -2242,12 +1870,7 @@
 		<hp>126 (11d12 + 55)</hp>
 		<speed>swim 50 ft.</speed>
 		<str>23</str><dex>11</dex><con>21</con><int>1</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -2265,7 +1888,6 @@
 			<text>Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.</text>
 			<attack>Bite|9|3d10+6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Spider</name>
@@ -2276,12 +1898,7 @@
 		<hp>26 (4d10 + 4)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
 		<str>14</str><dex>16</dex><con>12</con><int>2</int><wis>11</wis><cha>4</cha>
-		<save></save>
 		<skill>Stealth +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -2308,7 +1925,6 @@
 			<text>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</text>
 			<attack>Web|5|0</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Toad</name>
@@ -2319,12 +1935,7 @@
 		<hp>39 (6d10 + 6)</hp>
 		<speed>20 ft., swim 40 ft.</speed>
 		<str>15</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -2347,7 +1958,6 @@
 			<text>The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.</text>
 			<text>If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Vulture</name>
@@ -2358,13 +1968,7 @@
 		<hp>22 (3d10 + 6)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>15</str><dex>10</dex><con>15</con><int>6</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages>understands Common but can't speak</languages>
 		<cr>1</cr>
@@ -2390,7 +1994,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</text>
 			<attack>Talons|4|2d6+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Wasp</name>
@@ -2401,13 +2004,7 @@
 		<hp>13 (3d8)</hp>
 		<speed>10 ft., fly 50 ft., swim 50 ft.</speed>
 		<str>10</str><dex>14</dex><con>10</con><int>1</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -2416,7 +2013,6 @@
 			<text>Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Sting|4|1d6+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Weasel</name>
@@ -2427,12 +2023,7 @@
 		<hp>9 (2d8)</hp>
 		<speed>40 ft.</speed>
 		<str>11</str><dex>16</dex><con>10</con><int>4</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -2446,7 +2037,6 @@
 			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
 			<attack>Bite|5|1d4+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Giant Wolf Spider</name>
@@ -2457,12 +2047,7 @@
 		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft., climb 40 ft.</speed>
 		<str>12</str><dex>16</dex><con>13</con><int>3</int><wis>12</wis><cha>4</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -2484,7 +2069,6 @@
 			<text>Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Goat</name>
@@ -2495,13 +2079,7 @@
 		<hp>4 (1d8)</hp>
 		<speed>40 ft.</speed>
 		<str>12</str><dex>10</dex><con>11</con><int>2</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -2519,7 +2097,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</text>
 			<attack>Ram|3|1d4+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Green Hag</name>
@@ -2530,12 +2107,7 @@
 		<hp>82 (11d8 + 33)</hp>
 		<speed>30 ft.</speed>
 		<str>18</str><dex>12</dex><con>16</con><int>13</int><wis>14</wis><cha>14</cha>
-		<save></save>
 		<skill>Arcana +3, Deception +4, Perception +4, Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common, Draconic, Sylvan</languages>
@@ -2547,7 +2119,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components: </text>
-			<text></text>
+			<text> </text>
 			<text>At will: dancing lights, minor illusion, vicious mockery</text>
 		</trait>
 		<trait>
@@ -2562,14 +2134,14 @@
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
 			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
-			<text></text>
+			<text> </text>
 			<text>&#8226; 1st level (4 slots): identify, ray of sickness</text>
 			<text>&#8226; 2nd level (3 slots): hold person, locate object</text>
 			<text>&#8226; 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
 			<text>&#8226; 4th level (3 slots): phantasmal killer, polymorph</text>
 			<text>&#8226; 5th level (2 slots): contact other plane, scrying</text>
 			<text>&#8226; 6th level (1 slot): eye bite</text>
-			<text></text>
+			<text> </text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
 		<trait>
@@ -2602,13 +2174,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>5</str><dex>16</dex><con>8</con><int>2</int><wis>14</wis><cha>6</cha>
-		<save></save>
 		<skill>Perception +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -2621,7 +2187,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
 			<attack>Talons|5|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Hunter Shark</name>
@@ -2632,12 +2197,7 @@
 		<hp>45 (6d10 + 12)</hp>
 		<speed>swim 40 ft.</speed>
 		<str>18</str><dex>13</dex><con>15</con><int>1</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill>Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -2655,7 +2215,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</text>
 			<attack>Bite|6|2d8+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Hyena</name>
@@ -2666,13 +2225,7 @@
 		<hp>5 (1d8 + 1)</hp>
 		<speed>50 ft.</speed>
 		<str>11</str><dex>13</dex><con>12</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -2685,7 +2238,6 @@
 			<text>Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</text>
 			<attack>Bite|2|1d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Ice Mephit</name>
@@ -2696,9 +2248,7 @@
 		<hp>21 (6d6)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>7</str><dex>13</dex><con>10</con><int>9</int><wis>11</wis><cha>12</cha>
-		<save></save>
 		<skill>Perception +2, Stealth +3</skill>
-		<resist></resist>
 		<vulnerable>bludgeoning, fire</vulnerable>
 		<immune>cold, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
@@ -2743,10 +2293,8 @@
 		<hp>10 (3d4 + 3)</hp>
 		<speed>20 ft., fly 40 ft.</speed>
 		<str>6</str><dex>17</dex><con>13</con><int>11</int><wis>12</wis><cha>14</cha>
-		<save></save>
 		<skill>Deception +4, Insight +3, Persuasion +4, Stealth +5</skill>
 		<resist>cold; bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -2778,7 +2326,6 @@
 			<name>Invisibility</name>
 			<text>The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Invisible Stalker</name>
@@ -2789,10 +2336,8 @@
 		<hp>104 (16d8 + 32)</hp>
 		<speed>50 ft., fly 50 ft. (hover)</speed>
 		<str>16</str><dex>19</dex><con>14</con><int>10</int><wis>15</wis><cha>11</cha>
-		<save></save>
 		<skill>Perception +8, Stealth +10</skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -2816,7 +2361,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
 			<attack>Slam|6|2d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Jackal</name>
@@ -2827,13 +2371,7 @@
 		<hp>3 (1d6)</hp>
 		<speed>40 ft.</speed>
 		<str>8</str><dex>15</dex><con>11</con><int>3</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -2850,7 +2388,6 @@
 			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 &#8212; 1) piercing damage.</text>
 			<attack>Bite|1|1d4-1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Killer Whale</name>
@@ -2861,12 +2398,7 @@
 		<hp>90 (12d12 + 12)</hp>
 		<speed>swim 60 ft.</speed>
 		<str>19</str><dex>10</dex><con>13</con><int>3</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 120 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -2887,7 +2419,6 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Lion</name>
@@ -2898,13 +2429,7 @@
 		<hp>26 (4d10 + 4)</hp>
 		<speed>50 ft.</speed>
 		<str>17</str><dex>15</dex><con>13</con><int>3</int><wis>12</wis><cha>8</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1</cr>
@@ -2934,7 +2459,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Claw|5|1d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Lizard</name>
@@ -2945,12 +2469,7 @@
 		<hp>2 (1d4)</hp>
 		<speed>20 ft., climb 20 ft.</speed>
 		<str>2</str><dex>11</dex><con>10</con><int>1</int><wis>8</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>9</passive>
 		<languages></languages>
@@ -2960,7 +2479,6 @@
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
 			<attack>Bite||1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Magma Mephit</name>
@@ -2971,9 +2489,7 @@
 		<hp>22 (5d6 + 5)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>8</str><dex>12</dex><con>12</con><int>7</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill>Stealth +3</skill>
-		<resist></resist>
 		<vulnerable>cold</vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
@@ -3018,12 +2534,9 @@
 		<hp>9 (2d6 + 2)</hp>
 		<speed>30 ft.</speed>
 		<str>7</str><dex>15</dex><con>12</con><int>8</int><wis>11</wis><cha>10</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages>Ignan</languages>
@@ -3042,7 +2555,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
 			<attack>Touch|4|2d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Mammoth</name>
@@ -3053,13 +2565,7 @@
 		<hp>126 (11d12 + 55)</hp>
 		<speed>40 ft.</speed>
 		<str>24</str><dex>9</dex><con>21</con><int>3</int><wis>11</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>6</cr>
@@ -3077,7 +2583,6 @@
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
 			<attack>Stomp|10|4d10+7</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Mastiff</name>
@@ -3088,13 +2593,7 @@
 		<hp>5 (1d8 + 1)</hp>
 		<speed>40 ft.</speed>
 		<str>13</str><dex>14</dex><con>12</con><int>3</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1/8</cr>
@@ -3107,7 +2606,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|3|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Mud Mephit</name>
@@ -3118,10 +2616,7 @@
 		<hp>27 (6d6 + 6)</hp>
 		<speed>20 ft., fly 20 ft., swim 20 ft.</speed>
 		<str>8</str><dex>12</dex><con>12</con><int>9</int><wis>11</wis><cha>7</cha>
-		<save></save>
 		<skill>Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -3149,7 +2644,6 @@
 			<name>Variant: Summon Mephits (1/Day)</name>
 			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Mule</name>
@@ -3160,13 +2654,7 @@
 		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>14</str><dex>10</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/8</cr>
@@ -3183,7 +2671,6 @@
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
 			<attack>Hooves|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Mummy</name>
@@ -3196,7 +2683,6 @@
 		<str>16</str><dex>8</dex><con>15</con><int>6</int><wis>10</wis><cha>12</cha>
 		<save>Wis +2</save>
 		<skill></skill>
-		<resist></resist>
 		<vulnerable>fire</vulnerable>
 		<immune>bludgeoning, piercing, and slashing from nonmagical weapons</immune>
 		<conditionImmune>necrotic, poisoned</conditionImmune>
@@ -3217,7 +2703,6 @@
 			<name>Dreadful Glare</name>
 			<text>The mummy targets one creature it can see within 60 ft. of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Octopus</name>
@@ -3228,12 +2713,7 @@
 		<hp>3 (1d6)</hp>
 		<speed>5 ft., swim 30 ft.</speed>
 		<str>4</str><dex>15</dex><con>11</con><int>3</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill>Perception +2, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -3259,7 +2739,6 @@
 			<name>Ink Cloud (Recharges after a Short or Long Rest)</name>
 			<text>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Owl</name>
@@ -3270,12 +2749,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>5 ft., fly 60 ft.</speed>
 		<str>3</str><dex>13</dex><con>8</con><int>2</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 120 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -3293,7 +2767,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
 			<attack>Talons|3|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Panther</name>
@@ -3304,13 +2777,7 @@
 		<hp>13 (3d8)</hp>
 		<speed>50 ft., climb 40 ft.</speed>
 		<str>14</str><dex>15</dex><con>10</con><int>3</int><wis>14</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +4, Stealth +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -3332,7 +2799,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Claw|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Pegasus</name>
@@ -3345,11 +2811,6 @@
 		<str>18</str><dex>15</dex><con>16</con><int>10</int><wis>15</wis><cha>13</cha>
 		<save>Dex +4, Wis +4, Cha +3</save>
 		<skill>Perception +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>16</passive>
 		<languages>understands Celestial, Common, Elvish, and Sylvan but can't speak</languages>
 		<cr>2</cr>
@@ -3358,7 +2819,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Hooves|6|2d6+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Pixie</name>
@@ -3369,13 +2829,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>10 ft., fly 30 ft.</speed>
 		<str>2</str><dex>20</dex><con>8</con><int>10</int><wis>14</wis><cha>15</cha>
-		<save></save>
 		<skill>Perception +4, Stealth +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Sylvan</languages>
 		<cr>1/4</cr>
@@ -3386,7 +2840,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component: </text>
-			<text></text>
+			<text> </text>
 			<text>At will: druidcraft</text>
 			<text>1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep</text>
 		</trait>
@@ -3405,13 +2859,7 @@
 		<hp>68 (8d10 + 24)</hp>
 		<speed>20 ft., swim 40 ft.</speed>
 		<str>18</str><dex>15</dex><con>16</con><int>2</int><wis>12</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>2</cr>
@@ -3424,7 +2872,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.</text>
 			<attack>Bite|6|3d6+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Poisonous Snake</name>
@@ -3435,12 +2882,7 @@
 		<hp>2 (1d4)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>2</str><dex>16</dex><con>11</con><int>1</int><wis>10</wis><cha>3</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -3450,7 +2892,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Bite|5|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Polar Bear</name>
@@ -3461,13 +2902,7 @@
 		<hp>42 (5d10 + 15)</hp>
 		<speed>40 ft., swim 30 ft.</speed>
 		<str>20</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>2</cr>
@@ -3489,7 +2924,6 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
 			<attack>Claws|7|2d6+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Pony</name>
@@ -3500,13 +2934,7 @@
 		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>15</str><dex>10</dex><con>13</con><int>2</int><wis>11</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/8</cr>
@@ -3515,7 +2943,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.</text>
 			<attack>Hooves|4|2d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Pseudodragon</name>
@@ -3526,12 +2953,7 @@
 		<hp>7 (2d4 + 2)</hp>
 		<speed>15 ft., fly 60 ft.</speed>
 		<str>6</str><dex>15</dex><con>13</con><int>10</int><wis>12</wis><cha>10</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages>understands Common and Draconic but can't speak</languages>
@@ -3562,7 +2984,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</text>
 			<attack>Sting|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Pteranodon</name>
@@ -3573,13 +2994,7 @@
 		<hp>13 (3d8)</hp>
 		<speed>10 ft., fly 60 ft.</speed>
 		<str>12</str><dex>15</dex><con>10</con><int>2</int><wis>9</wis><cha>5</cha>
-		<save></save>
 		<skill>Perception +1</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -3591,7 +3006,6 @@
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Quasit</name>
@@ -3602,10 +3016,8 @@
 		<hp>7 (3d4)</hp>
 		<speed>40 ft.</speed>
 		<str>5</str><dex>17</dex><con>10</con><int>7</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill>Stealth +5</skill>
 		<resist>cold; fire; lightning; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -3637,7 +3049,6 @@
 			<name>Invisibility</name>
 			<text>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Quipper</name>
@@ -3648,12 +3059,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>swim 40 ft.</speed>
 		<str>2</str><dex>16</dex><con>9</con><int>1</int><wis>7</wis><cha>2</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>8</passive>
 		<languages></languages>
@@ -3671,7 +3077,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
 			<attack>Bite|5|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Rat</name>
@@ -3682,12 +3087,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>20 ft.</speed>
 		<str>2</str><dex>11</dex><con>9</con><int>2</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>10</passive>
 		<languages></languages>
@@ -3701,7 +3101,6 @@
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
 			<attack>Bite||1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Raven</name>
@@ -3712,13 +3111,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>10 ft., fly 50 ft.</speed>
 		<str>2</str><dex>14</dex><con>8</con><int>2</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -3730,7 +3123,6 @@
 			<name>Beak</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Reef Shark</name>
@@ -3741,12 +3133,7 @@
 		<hp>22 (4d8 + 4)</hp>
 		<speed>swim 40 ft.</speed>
 		<str>14</str><dex>13</dex><con>13</con><int>1</int><wis>10</wis><cha>4</cha>
-		<save></save>
 		<skill>Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 30 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -3764,7 +3151,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
 			<attack>Bite|4|1d8+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Rhinoceros</name>
@@ -3775,13 +3161,7 @@
 		<hp>45 (6d10 + 12)</hp>
 		<speed>40 ft.</speed>
 		<str>21</str><dex>8</dex><con>15</con><int>2</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>2</cr>
@@ -3795,7 +3175,6 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
 			<attack>Gore|7|2d8+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Riding Horse</name>
@@ -3806,13 +3185,7 @@
 		<hp>13 (2d10 + 2)</hp>
 		<speed>60 ft.</speed>
 		<str>16</str><dex>10</dex><con>12</con><int>2</int><wis>11</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -3821,7 +3194,6 @@
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 			<attack>Hooves|2|2d4+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Saber-Toothed Tiger</name>
@@ -3832,13 +3204,7 @@
 		<hp>52 (7d10 + 14)</hp>
 		<speed>40 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>3</int><wis>12</wis><cha>8</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>2</cr>
@@ -3860,7 +3226,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
 			<attack>Claw|6|2d6+5</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Salamander</name>
@@ -3871,12 +3236,10 @@
 		<hp>90 (12d10 + 24)</hp>
 		<speed>30 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>11</int><wis>10</wis><cha>12</cha>
-		<save></save>
 		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<vulnerable>cold</vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages>Ignan</languages>
@@ -3904,7 +3267,6 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.</text>
 			<attack>Tail|7|2d6+4+2d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Satyr</name>
@@ -3915,13 +3277,7 @@
 		<hp>31 (7d8)</hp>
 		<speed>40 ft.</speed>
 		<str>12</str><dex>16</dex><con>11</con><int>12</int><wis>10</wis><cha>14</cha>
-		<save></save>
 		<skill>Perception +2, Performance +6, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages>Common, Elvish, Sylvan</languages>
 		<cr>1/2</cr>
@@ -3948,7 +3304,6 @@
 			<name>Variant: Panpipes</name>
 			<text>Gentle Lullaby. The creature falls asleep and is unconscious for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Scorpion</name>
@@ -3959,12 +3314,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>10 ft.</speed>
 		<str>2</str><dex>11</dex><con>8</con><int>1</int><wis>8</wis><cha>2</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>9</passive>
 		<languages></languages>
@@ -3974,7 +3324,6 @@
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting|2|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Sea Hag</name>
@@ -3985,12 +3334,7 @@
 		<hp>52 (7d8 + 21)</hp>
 		<speed>30 ft., swim 40 ft.</speed>
 		<str>16</str><dex>13</dex><con>16</con><int>12</int><wis>12</wis><cha>13</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>11</passive>
 		<languages>Aquan, Common, Giant</languages>
@@ -4012,14 +3356,14 @@
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
 			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
-			<text></text>
+			<text> </text>
 			<text>&#8226; 1st level (4 slots): identify, ray of sickness</text>
 			<text>&#8226; 2nd level (3 slots): hold person, locate object</text>
 			<text>&#8226; 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
 			<text>&#8226; 4th level (3 slots): phantasmal killer, polymorph</text>
 			<text>&#8226; 5th level (2 slots): contact other plane, scrying</text>
 			<text>&#8226; 6th level (1 slot): eye bite</text>
-			<text></text>
+			<text> </text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
 		<trait>
@@ -4052,13 +3396,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>swim 20 ft.</speed>
 		<str>1</str><dex>12</dex><con>8</con><int>1</int><wis>10</wis><cha>2</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -4066,7 +3404,6 @@
 			<name>Water Breathing</name>
 			<text>The sea horse can breathe only underwater.</text>
 		</trait>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Skeleton</name>
@@ -4077,11 +3414,8 @@
 		<hp>13 (2d8 + 4)</hp>
 		<speed>30 ft.</speed>
 		<str>10</str><dex>14</dex><con>15</con><int>6</int><wis>8</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
 		<vulnerable>bludgeoning</vulnerable>
-		<immune></immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
@@ -4097,7 +3431,6 @@
 			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Smoke Mephit</name>
@@ -4108,10 +3441,7 @@
 		<hp>22 (5d6 + 5)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>6</str><dex>14</dex><con>12</con><int>10</int><wis>10</wis><cha>11</cha>
-		<save></save>
 		<skill>Perception +2, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -4150,12 +3480,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>20 ft., climb 20 ft.</speed>
 		<str>2</str><dex>14</dex><con>8</con><int>1</int><wis>10</wis><cha>2</cha>
-		<save></save>
 		<skill>Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>12</passive>
 		<languages></languages>
@@ -4177,7 +3502,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.</text>
 			<attack>Bite|4|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Sprite</name>
@@ -4188,13 +3512,7 @@
 		<hp>2 (1d4)</hp>
 		<speed>10 ft., fly 40 ft.</speed>
 		<str>3</str><dex>18</dex><con>10</con><int>14</int><wis>13</wis><cha>11</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +8</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages>Common, Elvish, Sylvan</languages>
 		<cr>1/4</cr>
@@ -4216,7 +3534,6 @@
 			<name>Invisibility</name>
 			<text>The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Steam Mephit</name>
@@ -4227,10 +3544,7 @@
 		<hp>21 (6d6)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
 		<str>5</str><dex>11</dex><con>10</con><int>11</int><wis>10</wis><cha>12</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -4270,12 +3584,7 @@
 		<hp>2 (1d4)</hp>
 		<speed>10 ft., fly 40 ft.</speed>
 		<str>4</str><dex>16</dex><con>11</con><int>2</int><wis>8</wis><cha>6</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
 		<languages></languages>
@@ -4286,7 +3595,6 @@
 			<text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
 			<attack>Blood Drain|5|1d4+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Tiger</name>
@@ -4297,12 +3605,7 @@
 		<hp>37 (5d10 + 10)</hp>
 		<speed>40 ft.</speed>
 		<str>17</str><dex>15</dex><con>14</con><int>3</int><wis>12</wis><cha>8</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages></languages>
@@ -4324,7 +3627,6 @@
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Triceratops</name>
@@ -4335,13 +3637,7 @@
 		<hp>95 (10d12 + 30)</hp>
 		<speed>50 ft.</speed>
 		<str>22</str><dex>9</dex><con>17</con><int>2</int><wis>11</wis><cha>5</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages></languages>
 		<cr>5</cr>
@@ -4359,7 +3655,6 @@
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage</text>
 			<attack>Stomp|9|3d10+6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Unicorn</name>
@@ -4370,10 +3665,7 @@
 		<hp>67 (9d10 + 18)</hp>
 		<speed>50 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>11</int><wis>17</wis><cha>16</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>charmed, paralyzed, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -4388,7 +3680,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components: </text>
-			<text></text>
+			<text> </text>
 			<text>At will: detect evil and good, druidcraft, pass without trace</text>
 			<text>1/day each: calm emotions, dispel evil and good, entangle</text>
 		</trait>
@@ -4445,13 +3737,7 @@
 		<hp>5 (1d8 + 1)</hp>
 		<speed>10 ft., fly 50 ft.</speed>
 		<str>7</str><dex>10</dex><con>13</con><int>2</int><wis>12</wis><cha>4</cha>
-		<save></save>
 		<skill>Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -4468,7 +3754,6 @@
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
 			<attack>Beak|2|1d4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Warhorse</name>
@@ -4479,13 +3764,7 @@
 		<hp>19 (3d10 + 3)</hp>
 		<speed>60 ft.</speed>
 		<str>18</str><dex>12</dex><con>13</con><int>2</int><wis>12</wis><cha>7</cha>
-		<save></save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages></languages>
 		<cr>1/2</cr>
@@ -4498,7 +3777,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>|4|2d6+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Water Elemental</name>
@@ -4509,10 +3787,8 @@
 		<hp>114 (12d10 + 48)</hp>
 		<speed>30 ft., swim 90 ft.</speed>
 		<str>18</str><dex>14</dex><con>18</con><int>5</int><wis>10</wis><cha>8</cha>
-		<save></save>
 		<skill></skill>
 		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -4541,7 +3817,6 @@
 			<text>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.</text>
 			<text>The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Water Elemental Myrmidon</name>
@@ -4552,10 +3827,8 @@
 		<hp>127 (17d8 + 51)</hp>
 		<speed>40 ft., swim 40 ft.</speed>
 		<str>18</str><dex>14</dex><con>15</con><int>8</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill></skill>
 		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -4580,7 +3853,6 @@
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
 			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Water Weird</name>
@@ -4591,10 +3863,8 @@
 		<hp>58 (9d10 + 9)</hp>
 		<speed>0 ft., swim 60 ft.</speed>
 		<str>17</str><dex>16</dex><con>13</con><int>11</int><wis>10</wis><cha>10</cha>
-		<save></save>
 		<skill></skill>
 		<resist>fire; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
@@ -4614,7 +3884,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target.</text>
 			<attack>Constrict|5|3d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Weasel</name>
@@ -4625,13 +3894,7 @@
 		<hp>1 (1d4-1)</hp>
 		<speed>30 ft.</speed>
 		<str>3</str><dex>16</dex><con>8</con><int>2</int><wis>12</wis><cha>3</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>0</cr>
@@ -4644,7 +3907,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
 			<attack>Bite|5|1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Wolf</name>
@@ -4655,13 +3917,7 @@
 		<hp>11 (2d8 + 2)</hp>
 		<speed>40 ft.</speed>
 		<str>12</str><dex>15</dex><con>12</con><int>3</int><wis>12</wis><cha>6</cha>
-		<save></save>
 		<skill>Perception +3, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages></languages>
 		<cr>1/4</cr>
@@ -4678,7 +3934,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
 			<attack>Bite|4|2d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Xorn</name>
@@ -4689,12 +3944,8 @@
 		<hp>73 (7d8 + 42)</hp>
 		<speed>20 ft., burrow 20 ft.</speed>
 		<str>17</str><dex>10</dex><con>22</con><int>11</int><wis>10</wis><cha>11</cha>
-		<save></save>
 		<skill>Perception +6, Stealth +3</skill>
 		<resist>piercing and slashing from nonmagical weapons that aren't adamantine</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
 		<passive>16</passive>
 		<languages>Terran</languages>
@@ -4725,7 +3976,6 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Claw|6|1d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Zombie</name>
@@ -4738,9 +3988,6 @@
 		<str>13</str><dex>6</dex><con>16</con><int>3</int><wis>6</wis><cha>5</cha>
 		<save>Wis +0</save>
 		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>8</passive>
@@ -4755,6 +4002,5 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
 			<attack>Slam|3|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 </compendium>

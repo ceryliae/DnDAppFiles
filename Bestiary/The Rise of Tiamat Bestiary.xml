@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bestiary version="5">
+<compendium version="5">
 <!--The Rise of Tiamat-->
 	<monster>
 		<name>Dragonfang</name>
@@ -13,10 +13,6 @@
 		<save>Wis +3</save>
 		<skill>Deception +4, Stealth +5</skill>
 		<resist>one of the following: acid, cold, fire, lightning or poison</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages>Common, Draconic, Infernal</languages>
 		<cr>5</cr>
@@ -47,7 +43,6 @@
 			<text>Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.</text>
 			<attack>Orb of Dragon's Breath|5|5d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dragonsoul</name>
@@ -61,10 +56,6 @@
 		<save>Wis +4</save>
 		<skill>Deception +6, Stealth +7</skill>
 		<resist>one of the following: acid, cold, fire, lightning or poison</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages>Common, Draconic, Infernal</languages>
 		<cr>7</cr>
@@ -99,7 +90,6 @@
 			<text>Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance.</text>
 			<attack>Orb of Dragon's Breath|7|6d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Ice Toad</name>
@@ -110,12 +100,8 @@
 		<hp>32 (5d8 + 10)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
 		<str>13</str><dex>10</dex><con>14</con><int>8</int><wis>10</wis><cha>6</cha>
-		<save></save>
 		<skill>Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>cold</immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Ice Toad</languages>
@@ -138,7 +124,6 @@
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) cold damage. If the target is a Medium or smaller creature it is grappled (escape DC 11). Until this grapple ends, the toad can't bite another target.</text>
 			<attack>Bite|3|1d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Naergoth Bladelord</name>
@@ -152,7 +137,6 @@
 		<save>Dex +5, Wis +4</save>
 		<skill>Perception +6, Stealth +5</skill>
 		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -183,7 +167,6 @@
 			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage.</text>
 			<attack>Longbow|5|1d8+1+3d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Neronvain</name>
@@ -196,8 +179,6 @@
 		<str>8</str><dex>17</dex><con>15</con><int>16</int><wis>13</wis><cha>18</cha>
 		<save>Con +6, Wis +5</save>
 		<skill>Arcana +7, Perception +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -230,7 +211,6 @@
 			<name>Poisonous Cloud (2/Day)</name>
 			<text>Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 			</text>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Severin</name>
@@ -244,7 +224,6 @@
 		<save>Dex +5, Wis +5</save>
 		<skill>Arcana +7, Religion +7</skill>
 		<resist>While wearing the mask of the Dragon Queen: acid, cold, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>While wearing the mask of the Dragon Queen: fire</immune>
 		<conditionImmune>While wearing the mask of the Dragon Queen: charmed, frightened, poisoned</conditionImmune>
 		<senses>While wearing the Mask of the Dragon Queen: darkvision 60 ft.</senses>
@@ -298,7 +277,6 @@
 			<text>Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and restrained. The restrained target takes 21 (6d6) fire damage at the start of each of its turns. At the end of its turns, the target can make a DC 17 Strength saving throw, ending the effect on itself on a success.</text>
 			<attack>Hellish Chains|0|6d6</attack>
 		</legendary>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Tiamat</name>
@@ -311,8 +289,6 @@
 		<str>30</str><dex>10</dex><con>30</con><int>26</int><wis>26</wis><cha>28</cha>
 		<save>Str +19, Dex +9, Wis +17</save>
 		<skill>Arcana +17, Perception +26 Religion +17</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune> acid, cold, fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons</immune>
 		<conditionImmune>blinded, charmed, deafened, frightened, poisoned, stunned</conditionImmune>
 		<senses>darkvision 240 ft., truesight 120 ft.</senses>
@@ -399,4 +375,4 @@
 		</legendary>
 		<spells>divine word</spells>
 	</monster>
-</bestiary>
+</compendium>
