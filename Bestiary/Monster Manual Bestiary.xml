@@ -2017,7 +2017,7 @@
 			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Dagger|6|1d4+2</attack>
 		</action>
-		<spells>fire bolt, light, mage hand, prestidigitation, shocking grasp, detect magic, identify, mage armor, magic missile, detect thoughts, mirror image, misty step, counterspell,fly, lightning bolt, banishment, fire shield, stoneskin, cone of cold, scrying, wall of force, globe of invulnerability, teleport, mind blank, time stop</spells>
+		<spells>fire bolt, light, mage hand, prestidigitation, shocking grasp, detect magic, identify, mage armor, magic missile, detect thoughts, mirror image, misty step, counterspell, fly, lightning bolt, banishment, fire shield, stoneskin, cone of cold, scrying, wall of force, globe of invulnerability, teleport, mind blank, time stop</spells>
 	</monster>
 	<monster>
 		<name>Assassin</name>
@@ -10824,7 +10824,12 @@
 		<ac>18 (plate)</ac>
 		<hp>52 (8d8+16)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>11</dex><con>14</con><int>11</int><wis>11</wis><cha>15</cha>
+		<str>16</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>15</cha>
 		<save>Con +4, Wis +2</save>
 		<passive>10</passive>
 		<languages>any one language (usually Common)</languages>
@@ -11335,7 +11340,7 @@
 		<legendary>
 			<name>Disrupt Life (Costs 3 Actions)</name>
 			<text>Each living creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Disrupt Life|0|6d6</attack>
+			<attack>Disrupt Life||6d6</attack>
 		</legendary>
 		<spells>mage hand, prestidigitation, ray of frost, detect magic, magic missile, shield, thunderwave, detect thoughts, invisibility, Melf's acid arrow, mirror image, animate dead, counterspell, dispel magic, fireball, blight, dimension door, cloudkill, scrying, disintegrate, globe of invulnerability, finger of death, plane shift, dominate monster, power word stun, power word kill</spells>
 	</monster>
@@ -11546,8 +11551,8 @@
 		</action>
 		<action>
 			<name>Claws (Lizardfolk Form Only)</name>
-			<text>Melee Weapon Attack: +4 to hit,
-reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit</text>
+			<text>reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Claws|4|1d4+2</attack>
 		</action>
 		<action>
@@ -13964,8 +13969,8 @@ reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 		</trait>
 		<action>
 			<name>Forceful Slam</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft.,
-one creature. Hit: 10 (3d6) force damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft.</text>
+			<text>one creature. Hit: 10 (3d6) force damage.</text>
 			<attack>Slam|4|3d6</attack>
 		</action>
 		<action>
@@ -14546,8 +14551,8 @@ one creature. Hit: 10 (3d6) force damage.</text>
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target.
-Hit: 8 (2d4 + 3) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target.</text>
+			<text>Hit: 8 (2d4 + 3) piercing damage.</text>
 			<attack>Bite|6|2d4+3</attack>
 		</action>
 		<action>
@@ -17725,8 +17730,7 @@ Hit: 8 (2d4 + 3) piercing damage.</text>
 		<cha>10</cha>
 		<skill>Athletics +5, Perception +2</skill>
 		<passive>12</passive>
-		<languages>any one language (usually Common)
-        </languages>
+		<languages>any one language (usually Common)</languages>
 		<cr>3</cr>
 		<action>
 			<name>Multiattack</name>
