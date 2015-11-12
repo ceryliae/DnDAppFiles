@@ -7,9 +7,14 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (studded leather)</ac>
-		<hp>78 (12d8 + 24)</hp>
+		<hp>78 (12d8+24)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>16</dex><con>14</con><int>12</int><wis>12</wis><cha>14</cha>
+		<str>11</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>12</wis>
+		<cha>14</cha>
 		<save>Wis +3</save>
 		<skill>Deception +4, Stealth +5</skill>
 		<resist>one of the following: acid, cold, fire, lightning or poison</resist>
@@ -50,9 +55,14 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (studded leather)</ac>
-		<hp>110 (17d8 + 34)</hp>
+		<hp>110 (17d8+34)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>18</dex><con>14</con><int>13</int><wis>12</wis><cha>16</cha>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>13</int>
+		<wis>12</wis>
+		<cha>16</cha>
 		<save>Wis +4</save>
 		<skill>Deception +6, Stealth +7</skill>
 		<resist>one of the following: acid, cold, fire, lightning or poison</resist>
@@ -97,9 +107,14 @@
 		<type>monstrosity, tyranny of dragons</type>
 		<alignment>neutral</alignment>
 		<ac>12 (natural armor)</ac>
-		<hp>32 (5d8 + 10)</hp>
+		<hp>32 (5d8+10)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
-		<str>13</str><dex>10</dex><con>14</con><int>8</int><wis>10</wis><cha>6</cha>
+		<str>13</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>6</cha>
 		<skill>Perception +2</skill>
 		<immune>cold</immune>
 		<senses>darkvision 60 ft.</senses>
@@ -131,9 +146,14 @@
 		<type>undead, tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (plate)</ac>
-		<hp>135 (18d8 + 54)</hp>
+		<hp>135 (18d8+54)</hp>
 		<speed>30 ft.</speed>
-		<str>20</str><dex>12</dex><con>16</con><int>12</int><wis>14</wis><cha>16</cha>
+		<str>20</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>16</cha>
 		<save>Dex +5, Wis +4</save>
 		<skill>Perception +6, Stealth +5</skill>
 		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
@@ -174,9 +194,14 @@
 		<type>humanoid (elf), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>17</ac>
-		<hp>117 (18d8 + 36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>30 ft.</speed>
-		<str>8</str><dex>17</dex><con>15</con><int>16</int><wis>13</wis><cha>18</cha>
+		<str>8</str>
+		<dex>17</dex>
+		<con>15</con>
+		<int>16</int>
+		<wis>13</wis>
+		<cha>18</cha>
 		<save>Con +6, Wis +5</save>
 		<skill>Arcana +7, Perception +5</skill>
 		<immune>poison</immune>
@@ -218,9 +243,14 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>16</ac>
-		<hp>150 (20d8 + 60)</hp>
+		<hp>150 (20d8+60)</hp>
 		<speed>30 ft.</speed>
-		<str>10</str><dex>13</dex><con>16</con><int>17</int><wis>12</wis><cha>20</cha>
+		<str>10</str>
+		<dex>13</dex>
+		<con>16</con>
+		<int>17</int>
+		<wis>12</wis>
+		<cha>20</cha>
 		<save>Dex +5, Wis +5</save>
 		<skill>Arcana +7, Religion +7</skill>
 		<resist>While wearing the mask of the Dragon Queen: acid, cold, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons</resist>
@@ -260,7 +290,7 @@
 		<action>
 			<name>Scorching Burst</name>
 			<text>Severin chooses a point he can see within 60 feet of him. Each creature within 5 feet of that point must make a DC 17 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Scorching Burst|0|4d8</attack>
+			<attack>Scorching Burst||4d8</attack>
 		</action>
 		<legendary>
 			<name>Attack</name>
@@ -270,12 +300,12 @@
 		<legendary>
 			<name>Fiery Teleport (Costs 2 Actions)</name>
 			<text>Severin, along with any objects he is wearing or carrying, teleports up to 60 feet to an unoccupied space he can see. Each creature within 5 feet of Severin before he teleports takes 5 (1dlO) fire damage.</text>
-			<attack>Fiery Teleport|0|1d10</attack>
+			<attack>Fiery Teleport||1d10</attack>
 		</legendary>
 		<legendary>
 			<name>Hellish Chains (Costs 3 Actions)</name>
 			<text>Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and restrained. The restrained target takes 21 (6d6) fire damage at the start of each of its turns. At the end of its turns, the target can make a DC 17 Strength saving throw, ending the effect on itself on a success.</text>
-			<attack>Hellish Chains|0|6d6</attack>
+			<attack>Hellish Chains||6d6</attack>
 		</legendary>
 	</monster>
 	<monster>
@@ -284,11 +314,16 @@
 		<type>fiend, tyranny of dragons</type>
 		<alignment>chaotic evil</alignment>
 		<ac>25 (natural armor)</ac>
-		<hp>615 (30d20 + 300)</hp>
+		<hp>615 (30d20+300)</hp>
 		<speed>60 ft., fly 120 ft.</speed>
-		<str>30</str><dex>10</dex><con>30</con><int>26</int><wis>26</wis><cha>28</cha>
+		<str>30</str>
+		<dex>10</dex>
+		<con>30</con>
+		<int>26</int>
+		<wis>26</wis>
+		<cha>28</cha>
 		<save>Str +19, Dex +9, Wis +17</save>
-		<skill>Arcana +17, Perception +26 Religion +17</skill>
+		<skill>Arcana +17, Perception +26, Religion +17</skill>
 		<immune> acid, cold, fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons</immune>
 		<conditionImmune>blinded, charmed, deafened, frightened, poisoned, stunned</conditionImmune>
 		<senses>darkvision 240 ft., truesight 120 ft.</senses>
@@ -351,27 +386,27 @@
 		<legendary>
 			<name>Black Dragon Head: Acid Breath (Costs 2 Actions)</name>
 			<text>Tiamat breathes acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Acid Breath|0|15d8</attack>
+			<attack>Acid Breath||15d8</attack>
 		</legendary>
 		<legendary>
 			<name>Blue Dragon Head: Lightning Breath (Costs 2 Actions)</name>
 			<text>Tiamat breathes lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Lightning Breath|0|16d10</attack>
+			<attack>Lightning Breath||16d10</attack>
 		</legendary>
 		<legendary>
 			<name>Green Dragon Head: Poison Breath (Costs 2 Actions)</name>
 			<text>Tiamat breathes poisonous gas in a 90-foot cone. Each creature in that area must make a DC 27 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Poison Breath|0|22d6</attack>
+			<attack>Poison Breath||22d6</attack>
 		</legendary>
 		<legendary>
 			<name>Red Dragon Head: Fire Breath (Costs 2 Actions)</name>
 			<text>Tiamat breathes fire in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Fire Breath|0|26d6</attack>
+			<attack>Fire Breath||26d6</attack>
 		</legendary>
 		<legendary>
 			<name>White Dragon Head: Cold Breath (Costs 2 Actions)</name>
 			<text>Tiamat breathes an icy blast in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Cold Breath|0|16d8</attack>
+			<attack>Cold Breath||16d8</attack>
 		</legendary>
 		<spells>divine word</spells>
 	</monster>
