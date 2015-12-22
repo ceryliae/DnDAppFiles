@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Updated 2015/12/21 (Errata) -->
 <compendium version="5">
 	<monster>
 		<name>Aarakocra</name>
@@ -16,7 +17,7 @@
 		<cha>11</cha>
 		<skill>Perception +5</skill>
 		<passive>15</passive>
-		<languages>Auran</languages>
+		<languages>Auran, Aarakocra</languages>
 		<cr>1/4</cr>
 		<trait>
 			<name>Dive Attack</name>
@@ -168,7 +169,7 @@
 		<wis>14</wis>
 		<cha>11</cha>
 		<skill>Medicine +4, Religion +2</skill>
-		<passive>10</passive>
+		<passive>12</passive>
 		<languages>any one language (usually Common)</languages>
 		<cr>1/4</cr>
 		<trait>
@@ -1850,7 +1851,7 @@
 		<cr>2</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.</text>
 			<attack>Bite|5|2d6+3+1d6</attack>
 		</action>
 		<action>
@@ -2041,10 +2042,10 @@
 		<int>13</int>
 		<wis>11</wis>
 		<cha>10</cha>
-		<save>Dex +7, Int +5</save>
-		<skill>Acrobatics +7, Deception +4, Perception +4, Stealth +11</skill>
+		<save>Dex +6, Int +4</save>
+		<skill>Acrobatics +6, Deception +3, Perception +3, Stealth +9</skill>
 		<resist>poison</resist>
-		<passive>14</passive>
+		<passive>13</passive>
 		<languages>Thieves' cant plus any two languages</languages>
 		<cr>8</cr>
 		<trait>
@@ -2066,13 +2067,13 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>|7|1d6+3</attack>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>|6|1d6+3</attack>
 		</action>
 		<action>
 			<name>Light Crossbow</name>
-			<text>Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>|7|1d8+3</attack>
+			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>|6|1d8+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2430,7 +2431,7 @@
 		<int>12</int>
 		<wis>11</wis>
 		<cha>17</cha>
-		<save>Wis +2, Cha +4</save>
+		<save>Wis +2, Cha +5</save>
 		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>cold, necrotic, poison</immune>
 		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
@@ -2523,7 +2524,7 @@
 		<alignment>chaotic evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>68 (8d10+24)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
+		<speed>40 ft., climb 40 ft.</speed>
 		<str>18</str>
 		<dex>15</dex>
 		<con>16</con>
@@ -2797,7 +2798,7 @@
 		<cha>5</cha>
 		<save>Wis +2</save>
 		<immune>poison</immune>
-		<conditionImmune>poisoned</conditionImmune>
+		<conditionImmune>poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
 		<languages>understands Deep Speech and Undercommon but can't speak</languages>
@@ -4099,7 +4100,7 @@
 		<int>12</int>
 		<wis>16</wis>
 		<cha>16</cha>
-		<save>Con +9, Wis +7, Cha +7</save>
+		<save>Con +10, Wis +7, Cha +7</save>
 		<skill>Insight +7, Perception +7</skill>
 		<passive>17</passive>
 		<languages>Common, Giant</languages>
@@ -4394,7 +4395,7 @@
 		<wis>13</wis>
 		<cha>14</cha>
 		<skill>Deception +4, Persuasion +4, Religion +2</skill>
-		<passive>10</passive>
+		<passive>11</passive>
 		<languages>any one language (usually Common)</languages>
 		<cr>2</cr>
 		<trait>
@@ -4640,6 +4641,10 @@
 		<passive>13</passive>
 		<languages>Abyssal, Common</languages>
 		<cr>17</cr>
+		<trait>
+		  <name>Undead Nature</name>
+		  <text>A death knight doesn't require air, food, drink, or sleep.</text>
+		</trait>
 		<trait>
 			<name>Magic Resistance</name>
 			<text>The death knight has advantage on saving throws against spells and other magical effects.</text>
@@ -4942,7 +4947,7 @@
 		<wis>20</wis>
 		<cha>20</cha>
 		<save>Wis +9, Cha +9</save>
-		<skill>Insight +7, Perception +9</skill>
+		<skill>Insight +9, Perception +9</skill>
 		<resist>radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -5189,7 +5194,7 @@
 		<int>10</int>
 		<wis>12</wis>
 		<cha>12</cha>
-		<save>Dex +5, Con +10, Wis +6</save>
+		<save>Dex +6, Con +11, Wis +7</save>
 		<resist>fire</resist>
 		<senses>darkvision 120 ft.</senses>
 		<passive>11</passive>
@@ -5205,18 +5210,18 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) piercing damage.</text>
-			<attack>Bite|12|3d12+7</attack>
+			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) piercing damage.</text>
+			<attack>Bite|13|3d12+7</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 16 (2d8 + 7) slashing damage.</text>
-			<attack>Claw|12|2d8+7</attack>
+			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16 (2d8 + 7) slashing damage.</text>
+			<attack>Claw|13|2d8+7</attack>
 		</action>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.</text>
-			<attack>Tail|12|3d12+7</attack>
+			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.</text>
+			<attack>Tail|13|3d12+7</attack>
 		</action>
 		<action>
 			<name>Steam Breath (Recharge 5-6)</name>
@@ -5322,7 +5327,7 @@
 		</action>
 		<action>
 			<name>Longbow</name>
-			<text>Ranged Weapon Attack: +6 to hit, range 120/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.</text>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.</text>
 			<attack>Longbow|6|1d8+3</attack>
 		</action>
 		<spells>dancing lights, darkness, faerie fire</spells>
@@ -5465,7 +5470,7 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.</text>
 			<attack>Shortsword|7|1d6+4+3d6</attack>
 		</action>
 		<action>
@@ -5623,9 +5628,9 @@
 		</trait>
 		<action>
 			<name>Quarterstaff</name>
-			<text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage with shillelagh or if wielded with two hands.</text>
+			<text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.</text>
 			<attack>Quarterstaff|2|1d6</attack>
-			<attack>Shillelagh|4|1d8+2</attack>
+			<attack>Shillelagh|6|1d8+2</attack>
 		</action>
 		<spells>druidcraft, produce flame, shillelagh, entangle, longstrider, speak with animals, thunderwave, animal messenger, barkskin</spells>
 	</monster>
@@ -5962,13 +5967,13 @@
 		</trait>
 		<action>
 			<name>Gore</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage.</text>
-			<attack>Gore|8|3d8+5</attack>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) piercing damage.</text>
+			<attack>Gore|8|3d8+6</attack>
 		</action>
 		<action>
 			<name>Stomp</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 21 (3d10 + 5) bludgeoning damage.</text>
-			<attack>Stomp|8|3d10+5</attack>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage.</text>
+			<attack>Stomp|8|3d10+6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -6164,7 +6169,7 @@
 		</action>
 		<action>
 			<name>Web (Recharge 5-6)</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, resistance to bludgeoning damage, and immunity to poison and psychic damage.</text>
+			<text>Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to fire damage and immune to bludgeoning damage.</text>
 		</action>
 		<action>
 			<name>Variant: Web Garrote</name>
@@ -6783,7 +6788,7 @@
 		<alignment>neutral evil</alignment>
 		<ac>13</ac>
 		<hp>40 (9d4+18)</hp>
-		<speed>0 ft., fly 40 ft.</speed>
+		<speed>0 ft., fly 40 ft. It can hover.</speed>
 		<str>1</str>
 		<dex>17</dex>
 		<con>14</con>
@@ -6793,7 +6798,7 @@
 		<skill>Arcana +5, Perception +2</skill>
 		<resist>lightning, necrotic, piercing</resist>
 		<immune>cold, fire, poison</immune>
-		<conditionImmune>charmed, frightened, paralyzed, poisoned</conditionImmune>
+		<conditionImmune>charmed, frightened, paralyzed, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Common</languages>
@@ -6961,7 +6966,7 @@
 		<alignment>unaligned</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>17 (5d6)</hp>
-		<speed>0 ft., fly 50 ft.</speed>
+		<speed>0 ft., fly 50 ft. It can hover.</speed>
 		<str>12</str>
 		<dex>15</dex>
 		<con>11</con>
@@ -7292,7 +7297,7 @@
 		<alignment>any alignment</alignment>
 		<ac>11</ac>
 		<hp>45 (10d8)</hp>
-		<speed>0 ft., fly 40 ft.</speed>
+		<speed>0 ft., fly 40 ft. It can hover.</speed>
 		<str>7</str>
 		<dex>13</dex>
 		<con>10</con>
@@ -7996,8 +8001,8 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
-			<attack>Bite|3|1d4+1</attack>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
+			<attack>Bite|4|1d4+2</attack>
 		</action>
 	</monster>
 	<monster>
@@ -8816,8 +8821,8 @@
 		</action>
 		<action>
 			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-			<attack>Javelin|4|1d6+2</attack>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6) piercing damage.</text>
+			<attack>Javelin|2|1d6</attack>
 		</action>
 		<reaction>
 			<name>Redirect Attack</name>
@@ -8838,7 +8843,7 @@
 		<int>14</int>
 		<wis>11</wis>
 		<cha>16</cha>
-		<save>Dex +4, Con +6, Wis +2, Cha +5</save>
+		<save>Dex +4, Con +5, Wis +2, Cha +5</save>
 		<skill>Perception +4, Stealth +4</skill>
 		<immune>fire</immune>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
@@ -9507,8 +9512,9 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Spear</name>
-			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-			<attack>|3|1d6+1</attack>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>One Handed|3|1d6+1</attack>
+			<attack>Two Handed|5|1d8+1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -9574,12 +9580,12 @@
 		<int>18</int>
 		<wis>18</wis>
 		<cha>18</cha>
-		<skill>Arcana +14, History +14, Perception +9, Religion +9</skill>
+		<skill>Arcana +12, History +12, Perception +8, Religion +8</skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>psychic</immune>
 		<conditionImmune>charmed, frightened</conditionImmune>
 		<senses>truesight 120 ft.</senses>
-		<passive>19</passive>
+		<passive>18</passive>
 		<languages>Common, Sphinx</languages>
 		<cr>11</cr>
 		<trait>
@@ -9592,7 +9598,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared: </text>
+			<text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared: </text>
 			<text> </text>
 			<text>• Cantrips (at will): mage hand, minor illusion, prestidigitation</text>
 			<text>• 1st level (4 slots): detect magic, identify, shield</text>
@@ -9668,7 +9674,7 @@
 		<int>10</int>
 		<wis>11</wis>
 		<cha>10</cha>
-		<save>Str +5, Con +4</save>
+		<save></save>
 		<skill>Athletics +5, Perception +2</skill>
 		<resist>fire</resist>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
@@ -9700,10 +9706,6 @@
 			<text>The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fire Breath||7d6</attack>
 		</action>
-		<reaction>
-			<name>Parry</name>
-			<text>The veteran adds 3 to its AC against one melee attack that would hit it. To do so, the veteran must see the attacker and be wielding a melee weapon.</text>
-		</reaction>
 	</monster>
 	<monster>
 		<name>Harpy</name>
@@ -9739,7 +9741,7 @@
 		<action>
 			<name>Luring Song</name>
 			<text>The harpy sings a magical melody. Every humanoid and giant within 300 ft. of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated.</text>
-			<text>     While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 ft. away from the harpy, the target can take the Dash action on its turn to move toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.</text>
+			<text>     While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 ft. away from the harpy, the must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.</text>
 			<text>     A target that successfully saves is immune to this harpy's song for the next 24 hours.</text>
 		</action>
 	</monster>
@@ -10171,7 +10173,7 @@
 		<type>fiend (devil), monster manual</type>
 		<alignment>lawful evil</alignment>
 		<ac>18 (natural armor)</ac>
-		<hp>178 (17d10+55)</hp>
+		<hp>148 (17d10+55)</hp>
 		<speed>20 ft., fly 60 ft.</speed>
 		<str>22</str>
 		<dex>17</dex>
@@ -10575,8 +10577,8 @@
 		</action>
 		<action>
 			<name>Body Thief</name>
-			<text>The intellect devourer initiates an Intelligence contest with an incapacitated humanoid within 5 feet of it. If it wins the contest, the intellect devourer magically consumes the target's brain, teleports into the target's skull, and takes control of the target's body. While inside a creature, the intellect devourer has total cover against attacks and other effects originating outside its host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Deep Speech, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including spells and languages.</text>
-			<text>If the host body drops to 0 hit points, the intellect devourer must leave it. A protection from evil and good spell cast on the body drives the intellect devourer out. The intellect devourer is also forced out if the target regains its devoured brain by means of a wish. By spending 5 feet of its movement, the intellect devourer can voluntarily leave the body, teleporting to the nearest unoccupied space within 5 feet of it. The body then dies, unless its brain is restored within 1 round.</text>
+			<text>The intellect devourer initiates an Intelligence contest with an incapacitated humanoid within 5 feet of it that isn't protected by protection from evil and good. If it wins the contest, the intellect devourer magically consumes the target's brain, teleports into the target's skull, and takes control of the target's body. While inside a creature, the intellect devourer has total cover against attacks and other effects originating outside its host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Deep Speech, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including spells and languages.</text>
+			<text>If the host body dies, the intellect devourer must leave it. A protection from evil and good spell cast on the body drives the intellect devourer out. The intellect devourer is also forced out if the target regains its devoured brain by means of a wish. By spending 5 feet of its movement, the intellect devourer can voluntarily leave the body, teleporting to the nearest unoccupied space within 5 feet of it. The body then dies, unless its brain is restored within 1 round.</text>
 		</action>
 	</monster>
 	<monster>
@@ -10920,7 +10922,7 @@
 		<int>22</int>
 		<wis>18</wis>
 		<cha>20</cha>
-		<save>Str +18, Dex +8, Con +15, Int +14, Wis +12</save>
+		<save>Str +17, Dex +7, Con +14, Int +13, Wis +11</save>
 		<immune>lightning; bludgeoning, piercing, and slashing from nonmagical weapons</immune>
 		<conditionImmune>frightened, paralyzed</conditionImmune>
 		<senses>truesight 120 ft.</senses>
@@ -10945,13 +10947,13 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +18 to hit, reach 5 ft., one target. Hit: 23 (3d8 + 10) piercing damage. If the target is a Large or smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 42 (12d6) acid damage at the start of each of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone.</text>
-			<attack>Bite|18|3d8+10</attack>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 23 (3d8 + 10) piercing damage. If the target is a Large or smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 42 (12d6) acid damage at the start of each of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone.</text>
+			<attack>Bite|7|3d8+10</attack>
 		</action>
 		<action>
 			<name>Tentacle</name>
-			<text>Melee Weapon Attack: +18 to hit, reach 30 ft., one target. Hit: 20 (3d6 + 10) bludgeoning damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained. The kraken has ten tentacles, each of which can grapple one target.</text>
-			<attack>Tentacle|18|3d6+10</attack>
+			<text>Melee Weapon Attack: +7 to hit, reach 30 ft., one target. Hit: 20 (3d6 + 10) bludgeoning damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained. The kraken has ten tentacles, each of which can grapple one target.</text>
+			<attack>Tentacle|7|3d6+10</attack>
 		</action>
 		<action>
 			<name>Fling</name>
@@ -11088,8 +11090,8 @@
 		</action>
 		<action>
 			<name>Unarmed Strike</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
-			<attack>Unarmed Strike|6|1d4+2</attack>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.</text>
+			<attack>Unarmed Strike|6|1d4+3</attack>
 		</action>
 		<spells>guidance, sacred flame, thaumaturgy, detect magic, sanctuary, shield of faith, hold person, spiritual weapon, spirit guardians, tongues, control water, divination, mass cure wounds, scrying</spells>
 	</monster>
@@ -11687,7 +11689,7 @@
 		</trait>
 		<action>
 			<name>Touch</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a target takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.</text>
 			<attack>Touch|4|2d6</attack>
 		</action>
 	</monster>
@@ -12031,7 +12033,7 @@
 		<wis>10</wis>
 		<cha>9</cha>
 		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
+		<passive>10</passive>
 		<languages>Abyssal, Aquan</languages>
 		<cr>2</cr>
 		<trait>
@@ -12389,8 +12391,8 @@
 		</action>
 		<action>
 			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-			<attack>Javelin|3|1d6+1</attack>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6) piercing damage.</text>
+			<attack>Javelin|2|1d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -12813,7 +12815,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The hag's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She can innately cast the following spells, requiring no material components: </text>
+			<text>The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components: </text>
 			<text> </text>
 			<text>At will: detect magic, magic missile</text>
 			<text>2/day each: plane shift (self only), ray of enfeeblement, sleep</text>
@@ -12853,8 +12855,8 @@
 		</trait>
 		<action>
 			<name>Claws (Hag Form Only)</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
-			<attack>Claws|6|2d8+4</attack>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
+			<attack>Claws|7|2d8+4</attack>
 		</action>
 		<action>
 			<name>Change Shape</name>
@@ -12921,7 +12923,7 @@
 		<wis>14</wis>
 		<cha>16</cha>
 		<skill>Deception +5, Insight +4, Persuasion +5</skill>
-		<passive>10</passive>
+		<passive>12</passive>
 		<languages>any two languages</languages>
 		<cr>1/8</cr>
 		<action>
@@ -13343,7 +13345,7 @@
 		</action>
 		<action>
 			<name>Greataxe</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 14 (1d12 + 4 plus 1d8) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (1d12 + 4 plus 1d8) slashing damage.</text>
 			<attack>Greataxe|6|1d12+4+1d8</attack>
 		</action>
 		<action>
@@ -13434,7 +13436,7 @@
 		</action>
 		<action>
 			<name>Tentacle Slam</name>
-			<text>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Strength saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.</text>
+			<text>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitutino saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.</text>
 		</action>
 	</monster>
 	<monster>
@@ -14412,7 +14414,7 @@
 		<cr>13</cr>
 		<trait>
 			<name>Limited Magic Immunity</name>
-			<text>The rakshasa is immune to spells of 6th level or lower unless it wishes to be affected. It has advantage on saving throws against all other spells and magical effects.</text>
+			<text>The rakshasa can't be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.</text>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
@@ -14734,8 +14736,8 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
-			<attack>Hooves|2|2d4+3</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Hooves|5|2d4+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -15756,7 +15758,7 @@
 		</action>
 		<action>
 			<name>Slaying Longbow</name>
-			<text>Ranged Weapon Attack: +13 to hit, range 120/600 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 190 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.</text>
+			<text>Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 190 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.</text>
 			<attack>Slaying Longbow|13|2d8+6+6d8</attack>
 		</action>
 		<action>
@@ -16327,7 +16329,7 @@
 		<wis>12</wis>
 		<cha>4</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>11</passive>
 		<cr>1/4</cr>
@@ -16365,7 +16367,7 @@
 		<wis>7</wis>
 		<cha>1</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>8</passive>
 		<cr>1/2</cr>
@@ -16395,7 +16397,7 @@
 		<wis>7</wis>
 		<cha>1</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>8</passive>
 		<cr>1/2</cr>
@@ -16426,7 +16428,7 @@
 		<wis>7</wis>
 		<cha>1</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>8</passive>
 		<cr>1/2</cr>
@@ -16456,7 +16458,7 @@
 		<wis>10</wis>
 		<cha>3</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>10</passive>
 		<cr>2</cr>
@@ -16486,7 +16488,7 @@
 		<wis>7</wis>
 		<cha>2</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>8</passive>
 		<cr>1</cr>
@@ -16524,7 +16526,7 @@
 		<wis>10</wis>
 		<cha>3</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>darkvision 30 ft.</senses>
 		<passive>10</passive>
 		<cr>1/4</cr>
@@ -16558,7 +16560,7 @@
 		<wis>12</wis>
 		<cha>6</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<passive>15</passive>
 		<cr>1/4</cr>
 		<trait>
@@ -16629,7 +16631,7 @@
 		<wis>7</wis>
 		<cha>1</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
-		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
 		<senses>blindsight 10 ft.</senses>
 		<passive>8</passive>
 		<cr>1/2</cr>
@@ -17126,9 +17128,9 @@
 		<int>7</int>
 		<wis>9</wis>
 		<cha>7</cha>
-		<skill>Perception +1</skill>
+		<skill>Perception +2</skill>
 		<senses>darkvision 60 ft.</senses>
-		<passive>11</passive>
+		<passive>12</passive>
 		<languages>Giant</languages>
 		<cr>5</cr>
 		<trait>
@@ -17607,7 +17609,7 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The vampire has the following wizard spells prepared: </text>
+			<text>The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The vampire has the following wizard spells prepared: </text>
 			<text> </text>
 			<text>• Cantrips (at will): mage hand, prestidigitation, ray of frost</text>
 			<text>• 1st level (4 slots): comprehend languages, fog cloud, sleep</text>
@@ -17756,8 +17758,8 @@
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
-			<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.</text>
-			<attack>|3|1d10</attack>
+			<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</text>
+			<attack>|3|1d10+1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -17934,8 +17936,8 @@
 		</trait>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
-			<attack>|4|2d6+4</attack>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<attack>|6|2d6+4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -18439,7 +18441,7 @@
 		</action>
 		<action>
 			<name>Invisibility</name>
-			<text>The will-o'-wisp and its light magically become invisible until it attacks or uses its Life Drain, or until its concentration ends (as if concentrating on a spell).</text>
+			<text>The will-o'-wisp and its light magically become invisible until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell).</text>
 		</action>
 	</monster>
 	<monster>
@@ -18919,11 +18921,11 @@
 		<int>12</int>
 		<wis>11</wis>
 		<cha>15</cha>
-		<save>Dex +5, Con +8, Wis +5, Cha +7</save>
-		<skill>Perception +10, Persuasion +7, Stealth +5</skill>
+		<save>Dex +3, Con +6, Wis +3, Cha +5</save>
+		<skill>Perception +6, Persuasion +5, Stealth +3</skill>
 		<immune>fire</immune>
 		<senses>blindsight 30 ft., darkvision 120 ft.</senses>
-		<passive>20</passive>
+		<passive>16</passive>
 		<languages>Common, Draconic</languages>
 		<cr>6</cr>
 		<action>
@@ -18932,13 +18934,13 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage.</text>
-			<attack>Bite|9|2d10+4</attack>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage.</text>
+			<attack>Bite|7|2d10+4</attack>
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
-			<attack>Claw|9|2d6+4</attack>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+			<attack>Claw|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Breath Weapons (Recharge 5-6)</name>
