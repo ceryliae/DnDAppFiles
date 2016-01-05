@@ -1517,6 +1517,10 @@
 				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
 			</feature>
@@ -1535,6 +1539,10 @@
 			<feature optional="YES">
 				<name>Fighting Style: Protection</name>
 				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Fighting Style: Two-Weapon Fighting</name>
@@ -1575,18 +1583,18 @@
 			<feature optional="YES">
 				<name>Martial Archetype: Purple Dragon Knight (Banneret)</name>
 				<text>Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.</text>
-				<text>	A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.</text>
-				<text>	A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.</text>
+				<text>    A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.</text>
+				<text>    A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Restriction: Knighthood</name>
 				<text>Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.</text>
-				<text>	Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</text>
+				<text>    Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Rallying Cry</name>
 				<text>When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.</text>
-				<text>	When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</text>
+				<text>    When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Battle Master: Combat Superiority</name>
@@ -1761,8 +1769,8 @@
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Royal Envoy</name>
 				<text>A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.</text>
-				<text>	At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.</text>
-				<text>	Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature.</text>
+				<text>    At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.</text>
+				<text>    Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature.</text>
 				<proficiency>Persuasion</proficiency>
 				<modifier category="skills">Persuasion+%0</modifier>
 			</feature>
@@ -1808,7 +1816,7 @@
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Inspiring Surge</name>
 				<text>Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.</text>
-				<text>	Starting at 17th level, you can choose two allies within 60 feet of you, rather than one.</text>
+				<text>    Starting at 17th level, you can choose two allies within 60 feet of you, rather than one.</text>
 			</feature>
 		</autolevel>
 
@@ -2188,8 +2196,8 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Radiant Sun Bolt</name>
 				<text>Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.</text>
-				<text>	You gain a ranged spell attack that you can use with the Attack action. The attack has a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels &#8212; to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.</text>
-				<text>	When you use the Attack action on your turn to use this special attack, you can spend 1 ki point to make two additional attacks with it as a bonus action.</text>
+				<text>    You gain a ranged spell attack that you can use with the Attack action. The attack has a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels &#8212; to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.</text>
+				<text>    When you use the Attack action on your turn to use this special attack, you can spend 1 ki point to make two additional attacks with it as a bonus action.</text>
 			</feature>
 		</autolevel>
 
@@ -2251,7 +2259,7 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Searing Arc Strike</name>
 				<text>At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the 1st-level spell burning hands as a bonus action.</text>
-				<text>	You can spend additional ki points to cast burning hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level (round down).</text>
+				<text>    You can spend additional ki points to cast burning hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level (round down).</text>
 			</feature>
 		</autolevel>
 
@@ -2323,8 +2331,8 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Searing Sunburst</name>
 				<text>At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.</text>
-				<text>	Each creature in that 20-foot radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.</text>
-				<text>	You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6.</text>
+				<text>    Each creature in that 20-foot radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.</text>
+				<text>    You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6.</text>
 			</feature>
 		</autolevel>
 
@@ -2400,7 +2408,7 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Sun Shield</name>
 				<text>At 17th level, you become wreathed in a luminous aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.</text>
-				<text>	If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier.</text>
+				<text>    If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier.</text>
 			</feature>
 		</autolevel>
 
@@ -2768,9 +2776,9 @@
         <feature>
             <name>Psionics</name>
             <text>As a student of psionics, you can master and use psionic disciplines. </text>
-            <text>     </text>
+            <text/>
             <text>Disciplines: At 1st level, you know one discipline of your choice. You choose disciplines from the list included in your chosen order (see below). You learn additional disciplines of your choice at higher levels, as shown in the Disciplines Known column of the Mystic table.  You learn an additional discipline at 2nd and 5th level. </text>
-            <text>     </text>
+            <text/>
             <text>Psi Points: You gain a pool of psi points based on your mystic level. Your psi point total returns to its maximum after you finish a long rest.</text>
             <text>    Level &#8212; Psi Points:</text>
             <text>    1st - 4</text>
@@ -2778,15 +2786,15 @@
             <text>    3rd - 14</text>
             <text>    4th - 17</text>
             <text>    5th - 27 </text>
-            <text>     </text>
+            <text/>
             <text>Psi Maximum: Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. You have a maximum number of psi points you can spend to activate a discipline based on your mystic level, as shown in the Psi Maximum column of the Mystic table.</text>
             <text>    Your psi maximum at 1st level is 2 points.  It increases to 3 points at 3rd level and to 5 points at 5th level. </text>
-            <text>     </text>
+            <text/>
             <text>Using Disciplines: </text>
             <text>    You activate a discipline as a bonus action, and must immediately concentrate on it. If a discipline grants a benefit for concentrating on it, you immediately gain that benefit. You continue to gain that benefit and can use the discipline's optional features as long as you maintain your concentration on the discipline. </text>
             <text>    While you are concentrating on a discipline, you can spend psi points to augment the discipline's effect. Each discipline details its optional effects and the type of action (if any) required to spend psi points on an option. </text>
             <text>    You can end all effects of a discipline immediately by ending concentration on the discipline. If you want to end a single effect of a discipline but still maintain its other effects, you can end a specific effect as a bonus action. </text>
-            <text>     </text>
+            <text/>
             <text>Psionic Ability: </text>
             <text>    Intelligence is your psionic ability for your mystic disciplines. Your intellect determines the strength of the psionic effects you manifest. In addition, you use your Intelligence modifier when setting the saving throw DC for a mystic discipline or when making an attack roll with one. </text>
             <text>    Discipline save DC = 8 + your proficiency bonus + your Intelligence modifier </text>
@@ -2820,34 +2828,34 @@
             <name>Discipline: Conquering Mind</name>
             <text>Prerequisite: Order of the Awakened</text>
             <text>    By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text>     </text>
+            <text/>
             <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text/>
             <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text/>
             <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Intellect Fortress</name>
             <text>Prerequisite: Order of the Awakened</text>
             <text>    You forge an indomitable wall of psionic energy around your mind&#8212;one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Third Eye</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text>     </text>
+            <text/>
             <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text>     </text>
+            <text/>
             <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text>     </text>
+            <text/>
             <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
         </feature>
         <feature optional="YES">
@@ -2867,42 +2875,42 @@
         <feature optional="YES">
             <name>Discipline: Celerity</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text>     </text>
+            <text/>
             <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text>     </text>
+            <text/>
             <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text>     </text>
+            <text/>
             <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
             <text>    Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Iron Durability</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text>     </text>
+            <text/>
             <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text>     </text>
+            <text/>
             <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Psionic Weapon </name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text>     </text>
+            <text/>
             <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text>     </text>
+            <text/>
             <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text>     </text>
+            <text/>
             <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
         </feature>
     </autolevel>
@@ -2911,78 +2919,78 @@
         <feature optional="YES">
             <name>Discipline: Conquering Mind</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text>     </text>
+            <text/>
             <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text/>
             <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text/>
             <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Intellect Fortress</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>You forge an indomitable wall of psionic energy around your mind&#8212;one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Third Eye</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text>     </text>
+            <text/>
             <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text>     </text>
+            <text/>
             <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text>     </text>
+            <text/>
             <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Celerity</name>
             <text>Prerequisite: Order of the Immortal</text>
             <text>    You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text>     </text>
+            <text/>
             <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text>     </text>
+            <text/>
             <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text>     </text>
+            <text/>
             <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text>     </text>
+            <text/>
             <text>Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Iron Durability</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text>     </text>
+            <text/>
             <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text>     </text>
+            <text/>
             <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Psionic Weapon </name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text>     </text>
+            <text/>
             <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text>     </text>
+            <text/>
             <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text>     </text>
+            <text/>
             <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
         </feature>
     </autolevel>
@@ -3012,79 +3020,79 @@
         <feature optional="YES">
             <name>Discipline: Conquering Mind</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text>     </text>
+            <text/>
             <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text/>
             <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text/>
             <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Intellect Fortress</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>You forge an indomitable wall of psionic energy around your mind&#8212;one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Third Eye</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text/>
             <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text>     </text>
+            <text/>
             <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text>     </text>
+            <text/>
             <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text>     </text>
+            <text/>
             <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Celerity</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text>     </text>
+            <text/>
             <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text>     </text>
+            <text/>
             <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text>     </text>
+            <text/>
             <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text>     </text>
+            <text/>
             <text>Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Iron Durability</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text>     </text>
+            <text/>
             <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text>     </text>
+            <text/>
             <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Psionic Weapon </name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text/>
             <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text>     </text>
+            <text/>
             <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text>     </text>
+            <text/>
             <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text>     </text>
+            <text/>
             <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text>     </text>
+            <text/>
             <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
         </feature>
     </autolevel>
@@ -3158,6 +3166,10 @@
 				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
 			</feature>
@@ -3176,6 +3188,10 @@
 			<feature optional="YES">
 				<name>Fighting Style: Protection</name>
 				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
 			<feature>
 				<name>Spellcasting</name>
@@ -3317,7 +3333,7 @@
 			<feature>
 				<name>Sacred Oath: Oathbreaker</name>
 				<text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.</text>
-				<text>	A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
+				<text>    A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Oathbreaker: Oathbreaker Spells</name>
@@ -3344,22 +3360,22 @@
 			<feature optional="YES">
 				<name>Sacred Oath: Oath of the Crown</name>
 				<text>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.</text>
-				<text>	 </text>
+				<text/>
 				<text>Tenets of the Crown:</text>
-				<text>	The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
-				<text>	 </text>
+				<text>    The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
+				<text/>
 				<text>Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</text>
-				<text>	 </text>
+				<text/>
 				<text>Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.</text>
-				<text>	 </text>
+				<text/>
 				<text>Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</text>
-				<text>	 </text>
+				<text/>
 				<text>Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations. </text>
 				</feature>
 			<feature optional="YES">
 				<name>Oath of the Crown: Oath Spells</name>
-				<text>	You gain oath spells at the paladin levels listed.</text>
-				<text>	 </text>
+				<text>    You gain oath spells at the paladin levels listed.</text>
+				<text/>
 				<text>3rd - command, compelled duel</text>
 				<text />
 				<text>5th - warding bond, zone of truth</text>
@@ -3552,14 +3568,14 @@
 			<feature optional="YES">
 				<name>Oath of the Crown: Exalted Champion</name>
 				<text>At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour: </text>
-				<text>	 </text>
+				<text/>
 				<text>- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
-				<text>	 </text>
+				<text/>
 				<text>- Your allies have advantage on death saving throws while within 30 feet of you.</text>
-				<text>	 </text>
+				<text/>
 				<text>- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.</text>
-				<text>	 </text>
-				<text>	This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</text>
+				<text/>
+				<text>    This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 		</autolevel>
 	</class>
@@ -3664,6 +3680,10 @@
 				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
 			</feature>
@@ -3676,6 +3696,10 @@
 				<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Two-Weapon Fighting</name>
 				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
 			</feature>
@@ -3684,7 +3708,7 @@
 		<autolevel level="3">
 			<feature>
 				<name>Ranger Archetype</name>
-				<text>At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
+				<text>At 3rd level, you choose an archetype that you strive to emulate: Beast Master, Deep Stalker, or Hunter. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Ranger Archetype: Hunter</name>
@@ -3693,6 +3717,11 @@
 			<feature optional="YES">
 				<name>Ranger Archetype: Beast Master</name>
 				<text>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Ranger Archetype: Deep Stalker</name>
+				<text>Many Deep Stalkers are elves, as those folk know all too well the threat posed by the drow. Deep Stalkers scout for new passages into the Underdark, carefully mapping them and working
+to ensure they remain watched at all times. They venture into the depths on long, dangerous patrols, disappearing for months at a time. Many of them never return. Deep Stalkers master spells useful in navigating the Underdark, and their combat tactics focus on ambush, surprise, and stealth. They fight alone or in small groups in hostile territory, relying on clever tactics to carry the day.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Hunter: Hunter's Prey</name>
@@ -3709,6 +3738,25 @@
 			<feature optional="YES">
 				<name>Hunter's Prey: Horde Breaker</name>
 				<text>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Deep Stalker Magic</name>
+				<text>From 3rd level, you have darkvision with a range of 90 feet. You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. You are always able to cast these spells, and they do not count against your number of ranger spells known.</text>
+				<text />
+				<text>3rd - disguise self</text>
+				<text />
+				<text>5th - rope trick</text>
+				<text />
+				<text>9th - glyph of warding</text>
+				<text />
+				<text>13th - greater invisibility</text>
+				<text />
+				<text>17th - seeming</text>
+			</feature>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Underdark Scout</name>
+				<text>At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed. If you use the attack action on that turn, you can make one additional attack. You gain an additional benefit on all turns after your first turn. At the end of each such turn, you can attempt to hide as a bonus action if you meet the normal requirements for hiding.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Beast Master: Ranger's Companion</name>
@@ -3772,6 +3820,10 @@
 				<name>Beast Master: Exceptional Training</name>
 				<text>On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on its turn.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Iron Mind</name>
+				<text>At 7th level, you gain proficiency in Wisdom saving throws.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="8">
@@ -3816,6 +3868,10 @@
 				<name>Beast Master: Bestial Fury</name>
 				<text>Your beast companion can make two attacks or use Multiattack (if available) when you command it to use the Attack action.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Stalker's Flurry</name>
+				<text>Starting at 11th level, you have the ability to ensure that your attacks count. If you miss with an attack during your turn, you can immediately make an additional attack. You can gain one additional attack during your turn with this ability.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="12">
@@ -3857,6 +3913,10 @@
 			<feature optional="YES">
 				<name>Beast Master: Share Spells</name>
 				<text>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Stalker's Dodge</name>
+				<text>At 15th level, you master the ability to disrupt an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack.</text>
 			</feature>
 		</autolevel>
 
@@ -4700,7 +4760,7 @@
 			<feature optional="YES">
 				<name>Swashbuckler: Rakish Audacity</name>
 				<text>Starting at 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls. </text>
-				<text>	In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
+				<text>    In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Fast Hands</name>
@@ -4714,13 +4774,13 @@
 			<feature optional="YES">
 				<name>Rougeish Archetype: Mastermind</name>
 				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
-				<text>	</text>
+				<text/>
 				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
 			</feature>
 			<feature optional="YES">
 				<name>Mastermind: Master of Intrigue</name>
 				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
-				<text>	Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
+				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Mastermind: Master of Tactics</name>
@@ -4771,8 +4831,8 @@
 			<feature optional="YES">
 				<name>Swashbuckler: Panache</name>
 				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
-				<text>	If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
-				<text>	If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
+				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
+				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Supreme Sneak</name>
@@ -4781,13 +4841,13 @@
 			<feature optional="YES">
 				<name>Mastermind: Insightful Manipulator</name>
 				<text>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: </text>
-				<text>	 </text>
+				<text/>
 				<text>- Intelligence score </text>
 				<text>- Wisdom score </text>
 				<text>- Charisma score </text>
 				<text>- Class levels (if any) </text>
-				<text>	 </text>
-				<text>	At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
+				<text/>
+				<text>    At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
 			</feature>
 		</autolevel>
 
@@ -4882,7 +4942,7 @@
 			<feature optional="YES">
 				<name>Mastermind: Soul of Deceit</name>
 				<text>Starting at 17th level, your thoughts can&#8217;t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
-				<text>	Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
+				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
 			</feature>
 		</autolevel>
 
@@ -5003,10 +5063,11 @@
 			</feature>
 			<feature optional="YES">
 				<name>Sorcerous Origin: Shadow</name>
-				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental way.</text>
+				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental manner.</text>
 				<text />
 				<text>    The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the following table to create a unique quirk for your character.</text>
 				<text />
+				<text>d6 - Quirk</text>
 				<text>1 — You are always icy cold to the touch.</text>
 				<text>2 — When you are asleep, you don't appear to breathe (though you must still breathe to survive).</text>
 				<text>3 — You don't seem to bleed, even when badly injured.</text>
@@ -5126,6 +5187,14 @@
 				<text>    Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Shadow: Eyes of the Dark</name>
+				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Strength of the Grave</name>
+				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Constitution saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Storm: Tempestuous Magic</name>
 				<text>Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks.</text>
 			</feature>
@@ -5195,14 +5264,6 @@
 				<name>Wild Magic: Tides of Chaos</name>
 				<text>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.</text>
 				<text>    Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Eyes of the Dark</name>
-				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Strength of the Grave</name>
-				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Consitution saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -5294,8 +5355,8 @@
 			<feature optional="YES">
 				<name>Storm: Storm Guide</name>
 				<text>At 6th level, you gain the ability to subtly control the weather around you.</text>
-				<text>	If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
-				<text>	If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
+				<text>    If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
+				<text>    If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Favored Soul: Extra Attack</name>
@@ -5305,9 +5366,9 @@
 				<name>Shadow: Hound of Ill Omen</name>
 				<text>At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see. The hound uses a dire wolf's statistics with the following changes:</text>
 				<text />
-				<text>The hound is size Medium</text>
-				<text>It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
-				<text>At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
+				<text>• The hound is size Medium</text>
+				<text>• It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
+				<text>• At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
 				<text />
 				<text>    The hound appears in an unoccupied space of your choice within 30 feer of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
 			</feature>
@@ -5600,11 +5661,11 @@
 			<feature optional="YES">
 				<name>Otherworldly Patron: The Undying</name>
 				<text>Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize - like all power - comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.</text>
-				<text>	In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.</text>
-				<text>	 </text>
+				<text>    In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.</text>
+				<text/>
 				<text>Expanded Spell List:</text>
-				<text>	The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
-				<text>	 </text>
+				<text>    The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text/>
 				<text>1st - false life, ray of sickness</text>
 				<text>2nd - blindness/deafness, silence</text>
 				<text>3rd - feign death, speak with dead</text>
@@ -5612,9 +5673,36 @@
 				<text>5th - contagion, legend lore</text>
 			</feature>
 			<feature optional="YES">
+				<name>Otherworldly Patron: The Undying Light</name>
+				<text>Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.</text>
+				<text>    Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.</text>
+				<text>    As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.</text>
+				<text />
+				<text>d6 - Quirk</text>
+				<text>1 — You are afraid of the dark, and must always have a light source at hand.</text>
+				<text>2 — You have a nervous compulsion to keep a bright light in even the barest shadow.</text>
+				<text>3 — You have a compulsion to enter and illuminate dark areas.</text>
+				<text>4 — You have an overwhelming hatred of undead creatures.</text>
+				<text>5 — You fidget and are irritable when you can't see the sun.</text>
+				<text>6 — In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</text>
+				<text/>
+				<text>Expanded Spell List:</text>
+				<text>    The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text/>
+				<text>1st - burning hands</text>
+				<text>2nd - flaming sphere</text>
+				<text>3rd - daylight</text>
+				<text>4th - fire shield</text>
+				<text>5th - flame strike</text>
+			</feature>
+			<feature optional="YES">
 				<name>The Undying: Among the Dead</name>
 				<text>Starting at 1st level, you learn the spare the dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.</text>
-				<text>	Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.</text>
+				<text>    Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Radiant Soul</name>
+				<text>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They don't count against your number of cantrips known.</text>
 			</feature>
 			<feature>
 				<name>Pact Magic</name>
@@ -5703,7 +5791,12 @@
 			<feature optional="YES">
 				<name>The Undying: Defy Death</name>
 				<text>Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you satbilize a creature with spare the dying.</text>
-				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Searing Vengeance</name>
+				<text>Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are blinded until the end of your turn.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 		</autolevel>
 
@@ -5745,7 +5838,11 @@
 			<feature optional="YES">
 				<name>The Undying: Undying Nature</name>
 				<text>Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.</text>
-				<text>	In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</text>
+				<text>    In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Radiant Resilience</name>
+				<text>Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
 			</feature>
 		</autolevel>
 
@@ -5799,7 +5896,12 @@
 			<feature optional="YES">
 				<name>The Undying: Indestructible Life</name>
 				<text>When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.</text>
-				<text>	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Healing Light</name>
+				<text>At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total.</text>
+				<text>    You regain all expended dice from your pool when you finish a long rest.</text>
 			</feature>
 		</autolevel>
 
@@ -7026,26 +7128,26 @@
 			<feature optional="YES">
 				<name>Bladesinger: Restriction: Elves Only</name>
 				<text>Only elves and half-elves can choose the bladesinger arcane tradition. In the world of Faer&#251;n, elves closely guard the secrets of bladesinging.</text>
-				<text>	Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of bladesingers in the Forgotten Realms, but it might not apply to your DM's setting or your DM's version of the Realms.</text>
+				<text>    Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of bladesingers in the Forgotten Realms, but it might not apply to your DM's setting or your DM's version of the Realms.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Bladesinger: Training in War and Song (Bladesinging)</name>
 				<text>When you adopt this tradition at 2nd level, you gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.</text>
-				<text>	You also gain proficiency in the Performance skill if you don't already have it.</text>
+				<text>    You also gain proficiency in the Performance skill if you don't already have it.</text>
 				<proficiency>Performance</proficiency>
 			</feature>
 			<feature optional="YES">
 				<name>Bladesinger: Bladesong</name>
 				<text>Starting at 2nd level, you can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.</text>
-				<text>	You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).</text>
-				<text>	While your bladesong is active, you gain the following benefits:</text>
-				<text>	 </text>
+				<text>    You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).</text>
+				<text>    While your bladesong is active, you gain the following benefits:</text>
+				<text/>
 				<text>- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).</text>
 				<text>- Your walking speed increases by 10 feet.</text>
 				<text>- You have advantage on Dexterity (Acrobatics) checks.</text>
 				<text>- You gain a bonus to any Constitution saving throws you make to maintain concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).</text>
-				<text>	 </text>
-				<text>	You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.</text>
+				<text/>
+				<text>    You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 
