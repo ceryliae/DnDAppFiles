@@ -3708,7 +3708,7 @@
 		<autolevel level="3">
 			<feature>
 				<name>Ranger Archetype</name>
-				<text>At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
+				<text>At 3rd level, you choose an archetype that you strive to emulate: Beast Master, Deep Stalker, or Hunter. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Ranger Archetype: Hunter</name>
@@ -3717,6 +3717,11 @@
 			<feature optional="YES">
 				<name>Ranger Archetype: Beast Master</name>
 				<text>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Ranger Archetype: Deep Stalker</name>
+				<text>Many Deep Stalkers are elves, as those folk know all too well the threat posed by the drow. Deep Stalkers scout for new passages into the Underdark, carefully mapping them and working
+to ensure they remain watched at all times. They venture into the depths on long, dangerous patrols, disappearing for months at a time. Many of them never return. Deep Stalkers master spells useful in navigating the Underdark, and their combat tactics focus on ambush, surprise, and stealth. They fight alone or in small groups in hostile territory, relying on clever tactics to carry the day.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Hunter: Hunter's Prey</name>
@@ -3733,6 +3738,25 @@
 			<feature optional="YES">
 				<name>Hunter's Prey: Horde Breaker</name>
 				<text>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Deep Stalker Magic</name>
+				<text>From 3rd level, you have darkvision with a range of 90 feet. You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. You are always able to cast these spells, and they do not count against your number of ranger spells known.</text>
+				<text />
+				<text>3rd - disguise self</text>
+				<text />
+				<text>5th - rope trick</text>
+				<text />
+				<text>9th - glyph of warding</text>
+				<text />
+				<text>13th - greater invisibility</text>
+				<text />
+				<text>17th - seeming</text>
+			</feature>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Underdark Scout</name>
+				<text>At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed. If you use the attack action on that turn, you can make one additional attack. You gain an additional benefit on all turns after your first turn. At the end of each such turn, you can attempt to hide as a bonus action if you meet the normal requirements for hiding.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Beast Master: Ranger's Companion</name>
@@ -3796,6 +3820,10 @@
 				<name>Beast Master: Exceptional Training</name>
 				<text>On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on its turn.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Iron Mind</name>
+				<text>At 7th level, you gain proficiency in Wisdom saving throws.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="8">
@@ -3840,6 +3868,10 @@
 				<name>Beast Master: Bestial Fury</name>
 				<text>Your beast companion can make two attacks or use Multiattack (if available) when you command it to use the Attack action.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Stalker's Flurry</name>
+				<text>Starting at 11th level, you have the ability to ensure that your attacks count. If you miss with an attack during your turn, you can immediately make an additional attack. You can gain one additional attack during your turn with this ability.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="12">
@@ -3881,6 +3913,10 @@
 			<feature optional="YES">
 				<name>Beast Master: Share Spells</name>
 				<text>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Stalker's Dodge</name>
+				<text>At 15th level, you master the ability to disrupt an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack.</text>
 			</feature>
 		</autolevel>
 
