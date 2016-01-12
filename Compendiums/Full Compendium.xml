@@ -19463,6 +19463,20 @@
 				<text />
 				<text>Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Bard College: College of Swords</name>
+				<text>Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. But though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.</text>
+				<text>Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade’s talent for the excitement it adds to a performance, but few entertainers fully trust them.</text>
+				<text>Blades who abandon lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most performer troupes. With their weapon skills as their greatest asset, these blades either take up work as enforcers for thieves’ guilds or strike out on their own as adventurers.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Bard College: College of Satire</name>
+				<text>Bards of the College of Satire are called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.</text>
+				<text>While jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester’s barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.</text>
+				<text>For the duchess with a taste for strapping young laborers, such tales might serve to warn the targets of her affections and force her to change her ways for lack of willing partners. Striking back at the jester only ruins her already damaged reputation, and might provide the best evidencethat the jester’s satires have hit their mark. But if she is kind and generous to her conquests, the jokes and stories cast her as a kind of folk hero, while drawing even more potential partners to her.</text>
+				<text>Jesters are loyal to only one cause: the pursuit and propagation of the truth. They use their comedy and innocuous appearance to break down social barriers and expose corruption, incompetence, and stupidity among the rich and powerful. Whether revealing a con artist’s treachery or exposing a baron’s plans for war as driven by greed and bloodlust, a jester serves as the conscience of a realm.</text>
+				<text>Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.</text>				
+			</feature>			
 			<feature>
 				<name>Expertise</name>
 				<text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
@@ -19475,6 +19489,43 @@
 			<feature optional="YES">
 				<name>College of Lore: Cutting Words</name>
 				<text>Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Satire: Bonus Proficiencies</name>
+				<text>When you join the College of Satire at 3rd level, you gain proficiency with thieves' tools. You also gain proficiency in Sleight of Hand and one additional skill of your choice. If you are already proficient with thieves' tools or in Sleight of Hand, choose another skill proficiency for each proficiency you already have.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Satire: Tumbling Fool</name>
+				<text>At 3rd level, you master a variety of acrobatic techniques that allow you to evade danger. As a bonus action, you can tumble. When you tumble, you gain the following benefits for the rest of your turn:</text>
+				<text />
+				<text>• You gain the benefits of taking the Dash and Disengage actions.</text>
+				<text />
+				<text>• You gain a climbing speed equal to your current speed.</text>
+				<text />
+				<text>• You take half damage from falling.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Swords: Bonus Proficiencies</name>
+				<text>When you join the College of Blades at 3rd level, you gain proficiency with medium armor and with scimitars.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Swords: Fighting Style</name>
+				<text>The College of Blades emphasizes mastery with weapons, granting you access to the two-weapon fighting option for the Fighting Style class feature, which is as follows.</text>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Swords: Blade Flourish</name>
+				<text>At 3rd level, you learn to conduct impressive displays of skill with your weapons. When you use the Attack action on your turn and attack with a dagger, longsword, rapier, scimitar, or shortsword, you can attempt one of the following flourishes.</text>
+				<text />
+				<text>	Defensive Flourish:</text>
+				<text>You spin your weapon around you in swift circles, creating a hypnotic display. As a bonus action, you expend one use of Bardic Inspiration, rolling a Bardic Inspiration die and applying the number rolled as a bonus to your AC until the start of your next turn.</text>
+				<text />
+				<text>	Trick Shooter's Flourish:</text>
+				<text>This favorite trick of knife throwers allows you to expend one use of Bardic Inspiration as a bonus action. Roll a Bardic Inspiration die and apply the number rolled as a bonus to the next ranged attack roll you make with a dagger this turn. If the target of the attack is an unattended, inanimate object, the bonus equals double the die roll.</text>
+				<text />
+				<text>	Unnerving Flourish:</text>
+				<text>Your deadly display of combat prowess unnerves your opponents, leaving them cowering in fear and at your mercy. Whenever you reduce a creature to 0 hit points with a melee attack, you can use a bonus action to expend one use of Bardic Inspiration, and instead leave the creature at 1 hit point.</text>
+				<text>The creature is frightened of you for a number of minutes equal to your Charisma modifier. It must also make a Charisma saving throw with a DC equal to your spellcasting DC + a bonus equal to the roll of your Bardic Inspiration die. If the creature fails this saving throw, it answers truthfully any questions you ask it and obeys your direct orders while it is frightened by this effect.</text>
 			</feature>
 			<feature optional="YES">
 				<name>College of Valor: Bonus Proficiencies</name>
@@ -19509,6 +19560,15 @@
 			<feature>
 				<name>Countercharm</name>
 				<text>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Satire: Fool's Insight</name>
+				<text>At 6th level, your ability to gather stories and lore gains a supernatural edge. You can cast detect thoughts up to a number of times equal to your Charisma modifier. You regain any expended uses of this ability after completing a long rest.</text>
+				<text>	If a creature resists your attempt to probe deeper and succeeds at its saving throw against your detect thoughts, it immediately suffers an embarrassing social gaffe. It might loudly pass gas, unleash a thunderous burp, trip and fall, or be compelled to tell a tasteless joke.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Swords: Extra Attack</name>
+				<text>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
 			</feature>
 			<feature optional="YES">
 				<name>College of Lore: Additional Magical Secrets</name>
@@ -19572,6 +19632,16 @@
 				<name>Magical Secrets</name>
 				<text>At 14th level, choose two additional spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.</text>
 				<text>    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Satire: Fool's Luck </name>
+				<text>Jesters seem to have a knack for pulling themselves out of tight situations, transforming what looks like sure failure into an embarrassing but effective success.</text>
+				<text>	At 14th level, you can expend one use of Bardic Inspiration after you fail an ability check, fail a saving throw, or miss with an attack roll. Roll a Bardic Inspiration die and add the number rolled to your attack, saving throw, or ability check, using the new result in place of the failed one.</text>
+				<text>	If using this ability grants you a success on the attack, saving throw, or ability check, note the number you rolled on the Bardic Inspiration die. The DM can then apply that result as a penalty to an attack or check you make, and you cannot use this ability again until you suffer this drawback. When the DM invokes this penalty, describe an embarrassing gaffe or mistake you make as part of the affected die roll.</text>
+			</feature>
+			<feature optional="YES">
+				<name>College of Swords: Battle Magic</name>
+				<text>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action.</text>
 			</feature>
 			<feature optional="YES">
 				<name>College of Lore: Peerless Skill</name>
@@ -21458,6 +21528,10 @@
 				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
 			</feature>
@@ -21476,6 +21550,10 @@
 			<feature optional="YES">
 				<name>Fighting Style: Protection</name>
 				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Fighting Style: Two-Weapon Fighting</name>
@@ -21510,24 +21588,32 @@
 				<text>Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Martial Archetype: Cavalier</name>
+				<text>The archetypal Cavalier excels at mounted combat. Usually born to nobility and raised in a royal court, a Cavalier is equally at home leading a cavalry charge or exchanging witty repartee at a state dinner.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Martial Archetype: Eldritch Knight</name>
 				<text>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Martial Archetype: Purple Dragon Knight (Banneret)</name>
 				<text>Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.</text>
-				<text>	A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.</text>
-				<text>	A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.</text>
+				<text>    A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.</text>
+				<text>    A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Restriction: Knighthood</name>
 				<text>Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.</text>
-				<text>	Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</text>
+				<text>    Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Rallying Cry</name>
 				<text>When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.</text>
-				<text>	When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</text>
+				<text>    When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Martial Archetype: Scout</name>
+				<text>The archetypal Scout excels at finding safe passage through dangerous regions. Scouts usually favor light armor and ranged weapons, but they are comfortable using heavier gear when faced with intense fighting.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Battle Master: Combat Superiority</name>
@@ -21551,6 +21637,33 @@
 			<feature optional="YES">
 				<name>Champion: Improved Critical</name>
 				<text>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Bonus Proficiencies</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Animal Handling, Insight, Performance, or Persuasion. You can choose to gain one tool proficiency in place of one skill proficiency.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Born to the Saddle</name>
+				<text>At 3rd level, you have advantage on saving throws made to avoid falling off your mount. If you fall off your mount, you always land on your feet if you are capable of taking actions. Mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Combat Superiority</name>
+				<text>At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.</text>
+				<text />
+				<text>Superiority Dice:</text>
+				<text>	You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</text>
+				<text>	You gain another superiority die at 7th level and one more at 15th level.</text>
+				<text />
+				<text>Using Superiority Dice:</text>
+				<text>	You can expend superiority dice to gain a number of different benefits.</text>
+				<text />
+				<text>• When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.:</text>
+				<text />
+				<text>• When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</text>
+				<text />
+				<text>• When you make an attack with a lance while mounted, you can expend one superiority die to add it to your damage roll. In addition, the target of the attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.:</text>
+				<text />
+				<text>• If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a reaction, adding the number rolled to your or your mount’s AC. If the attack still hits, you or your mount take half damage from it.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Eldritch Knight: Spellcasting</name>
@@ -21579,6 +21692,45 @@
 				<text>At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.</text>
 				<text>    Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.</text>
 				<text>    You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</text>
+				</feature>
+			<feature optional="YES">
+				<name>Scout: Bonus Proficiencies</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency in three of the following skills of your choice: Acrobatics, Athletics, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You can choose to gain proficiency with thieves’ tools in place of one skill choice.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Scout: Combat Superiority</name>
+				<text>At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.</text>
+				<text />
+				<text>Superiority Dice:</text>
+				<text>	You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You gain another superiority die at 7th level and one more at 15th level.</text>
+				<text />
+				<text>Using Superiority Dice:</text>
+				<text>	You can expend superiority dice to gain a number of different benefits.</text>
+				<text />
+				<text>• When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.</text>
+				<text />
+				<text>• When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</text>
+				<text />
+				<text>• If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Scout: Natural Explorer</name>
+				<text>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.</text>
+				<text>	While traveling for an hour or more in your favored terrain, you gain the following benefits.</text>
+				<text />
+				<text>• Difficult terrain doesn't slow your group's travel.</text>
+				<text />
+				<text>• Your group can't become lost except by magical means.</text>
+				<text />
+				<text>• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</text>
+				<text />
+				<text>• If you are traveling alone, you can move stealthily at a normal pace.</text>
+				<text />
+				<text>• When you forage, you find twice as much food as you normally would.</text>
+				<text />
+				<text>• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</text>
+				<text />
+				<text>	You choose additional favored terrain types at 7th and 15th level.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Maneuver: Commander's Strike</name>
@@ -21702,10 +21854,14 @@
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Royal Envoy</name>
 				<text>A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.</text>
-				<text>	At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.</text>
-				<text>	Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature.</text>
+				<text>    At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.</text>
+				<text>    Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature.</text>
 				<proficiency>Persuasion</proficiency>
 				<modifier category="skills">Persuasion+%0</modifier>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Ferocious Charger</name>
+				<text>At 7th level, you gain additional benefits when you use superiority dice to increase your damage when you attack with a lance. You can expend up to two superiority dice on the attack, adding both to the damage roll. If you spend two dice, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
 			</feature>
 		</autolevel>
 
@@ -21749,7 +21905,15 @@
 			<feature optional="YES">
 				<name>Purple Dragon Knight: Inspiring Surge</name>
 				<text>Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.</text>
-				<text>	Starting at 17th level, you can choose two allies within 60 feet of you, rather than one.</text>
+				<text>    Starting at 17th level, you can choose two allies within 60 feet of you, rather than one.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Improved Combat Superiority</name>
+				<text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Scout: Improved Combat Superiority</name>
+				<text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</text>
 			</feature>
 		</autolevel>
 
@@ -21808,6 +21972,14 @@
 				<name>Purple Dragon Knight: Bulwark</name>
 				<text>Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't incapacitated, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Relentless</name>
+				<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Scout: Relentless</name>
+				<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="16">
@@ -21841,6 +22013,14 @@
 			<feature optional="YES">
 				<name>Eldritch Knight: Improved War Magic</name>
 				<text>Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Improved Combat Superiority</name>
+				<text>At 18th level, your superiority dice turn into d12s.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Scout: Improved Combat Superiority</name>
+				<text>At 18th level, your superiority dice turn into d12s.</text>
 			</feature>
 		</autolevel>
 
@@ -22978,8 +23158,8 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Radiant Sun Bolt</name>
 				<text>Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.</text>
-				<text>	You gain a ranged spell attack that you can use with the Attack action. The attack has a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels — to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.</text>
-				<text>	When you use the Attack action on your turn to use this special attack, you can spend 1 ki point to make two additional attacks with it as a bonus action.</text>
+				<text>    You gain a ranged spell attack that you can use with the Attack action. The attack has a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels — to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.</text>
+				<text>    When you use the Attack action on your turn to use this special attack, you can spend 1 ki point to make two additional attacks with it as a bonus action.</text>
 			</feature>
 		</autolevel>
 
@@ -23041,7 +23221,7 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Searing Arc Strike</name>
 				<text>At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the 1st-level spell burning hands as a bonus action.</text>
-				<text>	You can spend additional ki points to cast burning hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level (round down).</text>
+				<text>    You can spend additional ki points to cast burning hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level (round down).</text>
 			</feature>
 		</autolevel>
 
@@ -23113,8 +23293,8 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Searing Sunburst</name>
 				<text>At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.</text>
-				<text>	Each creature in that 20-foot radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.</text>
-				<text>	You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6.</text>
+				<text>    Each creature in that 20-foot radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.</text>
+				<text>    You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6.</text>
 			</feature>
 		</autolevel>
 
@@ -23190,7 +23370,7 @@
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Sun Shield</name>
 				<text>At 17th level, you become wreathed in a luminous aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.</text>
-				<text>	If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier.</text>
+				<text>    If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier.</text>
 			</feature>
 		</autolevel>
 
@@ -23294,9 +23474,9 @@
         <feature>
             <name>Psionics</name>
             <text>As a student of psionics, you can master and use psionic disciplines. </text>
-            <text>     </text>
+            <text />
             <text>Disciplines: At 1st level, you know one discipline of your choice. You choose disciplines from the list included in your chosen order (see below). You learn additional disciplines of your choice at higher levels, as shown in the Disciplines Known column of the Mystic table.  You learn an additional discipline at 2nd and 5th level. </text>
-            <text>     </text>
+            <text />
             <text>Psi Points: You gain a pool of psi points based on your mystic level. Your psi point total returns to its maximum after you finish a long rest.</text>
             <text>    Level — Psi Points:</text>
             <text>    1st - 4</text>
@@ -23304,15 +23484,15 @@
             <text>    3rd - 14</text>
             <text>    4th - 17</text>
             <text>    5th - 27 </text>
-            <text>     </text>
+            <text />
             <text>Psi Maximum: Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. You have a maximum number of psi points you can spend to activate a discipline based on your mystic level, as shown in the Psi Maximum column of the Mystic table.</text>
             <text>    Your psi maximum at 1st level is 2 points.  It increases to 3 points at 3rd level and to 5 points at 5th level. </text>
-            <text>     </text>
+            <text />
             <text>Using Disciplines: </text>
             <text>    You activate a discipline as a bonus action, and must immediately concentrate on it. If a discipline grants a benefit for concentrating on it, you immediately gain that benefit. You continue to gain that benefit and can use the discipline's optional features as long as you maintain your concentration on the discipline. </text>
             <text>    While you are concentrating on a discipline, you can spend psi points to augment the discipline's effect. Each discipline details its optional effects and the type of action (if any) required to spend psi points on an option. </text>
             <text>    You can end all effects of a discipline immediately by ending concentration on the discipline. If you want to end a single effect of a discipline but still maintain its other effects, you can end a specific effect as a bonus action. </text>
-            <text>     </text>
+            <text />
             <text>Psionic Ability: </text>
             <text>    Intelligence is your psionic ability for your mystic disciplines. Your intellect determines the strength of the psionic effects you manifest. In addition, you use your Intelligence modifier when setting the saving throw DC for a mystic discipline or when making an attack roll with one. </text>
             <text>    Discipline save DC = 8 + your proficiency bonus + your Intelligence modifier </text>
@@ -23346,34 +23526,34 @@
             <name>Discipline: Conquering Mind</name>
             <text>Prerequisite: Order of the Awakened</text>
             <text>    By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text>     </text>
+            <text />
             <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text />
             <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text />
             <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Intellect Fortress</name>
             <text>Prerequisite: Order of the Awakened</text>
             <text>    You forge an indomitable wall of psionic energy around your mind—one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Third Eye</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text>     </text>
+            <text />
             <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text>     </text>
+            <text />
             <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text>     </text>
+            <text />
             <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
         </feature>
         <feature optional="YES">
@@ -23393,42 +23573,42 @@
         <feature optional="YES">
             <name>Discipline: Celerity</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text>     </text>
+            <text />
             <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text>     </text>
+            <text />
             <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text>     </text>
+            <text />
             <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
             <text>    Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Iron Durability</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text>     </text>
+            <text />
             <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text>     </text>
+            <text />
             <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Psionic Weapon </name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text>     </text>
+            <text />
             <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text>     </text>
+            <text />
             <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text>     </text>
+            <text />
             <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
         </feature>
     </autolevel>
@@ -23437,78 +23617,78 @@
         <feature optional="YES">
             <name>Discipline: Conquering Mind</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text>     </text>
+            <text />
             <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text />
             <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text />
             <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Intellect Fortress</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>You forge an indomitable wall of psionic energy around your mind—one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Third Eye</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text>     </text>
+            <text />
             <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text>     </text>
+            <text />
             <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text>     </text>
+            <text />
             <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Celerity</name>
             <text>Prerequisite: Order of the Immortal</text>
             <text>    You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text>     </text>
+            <text />
             <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text>     </text>
+            <text />
             <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text>     </text>
+            <text />
             <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text>     </text>
+            <text />
             <text>Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Iron Durability</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text>     </text>
+            <text />
             <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text>     </text>
+            <text />
             <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Psionic Weapon </name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text>     </text>
+            <text />
             <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text>     </text>
+            <text />
             <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text>     </text>
+            <text />
             <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
         </feature>
     </autolevel>
@@ -23538,79 +23718,79 @@
         <feature optional="YES">
             <name>Discipline: Conquering Mind</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text>     </text>
+            <text />
             <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text />
             <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text>     </text>
+            <text />
             <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Intellect Fortress</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>You forge an indomitable wall of psionic energy around your mind—one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Third Eye</name>
             <text>Prerequisite: Order of the Awakened</text>
-            <text>    </text>
+            <text />
             <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text>     </text>
+            <text />
             <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text>     </text>
+            <text />
             <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text>     </text>
+            <text />
             <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Celerity</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text>     </text>
+            <text />
             <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text>     </text>
+            <text />
             <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text>     </text>
+            <text />
             <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text>     </text>
+            <text />
             <text>Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Iron Durability</name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text>     </text>
+            <text />
             <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text>     </text>
+            <text />
             <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
         </feature>
         <feature optional="YES">
             <name>Discipline: Psionic Weapon </name>
             <text>Prerequisite: Order of the Immortal</text>
-            <text>    </text>
+            <text />
             <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text>     </text>
+            <text />
             <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text>     </text>
+            <text />
             <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text>     </text>
+            <text />
             <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text>     </text>
+            <text />
             <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
         </feature>
     </autolevel>
@@ -23745,6 +23925,10 @@
 				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
 			</feature>
@@ -23763,6 +23947,10 @@
 			<feature optional="YES">
 				<name>Fighting Style: Protection</name>
 				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
 			</feature>
 			<feature>
 				<name>Spellcasting</name>
@@ -23904,7 +24092,7 @@
 			<feature>
 				<name>Sacred Oath: Oathbreaker</name>
 				<text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.</text>
-				<text>	A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
+				<text>    A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Oathbreaker: Oathbreaker Spells</name>
@@ -23931,22 +24119,22 @@
 			<feature optional="YES">
 				<name>Sacred Oath: Oath of the Crown</name>
 				<text>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.</text>
-				<text>	 </text>
+				<text />
 				<text>Tenets of the Crown:</text>
-				<text>	The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
-				<text>	 </text>
+				<text>    The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
+				<text />
 				<text>Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</text>
-				<text>	 </text>
+				<text />
 				<text>Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.</text>
-				<text>	 </text>
+				<text />
 				<text>Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</text>
-				<text>	 </text>
+				<text />
 				<text>Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations. </text>
 				</feature>
 			<feature optional="YES">
 				<name>Oath of the Crown: Oath Spells</name>
-				<text>	You gain oath spells at the paladin levels listed.</text>
-				<text>	 </text>
+				<text>    You gain oath spells at the paladin levels listed.</text>
+				<text />
 				<text>3rd - command, compelled duel</text>
 				<text />
 				<text>5th - warding bond, zone of truth</text>
@@ -24139,14 +24327,14 @@
 			<feature optional="YES">
 				<name>Oath of the Crown: Exalted Champion</name>
 				<text>At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour: </text>
-				<text>	 </text>
+				<text />
 				<text>- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
-				<text>	 </text>
+				<text />
 				<text>- Your allies have advantage on death saving throws while within 30 feet of you.</text>
-				<text>	 </text>
+				<text />
 				<text>- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.</text>
-				<text>	 </text>
-				<text>	This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</text>
+				<text />
+				<text>    This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 		</autolevel>
 	</class>
@@ -24333,6 +24521,10 @@
 				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Defense</name>
 				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
 			</feature>
@@ -24345,6 +24537,10 @@
 				<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Fighting Style: Two-Weapon Fighting</name>
 				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
 			</feature>
@@ -24353,7 +24549,7 @@
 		<autolevel level="3">
 			<feature>
 				<name>Ranger Archetype</name>
-				<text>At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
+				<text>At 3rd level, you choose an archetype that you strive to emulate: Beast Master, Deep Stalker, or Hunter. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Ranger Archetype: Hunter</name>
@@ -24362,6 +24558,11 @@
 			<feature optional="YES">
 				<name>Ranger Archetype: Beast Master</name>
 				<text>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Ranger Archetype: Deep Stalker</name>
+				<text>Many Deep Stalkers are elves, as those folk know all too well the threat posed by the drow. Deep Stalkers scout for new passages into the Underdark, carefully mapping them and working
+to ensure they remain watched at all times. They venture into the depths on long, dangerous patrols, disappearing for months at a time. Many of them never return. Deep Stalkers master spells useful in navigating the Underdark, and their combat tactics focus on ambush, surprise, and stealth. They fight alone or in small groups in hostile territory, relying on clever tactics to carry the day.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Hunter: Hunter's Prey</name>
@@ -24378,6 +24579,24 @@
 			<feature optional="YES">
 				<name>Hunter's Prey: Horde Breaker</name>
 				<text>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Deep Stalker Magic</name>
+				<text>From 3rd level, you have darkvision with a range of 90 feet. You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. You are always able to cast these spells, and they do not count against your number of ranger spells known.</text>
+				<text />
+				<text>3rd - disguise self</text>
+				<text />
+				<text>5th - rope trick</text>
+				<text />
+				<text>9th - glyph of warding</text>
+				<text />
+				<text>13th - greater invisibility</text>
+				<text />
+				<text>17th - seeming</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Underdark Scout</name>
+				<text>At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed. If you use the attack action on that turn, you can make one additional attack. You gain an additional benefit on all turns after your first turn. At the end of each such turn, you can attempt to hide as a bonus action if you meet the normal requirements for hiding.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Beast Master: Ranger's Companion</name>
@@ -24441,6 +24660,10 @@
 				<name>Beast Master: Exceptional Training</name>
 				<text>On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on its turn.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Iron Mind</name>
+				<text>At 7th level, you gain proficiency in Wisdom saving throws.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="8">
@@ -24485,6 +24708,10 @@
 				<name>Beast Master: Bestial Fury</name>
 				<text>Your beast companion can make two attacks or use Multiattack (if available) when you command it to use the Attack action.</text>
 			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Stalker's Flurry</name>
+				<text>Starting at 11th level, you have the ability to ensure that your attacks count. If you miss with an attack during your turn, you can immediately make an additional attack. You can gain one additional attack during your turn with this ability.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="12">
@@ -24526,6 +24753,10 @@
 			<feature optional="YES">
 				<name>Beast Master: Share Spells</name>
 				<text>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Deep Stalker: Stalker's Dodge</name>
+				<text>At 15th level, you master the ability to disrupt an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack.</text>
 			</feature>
 		</autolevel>
 
@@ -25426,7 +25657,7 @@
 			<feature optional="YES">
 				<name>Swashbuckler: Rakish Audacity</name>
 				<text>Starting at 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls. </text>
-				<text>	In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
+				<text>    In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Fast Hands</name>
@@ -25440,13 +25671,13 @@
 			<feature optional="YES">
 				<name>Rougeish Archetype: Mastermind</name>
 				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
-				<text>	</text>
+				<text />
 				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
 			</feature>
 			<feature optional="YES">
 				<name>Mastermind: Master of Intrigue</name>
 				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
-				<text>	Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
+				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Mastermind: Master of Tactics</name>
@@ -25497,8 +25728,8 @@
 			<feature optional="YES">
 				<name>Swashbuckler: Panache</name>
 				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
-				<text>	If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
-				<text>	If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
+				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
+				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Supreme Sneak</name>
@@ -25507,13 +25738,13 @@
 			<feature optional="YES">
 				<name>Mastermind: Insightful Manipulator</name>
 				<text>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: </text>
-				<text>	 </text>
+				<text />
 				<text>- Intelligence score </text>
 				<text>- Wisdom score </text>
 				<text>- Charisma score </text>
 				<text>- Class levels (if any) </text>
-				<text>	 </text>
-				<text>	At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
+				<text />
+				<text>    At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
 			</feature>
 		</autolevel>
 
@@ -25608,7 +25839,7 @@
 			<feature optional="YES">
 				<name>Mastermind: Soul of Deceit</name>
 				<text>Starting at 17th level, your thoughts can’t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
-				<text>	Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
+				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
 			</feature>
 		</autolevel>
 
@@ -25939,10 +26170,11 @@
 			</feature>
 			<feature optional="YES">
 				<name>Sorcerous Origin: Shadow</name>
-				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental way.</text>
+				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental manner.</text>
 				<text />
 				<text>    The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the following table to create a unique quirk for your character.</text>
 				<text />
+				<text>d6 - Quirk</text>
 				<text>1 — You are always icy cold to the touch.</text>
 				<text>2 — When you are asleep, you don't appear to breathe (though you must still breathe to survive).</text>
 				<text>3 — You don't seem to bleed, even when badly injured.</text>
@@ -26062,6 +26294,14 @@
 				<text>    Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Shadow: Eyes of the Dark</name>
+				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Strength of the Grave</name>
+				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Constitution saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Storm: Tempestuous Magic</name>
 				<text>Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks.</text>
 			</feature>
@@ -26131,14 +26371,6 @@
 				<name>Wild Magic: Tides of Chaos</name>
 				<text>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.</text>
 				<text>    Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Eyes of the Dark</name>
-				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Strength of the Grave</name>
-				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Consitution saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -26230,8 +26462,8 @@
 			<feature optional="YES">
 				<name>Storm: Storm Guide</name>
 				<text>At 6th level, you gain the ability to subtly control the weather around you.</text>
-				<text>	If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
-				<text>	If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
+				<text>    If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
+				<text>    If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Favored Soul: Extra Attack</name>
@@ -26241,9 +26473,9 @@
 				<name>Shadow: Hound of Ill Omen</name>
 				<text>At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see. The hound uses a dire wolf's statistics with the following changes:</text>
 				<text />
-				<text>The hound is size Medium</text>
-				<text>It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
-				<text>At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
+				<text>• The hound is size Medium</text>
+				<text>• It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
+				<text>• At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
 				<text />
 				<text>    The hound appears in an unoccupied space of your choice within 30 feer of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
 			</feature>
@@ -26842,11 +27074,11 @@
 			<feature optional="YES">
 				<name>Otherworldly Patron: The Undying</name>
 				<text>Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize - like all power - comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.</text>
-				<text>	In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.</text>
-				<text>	 </text>
+				<text>    In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.</text>
+				<text />
 				<text>Expanded Spell List:</text>
-				<text>	The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
-				<text>	 </text>
+				<text>    The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text />
 				<text>1st - false life, ray of sickness</text>
 				<text>2nd - blindness/deafness, silence</text>
 				<text>3rd - feign death, speak with dead</text>
@@ -26854,9 +27086,36 @@
 				<text>5th - contagion, legend lore</text>
 			</feature>
 			<feature optional="YES">
+				<name>Otherworldly Patron: The Undying Light</name>
+				<text>Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.</text>
+				<text>    Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.</text>
+				<text>    As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.</text>
+				<text />
+				<text>d6 - Quirk</text>
+				<text>1 — You are afraid of the dark, and must always have a light source at hand.</text>
+				<text>2 — You have a nervous compulsion to keep a bright light in even the barest shadow.</text>
+				<text>3 — You have a compulsion to enter and illuminate dark areas.</text>
+				<text>4 — You have an overwhelming hatred of undead creatures.</text>
+				<text>5 — You fidget and are irritable when you can't see the sun.</text>
+				<text>6 — In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</text>
+				<text />
+				<text>Expanded Spell List:</text>
+				<text>    The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text />
+				<text>1st - burning hands</text>
+				<text>2nd - flaming sphere</text>
+				<text>3rd - daylight</text>
+				<text>4th - fire shield</text>
+				<text>5th - flame strike</text>
+			</feature>
+			<feature optional="YES">
 				<name>The Undying: Among the Dead</name>
 				<text>Starting at 1st level, you learn the spare the dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.</text>
-				<text>	Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.</text>
+				<text>    Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Radiant Soul</name>
+				<text>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They don't count against your number of cantrips known.</text>
 			</feature>
 			<feature>
 				<name>Pact Magic</name>
@@ -26945,7 +27204,12 @@
 			<feature optional="YES">
 				<name>The Undying: Defy Death</name>
 				<text>Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you satbilize a creature with spare the dying.</text>
-				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Searing Vengeance</name>
+				<text>Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are blinded until the end of your turn.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 		</autolevel>
 
@@ -26987,7 +27251,11 @@
 			<feature optional="YES">
 				<name>The Undying: Undying Nature</name>
 				<text>Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.</text>
-				<text>	In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</text>
+				<text>    In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Radiant Resilience</name>
+				<text>Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
 			</feature>
 		</autolevel>
 
@@ -27041,7 +27309,12 @@
 			<feature optional="YES">
 				<name>The Undying: Indestructible Life</name>
 				<text>When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.</text>
-				<text>	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Undying Light: Healing Light</name>
+				<text>At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total.</text>
+				<text>    You regain all expended dice from your pool when you finish a long rest.</text>
 			</feature>
 		</autolevel>
 
@@ -28338,26 +28611,26 @@
 			<feature optional="YES">
 				<name>Bladesinger: Restriction: Elves Only</name>
 				<text>Only elves and half-elves can choose the bladesinger arcane tradition. In the world of Faerûn, elves closely guard the secrets of bladesinging.</text>
-				<text>	Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of bladesingers in the Forgotten Realms, but it might not apply to your DM's setting or your DM's version of the Realms.</text>
+				<text>    Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of bladesingers in the Forgotten Realms, but it might not apply to your DM's setting or your DM's version of the Realms.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Bladesinger: Training in War and Song (Bladesinging)</name>
 				<text>When you adopt this tradition at 2nd level, you gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.</text>
-				<text>	You also gain proficiency in the Performance skill if you don't already have it.</text>
+				<text>    You also gain proficiency in the Performance skill if you don't already have it.</text>
 				<proficiency>Performance</proficiency>
 			</feature>
 			<feature optional="YES">
 				<name>Bladesinger: Bladesong</name>
 				<text>Starting at 2nd level, you can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.</text>
-				<text>	You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).</text>
-				<text>	While your bladesong is active, you gain the following benefits:</text>
-				<text>	 </text>
+				<text>    You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).</text>
+				<text>    While your bladesong is active, you gain the following benefits:</text>
+				<text />
 				<text>- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).</text>
 				<text>- Your walking speed increases by 10 feet.</text>
 				<text>- You have advantage on Dexterity (Acrobatics) checks.</text>
 				<text>- You gain a bonus to any Constitution saving throws you make to maintain concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).</text>
-				<text>	 </text>
-				<text>	You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.</text>
+				<text />
+				<text>    You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 
@@ -28931,20 +29204,6 @@
 		<text>The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.</text>
 		<text />
 		<text>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other, passing through a portal from the non-portal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</text>
-	</spell>
-	<spell>
-		<name>Arcane Hacking (Technomagic)</name>
-		<level>2</level>
-		<school>T</school>
-		<time>1 action</time>
-		<range>Self</range>
-		<components>V, S, M (hacking tools)</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	You gain advantage on all Intelligence checks using hacking tools to break software encryption or online security when using a foreign system. This spell also allows you to break 2nd level and lower protective spells such as arcane lock or glyph of warding by making an Intelligence check using hacking tools against the spell save DC of the spell's caster.</text>
-		<text>	At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can attempt to counteract a spell set to secure the foreign system if the spell's level is equal to or less than the level of the spell slot you used.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
 	</spell>
 	<spell>
 		<name>Arcane Lock</name>
@@ -29646,33 +29905,6 @@
 		<text>If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.</text>
 	</spell>
 	<spell>
-		<name>Commune with City</name>
-		<level>5</level>
-		<school>D</school>
-		<ritual>YES</ritual>
-		<time>1 minute</time>
-		<range>Self</range>
-		<components>V, S</components>
-		<duration>Instantaneous</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>You briefly become one with the city and gain knowledge of the surrounding area. Above ground, this spell gives you knowledge of the area within 1 mile of you. In sewers and other underground settings, you gain knowledge of the area within 600 feet of you.</text>
-		<text>	You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area: </text>
-		<text>	</text>
-		<text>• Terrain and bodies of water </text>
-		<text>	</text>
-		<text>• Prevalent buildings, plants, animals, or intelligent creatures</text>
-		<text>	</text>
-		<text>• Powerful (CR 1 or higher) celestials, fey, fiends, elementals, or undead</text>
-		<text>	</text>
-		<text>• Influences from other planes of existence </text>
-		<text>	</text>
-		<text>• Electrical currents, wireless signals, and active transit lines and tracks</text>
-		<text>	 </text>
-		<text>	For example, you could determine the location of powerful undead in the area, the location of major sources of electrical power or interference, and the location of any nearby parks.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
 		<name>Commune with Nature</name>
 		<level>5</level>
 		<school>D</school>
@@ -29796,21 +30028,6 @@
 		<text>At Higher Levels: When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear - twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.</text>
 	</spell>
 	<spell>
-		<name>Conjure Barlgura</name>
-		<level>4</level>
-		<school>C</school>
-		<time>1 action</time>
-		<range>60 feet</range>
-		<components>V, S</components>
-		<duration>Up to 10 minutes</duration>
-		<classes>Wizard, Sorcerer</classes>
-		<text>You summon a barlgura that appears in an unoccupied space you can see within range. The barlgura disappears when it drops to 0 hit points or when the spell ends.</text>
-		<text />
-		<text>The barlgura is hostile to all non‑demons. Roll initiative for the barlgura, which has its own turns. At the start of its turn, it moves toward and attacks the nearest non‑demon it can perceive. If two or more creatures are equally near, it picks one at random. If it cannot see any potential enemies, the barlgura moves in a random direction in search of foes.</text>
-		<text />
-		<text>As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned barlgura cannot cross the circle or target anyone in it while the spell lasts.</text>
-	</spell>
-	<spell>
 		<name>Conjure Barrage</name>
 		<level>3</level>
 		<school>C</school>
@@ -29872,56 +30089,6 @@
 		<text>At Higher Levels: When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th.</text>
 	</spell>
 	<spell>
-		<name>Conjure Hezrou</name>
-		<level>7</level>
-		<school>C</school>
-		<time>1 action</time>
-		<range>60 feet</range>
-		<components>V, S, M (food worth at least 100 gp, which the spell consumes)</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Wizard, Sorcerer</classes>
-		<text>You summon a hezrou that appears in an unoccupied space you can see within range. The hezrou disappears when it drops to 0 hit points or when the spell ends.</text>
-		<text />
-		<text>The hezrou’s attitude depends on the value of the food used as a material component for this spell. Roll initiative for the hezrou, which has its own turns. At the start of the hezrou’s turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the food’s value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the hezrou and have it obey you as long as you succeed on the Charisma check.</text>
-		<text />
-		<text>If the check fails, the spell no longer requires concentration and the demon is no longer under your control. The hezrou then focuses on devouring any corpses it can see. If there are no such meals at hand, it attacks the nearest creatures and eats anything it kills. If its hit points are reduced to below half its hit point maximum, it returns to the Abyss.</text> 
-		<text />
-		<text>As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned hezrou cannot cross the circle or target anyone in it while the spell lasts.</text>
-	</spell>	
-	<spell>
-		<name>Conjure Knowbot</name>
-		<level>4</level>
-		<school>C</school>
-		<time>1 action</time>
-		<range>Touch</range>
-		<components>V, S</components>
-		<duration>10 minutes</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>You touch a single computerized device or computer system to conjure a knowbot — a partially sentient piece of software imprinted with vestiges of your own skills and computer abilities. For the duration of the spell, you can use a bonus action to have the knowbot execute a computer-related task that would normally require an action. The knowbot makes Intelligence ability checks using your ability score and proficiency bonuses (including your proficiency with hacking tools, if applicable).</text>
-		<text>	You have a limited telepathic bond with the knowbot, out to a range of 500 feet from the device or system where the knowbot was conjured. If you move beyond this range, the knowbot disappears in 2d4 rounds, as if the duration of the spell had expired. Moving within range again immediately reestablishes the bond.</text>
-		<text>	The knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires.</text>
-		<text>	At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the spell's duration increases to 1 hour. Additionally, your telepathic bond with the knowbot is effective out to a range of 1,000 feet, and if you leave the range of the bond, the knowbot continues performing its last directed task until the spell expires.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
-		<name>Conjure Lesser Demon </name>
-		<level>3</level>
-		<school>C</school>
-		<time>1 action</time>
-		<range>60 feet</range>
-		<components>V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Wizard, Sorcerer</classes>
-		<text>You summon up to a total of eight manes or dretches that appear in unoccupied spaces you can see within range. A manes or dretch disappears when it drops to 0 hit points or when the spell ends.</text>
-		<text />
-		<text>The demons are hostile to all creatures. Roll initiative for the summoned demons as a group, which has its own turns. The demons attack the nearest non‑demons to the best of their ability.</text>
-		<text />
-		<text>As part of casting the spell, you can scribe a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. The summoned demons cannot cross the circle or target anyone in it while the spell lasts. Using the material component in this manner consumes it.</text>
-		<text />
-		<text>At Higher Levels. When you cast this spell using a spell slot of 6th or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty‑two demons.</text>
-	</spell>
-	<spell>
 		<name>Conjure Minor Elementals</name>
 		<level>4</level>
 		<school>C</school>
@@ -29947,21 +30114,6 @@
 		<text>At Higher Levels: When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear - twice as many with a 6th-level slot and three times as many with an 8th-level slot</text>
 	</spell>
 	<spell>
-		<name>Conjure Shadow Demon</name>
-		<level>4</level> 
-		<school>C</school>
-		<time>1 action</time>
-		<range>60 feet</range>
-		<components>V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours) </components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Wizard, Sorcerer</classes>
-		<text>You summon a shadow demon that appears in an unoccupied space you can see within range. The shadow demon disappears when it drops to 0 hit points or when the spell ends.</text>
-		<text />
-		<text>Roll initiative for the shadow demon, which has its own turns. You can issue orders to the shadow demon, and it obeys you as long as it can attack a creature on each of its turns and does not start its turn in an area of bright light. If either of these conditions is not met, the shadow demon immediately makes a Charisma check contested by your Charisma check. If you fail the check, the spell no longer requires concentration and the demon is no longer under your control. The demon automatically succeeds on the check if it is more than 100 feet away from you.</text>
-		<text />
-		<text>As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned shadow demon cannot cross the circle or target anyone in it while the spell lasts.</text>
-	</spell>
-	<spell>
 		<name>Conjure Volley</name>
 		<level>5</level>
 		<school>C</school>
@@ -29974,23 +30126,6 @@
 		<roll>8d8</roll>
 	</spell>
 	<spell>
-		<name>Conjure Vrock </name>
-		<level>5</level>th‑level conjuration 
-		<school>C</school>
-		<time>1 action</time>
-		<range>60 feet</range>
-		<components>V, S, M (a gem worth at least 100 gp, which the spell consumes)</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Wizard, Sorcerer</classes>
-		<text>You summon a vrock that appears in an unoccupied space you can see within range. The vrock disappears when it drops to 0 hit points or when the spell ends.</text>
-		<text />
-		<text>The vrock’s attitude depends on the value of the gem used as a material component for this spell. Roll initiative for the vrock, which has its own turns. At the start of the vrock’s turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the gem’s value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the vrock and have it obey you as long as you succeed on the Charisma check.</text>
-		<text />
-		<text>If the check fails, the spell no longer requires concentration and the vrock is no longer under your control. The vrock takes no actions on its next turn and uses its telepathy to tell any creature it can see that it will fight in exchange for treasure. The creature that gives the vrock the most expensive gem can command it for the next 1d6 rounds. At the end of that time, it offers the bargain again. If no one offers the vrock treasure before its next turn begins, it attacks the nearest creatures for 1d6 rounds before returning to the Abyss.</text>
-		<text />
-		<text>As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned vrock cannot cross the circle or target anyone in it while the spell lasts.</text>
-	</spell>
-<spell>
 		<name>Conjure Woodland Beings</name>
 		<level>4</level>
 		<school>C</school>
@@ -30506,19 +30641,6 @@
 		<text>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</text>
 		<text />
 		<text>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</text>
-	</spell>
-	<spell>
-		<name>Digital Phantom (Technomagic)</name>
-		<level>2</level>
-		<school>A</school>
-		<time>1 action</time>
-		<range>Self</range>
-		<components>V, S, M (a small piece of copper wire)</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	This spell works to actively hide your presence within a computer system. For the spell's duration, you and any other users you choose on your local network gain a +10 bonus to Intelligence checks to avoid detection by administrators, knowbots, tracking software, and the like. Whenever you and your chosen users leave any computer system you are working in while this spell is in effect, all trace of your previous presence in that system is erased.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
 	</spell>
 	<spell>
 		<name>Dimension Door</name>
@@ -31209,23 +31331,6 @@
 		<text>You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</text>
 		<text />
 		<text>This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.</text>
-	</spell>
-	<spell>
-		<name>Find Vehicle</name>
-		<level>2</level>
-		<school>C</school>
-		<time>10 minutes</time>
-		<range>30 feet</range>
-		<components>V, S</components>
-		<duration>8 hours</duration>
-		<classes>Paladin, Sorcerer, Warlock, Wizard, Cleric (City)</classes>
-		<text>You summon a spirit that assumes the form of a nonmilitary land vehicle of your choice, appearing in an unoccupied space within range. The vehicle has the statistics of a normal vehicle of its sort, though it is celestial, fey, or fiendish (your choice) in origin. The physical characteristics of the vehicle reflect its origin to some degree. For example, a fiendish SUV might be jet black in color, with tinted windows and a sinister-looking front grille.</text>
-		<text>	You have a supernatural bond with the conjured vehicle that allows you to drive beyond your normal ability. While driving the conjured vehicle, you are considered proficient with vehicles of its type, and you add double your proficiency bonus to ability checks related to driving the vehicle. While driving the vehicle, you can make any spell you cast that targets only you also target the vehicle.</text>
-		<text>	If the vehicle drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the vehicle at any time as an action, causing it to disappear.</text>
-		<text>	You can't have more than one vehicle bonded by this spell at a time. As an action, you can release the vehicle from its bond at any time, causing it to disappear.</text>
-		<text>	At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can conjure a nonmilitary water vehicle large enough to carry six Medium creatures. When you cast this spell using a spell slot of 5th level or higher, you can conjure a nonmilitary air vehicle large enough to carry ten Medium creatures. When you cast this spell using a spell slot of 7th level or higher, you can conjure any type of vehicle, subject to the DM's approval.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
 	</spell>
 	<spell>
 		<name>Find the Path</name>
@@ -31940,30 +32045,6 @@
 		<text>When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</text>
 	</spell>
 	<spell>
-		<name>Haywire (Technomagic)</name>
-		<level>3</level>
-		<school>EN</school>
-		<time>1 action</time>
-		<range>90 feet</range>
-		<components>V, S</components>
-		<duration>Concentration, up to 1 minute</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	This spell plays havoc with electronic devices, making the use of such devices all but impossible. Each electronic device in a 10-foot-radius sphere centered on a point you choose within range is subject to random behavior while it remains within the area. A device not held by a creature is automatically affected. If an electronic device is held by a creature, that creature must succeed on a Wisdom saving throw or have the device affected by the spell.</text>
-		<text>	At the start of each of your turns, roll a d6 for each affected device to determine its behavior. Except where otherwise indicated, that behavior lasts until the start of your next turn while this spell is in effect.</text>
-		<text>	</text>
-		<text>1: The device shuts down and must be restarted. Do not roll again for this device until it is restarted.</text>
-		<text>	</text>
-		<text>2-4: The device does not function.</text>
-		<text>	</text>
-		<text>5: The device experiences a power surge, causing an electric shock to the wielder (if any) and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking 6d6 lightning damage on a failed save, or half as much damage on a successful one.</text>
-		<text>	</text>
-		<text>6: The device is usable as normal.</text>
-		<text>	</text>
-		<text>	At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere affected by the spell increases by 5 feet for each slot level above 3rd.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
 		<name>Heal</name>
 		<level>6</level>
 		<school>EV</school>
@@ -32280,20 +32361,6 @@
 		<roll>10d8</roll>
 	</spell>
 	<spell>
-		<name>Infallible Relay (Technomagic)</name>
-		<level>1</level>
-		<school>D</school>
-		<time>1 minute</time>
-		<range>Self</range>
-		<components>V, S, M (a mobile phone)</components>
-		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	With this spell, you can target any creature with whom you have spoken previously, as long as the two of you are on the same plane of existence. When you cast the spell, the nearest functioning telephone or similar communications device within 100 feet of the target begins to ring. If there is no suitable device close enough to the target, the spell fails.</text>
-		<text>	The target must make a successful Charisma saving throw or be compelled to answer your call. Once the connection is established, the call is crystal clear and cannot be dropped until the conversation has ended or the spell's duration ends. You can end the conversation at any time, but a target must succeed on a Charisma saving throw to end the conversation.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
 		<name>Inflict Wounds</name>
 		<level>1</level>
 		<school>N</school>
@@ -32416,19 +32483,6 @@
 		<text>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
-	</spell>
-	<spell>
-		<name>Invisibility to Cameras (Technomagic)</name>
-		<level>3</level>
-		<school>I</school>
-		<time>1 action</time>
-		<range>10 feet</range>
-		<components>V, S, M (a scrap of black paper)</components>
-		<duration>Concentration, up to 1 minute</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	Four creatures of your choice within range become undetectable to electronic sensors and cameras for the duration of the spell. Anything a target is wearing or carrying is likewise undetectable as long as it is on the target's person. The targets remain visible to vision.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
 	</spell>
 	<spell>
 		<name>Jump</name>
@@ -33269,19 +33323,6 @@
 		<text>Mask: You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a symbol spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.</text>
 	</spell>
 	<spell>
-		<name>On/Off (Technomagic)</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<range>60 feet</range>
-		<components>V, S</components>
-		<duration>Instantaneous</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by on/off.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
 		<name>Otiluke's Freezing Sphere</name>
 		<level>6</level>
 		<school>EV</school>
@@ -33711,19 +33752,6 @@
 		<text>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.</text>
 	</spell>
 	<spell>
-		<name>Protection from Ballistics</name>
-		<level>3</level>
-		<school>A</school>
-		<time>1 action</time>
-		<range>Touch</range>
-		<components>V, S, M (a shell casing(</components>
-		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Sorcerer, Warlock, Wizard, Cleric (City)</classes>
-		<text>This spell enchants the flesh of the target against the impact of bullets. Until the spell ends, the target has resistance to nonmagical ballistic damage.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
 		<name>Protection from Energy</name>
 		<level>3</level>
 		<school>A</school>
@@ -33911,19 +33939,6 @@
 		<text>97-00 Tiefling</text>
 		<text />
 		<text>The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.</text>
-	</spell>
-	<spell>
-		<name>Remote Access (Technomagic)</name>
-		<level>1</level>
-		<school>T</school>
-		<time>1 action</time>
-		<range>120 feet</range>
-		<components>V, S</components>
-		<duration>10 minutes</duration>
-		<classes>Sorcerer, Warlock, Wizard, Cleric (City)</classes>
-		<text>	You can use any electronic device within range as if it were in your hands. This is not a telekinesis effect. Rather, this spell allows you to simulate a device's mechanical functions electronically. You are able to access only functions that a person using the device manually would be able to access. You can use remote access with only one device at a time.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
 	</spell>
 	<spell>
 		<name>Remove Curse</name>
@@ -34269,20 +34284,6 @@
 		<roll>2d8</roll>
 		<roll>3d8</roll>
 		<roll>4d8</roll>
-	</spell>
-	<spell>
-		<name>Shutdown</name>
-		<level>5</level>
-		<school>T</school>
-		<time>1 action</time>
-		<range>120 feet</range>
-		<components>V, S</components>
-		<duration>Concentration, up to 1 minute</duration>
-		<classes>Sorcerer, Warlock, Wizard, Cleric (City)</classes>
-		<text>Technomagic</text>
-		<text>	This spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
 	</spell>
 	<spell>
 		<name>Silence</name>
@@ -34733,36 +34734,6 @@
 		<roll>10d10</roll>
 	</spell>
 	<spell>
-		<name>Synchronicity</name>
-		<level>4</level>
-		<school>EN</school>
-		<time>1 action</time>
-		<range>Touch</range>
-		<components>V, S</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Sorcerer, Warlock, Wizard, Cleric (City)</classes>
-		<text>The creature you touch feels reality subtly shifted to its favor while this spell is in effect. The target isn't inconvenienced by mundane delays of any sort. Traffic lights are always green, there's always a waiting elevator, and a taxi is always around the corner. The target can run at full speed through dense crowds, and attacks of opportunity provoked by the target's movement are made with disadvantage.</text>
-		<text>	Synchronicity grants advantage to Dexterity (Stealth) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks made to drive a vehicle.</text>
-		<text>	In the event that two or more creatures under the effect of synchronicity are attempting to avoid being inconvenienced by each other, the creatures engage in a contest of Charisma each time the effects of the spells would oppose each other.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-	<spell>
-		<name>System Backdoor (Technomagic)</name>
-		<level>4</level>
-		<school>T</school>
-		<time>1 minute</time>
-		<range>Personal</range>
-		<components>V, S, M (hacking tools)</components>
-		<duration>Concentration, up to 1 hour</duration>
-		<classes>Sorcerer, Warlock, Wizard</classes>
-		<text>	This spell allows you to bypass system security in order to create a secure login on a foreign system. The login you create allows you administrator-level privileges in any computer system not enhanced through technomagic. The login defeats any technomagic spells of 3rd level or lower.</text>
-		<text>	Once the duration of the spell expires, the login and all privileges are wiped from the system. System logs still show the activity of the user, but the user identification cannot be found or traced.</text>
-		<text>	At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's level is equal to or less than the level of the spell slot you used.</text>
-		<text />
-		<text>This spell can be found in the Modern Magic Unearthed Arcana PDF.</text>
-	</spell>
-<spell>
 		<name>Tasha's Hideous Laughter</name>
 		<level>1</level>
 		<school>EN</school>
@@ -35596,12 +35567,12 @@
 		</action>
 		<action>
 			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or ra nge 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Javelin|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Summon Air Elemental</name>
-			<text>Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecu tive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is fri en dly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners di e, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it.</text>
+			<text>Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it.</text>
 		</action>
 	</monster>
 	<monster>
@@ -35626,7 +35597,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Amphibious</name>
-			<text>The aboleth can breathe air and water</text>
+			<text>The aboleth can breathe air and water.</text>
 		</trait>
 		<trait>
 			<name>Mucous Cloud</name>
@@ -35711,7 +35682,7 @@
 		</action>
 		<action>
 			<name>Chilling Gaze</name>
-			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 18 Constitution saving throw against this magic or take 21 (6d6) cold damage and then be paralyzed for 1 minute, unless it is immune to co ld damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour.</text>
+			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 18 Constitution saving throw against this magic or take 21 (6d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour.</text>
 		</action>
 		<action>
 			<name>Cold Breath (Recharge 6)</name>
@@ -35740,16 +35711,17 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>• 1st level (3 slots): bless, cure wounds, sanctuary</text>
 		</trait>
 		<action>
 			<name>Club</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-			<attack>|2|1d4</attack>
+			<attack>Club|2|1d4</attack>
 		</action>
 		<spells>light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary</spells>
+		<description>Acolytes are junior members of the clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</description>
 	</monster>
 	<monster>
 		<name>Adult Black Dragon</name>
@@ -36010,7 +35982,7 @@
 		<action>
 			<name>Breath Weapons (Recharge 5-6)</name>
 			<text>The dragon uses one of the following breath weapons.</text>
-			<text>Fire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 49 (13d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Fire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<text>Sleep Breath. The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
 			<attack>Fire Breath||13d6</attack>
 		</action>
@@ -36616,7 +36588,7 @@
 		<int>9</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -36753,7 +36725,7 @@
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., on'e target. Hit: 15 (2d6 + 8) slashing damage.</text>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
 			<attack>Claw|15|2d6+8</attack>
 		</action>
 		<action>
@@ -37445,7 +37417,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): sacred flame, spare the dying, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, detect evil and good, detect magic</text>
 			<text>• 2nd level (3 slots): lesser restoration, zone of truth</text>
@@ -37466,12 +37438,12 @@
 		<action>
 			<name>Roar (3/Day)</name>
 			<text>The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.</text>
-			<text />
+			<text> </text>
 			<text>First Roar. Each creature that fails a DC 18 Wisdom saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<text />
+			<text> </text>
 			<text>Second Roar. Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<text />
-			<text>Third Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn 't knocked prone.</text>
+			<text> </text>
+			<text>Third Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</text>
 		</action>
 		<legendary>
 			<name>Claw Attack</name>
@@ -37631,7 +37603,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The arcanaloth's innate spellcasting ability is Charisma (spell save DC 15). The arcanaloth can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: alter self, darkness, heat metal, invisibility (self only), magic missile</text>
 		</trait>
 		<trait>
@@ -37645,7 +37617,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The arcanaloth is a 16th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The arcanaloth has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): fire bolt, mage hand, minor illusion, prestidigitation</text>
 			<text>• 1st level (4 slots): detect magic, identify, shield, Tenser's floating disk</text>
 			<text>• 2nd level (3 slots): detect thoughts, mirror image, phantasmal force, suggestion</text>
@@ -37700,7 +37672,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp</text>
 			<text>• 1st level (4 slots): detect magic, identify, mage armor*, magic missile</text>
 			<text>• 2nd level (3 slots): detect thoughts, mirror image, misty step</text>
@@ -39281,7 +39253,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mending, sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, shield of faith</text>
 			<text>• 2nd level (3 slots): calm emotions, hold person</text>
@@ -39317,7 +39289,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Intelligence, and it has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand, minor illusion, ray of frost</text>
 			<text>• 1st level (4 slots): charm person, sleep</text>
 			<text>• 2nd level (3 slots): detect thoughts, hold person</text>
@@ -40334,7 +40306,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic, fog cloud, light</text>
 			<text>3/day each: feather fall, fly, misty step, telekinesis</text>
 			<text>1/day each: control weather, gaseous form</text>
@@ -40487,7 +40459,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect evil and good, detect magic, detect thoughts</text>
 			<text>3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</text>
 			<text>1/day each: dream, greater restoration, scrying</text>
@@ -40692,7 +40664,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, inflict wounds, shield of faith</text>
 			<text>• 2nd level (3 slots): hold person, spiritual weapon</text>
@@ -40814,7 +40786,7 @@
 		<trait>
 			<name>Variant: Genie Powers</name>
 			<text>Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.</text>
-			<text />
+			<text> </text>
 			<text>Disguises.</text>
 			<text>Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.</text>
 			<text>Wishes.</text>
@@ -41042,7 +41014,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The slaad's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The slaad can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic, detect thoughts, invisibility (self only), mage hand, major image</text>
 			<text>2/day each: fear, fireball, fly, tongues</text>
 			<text>1/day each: cloudkill, plane shift</text>
@@ -41587,14 +41559,14 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The djinni's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect evil and good, detect magic, thunderwave 3/day each: create food and water (can create wine instead of water), tongues, wind walk</text>
 			<text>1/day each: conjure elemental (air elemental only), creation, gaseous form, invisibility, major image, plane shift</text>
 		</trait>
 		<trait>
 			<name>Variant: Genie Powers</name>
 			<text>Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.</text>
-			<text />
+			<text> </text>
 			<text>Disguises.</text>
 			<text>Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.</text>
 			<text>Wishes.</text>
@@ -42183,7 +42155,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The drider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The drider has the following spells prepared from the cleric spell list: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): poison spray, thaumaturgy</text>
 			<text>• 1st level (4 slots): bane, detect magic, sanctuary</text>
 			<text>• 2nd level (3 slots): hold person, silence</text>
@@ -42386,7 +42358,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The drow has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost</text>
 			<text>• 1st level (4 slots): mage armor, magic missile, shield, witch bolt</text>
 			<text>• 2nd level (3 slots): alter self, misty step, web</text>
@@ -42443,7 +42415,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy</text>
 			<text>• 1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness</text>
 			<text>• 2nd level (3 slots): lesser restoration, protection from poison, web</text>
@@ -42516,7 +42488,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): druidcraft, produce flame, shillelagh</text>
 			<text>• 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave</text>
 			<text>• 2nd level (3 slots): animal messenger, barkskin</text>
@@ -42551,7 +42523,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: druidcraft</text>
 			<text>3/day each: entangle, goodberry</text>
 			<text>1/day each: barkskin, pass without trace, shillelagh</text>
@@ -43204,7 +43176,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The efreeti's innate spell casting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic</text>
 			<text>3/day: enlarge/reduce, tongues</text>
 			<text>1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire</text>
@@ -43212,7 +43184,7 @@
 		<trait>
 			<name>Variant: Genie Powers</name>
 			<text>Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.</text>
-			<text />
+			<text> </text>
 			<text>Disguises.</text>
 			<text>Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.</text>
 			<text>Wishes.</text>
@@ -43680,7 +43652,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -43705,7 +43677,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each: color spray, dancing lights, mage hand, major image, minor illusion, mirror image, suggestion</text>
 		</trait>
 		<action>
@@ -43743,7 +43715,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -43768,7 +43740,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each: color spray, dancing lights, mage hand, minor illusion, mirror image, suggestion</text>
 		</trait>
 		<action>
@@ -43806,7 +43778,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -43831,7 +43803,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each: color spray, dancing lights, hallucinatory terrain, mage hand, major image, minor illusion, mirror image, suggestion</text>
 		</trait>
 		<action>
@@ -43869,7 +43841,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -43894,7 +43866,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each:color spray, dancing lights, mage hand, minor illusion</text>
 		</trait>
 		<action>
@@ -43932,7 +43904,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -43957,7 +43929,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each: dancing lights, mage hand, minor illusion</text>
 		</trait>
 		<action>
@@ -43995,7 +43967,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -44020,7 +43992,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each: color spray, dancing lights, hallucinatory terrain, mage hand, major image, minor illusion, mirror image, polymorph, suggestion</text>
 		</trait>
 		<action>
@@ -44058,7 +44030,7 @@
 		<trait>
 			<name>The Colors of Age</name>
 			<text>A faerie dragon's scales change hue as it ages, moving through all the colors of the rainbow. All faerie dragons have innate spellcasting ability, gaining new spells as they mature.</text>
-			<text />
+			<text> </text>
 			<text>Red — 5 years or less</text>
 			<text>Orange — 6-10 years</text>
 			<text>Yellow — 11-20 years</text>
@@ -44083,7 +44055,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.</text>
-			<text />
+			<text> </text>
 			<text>1/day each: color spray, dancing lights, mage hand, minor illusion, mirror image</text>
 		</trait>
 		<action>
@@ -44434,7 +44406,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand</text>
 			<text>• 1st level (3 slots): magic missile, shield</text>
 			<text>• 2nd level (2 slots): blur, flaming sphere</text>
@@ -45893,8 +45865,8 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
-			<attack>Bite|4|1d4+2</attack>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
+			<attack>Bite|3|1d4+1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -46257,7 +46229,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githyanki's innate spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: jump, misty step, nondetection (self only), tongues</text>
 			<text>1/day each: plane shift, telekinesis</text>
@@ -46294,7 +46266,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: jump, misty step, nondetection (self only)</text>
 		</trait>
@@ -46331,7 +46303,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: feather fall, jump, see invisibility, shield</text>
 		</trait>
@@ -46372,7 +46344,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>3/day each: feather fall, jump, see invisibility, shield</text>
 		</trait>
@@ -46966,7 +46938,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The slaad's innate spellcasting ability is Charisma (spell save DC 14). The slaad can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic, detect thoughts, invisibility (self only), mage hand, major image</text>
 			<text>2/day each: fear, fly, fireball, tongues</text>
 			<text>1/day: plane shift (self only)</text>
@@ -47229,7 +47201,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The slaad's innate spellcasting ability is Charisma (spell save DC 12). The slaad can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic, detect thoughts, mage hand</text>
 			<text>2/day each: fear, invisibility (self only)</text>
 			<text>1/day: fireball</text>
@@ -47593,7 +47565,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mending, sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, cure wounds, shield of faith</text>
 			<text>• 2nd level (3 slots): calm emotions, hold person</text>
@@ -47647,7 +47619,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand, minor illusion, prestidigitation</text>
 			<text>• 1st level (4 slots): detect magic, identify, shield</text>
 			<text>• 2nd level (3 slots): darkness, locate object, suggestion</text>
@@ -49658,7 +49630,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): guidance, sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): detect magic, sanctuary, shield of faith</text>
 			<text>• 2nd level (3 slots): hold person, spiritual weapon</text>
@@ -49774,7 +49746,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): sacred flame, thaumaturgy</text>
 			<text>• 1st level (3 slots): bane, shield of faith</text>
 		</trait>
@@ -49951,7 +49923,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand, prestidigitation, ray of frost</text>
 			<text>• 1st level (4 slots): detect magic, magic missile, shield, thunderwave</text>
 			<text>• 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image</text>
@@ -50180,7 +50152,7 @@
 		<trait>
 			<name>Spellcasting (Lizardfolk Form Only)</name>
 			<text>The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has the following druid spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): druidcraft, produce flame, thorn whip</text>
 			<text>• 1st Level (4 slots): entangle, fog cloud</text>
 			<text>• 2nd Level (3 slots): heat metal, spike growth</text>
@@ -50230,7 +50202,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
 			<text>• 1st level (4 slots): detect magic, mage armor, magic missile, shield</text>
 			<text>• 2nd level (3 slots): misty step, suggestion</text>
@@ -50494,12 +50466,12 @@
 		</trait>
 		<trait>
 			<name>Elemental Demise</name>
-			<text>If the marid dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the dao was wearing or carrying.</text>
+			<text>If the marid dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the marid was wearing or carrying.</text>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The marid's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: create or destroy water, detect evil and good, detect magic, fog cloud, purify food and drink</text>
 			<text>3/day each: tongues, water breathing, water walk</text>
 			<text>1/day each: conjure elemental (water elemental only), control water, gaseous form, invisibility, plane shift</text>
@@ -50507,7 +50479,7 @@
 		<trait>
 			<name>Variant: Genie Powers</name>
 			<text>Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.</text>
-			<text />
+			<text> </text>
 			<text>Disguises.</text>
 			<text>Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.</text>
 			<text>Wishes.</text>
@@ -50814,7 +50786,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The mezzoloth's innate spellcasting ability is Charisma (spell save DC 11). The mezzoloth can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>2/day each: darkness, dispel magic</text>
 			<text>1/day: cloudkill</text>
 		</trait>
@@ -50927,7 +50899,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
 		</trait>
@@ -50975,14 +50947,14 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect thoughts, levitate</text>
 			<text>1/day each: dominate monster, plane shift (self only)</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): blade ward, dancing lights, mage hand, shocking grasp</text>
 			<text>• 1st level (4 slots): detect magic, disguise self, shield, sleep</text>
 			<text>• 2nd level (3 slots): blur, invisibility, ray of enfeeblement</text>
@@ -51350,7 +51322,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, guiding bolt, shield of faith</text>
 			<text>• 2nd level (3 slots): hold person, silence, spiritual weapon</text>
@@ -51834,7 +51806,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic, magic missile</text>
 			<text>2/day each: plane shift (self only), ray of enfeeblement, sleep</text>
 		</trait>
@@ -51856,14 +51828,14 @@
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
 			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
-			<text />
+			<text> </text>
 			<text>• 1st level (4 slots): identify, ray of sickness</text>
 			<text>• 2nd level (3 slots): hold person, locate object</text>
 			<text>• 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
 			<text>• 4th level (3 slots): phantasmal killer, polymorph</text>
 			<text>• 5th level (2 slots): contact other plane, scrying</text>
 			<text>• 6th level (1 slot): eye bite</text>
-			<text />
+			<text> </text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
 		<trait>
@@ -52021,7 +51993,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The nycaloth's innate spellcasting ability is Charisma. The nycaloth can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: darkness, detect magic, dispel magic, invisibility (self only), mirror image</text>
 		</trait>
 		<trait>
@@ -52421,7 +52393,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: darkness, invisibility</text>
 			<text>1/day each: charm person, cone of cold, gaseous form, sleep</text>
 		</trait>
@@ -52518,7 +52490,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): guidance, resistance, thaumaturgy</text>
 			<text>• 1st level (4 slots): bless, command</text>
 			<text>• 2nd level (2 slots): augury, spiritual weapon (spear)</text>
@@ -52783,7 +52755,7 @@
 		</action>
 		<action>
 			<name>Tentacle Slam</name>
-			<text>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitutino saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.</text>
+			<text>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.</text>
 		</action>
 	</monster>
 	<monster>
@@ -53447,7 +53419,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): cure wounds, guiding bolt, sanctuary</text>
 			<text>• 2nd level (3 slots): lesser restoration, spiritual weapon</text>
@@ -53706,7 +53678,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The quaggoth's innate spellcasting ability is Wisdom (spell save DC 11 ). The quaggoth can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: feather fall, mage hand (the hand is invisible)</text>
 			<text>1/day each: cure wounds, enlarge/reduce, heat metal, mirror image</text>
 		</trait>
@@ -53827,8 +53799,8 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The rakshasa's innate.spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text>The rakshasa's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components: </text>
+			<text> </text>
 			<text>At will: detect thoughts, disguise self, mage hand, minor illusion</text>
 			<text>3/day each: charm person, detect magic, invisibility, major image, suggestion</text>
 			<text>1/day each: dominate person, fly, plane shift, true seeing</text>
@@ -54335,8 +54307,8 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
-			<attack>Hooves|2|2d4+3</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Hooves|5|2d4+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -54714,7 +54686,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): guidance, thaumaturgy</text>
 			<text>• 1st level (4 slots): bless, detect magic, guiding bolt</text>
 			<text>• 2nd level (3 slots): hold person, spiritual weapon (trident)</text>
@@ -54958,14 +54930,14 @@
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
 			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
-			<text />
+			<text> </text>
 			<text>• 1st level (4 slots): identify, ray of sickness</text>
 			<text>• 2nd level (3 slots): hold person, locate object</text>
 			<text>• 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
 			<text>• 4th level (3 slots): phantasmal killer, polymorph</text>
 			<text>• 5th level (2 slots): contact other plane, scrying</text>
 			<text>• 6th level (1 slot): eye bite</text>
-			<text />
+			<text> </text>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
 		<trait>
@@ -55792,7 +55764,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand, minor illusion, ray of frost</text>
 			<text>• 1st level (4 slots): charm person, detect magic, sleep</text>
 			<text>• 2nd level (3 slots): detect thoughts, hold person</text>
@@ -56112,7 +56084,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect magic, feather fall, levitate, light</text>
 			<text>3/day each: control weather, water breathing</text>
 		</trait>
@@ -56804,7 +56776,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: mage hand (the hand is invisible)</text>
 			<text>2/day each: blur, magic weapon</text>
 			<text>1/day: invisibility (self only)</text>
@@ -57452,7 +57424,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The ultroloth's innate spellcasting ability is Charisma (spell save DC 17). The ultroloth can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: alter self, clairvoyance, darkness, detect magic, detect thoughts, dispel magic, invisibility (self only), suggestion</text>
 			<text>3/day each: dimension door, fear, wall of fire</text>
 			<text>1/day each: fire storm, mass suggestion</text>
@@ -57562,7 +57534,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components: </text>
-			<text />
+			<text> </text>
 			<text>At will: detect evil and good, druidcraft, pass without trace</text>
 			<text>1/day each: calm emotions, dispel evil and good, entangle</text>
 		</trait>
@@ -57805,7 +57777,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The vampire has the following wizard spells prepared: </text>
-			<text />
+			<text> </text>
 			<text>• Cantrips (at will): mage hand, prestidigitation, ray of frost</text>
 			<text>• 1st level (4 slots): comprehend languages, fog cloud, sleep</text>
 			<text>• 2nd level (3 slots): detect thoughts, gust of wind, mirror image</text>
@@ -60069,7 +60041,7 @@
 		<trait>
 			<name>Innate Spellcasting (Yuan_ti Form Only)</name>
 			<text>The yuan_ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan_ti can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day: suggestion</text>
 		</trait>
@@ -60080,7 +60052,7 @@
 		<trait>
 			<name>Malison Type</name>
 			<text>The yuan_ti has one of the following types: </text>
-			<text />
+			<text> </text>
 			<text>Type 1: Human body with snake head</text>
 			<text>Type 2: Human head and body with snakes for arms</text>
 			<text>Type 3: Human head and upper body with a serpentine lower body instead of legs</text>
@@ -60134,7 +60106,7 @@
 		<trait>
 			<name>Innate Spellcasting (Yuan_ti Form Only)</name>
 			<text>The yuan_ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan_ti can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day: suggestion</text>
 		</trait>
@@ -60145,7 +60117,7 @@
 		<trait>
 			<name>Malison Type</name>
 			<text>The yuan_ti has one of the following types: </text>
-			<text />
+			<text> </text>
 			<text>Type 1: Human body with snake head</text>
 			<text>Type 2: Human head and body with snakes for arms</text>
 			<text>Type 3: Human head and upper body with a serpentine lower body instead of legs</text>
@@ -60189,7 +60161,7 @@
 		<trait>
 			<name>Innate Spellcasting (Yuan_ti Form Only)</name>
 			<text>The yuan_ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan_ti can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day: suggestion</text>
 		</trait>
@@ -60200,7 +60172,7 @@
 		<trait>
 			<name>Malison Type</name>
 			<text>The yuan_ti has one of the following types: </text>
-			<text />
+			<text> </text>
 			<text>Type 1: Human body with snake head</text>
 			<text>Type 2: Human head and body with snakes for arms</text>
 			<text>Type 3: Human head and upper body with a serpentine lower body instead of legs</text>
@@ -60255,7 +60227,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components: </text>
-			<text />
+			<text> </text>
 			<text>At will: animal friendship (snakes only)</text>
 			<text>3/day each: poison spray, suggestion</text>
 		</trait>
