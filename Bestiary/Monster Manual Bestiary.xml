@@ -31,12 +31,12 @@
 		</action>
 		<action>
 			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or ra nge 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Javelin|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Summon Air Elemental</name>
-			<text>Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecu tive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is fri en dly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners di e, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it.</text>
+			<text>Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it.</text>
 		</action>
 	</monster>
 	<monster>
@@ -61,7 +61,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Amphibious</name>
-			<text>The aboleth can breathe air and water</text>
+			<text>The aboleth can breathe air and water.</text>
 		</trait>
 		<trait>
 			<name>Mucous Cloud</name>
@@ -146,7 +146,7 @@
 		</action>
 		<action>
 			<name>Chilling Gaze</name>
-			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 18 Constitution saving throw against this magic or take 21 (6d6) cold damage and then be paralyzed for 1 minute, unless it is immune to co ld damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour.</text>
+			<text>The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 18 Constitution saving throw against this magic or take 21 (6d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour.</text>
 		</action>
 		<action>
 			<name>Cold Breath (Recharge 6)</name>
@@ -182,9 +182,10 @@
 		<action>
 			<name>Club</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-			<attack>|2|1d4</attack>
+			<attack>Club|2|1d4</attack>
 		</action>
 		<spells>light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary</spells>
+		<description>Acolytes are junior members of the clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</description>
 	</monster>
 	<monster>
 		<name>Adult Black Dragon</name>
@@ -445,7 +446,7 @@
 		<action>
 			<name>Breath Weapons (Recharge 5-6)</name>
 			<text>The dragon uses one of the following breath weapons.</text>
-			<text>Fire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 49 (13d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Fire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<text>Sleep Breath. The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</text>
 			<attack>Fire Breath||13d6</attack>
 		</action>
@@ -1061,7 +1062,7 @@
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., on'e target. Hit: 15 (2d6 + 8) slashing damage.</text>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</text>
 			<attack>Claw|15|2d6+8</attack>
 		</action>
 		<action>
@@ -1779,7 +1780,7 @@
 			<text />
 			<text>Second Roar. Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<text />
-			<text>Third Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn 't knocked prone.</text>
+			<text>Third Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</text>
 		</action>
 		<legendary>
 			<name>Claw Attack</name>
@@ -11818,7 +11819,7 @@
 		</trait>
 		<trait>
 			<name>Elemental Demise</name>
-			<text>If the marid dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the dao was wearing or carrying.</text>
+			<text>If the marid dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the marid was wearing or carrying.</text>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
@@ -13436,7 +13437,7 @@
 		</action>
 		<action>
 			<name>Tentacle Slam</name>
-			<text>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitutino saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.</text>
+			<text>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.</text>
 		</action>
 	</monster>
 	<monster>
@@ -14418,7 +14419,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The rakshasa's innate.spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components: </text>
+			<text>The rakshasa's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components: </text>
 			<text />
 			<text>At will: detect thoughts, disguise self, mage hand, minor illusion</text>
 			<text>3/day each: charm person, detect magic, invisibility, major image, suggestion</text>
