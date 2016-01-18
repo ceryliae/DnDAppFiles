@@ -15958,6 +15958,25 @@
 			<name>Magic Resistance</name>
 			<text>The devil has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.</text>
+    </action>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.</text>
+      <attack>Bite|2|2d4</attack>
+    </action>
+    <action>
+      <name>Fork</name>
+      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</text>
+      <attack>Fork|2|1d6</attack>
+    </action>
+    <action>
+      <name>Tail Spine</name>
+      <text>Ranged Weapon Attack: +4 to hit, range 20/80 ft ., one target. Hit: 4 (1d4 + 2) piercing damage plus 3 (1d6) fire damage.</text>
+      <attack>Tail Spine|4|1d4+2+1d6</attack>
+    </action>
 	</monster>
 	<monster>
 		<name>Spirit Naga</name>
