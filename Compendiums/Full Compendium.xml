@@ -31144,7 +31144,7 @@ to ensure they remain watched at all times. They venture into the depths on long
 		<text />
 		<text>The target must make a Wisdom saving throw. On a failed save, it purses the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.</text>
 		<text />
-		<text>You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight five her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't preformed.</text>
+		<text>You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't preformed.</text>
 		<text />
 		<text>If you or any of your companions damage the target, the spell ends.</text>
 	</spell>
@@ -31943,7 +31943,7 @@ to ensure they remain watched at all times. They venture into the depths on long
 		<name>Wind Walk</name>
 		<level>6</level>
 		<school>T</school>
-		<time>1 action</time>
+		<time>1 minute</time>
 		<range>30 feet</range>
 		<components>V, S, M (fire and holy water)</components>
 		<duration>8 hours</duration>
@@ -46400,6 +46400,11 @@ to ensure they remain watched at all times. They venture into the depths on long
 			<name>Hellish Rejuvenation</name>
 			<text>A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</text>
 		</trait>
+    <action>
+      <name>Fist</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage</text>
+      <attack>Fist|3|1d4</attack>
+    </action>
 	</monster>
 	<monster>
 		<name>Lich</name>
@@ -49658,6 +49663,30 @@ to ensure they remain watched at all times. They venture into the depths on long
 			<text>At will: detect magic, fireball</text>
 			<text>3/day each: hold monster, wall of fire</text>
 		</trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.</text>
+    </action>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+      <attack>Bite|14|4d6+8</attack>
+    </action>
+    <action>
+      <name>Claw</name>
+      <text>Melee Weapon Attack: +14 to hit, reach 10 ft. , one target. Hit: 17 (2d8 + 8) slashing damage.</text>
+      <attack>Claw|14|2d8+8</attack>
+    </action>
+    <action>
+      <name>Mace</name>
+      <text>Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage.</text>
+      <attack>Mace|14|2d6+8</attack>
+    </action>
+    <action>
+      <name>Tail</name>
+      <text>Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 24 (3d1O + 8) bludgeoning damage.</text>
+      <attack>Tail|14|3d10+8</attack>
+    </action>
 		<spells>detect magic, fireball, hold monster, wall of fire</spells>
 	</monster>
 	<monster>
@@ -52247,6 +52276,25 @@ to ensure they remain watched at all times. They venture into the depths on long
 			<name>Magic Resistance</name>
 			<text>The devil has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
+    <action>
+      <name>Multiattack</name>
+      <text>The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.</text>
+    </action>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.</text>
+      <attack>Bite|2|2d4</attack>
+    </action>
+    <action>
+      <name>Fork</name>
+      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</text>
+      <attack>Fork|2|1d6</attack>
+    </action>
+    <action>
+      <name>Tail Spine</name>
+      <text>Ranged Weapon Attack: +4 to hit, range 20/80 ft ., one target. Hit: 4 (1d4 + 2) piercing damage plus 3 (1d6) fire damage.</text>
+      <attack>Tail Spine|4|1d4+2+1d6</attack>
+    </action>
 	</monster>
 	<monster>
 		<name>Spirit Naga</name>
