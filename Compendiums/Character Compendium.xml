@@ -1563,6 +1563,35 @@
 		<text>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll.</text>
 	</spell>
 	<background>
+		<name>Cormanthor Refugee</name>
+		<proficiency>Nature, Survival</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Nature, Survival</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>One type of artisan's tools</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>Elven</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A two-person tent, artisan's tools, a holy symbol, a set of traveler's clothes, a belt pouch, 5 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Poor</text>
+		</trait>
+		<trait>
+			<name>Feature: Shelter of the Elven Clergy</name>
+			<text>The clerics of Elventree have vowed to care for the Cormanthor refugees. They will help you when they can, including providing you and your companions with free healing and care at temples, shrines, and other established presences in Elventree. They will also provide you (but only you) with a poor lifestyle.</text>
+			<text>    [Note: This feature is a variant of the Acolyte feature.]</text>
+		</trait>
+	</background>
+	<background>
 		<name>Courtier</name>
 		<proficiency>Insight, Persuasion</proficiency>
 		<trait>
@@ -2711,6 +2740,10 @@
 				<text>    A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Martial Archetype: Scout</name>
+				<text>The archetypal Scout excels at finding safe passage through dangerous regions. Scouts usually favor light armor and ranged weapons, but they are comfortable using heavier gear when faced with intense fighting.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Purple Dragon Knight: Restriction: Knighthood</name>
 				<text>Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.</text>
 				<text>    Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights.</text>
@@ -2719,10 +2752,6 @@
 				<name>Purple Dragon Knight: Rallying Cry</name>
 				<text>When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.</text>
 				<text>    When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Martial Archetype: Scout</name>
-				<text>The archetypal Scout excels at finding safe passage through dangerous regions. Scouts usually favor light armor and ranged weapons, but they are comfortable using heavier gear when faced with intense fighting.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Battle Master: Combat Superiority</name>
@@ -3200,6 +3229,31 @@
 		<trait>
 			<name>Feature: Rustic Hospitality</name>
 			<text>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</text>
+		</trait>
+	</background>
+	<background>
+		<name>Gate Urchin</name>
+		<proficiency>Deception, Sleight of Hand</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Athletics, Survival</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>Thieves' tools, one type of musical instrument</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A battered alms box, a musical instrument, a cast-off military jacket, cap, or scarf, a set of common clothes, a belt pouch, and 10 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Poor</text>
+		</trait>
+		<trait>
+			<name>Feature: Red Plume and Mage Guild Contacts</name>
+			<text>You made a number of friends among the Red Plumes and the Mage's Guild when you lived at the Hillsfar Gate. They remember you fondly and help you in little ways when they can. You can invoke their assistance in and around Hillsfar to obtain food, as well as simple equipment for temporary use. You can also invoke it to gain access to the low-security areas of their garrisons, halls, and encampments.</text>
+			<text>    [Note: This feature is a variant of the Soldier feature.]</text>
 		</trait>
 	</background>
 	<race>
@@ -3747,7 +3801,120 @@
 			<text>    [Note: This feature is a variant of the Folk Hero feature.]</text>
 		</trait>
 	</background>
-	<feat>
+	<background>
+	<name>Haunted One</name>
+	<proficiency />
+	<trait>
+		<name>Harrowing Event</name>
+		<text>Prior to becoming an adventurer, your path in life was defined by one dark moment, one fateful decision, or one tragedy. Now you feel a darkness threatening to consume you, and you fear there may be no hope of escape. Choose a harrowing event that haunts you, or roll 1d10.</text>
+		<text> </text>
+		<text>1. A monster that slaughtered dozens of innocent people spared your life, and you don't know why. </text>
+		<text> </text>
+		<text>2. You were born under a dark star. You can feel it watching you, coldly and distantly. Sometimes it beckons you in the dead of night. </text>
+		<text> </text>
+		<text>3. An apparition that has haunted your family for generations now haunts you. You don't know what it wants, and it won't leave you alone. </text>
+		<text> </text>
+		<text>4. Your family has a history of practicing the dark arts. You dabbled once and felt something horrible clutch at your soul, whereupon you  ed in terror. </text>
+		<text> </text>
+		<text>5. An oni took your sibling one cold, dark night, and you were unable to stop it. </text>
+		<text> </text>
+		<text>6. You were cursed with lycanthropy and later cured. You are now haunted by the innocents you slaughtered. </text>
+		<text> </text>
+		<text>7. A hag kidnapped and raised you. You escaped, but the hag still has a magical hold over you and fills your mind with evil thoughts. </text>
+		<text> </text>
+		<text>8. You opened an eldritch tome and saw things un t for a sane mind. You burned the book, but its words and images are burned into your psyche. </text>
+		<text> </text>
+		<text>9. A fiend possessed you as a child. You were locked away but escaped. The fiend is still inside you, but now you try to keep it locked away. </text>
+		<text> </text>
+		<text>10. You did terrible things to avenge the murder of someone you loved. You became a monster, and it haunts your waking dreams.</text>
+	</trait>
+	<trait>
+		<name>Personality Trait</name>
+		<text>Choose or randomly determine</text>
+		<text />
+		<text>1. I don't run from evil. Evil runs from me. </text>
+		<text> </text>
+		<text>2. I like to read and memorize poetry. It keeps me calm and brings me fleeting moments of happiness. </text>
+		<text> </text>
+		<text>3. I spend money freely and live life to the fullest, knowing that tomorrow I might die. </text>
+		<text> </text>
+		<text>4. I live for the thrill of the hunt. </text>
+		<text> </text>
+		<text>5. I don't talk about the thing that torments me. I'd rather not burden others with my curse. </text>
+		<text> </text>
+		<text>6. I expect danger around every corner. </text>
+		<text> </text>
+		<text>7. I refuse to become a victim, and I will not allow others to be victimized. </text>
+		<text> </text>
+		<text>8. I put no trust in divine beings.</text>
+	</trait>
+	<trait>
+		<name>Ideal</name>
+		<text>Choose or randomly determine</text>
+		<text />
+		<text>1. I try to help those in need, no matter what the personal cost. (Good) </text>
+		<text> </text>
+		<text>2. I'll stop the spirits that haunt me or die trying. (Any) </text>
+		<text> </text>
+		<text>3. I kill monsters to make the world a safer place, and to exorcise my own demons. (Good) </text>
+		<text> </text>
+		<text>4. I have a dark calling that puts me above the law. (Chaotic) </text>
+		<text> </text>
+		<text>5. I like to know my enemy's capabilities and weaknesses before rushing into battle. (Lawful) </text>
+		<text> </text>
+		<text>6. I'm a monster that destroys other monsters, and anything else that gets in my way. (Evil)</text>
+	</trait>
+	<trait>
+		<name>Bond</name>
+		<text>Choose or randomly determine</text>
+		<text />
+		<text>1. I keep my thoughts and discoveries in a journal. My journal is my legacy. </text>
+		<text> </text>
+		<text>2. I would sacrifice my life and my soul to protect the innocent. </text>
+		<text> </text>
+		<text>3. My torment drove away the person I love. I strive to win back the love I've lost. </text>
+		<text> </text>
+		<text>4. A terrible guilt consumes me. I hope that I can find redemption through my actions. </text>
+		<text> </text>
+		<text>5. There's evil in me, I can feel it. It must never be set free. </text>
+		<text> </text>
+		<text>6. I have a child to protect. I must make the world a safer place for him (or her).  </text>
+	</trait>
+	<trait>
+		<name>Flaw</name>
+		<text>Choose or randomly determine</text>
+		<text />
+		<text>1. I have certain rituals that I must follow every day. I can never break them. </text>
+		<text> </text>
+		<text>2. I assume the worst in people. </text>
+		<text> </text>
+		<text>3. I feel no compassion for the dead. They're the lucky ones. </text>
+		<text> </text>
+		<text>4. I have an addiction. </text>
+		<text> </text>
+		<text>5. I am a purveyor of doom and gloom who lives in a world without hope. </text>
+		<text> </text>
+		<text>6. I talk to spirits that no one else can see.</text>
+	</trait>
+    <trait>
+        <name>Skill Proficincies</name>
+        <text>Chose one of Arcana, Investigation, Religion, or Survival</text>
+    </trait>
+    <trait>
+        <name>Languages</name>
+        <text>Choose one exotic language (Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, or Undercommon)</text>
+    </trait>
+        
+	<trait>
+		<name>Heart of Darkness</name>
+		<text>Those who look into your eyes can see that you have faced unimaginable horror and that you are no stranger to darkness. Though they might fear you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.</text>
+	</trait>
+	<trait>
+		<name>Equipment</name>
+		<text>Monster hunter's pack, one trinket of special significance (choose one or roll on the Gothic Trinkets table)</text>
+	</trait>
+</background>
+<feat>
 		<name>Healer</name>
 		<text>You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:</text>
 		<text />
@@ -3805,6 +3972,65 @@
 			<text>The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.</text>
 			<text />
 			<text>Work with your DM to determine the details of your discovery and its impact on the campaign.</text>
+		</trait>
+	</background>
+	<background>
+		<name>Hillsfar Merchant</name>
+		<proficiency>Insight, Persuasion</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Insight, Persuasion</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>Land vehicles and water vehicles</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A fine set of clothes, a signet ring, a letter of introduction from your family's trading house, and a purse containing 25 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Wealthy</text>
+		</trait>
+		<trait>
+			<name>Feature: Factor</name>
+			<text>Although you’ve left the day-to-day life of a merchant behind, your family has assigned you the services of a loyal retainer from the business, a factor, husbanding agent, seafarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the family assigns you another within a few days.</text>
+			<text>    [Note: This feature is a variant of the Noble Knight feature.]</text>
+		</trait>
+		<trait>
+			<name>Alternate Feature: Trade Contact</name>
+			<text>You and your family have trade contacts such as caravan masters, shopkeepers, sailors, artisans, and farmers throughout the Moonsea region and all along the Sword Coast. Once per game session, when adventuring in either of those areas, you can use those contacts to get information about the local area or to pass a message to someone in those areas, even across the great distance between the two areas.</text>
+			<text>    [Note: This feature is a variant of the Criminal Contact and Researcher feature.]</text>
+		</trait>
+	</background>
+	<background>
+		<name>Hillsfar Smuggler</name>
+		<proficiency>Perception, Stealth</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Perception, Stealth</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>Forgery kit</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>One racial language</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A forgery kit, a set of common clothes, a belt pouch, and 5 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Modest</text>
+		</trait>
+		<trait>
+			<name>Feature: Secret Passage</name>
+			<text>You can call on your contacts within the smuggling community to secure secret passage into or out of Hillsfar for yourself and your adventuring companions, no questions asked, and no Red Plume entanglements. Because you’re calling in a favor, you can’t be certain they will be able to help on your timetable or at all. Your Dungeon Master will determine whether you can be smuggled into or out of the city. In return for your passage, you and your companions may owe the Rouges Guild a favor and/or may have to pay bribes.</text>
+			<text>    [Note: This feature is a variant of the Sailor feature.]</text>
 		</trait>
 	</background>
 	<race>
@@ -4220,6 +4446,14 @@
 				<text>Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Monastic Tradition: Way of the Long Death</name>
+				<text>Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Monastic Tradition: Way of the Sun Soul</name>
+				<text>Monks of the Way of the Sun Soul learn to channel their own life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Way of Shadow: Shadow Arts</name>
 				<text>You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast darkness, darkvision, pass without trace, or silence, without providing material components. Additionally, you gain the minor illusion cantrip if you don't already know it.</text>
 			</feature>
@@ -4253,16 +4487,8 @@
 				<text>    If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Monastic Tradition: Way of the Long Death</name>
-				<text>Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Way of the Long Death: Touch of Death</name>
 				<text>Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Monastic Tradition: Way of the Sun Soul</name>
-				<text>Monks of the Way of the Sun Soul learn to channel their own life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Way of the Sun Soul: Radiant Sun Bolt</name>
@@ -4550,7 +4776,7 @@
 		</trait>
 	</background>
 	<class>
-    <name>Mystic</name>
+    <name>Mystic (UA)</name>
     <hd>8</hd>
     <proficiency>Wisdom</proficiency>
     <spellAbility>Intelligence</spellAbility>
@@ -4571,14 +4797,14 @@
                 <text>• (a) leather armor or (b) scale mail </text>
                 <text>• (a) a light crossbow and 20 bolts or (b) any simple weapon </text>
                 <text>• (a) a scholar's pack or (b) an explorer's pack</text>
-
+                <text>Alternatively, you may start with 5d4 x 10 gold and choose your own equipment.</text>
             </feature>
         </autolevel>
 
     <autolevel level="1">
 		<feature>
 			<name>Note</name>
-			<text>Currently there are only rules for levels one to five, so there is nothing past that included in the files.</text>
+			<text>Currently there are only rules for levels one to ten, so there is nothing past that included in the files.</text>
 		</feature>
         <feature>
             <name>Psionics</name>
@@ -5092,6 +5318,61 @@
 				<text>    Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Ancients</name>
+				<text>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world.</text>
+				<text />
+				<text>Tenets of the Ancients</text>
+				<text />
+				<text>The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.</text>
+				<text>    Kindle the Light. Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.</text>
+				<text>    Shelter the Light. Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.</text>
+				<text>    Preserve Your Own Light. Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.</text>
+				<text>    Be the Light. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of Devotion</name>
+				<text>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.</text>
+				<text />
+				<text>Tenets of Devotion</text>
+				<text />
+				<text>Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.</text>
+				<text>    Honesty. Don't lie or cheat. Let your word be your promise.</text>
+				<text>    Courage. Never fear to act, though caution is wise.</text>
+				<text>    Compassion. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.</text>
+				<text>    Honor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.</text>
+				<text>    Duty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of Vengeance</name>
+				<text>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins - sometimes called avengers or dark knights - their own purity is not as important as delivering justice.</text>
+				<text />
+				<text>Tenets of Vengeance: The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</text>
+				<text>    Fight the Greater Evil. Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil.</text>
+				<text>    No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.</text>
+				<text>    By Any Means Necessary. My qualms can't get in the way of exterminating my foes.</text>
+				<text>    Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Sacred Oath: Oathbreaker</name>
+				<text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.</text>
+				<text>    A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Crown</name>
+				<text>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.</text>
+				<text />
+				<text>Tenets of the Crown:</text>
+				<text>    The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
+				<text />
+				<text>Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</text>
+				<text />
+				<text>Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.</text>
+				<text />
+				<text>Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</text>
+				<text />
+				<text>Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations. </text>
+				</feature>
+			<feature optional="YES">
 				<name>Oath of the Ancients Channel Divinity: Nature's Wrath</name>
 				<text>You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</text>
 			</feature>
@@ -5114,18 +5395,6 @@
 				<text>13th - ice storm, stoneskin</text>
 				<text />
 				<text>17th - commune with nature, tree stride</text>
-			</feature>
-			<feature optional="YES">
-				<name>Sacred Oath: Oath of the Ancients</name>
-				<text>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world.</text>
-				<text />
-				<text>Tenets of the Ancients</text>
-				<text />
-				<text>The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.</text>
-				<text>    Kindle the Light. Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.</text>
-				<text>    Shelter the Light. Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.</text>
-				<text>    Preserve Your Own Light. Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.</text>
-				<text>    Be the Light. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Oath of Devotion Channel Divinity: Sacred Weapon</name>
@@ -5152,19 +5421,6 @@
 				<text>17th - commune, flame strike</text>
 			</feature>
 			<feature optional="YES">
-				<name>Sacred Oath: Oath of Devotion</name>
-				<text>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.</text>
-				<text />
-				<text>Tenets of Devotion</text>
-				<text />
-				<text>Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.</text>
-				<text>    Honesty. Don't lie or cheat. Let your word be your promise.</text>
-				<text>    Courage. Never fear to act, though caution is wise.</text>
-				<text>    Compassion. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.</text>
-				<text>    Honor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.</text>
-				<text>    Duty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Oath of Vengeance Channel Divinity: Abjure Enemy</name>
 				<text>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.</text>
 				<text>    On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.</text>
@@ -5189,21 +5445,6 @@
 				<text>17th - hold monster, scrying</text>
 			</feature>
 			<feature optional="YES">
-				<name>Sacred Oath: Oath of Vengeance</name>
-				<text>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins - sometimes called avengers or dark knights - their own purity is not as important as delivering justice.</text>
-				<text />
-				<text>Tenets of Vengeance: The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</text>
-				<text>    Fight the Greater Evil. Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil.</text>
-				<text>    No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.</text>
-				<text>    By Any Means Necessary. My qualms can't get in the way of exterminating my foes.</text>
-				<text>    Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</text>
-			</feature>
-			<feature>
-				<name>Sacred Oath: Oathbreaker</name>
-				<text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.</text>
-				<text>    A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Oathbreaker: Oathbreaker Spells</name>
 				<text>You gain oathbreaker spells at the paladin levels listed.</text>
 				<text />
@@ -5225,21 +5466,6 @@
 				<name>Oathbreaker Channel Divinity: Dreadful Aspect</name>
 				<text>As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</text>
 			</feature>
-			<feature optional="YES">
-				<name>Sacred Oath: Oath of the Crown</name>
-				<text>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.</text>
-				<text />
-				<text>Tenets of the Crown:</text>
-				<text>    The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.</text>
-				<text />
-				<text>Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.</text>
-				<text />
-				<text>Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.</text>
-				<text />
-				<text>Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?</text>
-				<text />
-				<text>Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations. </text>
-				</feature>
 			<feature optional="YES">
 				<name>Oath of the Crown: Oath Spells</name>
 				<text>    You gain oath spells at the paladin levels listed.</text>
@@ -6707,6 +6933,12 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Roguish Archetype: Mastermind</name>
+				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
+				<text />
+				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
+			</feature>
+			<feature optional="YES">
 				<name>Roguish Archetype: Swashbuckler</name>
 				<text>You focus your training on the art of the blade, relying on speed, elegance, and charisma in equal parts. While other warriors are brutes clad in heavy armor, your method of fighting looks more like performance. Rakes, duelists, and pirates typically follow this archetype.</text>
 				<text />
@@ -6760,6 +6992,15 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Mastermind: Master of Intrigue</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
+				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Mastermind: Master of Tactics</name>
+				<text>Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Swashbuckler: Fancy Footwork</name>
 				<text>When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
 			</feature>
@@ -6776,21 +7017,6 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<name>Thief: Second-Story Work</name>
 				<text>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.</text>
 				<text>    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Rougeish Archetype: Mastermind</name>
-				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
-				<text />
-				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mastermind: Master of Intrigue</name>
-				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
-				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mastermind: Master of Tactics</name>
-				<text>Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.</text>
 			</feature>
 		</autolevel>
 
@@ -6835,16 +7061,6 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>    Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Swashbuckler: Panache</name>
-				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
-				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
-				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Thief: Supreme Sneak</name>
-				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Mastermind: Insightful Manipulator</name>
 				<text>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: </text>
 				<text />
@@ -6854,6 +7070,16 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>- Class levels (if any) </text>
 				<text />
 				<text>    At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Swashbuckler: Panache</name>
+				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
+				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
+				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Thief: Supreme Sneak</name>
+				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
 			</feature>
 		</autolevel>
 
@@ -6891,16 +7117,16 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>    Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Mastermind: Misdirection</name>
+				<text>Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Swashbuckler: Elegant Maneuver</name>
 				<text>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Use Magic Device</name>
 				<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mastermind: Misdirection</name>
-				<text>Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you.</text>
 			</feature>
 		</autolevel>
 
@@ -6938,17 +7164,17 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Mastermind: Soul of Deceit</name>
+				<text>Starting at 17th level, your thoughts can’t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
+				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Swashbuckler: Master Duelist</name>
 				<text>Beginning at 17th level, your mastery of the blade lets you turn failure to success in combat. If you miss with an attack roll, you can choose to roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Thief's Reflexes</name>
 				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mastermind: Soul of Deceit</name>
-				<text>Starting at 17th level, your thoughts can’t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
-				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
 			</feature>
 		</autolevel>
 
@@ -7037,6 +7263,31 @@ to ensure they remain watched at all times. They venture into the depths on long
 		<name>Savage Attacker</name>
 		<text>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total.</text>
 	</feat>
+	<background>
+		<name>Secret Identity</name>
+		<proficiency>Deception, Stealth</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Deception, Stealth</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>Disguise kit, forgery kit</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A disguise kit, a forgery kit, a set of common clothes, a belt pouch, 5 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Modest</text>
+		</trait>
+		<trait>
+			<name>Feature: Secret Identity</name>
+			<text>You have created a secret identity that you use to conceal your true race and that offers a covering explanation for your presence in Hillsfar. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</text>
+			<text>    [Note: This feature is a variant of the Charlatan feature.]</text>
+		</trait>
+	</background>
 	<feat>
 		<name>Sentinel</name>
 		<text>You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:</text>
@@ -7049,6 +7300,35 @@ to ensure they remain watched at all times. They venture into the depths on long
 		<text />
 		<text>Source: Player's Handbook, page 169 and 6/10/2015 errata</text>
 	</feat>
+	<background>
+		<name>Shade Fanatic</name>
+		<proficiency>Deception, Intimidation</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Deception, Intimidation</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>Forgery kit</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>Netherese</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A forgery kit, a transparent cylinder of shadow that has no opening, a signet ring, a set of fine clothes, and 15 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Moderate</text>
+		</trait>
+		<trait>
+			<name>Feature: Secret Society</name>
+			<text>You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory.</text>
+			<text>    [Note: This feature is a variant of the Criminal feature.]</text>
+		</trait>
+	</background>
 	<spell>
 		<name>Shape the Flowing River</name>
 		<level>1</level>
@@ -7867,7 +8147,36 @@ to ensure they remain watched at all times. They venture into the depths on long
 		<text />
 		<text>Source: Player's Handbook, page 170</text>
 	</feat>
-	<spell>
+	<background>
+		<name>Trade Sherrif</name>
+		<proficiency>Investigation, Persuasion</proficiency>
+		<trait>
+			<name>Skill Proficiencies</name>
+			<text>Investigation, Persuasion</text>
+		</trait>
+		<trait>
+			<name>Tool Proficiencies</name>
+			<text>Thieves kit</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>Elven</text>
+		</trait>
+		<trait>
+			<name>Equipment</name>
+			<text>A thieves kit, a gray cloak, Sherrif's insignia (badge), a set of fine clothes, and 17 gp</text>
+		</trait>
+		<trait>
+			<name>Starting Lifestyle</name>
+			<text>Moderate</text>
+		</trait>
+		<trait>
+			<name>Feature: Investigative Services</name>
+			<text>You are part of a small force outside of Hillsfar You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.</text>
+			<text>    [Note: This feature is a variant of the Soldier feature.]</text>
+		</trait>
+	</background>
+<spell>
 		<name>Trip Attack</name>
 		<level>1</level>
 		<school>EV</school>
@@ -8168,19 +8477,6 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>5th - dominate person, telekinesis</text>
 			</feature>
 			<feature optional="YES">
-				<name>The Archfey: Fey Presence</name>
-				<text>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>The Fiend: Dark One's Blessing</name>
-				<text>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</text>
-			</feature>
-			<feature optional="YES">
-				<name>The Great Old One: Awakened Mind</name>
-				<text>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Otherworldly Patron: The Undying</name>
 				<text>Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize - like all power - comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.</text>
 				<text>    In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.</text>
@@ -8216,6 +8512,19 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>3rd - daylight</text>
 				<text>4th - fire shield</text>
 				<text>5th - flame strike</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Archfey: Fey Presence</name>
+				<text>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Fiend: Dark One's Blessing</name>
+				<text>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Great Old One: Awakened Mind</name>
+				<text>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</text>
 			</feature>
 			<feature optional="YES">
 				<name>The Undying: Among the Dead</name>
@@ -9591,6 +9900,10 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>Called abjurers, members of this school are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.</text>
 			</feature>
 			<feature optional="YES">
+				<name>Arcane Tradition: Bladesinger</name>
+				<text>Bladesingers are elves who bravely defend their people and lands. They are elf wizards who master a school of sword fighting grounded in a tradition of arcane magic. In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense.</text>
+			</feature>
+			<feature optional="YES">
 				<name>Arcane Tradition: Conjuration</name>
 				<text>As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.</text>
 			</feature>
@@ -9712,10 +10025,6 @@ to ensure they remain watched at all times. They venture into the depths on long
 				<text>At 2nd level, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended spell slots.</text>
 				<text />
 				<text>You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Arcane Tradition: Bladesinger</name>
-				<text>Bladesingers are elves who bravely defend their people and lands. They are elf wizards who master a school of sword fighting grounded in a tradition of arcane magic. In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Bladesinger: Restriction: Elves Only</name>
