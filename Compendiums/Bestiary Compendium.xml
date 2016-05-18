@@ -2772,7 +2772,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Detect Life</name>
-			<text>The banshee can magically sense the presence of living creatures up to 5 miles away. She knows the general direction they're in but not their exact locations.</text>
+			<text>The banshee can magically sense the presence of living creatures up to 5 miles away that aren't  undead or constructs. She knows the general direction they're in but not their exact locations.</text>
 		</trait>
 		<trait>
 			<name>Incorporeal Movement</name>
@@ -6300,7 +6300,7 @@
 		</trait>
 		<trait>
 			<name>Ambusher</name>
-			<text>The doppelganger has advantage on attack rolls against any creature it has surprised.</text>
+			<text>In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised</text>
 		</trait>
 		<trait>
 			<name>Surprise Attack</name>
@@ -10621,8 +10621,8 @@
 		<cr>1/8</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
-			<attack>Bite|4|1d4+2</attack>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
+			<attack>Bite|3|1d4+1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -13075,7 +13075,7 @@
 		<type>fiend (devil), monster manual</type>
 		<alignment>lawful evil</alignment>
 		<ac>18 (natural armor)</ac>
-		<hp>148 (17d10+55)</hp>
+		<hp>178 (17d10+85)</hp>
 		<speed>20 ft., fly 60 ft.</speed>
 		<str>22</str>
 		<dex>17</dex>
@@ -14178,7 +14178,7 @@
 		<cr>1/4</cr>
 		<trait>
 			<name>Ambusher</name>
-			<text>The kenku has advantage on attack rolls against any creature it has surprised.</text>
+			<text>In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised</text>
 		</trait>
 		<trait>
 			<name>Mimicry</name>
@@ -14808,7 +14808,7 @@
 		</legendary>
 		<legendary>
 			<name>Disrupt Life (Costs 3 Actions)</name>
-			<text>Each living creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Disrupt Life||6d6</attack>
 		</legendary>
 		<spells>mage hand, prestidigitation, ray of frost, detect magic, magic missile, shield, thunderwave, detect thoughts, invisibility, Melf's acid arrow, mirror image, animate dead, counterspell, dispel magic, fireball, blight, dimension door, cloudkill, scrying, disintegrate, globe of invulnerability, finger of death, plane shift, dominate monster, power word stun, power word kill</spells>
@@ -15209,7 +15209,7 @@
 		</trait>
 		<action>
 			<name>Touch</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a target takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
 			<attack>Touch|4|2d6</attack>
 		</action>
 	</monster>
