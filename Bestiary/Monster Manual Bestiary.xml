@@ -1272,7 +1272,7 @@
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage.</text>
-			<attack>Tail||2d8+9</attack>
+			<attack>Tail|16|2d8+9</attack>
 		</action>
 		<action>
 			<name>Frightful Presence</name>
@@ -1500,7 +1500,7 @@
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.</text>
-			<attack>Tail|16|2d8+8</attack>
+			<attack>Tail|15|2d8+8</attack>
 		</action>
 		<action>
 			<name>Frightful Presence</name>
@@ -1880,6 +1880,7 @@
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<attack>Tail|7|4d6+4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3175,23 +3176,9 @@
 			<text>The devil makes three attacks: two with its claws and one with its sting.</text>
 		</action>
 		<action>
-			<name>Multiattack</name>
-			<text>The devil makes three attacks: two with its claws and one with its sting.</text>
-		</action>
-		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
 			<attack>Claw|8|1d8+4</attack>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
-			<attack>Claw|8|1d8+4</attack>
-		</action>
-		<action>
-			<name>Sting</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success .</text>
-			<attack>Sting|8|2d8+4</attack>
 		</action>
 		<action>
 			<name>Sting</name>
@@ -3222,6 +3209,33 @@
 		<passive>9</passive>
 		<languages>Infernal, telepathy 120 ft.</languages>
 		<cr>12</cr>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the devil's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The devil has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The devil makes three attacks: two with its hooked polearm and one with its sting.</text>
+		</action>
+		<action>
+			<name>Hooked Polearm</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 17 (2d12 + 4) piercing damage. If the target is a huge or smaller creature, it is grappled (escape DC 14). Until the grapple ends, the devil can't use its polearm on another target.</text>
+			<attack>|8|2d12+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
+			<attack>Claw|8|1d8+4</attack>
+		</action>
+		<action>
+			<name>Sting</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success .</text>
+			<attack>Sting|8|2d8+4</attack>
+		</action>
 	</monster>
 	<monster>
 		<name>Bone Naga (Guardian)</name>
@@ -5052,7 +5066,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.</text>
-			<attack>Tentacle|7|1d6+4</attack>
+			<attack>Tentacle|6|1d6+4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -5384,6 +5398,26 @@
 			<text>• 3rd level (3 slots): clairvoyance, dispel magic</text>
 			<text>• 4th level (2 slots): divination,freedom of movement</text>
 		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage plus 9 (2d8) poison damage.</text>
+			<attack>Bite|6|1d4+2d8</attack>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
+			<attack>One Handed|6|1d8+3</attack>
+			<attack>Two Handed|6|1d10+3</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.</text>
+			<attack>Longbow|6|1d8+3</attack>
+		</action>
 		<spells>dancing lights, darkness, faerie fire, poison spray, thaumaturgy, bane, detect magic, sanctuary, hold person, silence, clairvoyance, dispel magic, divination, freedom of movement</spells>
 	</monster>
 	<monster>
@@ -5631,7 +5665,7 @@
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.</text>
 			<attack>Quarterstaff|2|1d6</attack>
-			<attack>Shillelagh|6|1d8+2</attack>
+			<attack>Shillelagh|4|1d8+2</attack>
 		</action>
 		<spells>druidcraft, produce flame, shillelagh, entangle, longstrider, speak with animals, thunderwave, animal messenger, barkskin</spells>
 	</monster>
@@ -5676,8 +5710,9 @@
 		</trait>
 		<action>
 			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
+			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
 			<attack>Club|2|1d4</attack>
+			<attack>Shillelagh|6|1d8+4</attack>
 		</action>
 		<action>
 			<name>Fey Charm</name>
@@ -5768,7 +5803,7 @@
 		<action>
 			<name>Fist</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
-			<attack>Fist|3|1d4</attack>
+			<attack>Fist|2|1d4</attack>
 		</action>
 		<action>
 			<name>Javelin</name>
@@ -6001,10 +6036,12 @@
 		<action>
 			<name>Ram</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Ram|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Hooves</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Hooves|5|2d4+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -7366,6 +7403,7 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Claws|4|2d4+2</attack>
 		</action>
 	</monster>
 	<monster>
@@ -9515,7 +9553,7 @@
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</text>
 			<attack>One Handed|3|1d6+1</attack>
-			<attack>Two Handed|5|1d8+1</attack>
+			<attack>Two Handed|3|1d8+1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -10825,6 +10863,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.</text>
+			<attack>Bite|6|5d6+4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -12471,7 +12510,7 @@
 		<action>
 			<name>Hooves</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
-			<attack>Hooves|4|1d4+2</attack>
+			<attack>Hooves|2|1d4+2</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14151,6 +14190,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage</text>
+			<attack>Bite|3|2d4+1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14516,6 +14556,7 @@
 		<action>
 			<name>Beak</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+			<attack>Beak|4|1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14890,7 +14931,7 @@
 		<action>
 			<name>Smother</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (2d6 + 3) bludgeoning damage.</text>
-			<attack>||2d6+3</attack>
+			<attack>|5|2d6+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -16969,6 +17010,7 @@
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+			<attack>Claw|5|1d8+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -19430,6 +19472,30 @@
 			<name>Magic Resistance</name>
 			<text>The yuan-ti has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
+		<action>
+			<name>Multiattack (Abomination Form Only)</name>
+			<text>The yuan_ti makes two ranged attacks or three melee attacks, but can use its bite and constrict attacks only once each.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.</text>
+			<attack>|7|1d6+4+3d6</attack>
+		</action>
+		<action>
+			<name>Constrict</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan_ti can't constrict another target.</text>
+			<attack>|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Scimitar (Abomination Form Only)</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+			<attack>|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Longbow (Abomination Form Only)</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 10 (3d6) poison damage.</text>
+			<attack>|6|2d8+3+3d6</attack>
+		</action>
 		<spells>animal friendship, suggestion, fear</spells>
 	</monster>
 	<monster>
