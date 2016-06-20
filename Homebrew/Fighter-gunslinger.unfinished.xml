@@ -48,6 +48,17 @@
       <text>Mortal Shot:</text>
       <text>Starting at 18th level, whenever the Gunslinger scores a Critical Hit with a firearm (even with another Deed), they can spend a Grit point to increase the damage multiplier for that attack from x 2 to x 3.</text>
     </feature>
-    <!-- to add firearm properties with table here? -->
+		<feature optional="YES">
+			<name>Gunslinger: Firearm Properties</name>
+			<text>Reload</text>
+			<text>The weapon can be fired a number of times equal to its Reload number before the wielder must spend 1 Attack of your Attack Action, or an Action, to reload. You must have one free hand to reload a firearm. </text>
+			<text>Misfire</text>
+			<text>Whenever the Firearm is fired in a way that requires an Attack Roll, if the dice roll is equal to or lower than the Misfire number, the weapon Misfires, the attack misses, and it cannot be used to attack again until an Action and successful Tinker’s Tools Ability Check (DC = 10 + Firearm’s Misfire Score) is used to repair and clear the weapon. Should the Tinker’s Tools check fail, the weapon is considered broken and must be repaired out of combat at half the cost of the weapon (or DM’s discretion).</text>
+			<text>Scatter</text>
+			<text>An attack is made against each creature within a 30 ft cone. If an affected creature is adjacent to you, they suffer double damage on a hit.</text>
+			<text>Explosive</text>
+			<text>Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw or suffer half damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so.</text>
+			<!-- TO DO - Add table....somehow -->
+		</feature>
   </autolevel>
 </class>
