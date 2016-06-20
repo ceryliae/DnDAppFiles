@@ -23,8 +23,67 @@
 
       <text>Deadeye:</text>
       <text>Starting at 3rd level, the Gunslinger can spend 1 Grit point to gain Advantage on the next Attack roll they make this round. The Gunslinger chooses to make a Deadeye attack and spends Grit before making the attack roll.</text>
-
-<!-- Not positive of the best way to have a part of a feature at a higher level.  -->
+		</feature>
+		<feature optional="YES">
+			<name>Gunslinger: Firearm Properties</name>
+			<text>Reload</text>
+			<text>The weapon can be fired a number of times equal to its Reload number before the wielder must spend 1 Attack of your Attack Action, or an Action, to reload. You must have one free hand to reload a firearm. </text>
+			<text>Misfire</text>
+			<text>Whenever the Firearm is fired in a way that requires an Attack Roll, if the dice roll is equal to or lower than the Misfire number, the weapon Misfires, the attack misses, and it cannot be used to attack again until an Action and successful Tinker’s Tools Ability Check (DC = 10 + Firearm’s Misfire Score) is used to repair and clear the weapon. Should the Tinker’s Tools check fail, the weapon is considered broken and must be repaired out of combat at half the cost of the weapon (or DM’s discretion).</text>
+			<text>Scatter</text>
+			<text>An attack is made against each creature within a 30 ft cone. If an affected creature is adjacent to you, they suffer double damage on a hit.</text>
+			<text>Explosive</text>
+			<text>Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw or suffer half damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so.</text>
+			<!-- TO DO - Add table....somehow -->
+		</feature>
+		<feature optional="YES">
+			<name>Gunslinger: Firearms</name>
+			<text>Pistol:</text>
+			<text> 	* Cost - 250g</text>
+			<text> 	* Damage - 1d10 Piercing</text>
+			<text> 	* Weight - 3 lbs</text>
+			<text> 	* Range - (100/400)</text>
+			<text> 	* Properties - Reload 4, Misfire 1</text>
+			<text>-----------------------------------------</text>
+			<text>Musket:</text>
+			<text> 	* Cost - 500g</text>
+			<text> 	* Damage - 1d12 piercing</text>
+			<text> 	* Weight - 10 lbs</text>
+			<text> 	* Range - (200/800)</text>
+			<text> 	* Properties - ​Two-handed, Reload 1, Misfire 2 </text>
+			<text>-----------------------------------------</text>
+			<text>Pepperbox:</text>
+			<text> 	* Cost - 450g</text>
+			<text> 	* Damage - 1d10 piercing</text>
+			<text> 	* Weight - 4 lbs</text>
+			<text> 	* Range - (150/600)</text>
+			<text> 	* Properties -  Reload 6, Misfire 2 </text>
+			<text>-----------------------------------------</text>
+			<text>Scattergun:</text>
+			<text> 	* Cost - 500g</text>
+			<text> 	* Damage - 1d8 piercing</text>
+			<text> 	* Weight -  10 lbs</text>
+			<text> 	* Range - (15/30)</text>
+			<text> 	* Properties - Two-Handed, Reload 2, Misfire 3, Scatter </text>
+			<text>-----------------------------------------</text>
+			<text>Bad News:</text>
+			<text> 	* Cost - (crafted)</text>
+			<text> 	* Damage - 2d12 piercing</text>
+			<text> 	* Weight -  25 lbs</text>
+			<text> 	* Range - (300/1200)</text>
+			<text> 	* Properties - 	​Two-handed, Reload 1, Misfire 3 </text>
+			<text>-----------------------------------------</text>
+			<text>Hand Cannon:</text>
+			<text> 	* Cost - (crafted)</text>
+			<text>  * Damage - 2d8 fire</text>
+			<text>  * Weight -  4 lbs</text>
+			<text>  * Range - (30/60)</text>
+			<text>  * Properties - 	Reload 1, Misfire 3, Explosive​ </text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<feature optional="YES">
+			<name>Gunslinger: Aditional Deeds</name>
       <text>Quick Draw:</text>
       <text>Starting at 7th level, the Gunslinger gains +2 Initiative and can draw and stow Firearms as a free Flourish.</text>
 
