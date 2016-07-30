@@ -78,13 +78,13 @@
 			</feature>
 			<feature optional="YES">
 				<name>Primal Path: Path of the Battlerager</name>
-				<text>Known as Kuldjargh (literally "axe idiot") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing nulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.</text>
+				<text>Known as Kuldjargh (literally "axe idiot") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Path of the Battlerager: Restriction - Dwarves Only</name>
 				<text>Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.</text>
 				<text />
-				<text>Your DM can lift this restriction to better suite the campaign. The restriction exists for the Forgotten Realms. It might not apply to yourt DM's setting or your DM's version of the realms.</text>
+				<text>Your DM can lift this restriction to better suite the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the realms.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Path of the Battlerager: Battlerager Armor</name>
@@ -117,7 +117,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Totem Spirit (Elk)</name>
-				<text>While you're raging and aren't wearing heaving armor, your waliing speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift.</text>
+				<text>While you're raging and aren't wearing heaving armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Totem Spirit (Tiger)</name>
@@ -199,7 +199,7 @@
 
 		<autolevel level="8">
 			<feature>
-				<name>Ability Score Improvement></name>
+				<name>Ability Score Improvement</name>
 				<text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
 				<text>    If your DM uses the optional Feats, you can instead take a feat.</text>
 			</feature>
@@ -483,10 +483,10 @@
 				<name>Bard College: College of Satire</name>
 				<text>Bards of the College of Satire are called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.</text>
 				<text>While jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester’s barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.</text>
-				<text>For the duchess with a taste for strapping young laborers, such tales might serve to warn the targets of her affections and force her to change her ways for lack of willing partners. Striking back at the jester only ruins her already damaged reputation, and might provide the best evidencethat the jester’s satires have hit their mark. But if she is kind and generous to her conquests, the jokes and stories cast her as a kind of folk hero, while drawing even more potential partners to her.</text>
+				<text>For the duchess with a taste for strapping young laborers, such tales might serve to warn the targets of her affections and force her to change her ways for lack of willing partners. Striking back at the jester only ruins her already damaged reputation, and might provide the best evidence that the jester’s satires have hit their mark. But if she is kind and generous to her conquests, the jokes and stories cast her as a kind of folk hero, while drawing even more potential partners to her.</text>
 				<text>Jesters are loyal to only one cause: the pursuit and propagation of the truth. They use their comedy and innocuous appearance to break down social barriers and expose corruption, incompetence, and stupidity among the rich and powerful. Whether revealing a con artist’s treachery or exposing a baron’s plans for war as driven by greed and bloodlust, a jester serves as the conscience of a realm.</text>
-				<text>Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.</text>				
-			</feature>			
+				<text>Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.</text>
+			</feature>
 			<feature>
 				<name>Expertise</name>
 				<text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
@@ -2913,11 +2913,23 @@
 		<text>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</text>
 	</spell>
 
+compendium version="5">
 <class>
     <name>Mystic (UA)</name>
     <hd>8</hd>
-    <proficiency>Wisdom</proficiency>
+    <proficiency>Intelligence, Wisdom</proficiency>
     <spellAbility>Intelligence</spellAbility>
+        <autolevel level="1"> <slots>1,2,4,2,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="2"> <slots>1,3,6,2,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="3"> <slots>2,3,14,3,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="4"> <slots>2,3,17,3,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="5"> <slots>2,4,27,5,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="6"> <slots>2,4,32,5,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="7"> <slots>2,5,38,6,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="8"> <slots>2,5,44,6,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="9"> <slots>2,6,57,7,0,0,0,0,0,0</slots></autolevel>
+		<autolevel level="10"><slots>3,6,64,7,0,0,0,0,0,0</slots></autolevel>
+
         <autolevel level="1">
             <feature>
                 <name>Starting Proficiencies</name>
@@ -2941,241 +2953,141 @@
 
     <autolevel level="1">
 		<feature>
-			<name>Note</name>
+			<name>Important Notes</name>
 			<text>Currently there are only rules for levels one to ten, so there is nothing past that included in the files.</text>
+			<text>    Also, spell slots are organized as such: Cantrips = Number of Talents, Level 1 Slots = Number of Disciplines, Level 2 Slots = Psi Points, Level 3 Slots = Psi Limit</text>
 		</feature>
         <feature>
             <name>Psionics</name>
             <text>As a student of psionics, you can master and use psionic disciplines. </text>
-            <text/>
-            <text>Disciplines: At 1st level, you know one discipline of your choice. You choose disciplines from the list included in your chosen order (see below). You learn additional disciplines of your choice at higher levels, as shown in the Disciplines Known column of the Mystic table.  You learn an additional discipline at 2nd and 5th level. </text>
-            <text/>
-            <text>Psi Points: You gain a pool of psi points based on your mystic level. Your psi point total returns to its maximum after you finish a long rest.</text>
-            <text>    Level &#8212; Psi Points:</text>
-            <text>    1st - 4</text>
-            <text>    2nd - 6</text>
-            <text>    3rd - 14</text>
-            <text>    4th - 17</text>
-            <text>    5th - 27 </text>
-            <text/>
-            <text>Psi Maximum: Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. You have a maximum number of psi points you can spend to activate a discipline based on your mystic level, as shown in the Psi Maximum column of the Mystic table.</text>
-            <text>    Your psi maximum at 1st level is 2 points.  It increases to 3 points at 3rd level and to 5 points at 5th level. </text>
-            <text/>
-            <text>Using Disciplines: </text>
-            <text>    You activate a discipline as a bonus action, and must immediately concentrate on it. If a discipline grants a benefit for concentrating on it, you immediately gain that benefit. You continue to gain that benefit and can use the discipline's optional features as long as you maintain your concentration on the discipline. </text>
-            <text>    While you are concentrating on a discipline, you can spend psi points to augment the discipline's effect. Each discipline details its optional effects and the type of action (if any) required to spend psi points on an option. </text>
-            <text>    You can end all effects of a discipline immediately by ending concentration on the discipline. If you want to end a single effect of a discipline but still maintain its other effects, you can end a specific effect as a bonus action. </text>
-            <text/>
-            <text>Psionic Ability: </text>
-            <text>    Intelligence is your psionic ability for your mystic disciplines. Your intellect determines the strength of the psionic effects you manifest. In addition, you use your Intelligence modifier when setting the saving throw DC for a mystic discipline or when making an attack roll with one. </text>
-            <text>    Discipline save DC = 8 + your proficiency bonus + your Intelligence modifier </text>
+        </feature>
+        <feature>
+        	<name>Psionic Talents</name>
+        	<text>A psionic talent is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice (see the talent options later in this class description). You learn additional talents of your choice at higher levels, as shown in the Talents Known column of the Mystic table.</text>
+        </feature>
+        <feature>
+        	<name>Psionic Disciplines</name>
+            <text>A psionic discipline is a rigid set of mental exercises that allows a mystic to manifest psionic power. Such disciplines are divided into two categories: lesser disciplines and greater disciplines. A mystic masters only a few disciplines at a time.</text>
+            <text>    At 1st level, you know two lesser disciplines of your choice (see the discipline options later in this class description). You learn additional disciplines of your choice at higher levels, as shown in the Disciplines Known column of the Mystic table. You must be at least 5th level to learn a greater discipline.</text>
+            <text>    In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice. You can replace a lesser discipline with a greater discipline, but only if you are at least 5th level.</text>
+        </feature>
+        <feature>
+        	<name>Psi Points</name>
+            <text>You have an internal reservoir of energy that can be devoted to the psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.</text>
+            <text>    The number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum after you finish a long rest. The number of psi points you have can’t go below 0 or over your maximum.</text>
+        </feature>
+        <feature>
+        	<name>Psi Limit</name>
+            <text>Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-­level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have.</text>
+        </feature>
+        <feature>
+        	<name>Psionic Chart</name>
+        	<text>    Level - Psi Points - Psi Limit</text>
+            <text>    1st - 4 - 2</text>
+            <text>    2nd - 6 - 2</text>
+            <text>    3rd - 14 - 3</text>
+            <text>    4th - 17 - 3</text>
+            <text>    5th - 27 - 5</text>
+            <text>    6th - 32 - 5</text>
+            <text>    7th - 38 - 6</text>
+            <text>    8th - 44 - 6</text>
+            <text>    9th - 57 - 7</text>
+            <text>   10th - 64 - 7</text>
+        </feature>
+        <feature>
+        	<name>Talent/Discipline Chart</name>
+        	<text>    Level - Talents - Disciplines</text>
+            <text>    1st - 1 - 2</text>
+            <text>    2nd - 1 - 3</text>
+            <text>    3rd - 2 - 3</text>
+            <text>    4th - 2 - 3</text>
+            <text>    5th - 2 - 4</text>
+            <text>    6th - 2 - 4</text>
+            <text>    7th - 2 - 5</text>
+            <text>    8th - 2 - 5</text>
+            <text>    9th - 2 - 6</text>
+            <text>   10th - 3 - 6</text>
+        </feature>
+        <feature>
+        	<name>Psychic Focus</name>
+        	<text>You can focus psychic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline’s description. The benefit lasts until you are incapacitated or until you use another bonus action to choose a psychic focus benefit. You can have only one psychic focus benefit at a time.</text>
+        </feature>
+        <feature>
+            <name>Psionic Ability</name>
+            <text>Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.</text>
+            <text>    Discipline save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
             <text>    Discipline attack modifier = your proficiency bonus + your Intelligence modifier</text>
         </feature>
-        <feature>
-            <name>Strength of Mind</name>
-            <text>The power of psionics comes from within, and even the simplest techniques require a deep mastery and understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with persistent threats. </text>
-            <text>    After completing a short or long rest, choose one ability score. You gain proficiency in saving throws using the chosen ability score. This benefit lasts until you finish your next short or long rest.</text>
+        <feature optional="YES">
+        	<name>Using Disciplines</name>
+        	<text>Each discipline has a number of ways you can use it, all contained in its description. The discipline specifies the type of action and number of psi points needed to use its effect options. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on. The following sections go into more detail on using a discipline.</text>
+        	<text>Psychic Focus</text>
+        	<text>    The Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.</text>
+        	<text>Effect Options and Psi Points</text>
+        	<text>    A discipline provides different options for how to use it with your psi points. Each effect option has a name, and the psi point cost of that option appears in parentheses after its name. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don’t have enough psi points left, or the cost is above your psi limit, you can’t use the option.</text>
+        	<text>    Some options show a range of psi points, rather than a specific cost. To use that option, you must spend a number of points within that point range, still abiding by your psi limit.</text>
+        	<text>    Each option notes specific information about its effect, including the action required to use it (if any), its range, and whether it requires concentration. If an option doesn’t state that it is used as an action, a bonus action, or a reaction, using it requires no action.</text>
+        	<text>Components</text>
+        	<text>    Disciplines don’t require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials. The power of psionics comes from the mind.</text>
+        	<text>Duration</text>
+        	<text>    An option in a discipline specifies how long its effect lasts. Instantaneous: If no duration is specified, the effect of an option is instantaneous. Concentration: Some effect options require concentration. This requirement is noted with a “C” after the option’s psi point cost.</text>
+        	<text>    Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can’t concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time.</text>
+        	<text>Targets and Areas of Effect</text>
+        	<text>    Psionic disciplines use the same rules as spells for determining targets and areas of effect. See chapter 10, “Spellcasting,” of the Player’s Handbook.</text>
+        	<text>Saving Throws and Attack Rolls</text>
+        	<text>    If a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability.</text>
+        	<text>    Some disciplines require you to make an attack roll to determine whether the discipline’s effect hits its target. The attack roll uses your psionic ability.</text>
+        	<text>Combining Psionic Effects</text>
+        	<text>    The effects of different psionic disciplines add together while the durations of those disciplines overlap. Likewise, different options from a single psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn’t combine with itself if that option is used multiple times. Instead, the most potent effect &#8212; usually dependent on how many psi points were used to create the effect &#8212; applies while the durations of the effects overlap.</text>
+        	<text>    Psionics and magic are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule (see “Psionics and Magic” earlier, as well as “Combining Magical Effects” in chapter 10, “Spellcasting,” of the Player’s Handbook).</text>
         </feature>
         <feature>
-            <name>Psionic Order</name>
-            <text>At 1st level, you choose a psionic order. Each order specializes in a specific type of psionic energy. Your order allows you to choose from its unique disciplines and grants you class features.</text>
+        	<name>Mystic Order</name>
+        	<text>At 1st level, you choose a Mystic Order: the Order of the Awakened or the Order of the Immortal, both detailed at the end of the class description. Each order specializes in a particular approach to psionics. Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 8th level.</text>
         </feature>
         <feature optional="YES">
             <name>Order of the Awakened</name>
-            <text>Mystics dedicated to the Order of the Awakened seek to unlock the full potential of the mind. By transcending the physical, the awakened hope to attain a perfect state of being&#8212;focused on pure intellect and mental energy. </text>
-            <text>    The awakened are skilled at bending minds and unleashing devastating psionic attacks, and are able to read the secrets of the world through psionic energy. Awakened mystics who take to adventuring excel at unraveling mysteries, solving puzzles, and defeating monsters by turning them into unwilling pawns. </text>
-            <text>    You choose disciplines from the awakened disciplines list: Conquering Mind, Intellect Fortress, and Third Eye.</text>
+            <text>Mystics dedicated to the Order of the Awakened seek to unlock the full potential of the mind. By transcending the physical, the Awakened hope to attain a perfect state of being &#8212; focused on pure intellect and mental energy.</text>
+            <text>    The Awakened are skilled at bending minds and unleashing devastating psychic attacks, and are able to read the secrets of the world through psionic energy. Awakened mystics who take to adventuring excel at unraveling mysteries, solving puzzles, and defeating monsters by turning them into unwilling pawns.</text>
         </feature>
         <feature optional="YES">
-            <name>Mind Thrust (Order of the Awakened)</name>
-            <text>At 1st level, you learn a deadly technique for channeling disruptive psychic energy into another creature's mind. As an action, you make a ranged attack against a creature within 120 feet of you. You must be able to perceive the creature, but you do not need to see it. The target uses its Intelligence score in place of its AC against this attack, and gains no benefit from cover. You do not have disadvantage on your attack roll if a hostile creature is within 5 feet of you. </text>
-            <text>    On a hit, the target takes 1d8 psychic damage. You can increase this damage by spending psi points (up to your psi maximum) before making your attack roll. The attack deals an extra 1d8 psychic damage for each psi point you spend.</text>
+        	<name>Mind Mastery (Order of the Awakened)</name>
+        	<text>At 1st level, you gain the mind meld and thought spear psionic talents (these are in addition to the talents you gain in the Mystic table). If you already have either one, you can pick any other talent to replace it.</text>
         </feature>
         <feature optional="YES">
-            <name>Psychic Mind (Order of the Awakened)</name>
-            <text>At 1st level, your mastery of psionic power allows you to tap directly into the minds of others. You can communicate telepathically with any creature you can see within 100 feet of you. You don't need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. You can allow a creature to respond to you telepathically, but it must understand at least one language in order to communicate this way.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Conquering Mind</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text>    By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text/>
-            <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text/>
-            <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text/>
-            <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Intellect Fortress</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text>    You forge an indomitable wall of psionic energy around your mind&#8212;one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Third Eye</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text/>
-            <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text/>
-            <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text/>
-            <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
+        	<name>Awakened Expertise (Order of the Awakened)</name>
+        	<text>Starting at 1st level, your focused mental training grants you extended knowledge. You gain proficiency in two skills of your choice.</text>
+        	<text>    In addition, choose one skill you are proficient in. Your proficiency bonus is doubled for any ability check you make that uses that skill.</text>
         </feature>
         <feature optional="YES">
             <name>Order of the Immortal</name>
-            <text>The Order of the Immortal strives to achieve physical perfection by augmenting the body's natural strength with psionic power. This order's goal is for its members to achieve immortality by overcoming the effects of aging through rigorous discipline and psionic perfection. To members of this order, psionic energy is a tool to augment, control, and perfect the physical body. </text>
-            <text>    Those immortals who take up the adventuring life are skilled warriors. Their psionic abilities allow them to shrug off injuries and hazards, while focusing their strength and speed in combat. </text>
-            <text>    You choose disciplines from the immortal disciplines list.</text>
+            <text>The Order of the Immortal strives to achieve physical perfection by augmenting the body’s natural strength with psychic power. This order’s goal is for its members to achieve immortality by overcoming the effects of aging through rigorous discipline and psionic perfection. To members of this order, psionic energy is a tool to augment, control, and perfect the physical body.</text>
+            <text>    Members of this order who take up the adventuring life are skilled warriors. Their psionic abilities allow them to shrug off injuries and hazards, while focusing their strength and speed in combat.</text>
         </feature>
         <feature optional="YES">
-            <name>Durable Mind (Order of the Immortal)</name>
-            <text>At 1st level, you gain the ability to maintain your focus despite injury. Your concentration on a psionic discipline cannot be ended as a result of taking damage.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Martial Order (Order of the Immortal</name>
-            <text>At 1st level, you gain proficiency with martial weapons and shields.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Celerity</name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text/>
-            <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text/>
-            <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text/>
-            <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text>    Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Iron Durability</name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text/>
-            <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text/>
-            <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Psionic Weapon </name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text/>
-            <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text/>
-            <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text/>
-            <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
+            <name>Martial Order (Order of the Immortal)</name>
+            <text>At 1st level, you gain proficiency with martial weapons, heavy armor, and shields.</text>
         </feature>
     </autolevel>
 
     <autolevel level="2">
-        <feature optional="YES">
-            <name>Discipline: Conquering Mind</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text/>
-            <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text/>
-            <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text/>
-            <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Intellect Fortress</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>You forge an indomitable wall of psionic energy around your mind&#8212;one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Third Eye</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text/>
-            <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text/>
-            <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text/>
-            <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Celerity</name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text>    You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text/>
-            <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text/>
-            <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text/>
-            <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text/>
-            <text>Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Iron Durability</name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text/>
-            <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text/>
-            <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Psionic Weapon </name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text/>
-            <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text/>
-            <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text/>
-            <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
+        <feature>
+            <name>Mystical Recovery</name>
+            <text>Starting at 2nd level, you draw vigor from the psi energy you use to power psionic disciplines associated with your Mystic Order.</text>
+            <text>    Whenever you spend psi points on a psionic discipline of your order, you regain hit points equal to your Intelligence modifier if your current hit point total equals half your hit point maximum or less.</text>
         </feature>
     </autolevel>
 
     <autolevel level="3">
         <feature optional="YES">
-            <name>Object Reading (Order of the Awakened)</name>
-            <text>At 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes, you learn a few basic facts about it. You gain a mental image from the object's point of view, showing the last creature to hold the object, regardless of how long ago it was last handled. </text>
-            <text>    You also learn of any events that have occurred within 20 feet of the object within the past 24 hours. The events you perceive unfold from the object's perspective. You see and hear such events as if you were there, but cannot use other senses. </text>
-            <text>    Additionally, when you use Object Reading on an object, you can choose to embed a psychic sensor within the object. For the next 24 hours, you can use an action to learn the object's location relative to you (its distance and direction) and to look at the object's surroundings from its point of view as if you were there.</text>
+            <name>Psionic Investigation (Order of the Awakened)</name>
+            <text>At 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes (as if concentrating on a psionic discipline), you learn a few basic facts about it. You gain a mental image from the object’s point of view, showing the last creature to hold the object, regardless of how long ago it was last handled.</text>
+            <text>You also learn of any events that have occurred within 20 feet of the object within the past 24 hours. The events you perceive unfold from the object’s perspective. You see and hear such events as if you were there, but can’t use other senses.</text>
+            <text>Additionally, you can embed an intangible psionic sensor within the object. For the next 24 hours, you can use an action to learn the object’s location relative to you (its distance and direction) and to look at the object’s surroundings from its point of view as if you were there. This perception lasts until the start of your next turn.</text>
         </feature>
         <feature optional="YES">
-            <name>Psionic Regeneration (Order of the Immortal)</name>
-            <text>At 3rd level, you learn to use psionic energy to augment and speed up your natural healing abilities. At the end of your turn, if your current hit point total is half or less of your hit point maximum, you regain hit points equal to half your mystic level.</text>
+            <name>Psionic Resilience (Order of the Immortal)</name>
+            <text>At 3rd level, you learn to use psionic energy to speed up your natural healing. At the start of each of your turns, you gain temporary hit points equal to your Intelligence modifier, provided that you have at least 1 hit point.</text>
         </feature>
     </autolevel>
 
@@ -3185,90 +3097,304 @@
             <text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
             <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
         </feature>
+        <feature>
+            <name>Strength of Mind</name>
+            <text>The power of psionics comes from within, and even the simplest techniques require a deep mastery and understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with persistent threats. </text>
+            <text>    After completing a short or long rest, choose one ability score. You gain proficiency in saving throws using the chosen ability score. This benefit lasts until you finish your next short or long rest.</text>
+        </feature>
     </autolevel>
 
     <autolevel level="5">
+        <feature>
+            <name>Greater Disciplines</name>
+            <text>Can now include greater disciplines in discipline pool to access.</text>
+        </feature>
+    </autolevel>
+
+    <autolevel level="6">
         <feature optional="YES">
-            <name>Discipline: Conquering Mind</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you have advantage on Charisma checks. </text>
-            <text/>
-            <text>Exacting Query (1): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text/>
-            <text>Occluded Mind (3): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest. </text>
-            <text/>
-            <text>Broken Will (5): As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</text>
+            <name>Psychic Surge (Order of the Awakened)</name>
+            <text>Starting at 6th level, you overload your psychic focus to batter down an opponent’s defenses. You can impose disadvantage on a target’s saving throw against a discipline or talent you use, but at the cost of using your psychic focus. Your focus immediately ends, and you can’t use it again until you finish a short or long rest. You can’t use this feature if you can’t use your psychic focus.</text>
         </feature>
         <feature optional="YES">
-            <name>Discipline: Intellect Fortress</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>You forge an indomitable wall of psionic energy around your mind&#8212;one that allows you to launch reflexive counterattacks against your opponents. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, as a reaction, you can impose disadvantage on a ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
+            <name>Surge of Health (Order of the Immortal)</name>
+            <text>Starting at 6th level, you can draw on your psychic focus to escape death’s grasp. As a reaction when you take damage, you can halve that damage against you. Your psychic focus immediately ends, and you can’t use it again until you finish a short or long rest. You can’t use this ability if you can’t use your psychic focus.</text>
+        </feature>
+    </autolevel>
+
+    <autolevel level="8">
+        <feature>
+            <name>Ability Score Improvement</name>
+            <text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+            <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
         </feature>
         <feature optional="YES">
-            <name>Discipline: Third Eye</name>
-            <text>Prerequisite: Order of the Awakened</text>
-            <text/>
-            <text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you have blindsight with a radius of 30 feet. </text>
-            <text/>
-            <text>Tremorsense (1): As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute. </text>
-            <text/>
-            <text>Unwavering Eye (1): As a bonus action, you gain advantage on Wisdom checks for 1 minute. </text>
-            <text/>
-            <text>Truesight (5): As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</text>
+            <name>Potent Psionics (Order of the Awakened)</name>
+            <text>At 8th level, you can add your Intelligence modifier to the damage you deal with any psionic talent.</text>
         </feature>
         <feature optional="YES">
-            <name>Discipline: Celerity</name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks. </text>
-            <text/>
-            <text>Rapid Reaction (1): If you are surprised, you can spend 1 psi point to no longer be surprised. </text>
-            <text/>
-            <text>Seize the Initiative (*): When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent. </text>
-            <text/>
-            <text>Surge of Speed (1): As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn. </text>
-            <text/>
-            <text>Surge of Action (5): As a bonus action, you can spend 5 psi points and gain an additional action this turn.</text>
+            <name>Cutting Resonance (Order of the Immortal)</name>
+            <text>At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to the target. When you reach 14th level, this extra damage increases to 2d8.</text>
         </feature>
-        <feature optional="YES">
-            <name>Discipline: Iron Durability</name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>This discipline grants you unmatched toughness and resilience on the battlefield. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total. </text>
-            <text/>
-            <text>Iron Hide (*): As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack's result but before applying its effects. </text>
-            <text/>
-            <text>Iron Resistance (5): As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</text>
-        </feature>
-        <feature optional="YES">
-            <name>Discipline: Psionic Weapon </name>
-            <text>Prerequisite: Order of the Immortal</text>
-            <text/>
-            <text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks. </text>
-            <text/>
-            <text>Concentration: While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon's bonuses or the discipline's bonuses, whichever are higher. </text>
-            <text/>
-            <text>Ethereal Weapon (1): Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target's AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit. </text>
-            <text/>
-            <text>Lethal Strike (*): Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend. </text>
-            <text/>
-            <text>Augmented Weapon (5): You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</text>
+    </autolevel>
+
+	<autolevel level="10">
+        <feature>
+            <name>Consumptive Power</name>
+            <text>At 10th level, you gain the ability to sacrifice your health in exchange for psychic power. As a bonus action, you regain up to 5 psi points. For each point you choose to regain this way, your current hit points and hit point maximum are both reduced by 1 for each level you have in this class. This reduction can’t be lessened in any way.</text>
+            <text>    Once you use this feature, you can’t use it again until you finish a long rest, and the reduction to your hit point maximum lasts until you finish a long rest.</text>
         </feature>
     </autolevel>
 
 </class>
+
+<!--Mystic (UA) Spells-->
+	<spell>
+		<name>Beacon (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 bonus action</time>
+		<range>Self (20-foot radius)</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, you cause bright light to radiate from your body in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. The light lasts for 1 hour, and you can extinguish it as a bonus action.</text>
+	</spell>
+	<spell>
+		<name>Blade Meld (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>Self</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you cause one simple or martial melee weapon you are holding to dissolve into your body. This process is harmless to you and the weapon. Until the weapon reappears, it is inaccessible, as are any of its properties. You can have only one weapon at a time affected in this way. You can summon the weapon to your hand as a bonus action. It reappears in your space if you are unconscious or dead.</text>
+	</spell>
+	<spell>
+		<name>Light Step (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 bonus action</time>
+		<range>Self</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, you alter your density and weight to improve your mobility. For the rest of your turn, your walking speed increases by 10 feet, and the next time you stand up, you need to spend no more than 10 feet of movement to do so.</text>
+	</spell>
+	<spell>
+		<name>Mind Meld (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 bonus action</time>
+		<range>120 feet</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, you can communicate telepathically with one creature you can see within 120 feet of you. You don’t need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. You can allow a creature to respond to you telepathically, but it must understand at least one language in order to communicate this way. This ability to communicate lasts until the start of your next turn. You can’t communicate with an unwilling creature.</text>
+	</spell>
+	<spell>
+		<name>Mind Thrust (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>5 feet</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you blast psychic energy at one creature that you can see within 5 feet of you. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage. If the target takes any of this damage, you can push it up to 10 feet away from you.</text>
+		<text>    The talent’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
+	</spell>
+	<spell>
+		<name>Night Eyes (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>Self</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you grant yourself darkvision with a range of 30 feet. This benefit lasts for 1 hour.</text>
+	</spell>
+	<spell>
+		<name>Thought Spear (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>120 feet</range>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you psychically strike one creature that you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 1d8 psychic damage.</text>
+		<text>    The talent’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+	</spell>
+	<spell>
+		<name>Celerity (Immortal)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, your speed increases by 5 feet, and you have advantage on initiative checks. If you are surprised, you can spend 1 psi point to no longer be surprised.</text>
+		<text>Seize the Initiative (1–5 points):</text>
+		<text>When you roll initiative, you can use your reaction to give yourself or one creature you can see within 60 feet of you a +2 bonus to initiative for each psi point you spend.</text>
+		<text>Surge of Speed (2 points):</text>
+		<text>As a bonus action, you increase your speed by 30 feet until the end of your turn. In addition, you don’t provoke opportunity attacks this turn.</text>
+		<text>Surge of Action (5 points):</text>
+		<text>As a bonus action, you can gain an additional action this turn. That action can be used only to take the Attack (one attack only), Dash, Disengage, Hide, or Use an Object action.</text>
+	</spell>
+	<spell>
+		<name>Conquering Mind (Awakened)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain proficiency in one of the following skills of your choice: Deception, Intimidation, Performance, or Persuasion. You can change the chosen skill each time you apply your focus to this discipline.</text>
+		<text>Exacting Query (2 points):</text>
+		<text>As an action, you target a creature that you can see within 120 feet of you. The target must make an Intelligence saving throw (it succeeds automatically if it is immune to being charmed). On a failed save, the target truthfully answers one brief question you ask it as part of this action, provided that it understands the question. On a successful save, the target is unaffected, and you can’t use this ability on it again until you finish a long rest.</text>
+		<text>Occluded Mind (2 points):</text>
+		<text>As an action, you target a creature that you can see within 120 feet of you. The target must make an Intelligence saving throw (it succeeds automatically if it is immune to being charmed). On a failed save, the target believes one statement of your choice for the next 5 minutes, provided that it understands the statement. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected, and you can’t use this ability on it again until you finish a long rest.</text>
+		<text>Broken Will (5 points):</text>
+		<text>As an action, you target a creature that you can see within 120 feet of you. The target must make an Intelligence saving throw. On a failed save, the target is charmed until the end of its next turn, during which you choose its movement and action. On a successful save, the target is unaffected, and you can’t use this ability on that creature again until you finish a long rest.</text>
+		<text>Psychic Grip (7 points, C):</text>
+		<text>As an action, you target a creature you can see. The target must make an Intelligence saving throw. On a failed save, you overload the creature with psychic energy. The target is paralyzed for 1 minute, but at the end of each of its turns it can make another Intelligence saving throw. On a success, this effect ends. On a failure, you can use your reaction to force the target to move up to half its speed, despite being paralyzed.</text>
+	</spell>
+	<spell>
+		<name>Intellect Fortress (Awakened)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You forge an indomitable wall of psionic energy around your mind—one that allows you to launch reflexive counterattacks against your opponents.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain resistance to psychic damage.</text>
+		<text>Psychic Backlash (1 point):</text>
+		<text>As a reaction, you can impose disadvantage on one attack roll made against you if you can see the attacker. If the attack still hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</text>
+		<text>Psychic Parry (1-3 points):</text>
+		<text>As a reaction when you make an Intelligence, a Wisdom, or a Charisma saving throw, you gain a +2 bonus to that saving throw for each psi point you spend. You can use this ability after rolling the die but before applying the result.</text>
+		<text>Psychic Redoubt (5 points, C):</text>
+		<text>As an action, you create a field of protective psychic energy. For the next 10 minutes, you and creatures of your choice gain the following benefits while within 30 feet of you: resistance to psychic damage and advantage on Intelligence, Wisdom, and Charisma saving throws.</text>
+	</spell>
+	<spell>
+		<name>Iron Durability (Immortal)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>This discipline grants you unmatched toughness and resilience on the battlefield.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain a +1 bonus to AC.</text>
+		<text>Psionic Recovery (2 points):</text>
+		<text>As an action, you can spend up to two Hit Dice. Roll each die, add your Constitution modifier to it, and regain hit points equal to the total.</text>
+		<text>Iron Hide (1-3 points):</text>
+		<text>As a reaction when you are attacked, you gain a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack’s result but before applying its effects.</text>
+	</spell>
+	<spell>
+		<name>Mind Vault (Awakened)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>Your mind forms a light but useful link to other living things within hundreds of miles. This link allows you to draw on the knowledge of others in the following ways.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain proficiency with one skill, weapon, shield, armor, or tool of your choice. Each time you focus on this discipline, you can choose a different skill, weapon, shield, armor, or tool.</text>
+		<text>Borrow Expertise (2 points):</text>
+		<text>As a bonus action, you gain advantage on one skill check or saving throw of your choice that you make before the end of your next turn. You must opt to gain the advantage before rolling.</text>
+		<text>Borrow Language (5 points):</text>
+		<text>As an action, you gain the ability to speak, read, and understand one language for 8 hours. You can use this ability multiple times to gain its benefits with several languages.</text>
+		<text>Borrow Lore (7 points):</text>
+		<text>As an action, name one specific location in your mind. You learn a summary of the important lore regarding that place. At the DM’s option, you also learn up to three secrets about it, such as the location of traps, passwords, or where treasure is hidden within it.</text>
+	</spell>
+	<spell>
+		<name>Psionic Restoration (Awakened)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You wield psionic energy to cure wounds and restore health to yourself and others.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you can use a bonus action to touch a living creature that has 0 hit points and automatically stabilize it.</text>
+		<text>Mend Wounds (1-7 points):</text>
+		<text>As an action, you can restore hit points to a creature you touch. The creature regains 3 hit points per psi point you spend.</text>
+		<text>Restore Health (3 points):</text>
+		<text>As an action, you can touch a creature and remove one of the following conditions from it: blinded, deafened, paralyzed, or poisoned.</text>
+		<text>Restore Vigor (7 points):</text>
+		<text>As an action, you can touch a creature and choose one of the following: remove any reductions to one of its ability scores or remove one effect that reduces its hit point maximum.</text>
+	</spell>
+	<spell>
+		<name>Psionic Weapon (Immortal)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You channel psionic energy to lend devastating power to your attacks.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you charge one nonmagical weapon you carry, or one of your fists, with psionic energy. Attacks you make with it are considered magical and have a +1 bonus to attack rolls and damage rolls.</text>
+		<text>Ethereal Weapon (1 point):</text>
+		<text>As a bonus action, you can momentarily transform a weapon you hold into psionic energy. The next attack you make with this weapon requires no attack roll. Instead, the target must make a Dexterity saving throw against this discipline. On a failed save, the target takes the attack’s normal damage and suffers any additional effects. On a successful save, the target takes half damage from the attack, but suffers no additional effects that would normally be imposed on a hit.</text>
+		<text>Lethal Strike (1-5 points):</text>
+		<text>When you hit a target with a melee weapon attack, you can increase the damage to that target. The target takes an extra 1d10 psychic damage for each psi point you spend.</text>
+		<text>Augmented Weapon (5 points, C):</text>
+		<text>As a bonus action, you touch one nonmagical weapon and infuse it with psionic energy. For up to 10 minutes, it is a magic weapon with a +3 bonus to attack rolls and damage rolls.</text>
+	</spell>
+	<spell>
+		<name>Third Eye (Awakened)</name>
+		<level>1</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>This discipline can open a third eye within your mind, opening your doors of perception.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have blindsight with a radius of 30 feet.</text>
+		<text>Tremorsense (1 point, C):</text>
+		<text>As a bonus action, you gain tremorsense with a radius of 30 feet for up to 1 minute.</text>
+		<text>Unwavering Eye (1 point, C):</text>
+		<text>As a bonus action, you gain advantage on Wisdom checks for up to 1 minute.</text>
+		<text>Truesight (5 points, C):</text>
+		<text>As a bonus action, you gain truesight with a radius of 30 feet for up to 1 minute.</text>
+	</spell>
+	<spell>
+		<name>Adaptive Body (Immortal)</name>
+		<level>2</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You can alter your body to withstand punishing environments.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you don’t need to eat, sleep, or breathe.</text>
+		<text>Energy Adaptation (5 points, C):</text>
+		<text>As an action, you touch a creature and give it resistance to acid, cold, fire, lightning, or thunder damage for up to 1 hour.</text>
+		<text>Energy Immunity (7 points, C):</text>
+		<text>As an action, you touch a creature and give it immunity to acid, cold, fire, lightning, or thunder damage for up to 1 hour.</text>
+	</spell>
+	<spell>
+		<name>Body of Wind (Immortal)</name>
+		<level>2</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You and your possessions take on a gaseous quality, allowing you to move like a howling gale, squeeze through small spaces, and escape danger. You move with the lightest steps using this discipline.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you take no falling damage and ignore difficult terrain.</text>
+		<text>Wind Step (1-7 points):</text>
+		<text>As your move, you can fly up to 20 feet for each psi point you spend. You must land at the end of this movement, otherwise you fall, unless you have some means of staying aloft.</text>
+		<text>Wind Form (5 points, C):</text>
+		<text>As an action, you gain a flying speed of 60 feet for 10 minutes.</text>
+		<text>Misty Form (7 points, C):</text>
+		<text>As an action, your body becomes mist-like. In this form, you gain resistance to bludgeoning, piercing, and slashing damage. You can pass through openings that are no more than an inch wide. This benefit lasts for up to 1 hour.</text>
+	</spell>
+	<spell>
+		<name>Mind over Emotion (Awakened)</name>
+		<level>2</level>
+		<components>N/A</components>
+		<duration>Instantaneous, unless "C"</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You learn to use psionic energy to manipulate others with a subtle combination of psi and your own, natural charm.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain a bonus to Charisma checks. The bonus equals half your Intelligence modifier (minimum bonus of +1).</text>
+		<text>Charming Presence (1-7 points):</text>
+		<text>As an action, you exert an aura of sympathetic power. Roll 2d8 per psi point you spend on this ability; the total is how many hit points worth of creatures this spell can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximum, ignoring unconscious creatures or creatures immune to this effect. Each creature affected by this ability is charmed by you for 10 minutes. While charmed, it regards you as a friendly acquaintance. A creature engaged in combat is immune to this effect.</text>
+		<text>Revolting Presence (5 points, C):</text>
+		<text>As an action, you exert an aura of repulsive power. Up to five creatures of your choice that you can see within 30 feet of you must each make an Intelligence saving throw. On a failed save, a target is frightened of you for 10 minutes. While frightened, it takes psychic damage equal to twice your mystic level if it doesn’t end its turn at least 10 feet farther away from you than it was at the start of that turn. It can then make another Intelligence saving throw at the end of the turn. On a success, this effect ends.</text>
+		<text>Invoke Awe (7 points, C):</text>
+		<text>As an action, you exert an aura that inspires awe and adulation in others. Up to five creatures of your choice that you can see within 60 feet of you must each make an Intelligence saving throw. On a failed save, the target is charmed by you for 10 minutes. While charmed, it obeys all your orders to the best of its ability and without risking its life. The target will only harm creatures that it has seen harm you since it first came under the effect of this ability. At the end of each of its turns it can make another Intelligence saving throw. On a success, this effect ends.</text>
+	</spell>
 
 	<class>
 		<name>Paladin</name>
@@ -3802,7 +3928,7 @@
 			<feature>
 				<name>Favored Enemy</name>
 				<text>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.</text>
-				<text>    Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orc s) as favored enemies.</text>
+				<text>    Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.</text>
 				<text>    You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</text>
 				<text>    When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.</text>
 				<text>    You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</text>
@@ -3883,7 +4009,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Ranger Archetype: Hunter</name>
-				<text>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orc s to towering giants and terrifying dragons.</text>
+				<text>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Ranger Archetype: Beast Master</name>
@@ -4148,7 +4274,7 @@
 			<feature>
 				<name>Favored Enemy</name>
 				<text>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.</text>
-				<text>    Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orc s) as favored enemies.</text>
+				<text>    Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.</text>
 				<text>    You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</text>
 				<text>    When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.</text>
 				<text>    You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</text>
@@ -4284,7 +4410,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>Ranger Archetype: Hunter</name>
-				<text>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orc s to towering giants and terrifying dragons.</text>
+				<text>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Hunter: Hunter's Prey</name>
@@ -4912,7 +5038,7 @@
 				<text>Spells Known of 1st-Level and Higher</text>
 				<text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.</text>
 				<text>    The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</text>
-				<text>    The spells you learn at 8th, 14th, and 20th level can come fram any school of magic.</text>
+				<text>    The spells you learn at 8th, 14th, and 20th level can come from any school of magic.</text>
 				<text>    Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.</text>
 				<text />
 				<text>Spellcasting Ability</text>
@@ -5012,7 +5138,7 @@
 				<name>Swashbuckler: Panache</name>
 				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
 				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
-				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
+				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Thief: Supreme Sneak</name>
@@ -5049,7 +5175,7 @@
 				<text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Assassin: Imposter</name>
+				<name>Assassin: Impostor</name>
 				<text>At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.</text>
 				<text>    Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</text>
 			</feature>
@@ -5539,7 +5665,7 @@
 				<text>• It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
 				<text>• At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
 				<text />
-				<text>    The hound appears in an unoccupied space of your choice within 30 feer of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
+				<text>    The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
 			</feature>
 		</autolevel>
 
@@ -5959,7 +6085,7 @@
 			</feature>
 			<feature optional="YES">
 				<name>The Undying: Defy Death</name>
-				<text>Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you satbilize a creature with spare the dying.</text>
+				<text>Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with spare the dying.</text>
 				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
 			</feature>
 			<feature optional="YES">
