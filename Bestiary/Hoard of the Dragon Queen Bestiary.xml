@@ -32,7 +32,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
 			<attack>Bite|4|1d6+1</attack>
 		</action>
 	</monster>
@@ -78,7 +78,7 @@
 		</trait>
 		<action>
 			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 5 (1d4 + 3) piercing damage.</text>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
 			<attack>Dagger|5|1d4+3</attack>
 		</action>
 		<spells>mage hand, prestidigitation, ray of frost, shocking grasp, fog cloud, magic missile, shield, thunderwave, invisibility, misty step, scorching ray, counterspell, dispel magic, fireball</spells>
@@ -127,7 +127,7 @@
 		</action>
 		<action>
 			<name>Morningstar</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit 21 (3d8 + 8) piercing damage.</text>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.</text>
 			<attack>Morningstar|10|3d8+8</attack>
 		</action>
 		<spells>fog cloud, levitate, light, mage hand, prestidigitation, detect magic, identify, magic missile, shield, gust of wind, misty step, shatter, fly, lightning bolt</spells>
@@ -310,13 +310,13 @@
 		</action>
 		<action>
 			<name>Longsword</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 8 (1d8 + 4) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
 			<attack>One Handed|6|1d8+4</attack>
 			<attack>Two Handed|6|1d10+4</attack>
 		</action>
 		<action>
 			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit 6 (1d4 + 4) piercing damage.</text>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</text>
 			<attack>Dagger|6|1d4+4</attack>
 		</action>
 		<spells>fire bolt, prestidigitation, shocking grasp, longstrider, magic missile, shield, thunderwave, magic weapon, misty step</spells>
@@ -436,8 +436,9 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3 plus 1d6) piercing damage if the target is Medium or larger.</text>
-			<attack>Shortsword|5|1d6+3+1d6</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+			<attack>Shortsword vs medium or larger|5|1d6+3+1d6</attack>
 		</action>
 		<spells>mage hand, minor illusion, prestidigitation, ray of frost, charm person, color spray, disguise self, longstrider</spells>
 	</monster>
@@ -542,7 +543,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Bite|5|1d4+2</attack>
 		</action>
 		<action>
