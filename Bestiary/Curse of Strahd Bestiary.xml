@@ -275,7 +275,7 @@
 		<action>
 			<name>Handaxe +1</name>
 			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 6 (1d6+3) slashing damage.</text>
-			<attack>Hand Axe|8|1d6+3</attack>
+			<attack>Hand Axe|6|1d6+3</attack>
 		</action>
 		<action>
 			<name>Silvered Shortsword</name>
@@ -378,6 +378,7 @@
 		<action>
 			<name>Hurl Flame</name>
 			<text>Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it catches fire.</text>
+			<attack>Flame|5|3d6</attack>
 		</action>
 		<spells></spells>
 	</monster>
@@ -764,10 +765,12 @@
 		<action>
 			<name>Greatsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage plus 3 (1d6) lightning damage.</text>
+			<attack>|6|2d6+3+1d6</attack>
 		</action>
 		<action>
 			<name>Shocking Bolt</name>
 			<text>Ranged Spell Attack: +4 to hit (with advantage on the attack roll if the target is wearing armor made of metal), range 60 ft., one target. Hit: 10 (3d6) lightning damage.</text>
+			<attack>|4|3d6</attack>
 		</action>
 		<spells></spells>
 	</monster>
@@ -849,10 +852,12 @@
 		<action>
 			<name>Unarmed Strike (Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8+4) bludgeoning damage, plus 14 (4d6) necrotic damage. If the target is a creature, Strahd can grapple it (escape DC 18) instead of dealing the bludgeoning damage.</text>
+			<attack>|9|1d8+4+4d6</attack>
 		</action>
 		<action>
 			<name>Bite (Bat or Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by Strahd, incapacitated, or restrained. Hit: 7 (1d6+4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Strahd regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if  its hit point maximum is reduced to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under Strahd's control.</text>
+			<attack>|9|1d6+4+3d6</attack>
 		</action>
 		<action>
 			<name>Charm</name>
@@ -986,7 +991,7 @@
 		<action>
 			<name>Grasping Root</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 15 ft., one creature not grappled by the blight. Hit: the target is grappled (escape DC 15). Until the grapple ends, the target takes 9 (1d6+6) bludgeoning damage at the start of each of its turns. The root has AC 15 and can be severed by dealing 6 slashing damage or more to it at once. Cutting the root doesn't hurt the blight but ends the grapple.</text>
-			<attack>Grasping Root|9|</attack>
+			<attack>Grasping Root|9|1d6+6</attack>
 		</action>
 		<spells></spells>
 	</monster>
