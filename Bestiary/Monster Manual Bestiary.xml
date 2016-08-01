@@ -1057,7 +1057,7 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack:+ 15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 9 (2d8) acid damage.</text>
+			<text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 9 (2d8) acid damage.</text>
 			<attack>Bite|15|2d10+8+2d8</attack>
 		</action>
 		<action>
@@ -1267,7 +1267,7 @@
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage.</text>
-			<attack>Claw|16|1d6+9</attack>
+			<attack>Claw|16|2d6+9</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -1490,7 +1490,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage.</text>
-			<attack>Bite|15|2d10+9+3d6</attack>
+			<attack>Bite|15|2d10+8+3d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -2141,7 +2141,7 @@
 		</trait>
 		<action>
 			<name>Rake</name>
-			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 — 1) slashing damage.</text>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) slashing damage.</text>
 			<attack>|1|1d4-1</attack>
 		</action>
 	</monster>
@@ -2257,7 +2257,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 — 1) piercing damage.</text>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</text>
 			<attack>Bite|1|1d4-1</attack>
 		</action>
 	</monster>
@@ -2635,7 +2635,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
-			<attack>Bite||1</attack>
+			<attack>Bite|0|1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2914,7 +2914,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage.</text>
-			<attack>Bite|4|1d10+2</attack>
+			<attack>Bite|4|1d10+2+1d4</attack>
 		</action>
 		<action>
 			<name>Acid Breath (Recharge 5-6)</name>
@@ -3183,7 +3183,7 @@
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success .</text>
-			<attack>Sting|8|2d8+4</attack>
+			<attack>Sting|8|2d8+4+5d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3234,7 +3234,7 @@
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success .</text>
-			<attack>Sting|8|2d8+4</attack>
+			<attack>Sting|8|2d8+4+5d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3496,7 +3496,7 @@
 		<action>
 			<name>Morningstar</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 3) piercing damage.</text>
-			<attack>Morningstar|5|2d8+32</attack>
+			<attack>Morningstar|5|2d8+3</attack>
 		</action>
 		<action>
 			<name>Javelin</name>
@@ -3624,8 +3624,8 @@
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft ., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
-			<attack>One Handed|7|1d6+4</attack>
-			<attack>Two Handed|7|1d8+4</attack>
+			<attack>One Handed|7|1d6+4+1d6</attack>
+			<attack>Two Handed|7|1d8+4+1d6</attack>
 		</action>
 		<action>
 			<name>Fire Ray</name>
@@ -5066,7 +5066,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.</text>
-			<attack>Tentacle|6|1d6+4</attack>
+			<attack>Tentacle|6|1d6+4+1d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -5343,7 +5343,7 @@
 		<action>
 			<name>Longbow</name>
 			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.</text>
-			<attack>Longbow|6|1d8+3</attack>
+			<attack>Longbow|6|1d8+3+1d8</attack>
 		</action>
 		<spells>dancing lights, darkness, faerie fire</spells>
 	</monster>
@@ -5416,7 +5416,7 @@
 		<action>
 			<name>Longbow</name>
 			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.</text>
-			<attack>Longbow|6|1d8+3</attack>
+			<attack>Longbow|6|1d8+3+1d8</attack>
 		</action>
 		<spells>dancing lights, darkness, faerie fire, poison spray, thaumaturgy, bane, detect magic, sanctuary, hold person, silence, clairvoyance, dispel magic, divination, freedom of movement</spells>
 	</monster>
@@ -6198,7 +6198,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>|4|1d8+2+1d8</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -6994,7 +6994,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</text>
-			<attack>Bite|6|1</attack>
+			<attack>Bite|6|1+3d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -7746,7 +7746,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 — 1) slashing damage.</text>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.</text>
 			<attack>Bite|1|1d6-1</attack>
 		</action>
 	</monster>
@@ -7859,7 +7859,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</text>
-			<attack>Bite|5|1d6+3</attack>
+			<attack>Bite|5|2d6+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -8208,7 +8208,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.</text>
-			<attack>Bite|4|1d10+2</attack>
+			<attack>Bite|4|1d10+2+1d10</attack>
 		</action>
 		<action>
 			<name>Swallow</name>
@@ -8744,7 +8744,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.</text>
-			<attack>Bite|5|1d10+3</attack>
+			<attack>Bite|5|1d4+3</attack>
 		</action>
 		<action>
 			<name>Glaive</name>
@@ -8995,7 +8995,7 @@
 		</action>
 		<action>
 			<name>Hoof</name>
-			<text>Melee Weapon Attack:+ 13 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.</text>
 			<attack>Hoof|13|3d10+7</attack>
 		</action>
 		<action>
@@ -9040,7 +9040,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>|3|1d6+1+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -9079,7 +9079,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>|3|1d6+1+2d6</attack>
 		</action>
 		<action>
 			<name>Psychic Crush (Recharge 5-6)</name>
@@ -9187,7 +9187,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 3 (1d6) poison damage.</text>
-			<attack>Bite|4|1d10+3+1d6</attack>
+			<attack>Bite|4|1d10+2+1d6</attack>
 		</action>
 		<action>
 			<name>Poison Breath (Recharge 5-6)</name>
@@ -9528,7 +9528,7 @@
 		<action>
 			<name>Spiked Bone Club</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.</text>
-			<attack>Spiked Bone Club|5|1d4+5+1d4</attack>
+			<attack>Spiked Bone Club|5|1d4+3+1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -9842,7 +9842,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage.</text>
-			<attack>|5|1d8+3</attack>
+			<attack>|5|1d8+3+2d6</attack>
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 5-6)</name>
@@ -10516,7 +10516,7 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</text>
-			<attack>Claws|3|1d4+1</attack>
+			<attack>Claws|3|1d4+1+1d4</attack>
 		</action>
 		<action>
 			<name>Frost Breath (Recharge 6)</name>
@@ -10743,7 +10743,7 @@
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 — 1) piercing damage.</text>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</text>
 			<attack>Bite|1|1d4-1</attack>
 		</action>
 	</monster>
@@ -11463,7 +11463,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
-			<attack>Bite||1</attack>
+			<attack>Bite|0|1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -11606,8 +11606,7 @@
 		</action>
 		<action>
 			<name>Claws (Lizardfolk Form Only)</name>
-			<text>Melee Weapon Attack: +4 to hit</text>
-			<text>reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
 			<attack>Claws|4|1d4+2</attack>
 		</action>
 		<action>
@@ -11691,7 +11690,7 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft ., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
-			<attack>Claws|3|1d4+1</attack>
+			<attack>Claws|3|1d4+1+1d4</attack>
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 6)</name>
@@ -12022,7 +12021,7 @@
 		<action>
 			<name>Snake Hair</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
-			<attack>|5|1d4+2</attack>
+			<attack>|5|1d4+2+4d6</attack>
 		</action>
 		<action>
 			<name>Shortsword</name>
@@ -12032,7 +12031,7 @@
 		<action>
 			<name>Longbow</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|2d6</attack>
+			<attack>|5|1d8+2+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -12249,7 +12248,7 @@
 		</trait>
 		<action>
 			<name>Tentacles</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2dl0 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
 			<attack>Tentacles|7|2d10+4</attack>
 		</action>
 		<action>
@@ -12308,7 +12307,7 @@
 		</trait>
 		<action>
 			<name>Tentacles</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2dl0 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</text>
 			<attack>Tentacles|7|2d10+4</attack>
 		</action>
 		<action>
@@ -12542,7 +12541,7 @@
 		<action>
 			<name>Rotting Fist</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.</text>
-			<attack>Rotting Fist|5|2d6+3</attack>
+			<attack>Rotting Fist|5|2d6+3+3d6</attack>
 		</action>
 		<action>
 			<name>Dreadful Glare</name>
@@ -13116,7 +13115,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage.</text>
-			<attack>|4|2d6+2</attack>
+			<attack>|4|2d6+2+1d6</attack>
 		</action>
 		<reaction>
 			<name>Split</name>
@@ -13433,7 +13432,7 @@
 		</action>
 		<action>
 			<name>Greataxe</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1dl2 + 4) slashing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.</text>
 			<attack>Greataxe|6|1d12+4</attack>
 		</action>
 		<action>
@@ -13477,7 +13476,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has two tentacles, each of which can grapple one target.</text>
-			<attack>|6|1d8+3</attack>
+			<attack>|6|1d8+3+1d8</attack>
 		</action>
 		<action>
 			<name>Tentacle Slam</name>
@@ -13810,30 +13809,30 @@
 			<text>At will: detect magic, fireball</text>
 			<text>3/day each: hold monster, wall of fire</text>
 		</trait>
-    <action>
-      <name>Multiattack</name>
-      <text>The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.</text>
-    </action>
-    <action>
-      <name>Bite</name>
-      <text>Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-      <attack>Bite|14|4d6+8</attack>
-    </action>
-    <action>
-      <name>Claw</name>
-      <text>Melee Weapon Attack: +14 to hit, reach 10 ft. , one target. Hit: 17 (2d8 + 8) slashing damage.</text>
-      <attack>Claw|14|2d8+8</attack>
-    </action>
-    <action>
-      <name>Mace</name>
-      <text>Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage.</text>
-      <attack>Mace|14|2d6+8</attack>
-    </action>
-    <action>
-      <name>Tail</name>
-      <text>Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 24 (3d1O + 8) bludgeoning damage.</text>
-      <attack>Tail|14|3d10+8</attack>
-    </action>
+		<action>
+			<name>Multiattack</name>
+			<text>The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Bite|14|4d6+8</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10 ft. , one target. Hit: 17 (2d8 + 8) slashing damage.</text>
+			<attack>Claw|14|2d8+8</attack>
+		</action>
+		<action>
+			<name>Mace</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage.</text>
+			<attack>Mace|14|2d6+8+6d6</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage.</text>
+			<attack>Tail|14|3d10+8</attack>
+		</action>
 		<spells>detect magic, fireball, hold monster, wall of fire</spells>
 	</monster>
 	<monster>
@@ -14048,8 +14047,7 @@
 		</trait>
 		<action>
 			<name>Forceful Slam</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft.</text>
-			<text>one creature. Hit: 10 (3d6) force damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft. one creature. Hit: 10 (3d6) force damage.</text>
 			<attack>Slam|4|3d6</attack>
 		</action>
 		<action>
@@ -14529,7 +14527,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
-			<attack>Bite||1</attack>
+			<attack>Bite|0|1</attack>
 		</action>
 	</monster>
 	<monster>
@@ -15204,7 +15202,7 @@
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
-			<attack>Spear|7|2d6+4</attack>
+			<attack>Spear|7|2d6+4+1d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -15876,7 +15874,7 @@
 		<cr>3</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 — 1) piercing damage.</text>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) piercing damage.</text>
 			<attack>|1|1d6-1</attack>
 		</action>
 		<action>
@@ -16178,7 +16176,7 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
-			<attack>Claws|2|2d4</attack>
+			<attack>Claws|2|1d4+1d4</attack>
 		</action>
 		<action>
 			<name>Steam Breath (Recharge 6)</name>
@@ -17638,7 +17636,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
-			<attack>|61|</attack>
+			<attack>|6|1d6+3+2d6</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -18895,7 +18893,7 @@
 		</action>
 		<action>
 			<name>Slam (Bite in Spider Form)</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft. (10 ft. in demon form}, one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage plus 21 (6d6) poison damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft. (10 ft. in demon form), one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage plus 21 (6d6) poison damage.</text>
 			<attack>Slam/Bite|6|1d6+2+6d6</attack>
 		</action>
 		<action>
@@ -19549,7 +19547,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|1d4+3</attack>
+			<attack>|5|1d4+3+2d6</attack>
 		</action>
 		<action>
 			<name>Scimitar (Yuan_ti Form Only)</name>
@@ -19559,7 +19557,7 @@
 		<action>
 			<name>Longbow (Yuan_ti Form Only)</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>|4|1d8+2+2d6</attack>
 		</action>
 		<spells>animal friendship, suggestion</spells>
 	</monster>
@@ -19669,7 +19667,7 @@
 		<action>
 			<name>Bite (Snake Form Only)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|1d4+3</attack>
+			<attack>|5|1d4+3+2d6</attack>
 		</action>
 		<action>
 			<name>Constrict</name>
@@ -19732,7 +19730,7 @@
 		<action>
 			<name>Shortbow</name>
 			<text>Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>|3|1d6+1+2d6</attack>
 		</action>
 		<spells>animal friendship, poison spray, suggestion</spells>
 	</monster>

@@ -460,8 +460,8 @@
 		<action>
 			<name>Soulblade</name>
 			<text>Melee Weapon Attackk: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.</text>
-			<attack>Soulblade|6|1d6+3</attack>
-			<attack>Enlarged|6|2d6+3</attack>
+			<attack>Soulblade|5|1d6+3</attack>
+			<attack>Enlarged|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
@@ -550,9 +550,9 @@
 		</action>
 		<action>
 			<name>Fire Lance</name>
-			<text>Melee Weapon Attack: +5 to hit (with ddisadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 3 (1d6) fire damage, or 16 (2d12 + 3) piercing damage plus 3 (1d6) fire damage while enlarged.</text>
-			<attack>Fire Lancek|5|1d12+3</attack>
-			<attack>Enlarged|5|2d12+3</attack>
+			<text>Melee Weapon Attack: +5 to hit (with disadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 3 (1d6) fire damage, or 16 (2d12 + 3) piercing damage plus 3 (1d6) fire damage while enlarged.</text>
+			<attack>Fire Lancek|5|1d12+3+1d6</attack>
+			<attack>Enlarged|5|2d12+3+1d6</attack>
 		</action>
 		<action>
 			<name>Fire Spray (Recharge 5-6)</name>
@@ -590,7 +590,7 @@
 		<action>
 			<name>Pincer</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (Escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures grappled.</text>
-			<attack>Pincer|7|2d6+4</attack>
+			<attack>Pincer|6|2d6+4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -832,7 +832,7 @@
 		</action>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: =5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
 			<attack>|5|2d6+3</attack>
 		</action>
 		<action>
@@ -1168,8 +1168,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.</text>
-			<attack>|3|3d4+1</attack>
-			<attack>||3d4</attack>
+			<attack>|3|3d4+1+3d4</attack>
 		</action>
 		<action>
 			<name>Caustic Spores (1/Day)</name>
@@ -1344,7 +1343,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
-			<attack>|17|4d6+10</attack>
+			<attack>|17|4d12+9</attack>
 		</action>
 		<action>
 			<name>Gaze</name>
@@ -1678,7 +1677,7 @@
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage plus 18 (4d8) poison damage.</text>
-			<attack>|17|30d8+8+4d8</attack>
+			<attack>|17|3d8+8+4d8</attack>
 		</action>
 		<legendary>
 			<name/>
@@ -1830,7 +1829,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 9 (2d8) poison damage.</text>
-			<attack>|16|2d8+6+2d8</attack>
+			<attack>|13|2d8+6+2d8</attack>
 		</action>
 		<action>
 			<name>Infestation Spores (3/Day)</name>
