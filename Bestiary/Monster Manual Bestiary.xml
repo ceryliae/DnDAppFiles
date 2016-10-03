@@ -4132,6 +4132,14 @@
 			<text>3/day each: feather fall, fly, misty step, telekinesis</text>
 			<text>1/day each: control weather, gaseous form</text>
 		</trait>
+        <action>
+            <name>Fling</name>
+            <text>The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 1d8 bludgeoning damage for every 10 feet it was thrown.</text>
+        </action>
+        <action>
+            <name>Wind Aura</name>
+            <text>A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical.</text>
+        </action>
 		<action>
 			<name>Multiattack</name>
 			<text>The giant makes two morningstar attacks.</text>
@@ -7117,6 +7125,11 @@
 		<passive>13</passive>
 		<languages>Giant</languages>
 		<cr>8</cr>
+        <action>
+            <name>Weighted Net</name>
+            <text>Ranged Weapon Attack: +5 to hit, ranged 20/60 ft., one Small, Medium, or Large creature. Hit: The target is restrained until it escapes the net. Any creature can use its action to make a DC 17 Strength check to free itself or another creature in the net, ending the effect on a success. Dealing 15 slashing damage to the net (AC 12) destroys the net and frees the target.</text>
+            <attack>|5|</attack>
+        </action>
 		<action>
 			<name>Multiattack</name>
 			<text>The giant makes two greataxe attacks.</text>
@@ -9959,6 +9972,11 @@
 		<passive>12</passive>
 		<languages>Giant</languages>
 		<cr>5</cr>
+        <action>
+            <name>Squash</name>
+            <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one Medium or Smaller creature. Hit: 26 (6d6 + 5) bludgeoning damage, the giant lands prone in the target's space, and the target is grappled (escape DC 15). Until this grapple ends, the target is prone. The grapple ends early if the giant stands up.</text>
+            <attack>|8|6d6+5</attack>
+        </action>
 		<action>
 			<name>Multiattack</name>
 			<text>The giant makes two greatclub attacks.</text>
@@ -16236,6 +16254,15 @@
 			<name>Stone Camouflage</name>
 			<text>The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
 		</trait>
+        <action>
+            <name>Fling</name>
+            <text>The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 17 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice. and land prone, taking 1d6 bludgeoning damage for every 10 feet it was thrown. </text>
+        </action>
+        <action>
+            <name>Rolling Rock</name>
+            <text>The giant sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 17 Dexterity saving throw, taking 22 (3d10 + 6) bludgeoning damage and falling prone on a failed save</text>
+            <attack>||3d10+6</attack>
+        </action>
 		<action>
 			<name>Multiattack</name>
 			<text>The giant makes two greatclub attacks.</text>
@@ -16382,6 +16409,11 @@
 			<name>Shapechanger</name>
 			<text>The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
 		</trait>
+        <action>
+            <name>Thunderous Stomp (Recharge 6)</name>
+            <text>The storm giant stomps the ground, triggering a thunderclap. All other creatures within 15 feet of the giant must succeed on a DC 17 Constitution saving throw or take 33 (6d10) thunder damage and be deafened until the start of the giant's next turn. On a successful save, a creature takes half as much damage and isn't deafened. The thunderclap can be heard out to a range of 1,200 feet.</text>
+            <attack>||6d10</attack>
+        </action>
 		<action>
 			<name>Claw (Fiend Form Only)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
