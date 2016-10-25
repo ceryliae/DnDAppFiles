@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+    <monster>
+        <name>Crag Cat</name>
+        <size>L</size>
+        <type>beast, storm kings thunder</type>
+        <alignment>unaligned</alignment>
+        <ac>13</ac>
+        <hp>34 (4d10+12)</hp>
+        <speed>40 ft.</speed>
+        <str>16</str>
+        <dex>17</dex>
+        <con>16</con>
+        <int>4</int>
+        <wis>14</wis>
+        <cha>8</cha>
+        <skill>Stealth +7</skill>
+        <skill>Perception +4</skill>
+        <senses>darkvision 60 ft.</senses>
+        <passive>14</passive>
+        <languages>--</languages>
+        <cr>1</cr>
+        <trait>
+            <name>Nondetection</name>
+            <text>The cat cannot be targeted or detected by any divination magic or perceived through magical scrying sensors.</text>
+        </trait>
+        <trait>
+            <name>Pounce</name>
+            <text>If the cat moves at least 20 feet straight toward a creature then hits it with a claw attack on the same turn, that target must succeed on a DC13 Strength saving throw or be knocked prone.  If the target is prone, the cat can make one bite attack against it as a bonus action.</text>
+        </trait>
+        <trait>
+            <name>Spell Turning</name>
+            <text>The cat has advantage on saving throws against any spell that tagets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead tagets the caster.</text>
+        </trait>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage.</text>
+            <attack>Bite|5|1d10+3</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage.</text>
+            <attack>Claw|5|1d8+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Hulking Crab</name>
+        <size>H</size>
+        <type>beast, storm kings thunder</type>
+        <alignment>unaligned</alignment>
+        <ac>17 (natural armor)</ac>
+        <hp>76 (8d12+24)</hp>
+        <speed>20 ft., swim 30 ft.</speed>
+        <str>19</str>
+        <dex>8</dex>
+        <con>16</con>
+        <int>3</int>
+        <wis>11</wis>
+        <cha>3</cha>
+        <skill>Stealth +2</skill>
+        <senses>blindsight 30 ft.</senses>
+        <passive>10</passive>
+        <languages>--</languages>
+        <cr>5</cr>
+        <trait>
+            <name>Amphibious</name>
+            <text>The crab can breathe air and water.</text>
+        </trait>
+        <trait>
+            <name>Shell Camouflage</name>
+            <text>While the crab remains motionless with it's eyestalks and pincers tucked close to it's body, it resembles a natural formation or a pile of detritus. A creature within 30 feet of it can discren its true nature with a successful DC 15 intelligence (Nature) check.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The aboleth makes three tentacle attacks.</text>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (3d10+4) bludgeoning damage, and the target is grappled (escape DC 15). The crab has two claws, each of which can grapple only one target</text>
+            <attack>Claw|7|3d10+4</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Iymrith, Ancient Blue Dragon</name>
+        <size>G</size>
+        <type>dragon, monster manual</type>
+        <alignment>lawful evil</alignment>
+        <ac>22 (natural armor)</ac>
+        <hp>481 (26d20+208)</hp>
+        <speed>40 ft., burrow 40 ft., fly 80 ft.</speed>
+        <str>29</str>
+        <dex>10</dex>
+        <con>27</con>
+        <int>18</int>
+        <wis>17</wis>
+        <cha>21</cha>
+        <save>Dex +7, Con +15, Wis +10, Cha +12</save>
+        <skill>Perception +17, Stealth +7</skill>
+        <immune>lightning</immune>
+        <senses>blindsight 60 ft., darkvision 120 ft.</senses>
+        <passive>27</passive>
+        <languages>Common, Draconic, Giant, Terran</languages>
+        <cr>23</cr>
+        <trait>
+            <name>Innate Spellcasting</name>
+            <text>Iymrith's innate spellcasting ability is Charisma (spell save DC 20).  Iymrith's stone shape can create a living gargoyle instead of altering the stone as described in the spell description. She can innately cast the following spells, requiring no material components: </text>
+            <text />
+            <text>1/day: counterspell, detect magic, ice storm, stone shape, teleport</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 11 (2d10) lightning damage.</text>
+            <attack>Bite|16|2d10+9+2d10</attack>
+        </action>
+        <action>
+            <name>Claw</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage.</text>
+            <attack>Claw|16|2d6+9</attack>
+        </action>
+        <action>
+            <name>Tail</name>
+            <text>Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage.</text>
+            <attack>Tail|16|2d8+9</attack>
+        </action>
+        <action>
+            <name>Frightful Presence</name>
+            <text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</text>
+        </action>
+        <action>
+            <name>Lightning Breath (Recharge 5-6)</name>
+            <text>The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Lightning Breath||16d10</attack>
+        </action>
+        <action>
+            <name>Change Shape</name>
+            <text>Iymrith magically polymorphs into a female storm giant or back into her true form. She reverts to her true form if she dies. Any equipment she is wearing or carrying is absorbed or borne by the new form (the dragon's choice).</text>
+            <text>In storm giant form, Iymrith retains her alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Her statistics are otherwise replaced by those of the new form.</text>
+        </action>
+        <legendary>
+            <name>Detect</name>
+            <text>The dragon makes a Wisdom (Perception) check.</text>
+        </legendary>
+        <legendary>
+            <name>Tail Attack</name>
+            <text>The dragon makes a tail attack.</text>
+        </legendary>
+        <legendary>
+            <name>Wing Attack (Costs 2 Actions)</name>
+            <text>The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</text>
+        </legendary>
+    <spells>counterspell, detect magic, ice storm, stone shape, teleport</spells>
+    </monster>
+    <monster>
+        <name>Maegera the Dawn Titan</name>
+        <size>G</size>
+        <type>elemental, storm kings thunder</type>
+        <alignment>chaotic evil</alignment>
+        <ac>16</ac>
+        <hp>341 (22d20+110)</hp>
+        <speed>50 ft..</speed>
+        <str>21</str>
+        <dex>22</dex>
+        <con>20</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>19</cha>
+        <save>Con +12, Wis +7, Cha +11</save>
+        <resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+        <immune>fire, poison</immune>
+        <conditionImmune>charmed, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+        <senses>blindsight 120 ft.</senses>
+        <passive>10</passive>
+        <languages>Ignan</languages>
+        <cr>23</cr>
+        <trait>
+            <name>Empowered Attacks</name>
+            <text>Maegera's slam attacks are treated as magical for the purpose of overcoming resistance and immunity to damage from nonmagical attacks.</text>
+        </trait>
+        <trait>
+            <name>Fire Aura</name>
+            <text>At the start of each of Maegera's turns, each creature within 30 feet of it takes 35 (10d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 35 (10d6) fire damage from touching Maegera or from hitting it with a melee attack while within 10 feet of it, and a creature takes that damage the first time on a turn that Maegera moves into its space. Nonmagical weapons that hit Maegera are destroyed by fire immediately after dealing damage to it.</text>
+            <attack>Fire Aura||10d6</attack>
+        </trait>
+        <trait>
+            <name>Fire Form</name>
+            <text>Maegera can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing if fire could pass through that space.</text>
+        </trait>
+        <trait>
+            <name>Illumination</name>
+            <text>Maegera sheds bright light in a 120-foot radius and dim light in an additional 120 ft..</text>
+        </trait>
+        <trait>
+            <name>Innate Spellcasting</name>
+            <text>Maegera's can innately cast fireball (spell save DC 19) at will, requiring no material components. Maegera's spell casting ability is Charisma.</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>Maegera has advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Maegera makes three slam attacks.</text>
+        </action>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage plus 35 (10d6) fire damage</text>
+            <attack>Slam|12|3d6+5</attack>
+        </action>
+        <legendary>
+            <name>Quench Magic</name>
+            <text>Maegera targets one creature that it can see within 60 feet of it. Any resistence or immunity to fire damage that the target gains from a spell or magic item is suppressed.  The effect lasts until the end of Maegera's next turn.</text>
+        </legendary>
+        <legendary>
+            <name>Smoke Cloud (Costs 2 Actions)</name>
+            <text>Maegera exhales a billowing cloud of hot smoke and embers that fills a 60 feet cube. Each creature in the area takes 11 (2d10) fire damage. The cloud lasts until the end of Maegera's next turn. Creatures completely in the cloud are blinded and can't be seen.</text>
+            <attack>Smoke|2d10</attack>
+        </legendary>
+        <legendary>
+            <name>Create Fire Elemental (Costs 3 Actions)</name>
+            <text>Maegera's hit points are reduced by 50 as part of it separates and becomes a fire elemental with 102 hit points. The fire element appears in an unoccupied space within 15 feet of Maegera and acts on Maegera's initiative count. Maegera can't use this action if it has 50 hit points or fewer. The fire element obeys Maegera's commands and fights until destroyed.</text>
+        </legendary>
+    </monster>
+    <monster>
+        <name>Purple Wormling</name>
+        <size>L</size>
+        <type>monstrosity, storm kings thunder</type>
+        <alignment>unaligned</alignment>
+        <ac>12 (natural armor)</ac>
+        <hp>42 (5d10+15)</hp>
+        <speed>20 ft.</speed>
+        <str>16</str>
+        <dex>7</dex>
+        <con>16</con>
+        <int>1</int>
+        <wis>6</wis>
+        <cha>2</cha>
+        <senses>blindsight 30 ft., tremorsense 30 ft.</senses>
+        <passive>8</passive>
+        <cr>2</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>The wormling makes two attacks: one with its bite and one with its stinger.</text>
+        </action>
+        <action>
+            <name>Bite</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 5) piercing damage. If the target is a Small or smaller creature, it must succeed on a DC 13 Dexterity saving throw or be swallowed by the worm. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the wormling, and it takes 3 (1d6) acid damage at the start of each of the wormling's turns.</text>
+            <text>If the wormling takes 10 damage or more on a single turn from a creature inside it, the wormling must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the wormling. If the wormling dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 5 feet of movement, exiting prone.</text>
+            <attack>Bite|5|1d8+3</attack>
+        </action>
+        <action>
+            <name>Tail Stinger</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+            <attack>Tail Stinger|5|1d4+3</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Tressym</name>
+        <size>T</size>
+        <type>beast, storm kings thunder</type>
+        <alignment>chaotic neutral</alignment>
+        <ac>12</ac>
+        <hp>5 (2d4)</hp>
+        <speed>40 ft., climb 30 ft., fly 40' ft.</speed>
+        <str>3</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>12</cha>
+        <skill>Perception +5, Stealth +4</skill>
+        <immune>poison</immune>
+        <conditionImmune>poisoned</conditionImmune>
+        <passive>15</passive>
+        <cr>0</cr>
+        <trait>
+            <name>Detect Invisibility</name>
+            <text>Within 50 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight</text>
+        </trait>
+        <trait>
+            <name>Keen Smell</name>
+            <text>The tressym has advantage on Wisdom (Perception) checks that rely on smell.</text>
+        </trait>
+        <trait>
+            <name>Poison Sense</name>
+            <text>The tressym can detect whether a substance is poisonous by taste, touch, or smell.</text>
+        </trait>
+        <action>
+            <name>Claws</name>
+            <text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+            <attack>Claws||1</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Uthgardt Shaman</name>
+        <size>M</size>
+        <type>humanoid (human), storm kings thunder</type>
+        <alignment>neutral evil</alignment>
+        <ac>13</ac>
+        <hp>38 (7d8+7)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>12</dex>
+        <con>13</con>
+        <int>10</int>
+        <wis>15</wis>
+        <cha>12</cha>
+        <skill>Medicine +4, Nature +4, Perception +4, Survival +6</skill>
+        <passive>14</passive>
+        <languages>Bothii, Common</languages>
+        <cr>2</cr>
+        <trait>
+            <name>Innate Spellcasting</name>
+            <text>The shaman can innately cast the following spells. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). </text>
+            <text />
+            <text>• At Will: dancing lights, message, mage hand, thaumaturgy</text>
+            <text>• 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians</text>
+        </trait>
+        <action>
+            <name>Spear</name>
+            <text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6+2) piercing damage, or 6 (1d8 + 2) piercing damage if wielded with two hands.</text>
+            <attack>Spear|4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Shortbow</name>
+            <text>Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+            <attack>|3|1d6+1</attack>
+        </action>
+        <spells> dancing lights, message, mage hand, thaumaturgy, augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians</spells>
+    </monster>
+    <monster>
+        <name>Yakfolk Warrior</name>
+        <size>L</size>
+        <type>monstrosity, storm kings thunder</type>
+        <alignment>neutral evil</alignment>
+        <ac>11 (leather)</ac>
+        <hp>60 (8d10+16)</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>11</dex>
+        <con>15</con>
+        <int>14</int>
+        <wis>15</wis>
+        <cha>14</cha>
+        <skill>Deception +4, Survival +4</skill>
+        <passive>12</passive>
+        <languages>Common, Yikaria</languages>
+        <cr>3</cr>
+        <trait>
+            <name>Possession (Recharges after a rest</name>
+            <text>The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest or the attempt fails. At the end of the rest, the target must succeed a DC 12 Con saving throw or be possessed by the yakfolk, which disappears with everything its carrying and wearing. Until the possession ends, the target is incapacitated, loses control of its body, and it unaware of its surroundings. The yakfolk now controls the body and cannot be targeted by any attack, spell, or other effect, and it retains its alignment, its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. </text>
+            <text>The possession lats until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as dispel evil and good spell. When the possession ends, the yakfolk appears in an unoccupied space within 5 feet of the body and is stunned until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well and its body does not reappear.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The yakfolk makes two attacks, either with it's greatsword or its longbow</text>
+        </action>
+        <action>
+            <name>Greatsword</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</text>
+            <attack>|6|4d6+4</attack>
+        </action>
+        <action>
+            <name>Longbow</name>
+            <text>Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit: 9 (2d8) piercing damage.</text>
+            <attack>|2|2d8</attack>
+        </action>
+    </monster>
+    <monster>
+        <name>Yakfolk Priest</name>
+        <size>L</size>
+        <type>monstrosity, storm kings thunder</type>
+        <alignment>neutral evil</alignment>
+        <ac>12 (hide armor)</ac>
+        <hp>52 (7d10+14)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>11</dex>
+        <con>15</con>
+        <int>14</int>
+        <wis>18</wis>
+        <cha>14</cha>
+        <skill>Deception +4, Medicine +6, Survival +6</skill>
+        <passive>14</passive>
+        <languages>Common, Yikaria</languages>
+        <cr>4</cr>
+        <trait>
+            <name>Possession (Recharges after a rest</name>
+            <text>The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest or the attempt fails. At the end of the rest, the target must succeed a DC 12 Con saving throw or be possessed by the yakfolk, which disappears with everything its carrying and wearing. Until the possession ends, the target is incapacitated, loses control of its body, and it unaware of its surroundings. The yakfolk now controls the body and cannot be targeted by any attack, spell, or other effect, and it retains its alignment, its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. </text>
+            <text>The possession lats until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as dispel evil and good spell. When the possession ends, the yakfolk appears in an unoccupied space within 5 feet of the body and is stunned until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well and its body does not reappear.</text>
+        </trait>
+        <trait>
+            <name>Spellcasting</name>
+            <text>The yakfolk is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The priest has the following cleric spells prepared: </text>
+            <text />
+            <text>• Cantrips (at will): light, mending, sacred flame, thaumaturgy</text>
+            <text>• 1st level (4 slots): bane, command, cure wounds, sanctuary</text>
+            <text>• 2nd level (3 slots): augury, hold person, spiritual weapon</text>
+            <text>• 3rd level (3 slots): bestow curse, protection from energy, sending</text>
+            <text>• 4th level (1 slots): banishment</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>The yakfolk makes two attacks, either with it's greatsword or its longbow</text>
+        </action>
+        <action>
+            <name>Quarterstaff</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage, or 12 (2d8+3) bludgeoning damage if used with two hands.</text>
+            <attack>|5|2d6+3</attack>
+        </action>
+                <action>
+            <name>Summon Earth Elemental (1/day)</name>
+            <text>The yakfolk summons an earth elemental. The elemental appears in an unoccupied space within 60 feet of its summoner and acts as an ally of the summoner. It remains for 10 minutes, until it dies, or until its summoner dismisses it as an action.</text>
+        </action>
+        <spells>light, mending, sacred flame, thaumaturgy, bane, command, cure wounds, sanctuary, augury, hold person, spiritual weapon, bestow curse, protection from energy, sending, banishment</spells>
+    </monster>
+<!--Special NPCs-->
+    <monster>
+        <name>Augrek Brighthelm</name>
+        <size>M</size>
+        <type>humanoid (shield dwarf), storm kings thunder</type>
+        <alignment>lawful good</alignment>
+        <ac>15 (chain shirt, shield)</ac>
+        <hp>13 (2d8+4)</hp>
+        <speed>25 ft.</speed>
+        <str>14</str>
+        <dex>11</dex>
+        <con>15</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>11</cha>
+        <resist>poison</resist>
+        <skill>Athletics +4, Perception +2</skill>
+        <passive>12</passive>
+        <languages>Common, Dwarvish</languages>
+        <senses>darkvision 60 ft.</senses>
+        <cr>0</cr>
+        <trait>
+            <name>Dwarven Resilience</name>
+            <text>Augrek has advantage on saving throws against poison.</text>
+        </trait>
+        <action>
+            <name>Warhammer</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) bludgeoning damage, or 7 (1d10+2) bludgeoning damage if used with two hands.</text>
+            <attack>|4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow</name>
+            <text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Augrek carries ten crossbow bolts.</text>
+            <attack>|2|1d10</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Sheriff's Ddeputy Augrek guards the southwest gate of BRyn Shander and welcomes visitors to town. She has a good heart.</text>
+            <text></text>
+            <text>Ideal: "You'll get farther in life with a kind word than an axe"</text>
+            <text>Bond: "Bryn Shander is my home. It's my job to protect her."</text>
+            <text>Flaw: "I'm head over heels in love with Sheriff Southwell. One day I hope to marry him."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Sirac of Suzail</name>
+        <size>M</size>
+        <type>humanoid (Chondathan human), storm kings thunder</type>
+        <alignment>lawful good</alignment>
+        <ac>14 (leather)</ac>
+        <hp>22 (5d8)</hp>
+        <speed>30 ft.</speed>
+        <str>14</str>
+        <dex>17</dex>
+        <con>11</con>
+        <int>12</int>
+        <wis>13</wis>
+        <cha>16</cha>
+        <skill>Athletics +4, Insight +3, Survival +3</skill>
+        <passive>11</passive>
+        <languages>Common, Orc</languages>
+        <cr>0</cr>
+        <action>
+            <name>Shortsword</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing  damage.</text>
+            <attack>|5|1d6+3</attack>
+        </action>
+        <action>
+            <name>Dart</name>
+            <text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage. Sirac carries six darts.</text>
+            <attack>|5|1d4+3</attack>
+        </action>
+        <reaction>
+            <name>Parry</name>
+            <text>Sirac adds 2 to his AC against on melee attack that would hit him. To do so, Sirac must see the attacker and be wielding a melee weapon.</text>
+        </reaction>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>An acolyte of Torm, Sirac grew up on the streets of Suzail, the capital of Cormyr. He came to Icewind Dale to become a knucklehead trout fishe but instead found religion. The misbegotten son of Artus Climber, a renowened human adventurer, Sirac hasn't seen his father since he was a baby.</text>
+            <text></text>
+            <text>Ideal: "Without duty or loyalty, a man is nothing."</text>
+            <text>Bond: "Icewind Dale is where i belong for the rest of my life."</text>
+            <text>Flaw: "I am honest to a fault."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Duvessa Shane</name>
+        <size>M</size>
+        <type>humanoid (Illuskan human), storm kings thunder</type>
+        <alignment>lawful good</alignment>
+        <ac>10</ac>
+        <hp>9 (2d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>11</dex>
+        <con>10</con>
+        <int>16</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <skill>Deception +5, Insight +3, Persuasion +3</skill>
+        <passive>12</passive>
+        <languages>Common, Dwarvish, Giant, Orc</languages>
+        <cr>0</cr>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 2 (1d4) piercing damage. Duvessa carries only one dagger.</text>
+            <attack>|2|1d4</attack>
+        </action>
+        <reaction>
+            <name>Parry</name>
+            <text>Duvessa adds 2 to her AC against on melee attack that would hit him. To do so, Duvessa must see the attacker and be wielding a melee weapon.</text>
+        </reaction>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>The daughter of a Waterdhavian trader and a tavern server, Duvessa has her mother's talent for negotiation and her father's charm. As the first woman to serve as Town Speaker of BRyn Shander, and a young one at that, she has much to prove.</text>
+            <text></text>
+            <text>Ideal: "The people of Icewind Dale are survivors. They can weather any storm."</text>
+            <text>Bond: "My mother taught me what it means to be a good leader. I won't disappoint her."</text>
+            <text>Flaw: "I don't give an inch in any argument of conflict."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Markham Southwell</name>
+        <size>M</size>
+        <type>humanoid (Turami human), storm kings thunder</type>
+        <alignment>lawful good</alignment>
+        <ac>17 (splint)</ac>
+        <hp>58 (9d8+18)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>13</dex>
+        <con>14</con>
+        <int>11</int>
+        <wis>16</wis>
+        <cha>14</cha>
+        <skill>Perception +5, Survival +5</skill>
+        <passive>16</passive>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <action>
+            <name>Multiattack</name>
+            <text>Markham makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Longsword</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage, or 7 (1d10+2) slashing damage if used with two hands.</text>
+            <attack>|4|1d8+2</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow</name>
+            <text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10+1) piercing damage. Markham carries twenty crossbow bolts.</text>
+            <attack>|3|1d10+1</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Sheriff Markham of Bryn Shander is a brawny, likable man of few words. Nothing is more important to him than protecting Icewind Dale. He judges others by their actions, not their words.</text>
+            <text></text>
+            <text>Ideal: "All people deserve to be treated with dignity."</text>
+            <text>Bond: "Duvessa is a natural leader, but she needs help. That's my job."</text>
+            <text>Flaw: "I bury my emotions and have no interest in small talk."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Beldora</name>
+        <size>M</size>
+        <type>humanoid (Illuskan human), storm kings thunder</type>
+        <alignment>chaotic good</alignment>
+        <ac>12</ac>
+        <hp>18 (4d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>14</dex>
+        <con>10</con>
+        <int>16</int>
+        <wis>12</wis>
+        <cha>16</cha>
+        <skill>Deception +5, Insight +3, Investigation +5, Perception +5, Persuasion +5</skill>
+        <passive>13</passive>
+        <languages>Common, Draconic, Dwarvish, Halfling</languages>
+        <cr>0</cr>
+        <action>
+            <name>Shortsword</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage, .</text>
+            <attack>|4|1d6+2</attack>
+        </action>
+        <action>
+            <name>Hand Crossbow</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Beldora carries ten crossbow bolts.</text>
+            <attack>|3|1d10+1</attack>
+        </action>
+        <reaction>
+            <name>Duck and Cover</name>
+            <text>Beldora adds 2 to her AC against on melee attack that would hit her. To do so, Duvessa must see the attacker and can't be grappled or restrained.</text>
+        </reaction>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Beldora is a member of the harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.</text>
+            <text></text>
+            <text>Ideal: "We should all strive to help one another"</text>
+            <text>Bond: "I'll risk my life to protect the powerless."</text>
+            <text>Flaw: "I like lying to people. Makes life more interesting, no?"</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Sir Baric Nylef</name>
+        <size>M</size>
+        <type>humanoid (Illuskan human), storm kings thunder</type>
+        <alignment>lawful good</alignment>
+        <ac>18 (plate)</ac>
+        <hp>52 (8d8+16)</hp>
+        <speed>30 ft.</speed>
+        <str>18</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>11</int>
+        <wis>15</wis>
+        <cha>15</cha>
+        <skill>Insight +4, Investigation +2, Medicine +4, Survival +4</skill>
+        <passive>12</passive>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Brave</name>
+            <text>Baric has advantage on saving throws against being frightened.</text>
+        </trait>
+        <action>
+            <name>Maul</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+            <attack>|6|2d6+4</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow</name>
+            <text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Baric carries twenty crossbow bolts.</text>
+            <attack>|2|1d10</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>As a knight of the Order of the Gauntlet, Sir Baric has sworn oaths to catch evildoers and bring them to justice. His current quarry is a dwarf brigand, Worvil "the Weezil" Forkbeard, who is rumored to be hiding in Iceland Dale. In addition to his gear, Sir Baric has an unarmored warhorse, Henry.</text>
+            <text></text>
+            <text>Ideal: "Evil must not be allowed to thrive in this world."</text>
+            <text>Bond: "Tyr is my lord; the order, my family. Through my actions, I shall honor both."</text>
+            <text>Flaw: "I'm not afraid to die. When Tyr finally calls me, I'll go to him happily."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Shalvus Martholio</name>
+        <size>M</size>
+        <type>humanoid (Turami human), storm kings thunder</type>
+        <alignment>neutral</alignment>
+        <ac>13 (leather)</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>14</cha>
+        <skill>Deception +4, Insight +4, Investigation +3, Perception +4, Sleight of Hand +4, Stealth +4</skill>
+        <passive>12</passive>
+        <languages>Common, Elvish</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Sneak Attack (1/turn)</name>
+            <text>Shalvus deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Shalvus that isn't incapacitated and Shalvus doesn't have disadvantage on the attack roll.</text>
+            <attack>||2d6</attack>
+        </trait>
+        <action>
+            <name>Quarterstaff</name>
+            <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with both hands.</text>
+            <attack>|2|1d6</attack>
+        </action>
+        <action>
+            <name>Hand Crossbow</name>
+            <text>Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Shalvus carries ten crossbow bolts.</text>
+            <attack>|2|1d10</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Nalaskur Thaelond of Bargewright Inn has entrusted the shepherd Shalvus with an important assignment: to figure out the best way by which Goldenfields can be brought under the Black Network's control. Shalvus believes that success will ensure his swift rise through the Zhentarim ranks.</text>
+            <text></text>
+            <text>Ideal: "I'll do what it takes to prove myself to the Zhentarim."</text>
+            <text>Bond: "I love animals, and I'm very protective of them."</text>
+            <text>Flaw: "I can't resist taking risks to feed my ambitions."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Lifferlas</name>
+        <size>H</size>
+        <type>plant, storm kings thunder</type>
+        <alignment>unaligned</alignment>
+        <ac>13 (natural armor)</ac>
+        <hp>59 (7d12+14)</hp>
+        <speed>20 ft.</speed>
+        <str>19</str>
+        <dex>6</dex>
+        <con>15</con>
+        <int>10</int>
+        <wis>10</wis>
+        <cha>7</cha>
+		<resist>blugdeoning, piercing</resist>
+		<vulnerable>fire</vulnerable>
+        <passive>10</passive>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <trait>
+            <name>False Appearance</name>
+            <text>While Lifferlas remains motionless, it is indistinguishable from a normal tree.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Lifferlas makes two slam attacks.</text>
+        </action>
+        <action>
+            <name>Slam</name>
+            <text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6+4) bludgeoning damage.</text>
+            <attack>|6|2d6+4</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>A druid of the Emerald Enclave awakened the tree Lifferlas with a spell. Goldenfields is his home, its people his friends. Children like to carve their name and initials into his body and hang from his boughs, and he's happy with that.</text>
+            <text></text>
+            <text>Ideal: "I exist to protect the people and plants of Goldenfields."</text>
+            <text>Bond: "Children are wonderful. I would do anything to make them feel happy and safe."</text>
+            <text>Flaw: "I can't remember people's names and often get them mixed up."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Zi Liang</name>
+        <size>M</size>
+        <type>humanoid (Shou human), storm kings thunder</type>
+        <alignment>chaotic good</alignment>
+        <ac>15</ac>
+        <hp>22 (5d8)</hp>
+        <speed>30 ft.</speed>
+        <str>12</str>
+        <dex>15</dex>
+        <con>11</con>
+        <int>14</int>
+        <wis>16</wis>
+        <cha>11</cha>
+        <skill>Acrobatics +4, Athletics +3, Perception +5, Stealth +4</skill>
+        <passive>15</passive>
+        <languages>Common, Elvish, Goblin</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Unarmored Defense</name>
+            <text>While Zi is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Zi makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Quarterstaff</name>
+            <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with both hands.</text>
+            <attack>|3|1d6+1</attack>
+        </action>
+        <action>
+            <name>Sling</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage. Zi carries twenty sling stones.</text>
+            <attack>|4|1d4+2</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Zi Liang is a devout worshiper of Chauntea, the Earth Mother. She has considerably less faith in Goldenfields' defenders, so she patrols the temple-farm during her off-duty hours.</text>
+            <text></text>
+            <text>Ideal: "If we faithfully tend to our gardens and our fields, Chauntea will smile upon us."</text>
+            <text>Bond: "Goldenfields is the breadbasket of the North. People depend on its safety and prosperity, and I'll do what must be done to protect it."</text>
+            <text>Flaw: "I don't trust authority. I do what my heart says is right."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Miros Xelbrin</name>
+        <size>M</size>
+        <type>humanoid (Damaran human), storm kings thunder</type>
+        <alignment>neutral good</alignment>
+        <ac>10</ac>
+        <hp>22 (4d8+4)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>10</dex>
+        <con>15</con>
+        <int>11</int>
+        <wis>12</wis>
+        <cha>14</cha>
+        <skill>Intimidation +4, Perception +3</skill>
+        <passive>13</passive>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <action>
+            <name>Bear Hug</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4+3) bludgeoning damage, and the target grappled (escape DC 13) and takes 5 (1d4 + 3) bludgeoning damage at the start of each of Miros's turns until the grapple ends. Miros cannot make attacks while grappling a creature.</text>
+            <attack>|5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Club</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+1) bludgeoning damage</text>
+            <attack>|5|1d4+3</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow</name>
+            <text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Miros carries ten crossbow bolts.</text>
+            <attack>|2|1d10</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Innkeeper Miros is a retired carnival attraction, dubbed "the Yeti" because of his barrel-shaped body and the thick, white hair covering his arms, chest, back, and head. When Goldenfields suffers, so does his business, so he takes strides to protect the compound.</text>
+            <text></text>
+            <text>Ideal: "As does the Emerald Enclave, I believe that civilization and the wilderness need to learn to coexist."</text>
+            <text>Bond: "Make fun of me all you like, but don't speak ill of my inn or my employees."</text>
+            <text>Flaw: "When something upsets me, I have a tendency to fly into a rage."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Naxene Drathkala</name>
+        <size>M</size>
+        <type>humanoid (Turami human), storm kings thunder</type>
+        <alignment>neutral good</alignment>
+        <ac>10 (13 with mage armor)</ac>
+        <hp>27 (6d8)</hp>
+        <speed>30 ft.</speed>
+        <str>8</str>
+        <dex>11</dex>
+        <con>11</con>
+        <int>17</int>
+        <wis>12</wis>
+        <cha>11</cha>
+        <skill>Arcana +5, History +5</skill>
+        <passive>11</passive>
+        <languages>Common, Draconic, Dwarvish, Elvish</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Spellcasting</name>
+            <text>Naxene is a 6th level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13; +5 to hit with spell attacks). She has the following wizard spells prepared:</text>
+            <text></text>
+            <text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
+            <text>1st level (4 slots): mage armor, magic missile, shield</text>
+            <text>2nd level (3 slots): misty step, suggestion</text>
+            <text>3rd level (3 slots): fly, lightning bolt</text>
+        </trait>
+        <action>
+            <name>Staff</name>
+            <text>Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
+            <attack>|1|1d6-1</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Goldenfields' crops are vital Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adeuately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.</text>
+            <text></text>
+            <text>Ideal: "There's no problem that can't be solved with magic."</text>
+            <text>Bond: "I have great respect for Lady Laeral Silverhand of Waterdeep. She and the Lords' Alliance are going to bring some much-needed order to this lawless land."</text>
+            <text>Flaw: "I'm too smart to be wrong about anything."</text>
+        </trait>
+        <spells>fire bolt, light, mage hand, prestidigitation, mage armor, magic missile, shield, misty step, suggestion, fly, lightning bolt</spells>
+    </monster>
+    <monster>
+        <name>Oren Yogilvy</name>
+        <size>S</size>
+        <type>humanoid (strongheart halfling), storm kings thunder</type>
+        <alignment>chaotic good</alignment>
+        <ac>11</ac>
+        <hp>9 (2d6+2)</hp>
+        <speed>25 ft.</speed>
+        <str>8</str>
+        <dex>13</dex>
+        <con>12</con>
+        <int>11</int>
+        <wis>10</wis>
+        <cha>16</cha>
+        <resist>poison</resist>
+        <skill>Perception +2, Performance +7, Persuasion +5</skill>
+        <passive>12</passive>
+        <languages>Common, Halfling</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Halfling Nimbleness</name>
+            <text>Oren can move through the space of any creature that is of a size large than his.</text>
+        </trait>
+        <trait>
+            <name>Lucky</name>
+            <text>When Oren rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll.</text>
+        </trait>
+        <trait>
+            <name>Stout Resilience</name>
+            <text>Oren has advantage on saving throws against poison</text>
+        </trait>
+        <action>
+            <name>Dagger</name>
+            <text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 3 (1d4+1) piercing damage. Duvessa carries only one dagger.</text>
+            <attack>|3|1d4+1</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Oren came to Nurthfurrow's End looking for easy work and found it. He sings for his supper, drinks like a fish, and wanders the fields at night dreaming up new lyrics to entertain the inn's other guests. Oren likes to stir up trouble from time to time, but he doesn't  have a mean bone in his body.</text>
+            <text></text>
+            <text>Ideal: "Music is food for the soul."</text>
+            <text>Bond: "You had me at "Can I buy you a drink."</text>
+            <text>Flaw: "I have a knack for putting myself in harm's way. Good thing I'm lucky!"</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Darathra Shendrel</name>
+        <size>M</size>
+        <type>humanoid (Illuskan humanoid), storm kings thunder</type>
+        <alignment>lawfull good</alignment>
+        <ac>14 (breastplate)</ac>
+        <hp>52 (8d8+16)</hp>
+        <speed>30 ft.</speed>
+        <str>16</str>
+        <dex>11</dex>
+        <con>14</con>
+        <int>11</int>
+        <wis>11</wis>
+        <cha>15</cha>
+        <skill>History +2, Intimidation +4, Investigation +2, Perception +2, Presuasion +4</skill>
+        <passive>12</passive>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Brave</name>
+            <text>Darathra has advantage on saving throws against being frightened</text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>Darthra makes two melee attacks.</text>
+        </action>
+        <action>
+            <name>Greatsword</name>
+            <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage</text>
+            <attack>|5|2d6+3</attack>
+        </action>
+        <action>
+            <name>Heavy Crossbow</name>
+            <text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Darathra carries twenty crossbow bolts.</text>
+            <attack>|2|1d10</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>As the Lord Protector of Triboar and a secret agent of the Harpers, Darathra has sworn an oath to defend the town. She takes her duty very seriously. In addition to her gear, Darathra has an unarmored warhorse named Buster.</text>
+            <text></text>
+            <text>Ideal: "Good people should be given every chance to prosper, free of tyranny."</text>
+            <text>Bond: "I'll lay down my life to protect Triboar and its citizens."</text>
+            <text>Flaw: "I refuse to back down. Push me, and I'll push back."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Darz Helgar</name>
+        <size>M</size>
+        <type>humanoid (Illuskan human), storm kings thunder</type>
+        <alignment>neutral</alignment>
+        <ac>12</ac>
+        <hp>27(5d8+5)</hp>
+        <speed>30 ft.</speed>
+        <str>15</str>
+        <dex>15</dex>
+        <con>12</con>
+        <int>10</int>
+        <wis>11</wis>
+        <cha>11</cha>
+        <skill>Intimidation +2, Sleight of Hand +4, Stealth +4</skill>
+        <passive>10</passive>
+        <languages>Common</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Sneak Attack (1/turn)</name>
+            <text>Darz deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Darz that isn't incapacitated and Darz doesn't have disadvantage on the attack roll.</text>
+            <attack>||2d6</attack>
+        </trait>
+        <action>
+            <name>Shortsword</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+            <attack>|2|1d6</attack>
+        </action>
+        <action>
+            <name>Sling</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) piercing damage. Darz carries twenty sling stones.</text>
+            <attack>|4|1d4+2</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>In his youth, Darz was a member of the Xanathar Thieves' Guild in Waterdeep. After serving ten years in prison for his crimes, he cut all ties to the city and moved north to be a campground caretaker.</text>
+            <text></text>
+            <text>Ideal: "You csan run from your past, but you can't hide from it."</text>
+            <text>Bond: "I've made a new life in Triboar. I'm not gonna run away this time. "</text>
+            <text>Flaw: "I have no regrets. I do whatever it takes to survive."</text>
+        </trait>
+    </monster>
+    <monster>
+        <name>Narth Tezrin</name>
+        <size>M</size>
+        <type>humanoid (Tethyrian human), storm kings thunder</type>
+        <alignment>chaotic good</alignment>
+        <ac>12</ac>
+        <hp>18 (4d8)</hp>
+        <speed>30 ft.</speed>
+        <str>10</str>
+        <dex>15</dex>
+        <con>10</con>
+        <int>12</int>
+        <wis>14</wis>
+        <cha>16</cha>
+        <skill>Insight +4, Investigation +3, Perception +6, Persuasion +5</skill>
+        <passive>16</passive>
+        <languages>Common, Dwarvish</languages>
+        <cr>0</cr>
+        <trait>
+            <name>Cunning Action</name>
+            <text>On each of his turns, Narth can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+        </trait>
+        <action>
+            <name>Shortsword</name>
+            <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+            <attack>|2|1d6</attack>
+        </action>
+        <action>
+            <name>Hand Crossbow</name>
+            <text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Narth carries twenty crossbow bolts.</text>
+            <attack>|4|1d6+2</attack>
+        </action>
+        <trait>
+            <name>Roleplaying Information</name>
+            <text>Narth sells gear to adventurers, and he also has an adventurous spirit. The Lionshield Coster pays him well, but he longs to make a name for himself. At the same time, he runsa a business with his partner Alaestra and knows she wouldn't forgive him if he ran off and never returned.</text>
+            <text></text>
+            <text>Ideal: "The bigger the risk, the greater the reward."</text>
+            <text>Bond: "I adore my colleague Alestra, and I'd like to do something to impress her."</text>
+            <text>Flaw: "I'll risk life and limb to become a legend.-"</text>
+        </trait>
+    </monster>
+
+</compendium>

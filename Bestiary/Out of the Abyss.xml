@@ -76,7 +76,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:</text>
-			<text> </text>
+			<text />
 			<text>Cantrips (at will): acid splash, light, mage hand, message, ray of frost</text>
 			<text>1st level (4 slots): burning hands, chromatic orb, sleep</text>
 			<text>2nd level (3 slots): invisibility, spider climb</text>
@@ -145,7 +145,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:</text>
-			<text> </text>
+			<text />
 			<text>Cantrips (at will): guidance, thaumaturgy</text>
 			<text>1st level (4 slots): charm person, create or destroy water</text>
 			<text>2nd level (3 slots): hold person, silence</text>
@@ -215,7 +215,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:</text>
-			<text> </text>
+			<text />
 			<text>Cantrips (at will): guidance, thaumaturgy</text>
 			<text>1st level (4 slots): charm person, create or destroy water</text>
 			<text>2nd level (3 slots): hold person, silence</text>
@@ -256,7 +256,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The darkhaft's innate spellcasting ability is Intelligence (spell save DC 10) it can innately cast the following spells, requiring no components:</text>
-			<text> </text>
+			<text />
 			<text>At will: friends, mage hand</text>
 			<text>1/day each: disguise self, sleep</text>
 		</trait>
@@ -373,14 +373,14 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:</text>
-			<text> </text>
+			<text />
 			<text>At will: friends, message</text>
 			<text>1/day: command</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:</text>
-			<text> </text>
+			<text />
 			<text>Cantrips (at will): guidance, mending, sacred flame</text>
 			<text>1st level (4 slots): bane, inflict wounds, shield of faith</text>
 			<text>2nd level (2 slots): enhance ability, spiritual weapon</text>
@@ -445,7 +445,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The duergar's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
-			<text> </text>
+			<text />
 			<text>At will: blade ward, true strike</text>
 			<text>1/day each: jump, hunter's mark</text>
 		</trait>
@@ -459,9 +459,9 @@
 		</action>
 		<action>
 			<name>Soulblade</name>
-			<text>Melee Weapon Attackk: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, th eattack deals an extra 3 (1d6) force damage.</text>
-			<attack>Soulblade|6|1d6+3</attack>
-			<attack>Enlarged|6|2d6+3</attack>
+			<text>Melee Weapon Attackk: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.</text>
+			<attack>Soulblade|5|1d6+3</attack>
+			<attack>Enlarged|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
@@ -550,9 +550,9 @@
 		</action>
 		<action>
 			<name>Fire Lance</name>
-			<text>Melee Weapon Attack: +5 to hit (with ddisadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 3 (1d6) fire damage, or 16 (2d12 + 3) piercing damage plus 3 (1d6) fire damage while enlarged.</text>
-			<attack>Fire Lancek|5|1d12+3</attack>
-			<attack>Enlarged|5|2d12+3</attack>
+			<text>Melee Weapon Attack: +5 to hit (with disadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 3 (1d6) fire damage, or 16 (2d12 + 3) piercing damage plus 3 (1d6) fire damage while enlarged.</text>
+			<attack>Fire Lancek|5|1d12+3+1d6</attack>
+			<attack>Enlarged|5|2d12+3+1d6</attack>
 		</action>
 		<action>
 			<name>Fire Spray (Recharge 5-6)</name>
@@ -590,7 +590,7 @@
 		<action>
 			<name>Pincer</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (Escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures grappled.</text>
-			<attack>Pincer|7|2d6+4</attack>
+			<attack>Pincer|6|2d6+4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -784,7 +784,7 @@
 		<cr>1/8</cr>
 		<trait>
 			<name>Fungus Stride</name>
-			<text>Once on its turn, the bridesmaid can use 10 feet of its movement to step magically into one living mushroom or fungus patch within 5 feet and emerge from another winin 60 feet of the first one, appearing in an unoccupied space within 5 feet of the second mushroom or fungus patch. The mushrooms and patches must be large or bigger.</text>
+			<text>Once on its turn, the bridesmaid can use 10 feet of its movement to step magically into one living mushroom or fungus patch within 5 feet and emerge from another within 60 feet of the first one, appearing in an unoccupied space within 5 feet of the second mushroom or fungus patch. The mushrooms and patches must be large or bigger.</text>
 		</trait>
 		<action>
 			<name>Hallucination Spores</name>
@@ -792,7 +792,7 @@
 		</action>
 		<action>
 			<name>Infestation Spores (1/Day)</name>
-			<text>The bridesmaid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 10 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<text>The bridesmaid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 10 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
 		</action>
 	</monster>
 	<monster>
@@ -809,7 +809,7 @@
 		<int>11</int>
 		<wis>8</wis>
 		<cha>12</cha>
-		<resist>bbludgeoning, piercing</resist>
+		<resist>bludgeoning, piercing</resist>
 		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
 		<languages>Abywssal, Undercommon</languages>
@@ -820,7 +820,7 @@
 		</trait>
 		<trait>
 			<name>Poison Spores</name>
-			<text>Whenever the chamberlain takes damage, it releases a cloud of spores. Creatures within 5 feet of the chamberlain when this happens must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the savng throw at t ehe end of each of its turns, ending the effect on a success.</text>
+			<text>Whenever the chamberlain takes damage, it releases a cloud of spores. Creatures within 5 feet of the chamberlain when this happens must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.</text>
 		</trait>
 		<action>
 			<name>Hallucination Spores</name>
@@ -832,12 +832,12 @@
 		</action>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: =5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
 			<attack>|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Infestation Spores (1/Day)</name>
-			<text>The chanberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<text>The chanberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
 		</action>
 	</monster>
 	<monster>
@@ -865,11 +865,11 @@
 		</trait>
 		<trait>
 			<name>Leap</name>
-			<text>The steeder can expend all its movement on iuts turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
+			<text>The steeder can expend all its movement on its turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a faile dsave, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>|5|1d8+3</attack>
 			<attack>||2d8</attack>
 		</action>
@@ -904,11 +904,11 @@
 		</trait>
 		<trait>
 			<name>Leap</name>
-			<text>The steeder can expend all its movement on iuts turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
+			<text>The steeder can expend all its movement on its turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet.</text>
 		</trait>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a faile dsave, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>|4|1d8+2</attack>
 			<attack>||1d8</attack>
 		</action>
@@ -948,7 +948,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Droki's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: minor illusion</text>
 			<text>1/day each: darkness, fear, shatter</text>
 		</trait>
@@ -1003,7 +1003,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:</text>
-			<text> </text>
+			<text />
 			<text>Cantrips (at will): guidance, light, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): cure wounds, divine favor, inflict wounds, protection from good, shield of faith</text>
 			<text>2nd level (3 slots): continual flame, hold person, magic weapon, spiritual weapon</text>
@@ -1049,8 +1049,8 @@
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
-			<text>Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing ashort or long rest, and knows the following Warlock spells:			</text>
-			<text> </text>
+			<text>Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:			</text>
+			<text />
 			<text>Cantrips (at will): eldritch blast, friends, poison spray</text>
 			<text>1st level: armor of Agathys, charm person, hex</text>
 			<text>2nd level: hold person, ray of enfeeblement, spider climb</text>
@@ -1070,7 +1070,7 @@
 		</action>
 		<reaction>
 			<name>One with Shadows</name>
-			<text>While he is in adim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.</text>
+			<text>While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.</text>
 		</reaction>
 		<spells>eldritch blast, friends, poison spray, armor of agathys, charm person, hex, hold person, ray of enfeeblement, spider climb</spells>
 	</monster>
@@ -1107,7 +1107,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: nondetection (self only)</text>
 			<text>1/day each: blindness/deafness, blur, disguise self</text>
 		</trait>
@@ -1118,7 +1118,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:</text>
-			<text> </text>
+			<text />
 			<text>Cantrips (at will): acid splash, light, mage hand, poison spray, prestidigitation</text>
 			<text>1st level (4 slots): false life, mage armor, ray of sickness, shield</text>
 			<text>2nd level (3 slots): crown of madness, misty step</text>
@@ -1168,8 +1168,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.</text>
-			<attack>|3|3d4+1</attack>
-			<attack>||3d4</attack>
+			<attack>|3|3d4+1+3d4</attack>
 		</action>
 		<action>
 			<name>Caustic Spores (1/Day)</name>
@@ -1190,7 +1189,7 @@
 		</legendary>
 		<legendary>
 			<name>Foul Absorption</name>
-			<text>Yestabrod absorbs pullrescence from a corpse within 5 feet of it, regainign 1d8 + 2 hit points</text>
+			<text>Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining 1d8 + 2 hit points</text>
 			<attack>||1d8+2</attack>
 		</legendary>
 	</monster>
@@ -1225,7 +1224,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: detect magic</text>
 			<text>3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone</text>
 			<text>1/day each: teleport</text>
@@ -1248,7 +1247,7 @@
 		</trait>
 		<trait>
 			<name>Reckless</name>
-			<text>At the start of his turn, Baphomet can gain avantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn.</text>
+			<text>At the start of his turn, Baphomet can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1266,17 +1265,17 @@
 		</action>
 		<action>
 			<name>Gore</name>
-			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) piericng damage.</text>
+			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) piercing damage.</text>
 			<attack>|17|2d10+10</attack>
 		</action>
 		<action>
 			<name>Frightful Presence</name>
-			<text>Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on tiself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.</text>
+			<text>Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.</text>
 			<text>If a creature succeeds on any of these saves or the effect ends on it, the creature is immune is Baphomet's Frightful Presence for the next 24 hours.</text>
 		</action>
 		<legendary>
 			<name/>
-			<text>Baphomet can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Baphomet regains spent legendary actions at the start of his turn.</text>
+			<text>Baphomet can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Baphomet regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Heartcleaver attack</name>
@@ -1288,6 +1287,7 @@
 			<text>Baphomet moves up to his speed, then makes a gore attack.</text>
 			<attack>|17|2d10+10</attack>
 		</legendary>
+		<spells>detect magic, dispel magic, dominate beast, hunter's mark, maze, wall of stone, teleport</spells>
 	</monster>
 	<monster>
 		<name>Demogorgon</name>
@@ -1315,7 +1315,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: detect magic, major image</text>
 			<text>3/day each: dispel magic, fear, telekinesis</text>
 			<text>1/day each: feeblemind, project image</text>
@@ -1343,7 +1343,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
-			<attack>|17|4d6+10</attack>
+			<attack>|17|4d12+9</attack>
 		</action>
 		<action>
 			<name>Gaze</name>
@@ -1394,7 +1394,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force</text>
 			<text>3/day each: confusion, dream, mislead, programmed illusion, seeming</text>
 			<text>1/day each: mirage arcane, modify memory, project image</text>
@@ -1474,7 +1474,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers</text>
 			<text>3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport</text>
 			<text>1/day each: dominate monster, greater invisibility</text>
@@ -1556,7 +1556,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: acid splash (17th level), detect magic</text>
 			<text>3/day each: blight, contagion, gaseous form</text>
 		</trait>
@@ -1644,7 +1644,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: chill touch (17th level), detect magic</text>
 			<text>3/day each: create undead, dispel magic</text>
 			<text>1/day: time stop</text>
@@ -1677,7 +1677,7 @@
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage plus 18 (4d8) poison damage.</text>
-			<attack>|17|30d8+8+4d8</attack>
+			<attack>|17|3d8+8+4d8</attack>
 		</action>
 		<legendary>
 			<name/>
@@ -1723,7 +1723,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: detect magic, spiritual weapon (8th-level spell, 4d8 + 2 force damage on a hit, appears as a flail)</text>
 			<text>3/day each: dispel magic, fear, invisibility</text>
 			<text>1/day: teleport</text>
@@ -1805,7 +1805,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:</text>
-			<text> </text>
+			<text />
 			<text>At will: detect magic, locate animals or plants, ray of sickness</text>
 			<text>3/day each: dispel magic, ensnaring strike, entangle, plant growth</text>
 			<text>1/day: etherealness, teleport</text>
@@ -1829,7 +1829,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 9 (2d8) poison damage.</text>
-			<attack>|16|2d8+6+2d8</attack>
+			<attack>|13|2d8+6+2d8</attack>
 		</action>
 		<action>
 			<name>Infestation Spores (3/Day)</name>
