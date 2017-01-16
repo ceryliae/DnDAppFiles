@@ -5159,7 +5159,7 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 		</autolevel>
 	</class>
 
-	<class>
+    <class>
 		<name>Ranger</name>
 		<hd>10</hd>
 		<proficiency>Strength, Dexterity</proficiency>
@@ -6191,6 +6191,7 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 	</class>
 
     <class>
+
 		<name>Ranger Variant 2</name>
 		<hd>10</hd>
 		<proficiency>Strength, Dexterity</proficiency>
@@ -6918,7 +6919,7 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 			</feature>
 			<feature optional="YES">
 				<name>Mastermind: Soul of Deceit</name>
-				<text>Starting at 17th level, your thoughts can&#8217;t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
+				<text>Starting at 17th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
 				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
 			</feature>
 			<feature optional="YES">
@@ -6953,6 +6954,79 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
+<!--Unearthed Arcana-->
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Roguish Archetype: Inquisitive (UA)</name>
+				<text>As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for details, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your sharp eye make you well equipped to expose and end hidden evils.</text>
+				<text>	</text>
+				<text>This Roguish Archetype is from Unearthed Arcana: Gothic Heroes, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Roguish Archetype: Scout (UA)</name>
+				<text>You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians  and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wild.</text>
+				<text>	</text>
+				<text>This Roguish Archetype is from Unearthed Arcana: Ranger and Rogue, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Inquisitive: Ear for Deceit</name>
+				<text>When you choose this archetype at 3rd level, you develop a keen ear for picking out lies. Whenever you make a Wisdom (Insight) check to sense if a creature is lying, you use the total of your check or 8 + your Wisdom modifier, whichever is higher. If you are proficient in Insight, you add your proficiency bonus to the fixed result. If you chose Insight as a skill augmented by your Expertise feature, add double your proficiency bonus.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Inquisitive: Eye for Detail</name>
+				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action feature to make a Wisdom (Perception) check to spot a hidden creature or object, to make an Intelligence (Investigation) check to uncover and decipher clues, or to use Insightful Fighting (see below).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Inquisitive: Insightful Fighting</name>
+				<text>At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As an action (or as a bonus action using Eye for Detail), you make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, opposed by the target's Charisma (Deception) check. If you succeed, you can use Sneak Attack against that creature even if you do not have advantage against it or if no enemy of the target is within 5 feet of it. You can use Sneak Attack in this way even if you have disadvantage against the target. </text>
+				<text>	This benefit lasts for 1 minute or until you successfully use Insightful Fighting against a different target.</text>
+			</feature>
+            <feature optional="YES">
+                <name>Scout: Survivalist</name>
+                <text>When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</text>
+                <proficiency>Nature, Survival</proficiency>
+                <modifier category="skills">Nature +PROF</modifier>
+                <modifier category="skills">Survival +PROF</modifier>
+            </feature>
+            <feature optional="YES">
+                <name>Scout: Skirmisher</name>
+                <text>Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.</text>
+            </feature>
+		</autolevel>
+        <autolevel level="9">
+			<feature optional="YES">
+				<name>Inquisitive: Steady Eye</name>
+				<text>At 9th level, you gain advantage on any Wisdom (Perception) check made on your turn to find a hidden creature or object if you do not move during that turn. If you use this ability before moving, you cannot move or ready movement during your turn.</text>
+			</feature>
+            <feature optional="YES">
+                <name>Scout: Superior Mobility</name>
+                <text>At 9th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.</text>
+                <modifier category="bonus">speed +10</modifier>
+            </feature>
+        </autolevel>
+
+		<autolevel level="13">
+			<feature optional="YES">
+				<name>Inquisitive: Unerring Eye</name>
+				<text>At 13th level, you gain the ability to detect magical deception. As an action, you sense the presence within 30 feet of you of illusions, shapechanger creatures not in their true form, and other magic designed to deceive the senses. Though you determine that an effect is attempting to trick you, you gain no special insight into what is hidden or its true nature.</text>
+			</feature>
+            <feature optional="YES">
+                <name>Scout: Ambush Master</name>
+                <text>Starting at 13th level, you excel at leading ambushes. If any of your foes are surprised, you can use a bonus action on your turn in the first round of the combat to grant each ally who can see you a +5 bonus to initiative that lasts until the combat ends. If the initiative bonus would increase an ally’s initiative above yours, the ally’s initiative instead equals your initiative.</text>
+                <text>  Each of the allies also receives a 10 -foot increase to speed that lasts until the end of the ally’s next turn.</text>
+            </feature>
+        </autolevel>    
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Inquisitive: Eye for Weakness</name>
+				<text>At 17th level, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by 2d6.</text>
+			</feature>
+            <feature optional="YES">
+                <name>Scout: Sudden Strike</name>
+                <text>Starting at 17th level, you can strike with deadly speed. If you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but only if the attack is the only one you make against the target this turn.</text>
+            </feature>
+        </autolevel>
 	</class>
 
 	<class>
@@ -7037,116 +7111,10 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<text>Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Sorcerous Origin: Favored Soul</name>
-				<text>You have been chosen by a deity, and bestowed with a fragment of their divine power. You have been fundamentally changed by the touch of this deity, which awakens powerful magical abilities inside you</text>
-			</feature>
-			<feature optional="YES">
 				<name>Sorcerous Origin: Storm</name>
 				<text>Your innate magic comes from the power of elemental air. Perhaps you were born during a howling gale so powerful that folk still tell stories of it. Your lineage might include the influence of potent air creatures such as vaati or djinni. Whatever the case, the magic of the storm permeates your soul.</text>
 				<text />
 				<text>Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Sorcerous Origin: Shadow</name>
-				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental manner.</text>
-				<text />
-				<text>    The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the following table to create a unique quirk for your character.</text>
-				<text />
-				<text>d6 - Quirk</text>
-				<text>1 — You are always icy cold to the touch.</text>
-				<text>2 — When you are asleep, you don't appear to breathe (though you must still breathe to survive).</text>
-				<text>3 — You don't seem to bleed, even when badly injured.</text>
-				<text>4 — Your heart beats once per minute. This even sometimes surprises you.</text>
-				<text>5 — You have trouble remembering that living creatures and corpses should be treated differently.</text>
-				<text>6 — You blinked. Once. Last week.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Favored Soul: Bonus Proficiency</name>
-				<text>At 1st level, you gain proficiency in light armor, medium armor, shields, and simple weapons.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Favored Soul: Chosen of the Gods</name>
-				<text>At 1st level, you choose one of the cleric class's divine domains. You add that domain's spells for 1st-level clerics to your known spells. These spells do not count against the number of spells you can know, and they are considered to be sorcerer spells for you. When you reach 3rd, 5th, 7th, and 9th levels in the sorcerer class, you likewise learn your domain's spells that become available at those levels.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Death</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Death) spell list.</text>
-				<text />
-				<text>1st — false life, ray of sickness</text>
-				<text>3rd — blindness/deafness, ray of enfeeblement</text>
-				<text>5th — animate dead, vampiric touch</text>
-				<text>7th — blight, death ward</text>
-				<text>9th — antilife shell, cloudkill</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Knowledge</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Knowledge) spell list.</text>
-				<text />
-				<text>1st — command, identify</text>
-				<text>3rd — augury, suggestion</text>
-				<text>5th — nondetection, speak with dead</text>
-				<text>7th — arcane eye, confusion</text>
-				<text>9th — legend lore, scrying</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Life</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Life) spell list.</text>
-				<text />
-				<text>1st — bless, cure wounds</text>
-				<text>3rd — lesser restoration, spiritual weapon</text>
-				<text>5th — beacon of hope, revivify</text>
-				<text>7th — death ward, guardian of faith</text>
-				<text>9th — mass cure wounds, raise dead</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Light</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Light) spell list.</text>
-				<text />
-				<text>1st — burning hands, faerie fire</text>
-				<text>3rd — flaming sphere, scorching ray</text>
-				<text>5th — daylight, fireball</text>
-				<text>7th — guardian of faith, wall of fire</text>
-				<text>9th — flame strike, scrying</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Nature</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Nature) spell list.</text>
-				<text />
-				<text>1st — animal friendship, speak with animals</text>
-				<text>3rd — barkskin, spike growth</text>
-				<text>5th — plant growth, wind wall</text>
-				<text>7th — dominate beast, grasping vine</text>
-				<text>9th — insect plague, tree stride</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Tempest</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Tempest) spell list.</text>
-				<text />
-				<text>1st — fog cloud, thunderwave</text>
-				<text>3rd — gust of wind, shatter</text>
-				<text>5th — call lightning, sleet storm</text>
-				<text>7th — control water, ice storm</text>
-				<text>9th — destructive wave, insect plague</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: Trickery</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Trickery) spell list.</text>
-				<text />
-				<text>1st — charm person, disguise self</text>
-				<text>3rd — mirror image, pass without trace</text>
-				<text>5th — blink, dispel magic</text>
-				<text>7th — dimension door, polymorph</text>
-				<text>9th — dominate person, modify memory</text>
-			</feature>
-			<feature optional="YES">
-				<name>Chosen of the Gods: War</name>
-				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (War) spell list.</text>
-				<text />
-				<text>1st — divine favor, shield of faith</text>
-				<text>3rd — magic weapon, spiritual weapon</text>
-				<text>5th — crusader's mantle, spirit guardians</text>
-				<text>7th — freedom of movement, stoneskin</text>
-				<text>9th — flame strike, hold monster</text>
 			</feature>
 			<feature optional="YES">
 				<name>Dragon Ancestor</name>
@@ -7170,14 +7138,6 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<name>Draconic Bloodline: Draconic Resilience</name>
 				<text>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</text>
 				<text>    Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Shadow: Eyes of the Dark</name>
-				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Shadow: Strength of the Grave</name>
-				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Constitution saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Storm: Tempestuous Magic</name>
@@ -7343,20 +7303,6 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<text>    If it is raining, you can use an action to cause the rain to stop falling in a 20-foot radius centered on you. You can end this effect as a bonus action.</text>
 				<text>    If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot radius around you. The wind blows in that direction until the end of your next turn. You have no ability to alter the speed of the wind.</text>
 			</feature>
-			<feature optional="YES">
-				<name>Favored Soul: Extra Attack</name>
-				<text>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Shadow: Hound of Ill Omen</name>
-				<text>At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see. The hound uses a dire wolf's statistics with the following changes:</text>
-				<text />
-				<text>• The hound is size Medium</text>
-				<text>• It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
-				<text>• At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
-				<text />
-				<text>    The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
-			</feature>
 		</autolevel>
 
 		<autolevel level="8">
@@ -7423,21 +7369,12 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<text>    You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Favored Soul: Divine Wings</name>
-				<text>At 14th level, you gain the ability to sprout a pair of wings from your back (feathered or bat-like, your choice), gaining a flying speed equal to your current walking speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.</text>
-				<text>You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Storm: Storm's Fury</name>
-				<text>Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Wild Magic: Controlled Chaos</name>
 				<text>At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Shadow: Shadow Walk</name>
-				<text>At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness.</text>
+				<name>Storm: Storm's Fury</name>
+				<text>Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</text>
 			</feature>
 		</autolevel>
 
@@ -7500,17 +7437,9 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<text>Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Favored Soul: Power of the Chosen</name>
-				<text>Starting at 18th level, when you cast one of the spells you learned from your Chosen of the Gods class feature, you regain hit points equal to your Charisma modifier (minimum of +1) + the spell's level.</text>
-			</feature>
-			<feature optional="YES">
 				<name>Storm: Wind Soul</name>
 				<text>At 18th level, you gain a flying speed of 60 feet and immunity to lightning and thunder damage.</text>
 				<text>As an action, you can reduce your flying speed to 30 feet for one hour and choose a number of creatures within 30 feet of you equal to 3+your Charisma modifier. The chosen creatures gain a flying speed of 30 feet for 1 hour.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Shadow: Shadow Form</name>
-				<text>At 18th level, you can spend 3 sorcery points to transform yourself into a shadow form as a bonus action. In this form, you have resistance to all damage except force damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object. You remain in this form for 1 minute.</text>
 			</feature>
 		</autolevel>
 
@@ -7528,7 +7457,166 @@ If an Alchemical Formula option requires a saving throw, the DC is 8 + your prof
 				<text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
 			</feature>
 		</autolevel>
-	</class>
+<!--Unearthed Arcana-->
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Sorcerous Origin: Favored Soul (UA)</name>
+				<text>You have been chosen by a deity, and bestowed with a fragment of their divine power. You have been fundamentally changed by the touch of this deity, which awakens powerful magical abilities inside you</text>
+                <text />
+                <text>This Sorcerous Origin is from Unearthed Arcana: Modifying classes, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Sorcerous Origin: Shadow (UA)</name>
+				<text>Your innate magic comes from the Shadowfell. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed in some fundamental manner.</text>
+				<text />
+				<text>    The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the following table to create a unique quirk for your character.</text>
+				<text />
+				<text>d6 - Quirk</text>
+				<text>1 — You are always icy cold to the touch.</text>
+				<text>2 — When you are asleep, you don't appear to breathe (though you must still breathe to survive).</text>
+				<text>3 — You don't seem to bleed, even when badly injured.</text>
+				<text>4 — Your heart beats once per minute. This even sometimes surprises you.</text>
+				<text>5 — You have trouble remembering that living creatures and corpses should be treated differently.</text>
+				<text>6 — You blinked. Once. Last week.</text>
+                <text />
+                <text>This Sorcerous Origin is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+
+			</feature>
+			<feature optional="YES">
+				<name>Favored Soul: Bonus Proficiency</name>
+				<text>At 1st level, you gain proficiency in light armor, medium armor, shields, and simple weapons.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Favored Soul: Chosen of the Gods</name>
+				<text>At 1st level, you choose one of the cleric class's divine domains. You add that domain's spells for 1st-level clerics to your known spells. These spells do not count against the number of spells you can know, and they are considered to be sorcerer spells for you. When you reach 3rd, 5th, 7th, and 9th levels in the sorcerer class, you likewise learn your domain's spells that become available at those levels.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Death</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Death) spell list.</text>
+				<text />
+				<text>1st — false life, ray of sickness</text>
+				<text>3rd — blindness/deafness, ray of enfeeblement</text>
+				<text>5th — animate dead, vampiric touch</text>
+				<text>7th — blight, death ward</text>
+				<text>9th — antilife shell, cloudkill</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Knowledge</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Knowledge) spell list.</text>
+				<text />
+				<text>1st — command, identify</text>
+				<text>3rd — augury, suggestion</text>
+				<text>5th — nondetection, speak with dead</text>
+				<text>7th — arcane eye, confusion</text>
+				<text>9th — legend lore, scrying</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Life</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Life) spell list.</text>
+				<text />
+				<text>1st — bless, cure wounds</text>
+				<text>3rd — lesser restoration, spiritual weapon</text>
+				<text>5th — beacon of hope, revivify</text>
+				<text>7th — death ward, guardian of faith</text>
+				<text>9th — mass cure wounds, raise dead</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Light</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Light) spell list.</text>
+				<text />
+				<text>1st — burning hands, faerie fire</text>
+				<text>3rd — flaming sphere, scorching ray</text>
+				<text>5th — daylight, fireball</text>
+				<text>7th — guardian of faith, wall of fire</text>
+				<text>9th — flame strike, scrying</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Nature</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Nature) spell list.</text>
+				<text />
+				<text>1st — animal friendship, speak with animals</text>
+				<text>3rd — barkskin, spike growth</text>
+				<text>5th — plant growth, wind wall</text>
+				<text>7th — dominate beast, grasping vine</text>
+				<text>9th — insect plague, tree stride</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Tempest</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Tempest) spell list.</text>
+				<text />
+				<text>1st — fog cloud, thunderwave</text>
+				<text>3rd — gust of wind, shatter</text>
+				<text>5th — call lightning, sleet storm</text>
+				<text>7th — control water, ice storm</text>
+				<text>9th — destructive wave, insect plague</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: Trickery</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (Trickery) spell list.</text>
+				<text />
+				<text>1st — charm person, disguise self</text>
+				<text>3rd — mirror image, pass without trace</text>
+				<text>5th — blink, dispel magic</text>
+				<text>7th — dimension door, polymorph</text>
+				<text>9th — dominate person, modify memory</text>
+			</feature>
+			<feature optional="YES">
+				<name>Chosen of the Gods: War</name>
+				<text>Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known. You may also find these spells in the Cleric (War) spell list.</text>
+				<text />
+				<text>1st — divine favor, shield of faith</text>
+				<text>3rd — magic weapon, spiritual weapon</text>
+				<text>5th — crusader's mantle, spirit guardians</text>
+				<text>7th — freedom of movement, stoneskin</text>
+				<text>9th — flame strike, hold monster</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Eyes of the Dark</name>
+				<text>From 1st level, you have darkvision with a range of 60 feet. You can cast darkness by spending 1 sorcery point. You can see through any darkness spell you cast using this ability.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Strength of the Grave</name>
+				<text>Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. Whenever damage reduces you to 0 hit points, you can make a Constitution saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You cannot use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.</text>
+			</feature>
+        </autolevel>
+        <autolevel level="6">
+			<feature optional="YES">
+				<name>Favored Soul: Extra Attack</name>
+				<text>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Hound of Ill Omen</name>
+				<text>At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see. The hound uses a dire wolf's statistics with the following changes:</text>
+				<text />
+				<text>• The hound is size Medium</text>
+				<text>• It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.</text>
+				<text>• At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound.</text>
+				<text />
+				<text>    The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only towards its target by the most direct route, and it can use its action only to attack its target. The hound makes opportunity attack, but only against its target. Additionally, the target has disadvantage on all saving throws against your spells while the hound is within 5 feet of it. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.</text>
+			</feature>
+        </autolevel>
+        <autolevel level="14">
+			<feature optional="YES">
+				<name>Shadow: Shadow Walk</name>
+				<text>At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Favored Soul: Divine Wings</name>
+				<text>At 14th level, you gain the ability to sprout a pair of wings from your back (feathered or bat-like, your choice), gaining a flying speed equal to your current walking speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.</text>
+				<text>You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</text>
+			</feature>
+        </autolevel>
+        <autolevel level="18">
+			<feature optional="YES">
+				<name>Favored Soul: Power of the Chosen</name>
+				<text>Starting at 18th level, when you cast one of the spells you learned from your Chosen of the Gods class feature, you regain hit points equal to your Charisma modifier (minimum of +1) + the spell's level.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Shadow: Shadow Form</name>
+				<text>At 18th level, you can spend 3 sorcery points to transform yourself into a shadow form as a bonus action. In this form, you have resistance to all damage except force damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object. You remain in this form for 1 minute.</text>
+			</feature>
+        </autolevel>
+    </class>
 
 	<class>
 		<name>Warlock</name>
