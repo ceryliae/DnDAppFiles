@@ -90,6 +90,7 @@
 			<attack>Two Handed|3|1d8-1</attack>
 		</action>
 		<spells>blade ward. dancing lights, mending, message, ray of frost, alarm, mage armor, magic missile, shield, arcane lock, invisibility, counterspell, dispel magic, fireball, banishment, stoneskin, cone of cold, wall of force, flesh to stone, globe of invulnerability, symbol teleport</spells>
+		<slots>4,3,3,3,2,1,1,0,0</slots>
 	</monster>
 	<monster>
 		<name>Aboleth</name>
@@ -238,6 +239,7 @@
 		</action>
 		<spells>light, sacred flame, thaumaturgy, bless, cure wounds, sanctuary</spells>
 		<description>Acolytes are junior members of the clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</description>
+		<slots>3,0,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Adult Black Dragon</name>
@@ -1049,6 +1051,7 @@
 			<attack>Two Handed|9|1d8+6+1d6</attack>
 		</action>
 		<spells>gust (ee), mage hand, message, prestidigitation, ray of frost, shocking grasp, charm person, feather fall, mage armor, thunderwave, dust devil (ee), gust of wind, invisibility, fly, gaseous form, lightning bolt, ice storm, storm sphere (ee), cloudkill, seeming, chain lightning</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Air Elemental</name>
@@ -1104,7 +1107,7 @@
 		<int>9</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1194,6 +1197,7 @@
 			<attack>Mind Blast| |4d8+4</attack>
 		</action>
 		<spells>detect thoughts, levitate, dominate monster, plane shift, chill touch, dancing lights, mage hand, prestidigitation, shocking grasp, detect magic, disguise self, magic missile, shield, invisibility, mirror image, scorching ray, counterspell, fly, lightning bolt, confusion, Evard’s black tentacles, phantasmal killer, modify memory, wall of force, disintegrate, globe of invulnerability</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Allosaurus</name>
@@ -2039,6 +2043,7 @@
 			<text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</text>
 		</legendary>
 		<spells>sacred flame, spare the dying, thaumaturgy, command, detect evil and good, detect magic, lesser restoration, zone of truth, dispel magic, tongues, banishment, freedom of movement, flame strike, greater restoration, heroes' feast</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Animated Armor</name>
@@ -2315,6 +2320,7 @@
 			<attack>Dagger|2|1d4</attack>
 		</action>
 		<spells>fire bolt, mending, prestidigitation, burning hands, disguise self, shield</spells>
+		<slots>2,0,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Arcanaloth</name>
@@ -2383,6 +2389,7 @@
 			<text>A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.</text>
 		</action>
 		<spells>alter self, darkness, heat metal, invisibility, magic missile, fire bolt, mage hand, minor illusion, prestidigitation, detect magic, identify, shield, Tenser's floating disk, detect thoughts, mirror image, phantasmal force, suggestion, counterspell, fear, fireball, banishment, dimension door, contact other plane, hold monster, chain lightning, finger of death, mind blank</spells>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
 	</monster>
 	<monster>
 		<name>Archdruid</name>
@@ -2439,6 +2446,7 @@
 			<text>	The new form’s attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.</text>
 		</action>
 		<spells>druidcraft, mending, poison spray, produce flame, cure wounds, entangle, faerie fire, speak with animals, animal messenger, beast sense, hold person, conjure animals, meld into stone, water breathing, dominate beast, locate creature, stoneskin, wall of fire, commune with nature, mass cure wounds, tree stride, heal, heroes' feast, sunbeam, fire storm, animal shapes, foresight</spells>
+		<slots>4,3,3,3,3,1,1,1,1</slots>
 	</monster>
 	<monster>
 		<name>Archer</name>
@@ -2525,6 +2533,7 @@
 			<attack>Dagger|6|1d4+2</attack>
 		</action>
 		<spells>fire bolt, light, mage hand, prestidigitation, shocking grasp, detect magic, identify, mage armor, magic missile, detect thoughts, mirror image, misty step, counterspell, fly, lightning bolt, banishment, fire shield, stoneskin, cone of cold, scrying, wall of force, globe of invulnerability, teleport, mind blank, time stop</spells>
+		<slots>4,3,3,3,3,1,1,1,1</slots>
 	</monster>
 	<monster>
 		<name>Assassin</name>
@@ -2846,6 +2855,7 @@
 			<attack>Dagger|5|1d4+3</attack>
 		</action>
 		<spells>mage hand, prestidigitation, ray of frost, shocking grasp, fog cloud, magic missile, shield, thunderwave, invisibility, misty step, scorching ray, counterspell, dispel magic, fireball</spells>
+		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Azer</name>
@@ -2955,6 +2965,7 @@
 			<text>Baba Lysaga summons 1d4 swarms of insects. A summoned swarm appears in an unoccupied space within 60 feet of Baba Lysaga and acts as her ally. It remains until it dies or until Baba Lysaga dismisses it as an action.</text>
 		</action>
 		<spells>acid splash, fire bolt, light, mage hand, prestidigitation, detect magic, magic missile, sleep, witch bolt, crown of madness, enlarge/reduce, misty step, dispel magic, fireball, lightning bolt, blight, Everard's black tentacles, polymorph, cloudkill, geas, scrying, programmed illusion, true seeing, finger of death, mirage arcane, power word stun</spells>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
 	</monster>
 	<monster>
 		<name>Baba Lysaga's Creeping Hut</name>
@@ -3534,6 +3545,7 @@
 			<attack>Shortbow|4|1d6+2</attack>
 		</action>
 		<spells>friends, mage hand, vicious mockery, charm person, healing word, heroism, sleep, thunderwave, invisibility, shatter</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Barghest</name>
@@ -3697,8 +3709,9 @@
 			<attack>Dagger|2|1d4</attack>
 		</action>
 		<spells>mage hand, prestidigitation, ray of frost, ray of sickness, sleep, Tasha's hideous laughter, alter self, invisibility</spells>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
-<monster>
+	<monster>
 		<name>Basilisk</name>
 		<size>M</size>
 		<type>monstrosity, monster manual</type>
@@ -3771,6 +3784,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 		<spells>produce flame, burning hands, fire bolt, mage hand, message, prestidigitation, shocking grasp, mage armor, magic missile, shield, misty step, scorching ray, counterspell, fireball, dimension door, wall of fire, hold monster</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Bat</name>
@@ -4325,6 +4339,7 @@
 			<text>When the priest is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone.</text>
 		</reaction>
 		<spells>acid splash, blade ward, light, mending, mold earth (ee), earth tremor (ee), expeditious retreat, shield, shatter, spider climb, slow</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Black Guard Drake</name>
@@ -4455,6 +4470,7 @@
 			<text>The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the tar get can repeat the saving throw, ending the effect on itself on a success.</text>
 		</action>
 		<spells>command, protection from evil and good, thunderous smite, branding smite, find steed, blinding smite, dispel magic</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Blagothkus</name>
@@ -4504,6 +4520,7 @@
 			<attack>Morningstar|10|3d8+8</attack>
 		</action>
 		<spells>fog cloud, levitate, light, mage hand, prestidigitation, detect magic, identify, magic missile, shield, gust of wind, misty step, shatter, fly, lightning bolt</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Blink Dog</name>
@@ -4942,6 +4959,7 @@
 			<attack>Bite|5|2d6+3+3d6</attack>
 		</action>
 		<spells>mending, sacred flame, thaumaturgy, command, shield of faith, calm emotions, hold person, bestow curse</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Bone Naga (Spirit)</name>
@@ -4978,6 +4996,7 @@
 			<attack>Bite|5|2d6+3+3d6</attack>
 		</action>
 		<spells>mage hand, minor illusion, ray of frost, charm person, sleep, detect thoughts, hold person, lightning bolt</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Brass Dragon Wyrmling</name>
@@ -6093,6 +6112,7 @@
 			<attack>Web|5|</attack>
 		</action>
 		<spells>guidance, mending, resistance, thaumaturgy, bane, healing word, sanctuary, shield of faith, hold person, spiritual weapon</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Chuul</name>
@@ -6398,6 +6418,7 @@
 			<text>The giant magically polymorphs into a beast or humanoid it has seen, or back into its true form. Any equipment the giant is wearing or carrying is absorbed by the new form. Its statistics, other than its size, are the same in each form. It reverts to its true form if it dies.</text>
 		</action>
 		<spells>detect magic, fog cloud, light, featherfall, fly, misty step, telekinesis, control weather, gaseous form, minor illusion, prestidigitation, vicious mockery, cure wounds, disguise self, silent image, Tasha's hideous laughter, invisibility, suggestion, major image, tongues</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Cockatrice</name>
@@ -6492,6 +6513,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 		<spells>acid splash, mage hand, poison spray, prestidigitation, mage armor, magic missile, unseen servant, cloud of daggers, misty step, web, fireball, stinking cloud, Evard's black tentacles, stoneskin, cloudkill, conjure elemental</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Constrictor Snake</name>
@@ -6836,6 +6858,7 @@
 			<attack>Two Handed|4|1d8+2</attack>
 		</action>
 		<spells>chill touch, mage hand, minor illusion, prestidigitation, ray of frost, expeditious retreat, ice knife (ee), magic missile, shield, blur, hold person, sleet storm</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Crushing Wave Reaver</name>
@@ -6907,6 +6930,7 @@
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
 		<spells>light, sacred flame, thaumaturgy, command, inflict wounds, shield of faith, hold person, spiritual weapon</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Cultist</name>
@@ -7416,6 +7440,7 @@
 			<text>The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 		<spells>command, compelled duel, searing smite, hold person, magic weapon, dispel magic, elemental weapon, banishment, staggering smite, destructive wave</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Death Slaad</name>
@@ -7966,6 +7991,7 @@
 			<attack>|4|1d8+2</attack>
 		</action>
 		<spells>acid splash, light, mage hand, message, ray of frost, burning hands, chromatic orb, sleep, invisibility, spider climb, blink, lightning bolt</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Deva</name>
@@ -8213,6 +8239,7 @@
 			<attack>Two Handed|2|1d8-1</attack>
 		</action>
 		<spells>fire bolt, light, mage hand, message, true strike, detect magic, feather fall, mage armor, detect thoughts, locate object, scorching ray, clairvoyance, fly, fireball, arcane eye, ice storm, stoneskin, Rary's telepathic bond, seeming, mass suggestion, true seeing, delayed blast fireball, teleport, maze</spells>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
 	</monster>
 	<monster>
 		<name>Djinni</name>
@@ -8716,6 +8743,7 @@
 			<attack>Dagger|6|1d4+4</attack>
 		</action>
 		<spells>fire bolt, prestidigitation, shocking grasp, longstrider, magic missile, shield, thunderwave, magic weapon, misty step</spells>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Drannin Splithelm</name>
@@ -8947,6 +8975,7 @@
 			<attack>Longbow|6|1d8+3+1d8</attack>
 		</action>
 		<spells>dancing lights, darkness, faerie fire, poison spray, thaumaturgy, bane, detect magic, sanctuary, hold person, silence, clairvoyance, dispel magic, divination, freedom of movement</spells>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Droki</name>
@@ -9165,6 +9194,7 @@
 			<text>The drow magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
 		</action>
 		<spells>dancing lights, darkness, faerie fire, levitate, mage hand, minor illusion, poison spray, ray of frost, mage armor, magic missile, shield, witch bolt, alter self, misty step, web, fly, lightning bolt, Evard's black tentacles, greater invisibility, cloudkill</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Drow Priestess of Lolth</name>
@@ -9225,6 +9255,7 @@
 			<text>The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
 		</action>
 		<spells>dancing lights, darkness, faerie fire, levitate, guidance, poison spray, resistance, spare the dying, thaumaturgy, animal friendship, cure wounds, detect poison and disease, ray of sickness, lesser restoration, protection from poison, web, conjure animals, dispel magic, divination, freedom of movement, insect plague, mass cure wounds</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Drow Spore Servant</name>
@@ -9284,6 +9315,7 @@
 			<attack>Shillelagh|4|1d8+2</attack>
 		</action>
 		<spells>druidcraft, produce flame, shillelagh, entangle, longstrider, speak with animals, thunderwave, animal messenger, barkskin</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Dryad</name>
@@ -9326,8 +9358,9 @@
 		</trait>
 		<action>
 			<name>Club</name>
-			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
+			<text>Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.</text>
 			<attack>Club|2|1d4</attack>
+			<attack>Shillelagh|6|1d8+4</attack>
 		</action>
 		<action>
 			<name>Fey Charm</name>
@@ -9565,6 +9598,7 @@
 			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
 		</action>
 		<spells>friends, message, command, guidance, mending, sacred flame, bane, inflict wounds, shield of faith, enhance ability, spiritual weapon</spells>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Duergar Soulblade</name>
@@ -10179,6 +10213,7 @@
 			<attack>Dagger +1|6|1d4+3</attack>
 		</action>
 		<spells>druidcraft, guidance, poison spray, produce flame, animal friendship, faerie fire, healing word, jump, thunderwave, flame blade, spike growth, dispel magic, stinking cloud, blight, wall of fire</spells>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Elk</name>
@@ -10324,6 +10359,7 @@
 			<text>	The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target.</text>
 		</reaction>
 		<spells>friends, mage hand, mending, message, charm person, mage armor, magic missile, hold person, invisibility, suggestion, fireball, haste, tongues, dominate beast, stoneskin, hold monster</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Erinyes</name>
@@ -10453,6 +10489,7 @@
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
 		<spells>control flames (ee), create bonfire (ee), fire bolt, light, minor illusion, burning hands, expeditious retreat, mage armor, blur, scorching ray, fireball</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Ettercap</name>
@@ -10584,6 +10621,7 @@
 			<attack>Two Handed|1|1d8-1</attack>
 		</action>
 		<spells>light, mage hand, shocking grasp, charm person, magic missile, hold person, misty step</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Evoker</name>
@@ -10635,6 +10673,7 @@
 			<attack>Two Handed|3|1d8-1</attack>
 		</action>
 		<spells>fire bolt, light, prestidigitation, ray of frost, burning hands, mage armor, magic missile, mirror image, misty step, shatter, counterspell, fireball, lightning bolt, ice storm, stoneskin, Bigby's hand, cone of cold, chain lightning, wall of ice </spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Ezmerelda d'Avenir</name>
@@ -10706,6 +10745,7 @@
 			<text>Ezmerelda targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 14), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Ezmerelda is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</text>
 		</action>
 		<spells>fire bolt, light, mage hand, prestidigitation, protection from evil and good, magic missile, shield, darkvision, knock, mirror image, clairvoyance, lightning bolt, magic circle, greater invisibility</spells>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Faerie Dragon (Blue)</name>
@@ -11237,6 +11277,7 @@
 			<attack>Two Handed|4|1d8+2</attack>
 		</action>
 		<spells>gust (ee), light, message, ray of frost, expeditious retreat, feather fall</spells>
+		<slots>2,0,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Female Steeder</name>
@@ -11536,6 +11577,7 @@
 			<attack>Morningstar|3|1d8+1</attack>
 		</action>
 		<spells>mage armor, burning hands, flaming sphere, hellish rebuke, scorching ray, fire bolt, guidance, light, mage hand, prestidigitation</spells>
+		<slots>0,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Firenewt Warrior</name>
@@ -11681,6 +11723,7 @@
 			<attack>|5|3d6</attack>
 		</action>
 		<spells>mage hand, magic missile, shield, blur, flaming sphere, fireball</spells>
+		<slots>3,2,1,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Flamewrath</name>
@@ -11721,6 +11764,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 		<spells>control flames (ee), fire bolt, friends, light, minor illusion, burning hands, color spray, mage armor, scorching ray, suggestion, fireball, hypnotic pattern, fire shield</spells>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Flesh Golem</name>
@@ -12252,6 +12296,7 @@
 			<attack>Halberd|5|1d10+2</attack>
 		</action>
 		<spells>light, sacred flame, thaumaturgy, command, cure wounds, healing word, sanctuary, calm emotions, hold person, spiritual weapon, mass healing word, spirit guardians</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Galeb Duhr</name>
@@ -12356,6 +12401,7 @@
 			<attack>Two Handed|7|1d8+3+1d8</attack>
 		</action>
 		<spells>mending, resistance, shape water (ee), create or destroy water, cure wounds, fog cloud, thunderwave, darkvision, hold person, protection from poison, call lightning, sleet storm, tidal wave (ee), control water, ice storm, scrying</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Gargoyle</name>
@@ -15238,6 +15284,7 @@
 			<attack>|5|1d8+3</attack>
 		</action>
 		<spells>guidance, light, sacred flame, thaumaturgy, cure wounds, divine favor, inflict wounds, protection from evil and good, shield of faith, continual flame, hold person, magic weapon, spiritual weapon, bestow curse, dispel magic, spirit guardian</spells>
+		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Grung</name>
@@ -15408,6 +15455,7 @@
 			<attack>Poison||2d4</attack>
 		</action>
 		<spells />
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Guard</name>
@@ -15517,6 +15565,7 @@
 			<attack>Spit Poison|8|10d8</attack>
 		</action>
 		<spells>mending, sacred flame, thaumaturgy, command, cure wounds, shield of faith, calm emotions, hold person, bestow curse, clairvoyance, banishment, freedom of movement, flame strike, geas, true seeing</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Guardian Portrait</name>
@@ -15626,6 +15675,7 @@
 			<text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</text>
 		</legendary>
 		<spells>mage hand, minor illusion, prestidigitation, detect magic, identify, shield, darkness, locate object, suggestion, dispel magic, remove curse, tongues, banishment, greater invisibility, legend lore</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Hadrosaurus</name>
@@ -16178,6 +16228,7 @@
 			<attack>Two Handed|3|1d8+1</attack>
 		</action>
 		<spells>acid splash, fire bolt, ray of frost, shocking grasp, fog cloud, magic missile, thunderwave, gust of wind, Melf's acid arrow, scorching ray, fireball, fly, lightning bolt, ice storm</spells>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Hobgoblin Iron Shadow</name>
@@ -16229,6 +16280,7 @@
 			<text>The hobgoblin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it is leaving and its destination must be in dim light or darkness.</text>
 		</action>
 		<spells>minor illusion, prestidigitation, true strike, charm person, disguise self, expeditious retreat, silent image</spells>
+		<slots>3,0,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Hobgoblin Warlord</name>
@@ -16508,6 +16560,7 @@
 			<attack>Dagger|5|1d4+3</attack>
 		</action>
 		<spells>blade ward, gust (ee), light, prestidigitation, shocking grasp, feather fall, shield, witch bolt, dust devil (ee), gust of wind, gaseous form</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
         <name>Hulking Crab</name>
@@ -16626,6 +16679,7 @@
 			<text>When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.</text>
 		</reaction>
 		<spells>blade ward, gust (ee), light, prestidigitation, feather fall, jump, thunderwave, gust of wind</spells>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Hydra</name>
@@ -17015,6 +17069,7 @@
 			<text>The illithilich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has prepared. Doing so costs 1 legendary action per level of the spell.</text>
 		</legendary>
 		<spells>mage hand, prestidigitation, ray of frost, detect magic, magic missile, shield, thunderwave, detect thoughts, invisibility, levitate, Melf's acid arrow, mirror image, animate dead, counterspell, dispel magic, fireball, blight, dimension door, cloudkill, scrying, disintegrate, globe of invulnerability, finger of death, plane shift, dominate monster, power word stun, power word kill</spells>
+		<slots>4,3,3,3,3,1,1,1,1</slots>
 	</monster>
 	<monster>
 		<name>Illusionist</name>
@@ -17062,6 +17117,7 @@
 			<attack>Two Handed|1|1d8-1</attack>
 		</action>
 		<spells>dancing lights, mage hand, minor illusion, poison spray, color spray, disguise self, mage armor, magic missile, invisibility, mirror image, phantasmal force, major image, phantom steed, phantasmal killer</spells>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Imix</name>
@@ -17408,6 +17464,7 @@
 			<attack>|5|1d8+3</attack>
 		</reaction>
 		<spells>guidance, thaumaturgy, charm person, create or destroy water, hold person, silence, dispel magic, tongues</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
         <name>Iymrith, Ancient Blue Dragon</name>
@@ -17651,6 +17708,7 @@
 			<attack>Shortsword vs medium or larger|5|1d6+3+1d6</attack>
 		</action>
 		<spells>mage hand, minor illusion, prestidigitation, ray of frost, charm person, color spray, disguise self, longstrider</spells>
+		<slots>3,0,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Juiblex</name>
@@ -17870,6 +17928,7 @@
 			<text>The ki-rin moves up to its half its speed without provoking opportunity attacks.</text>
 		</legendary>
 		<spells>gaseous form, major image, wind walk, create food and water, light, mending, sacred flame, spare the dying, thaumaturgy, command, cure wounds, detect evil and good, protection from evil and good, sanctuary, calm emotions, lesser restoration, silence, dispel magic, remove curse, sending, banishment, freedom of movement, guardian of faith, greater restoration, mass cure wounds, scrying, heroes' feast, true seeing, etherealness, plane shift, control weather, true resurrection</spells>
+		<slots>4,3,3,3,3,1,1,1,1</slots>
 	</monster>
 	<monster>
 		<name>Killer Whale</name>
@@ -18142,6 +18201,7 @@
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
 		<spells>fire bolt, mage hand, mending, poison spray, charm person, chromatic orb, expeditious retrea, scorching ray</spells>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Korred</name>
@@ -18431,6 +18491,7 @@
 			<attack>Unarmed Strike|6|1d4+3</attack>
 		</action>
 		<spells>guidance, sacred flame, thaumaturgy, detect magic, sanctuary, shield of faith, hold person, spiritual weapon, spirit guardians, tongues, control water, divination, mass cure wounds, scrying</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Kuo-Toa Monitor</name>
@@ -18543,6 +18604,7 @@
 			<attack>Pincer Staff|4|1d6+2</attack>
 		</action>
 		<spells>sacred flame, thaumaturgy, bane, shield of faith</spells>
+		<slots>3,0,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Lamia</name>
@@ -18797,6 +18859,7 @@
 			<attack>Disrupt Life||6d6</attack>
 		</legendary>
 		<spells>mage hand, prestidigitation, ray of frost, detect magic, magic missile, shield, thunderwave, detect thoughts, invisibility, Melf's acid arrow, mirror image, animate dead, counterspell, dispel magic, fireball, blight, dimension door, cloudkill, scrying, disintegrate, globe of invulnerability, finger of death, plane shift, dominate monster, power word stun, power word kill</spells>
+		<slots>4,3,3,3,3,1,1,1,1</slots>
 	</monster>
 	<monster>
         <name>Lifferlas</name>
@@ -19115,6 +19178,7 @@
 			<text>Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 17), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Madam Eva is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</text>
 		</action>
 		<spells>light, mending, sacred flame, thaumaturgy, bane, command, detect evil and good, protection from evil and good, lesser restoration, protection from poison, spiritual weapon, create food and water, speak with dead, spirit guardians, divination, freedom of movement, guardians of faith, greater restoration, raise dead, find the path, harm, true seeing, fire storm, regenerate, earthquake</spells>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
 	</monster>
 	<monster>
         <name>Maegera the Dawn Titan</name>
@@ -19222,6 +19286,7 @@
 			<attack>|5|1d4+2</attack>
 		</action>
 		<spells>fire bolt, light, mage hand, prestidigitation, detect magic, mage armor, magic missile, shield, misty step, suggestion, counterspell, fireball, fly, greater invisibility, ice storm, cone of cold</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Magma Mephit</name>
@@ -20195,6 +20260,7 @@
 			<attack>Mind Blast||4d8+4</attack>
 		</action>
 		<spells>detect thoughts, levitate, dominate monster, plane shift, blade ward, dancing lights, mage hand, shocking grasp, detect magic, disguise self, shield, sleep, blur, invisibility, ray of enfeeblement, clairvoyance, lightning bolt, sending, confusion, hallucinatory terrain, telekinesis, wall of force</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Mind Flayer Psion</name>
@@ -20306,1188 +20372,6 @@
 			<text>6. Telekinetic Ray: If the target is a creature, it must make a DC 13 Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is restrained by the ray’s telekinetic grip until the start of the mindwitness’s next turn or until the mindwitness is incapacitated.</text>
 			<text>	If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.</text>
 			<attack>Psychic Ray| |6d8</attack>
-		</action>
-		<spells />
-    </monster>
-	<monster>
-		<name>Morkoth</name>
-		<size>M</size>
-		<type>aberration, Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>130 (20d8+40)</hp>
-		<speed>25 ft., swim 50 ft.</speed>
-		<str>14</str><dex>14</dex><con>14</con><int>20</int><wis>15</wis><cha>13</cha>
-		<save>Dex +6, Int +9, Wis +6</save>
-		<skill>Arcana +9, History +9, Perception +10, Stealth +6</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>blindsight 30 ft., darkvision 120 ft.</senses>
-		<passive>20</passive>
-		<languages>telepathy 120 ft.</languages>
-		<cr>11</cr>
-		<trait>
-			<name>Amphibious</name>
-			<text>The morkoth can breathe air and water.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:</text>
-			<text>	 </text>
-			<text>Cantrips (at will): acid splash, mage hand, mending, ray of frost, shocking grasp</text>
-			<text>	 </text>
-			<text>1st level (4 slots): detect magic, identify, shield, witch bolt</text>
-			<text>	 </text>
-			<text>2nd level (3 slots): darkness, detect thoughts, shatter</text>
-			<text>	 </text>
-			<text>3rd level (3 slots): dispel magic, lightning bolt, sending</text>
-			<text>	 </text>
-			<text>4th level (3 slots): dimension door, Evard’s black tentacles</text>
-			<text>	 </text>
-			<text>5th level (3 slots): geas, scrying</text>
-			<text>	 </text>
-			<text>6th level (1 slot): chain lightning</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The morkoth makes three attacks: two with its bite and one with its tentacles or three with its bite.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 9 (2d6+2) slashing damage.</text>
-			<attack>Bite|6|2d6+2</attack>
-		</action>
-		<action>
-			<name>Tentacles</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 15 (3d8+2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8+2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target.</text>
-			<attack>Tentacles|6|3d8+2</attack>
-		</action>
-		<action>
-			<name>Hypnosis</name>
-			<text>The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a DC 17 Wisdom saving throw. On a failed save, the creature is charmed by the morkoth for 1 minute. While charmed in this way, the target tries to get as close to the morkoth as possible, using its actions to Dash until it is within 5 feet of the morkoth. A charmed target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours.</text>
-		</action>
-		<reaction>
-			<name>Spell Reflection</name>
-			<text>If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.</text>
-		</reaction>
-		<spells />
-	</monster>
-	<monster>
-		<name>Mouth of Grolantor</name>
-		<size>H</size>
-		<type>giant (hill giant), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>105 (10d12+40)</hp>
-		<speed>50 ft.</speed>
-		<str>21</str><dex>10</dex><con>18</con><int>5</int><wis>7</wis><cha>5</cha>
-		<save />
-		<skill>Perception +1</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune>frightened</conditionImmune>
-		<senses />
-		<passive>11</passive>
-		<languages>Giant</languages>
-		<cr>6</cr>
-		<trait>
-			<name>Mouth of Madness</name>
-			<text>The giant is immune to confusion spells and similar magic.</text>
-			<text>	On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant’s turns to determine its action for that turn:</text>
-			<text>	 </text>
-			<text>1-3. The giant makes three attacks with its fists against one random target within its reach. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.</text>
-			<text>	 </text>
-			<text>4-5. The giant makes one attack with its fist against every creature within its reach. If no other creatures are within its reach, the giant makes one fist attack against itself.</text>
-			<text>	 </text>
-			<text>6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.</text>
-			<text>	 </text>
-			<text>8-10. The giant makes three attacks against one random target within its reach: one attack with its bite and two with its fists. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (3d6+5) piercing damage, and the giant magically regains hit points equal to the damage dealt.</text>
-			<attack>Bite|8|3d6+5</attack>
-		</action>
-		<action>
-			<name>Fist</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 18 (3d8+5) bludgeoning damage.</text>
-			<attack>Fist|8|3d8+5</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Necromancer</name>
-		<size>M</size>
-		<type>humanoid (any race), Volo's Guide</type>
-		<alignment>any alignment</alignment>
-		<ac>12 (15 with mage armor)</ac>
-		<hp>66 (12d8+12)</hp>
-		<speed>30 ft.</speed>
-		<str>9</str><dex>14</dex><con>12</con><int>17</int><wis>12</wis><cha>11</cha>
-		<save>Int +7, Wis +5</save>
-		<skill>Arcana +7, History +7</skill>
-		<resist>necrotic</resist>
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses />
-		<passive>11</passive>
-		<languages>any four languages</languages>
-		<cr>9</cr>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:</text>
-			<text>	 </text>
-			<text>Cantrips (at will): chill touch, dancing lights, mage hand, mending</text>
-			<text>	 </text>
-			<text>1st level (4 slots):false life*, mage armor, ray of sickness*</text>
-			<text>	 </text>
-			<text>2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web</text>
-			<text>	 </text>
-			<text>3rd level (3 slots): animate dead*, bestow curse*, vampiric touch*</text>
-			<text>	 </text>
-			<text>4th level (3 slots): blight*, dimension door, stoneskin</text>
-			<text>	 </text>
-			<text>5th level (2 slots): Bigby’s hand, cloudkill</text>
-			<text>	 </text>
-			<text>6th level (1 slot): circle of death*</text>
-			<text>	 </text>
-			<text>*Necromancy spell of 1st level or higher</text>
-		</trait>
-		<trait>
-			<name>Grim Harvest (1/Turn)</name>
-			<text>When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.</text>
-		</trait>
-		<action>
-			<name>Withering Touch</name>
-			<text>Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage.</text>
-			<attack>Withering Touch|7|2d4</attack>
-		</action>
-		<spells>chill touch, dancing lights, mage hand, mending, false life, mage armor, ray of sickness, blindness/deafness, ray of enfeeblement, web, animate dead, bestow curse, vampiric touch, blight, dimension door, stoneskin, Bigby's hand, cloudkill, circle of death</spells>
-	</monster>
-	<monster>
-		<name>Neogi</name>
-		<size>S</size>
-		<type>aberration, Volo's Guide</type>
-		<alignment>lawful evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>33 (6d6+12)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>6</str><dex>16</dex><con>14</con><int>13</int><wis>12</wis><cha>15</cha>
-		<save />
-		<skill>Intimidation +4, Perception +3</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages>Common, Deep Speech, Undercommon</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Mental Fortitude</name>
-			<text>The neogi has advantage on saving throws against being charmed or frightened. and magic can't put the neogi to sleep.</text>
-		</trait>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The neogi makes two attacks: one with its bite and one with its claws.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Bite|5|1d6+3+$d6</attack>
-		</action>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.</text>
-			<attack>Claws|5|2d4+3</attack>
-		</action>
-		<action>
-			<name>Enslave (Recharges after a Short or Long Rest)</name>
-			<text>The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Neogi Hatchling</name>
-		<size>T</size>
-		<type>aberration, Volo's Guide</type>
-		<alignment>lawful evil</alignment>
-		<ac>11</ac>
-		<hp>7 (3d4)</hp>
-		<speed>20 ft., climb 20 ft.</speed>
-		<str>3</str><dex>13</dex><con>10</con><int>6</int><wis>10</wis><cha>9</cha>
-		<save />
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages />
-		<cr>1/8</cr>
-		<trait>
-			<name>Mental Fortitude</name>
-			<text>The hatchling has advantage on saving throws against being charmed or frightened, and magic can’t put the hatchling to sleep.</text>
-		</trait>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Bite|3|1d4+1+2d6</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Neogi Master</name>
-		<size>M</size>
-		<type>aberration, Volo's Guide</type>
-		<alignment>lawful evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>71 (13d6+26)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>6</str><dex>16</dex><con>14</con><int>16</int><wis>12</wis><cha>18</cha>
-		<save>Wis +3</save>
-		<skill>Arcana +5, Deception +6, Intimidation +6, Perception +3, Persuasion +6</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
-		<passive>13</passive>
-		<languages>Common, Deep Speech, Undercommon, telepathy 30 ft.</languages>
-		<cr>4</cr>
-		<trait>
-			<name>Mental Fortitude</name>
-			<text>The neogi has advantage on saving throws against being charmed or frightened, and magic can’t put the neogi to sleep.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
-			<text>	 </text>
-			<text>Cantrips (at will): eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery</text>
-			<text>	 </text>
-			<text>1st—4th level (2 4th-level slots): arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant</text>
-		</trait>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The neogi makes two attacks: one with its bite and one with its claws.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Bite|5|1d6+3+$d6</attack>
-		</action>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.</text>
-			<attack>Claws|5|2d4+3</attack>
-		</action>
-		<action>
-			<name>Enslave (Recharges after a Short or Long Rest)</name>
-			<text>The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
-		</action>
-		<spells>eldritch blast, guidance, mage hand, minor illusion, prestidigitation, vicious mockery, arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant</spells>
-	</monster>
-	<monster>
-		<name>Neothelid</name>
-		<size>G</size>
-		<type>aberration, Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>16 (natural armor)</ac>
-		<hp>325 (21d20+105)</hp>
-		<speed>30 ft.</speed>
-		<str>27</str><dex>7</dex><con>21</con><int>3</int><wis>16</wis><cha>12</cha>
-		<save>Int +1, Wis +8, Cha +6</save>
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>blindsight 120 ft.</senses>
-		<passive>13</passive>
-		<languages />
-		<cr>13</cr>
-		<trait>
-			<name>Creature Sense</name>
-			<text>The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s Intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner.</text>
-		</trait>
-		<trait>
-			<name>Innate Spellcasting (Psionics)</name>
-			<text>The neothelid’s innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:</text>
-			<text>	 </text>
-			<text>At will: levitate</text>
-			<text>	 </text>
-			<text>1/day each: confusion, feeblemind, telekinesis</text>
-		</trait>
-		<trait>
-			<name>Magic Resistance</name>
-			<text>The neothelid has advantage on saving throws against spells and other magical effects.</text>
-		</trait>
-		<action>
-			<name>Tentacles</name>
-			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 21 (3d8+8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid’s turns.</text>
-			<text>	If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
-			<attack>Tentacles|13|3d8+8+3d8</attack>
-			<attack>Acid Damage| |10d6</attack>
-		</action>
-		<action>
-			<name>Acid Breath (Recharges 5-6)</name>
-			<text>The neothelid exhales acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Acid Breath | |10d6</attack>
-		</action>
-		<spells>levitate, confusion, feeblemind, telekinesis</spells>
-	</monster>
-	<monster>
-		<name>Nilbog</name>
-		<size>S</size>
-		<type>humanoid (goblinoid), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>13 (leather armor)</ac>
-		<hp>7 (2d6)</hp>
-		<speed>30 ft.</speed>
-		<str>8</str><dex>14</dex><con>10</con><int>10</int><wis>8</wis><cha>15</cha>
-		<save />
-		<skill>Stealth +6</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>9</passive>
-		<languages>Common, Goblin</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Innate Spellcasting</name>
-			<text>The nilbog’s innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:</text>
-			<text>	 </text>
-			<text>At will: mage hand, Tasha’s hideous laughter, vicious mockery 1/day: confusion</text>
-		</trait>
-		<trait>
-			<name>Nilbogism</name>
-			<text>Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature’s next turn. A creature charmed in this way must use its action praising the nilbog. The nilbog can’t regain hit points, including through magical healing, except through its Reversal of Fortune reaction.</text>
-		</trait>
-		<trait>
-			<name>Nimble Escape</name>
-			<text>The nilbog can take the Disengage or Hide action as a bonus action on each of its turns.</text>
-		</trait>
-		<action>
-			<name>Fool's Scepter</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.</text>
-			<attack>Fool's Scepter|4|1d6+2</attack>
-		</action>
-		<action>
-			<name>Shortbow</name>
-			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
-			<attack>Shortbow|4|1d6+2</attack>
-		</action>
-		<reaction>
-			<name>Reversal of Fortune</name>
-			<text>In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points.</text>
-			<attack>Reversal of Fortune| |1d6</attack>
-		</reaction>
-		<spells>mage hand, Tasha's hideous laughter, vicious mockery, confusion</spells>
-	</monster>
-	<monster>
-		<name>Orc Blade of Ilneval</name>
-		<size>M</size>
-		<type>humanoid (orc), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>18 (chain mail, shield)</ac>
-		<hp>60 (8d8+24)</hp>
-		<speed>30 ft.</speed>
-		<str>17</str><dex>11</dex><con>17</con><int>10</int><wis>12</wis><cha>14</cha>
-		<save>Wis +3</save>
-		<skill>Insight +3, Intimidation +4, Perception +3</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages>Common, Orc</languages>
-		<cr>4</cr>
-		<trait>
-			<name>Aggressive</name>
-			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
-		</trait>
-		<trait>
-			<name>Foe Smiter of Ilneval</name>
-			<text>The orc deals an extra die of damage when it hits with a longsword attack (included in the attack).</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval’s Command is available to use, the orc can use it after these attacks.</text>
-		</action>
-		<action>
-			<name>Longsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) slashing damage, or 14 (2d10+3) slashing damage when used with two hands.</text>
-			<attack>Longsword|5|2d8+3</attack>
-			<attack>Two Handed|5|2d10+3</attack>
-		</action>
-		<action>
-			<name>Javelin</name>
-			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
-			<attack>Javelin|5|1d6+3</attack>
-		</action>
-		<action>
-			<name>Ilneval's Command (Recharges 4-6)</name>
-			<text>Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack.</text>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Orc Claw of Luthic</name>
-		<size>M</size>
-		<type>humanoid (orc), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>14 (hide armor)</ac>
-		<hp>45 (6d8+18)</hp>
-		<speed>30 ft.</speed>
-		<str>14</str><dex>15</dex><con>16</con><int>10</int><wis>15</wis><cha>11</cha>
-		<save />
-		<skill>Intimidation +2, Medicine +4, Survival +4</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Common, Orc</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Source</name>
-			<text>Volo's Guide to Monsters, p. 183</text>
-		</trait>		<trait>
-			<name>Aggressive</name>
-			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:</text>
-			<text>	 </text>
-			<text>Cantrips (at will): guidance, mending, resistance, thaumaturgy</text>
-			<text>	 </text>
-			<text>1st level (4 slots): bane, cure wounds, guiding bolt</text>
-			<text>	 </text>
-			<text>2nd level (3 slots): augury, warding bond</text>
-			<text>	 </text>
-			<text>3rd level (2 slots): bestow curse, create food and water</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining.</text>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.</text>
-			<attack>Claw|4|1d8+2</attack>
-		</action>
-		<spells>guidance, mending, resistance, thaumaturgy, bane, cure wounds, guiding bolt, augury, warding bond, bestow curse, create food and water</spells>
-	</monster>
-	<monster>
-		<name>Orc Hand of Yurtrus</name>
-		<size>M</size>
-		<type>humanoid (orc), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>12 (hide armor)</ac>
-		<hp>30 (4d8+12)</hp>
-		<speed>30 ft.</speed>
-		<str>12</str><dex>11</dex><con>16</con><int>11</int><wis>14</wis><cha>9</cha>
-		<save />
-		<skill>Arcana +2, Intimidation +1, Medicine +4, Religion +2</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>understands Common and Orc but can't speak</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Source</name>
-			<text>Volo's Guide to Monsters, p. 184</text>
-		</trait>		<trait>
-			<name>Aggressive</name>
-			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
-		</trait>
-		<trait>
-			<name>Spellcasting</name>
-			<text>The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:</text>
-			<text>	 </text>
-			<text>Cantrips (at-will): guidance, mending, resistance, thaumaturgy</text>
-			<text>	 </text>
-			<text>1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good</text>
-			<text>	 </text>
-			<text>2nd level (3 slots): blindness/deafness, silence</text>
-		</trait>
-		<action>
-			<name>Touch of the White Hand</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage.</text>
-			<attack>Touch of the White Hand|3|2d8</attack>
-		</action>
-		<spells>guidance, mending, resistance, thaumaturgy, bane, detect magic, inflict wounds, protection from evil and good, blindness/deafness, silence</spells>
-	</monster>
-	<monster>
-		<name>Orc Nurtured One of Yurtrus</name>
-		<size>M</size>
-		<type>humanoid (orc), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>9</ac>
-		<hp>30 (4d8+12)</hp>
-		<speed>30 ft.</speed>
-		<str>15</str><dex>8</dex><con>16</con><int>7</int><wis>11</wis><cha>7</cha>
-		<save />
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages>Common, Orc</languages>
-		<cr>1/2</cr>
-		<trait>
-			<name>Aggressive</name>
-			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
-		</trait>
-		<trait>
-			<name>Corrupted Carrier</name>
-			<text>When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn‘t poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can’t regain hit points.</text>
-			<attack>Explosion| |4d6</attack>
-		</trait>
-		<trait>
-			<name>Nurtured One of Yurtrus</name>
-			<text>The orc has advantage on saving throws against poison and disease.</text>
-		</trait>
-		<action>
-			<name>Claws</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage plus 2 (1d4) necrotic damage.</text>
-			<attack>Claws|4|1d4+2+1d4</attack>
-		</action>
-		<action>
-			<name>Corrupted Vengeance</name>
-			<text>The orc reduces itself to 0 hit points, triggering its Corrupted Carrier trait.</text>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Orc Red Fang of Shargaas</name>
-		<size>M</size>
-		<type>humanoid (orc), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>15 (studded leather armor)</ac>
-		<hp>52 (8d8+16)</hp>
-		<speed>30 ft.</speed>
-		<str>11</str><dex>16</dex><con>15</con><int>9</int><wis>11</wis><cha>9</cha>
-		<save />
-		<skill>Intimidation +1, Perception +2, Stealth +5</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Common, Orc</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Cunning Action</name>
-			<text>On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.</text>
-		</trait>
-		<trait>
-			<name>Hand of Shargaas</name>
-			<text>The orc deals an 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks).</text>
-		</trait>
-		<trait>
-			<name>Shargaas's Sight</name>
-			<text>Magical darkness doesn’t impede the orc’s darkvision.</text>
-		</trait>
-		<trait>
-			<name>Slayer</name>
-			<text>In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn’t taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The orc makes two scimitar or dart attacks.</text>
-		</action>
-		<action>
-			<name>Scimitar</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage.</text>
-			<attack>Scimitar|5|3d6+3</attack>
-		</action>
-		<action>
-			<name>Dart</name>
-			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.</text>
-			<attack>Dart|5|3d4+3</attack>
-		</action>
-		<action>
-			<name>Veil of Shargaas (Recharges after a Short or Long Rest)</name>
-			<text>The orc casts darkness without any components. Wisdom is its spellcasting ability.</text>
-		</action>
-		<spells>darkness</spells>
-	</monster>
-	<monster>
-		<name>Ox</name>
-		<size>L</size>
-		<type>beast, Volo's Guide</type>
-		<alignment>unaligned</alignment>
-		<ac>10</ac>
-		<hp>15 (2d10+4)</hp>
-		<speed>30 ft.</speed>
-		<str>18</str><dex>10</dex><con>14</con><int>2</int><wis>10</wis><cha>4</cha>
-		<save />
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses />
-		<passive>10</passive>
-		<languages />
-		<cr>1/4</cr>
-		<trait>
-			<name>Charge</name>
-			<text>If the ox moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.</text>
-			<attack>Charge||2d6</attack>
-		</trait>
-		<trait>
-			<name>Beast of Burden</name>
-			<text>The oxen is considered to be a Huge animal for the purposes of determining its carrying capacity.</text>
-		</trait>
-		<action>
-			<name>Gore</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
-			<attack>Gore|6|1d6+4</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Quetzalcoatlus</name>
-		<size>H</size>
-		<type>beast, Volo's Guide</type>
-		<alignment>unaligned</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>30 (4d12+4)</hp>
-		<speed>10 ft., fly 80 ft.</speed>
-		<str>15</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
-		<save />
-		<skill>Perception +2</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses />
-		<passive>12</passive>
-		<languages />
-		<cr>2</cr>
-		<trait>
-			<name>Dive Attack</name>
-			<text>If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.</text>
-			<attack>Dive Attack||3d6</attack>
-		</trait>
-		<trait>
-			<name>Flyby</name>
-			<text>The quetzalcoatlus doesn’t provoke an opportunity attack when it flies out of an enemy’s reach.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.</text>
-			<attack>Bite|4|3d6+2</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Quickling</name>
-		<size>T</size>
-		<type>fey, Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>16</ac>
-		<hp>10 (3d4+3)</hp>
-		<speed>120 ft.</speed>
-		<str>4</str><dex>23</dex><con>13</con><int>10</int><wis>12</wis><cha>7</cha>
-		<save />
-		<skill>Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>15</passive>
-		<languages>Common, Sylvan</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Blurred Movement</name>
-			<text>Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.</text>
-		</trait>
-		<trait>
-			<name>Evasion</name>
-			<text>If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The quickling makes three dagger attacks.</text>
-		</action>
-		<action>
-			<name>Dagger</name>
-			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.</text>
-			<attack>Dagger|8|1d4+6</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Red Guard Drake</name>
-		<size>M</size>
-		<type>dragon, Volo's Guide</type>
-		<alignment>unaligned</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>52 (7d8+21)</hp>
-		<speed>30 ft., climb 30 ft.</speed>
-		<str>16</str><dex>11</dex><con>16</con><int>4</int><wis>10</wis><cha>7</cha>
-		<save />
-		<skill>Perception +2</skill>
-		<resist>fire</resist>
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>understands Draconic but can't speak it</languages>
-		<cr>2</cr>
-		<action>
-			<name>Multiattack</name>
-			<text>The drake attacks twice, once with its bite and once with its tail.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage.</text>
-			<attack>Bite|5|1d8+3</attack>
-		</action>
-		<action>
-			<name>Tail</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
-			<attack>Tail|5|1d6+3</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Redcap</name>
-		<size>S</size>
-		<type>fey, Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>45 (6d6+24)</hp>
-		<speed>25 ft.</speed>
-		<str>18</str><dex>13</dex><con>18</con><int>10</int><wis>12</wis><cha>9</cha>
-		<save />
-		<skill>Athletics +6, Perception +3</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages>Common, Sylvan</languages>
-		<cr>3</cr>
-	   <trait>
-			<name>Iron Boots</name>
-			<text>While moving, the redcap has disadvantage on Dexterity (Stealth) checks.</text>
-		</trait>
-		<trait>
-			<name>Outsize Strength</name>
-			<text>While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The redcap makes three attacks with its wicked sickle.</text>
-		</action>
-		<action>
-			<name>Wicked Sickle</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) slashing damage.</text>
-			<attack>Wicked Sickle|6|2d4+4</attack>
-		</action>
-		<action>
-			<name>Ironbound Pursuit</name>
-			<text>The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10+4) bludgeoning damage and be knocked prone.</text>
-			<attack>Kick| |3d10+4</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Rothé</name>
-		<size>L</size>
-		<type>beast, Volo's Guide</type>
-		<alignment>unaligned</alignment>
-		<ac>10</ac>
-		<hp>15 (2d10+4)</hp>
-		<speed>30 ft.</speed>
-		<str>18</str><dex>10</dex><con>14</con><int>2</int><wis>10</wis><cha>4</cha>
-		<save />
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 30 ft.</senses>
-		<passive>10</passive>
-		<languages />
-		<cr>1/4</cr>
-        <trait>
-			<name>Charge</name>
-			<text>If the rothé moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.</text>
-			<attack>Charge||2d6</attack>
-		</trait>
-		<action>
-			<name>Gore</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
-			<attack>Gore|6|1d6+4</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Sea Spawn</name>
-		<size>M</size>
-		<type>humanoid, Volo's Guide</type>
-		<alignment>neutral evil</alignment>
-		<ac>11 (natural armor)</ac>
-		<hp>32 (5d8+10)</hp>
-		<speed>20 ft., swim 30 ft.</speed>
-		<str>15</str><dex>8</dex><con>15</con><int>6</int><wis>10</wis><cha>8</cha>
-		<save />
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 120 ft.</senses>
-		<passive>10</passive>
-		<languages>understands Aquan and Common but can't speak</languages>
-		<cr>1</cr>
-		<trait>
-			<name>Limited Amphibiousness</name>
-			<text>The sea spawn can breathe air and water, but needs to be submerged in the sea at least once a day for 1 minute to avoid suffocating.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The sea spawn makes three attacks: two unarmed strikes and one with its Piscine Anatomy.</text>
-		</action>
-		<action>
-			<name>Unarmed Strike</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</text>
-			<attack>Unarmed Strike|4|1d4+2</attack>
-		</action>
-		<action>
-			<name>Piscine Anatomy</name>
-			<text>The sea spawn has one or more of the following attack options, provided it has the appropriate anatomy:</text>
-			<text>	 </text>
-			<text>Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</text>
-			<text>	 </text>
-			<text>Poison Quills. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<text>	 </text>
-			<text>Tentacle. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d6+2) bludgeoning damage, and the target is grappled (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target.</text>
-			<attack>Bite|5|1d4+2</attack>
-			<attack>Poison Quills|5|1d6</attack>
-			<attack>Tentacle|5|1d6+2</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Shadow Mastiff</name>
-		<size>M</size>
-		<type>monstrosity, Volo's Guide</type>
-		<alignment>neutral evil</alignment>
-		<ac>12</ac>
-		<hp>33 (6d8+6)</hp>
-		<speed>40 ft.</speed>
-		<str>16</str><dex>14</dex><con>13</con><int>5</int><wis>12</wis><cha>5</cha>
-		<save />
-		<skill>Perception +3, Stealth +6</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks while in dim light or darkness</resist>
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages />
-		<cr>2</cr>
-		<trait>
-			<name>Ethereal Awareness</name>
-			<text>The shadow mastiff can see ethereal creatures and objects.</text>
-		</trait>
-		<trait>
-			<name>Keen Hearing and Smell</name>
-			<text>The shadow mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
-		</trait>
-		<trait>
-			<name>Shadow Blend</name>
-			<text>While in dim light or darkness, the shadow mastiff can use a bonus action to become invisible, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is incapacitated.</text>
-		</trait>
-		<trait>
-			<name>Sunlight Weakness</name>
-			<text>While in bright light created by sunlight, the shadow mastiff has disadvantage on attack rolls, ability checks, and saving throws.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
-			<attack>Bite|5|2d6+3</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Shoosuva</name>
-		<size>L</size>
-		<type>fiend (demon), Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>110 (13d10+39)</hp>
-		<speed>40 ft.</speed>
-		<str>18</str><dex>13</dex><con>17</con><int>7</int><wis>14</wis><cha>9</cha>
-		<save>Dex +4, Con +6, Wis +5</save>
-		<skill />
-		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable />
-		<immune>poison</immune>
-		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>12</passive>
-		<languages>Abyssal, Gnoll, telepathy 120 ft.</languages>
-		<cr>8</cr>
-		<trait>
-			<name>Rampage</name>
-			<text>When it reduces a creature to 0 hit points with a melee attack on its turn, the shoosuva can take a bonus action to move up to half its speed and make a bite attack.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The shoosuva makes two attacks: one with its bite and one with its tail stinger.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 26 (4d10+4) piercing damage.</text>
-			<attack>Bite|7|4d10+4</attack>
-		</action>
-		<action>
-			<name>Tail Stinger</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 15 ft, one creature. Hit: 13 (2d8+4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Tail Stinger|7|2d8+4</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Slithering Tracker</name>
-		<size>M</size>
-		<type>ooze, Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>14</ac>
-		<hp>32 (5d8+10)</hp>
-		<speed>30 ft., climb 30 ft., swim 30 ft.</speed>
-		<str>16</str><dex>19</dex><con>15</con><int>10</int><wis>14</wis><cha>11</cha>
-		<save />
-		<skill>Stealth +8</skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable>cold, fire</vulnerable>
-		<immune />
-		<conditionImmune>blinded, deafened, exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious</conditionImmune>
-		<senses>blindsight 120 ft.</senses>
-		<passive>12</passive>
-		<languages>understands languages it knew in its previous form but can't speak</languages>
-		<cr>3</cr>
-		<trait>
-			<name>Ambusher</name>
-			<text>In the first round of a combat, the slithering tracker has advantage on attack rolls against any creature it surprised.</text>
-		</trait>
-		<trait>
-			<name>Damage Transfer</name>
-			<text>While grappling a creature, the slithering tracker takes only haIf the damage dealt to it, and the creature it is grappling takes the other half.</text>
-		</trait>
-		<trait>
-			<name>False Appearance</name>
-			<text>While the slithering tracker remains motionless, it is indistinguishable from a puddle, unless an observer succeeds on a DC 18 Intelligence (Investigation) check.</text>
-		</trait>
-		<trait>
-			<name>Keen Tracker</name>
-			<text>The slithering tracker has advantage on Wisdom checks to track prey.</text>
-		</trait>
-		<trait>
-			<name>Liquid Form</name>
-			<text>The slithering tracker can enter an enemy’s space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing.</text>
-		</trait>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
-		</trait>
-		<trait>
-			<name>Watery Stealth</name>
-			<text>While underwater, the slithering tracker has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.</text>
-		</trait>
-		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) bludgeoning damage.</text>
-			<attack>Slam|5|1d10+3</attack>
-		</action>
-		<action>
-			<name>Life Leech</name>
-			<text>One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a DC 13 Dexterity saving throw or be grappled (escape DC 13). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. In addition, the grappled target takes 16 (3d10) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time.</text>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Spawn of Kyuss</name>
-		<size>M</size>
-		<type>undead, Volo's Guide</type>
-		<alignment>chaotic evil</alignment>
-		<ac>10</ac>
-		<hp>76 (9d8+36)</hp>
-		<speed>30 ft.</speed>
-		<str>16</str><dex>11</dex><con>18</con><int>5</int><wis>7</wis><cha>3</cha>
-		<save>Wis +1</save>
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune>poison</immune>
-		<conditionImmune>exhaustion, poisoned</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>8</passive>
-		<languages>understands the languages it knew in life but can't speak</languages>
-		<cr>5</cr>
-		<trait>
-			<name>Regeneration</name>
-			<text>The spawn of Kyuss regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or a body of running water. If the spawn takes acid, fire, or radiant damage, this trait doesn’t function at the start of the spawn's next turn. The spawn is destroyed only if it starts its turn with 0 hit points and doesn’t regenerate.</text>
-		</trait>
-		<trait>
-			<name>Worms</name>
-			<text>If the spawn of Kyuss is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away, and it loses its Burrowing Worm action.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The spawn of Kyuss makes two attacks with its claws and uses Burrowing Worm.</text>
-		</action>
-		<action>
-			<name>Burrowing Worm</name>
-			<text>A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target’s skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target’s skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target’s skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away.</text>
-		</action>
-		<action>
-			<name>Claw</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage plus 7 (2d6) necrotic damage.</text>
-			<attack>Claw|6|1d6+3</attack>
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Stegosaurus</name>
-		<size>H</size>
-		<type>beast, Volo's Guide</type>
-		<alignment>unaligned</alignment>
-		<ac>13 (natural armor)</ac>
-		<hp>76 (8d12+24)</hp>
-		<speed>40 ft.</speed>
-		<str>20</str><dex>9</dex><con>17</con><int>2</int><wis>11</wis><cha>5</cha>
-		<save />
-		<skill />
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses />
-		<passive>10</passive>
-		<languages />
-		<cr>4</cr>
-		<action>
-			<name>Tail</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 26 (6d6+5) piercing damage.</text>
-			<attack>Tail|7|6d6+5</attack>
-			<attack />
-		</action>
-		<spells />
-	</monster>
-	<monster>
-		<name>Stench Kow</name>
-		<size>L</size>
-		<type>beast, Volo's Guide</type>
-		<alignment>unaligned</alignment>
-		<ac>10</ac>
-		<hp>15 (2d10+4)</hp>
-		<speed>30 ft.</speed>
-		<str>18</str><dex>10</dex><con>14</con><int>2</int><wis>10</wis><cha>4</cha>
-		<save />
-		<skill />
-		<resist>cold, fire, poison</resist>
-		<vulnerable />
-		<immune />
-		<conditionImmune />
-		<senses>darkvision 60 ft.</senses>
-		<passive>10</passive>
-		<languages />
-		<cr>1/4</cr>
-		<trait>
-			<name>Charge</name>
-			<text>If the kow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.</text>
-			<attack>Charge||2d6</attack>
-		</trait>
-		<trait>
-			<name>Stench</name>
-			<text>Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour.</text>
-		</trait>
-		<action>
-			<name>Gore</name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
-			<attack>Gore|6|1d6+4</attack>
-		</action>
-		<spells />
-	</monster>
-   <monster>
-		<name>Stone Giant Dreamwalker</name>
-		<size>H</size>
-		<type>giant (stone giant), Volo's Guide</type>
-		<alignment>chaotic neutral</alignment>
-		<ac>18 (natural armor)</ac>
-		<hp>161 (14d12+70)</hp>
-		<speed>40 ft.</speed>
-		<str>23</str><dex>14</dex><con>21</con><int>10</int><wis>8</wis><cha>12</cha>
-		<save>Dex +6, Con +9, Wis +3</save>
-		<skill>Athletics +14, Perception +3</skill>
-		<resist />
-		<vulnerable />
-		<immune />
-		<conditionImmune>charmed, frightened</conditionImmune>
-		<senses>darkvision 60 ft.</senses>
-		<passive>13</passive>
-		<languages>Common, Giant</languages>
-		<cr>10</cr>
-		<trait>
-			<name>Dreamwalker's Charm</name>
-			<text>An enemy that starts its turn within 30 feet of the giant must make a DC 13 Charisma saving throw, provided that the giant isn’t incapacitated. On a failed save, the creature is charmed by the giant. A creature charmed in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant’s Dreamwalker's Charm for 24 hours.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>The giant makes two attacks with its greatclub.</text>
-		</action>
-		<action>
-			<name>Greatclub</name>
-			<text>Melee Weapon Attack: +10 to hit, reach 15 ft, one target. Hit: 19 (3d8+6) bludgeoning damage.</text>
-			<attack>Greatclub|10|3d8+6</attack>
-		</action>
-		<action>
-			<name>Petrifying Touch</name>
-			<text>The giant touches one Medium or smaller creature within 10 feet of it that is charmed by it. The target must make a DC 17 Constitution saving throw. On a failed save, the target becomes petrified, and the giant can adhere the target to its stony body. Greater restoration spells and other magic that can undo petrification have no effect on a petrified creature on the giant unless the giant is dead, in which case the magic works normally, freeing the petrified creature as well as ending the petrified condition on it.</text>
-		</action>
-		<action>
-			<name>Rock</name>
-			<text>Ranged Weapon Attack: +10 to hit, range 60/240 ft, one target. Hit: 28 (4d10+6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.</text>
-			<attack>Rock|10|4d10+6</attack>
 		</action>
 		<spells />
 	</monster>
@@ -21618,6 +20502,7 @@
 			<attack>Two Handed|4|1d8+1</attack>
 		</action>
 		<spells>pass without trace, acid splash, blade ward, friends, light, message, mold earth (ee), chromatic orb, mage armor, magic missile, Maximilian's earthen grasp (ee), shatter, suggestion, counterspell, erupting earth (ee), polymorph, stoneskin, wall of stone, move earth</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
         <name>Miros Xelbrin</name>
@@ -21766,6 +20651,72 @@
 		</action>
 	</monster>
 	<monster>
+		<name>Morkoth</name>
+		<size>M</size>
+		<type>aberration, Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>130 (20d8+40)</hp>
+		<speed>25 ft., swim 50 ft.</speed>
+		<str>14</str><dex>14</dex><con>14</con><int>20</int><wis>15</wis><cha>13</cha>
+		<save>Dex +6, Int +9, Wis +6</save>
+		<skill>Arcana +9, History +9, Perception +10, Stealth +6</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>blindsight 30 ft., darkvision 120 ft.</senses>
+		<passive>20</passive>
+		<languages>telepathy 120 ft.</languages>
+		<cr>11</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The morkoth can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:</text>
+			<text>	 </text>
+			<text>Cantrips (at will): acid splash, mage hand, mending, ray of frost, shocking grasp</text>
+			<text>	 </text>
+			<text>1st level (4 slots): detect magic, identify, shield, witch bolt</text>
+			<text>	 </text>
+			<text>2nd level (3 slots): darkness, detect thoughts, shatter</text>
+			<text>	 </text>
+			<text>3rd level (3 slots): dispel magic, lightning bolt, sending</text>
+			<text>	 </text>
+			<text>4th level (3 slots): dimension door, Evard’s black tentacles</text>
+			<text>	 </text>
+			<text>5th level (3 slots): geas, scrying</text>
+			<text>	 </text>
+			<text>6th level (1 slot): chain lightning</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The morkoth makes three attacks: two with its bite and one with its tentacles or three with its bite.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 9 (2d6+2) slashing damage.</text>
+			<attack>Bite|6|2d6+2</attack>
+		</action>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 15 (3d8+2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8+2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target.</text>
+			<attack>Tentacles|6|3d8+2</attack>
+		</action>
+		<action>
+			<name>Hypnosis</name>
+			<text>The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a DC 17 Wisdom saving throw. On a failed save, the creature is charmed by the morkoth for 1 minute. While charmed in this way, the target tries to get as close to the morkoth as possible, using its actions to Dash until it is within 5 feet of the morkoth. A charmed target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours.</text>
+		</action>
+		<reaction>
+			<name>Spell Reflection</name>
+			<text>If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.</text>
+		</reaction>
+		<spells />
+		<slots>4,3,3,3,3,1,0,0,0</slots>
+	</monster>
+	<monster>
 		<name>Mormesk the Wraith</name>
 		<size>M</size>
 		<type>undead, lost mine of phandelver</type>
@@ -21799,6 +20750,50 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 16 (3d8 + 3) necrotic damage, and the target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. If this attack reduces the target's hit point maximum to 0, the target dies. This reduction to the target's hit point maximum lasts until the target finishes a long rest.</text>
 			<attack>Life Drain|5|3d8+3</attack>
 		</action>
+	</monster>
+	<monster>
+		<name>Mouth of Grolantor</name>
+		<size>H</size>
+		<type>giant (hill giant), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>105 (10d12+40)</hp>
+		<speed>50 ft.</speed>
+		<str>21</str><dex>10</dex><con>18</con><int>5</int><wis>7</wis><cha>5</cha>
+		<save />
+		<skill>Perception +1</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune>frightened</conditionImmune>
+		<senses />
+		<passive>11</passive>
+		<languages>Giant</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Mouth of Madness</name>
+			<text>The giant is immune to confusion spells and similar magic.</text>
+			<text>	On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant’s turns to determine its action for that turn:</text>
+			<text>	 </text>
+			<text>1-3. The giant makes three attacks with its fists against one random target within its reach. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.</text>
+			<text>	 </text>
+			<text>4-5. The giant makes one attack with its fist against every creature within its reach. If no other creatures are within its reach, the giant makes one fist attack against itself.</text>
+			<text>	 </text>
+			<text>6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.</text>
+			<text>	 </text>
+			<text>8-10. The giant makes three attacks against one random target within its reach: one attack with its bite and two with its fists. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (3d6+5) piercing damage, and the giant magically regains hit points equal to the damage dealt.</text>
+			<attack>Bite|8|3d6+5</attack>
+		</action>
+		<action>
+			<name>Fist</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 18 (3d8+5) bludgeoning damage.</text>
+			<attack>Fist|8|3d8+5</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Mud Mephit</name>
@@ -21986,6 +20981,7 @@
 			<text>The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.</text>
 		</legendary>
 		<spells>sacred flame, thaumaturgy, command, guiding bolt, shield of faith, hold person, silence, spiritual weapon, animate dead, dispel magic, divination, guardian of faith, contagion, insect plague, harm</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Myconid Adult</name>
@@ -22268,6 +21264,7 @@
 			<text>While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.</text>
 		</reaction>
 		<spells>eldritch blast, friends, poison spray, armor of agathys, charm person, hex, hold person, ray of enfeeblement, spider climb</spells>
+		<slots>0,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
         <name>Narth Tezrin</name>
@@ -22352,8 +21349,60 @@
             <text>Flaw: "I'm too smart to be wrong about anything."</text>
         </trait>
         <spells>fire bolt, light, mage hand, prestidigitation, mage armor, magic missile, shield, misty step, suggestion, fly, lightning bolt</spells>
+        <slots>4,3,3,0,0,0,0,0,0</slots>
     </monster>
     <monster>
+		<name>Necromancer</name>
+		<size>M</size>
+		<type>humanoid (any race), Volo's Guide</type>
+		<alignment>any alignment</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>66 (12d8+12)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str><dex>14</dex><con>12</con><int>17</int><wis>12</wis><cha>11</cha>
+		<save>Int +7, Wis +5</save>
+		<skill>Arcana +7, History +7</skill>
+		<resist>necrotic</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>11</passive>
+		<languages>any four languages</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:</text>
+			<text>	 </text>
+			<text>Cantrips (at will): chill touch, dancing lights, mage hand, mending</text>
+			<text>	 </text>
+			<text>1st level (4 slots):false life*, mage armor, ray of sickness*</text>
+			<text>	 </text>
+			<text>2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web</text>
+			<text>	 </text>
+			<text>3rd level (3 slots): animate dead*, bestow curse*, vampiric touch*</text>
+			<text>	 </text>
+			<text>4th level (3 slots): blight*, dimension door, stoneskin</text>
+			<text>	 </text>
+			<text>5th level (2 slots): Bigby’s hand, cloudkill</text>
+			<text>	 </text>
+			<text>6th level (1 slot): circle of death*</text>
+			<text>	 </text>
+			<text>*Necromancy spell of 1st level or higher</text>
+		</trait>
+		<trait>
+			<name>Grim Harvest (1/Turn)</name>
+			<text>When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.</text>
+		</trait>
+		<action>
+			<name>Withering Touch</name>
+			<text>Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage.</text>
+			<attack>Withering Touch|7|2d4</attack>
+		</action>
+		<spells>chill touch, dancing lights, mage hand, mending, false life, mage armor, ray of sickness, blindness/deafness, ray of enfeeblement, web, animate dead, bestow curse, vampiric touch, blight, dimension door, stoneskin, Bigby's hand, cloudkill, circle of death</spells>
+		<slots>4,3,3,3,3,2,1,0,0</slots>
+	</monster>
+	<monster>
 		<name>Needle Blight</name>
 		<size>M</size>
 		<type>plant, monster manual</type>
@@ -22382,6 +21431,192 @@
 			<text>Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage.</text>
 			<attack>Needles|3|2d6+1</attack>
 		</action>
+	</monster>
+	<monster>
+		<name>Neogi</name>
+		<size>S</size>
+		<type>aberration, Volo's Guide</type>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>33 (6d6+12)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>6</str><dex>16</dex><con>14</con><int>13</int><wis>12</wis><cha>15</cha>
+		<save />
+		<skill>Intimidation +4, Perception +3</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Deep Speech, Undercommon</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Mental Fortitude</name>
+			<text>The neogi has advantage on saving throws against being charmed or frightened. and magic can't put the neogi to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The neogi makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Bite|5|1d6+3+$d6</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.</text>
+			<attack>Claws|5|2d4+3</attack>
+		</action>
+		<action>
+			<name>Enslave (Recharges after a Short or Long Rest)</name>
+			<text>The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Neogi Hatchling</name>
+		<size>T</size>
+		<type>aberration, Volo's Guide</type>
+		<alignment>lawful evil</alignment>
+		<ac>11</ac>
+		<hp>7 (3d4)</hp>
+		<speed>20 ft., climb 20 ft.</speed>
+		<str>3</str><dex>13</dex><con>10</con><int>6</int><wis>10</wis><cha>9</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages />
+		<cr>1/8</cr>
+		<trait>
+			<name>Mental Fortitude</name>
+			<text>The hatchling has advantage on saving throws against being charmed or frightened, and magic can’t put the hatchling to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Bite|3|1d4+1+2d6</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Neogi Master</name>
+		<size>M</size>
+		<type>aberration, Volo's Guide</type>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>71 (13d6+26)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>6</str><dex>16</dex><con>14</con><int>16</int><wis>12</wis><cha>18</cha>
+		<save>Wis +3</save>
+		<skill>Arcana +5, Deception +6, Intimidation +6, Perception +3, Persuasion +6</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
+		<passive>13</passive>
+		<languages>Common, Deep Speech, Undercommon, telepathy 30 ft.</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Mental Fortitude</name>
+			<text>The neogi has advantage on saving throws against being charmed or frightened, and magic can’t put the neogi to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text>	 </text>
+			<text>Cantrips (at will): eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery</text>
+			<text>	 </text>
+			<text>1st—4th level (2 4th-level slots): arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The neogi makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Bite|5|1d6+3+$d6</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.</text>
+			<attack>Claws|5|2d4+3</attack>
+		</action>
+		<action>
+			<name>Enslave (Recharges after a Short or Long Rest)</name>
+			<text>The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		</action>
+		<spells>eldritch blast, guidance, mage hand, minor illusion, prestidigitation, vicious mockery, arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant</spells>
+		<slots>0,0,0,4,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Neothelid</name>
+		<size>G</size>
+		<type>aberration, Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>325 (21d20+105)</hp>
+		<speed>30 ft.</speed>
+		<str>27</str><dex>7</dex><con>21</con><int>3</int><wis>16</wis><cha>12</cha>
+		<save>Int +1, Wis +8, Cha +6</save>
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>blindsight 120 ft.</senses>
+		<passive>13</passive>
+		<languages />
+		<cr>13</cr>
+		<trait>
+			<name>Creature Sense</name>
+			<text>The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s Intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The neothelid’s innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:</text>
+			<text>	 </text>
+			<text>At will: levitate</text>
+			<text>	 </text>
+			<text>1/day each: confusion, feeblemind, telekinesis</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The neothelid has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 21 (3d8+8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid’s turns.</text>
+			<text>	If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
+			<attack>Tentacles|13|3d8+8+3d8</attack>
+			<attack>Acid Damage| |10d6</attack>
+		</action>
+		<action>
+			<name>Acid Breath (Recharges 5-6)</name>
+			<text>The neothelid exhales acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Acid Breath | |10d6</attack>
+		</action>
+		<spells>levitate, confusion, feeblemind, telekinesis</spells>
 	</monster>
 	<monster>
 		<name>Neronvain</name>
@@ -22486,6 +21721,7 @@
 			<attack>Two Handed|1|1d8-1+1d6</attack>
 		</action>
 		<spells>dancing lights, darkness, faerie fire, mage hand, ray of frost, shocking grasp, mage armor, magic missile, shield, invisibility, suggestion</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Night Hag</name>
@@ -22602,6 +21838,56 @@
 			<name>Ethereal Stride</name>
 			<text>The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.</text>
 		</action>
+	</monster>
+	<monster>
+		<name>Nilbog</name>
+		<size>S</size>
+		<type>humanoid (goblinoid), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (leather armor)</ac>
+		<hp>7 (2d6)</hp>
+		<speed>30 ft.</speed>
+		<str>8</str><dex>14</dex><con>10</con><int>10</int><wis>8</wis><cha>15</cha>
+		<save />
+		<skill>Stealth +6</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Goblin</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The nilbog’s innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:</text>
+			<text>	 </text>
+			<text>At will: mage hand, Tasha’s hideous laughter, vicious mockery 1/day: confusion</text>
+		</trait>
+		<trait>
+			<name>Nilbogism</name>
+			<text>Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature’s next turn. A creature charmed in this way must use its action praising the nilbog. The nilbog can’t regain hit points, including through magical healing, except through its Reversal of Fortune reaction.</text>
+		</trait>
+		<trait>
+			<name>Nimble Escape</name>
+			<text>The nilbog can take the Disengage or Hide action as a bonus action on each of its turns.</text>
+		</trait>
+		<action>
+			<name>Fool's Scepter</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.</text>
+			<attack>Fool's Scepter|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+		<reaction>
+			<name>Reversal of Fortune</name>
+			<text>In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points.</text>
+			<attack>Reversal of Fortune| |1d6</attack>
+		</reaction>
+		<spells>mage hand, Tasha's hideous laughter, vicious mockery, confusion</spells>
 	</monster>
 	<monster>
 		<name>Noble</name>
@@ -23074,6 +22360,7 @@
 			<text>The one-eyed shiver casts ray of frost from its missing eye. If it hits, the target is also restrained. A target restrained in this way can end the condition by using an action, succeeding on a DC 13 Strength check.</text>
 		</action>
 		<spells>chill touch, mage hand, fog cloud, mage armor, thunderwave, mirror image, misty step, fear</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Oni</name>
@@ -23166,6 +22453,104 @@
 		</action>
 	</monster>
 	<monster>
+		<name>Orc Blade of Ilneval</name>
+		<size>M</size>
+		<type>humanoid (orc), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>18 (chain mail, shield)</ac>
+		<hp>60 (8d8+24)</hp>
+		<speed>30 ft.</speed>
+		<str>17</str><dex>11</dex><con>17</con><int>10</int><wis>12</wis><cha>14</cha>
+		<save>Wis +3</save>
+		<skill>Insight +3, Intimidation +4, Perception +3</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Orc</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Foe Smiter of Ilneval</name>
+			<text>The orc deals an extra die of damage when it hits with a longsword attack (included in the attack).</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval’s Command is available to use, the orc can use it after these attacks.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) slashing damage, or 14 (2d10+3) slashing damage when used with two hands.</text>
+			<attack>Longsword|5|2d8+3</attack>
+			<attack>Two Handed|5|2d10+3</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
+			<attack>Javelin|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Ilneval's Command (Recharges 4-6)</name>
+			<text>Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack.</text>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Orc Claw of Luthic</name>
+		<size>M</size>
+		<type>humanoid (orc), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>14 (hide armor)</ac>
+		<hp>45 (6d8+18)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str><dex>15</dex><con>16</con><int>10</int><wis>15</wis><cha>11</cha>
+		<save />
+		<skill>Intimidation +2, Medicine +4, Survival +4</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Orc</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Source</name>
+			<text>Volo's Guide to Monsters, p. 183</text>
+		</trait>		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:</text>
+			<text>	 </text>
+			<text>Cantrips (at will): guidance, mending, resistance, thaumaturgy</text>
+			<text>	 </text>
+			<text>1st level (4 slots): bane, cure wounds, guiding bolt</text>
+			<text>	 </text>
+			<text>2nd level (3 slots): augury, warding bond</text>
+			<text>	 </text>
+			<text>3rd level (2 slots): bestow curse, create food and water</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.</text>
+			<attack>Claw|4|1d8+2</attack>
+		</action>
+		<spells>guidance, mending, resistance, thaumaturgy, bane, cure wounds, guiding bolt, augury, warding bond, bestow curse, create food and water</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
 		<name>Orc Eye of Gruumsh</name>
 		<size>M</size>
 		<type>humanoid (orc), monster manual</type>
@@ -23207,6 +22592,149 @@
 			<attack>Two Handed|5|2d8+3</attack>
 		</action>
 		<spells>guidance, resistance, thaumaturgy, bless, command, augury, spiritual weapon</spells>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Orc Hand of Yurtrus</name>
+		<size>M</size>
+		<type>humanoid (orc), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>12 (hide armor)</ac>
+		<hp>30 (4d8+12)</hp>
+		<speed>30 ft.</speed>
+		<str>12</str><dex>11</dex><con>16</con><int>11</int><wis>14</wis><cha>9</cha>
+		<save />
+		<skill>Arcana +2, Intimidation +1, Medicine +4, Religion +2</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>understands Common and Orc but can't speak</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Source</name>
+			<text>Volo's Guide to Monsters, p. 184</text>
+		</trait>		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:</text>
+			<text>	 </text>
+			<text>Cantrips (at-will): guidance, mending, resistance, thaumaturgy</text>
+			<text>	 </text>
+			<text>1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good</text>
+			<text>	 </text>
+			<text>2nd level (3 slots): blindness/deafness, silence</text>
+		</trait>
+		<action>
+			<name>Touch of the White Hand</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage.</text>
+			<attack>Touch of the White Hand|3|2d8</attack>
+		</action>
+		<spells>guidance, mending, resistance, thaumaturgy, bane, detect magic, inflict wounds, protection from evil and good, blindness/deafness, silence</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Orc Nurtured One of Yurtrus</name>
+		<size>M</size>
+		<type>humanoid (orc), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>9</ac>
+		<hp>30 (4d8+12)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str><dex>8</dex><con>16</con><int>7</int><wis>11</wis><cha>7</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Orc</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Corrupted Carrier</name>
+			<text>When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn‘t poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can’t regain hit points.</text>
+			<attack>Explosion| |4d6</attack>
+		</trait>
+		<trait>
+			<name>Nurtured One of Yurtrus</name>
+			<text>The orc has advantage on saving throws against poison and disease.</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage plus 2 (1d4) necrotic damage.</text>
+			<attack>Claws|4|1d4+2+1d4</attack>
+		</action>
+		<action>
+			<name>Corrupted Vengeance</name>
+			<text>The orc reduces itself to 0 hit points, triggering its Corrupted Carrier trait.</text>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Orc Red Fang of Shargaas</name>
+		<size>M</size>
+		<type>humanoid (orc), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (studded leather armor)</ac>
+		<hp>52 (8d8+16)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str><dex>16</dex><con>15</con><int>9</int><wis>11</wis><cha>9</cha>
+		<save />
+		<skill>Intimidation +1, Perception +2, Stealth +5</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Orc</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Hand of Shargaas</name>
+			<text>The orc deals an 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks).</text>
+		</trait>
+		<trait>
+			<name>Shargaas's Sight</name>
+			<text>Magical darkness doesn’t impede the orc’s darkvision.</text>
+		</trait>
+		<trait>
+			<name>Slayer</name>
+			<text>In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn’t taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The orc makes two scimitar or dart attacks.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage.</text>
+			<attack>Scimitar|5|3d6+3</attack>
+		</action>
+		<action>
+			<name>Dart</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.</text>
+			<attack>Dart|5|3d4+3</attack>
+		</action>
+		<action>
+			<name>Veil of Shargaas (Recharges after a Short or Long Rest)</name>
+			<text>The orc casts darkness without any components. Wisdom is its spellcasting ability.</text>
+		</action>
+		<spells>darkness</spells>
 	</monster>
 	<monster>
 		<name>Orc War Chief</name>
@@ -23382,6 +22910,7 @@
 			<attack>Dagger|3|1d4+1</attack>
 		</action>
 		<spells>chill touch, minor illusion, prestidigitation, shocking grasp, false life, mage armor, magic missile, ray of sickness, crown of madness, misty step, animate dead, vampiric touch</spells>
+		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
         <name>Oren Yogilvy</name>
@@ -23576,6 +23105,41 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</text>
 			<attack>|7|2d8+5</attack>
 		</action>
+	</monster>
+	<monster>
+		<name>Ox</name>
+		<size>L</size>
+		<type>beast, Volo's Guide</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>15 (2d10+4)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str><dex>10</dex><con>14</con><int>2</int><wis>10</wis><cha>4</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>10</passive>
+		<languages />
+		<cr>1/4</cr>
+		<trait>
+			<name>Charge</name>
+			<text>If the ox moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<trait>
+			<name>Beast of Burden</name>
+			<text>The oxen is considered to be a Huge animal for the purposes of determining its carrying capacity.</text>
+		</trait>
+		<action>
+			<name>Gore</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Gore|6|1d6+4</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Panther</name>
@@ -23837,6 +23401,7 @@
 			<attack>Two Handed|5|1d8+2</attack>
 		</action>
 		<spells>druidcraft, guidance, poison spray, cure wounds, entangle, healing word, thunderwave, barkskin, beast sense, spike growth, plant growth, water walk</spells>
+		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Phase Spider</name>
@@ -24295,6 +23860,7 @@
 			<attack>|2|1d6</attack>
 		</action>
 		<spells>light, sacred flame, thaumaturgy, cure wounds, guiding bolt, sanctuary, lesser restoration, spiritual weapon, dispel magic, spirit guardians</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Pseudodragon</name>
@@ -24640,6 +24206,79 @@
 		</action>
 	</monster>
 	<monster>
+		<name>Quetzalcoatlus</name>
+		<size>H</size>
+		<type>beast, Volo's Guide</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>30 (4d12+4)</hp>
+		<speed>10 ft., fly 80 ft.</speed>
+		<str>15</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
+		<save />
+		<skill>Perception +2</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>12</passive>
+		<languages />
+		<cr>2</cr>
+		<trait>
+			<name>Dive Attack</name>
+			<text>If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.</text>
+			<attack>Dive Attack||3d6</attack>
+		</trait>
+		<trait>
+			<name>Flyby</name>
+			<text>The quetzalcoatlus doesn’t provoke an opportunity attack when it flies out of an enemy’s reach.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.</text>
+			<attack>Bite|4|3d6+2</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Quickling</name>
+		<size>T</size>
+		<type>fey, Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>16</ac>
+		<hp>10 (3d4+3)</hp>
+		<speed>120 ft.</speed>
+		<str>4</str><dex>23</dex><con>13</con><int>10</int><wis>12</wis><cha>7</cha>
+		<save />
+		<skill>Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>Common, Sylvan</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Blurred Movement</name>
+			<text>Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The quickling makes three dagger attacks.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.</text>
+			<attack>Dagger|8|1d4+6</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
 		<name>Quipper</name>
 		<size>T</size>
 		<type>beast, monster manual</type>
@@ -24848,6 +24487,7 @@
 			<text>When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.</text>
 		</reaction>
 		<spells>fire bolt, minor illusion, prestidigitation, shocking grasp, chromatic orb, color spray, mage armor, magic missile, detect thoughts, mirror image, phantasmal force, counterspell, fireball, major image, confusion, greater invisibility, mislead, seeming, globe of invulnerability</spells>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Raven</name>
@@ -24948,6 +24588,41 @@
 		</action>
 	</monster>
 	<monster>
+		<name>Red Guard Drake</name>
+		<size>M</size>
+		<type>dragon, Volo's Guide</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>52 (7d8+21)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>16</str><dex>11</dex><con>16</con><int>4</int><wis>10</wis><cha>7</cha>
+		<save />
+		<skill>Perception +2</skill>
+		<resist>fire</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>understands Draconic but can't speak it</languages>
+		<cr>2</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The drake attacks twice, once with its bite and once with its tail.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage.</text>
+			<attack>Bite|5|1d8+3</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
+			<attack>Tail|5|1d6+3</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
 		<name>Red Slaad</name>
 		<size>L</size>
 		<type>aberration, monster manual</type>
@@ -25027,6 +24702,49 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Shortsword|4|1d6+2</attack>
 		</action>
+	</monster>
+	<monster>
+		<name>Redcap</name>
+		<size>S</size>
+		<type>fey, Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>45 (6d6+24)</hp>
+		<speed>25 ft.</speed>
+		<str>18</str><dex>13</dex><con>18</con><int>10</int><wis>12</wis><cha>9</cha>
+		<save />
+		<skill>Athletics +6, Perception +3</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Sylvan</languages>
+		<cr>3</cr>
+	   <trait>
+			<name>Iron Boots</name>
+			<text>While moving, the redcap has disadvantage on Dexterity (Stealth) checks.</text>
+		</trait>
+		<trait>
+			<name>Outsize Strength</name>
+			<text>While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The redcap makes three attacks with its wicked sickle.</text>
+		</action>
+		<action>
+			<name>Wicked Sickle</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) slashing damage.</text>
+			<attack>Wicked Sickle|6|2d4+4</attack>
+		</action>
+		<action>
+			<name>Ironbound Pursuit</name>
+			<text>The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10+4) bludgeoning damage and be knocked prone.</text>
+			<attack>Kick| |3d10+4</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Reef Shark</name>
@@ -25307,6 +25025,7 @@
 			<attack>Sword Cane|4|1d6+1</attack>
 		</action>
 		<spells>guidance, light, mending, thaumaturgy, cure wounds, detect evil and good, protection from evil and good, sanctuary, augury, lesser restoration, protection from poison, magic circle, remove curse, speak with dead, death ward, freedom of movement, dispel evil and good</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Riding Horse</name>
@@ -25415,6 +25134,37 @@
 			<name>Reel</name>
 			<text>The roper pulls each creature grappled by it up to 25 ft. straight toward it.</text>
 		</action>
+	</monster>
+	<monster>
+		<name>Rothé</name>
+		<size>L</size>
+		<type>beast, Volo's Guide</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>15 (2d10+4)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str><dex>10</dex><con>14</con><int>2</int><wis>10</wis><cha>4</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 30 ft.</senses>
+		<passive>10</passive>
+		<languages />
+		<cr>1/4</cr>
+        <trait>
+			<name>Charge</name>
+			<text>If the rothé moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<action>
+			<name>Gore</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Gore|6|1d6+4</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Rug of Smothering</name>
@@ -25726,6 +25476,7 @@
 			<attack>Claws|3|1d4+1</attack>
 		</action>
 		<spells>guidance, thaumaturgy, bless, detect magic, guiding bolt, hold person, spiritual weapon, mass healing word, tongues</spells>
+		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Salamander</name>
@@ -26002,6 +25753,53 @@
 		</trait>
 	</monster>
 	<monster>
+		<name>Sea Spawn</name>
+		<size>M</size>
+		<type>humanoid, Volo's Guide</type>
+		<alignment>neutral evil</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>32 (5d8+10)</hp>
+		<speed>20 ft., swim 30 ft.</speed>
+		<str>15</str><dex>8</dex><con>15</con><int>6</int><wis>10</wis><cha>8</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>understands Aquan and Common but can't speak</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Limited Amphibiousness</name>
+			<text>The sea spawn can breathe air and water, but needs to be submerged in the sea at least once a day for 1 minute to avoid suffocating.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The sea spawn makes three attacks: two unarmed strikes and one with its Piscine Anatomy.</text>
+		</action>
+		<action>
+			<name>Unarmed Strike</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</text>
+			<attack>Unarmed Strike|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Piscine Anatomy</name>
+			<text>The sea spawn has one or more of the following attack options, provided it has the appropriate anatomy:</text>
+			<text>	 </text>
+			<text>Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.</text>
+			<text>	 </text>
+			<text>Poison Quills. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>	 </text>
+			<text>Tentacle. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d6+2) bludgeoning damage, and the target is grappled (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target.</text>
+			<attack>Bite|5|1d4+2</attack>
+			<attack>Poison Quills|5|1d6</attack>
+			<attack>Tentacle|5|1d6+2</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
 		<name>Severin</name>
 		<size>M</size>
 		<type>humanoid (human), tyranny of dragons</type>
@@ -26155,6 +25953,48 @@
 			<attack>Claws|5|2d6+3</attack>
 			<attack>with Advantage|5|4d6+3</attack>
 		</action>
+	</monster>
+	<monster>
+		<name>Shadow Mastiff</name>
+		<size>M</size>
+		<type>monstrosity, Volo's Guide</type>
+		<alignment>neutral evil</alignment>
+		<ac>12</ac>
+		<hp>33 (6d8+6)</hp>
+		<speed>40 ft.</speed>
+		<str>16</str><dex>14</dex><con>13</con><int>5</int><wis>12</wis><cha>5</cha>
+		<save />
+		<skill>Perception +3, Stealth +6</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks while in dim light or darkness</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages />
+		<cr>2</cr>
+		<trait>
+			<name>Ethereal Awareness</name>
+			<text>The shadow mastiff can see ethereal creatures and objects.</text>
+		</trait>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>The shadow mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<name>Shadow Blend</name>
+			<text>While in dim light or darkness, the shadow mastiff can use a bonus action to become invisible, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Weakness</name>
+			<text>While in bright light created by sunlight, the shadow mastiff has disadvantage on attack rolls, ability checks, and saving throws.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|5|2d6+3</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
         <name>Shalvus Martholio</name>
@@ -26328,6 +26168,46 @@
 			<attack>Dagger|3|1d4+1</attack>
 		</action>
 		<spells>shape water (ee), create or destroy water, acid splash, chill touch, friends, prestidigitation, ray of frost, disguise self, mage armor, magic missile, hold person, misty step, tidal wave (ee)</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Shoosuva</name>
+		<size>L</size>
+		<type>fiend (demon), Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>110 (13d10+39)</hp>
+		<speed>40 ft.</speed>
+		<str>18</str><dex>13</dex><con>17</con><int>7</int><wis>14</wis><cha>9</cha>
+		<save>Dex +4, Con +6, Wis +5</save>
+		<skill />
+		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Abyssal, Gnoll, telepathy 120 ft.</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Rampage</name>
+			<text>When it reduces a creature to 0 hit points with a melee attack on its turn, the shoosuva can take a bonus action to move up to half its speed and make a bite attack.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The shoosuva makes two attacks: one with its bite and one with its tail stinger.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 26 (4d10+4) piercing damage.</text>
+			<attack>Bite|7|4d10+4</attack>
+		</action>
+		<action>
+			<name>Tail Stinger</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 15 ft, one creature. Hit: 13 (2d8+4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Tail Stinger|7|2d8+4</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Shrieker</name>
@@ -26575,6 +26455,7 @@
 			<attack>Dagger|4|1d4+1</attack>
 		</action>
 		<spells>blade ward, light, message, ray of frost, shocking grasp, feather fall, mage armor, witch bolt, gust of wind, invisibility, fly, lightning bolt</spells>
+		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Slaad Tadpole</name>
@@ -26605,6 +26486,64 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Bite|4|1d4+2</attack>
 		</action>
+	</monster>
+	<monster>
+		<name>Slithering Tracker</name>
+		<size>M</size>
+		<type>ooze, Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>14</ac>
+		<hp>32 (5d8+10)</hp>
+		<speed>30 ft., climb 30 ft., swim 30 ft.</speed>
+		<str>16</str><dex>19</dex><con>15</con><int>10</int><wis>14</wis><cha>11</cha>
+		<save />
+		<skill>Stealth +8</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable>cold, fire</vulnerable>
+		<immune />
+		<conditionImmune>blinded, deafened, exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious</conditionImmune>
+		<senses>blindsight 120 ft.</senses>
+		<passive>12</passive>
+		<languages>understands languages it knew in its previous form but can't speak</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Ambusher</name>
+			<text>In the first round of a combat, the slithering tracker has advantage on attack rolls against any creature it surprised.</text>
+		</trait>
+		<trait>
+			<name>Damage Transfer</name>
+			<text>While grappling a creature, the slithering tracker takes only haIf the damage dealt to it, and the creature it is grappling takes the other half.</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the slithering tracker remains motionless, it is indistinguishable from a puddle, unless an observer succeeds on a DC 18 Intelligence (Investigation) check.</text>
+		</trait>
+		<trait>
+			<name>Keen Tracker</name>
+			<text>The slithering tracker has advantage on Wisdom checks to track prey.</text>
+		</trait>
+		<trait>
+			<name>Liquid Form</name>
+			<text>The slithering tracker can enter an enemy’s space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Watery Stealth</name>
+			<text>While underwater, the slithering tracker has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) bludgeoning damage.</text>
+			<attack>Slam|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Life Leech</name>
+			<text>One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a DC 13 Dexterity saving throw or be grappled (escape DC 13). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. In addition, the grappled target takes 16 (3d10) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time.</text>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Smoke Mephit</name>
@@ -26727,6 +26666,48 @@
 			<text>The solar targets one creature it can see within 30 ft. of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.</text>
 		</legendary>
 		<spells>detect evil and good, invisibility, blade barrier, dispel evil and good, resurrection, commune, control weather</spells>
+	</monster>
+	<monster>
+		<name>Spawn of Kyuss</name>
+		<size>M</size>
+		<type>undead, Volo's Guide</type>
+		<alignment>chaotic evil</alignment>
+		<ac>10</ac>
+		<hp>76 (9d8+36)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str><dex>11</dex><con>18</con><int>5</int><wis>7</wis><cha>3</cha>
+		<save>Wis +1</save>
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>understands the languages it knew in life but can't speak</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Regeneration</name>
+			<text>The spawn of Kyuss regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or a body of running water. If the spawn takes acid, fire, or radiant damage, this trait doesn’t function at the start of the spawn's next turn. The spawn is destroyed only if it starts its turn with 0 hit points and doesn’t regenerate.</text>
+		</trait>
+		<trait>
+			<name>Worms</name>
+			<text>If the spawn of Kyuss is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away, and it loses its Burrowing Worm action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The spawn of Kyuss makes two attacks with its claws and uses Burrowing Worm.</text>
+		</action>
+		<action>
+			<name>Burrowing Worm</name>
+			<text>A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target’s skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target’s skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target’s skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage plus 7 (2d6) necrotic damage.</text>
+			<attack>Claw|6|1d6+3</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Spectator</name>
@@ -26940,6 +26921,7 @@
 			<attack>Bite|7|1d6+4</attack>
 		</action>
 		<spells>mage hand, minor illusion, ray of frost, charm person, detect magic, sleep, detect thoughts, hold person, lightning bolt, water breathing, blight, dimension door, dominate person</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Sprite</name>
@@ -27065,6 +27047,68 @@
 		<spells>blur</spells>
 	</monster>
 	<monster>
+		<name>Stegosaurus</name>
+		<size>H</size>
+		<type>beast, Volo's Guide</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>76 (8d12+24)</hp>
+		<speed>40 ft.</speed>
+		<str>20</str><dex>9</dex><con>17</con><int>2</int><wis>11</wis><cha>5</cha>
+		<save />
+		<skill />
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>10</passive>
+		<languages />
+		<cr>4</cr>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 26 (6d6+5) piercing damage.</text>
+			<attack>Tail|7|6d6+5</attack>
+			<attack />
+		</action>
+		<spells />
+	</monster>
+	<monster>
+		<name>Stench Kow</name>
+		<size>L</size>
+		<type>beast, Volo's Guide</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>15 (2d10+4)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str><dex>10</dex><con>14</con><int>2</int><wis>10</wis><cha>4</cha>
+		<save />
+		<skill />
+		<resist>cold, fire, poison</resist>
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages />
+		<cr>1/4</cr>
+		<trait>
+			<name>Charge</name>
+			<text>If the kow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<trait>
+			<name>Stench</name>
+			<text>Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be poisoned until the start of the creature’s next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour.</text>
+		</trait>
+		<action>
+			<name>Gore</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</text>
+			<attack>Gore|6|1d6+4</attack>
+		</action>
+		<spells />
+	</monster>
+	<monster>
 		<name>Stirge</name>
 		<size>T</size>
 		<type>beast, monster manual</type>
@@ -27139,6 +27183,49 @@
 			<name>Rock Catching</name>
 			<text>If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it.</text>
 		</reaction>
+	</monster>
+	<monster>
+		<name>Stone Giant Dreamwalker</name>
+		<size>H</size>
+		<type>giant (stone giant), Volo's Guide</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>161 (14d12+70)</hp>
+		<speed>40 ft.</speed>
+		<str>23</str><dex>14</dex><con>21</con><int>10</int><wis>8</wis><cha>12</cha>
+		<save>Dex +6, Con +9, Wis +3</save>
+		<skill>Athletics +14, Perception +3</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Giant</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Dreamwalker's Charm</name>
+			<text>An enemy that starts its turn within 30 feet of the giant must make a DC 13 Charisma saving throw, provided that the giant isn’t incapacitated. On a failed save, the creature is charmed by the giant. A creature charmed in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant’s Dreamwalker's Charm for 24 hours.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The giant makes two attacks with its greatclub.</text>
+		</action>
+		<action>
+			<name>Greatclub</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 15 ft, one target. Hit: 19 (3d8+6) bludgeoning damage.</text>
+			<attack>Greatclub|10|3d8+6</attack>
+		</action>
+		<action>
+			<name>Petrifying Touch</name>
+			<text>The giant touches one Medium or smaller creature within 10 feet of it that is charmed by it. The target must make a DC 17 Constitution saving throw. On a failed save, the target becomes petrified, and the giant can adhere the target to its stony body. Greater restoration spells and other magic that can undo petrification have no effect on a petrified creature on the giant unless the giant is dead, in which case the magic works normally, freeing the petrified creature as well as ending the petrified condition on it.</text>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +10 to hit, range 60/240 ft, one target. Hit: 28 (4d10+6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.</text>
+			<attack>Rock|10|4d10+6</attack>
+		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Stone Golem</name>
@@ -27226,6 +27313,7 @@
 			<attack>Black Earth Rod|5|1d6+2</attack>
 		</action>
 		<spells>acid splash, blade ward, light, mending, mold earth (ee), expeditious retreat, false life, shield, Maximilian's earthen grasp (ee), shatter, erupting earth (ee), meld into stone, stoneskin</spells>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Storm Giant</name>
@@ -27503,6 +27591,7 @@
 			<text>Strahd makes one bite attack.</text>
 		</legendary>
 		<spells>mage hand, prestidigitation, ray of frost, comprehend languages, fog cloud, sleep, detect thoughts, gust of wind, mirror image, animate dead, fireball, nondetection, blight, greater invisibility, polymorph, animate objects, scrying</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Strahd's Animated Armor</name>
@@ -28113,6 +28202,7 @@
 			<attack>Two Handed|5|1d8+2</attack>
 		</action>
 		<spells>guidance, resistance, thaumaturgy, command, cure wounds, healing word, inflict wounds, blindness/deafness, lesser restoration, spiritual weapon, dispel magic, mass healing word, sending, death ward, freedom of movement, insect plague</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 <monster>
 		<name>Tanarukk</name>
@@ -28309,6 +28399,7 @@
 			<text>The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.</text>
 		</action>
 		<spells>acid splash, light, mage hand, poison spray, prestidigitation, false life, mage armor, ray of sickness, shield, crown of madness, misty step, gaseous form, stinking cloud, blight, confusion, cloudkill</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Thorny</name>
@@ -28548,6 +28639,7 @@
 			<text>Thurl adds 2 to his AC against one melee attack that would hit him. To do so, Thurl must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
 		<spells>friends, gust (ee), light, message, ray of frost, expeditious retreat, feather fall, jump, levitate, misty step, haste</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Tiamat</name>
@@ -28786,6 +28878,7 @@
 			<attack>Two Handed|2|1d8-1</attack>
 		</action>
 		<spells>light, mending, prestidigitation, ray of frost, chromatic orb, expeditious retreat, mage armor, alter self, hold person, knock , blink, fireball, slow, polymorph, stoneskin, telekinesis</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Trapper</name>
@@ -29780,6 +29873,7 @@
 			<text>The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.</text>
 		</action>
 		<spells>mage hand, prestidigitation, ray of frost, comprehend languages, fog cloud, sleep, detect thoughts, gust of wind, mirror image, animate dead, bestow curse, nondetection, blight, greater invisibility, dominate person</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Vampire Warrior</name>
@@ -29931,6 +30025,7 @@
 			<attack>|6|1d10+4</attack>
 		</reaction>
 		<spells>guidance, thaumaturgy, charm person, create or destroy water, hold person, silence, dispel magic, tongues</spells>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Vanifer</name>
@@ -29981,6 +30076,7 @@
 			<attack>Tinderstrike|9|1d4+5+2d6</attack>
 		</action>
 		<spells>chill touch, fire bolt, friends, mage hand, message, produce flame, thaumaturgy, burning hands, chromatic orb, hellish rebuke, shield, darkness, detect thoughts, misty step, scorching ray, counterspell, fireball, hypnotic pattern, wall of fire, dominate person</spells>
+		<slots>4,3,3,3,2,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Vargouille</name>
@@ -30442,8 +30538,9 @@
 			<text>The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.</text>
 		</reaction>
 		<spells>light, mending, sacred flame, spare the dying, divine favor, guiding bolt, healing word, shield of faith, lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon, beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water wall, banishment, freedom of movement, guardian of faith, stoneskin , flame strike, mass cure wounds, hold monster</spells>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
-    <monster>
+	<monster>
 		<name>Warhorse</name>
 		<size>L</size>
 		<type>beast, monster manual</type>
@@ -30540,6 +30637,7 @@
 			<text>In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.</text>
 		</reaction>
 		<spells>disguise self, mage armor, silent image, speak with animals, conjure fey, dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery, blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep</spells>
+		<slots>0,0,0,0,5,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Warlock of the Fiend</name>
@@ -30586,6 +30684,7 @@
 			<attack>Mace|3|1d6+3d6</attack>
 		</action>
 		<spells>alter self, false life, levitate, mage armor, silent image, feeblemind, finger of death, plane shift, eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp, banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire</spells>
+		<slots>0,0,0,0,4,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Warlock of the Great Old One</name>
@@ -30632,6 +30731,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 		<spells>detect magic, jump, levitate, mage armor, speak with dead, arcane gate, true seeing, chill touch, eldritch blast, guidance, mage hand, minor illusion, prestidigitation, shocking grasp, armor of Agathys, arms of Hadar, crown of madness, clairvoyance, contact other plane, detect thoughts, dimension door, dissonant whispers, dominate beast, telekinesis, vampiric touch</spells>
+		<slots>0,0,0,0,3,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Warlord</name>
@@ -30706,7 +30806,7 @@
 		<int>5</int>
 		<wis>10</wis>
 		<cha>8</cha>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>acid, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -30790,7 +30890,7 @@
 		<int>11</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>fire; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>fire, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
@@ -31251,6 +31351,7 @@
 			<attack>Shillelagh|4|1d8+2</attack>
 		</action>
 		<spells>guidance, light, mending, shillelagh, thaumaturgy, animal friendship, cure wounds, healing word, inflict wounds, speak with animals, barkskin, spike growth, spiritual weapon</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Wight</name>
@@ -31388,6 +31489,7 @@
 			<attack>Rapier|5|1d8+3</attack>
 		</action>
 		<spells>friends, prestidigitation, vicious mockery, disguise self, dissonant whispers, thunderwave, invisibility, shatter, silence, nondetection, sending, tongues, confusion, dimension door</spells>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Winged Kobold</name>
@@ -31813,6 +31915,7 @@
 			<attack>Scimitar|4|1d6+2</attack>
 		</action>
 		<spells>detect magic, mage armor, burning hands, expeditious retreat, invisibility, scorching ray</spells>
+		<slots>0,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
         <name>Yakfolk Priest</name>
@@ -31856,11 +31959,12 @@
             <text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage, or 12 (2d8+3) bludgeoning damage if used with two hands.</text>
             <attack>|5|2d6+3</attack>
         </action>
-                <action>
+        <action>
             <name>Summon Earth Elemental (1/day)</name>
             <text>The yakfolk summons an earth elemental. The elemental appears in an unoccupied space within 60 feet of its summoner and acts as an ally of the summoner. It remains for 10 minutes, until it dies, or until its summoner dismisses it as an action.</text>
         </action>
         <spells>light, mending, sacred flame, thaumaturgy, bane, command, cure wounds, sanctuary, augury, hold person, spiritual weapon, bestow curse, protection from energy, sending, banishment</spells>
+        <slots>4,3,3,1,0,0,0,0,0</slots>
     </monster>
 
     <monster>
