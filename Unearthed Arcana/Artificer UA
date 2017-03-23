@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<class>
+		<name>Artificer</name>
+		<hd>1d8</hd>
+		<proficiency>Constitution, Intelligence</proficiency>
+		<spellAbility>Intelligence</spellAbility>
+		<autolevel level="3"><slots>0,2,0,0,0</slots></autolevel>
+		<autolevel level="4"><slots>0,3,0,0,0</slots></autolevel>
+		<autolevel level="5"><slots>0,3,0,0,0</slots></autolevel>
+		<autolevel level="6"><slots>0,3,0,0,0</slots></autolevel>
+		<autolevel level="7"><slots>0,4,2,0,0</slots></autolevel>
+		<autolevel level="8"><slots>0,4,2,0,0</slots></autolevel>
+		<autolevel level="9"><slots>0,4,2,0,0</slots></autolevel>
+		<autolevel level="10"><slots>0,4,3,0,0</slots></autolevel>
+		<autolevel level="11"><slots>0,4,3,0,0</slots></autolevel>
+		<autolevel level="12"><slots>0,4,3,0,0</slots></autolevel>
+		<autolevel level="13"><slots>0,4,3,2,0</slots></autolevel>
+		<autolevel level="14"><slots>0,4,3,2,0</slots></autolevel>
+		<autolevel level="15"><slots>0,4,3,2,0</slots></autolevel>
+		<autolevel level="16"><slots>0,4,3,3,0</slots></autolevel>
+		<autolevel level="17"><slots>0,4,3,3,0</slots></autolevel>
+		<autolevel level="18"><slots>0,4,3,3,0</slots></autolevel>
+		<autolevel level="19"><slots>0,4,3,3,1</slots></autolevel>
+		<autolevel level="20"><slots>0,4,3,3,1</slots></autolevel>
+		<autolevel level= "1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: Light and medium armor</text>
+				<text>Weapons: Simple weapons</text>
+				<text>Tools: Thieves’ tools, two other tools of your choice</text>
+				<text>Skills: Choose three from Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background:</text>
+				<text>• (a) a handaxe and a light hammer or (b) any two simple weapons</text>
+				<text>• a light crossbow and 20 bolts</text>
+				<text>• (a) scale mail or (b) studded leather armor</text>
+				<text>• thieves’ tools and a dungeoneer’s pack</text>
+			</feature>
+			<feature>
+				<name>Magic Item Analysis</name>
+				<text>Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells detect magic and identify, and you can cast them as rituals. You don’t need to provide a material component when casting identify with this class feature.</text>
+			</feature>
+			<feature>
+				<name>Artificer Specialist</name>
+				<text>At 1st level, you choose the type of Artificer Specialist you are: Alchemist or Gunsmith, both of which are detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 9th, 14th, and 17th level.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Specialist: Alchemist</name>
+				<text>An alchemist is an expert at combining exotic reagents to produce a variety of materials, from healing draughts that can mend a wound in moments to clinging goo that slows creatures down.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Alchemist's Satchel</name>
+				<text>At 1st level, you craft an Alchemist’s Satchel, a bag of reagents that you use to create a variety of concoctions. The bag and its contents are both magical, and this magic allows you to pull out exactly the right materials you need for your Alchemical Formula options, described below. After you use one of those options, the bag reclaims the materials. If you lose this satchel, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of leather, glass, and other raw materials.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Alchemical Formula</name>
+				<text>At 1st level, you learn three Alchemical Formula options: Alchemical Fire, Alchemical Acid, and one other option of your choice. You learn an additional formula of your choice at 3rd, 9th, 14th, and 17th levels. To use any of these options, your Alchemist’s Satchel must be within reach. If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Alchemical Fire</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel, pull out a vial of volatile liquid, and hurl the vial at a creature, object, or surface within 30 feet of you (the vial and its contents disappear if you don’t hurl the vial by the end of the current turn). On impact, the vial detonates in a 5-foot radius. Any creature in that area must succeed on a Dexterity saving throw or take 1d6 fire damage. This formula’s damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 10th level (4d6), 13th level (5d6), 16th level (6d6), and 19th level (7d6).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Alchemical Acid</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don’t hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized. This formula’s damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Healing Draught</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula. This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Smoke Stick</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Swift Step Draught</name>
+				<text>As a bonus action, you can reach into your Alchemist’s Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature’s speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Tanglefoot Bag</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Thunderstone</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don’t hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Specialist: Gunsmith</name>
+				<text>A master of engineering, you forge a firearm powered by a combination of science and magic.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gunsmith: Master Smith</name>
+				<text>When you choose this specialization at 1st level, you gain proficiency with smith’s tools, and you learn the mending cantrip.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gunsmith: Thunder Cannon</name>
+				<text>At 1st level, you forge a deadly firearm using a combination of arcane magic and your knowledge of engineering and metallurgy. This firearm is called a Thunder Cannon. It is a ferocious weapon that fires leaden bullets that can punch through armor with ease. You are proficient with the Thunder Cannon. The firearm is a two-handed ranged weapon that deals 2d6 piercing damage. Its normal range is 150 feet, and its maximum range if 500 feet. Once fired, it must be reloaded as a bonus action. If you lose your Thunder Cannon, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of metal and other raw materials.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gunsmith: Arcane Magazine</name>
+				<text>At 1st level, you craft a leather bag used to carry your tools and ammunition for your Thunder Cannon. Your Arcane Magazine includes the powders, lead shot, and other materials needed to keep that weapon functioning. You can use the Arcane Magazine to produce ammunition for your gun. At the end of each long rest, you can magically produce 40 rounds of ammunition with this magazine. After each short rest, you can produce 10 rounds. If you lose your Arcane Magazine, you can create a new one as part of a long rest, using 25 gp of leather and other raw materials.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Tool Expertise</name>
+				<text>Starting at 2nd level, your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class.</text>
+			</feature>
+			<feature>
+				<name>Wondrous Invention</name>
+				<text>At 2nd level, you gain the use of a magic item that you have crafted. Choose the item from the list of 2nd-level items below. Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up. You complete another item of your choice when you reach certain levels in this class: 5th, 10th, 15th, and 20th level. The item you choose must be on the list for your current artificer level or a lower level. These magic items are detailed in the Dungeon Master’s Guide.</text>
+				<text>2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</text>
+				<text>5th Level: alchemy jug, helm of comprehending, languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
+				<text>10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward’s handy haversack</text>
+				<text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
+				<text>20th Level: eyes of the eagle, gem of brightness, gloves of missile snaring, gloves of swimming and climbing, ring of jumping, ring of mind shielding, wings of flying</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Spellcasting</name>
+				<text>As part of your study of magic, you gain the ability to cast spells at 3rd level. The spells you learn are limited in scope, primarily concerned with modifying creatures and objects or creating items.</text>
+				<text>Spell Slots</text>
+				<text>The Artificer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>Spells Known of 1st Level and Higher</text>
+				<text>You know three 1st-level spells of your choice from the artificer spell list (which appears at the end of this document). The Spells Known column of the Artificer table shows when you learn more artificer spells of your choice from this feature. Each of these spells must be of a level for which you have spell slots on the Artificer table. Additionally, when you gain a level in this class, you can choose one of the artificer spells you know from this feature and replace it with another spell from the artificer spell list. The new spell must also be of a level for which you have spell slots on the Artificer table.</text>
+				<text>Spellcasting Ability</text>
+				<text>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</text>
+				<text>Spellcasting Focus</text>
+				<text>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, “Equipment,” in the Player’s Handbook for various arcane focus options.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Additional Alchemical Formula</name>
+				<text>At 3rd level, you learn an additional formula of your choice.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Healing Draught</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula. This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Smoke Stick</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Swift Step Draught</name>
+				<text>As a bonus action, you can reach into your Alchemist’s Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature’s speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Tanglefoot Bag</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Thunderstone</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don’t hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gunsmith: Thunder Monger</name>
+				<text>At 3rd level, you learn to channel thunder energy into your Thunder Cannon. As an action, you can make a special attack with your Thunder Cannon that deals an extra 1d6 thunder damage on a hit. This extra damage increases by 1d6 when you reach certain levels in this class: 5th level (2d6), 7th level (3d6), 9th level (4d6), 11th level (5d6), 13th level (6d6), 15th level (7d6), 17th level (8d6), and 19th level (9d6).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th, 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+			<feature>
+				<name>Infuse Magic</name>
+				<text>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell’s effect's occur. Instead, the spell transfers into that item for later use if the item doesn’t already contain a spell from this feature.</text>
+				<text>Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intelligence score of at least 6. The spell is cast using your spellcasting ability, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell’s range is self, it targets the creature that activates the item.</text>
+				<text>When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted. You can have a limited number of infused spells at the same time. The number equals your Intelligence modifier.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Superior Attunement</name>
+				<text>At 5th level, your superior understanding of magic items allows you to master their use. You can now attune to up to four, rather than three, magic items at a time. At 15th level, this limit increases to five magic items.</text>
+			</feature>
+			<feature>
+				<name>Additional Wondrous Invention</name>
+				<text>At 5th level, you gain the use of another magic item that you have crafted. Choose an item from the list of Wondrous Invention items of 5th level or lower.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Mechanical Servant</name>
+				<text>At 6th level, your research and mastery of your craft allow you to produce a mechanical servant. The servant is a construct that obeys your commands without hesitation and functions in combat to protect you. Though magic fuels its creation, the servant is not magical itself. You are assumed to have been working on the servant for quite some time, finally finishing it during a short or long rest after you reach 6th level.</text>
+				<text>Select a Large beast with a challenge rating of 2 or less. The servant uses that beast’s game statistics, but it can look however you like, as long as its form is appropriate for its statistics. It has the following modifications:</text>
+				<text>• It is a construct instead of a beast.</text>
+				<text>• It can’t be charmed.</text>
+				<text>• It is immune to poison damage and the poisoned condition.</text>
+				<text>• It gains darkvision with a range of 60 feet if it doesn’t have it already.</text>
+				<text>• It understands the languages you can speak when you create it, but it can’t speak.</text>
+				<text>• If you are the target of a melee attack and the servant is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make a melee attack against the attacker.</text>
+				<text>The servant obeys your orders to the best of its ability. In combat, it rolls its own initiative and acts on its own. If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th, 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Alchemist: Additional Alchemical Formula</name>
+				<text>At 9th level, you learn an additional formula of your choice.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Healing Draught</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula. This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Smoke Stick</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Swift Step Draught</name>
+				<text>As a bonus action, you can reach into your Alchemist’s Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature’s speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Tanglefoot Bag</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Thunderstone</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don’t hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+			</feature>
+			<feature optional="YES">
+			<name>Gunsmith: Blast Wave</name>
+			<text>Starting at 9th level, you can channel force energy into your Thunder Cannon. As an action, you can make a special attack with it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. Each creature in that area must make a Strength saving throw with a DC of 8 + your proficiency bonus + your Intelligence modifier. On a failed saving throw, a target takes 2d6 force damage and is pushed 10 feet away from you. This damage increases by 1d6 when you reach certain levels in this class: 13th level (3d6) and 17th level (4d6).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Additional Wondrous Invention</name>
+				<text>At 10th level, you gain the use of another magic item that you have crafted. Choose an item from the list of Wondrous Invention items of 10th level or lower.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th, 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Alchemist: Additional Alchemical Formula</name>
+				<text>At 14th level, you learn an additional formula of your choice.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Healing Draught</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula. This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Smoke Stick</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Swift Step Draught</name>
+				<text>As a bonus action, you can reach into your Alchemist’s Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature’s speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Tanglefoot Bag</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Thunderstone</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don’t hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gunsmith: Piercing Round</name>
+				<text>Starting at 14th level, you can shoot lightning energy through your Thunder Cannon. As an action, you can make a special attack with it. Rather than making an attack roll, you cause the gun to unleash a bolt of lightning, 5-feet wide and 30-feet long. Each creature in that area must make Dexterity saving throws with a DC of 8 + your proficiency bonus + your Intelligence modifier. On a failed saving throw, a target takes 4d6 lightning damage. This damage increases to 6d6 when you reach 19th level in this class.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature>
+				<name>Additional Wondrous Invention</name>
+				<text>At 15th level, you gain the use of another magic item that you have crafted. Choose an item from the list of Wondrous Invention items of 15th level or lower.</text>
+			</feature>
+			<feature>
+				<name>Superior Attunement</name>
+				<text>At 15th level,  you can attune to up to five magic items at a time.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th, 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Alchemist: Additional Alchemical Formula</name>
+				<text>At 17th level, you learn an additional formula of your choice.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Healing Draught</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula. This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Smoke Stick</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Swift Step Draught</name>
+				<text>As a bonus action, you can reach into your Alchemist’s Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature’s speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Tanglefoot Bag</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemical Formula: Thunderstone</name>
+				<text>As an action, you can reach into your Alchemist’s Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don’t hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gunsmith: Explosive Round</name>
+				<text>Starting at 17th level, you can channel fiery energy into your Thunder Cannon. As an action, you can make a special attack with it. Rather than making an attack roll, you launch an explosive round from the gun. The round detonates in a 30-foot radius sphere at a point within range. Each creature in that area must make a Dexterity saving throw with a DC of 8 + your proficiency bonus + your Intelligence modifier. On a failed saving throw, a target takes 4d8 fire damage.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th, 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Additional Wondrous Invention</name>
+				<text>At 20th level, you gain the use of another magic item that you have crafted. Choose an item from the list of Wondrous Invention items of 20th level or lower.</text>
+			</feature>
+			<feature>
+				<name>Soul of Artifice</name>
+				<text>At 20th level, your understanding of magic items is unmatched, allowing you to mingle your soul with items linked to you. You can attune to up to six magic items at once. In addition, you gain a +1 bonus to all saving throws per magic item you are currently attuned to.</text>
+			</feature>
+		</autolevel>
+	</class>
+	<item>
+		<name>Thunder Cannon (Gunsmith Weapon)</name>
+		<type>R</type>
+		<weight>1</weight>
+		<dmg1>2d6</dmg1>
+		<dmgType>P</dmgType>
+		<property>A,2H,S</property>
+		<range>150/500</range>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text>Special: Once fired, it must be reloaded as a bonus action.</text>
+	</item>
+	<item>
+		<name>Arcane Magazine (Gunsmith Item)</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>An Arcane Magazine is a leather bag used to carry tools and ammunition for a Gunsmith's Thunder Cannon, which is capable of producing ammunition for the Thunder Cannon.</text>
+	</item>
+	<item>
+		<name>Thunder Cannon Round (Gunsmith Item)</name>
+		<type>A</type>
+		<weight>1</weight>
+		<text>Ammunition for the Thunder Cannon.</text>
+	</item>
+	<item>
+		<name>Alchemist's Satchel (Alchemist Item)</name>
+		<type>G</type>
+		<weight>1</weight>
+		<text>An Alchemist's Satchel is a magical bag of reagants that allows an Alchemist to create and use Alchemical Formulae.</text>
+	</item>
+	<spell>
+		<name>Alchemical Fire</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>30 feet</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As an action, you can reach into your Alchemist’s Satchel, pull out a vial of volatile liquid, and hurl the vial at a creature, object, or surface within 30 feet of you (the vial and its contents disappear if you don’t hurl the vial by the end of the current turn). On impact, the vial detonates in a 5-foot radius. Any creature in that area must succeed on a Dexterity saving throw or take 1d6 fire damage. This formula’s damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 10th level (4d6), 13th level (5d6), 16th level (6d6), and 19th level (7d6).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+	</spell>
+	<spell>
+		<name>Alchemical Acid</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>30 feet</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As an action, you can reach into your Alchemist’s Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don’t hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized. This formula’s damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+		<roll>10d6</roll>
+	</spell>
+	<spell>
+		<name>Healing Draught</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 action</time>
+		<duration>Up to 1 hour</duration>
+		<range>Self</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula. This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+		<roll>9d8</roll>
+		<roll>10d8</roll>
+	</spell>
+	<spell>
+		<name>Smoke Stick</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 action</time>
+		<duration>1 minute</duration>
+		<range>30 feet</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As an action, you can reach into your Alchemist’s Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can’t do so again for 1 minute.</text>
+	</spell>
+	<spell>
+		<name>Swift Step Draught</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 bonus action</time>
+		<duration>Up to 1 minute</duration>
+		<range>Self</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As a bonus action, you can reach into your Alchemist’s Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature’s speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can’t do so again for 1 minute.</text>
+	</spell>
+	<spell>
+		<name>Tanglefoot Bag</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 action</time>
+		<duration>1 minute</duration>
+		<range>30 feet</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+	</spell>
+	<spell>
+		<name>Thunderstone</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>30 feet</range>
+		<components>M (Alchemist's Satchel)</components>
+		<classes>Artificer (Alchemist)</classes>
+		<text>As an action, you can reach into your Alchemist’s Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don’t hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+	</spell>
+	<spell>
+		<name>Mending</name>
+		<level>0</level>
+		<school>T</school>
+		<time>1 minute</time>
+		<range>Touch</range>
+		<components>V, S, M (two lodestones)</components>
+		<duration>Instantaneous</duration>
+		<classes>Bard, Cleric, Druid, Sorcerer, Wizard, Artificer (Gunsmith)</classes>
+		<text>This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn clack, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</text>
+		<text />
+		<text>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</text>
+	</spell>
+	<spell>
+		<name>Thunder Monger</name>
+		<level>0</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>150/500 feet</range>
+		<components>M (Thunder Cannon)</components>
+		<classes>Artificer (Gunsmith)</classes>
+		<text>At 3rd level, you learn to channel thunder energy into your Thunder Cannon. As an action, you can make a special attack with your Thunder Cannon that deals an extra 1d6 thunder damage on a hit. This extra damage increases by 1d6 when you reach certain levels in this class: 5th level (2d6), 7th level (3d6), 9th level (4d6), 11th level (5d6), 13th level (6d6), 15th level (7d6), 17th level (8d6), and 19th level (9d6).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+		<roll>9d6</roll>
+	</spell>
+	<spell>
+		<name>Blast Wave</name>
+		<level>0</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>15-foot cone</range>
+		<components>M (Thunder Cannon)</components>
+		<classes>Artificer (Gunsmith)</classes>
+		<text>Starting at 9th level, you can channel force energy into your Thunder Cannon. As an action, you can make a special attack with it. Rather than making an attack roll, you unleash force energy in a 15-foot cone from the gun. Each creature in that area must make a Strength saving throw with a DC of 8 + your proficiency bonus + your Intelligence modifier. On a failed saving throw, a target takes 2d6 force damage and is pushed 10 feet away from you. This damage increases by 1d6 when you reach certain levels in this class: 13th level (3d6) and 17th level (4d6).</text>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spell>
+		<name>Piercing Round</name>
+		<level>0</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>30 by 5 feet line</range>
+		<components>M (Thunder Cannon)</components>
+		<classes>Artificer (Gunsmith)</classes>
+		<text>Starting at 14th level, you can shoot lightning energy through your Thunder Cannon. As an action, you can make a special attack with it. Rather than making an attack roll, you cause the gun to unleash a bolt of lightning, 5-feet wide and 30-feet long. Each creature in that area must make Dexterity saving throws with a DC of 8 + your proficiency bonus + your Intelligence modifier. On a failed saving throw, a target takes 4d6 lightning damage. This damage increases to 6d6 when you reach 19th level in this class.</text>
+		<roll>4d6</roll>
+		<roll>6d6</roll>
+	</spell>
+	<spell>
+		<name>Explosive Round</name>
+		<level>0</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<duration>Instantaneous</duration>
+		<range>150/500 feet</range>
+		<components>M (Thunder Cannon)</components>
+		<classes>Artificer (Gunsmith)</classes>
+		<text>Starting at 17th level, you can channel fiery energy into your Thunder Cannon. As an action, you can make a special attack with it. Rather than making an attack roll, you launch an explosive round from the gun. The round detonates in a 30-foot radius sphere at a point within range. Each creature in that area must make a Dexterity saving throw with a DC of 8 + your proficiency bonus + your Intelligence modifier. On a failed saving throw, a target takes 4d8 fire damage.</text>
+		<roll>4d8</roll>
+	</spell>
+	<spell>
+		<name>Aid</name>
+		<level>2</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a tiny strip of white cloth)</components>
+		<duration>8 hours</duration>
+		<classes>Cleric, Paladin, Artificer</classes>
+		<text>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.</text>
+	</spell>
+	<spell>
+		<name>Alarm</name>
+		<level>1</level>
+		<school>A</school>
+		<ritual>YES</ritual>
+		<time>1 minute</time>
+		<range>30 feet</range>
+		<components>V, S, M (a tiny bell and a piece of fine silver wire)</components>
+		<duration>8 hours</duration>
+		<classes>Ranger, Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.</text>
+		<text />
+		<text>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.</text>
+		<text />
+		<text>An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</text>
+	</spell>
+	<spell>
+		<name>Alter Self</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V, S</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Sorcerer, Wizard, Artificer</classes>
+		<text>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</text>
+		<text />
+		<text>Aquatic Adaptation: You adapt your body to an aquatic environment, sprouting gills, and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</text>
+		<text />
+		<text>Change Appearance: You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also don't appear as a creature of a different size than you, and your basic shape stays the same, if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</text>
+		<text />
+		<text>Natural Weapons: You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with you unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</text>
+		<roll>1d6+1</roll>
+	</spell>
+	<spell>
+		<name>Arcane Eye</name>
+		<level>4</level>
+		<school>D</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a bit of bat fur)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Cleric (Arcana), Cleric (Knowledge), Wizard, Artificer</classes>
+		<text>You create an invisible, magical eye within range that hovers in the air for the duration.</text>
+		<text />
+		<text>You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.</text>
+		<text />
+		<text>As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.</text>
+	</spell>
+	<spell>
+		<name>Arcane Lock</name>
+		<level>2</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (gold dust worth at least 25 gp, which the spell consumes)</components>
+		<duration>Until dispelled</duration>
+		<classes>Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.</text>
+		<text />
+		<text>While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.</text>
+	</spell>
+	<spell>
+		<name>Blink</name>
+		<level>3</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V, S</components>
+		<duration>1 minute</duration>
+		<classes>Cleric (Trickery), Sorcerer, Warlock (Archfey), Wizard, Artificer</classes>
+		<text>Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</text>
+		<text />
+		<text>While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creature that aren't there can't perceive you or interact with you, unless they have the ability to do so.</text>
+		<roll>d20</roll>
+	</spell>
+	<spell>
+		<name>Blur</name>
+		<level>2</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V</components>
+		<duration>Concentration, up to 1 minute</duration>
+		<classes>Druid (Desert), Sorcerer, Wizard, Rogue (Arcane Trickster), Artificer</classes>
+		<text>Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.</text>
+	</spell>
+	<spell>
+		<name>Continual Flame</name>
+		<level>2</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (ruby dust worth 50 gp, which the spell consumes)</components>
+		<duration>Until dispelled</duration>
+		<classes>Cleric, Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched.</text>
+	</spell>
+	<spell>
+		<name>Cure Wounds</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S</components>
+		<duration>Instantaneous</duration>
+		<classes>Bard, Cleric, Cleric (Life), Druid, Paladin, Ranger, Artificer</classes>
+		<text>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</text>
+		<roll>1d8+SPELL</roll>
+	</spell>
+	<spell>
+		<name>Darkvision</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (either a pinch of dried carrot or an agate)</components>
+		<duration>8 hours</duration>
+		<classes>Druid, Ranger, Sorcerer, Wizard, Artificer</classes>
+		<text>You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.</text>
+	</spell>
+	<spell>
+		<name>Death Ward</name>
+		<level>4</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S</components>
+		<duration>8 hours</duration>
+		<classes>Cleric, Cleric (Death), Cleric (Life), Paladin, Warlock (Undying), Artificer</classes>
+		<text>You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends.</text>
+	</spell>
+	<spell>
+		<name>Detect Magic</name>
+		<level>1</level>
+		<school>D</school>
+		<ritual>YES</ritual>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V, S</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Bard, Cleric, Cleric (Arcana), Druid, Paladin, Ranger, Sorcerer, Wizard, Artificer</classes>
+		<text>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.</text>
+		<text />
+		<text>The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+	</spell>
+	<spell>
+		<name>Disguise Self</name>
+		<level>1</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V, S</components>
+		<duration>1 hour</duration>
+		<classes>Bard, Cleric (Trickery), Sorcerer, Wizard, Rogue (Arcane Trickster), Artificer</classes>
+		<text>You make yourself, including your clothing, armor, weapons, and other belongings on your person, look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</text>
+		<text />
+		<text>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</text>
+		<text />
+		<text>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</text>
+	</spell>
+	<spell>
+		<name>Enhance Ability</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (fur or a feather from a beast)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Bard, Cleric, Druid, Sorcerer, Artificer</classes>
+		<text>You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects - the target gains the effect until the spell ends.</text>
+		<text />
+		<text>Bear's Endurance: The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.</text>
+		<text />
+		<text>Bull's Strength: The target has advantage on Strength checks, and his or her carrying capacity doubles.</text>
+		<text />
+		<text>Cat's Grace: The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.</text>
+		<text />
+		<text>Eagle's Splendor: The target has advantage on Charisma checks.</text>
+		<text />
+		<text>Fox's Cunning: The target has advantage on Intelligence checks.</text>
+		<text />
+		<text>Owl's Wisdom: The target has advantage on Wisdom checks.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
+	</spell>
+	<spell>
+		<name>Enlarge/Reduce</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a pinch of powdered iron)</components>
+		<duration>Concentration, up to 1 minute</duration>
+		<classes>Sorcerer, Wizard, Artificer</classes>
+		<text>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</text>
+		<text />
+		<text>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</text>
+		<text />
+		<text>Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deal 1d4 extra damage.</text>
+		<text />
+		<text>Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).</text>
+	</spell>
+	<spell>
+		<name>Expeditious Retreat</name>
+		<level>1</level>
+		<school>T</school>
+		<time>1 bonus action</time>
+		<range>Self</range>
+		<components>V, S</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Sorcerer, Warlock, Wizard, Artificer</classes>
+		<text>This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.</text>
+	</spell>
+	<spell>
+		<name>Fabricate</name>
+		<level>4</level>
+		<school>EV</school>
+		<time>10 minutes</time>
+		<range>120 feet</range>
+		<components>V, S</components>
+		<duration>Instantaneous</duration>
+		<classes>Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from flax or wool.</text>
+		<text />
+		<text>Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the spell is commensurate with the quality of the raw materials.</text>
+		<text />
+		<text>Creatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects.</text>
+	</spell>
+	<spell>
+		<name>False Life</name>
+		<level>1</level>
+		<school>N</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V, S, M (a small amount of alcohol or distilled spirits)</components>
+		<duration>1 hour</duration>
+		<classes>Cleric (Death), Sorcerer, Warlock (Undying), Wizard, Artificer</classes>
+		<text>Bolstering yourself with a necromantic facsimile of life, you gain 1d4+4 temporary hit points for the duration.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</text>
+		<roll>1d4+4</roll>
+	</spell>
+	<spell>
+		<name>Fly</name>
+		<level>3</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (a wing feather from any bird)</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Sorcerer, Warlock, Wizard, Artificer</classes>
+		<text>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</text>
+	</spell>
+	<spell>
+		<name>Freedom of Movement</name>
+		<level>4</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (a leather strap, bound around the arm or a similar appendage)</components>
+		<duration>1 hour</duration>
+		<classes>Bard, Cleric, Cleric (War), Druid, Druid (Arctic), Druid (Coast), Druid (Forest), Druid (Grassland), Druid (Swamp), Paladin (Devotion), Ranger, Artificer</classes>
+		<text>You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.</text>
+		<text />
+		<text>The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.</text>
+	</spell>
+	<spell>
+		<name>Gaseous Form</name>
+		<level>3</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (a bit of gauze and a wisp of smoke)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Druid (Underdark), Sorcerer, Warlock, Wizard, Artificer</classes>
+		<text>You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.</text>
+		<text />
+		<text>While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.</text>
+		<text />
+		<text>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.</text>
+	</spell>
+	<spell>
+		<name>Glyph of Warding</name>
+		<level>3</level>
+		<school>A</school>
+		<time>1 hour</time>
+		<range>Touch</range>
+		<components>V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)</components>
+		<duration>Until dispelled or triggered</duration>
+		<classes>Bard, Cleric, Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>When you cast this spell, you inscribe a glyph that harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place, if the object is moved more than 10 feet from where you cast this spell, the glyph is broken and the spell ends without being triggered.</text>
+		<text />
+		<text>The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.</text>
+		<text />
+		<text>You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.</text>
+		<text />
+		<text>You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.</text>
+		<text />
+		<text>When you inscribe the glyph, choose explosive runes or a spell glyph.</text>
+		<text />
+		<text>Explosive Runes: When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the aura must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one.</text>
+		<text />
+		<text>Spell Glyph: You can store a prepared spell of or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding.</text>
+		<roll>5d8</roll>
+	</spell>
+	<spell>
+		<name>Haste</name>
+		<level>3</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a shaving of licorice root)</components>
+		<duration>Concentration, up to 1 minute</duration>
+		<classes>Druid (Grassland), Paladin (Vengeance), Sorcerer, Wizard, Artificer</classes>
+		<text>Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</text>
+		<text />
+		<text>When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</text>
+	</spell>
+	<spell>
+		<name>Identify</name>
+		<level>1</level>
+		<school>D</school>
+		<ritual>YES</ritual>
+		<time>1 minute</time>
+		<range>Touch</range>
+		<components>V, S, M (a pearl worth at least 100 gp and an owl feather)</components>
+		<duration>Instantaneous</duration>
+		<classes>Bard, Cleric (Knowledge), Wizard, Artificer</classes>
+		<text>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.</text>
+		<text />
+		<text>If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.</text>
+	</spell>
+	<spell>
+		<name>Invisibility</name>
+		<level>2</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (an eyelash encased in gum arabic)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Bard, Druid (Grassland), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Artificer</classes>
+		<text>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
+	</spell>
+	<spell>
+		<name>Jump</name>
+		<level>1</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (a grasshopper's hind leg)</components>
+		<duration>1 minute</duration>
+		<classes>Druid, Ranger, Sorcerer, Wizard, Artificer</classes>
+		<text>You touch a creature. The creature's jump distance is tripled until the spell ends.</text>
+	</spell>
+	<spell>
+		<name>Leomund's Secret Chest</name>
+		<level>4</level>
+		<school>C</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp)</components>
+		<duration>Instantaneous</duration>
+		<classes>Cleric (Arcana), Wizard, Artificer</classes>
+		<text>You hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).</text>
+		<text />
+		<text>While the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.</text>
+		<text />
+		<text>After 60 days, there is a cumulative 5 percent chance per day that the spell's effect ends. This effect ends if you cast this spell again, if the smaller replica chest is destroyed, or if you choose to end the spell as an action. If the spell ends and the larger chest is on the Ethereal Plane, it is irretrievably lost.</text>
+		<roll>d10</roll>
+	</spell>
+	<spell>
+		<name>Lesser Restoration</name>
+		<level>2</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S</components>
+		<duration>Instantaneous</duration>
+		<classes>Bard, Cleric, Cleric (Life), Druid, Paladin, Paladin (Devotion), Ranger, Artificer</classes>
+		<text>You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</text>
+	</spell>
+	<spell>
+		<name>Levitate</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>60 feet</range>
+		<components>V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Sorcerer, Wizard, Artificer</classes>
+		<text>One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</text>
+		<text />
+		<text>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.</text>
+		<text />
+		<text>When the spell ends, the target floats gently to the ground if it is still aloft.</text>
+	</spell>
+	<spell>
+		<name>Longstrider</name>
+		<level>1</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (a pinch of dirt)</components>
+		<duration>1 hour</duration>
+		<classes>Bard, Druid, Ranger, Wizard, Artificer</classes>
+		<text>You touch a creature. The target's speed increases by 10 feet until the spell ends.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+	</spell>
+	<spell>
+		<name>Magic Weapon</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 bonus action</time>
+		<range>Touch</range>
+		<components>V, S</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Cleric (Arcana), Cleric (War), Paladin, Wizard, Artificer</classes>
+		<text>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.</text>
+	</spell>
+	<spell>
+		<name>Mordenkainen's Faithful Hound</name>
+		<level>4</level>
+		<school>C</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a tiny silver whistle, a piece of bone, and a thread)</components>
+		<duration>8 hours</duration>
+		<classes>Wizard, Artificer</classes>
+		<text>You conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.</text>
+		<text />
+		<text>The hound is invisible to all creatures except you and can't be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.</text>
+		<text />
+		<text>At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage.</text>
+		<roll>4d8</roll>
+		<roll>SPELL+PROF</roll>
+	</spell>
+	<spell>
+		<name>Mordenkainen's Private Sanctum</name>
+		<level>4</level>
+		<school>A</school>
+		<time>10 minutes</time>
+		<range>120 feet</range>
+		<components>V, S, M (a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite)</components>
+		<duration>24 hours</duration>
+		<classes>Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.</text>
+		<text />
+		<text>When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties.</text>
+		<text />
+		<text>• Sound can't pass through the barrier at the edge of the warded area.</text>
+		<text />
+		<text>• The barrier of the warded area appears dark and foggy, preventing vision (including darkvision) through it.</text>
+		<text />
+		<text>• Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.</text>
+		<text />
+		<text>• Creatures in the area can't be targeted by divination spells.</text>
+		<text />
+		<text>• Nothing can teleport into or out of the warded area.</text>
+		<text />
+		<text>• Planar travel is blocked within the warded area.</text>
+		<text />
+		<text>Casting this spell on the same spot every day for a year makes this effect permanent.</text>
+		<text />
+		<text>At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.</text>
+	</spell>
+	<spell>
+		<name>Otiluke's Resilient Sphere</name>
+		<level>4</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)</components>
+		<duration>Concentration, up to 1 minute</duration>
+		<classes>Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.</text>
+		<text />
+		<text>Nothing, not physical objects, energy, or other spell effects, can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</text>
+		<text />
+		<text>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.</text>
+		<text />
+		<text>A disintegrate spell targeting the globe destroys it without harming anything inside it.</text>
+	</spell>
+	<spell>
+		<name>Protection from Energy</name>
+		<level>3</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Cleric, Druid, Druid (Desert), Paladin (Ancients), Paladin (Vengeance), Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>For the duration, the willing creature you touch has resistance to one damage type of your choice - acid, cold, fire, lightning, or thunder.</text>
+	</spell>
+	<spell>
+		<name>Protection from Poison</name>
+		<level>2</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S</components>
+		<duration>1 hour</duration>
+		<classes>Cleric, Druid, Paladin, Ranger, Artificer</classes>
+		<text>You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize on poison that you know is present, or you neutralize one at random.</text>
+		<text />
+		<text>For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.</text>
+	</spell>
+	<spell>
+		<name>Revivify</name>
+		<level>3</level>
+		<school>N</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (diamonds worth 300 gp, which the spell consumes)</components>
+		<duration>Instantaneous</duration>
+		<classes>Cleric, Cleric (Life), Paladin, Artificer</classes>
+		<text>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.</text>
+	</spell>
+	<spell>
+		<name>Rope Trick</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (powdered corn extract and a twisted loop of parchment)</components>
+		<duration>1 hour</duration>
+		<classes>Wizard, Artificer</classes>
+		<text>You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends.</text>
+		<text />
+		<text>The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.</text>
+		<text />
+		<text>Attacks and spells can't cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.</text>
+		<text />
+		<text>Anything inside the extradimensional space drops out when the spell ends.</text>
+	</spell>
+	<spell>
+		<name>Sanctuary</name>
+		<level>1</level>
+		<school>A</school>
+		<time>1 bonus action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a small silver mirror)</components>
+		<duration>1 minute</duration>
+		<classes>Cleric, Paladin (Devotion), Artificer</classes>
+		<text>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball.</text>
+		<text />
+		<text>If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</text>
+	</spell>
+	<spell>
+		<name>See Invisibility</name>
+		<level>2</level>
+		<school>D</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>V, S, M (A pinch of Talc and a small sprinkling of powdered silver)</components>
+		<duration>1 hour</duration>
+		<classes>Bard, Sorcerer, Wizard, Artificer</classes>
+		<text>For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</text>
+	</spell>
+	<spell>
+		<name>Shield of Faith</name>
+		<level>1</level>
+		<school>A</school>
+		<time>1 bonus action</time>
+		<range>60 feet</range>
+		<components>V, S, M (a small parchment with a bit of holy text written on it)</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Cleric, Cleric (War), Paladin, Artificer</classes>
+		<text>A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</text>
+	</spell>
+	<spell>
+		<name>Spider Climb</name>
+		<level>2</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (a drop of bitumen and a spider)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Druid (Forest), Druid (Mountain), Druid (Underdark), Sorcerer, Warlock, Wizard, Artificer</classes>
+		<text>Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed.</text>
+	</spell>
+	<spell>
+		<name>Stone Shape</name>
+		<level>4</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (soft clay, which must be worked into roughly the desired shape of the stone object)</components>
+		<duration>Instantaneous</duration>
+		<classes>Cleric, Druid, Druid (Mountain), Druid (Underdark), Wizard, Artificer</classes>
+		<text>You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.</text>
+	</spell>
+	<spell>
+		<name>Stoneskin</name>
+		<level>4</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>V, S, M (diamond dust worth 100 gp, which the spell consumes)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Cleric (War), Druid, Druid (Mountain), Paladin (Ancients), Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer</classes>
+		<text>This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.</text>
+	</spell>
+	<spell>
+		<name>Water Breathing</name>
+		<level>3</level>
+		<school>T</school>
+		<ritual>YES</ritual>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a short reed or piece of straw)</components>
+		<duration>24 hours</duration>
+		<classes>Druid, Druid (Coast), Ranger, Sorcerer, Wizard, Artificer</classes>
+		<text>This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</text>
+	</spell>
+	<spell>
+		<name>Water Walk</name>
+		<level>3</level>
+		<school>T</school>
+		<ritual>YES</ritual>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>V, S, M (a piece of cork)</components>
+		<duration>1 hour</duration>
+		<classes>Cleric, Druid, Druid (Coast), Druid (Swamp), Ranger, Sorcerer, Artificer</classes>
+		<text>This spell grants the ability to move across any liquid surface - such as water, acid, mud, snow, quicksand, or lava - as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.</text>
+		<text />
+		<text>If your target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.</text>
+	</spell>
+  <item>
+    <name>Bag of Holding</name>
+    <type>W</type>
+    <weight>15</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</text>
+    <text>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</text>
+    <text>Placing a bag of holding inside an extradimensional space created by a Heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 153</text>
+  </item>
+  <item>
+    <name>Cap of Water Breathing</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>While wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 157</text>
+  </item>
+  <item>
+    <name>Driftglobe</name>
+    <type>W</type>
+    <weight>1</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the light or daylight spell. Once used, the daylight effect can't be used again until the next dawn.</text>
+    <text>You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 166</text>
+  </item>
+  <item>
+    <name>Goggles of Night</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision. wearing the goggles increases its range by 60 feet.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 172</text>
+  </item>
+  <item>
+    <name>Sending Stones</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the sending spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.</text>
+    <text>Once sending is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 199</text>
+  </item>
+  <item>
+    <name>Alchemy Jug</name>
+    <type>W</type>
+    <weight>12</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</text>
+    <text>You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</text>
+    <text>Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.</text>
+    <text />
+    <text>Liquid — Max Amount:</text>
+    <text>Acid — 8 ounces</text>
+    <text>Basic poison — 1/2 ounce</text>
+    <text>Beer — 4 gallons</text>
+    <text>Honey — 1 gallon</text>
+    <text>Mayonnaise — 2 gallons</text>
+    <text>Oil — 1 quart</text>
+    <text>Vinegar — 2 gallons</text>
+    <text>Water, fresh — 8 gallons</text>
+    <text>Water, salt — 12 gallons</text>
+    <text>Wine — 1 gallon</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 150</text>
+  </item>
+  <item>
+    <name>Helm of Comprehending Languages</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>While wearing this helm, you can use an action to cast the comprehend languages spell from it at will.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 173</text>
+  </item>
+  <item>
+    <name>Lantern of Revealing</name>
+    <type>W</type>
+    <weight>2</weight>
+    <text>Rarity: Uncommon</text>
+    <text>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 179</text>
+  </item>
+  <item>
+    <name>Ring of Swimming</name>
+    <type>RG</type>
+    <text>Rarity: Uncommon</text>
+    <text>You have a swimming speed of 40 feet while wearing this ring.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 193</text>
+  </item>
+  <item>
+    <name>Robe of Useful Items</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.</text>
+    <text>The robe has two of each of the following patches:</text>
+    <text>• Dagger</text>
+    <text>• Bullseye lantern (filled and lit)</text>
+    <text>• Steel mirror</text>
+    <text>• 10-foot pole</text>
+    <text>• Hempen rope (50 feet, coiled)</text>
+    <text>• Sack</text>
+    <text>In addition, the robe has 4d4 other patches. The DM chooses the patches or determines them randomly.</text>
+    <text />
+    <text>d100 — Patch:</text>
+    <text>01-08 — Bag of 100 gp</text>
+    <text>09-15 — Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp</text>
+    <text>16-22 — Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself</text>
+    <text>23-30 — 10 gems worth 100 gp each</text>
+    <text>31-44 — Wooden ladder (24 feet long)</text>
+    <text>45-51 — A riding horse with saddle bags (see the Monster Manual for statistics)</text>
+    <text>52-59 — Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you</text>
+    <text>60-68 — 4 potions of healing</text>
+    <text>69-75 — Rowboat (12 feet long)</text>
+    <text>76-83 — Spell scroll containing one spell of 1st to 3rd level</text>
+    <text>84-90 — 2 mastiffs (see the Monster Manual for statistics)</text>
+    <text>91-96 — Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach</text>
+    <text>97-00 — Portable ram</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 195</text>
+  </item>
+  <item>
+    <name>Rope of Climbing</name>
+    <type>W</type>
+    <weight>3</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.</text>
+    <text>If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.</text>
+    <text>The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 197</text>
+  </item>
+  <item>
+    <name>Wand of Magic Detection</name>
+    <type>WD</type>
+    <weight>1</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the detect magic spell from it. The wand regains 1d3 expended charges daily at dawn.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 211</text>
+    <roll>1d3</roll>
+  </item>
+  <item>
+    <name>Wand of Secrets</name>
+    <type>WD</type>
+    <weight>1</weight>
+    <text>Rarity: Uncommon</text>
+    <text>The wand has 3 charges. While holding it. you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 211</text>
+    <roll>1d3</roll>
+  </item>
+  <item>
+    <name>Bag of Beans</name>
+    <type>W</type>
+    <weight>0.5</weight>
+    <text>Rarity: Rare</text>
+    <text>Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound plus 1/4 pound for each bean it contains.</text>
+    <text>If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.</text>
+    <text>If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table, determine it randomly, or create an effect.</text>
+    <text />
+    <text>d100 — Effect: </text>
+    <text>01 — 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take Sd6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour.</text>
+    <text>2-10 — A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (DM's choice) 30 feet into the air for 1d12 rounds.</text>
+    <text>11-20 — A treant sprouts (see the Monster Manual for statistics). There's a 50 percent chance that the treant is chaotic evil and attacks.</text>
+    <text>21-30 — An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.</text>
+    <text>31-40 — A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished).</text>
+    <text>41-50 — 1d6 + 6 shriekers sprout (see the Monster Manual for statistics).</text>
+    <text>51-60 — 1d4 + 8 bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the DM's choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke.</text>
+    <text>61-70 — A hungry bulette (see the Monster Manual for statistics) burrows up and attacks.</text>
+    <text>71-80 A fruit tree grows. It has 1d10+20 fruit, 1d8 of which act as randomly determined magic potions, while one acts as an ingested poison of the DM's choice. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.</text>
+    <text>81-90 — A nest of 1d4 + 3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 force damage from an internal magical explosion.</text>
+    <text>91-99 — A pyramid with a 60-foot-square base bursts upward. Inside is a sarcophagus containing a mummy lord (see the Monster Manual for statistics). The pyramid is treated as the mummy lord's lair, and its sarcophagus contains treasure of the DM's choice.</text>
+    <text>00 — A giant beanstalk sprouts, growing to a height of the DM's choice. The top leads where the DM chooses, such as to a great view, a cloud giant's castle, or a different plane of existence.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 152</text>
+    <roll>5d4</roll>
+    <roll>1d100</roll>
+  </item>
+  <item>
+    <name>Chime of Opening</name>
+    <type>W</type>
+    <weight>1</weight>
+    <text>Rarity: Rare</text>
+    <text>This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound can't reach the object. If no locks or latches remain, the object itself opens.</text>
+    <text>The chime can be used ten times. After the tenth time it cracks and becomes useless.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 158</text>
+  </item>
+  <item>
+    <name>Decanter of Endless Water</name>
+    <type>W</type>
+    <weight>2</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.</text>
+    <text>You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:</text>
+    <text>• "Stream" produces 1 gallon of water.</text>
+    <text>• "Fountain" produces 5 gallons of water.</text>
+    <text>• "Geyser" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 161</text>
+    <roll>1d4</roll>
+  </item>
+  <item>
+    <name>Eyes of Minute Seeing</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 168</text>
+  </item>
+  <item>
+    <name>Folding Boat</name>
+    <type>W</type>
+    <weight>4</weight>
+    <text>Rarity: Rare</text>
+    <text>This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring you to use an action to speak it.</text>
+    <text>One command word causes the box to unfold into a boat 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.</text>
+    <text>The second command word causes the box to unfold into a ship 24 feet long, 8 feet wide; and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. The ship can hold fifteen Medium creatures comfortably.</text>
+    <text>When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.</text>
+    <text>The third command word causes the folding boat to fold back into a box, provided that no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 170</text>
+  </item>
+  <item>
+    <name>Heward's Handy Haversack</name>
+    <type>W</type>
+    <weight>5</weight>
+    <text>Rarity: Rare</text>
+    <text>This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.</text>
+    <text>Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.</text>
+    <text>The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.</text>
+    <text>Placing the haversack inside an extradimensional space created by a bag of holding, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10-feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 174</text>
+  </item>
+  <item>
+    <name>Boots of Striding and Springing</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 156</text>
+  </item>
+  <item>
+    <name>Bracers of Archery</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 156</text>
+  </item>
+  <item>
+    <name>Brooch of Shielding</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the magic missile spell.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 156</text>
+  </item>
+  <item>
+    <name>Broom of Flying</name>
+    <type>W</type>
+    <weight>3</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.</text>
+    <text>You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 156</text>
+  </item>
+  <item>
+    <name>Hat of Disguise</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing this hat, you can use an action to cast the disguise self spell from it at will. The spell ends if the hat is removed.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 173</text>
+  </item>
+  <item>
+    <name>Slippers of Spider Climbing</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 200</text>
+  </item>
+  <item>
+    <name>Eyes of the Eagle</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 168</text>
+  </item>
+  <item>
+    <name>Gem of Brightness</name>
+    <type>W</type>
+    <weight>1</weight>
+    <text>Rarity: Uncommon</text>
+    <text>This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:</text>
+    <text>• The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.</text>
+    <text>• The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+    <text>• The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.</text>
+    <text>When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 171</text>
+  </item>
+  <item>
+    <name>Gloves of Missile Snaring</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 +your Dexterity modifier. provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 172</text>
+    <roll>1d10+%2</roll>
+  </item>
+  <item>
+    <name>Gloves of Swimming and Climbing</name>
+    <type>W</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 172</text>
+  </item>
+  <item>
+    <name>Ring of Jumping</name>
+    <type>RG</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 191</text>
+  </item>
+  <item>
+    <name>Ring of Mind Shielding</name>
+    <type>RG</type>
+    <text>Rarity: Uncommon</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</text>
+    <text>You can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die.</text>
+    <text>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 191</text>
+  </item>
+  <item>
+    <name>Wings of Flying</name>
+    <type>W</type>
+    <text>Rarity: Rare</text>
+    <text>Requires Attunement</text>
+    <text />
+    <text>While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours.</text>
+    <text />
+    <text>Source: Dungeon Master's Guide, page 214</text>
+    <roll>1d12</roll>
+  </item>
+</compendium>
