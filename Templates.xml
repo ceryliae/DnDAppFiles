@@ -1,12 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- above must come first for an xml file-->
+<!-- root element, auto_indent attribute will cause <text> nodes to display indented -->
+<compendium version="5" auto_indent="YES">
+
+<!-- Common complex elements: -->
+<!-- category is one of (bonus|ability score|ability modifier|saving throw|skill)-->
+<!-- -->
+<modifier category="bonus">ABC [+/-]##</modifier>
+
+<!-- special hard-coded bonuses that impact AC, Attack, and Check calculations, eg Fighting Style: (Archery|Defense|Dueling), Jack of all Trades, Unarmored Defense: (Ability)-->
+<special></special>
+
+<!-- Saving Throws, and Skills to include Proficiency Bonus -->
+<proficiency>Intelligence, Acrobatics</proficiency>
+
+
 <!--Class template-->
 <class>
 	<name></name>
 	<hd></hd>
-	<Proficiency></Proficiency>
-	<spellAbility></spellAbility>
+	<proficiency></proficiency>
+	<spellAbility></spellAbility> <!-- (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) -->
+	<modifier></modifier>
 	<autolevel level="1">
-		<feature>
+		<slots optional="YES">0,1,2,3,4,5,6,7,8,9</slots> <!-- # of each spell slot available at this level-->
+		<feature optional="NO">
 			<name>Proficiencies</name>
+			<proficiency></proficiency>
+			<special></special>
+			<modifier></modifier>
 			<text>Armor: </text>
 			<text /><!--this is a line break in the text block-->
 			<text>Weapons: </text>
@@ -19,6 +41,9 @@
 		</feature>
 		<feature>
 			<name>Starting Equipment</name>
+			<proficiency></proficiency>
+			<special></special>
+			<modifier></modifier>
 			<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
 			<text />
 			<text>• </text>
@@ -29,6 +54,9 @@
 		</feature>
 		<feature>
 			<name></name>
+			<proficiency></proficiency>
+			<special></special>
+			<modifier></modifier>
 			<text></text>
 		</feature>
 	</autolevel>
@@ -71,10 +99,27 @@
 	<autolevel level="20">
 	</autolevel>
 </class>
+<!--Background template-->
+<background>
+	<proficiency></proficiency>
+	<trait>
+		<name></name>
+		<text></text>
+	</trait>
+	<modifier></modifier>
+</background>
+<!--Feat template-->
+<feat>
+	<name></name>
+	<prerequisite></prerequisite>
+	<special></special> <!-- special hard-coded bonuses that impact AC, Attack, and Check calculations, eg Fighting Style: (Archery|Defense|Dueling), Jack of all Trades, Unarmored Defense: (Ability)-->
+	<text></text>
+	<modifier></modifier>
+</feat>
 <!--Item template-->
 <item>
 	<name></name>
-	<type></type>
+	<type></type> <!-- (LA|MA|HA|S|M|R|A|RD|ST|WD|RG|P|SC|W|G|$) -->
 	<magic></magic>
 	<weight></weight>
 	<ac></ac>
@@ -82,18 +127,20 @@
 	<stealth></stealth>
 	<dmg1></dmg1>
 	<dmg2></dmg2>
-	<dmgType></dmgType>
-	<property></property>
-	<range></range>
+	<dmgType></dmgType> <!-- (B|P|S) -->
+	<property></property> <!-- (A,F,H,L,LD,R,S,T,2H,V) -->
+	<range></range> <!-- (##/##) -->
+	<modifier category="bonus"></modifier> <!-- "(bonus|ability score|ability modifier|saving throw|skill)" ((melee attacks|) [+/-]##) -->
+	<roll></roll>
 	<text></text>
 </item>
-<!--Moster template-->
+<!--Monster template-->
 <monster>
 	<name></name>
-	<size></size>
+	<size></size> <!-- (T|S|M|LH|G) -->
 	<type></type>
 	<alignment></alignment>
-	<ac></ac>
+	<ac></ac> <!-- (## (ABC)) -->
 	<hp></hp>
 	<speed></speed>
 	<str></str><dex></dex><con></con><int></int><wis></wis><cha></cha>
@@ -114,7 +161,7 @@
 	<action>
 		<name></name>
 		<text></text>
-		<attack>||</attack>
+		<attack>||</attack> <!-- (ABC|##|D20) -->
 	</action>
 	<reaction>
 		<name></name>
@@ -133,17 +180,21 @@
 	<name></name>
 	<size></size>
 	<speed></speed>
-	<ability></ability>
+	<proficiency></proficiency>
+	<ability></ability> <!-- ability score increases, translates to a Modifier. ((Str|Dex|Con|Int|Wis|Cha) ##) -->
 	<trait>
 		<name></name>
 		<text></text>
+		<proficiency></proficiency>
+		<special></special>
 	</trait>
+	<modifier></modifier>
 </race>
 <!--Spell template-->
 <spell>
 	<name></name>
 	<level></level>
-	<school></school>
+	<school></school> <!-- (A|C|D|EN|EV|I|N|T) -->
 	<ritual /> <!--if yes ritual, use <ritual>YES</ritual>-->
 	<time></time>
 	<range></range>
@@ -162,3 +213,4 @@
 	<roll>xdx+CHA</roll> <!--add CHA MOD-->
 	<roll>xdx+PROF</roll> <!--add PROF-->
 </spell>
+</compendium>

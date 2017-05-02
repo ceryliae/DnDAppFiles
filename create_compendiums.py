@@ -45,7 +45,7 @@ class XMLCombiner(object):
                 items.append((name, element))
         items.sort()
 
-        # Include only of of each element with same name
+        # Include only one of each element with same name
         elements = [item[-1] for i, item in enumerate(items)
                     if not i or item[0] != items[i-1][0]]
 
@@ -73,12 +73,15 @@ def create_category_compendiums():
     :return: list of output paths.
 
     """
-    categories = ['Items', 'Character', 'Spells', 'Bestiary']
+    categories = ['Items', 'Character', 'Spells', 'Bestiary', 'Unearthed Arcana']
     output_paths = []
     for category in categories:
         filenames = glob('%s/*.xml' % category)
         output_path = COMPENDIUM.format(category=category)
-        output_paths.append(output_path)
+
+        """build UA compendium, but exclude from Full"""
+        if output_path != 'Unearthed Arcana':
+            output_paths.append(output_path)
         XMLCombiner(filenames).combine_pruned(output_path)
     return output_paths
 
