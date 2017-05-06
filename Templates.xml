@@ -59,6 +59,13 @@
 			<modifier></modifier>
 			<text></text>
 		</feature>
+		<feature>
+		  <!-- A nested feature-in-a-feature gets loaded as a 'feat' -->
+		  <feature>
+			<name></name>
+			<text></text>
+		  </feature>
+		</feature>
 	</autolevel>
 	<autolevel level="2">
 	</autolevel>
