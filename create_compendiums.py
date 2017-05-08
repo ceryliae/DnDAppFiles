@@ -113,6 +113,13 @@ class XMLCombiner(object):
                 wide_class.extend(list(element))
                 items['class'][name] = wide_class
 
+    def informed_parse(self, filename):
+        try:
+            return et.parse(filename)
+        except:
+            print filename
+            raise
+
     def combine_pruned(self, output):
         """Combine the xml files and sort the items alphabetically
 
