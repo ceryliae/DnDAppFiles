@@ -120,12 +120,12 @@ class XMLCombiner(object):
             print filename
             raise
 
-    def combine_pruned(self, output):
+    def combine_pruned(self, output_path):
         """Combine the xml files and sort the items alphabetically
 
         Items with the same name are removed.
 
-        :param output: filepath in with the result will be stored.
+        :param output_path: filepath in with the result will be stored.
 
         """
         items = []
@@ -139,16 +139,16 @@ class XMLCombiner(object):
         elements = [item[-1] for i, item in enumerate(items)
                     if not i or item[0] != items[i-1][0]]
 
-        print 'Removed %d duplicate(s)' % (len(items) - len(elements))
+        print 'Removed {0} duplicate(s) from {1}'.format((len(items) - len(elements)), output_path)
 
         self.roots[0][:] = elements
-        return self.files[0].write(output, encoding='UTF-8')
+        return self.files[0].write(output_path, encoding='UTF-8')
 
 
     def combine_concatenate(self, output_path):
         """Combine the xml files by concating the items
 
-        :param output: filepath in with the result will be stored.
+        :param output_path: filepath in with the result will be stored.
 
         """
         for r in self.roots[1:]:
@@ -170,7 +170,7 @@ def create_category_compendiums():
         output_path = COMPENDIUM.format(category=category)
 
         """build UA compendium, but exclude from Full"""
-        if output_path != 'Unearthed Arcana':
+        if category != 'Unearthed Arcana':
             output_paths.append(output_path)
         XMLCombiner(filenames).combine_pruned(output_path)
     return output_paths
