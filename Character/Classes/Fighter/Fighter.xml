@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-  <class>
+  <baseclass>
 	<name>Fighter</name>
 	<hd>10</hd>
 	<proficiency>Strength, Constitution</proficiency>
@@ -204,7 +204,7 @@
 
 	<!--Unearthed Arcana-->
 	<!-- Fighting Styles are currently 'feature's rather than 'spells' and FightClub5 won't merge 'class' entries -->
-	<autolevel level="1">
+	<autolevel level="1" UA="UA">
 	  <feature optional="YES">
 		<name>Fighting Style: Close Quarters Shooter (UA)</name>
 		<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
@@ -227,6 +227,6 @@
 	  </feature>
 	</autolevel>
 
-  </class>
+  </baseclass>
 
 </compendium>
