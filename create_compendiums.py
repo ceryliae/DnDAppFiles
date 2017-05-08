@@ -20,8 +20,15 @@ class XMLCombiner(object):
 
     def __init__(self, filenames):
         assert len(filenames) > 0, 'No filenames!'
-        self.files = [et.parse(f) for f in filenames]
+        self.files = [self.informed_parse(f) for f in filenames]
         self.roots = [f.getroot() for f in self.files]
+
+    def informed_parse(self, filename):
+        try:
+            return et.parse(filename)
+        except:
+            print filename
+            raise
 
     def combine_pruned(self, output):
         """Combine the xml files and sort the items alphabetically
