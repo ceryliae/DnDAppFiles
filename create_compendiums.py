@@ -6,6 +6,10 @@ Run this file from the root directory (the place where this file resides)
 
 This will update the XML files in the Compendiums directory.
 
+You can review optional parameters (such separating subclasses into separate 'class' entries) by invoking help
+
+    $ python create_compendiums.py -h
+
 """
 from xml.etree import ElementTree as et
 from glob import glob
