@@ -1107,7 +1107,7 @@
 		<int>9</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -19915,7 +19915,7 @@
 		</trait>
 		<action>
 			<name>Touch</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a target takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.</text>
 			<attack>Touch|4|2d6</attack>
 		</action>
 	</monster>
@@ -26242,7 +26242,8 @@
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
-			<attack>Spear|7|2d6+4+1d6</attack>
+			<attack>Spear 1H|7|2d6+4+1d6</attack>
+			<attack>Spear 2H|7|2d8+4+1d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -31963,7 +31964,7 @@
 		<int>5</int>
 		<wis>10</wis>
 		<cha>8</cha>
-		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>acid, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -32047,7 +32048,7 @@
 		<int>11</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>fire; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>fire, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
