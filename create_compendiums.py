@@ -213,8 +213,8 @@ if __name__ == '__main__':
                         choices=['deep', 'wide', 'both'], default='deep',
                         help='Determines whether subtypes (subclasses and subraces) are combined into a single entry (deep), seperate entries (wide), or both')
     parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='+',
-                        choices=['UA', 'M', 'HB', 'PS'], default=['M', 'HB'],
-                        help='exclude certain content: UnearthedArcana, Modern (and Futuristic content), HomeBrew (and 3rd Party), PseudoSpells (Class Features logged as Spells, eg Maneuvers) Default=[M, HB]')
+                        choices=['UA', 'M', 'HB', 'PS', 'IL'], default=['M', 'HB'],
+                        help='exclude certain content: UnearthedArcana, Modern (and Futuristic content), HomeBrew (and 3rd Party), PseudoSpells (Class Features logged as Spells, eg Maneuvers), InlinedLists (additional Eldritch Invocations). Default=[M, HB]')
     args = parser.parse_args()
 
     create_full_compendium()
