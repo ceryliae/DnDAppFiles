@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Barbarian">
+		<name>Barbarian (Storm Herald)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Storm Herald (UA)</name>
+                <text>Typical barbarians harbor a fury that dwells within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn instead to transform their rage into a mantle of primal magic that swirls around them. When in a fury, a barbarian of this path taps into nature to create powerful, magical effects.</text>
+                <text>	Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect the natural realm. Other storm heralds hone their craft in elite lodges founded in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Barbarian Primal Paths, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Storm of Fury </name>
+                <text>When you select this path at 3rd level, choose one of the following options: desert, sea, or tundra. The environment you choose shapes the nature of the storm you conjure when you rage.</text>
+                <text>	While raging, you emanate an aura in a 10-foot radius. The effects of this aura depend on your chosen environment.</text>
+                <text />
+                <text>Desert: Any enemy that ends its turn in your aura takes fire damage equal to 2 + your barbarian level divided by 4.</text>
+                <text />
+                <text>Sea: At the end of each of your turns, you can choose a creature in your aura, other than yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. This damage increases to 3d6 at 10th level and to 4d6 at 15th level.</text>
+                <text />
+                <text>Tundra: Any enemy that ends its turn in your aura takes cold damage equal to 2 + your barbarian level divided by 4.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Storm Soul</name>
+                <text>At 6th level, your link to the power of the storm grants you additional abilities based on the environment you chose at 3rd level.</text>
+                <text />
+                <text>Desert: You gain resistance to fire damage and don't suffer the effects of extreme heat.</text>
+                <text />
+                <text>Sea: You gain resistance to lightning damage and can breathe underwater.</text>
+                <text />
+                <text>Tundra. You gain resistance to cold damage and don't suffer the effects of extreme cold.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Shield of the Storm</name>
+                <text>At 10th level, you learn to use your mastery of the storm to protect your allies. While you are raging, allies within your aura gain the benefits of your Storm Soul feature.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Storm Herald Raging Storm</name>
+                <text>At 14th level, the power of the storm you channel grows mightier.</text>
+                <text />
+                <text>Desert: The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura must make a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed drops to 0 until the start of its next turn.</text>
+                <text />
+                <text>Sea: Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+                <text />
+                <text>Tundra: The air around you coldly slows your foes. The area within your aura is difficult terrain for your enemies.</text>
+                <text />
+            </feature>
+		</autolevel>
+
+	</subclass>
+</compendium>
