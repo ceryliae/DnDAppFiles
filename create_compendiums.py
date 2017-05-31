@@ -87,14 +87,14 @@ class XMLCombiner(object):
     def setup_class(self, items):
         # make class elements for baseclasses
         for name, element in items['baseclass'].items():
-            if args.subtype_format != 'wide': # deep or both
+            if args.basetype_format == 'complete': # else 'none' to not include a full class
                 if name in items['class']: print 'Duplicate' # should be redundant
                 deep_class = et.fromstring('<class name="{0}"></class>'.format(name))
                 deep_class.extend(list(element))
                 items['class'][name] = deep_class
-            if args.subtype_format != 'deep': # wide or both
-                base_name = '{0}-Base'.format(name)
-                wide_class = et.fromstring('<class name="{0}"></class>'.format(base_name))
+            if args.subtype_format == 'reference': # else usable or none. 'usable' doesn't need !Base and 'none' doesn't want it
+                base_name = '{0} !Base'.format(name)
+                wide_class = et.fromstring('\<class name="{0}">\n\t\t</class>'.format(base_name))
                 wide_class.extend(list(element))
                 wide_class.append(et.fromstring('<name>{0}</name>'.format(base_name))) # a bit hacky but shadow other 'name's with base_name
                 items['class'][base_name] = wide_class
@@ -106,23 +106,18 @@ class XMLCombiner(object):
             if base_name not in items['baseclass']: print 'Missing baseclass {0} for {1}'.format(base_name, name)
 
             # build combined classes. wide, deep, or both
-            if args.subtype_format != 'wide': # deep or both
+            if args.basetype_format == 'complete': # else 'none' to not include a full class
                 deep_class = items['class'][base_name]
                 deep_class.extend(list(element))
                 deep_class.append(et.fromstring('<name>{0}</name>'.format(base_name))) # a bit hacky but shadow other 'name's with base_name
                 items['class'][base_name] = deep_class
-            if args.subtype_format != 'deep': # wide or both
-                wide_class = et.fromstring('<class name="{0}"></class>'.format(name))
-                wide_class.extend(list(items['baseclass'][base_name]))
+
+            if args.subtype_format != 'none': # useable or reference both want entries
+                wide_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
+                if args.subtype_format == 'usable': # skip baseclass info for 'reference'
+                    wide_class.extend(list(items['baseclass'][base_name]))
                 wide_class.extend(list(element))
                 items['class'][name] = wide_class
-
-    def informed_parse(self, filename):
-        try:
-            return et.parse(filename)
-        except:
-            print filename
-            raise
 
     def combine_pruned(self, output_path):
         """Combine the xml files and sort the items alphabetically
@@ -170,6 +165,7 @@ def create_category_compendiums():
     categories = ['Items', 'Character', 'Spells', 'Bestiary', 'Unearthed Arcana']
     output_paths = []
     for category in categories:
+        if (args.includes != ['*'] and (category not in args.includes)): continue
         filenames = glob('%s/*.xml' % category)
         output_path = COMPENDIUM.format(category=category)
 
@@ -187,8 +183,9 @@ def create_class_compendiums():
     # Group source xml files into base class
     for file in glob('Character/Classes/*/*.xml'):
         class_name, subclass_name = re.search(r"/([^/]+)/([^/]+)\.xml$", file).groups()
-        if class_name not in classes: classes[class_name] = []
-        classes[class_name].append(file)
+        if args.includes == ['*'] or (class_name in args.includes):
+            if class_name not in classes: classes[class_name] = []
+            classes[class_name].append(file)
 
     # combine subclasses with baseclass to make <class> entries
     for name, filenames in classes.items():
@@ -200,21 +197,30 @@ def create_class_compendiums():
 def create_full_compendium():
     """Create the category compendiums and combine them into full compendium"""
 
-    new_paths = create_class_compendiums()
+    class_paths = create_class_compendiums()
 
     category_paths = create_category_compendiums()
 
+    if args.includes != ['*']: return
     full_path = COMPENDIUM.format(category='Full')
-    XMLCombiner(category_paths + new_paths).combine_concatenate(full_path)
+    XMLCombiner(category_paths + class_paths).combine_concatenate(full_path)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Compile Compendiums (including subclasses) into single file(s)')
+    parser.add_argument('-b', '--basetype-format', dest='basetype_format', action='store',
+                        choices=['complete', 'none'], default='complete',
+                        help='Whether to include a class including every subclass. complete: include everything. none: do not include a full Class (see --subtype-format=usable)')
     parser.add_argument('-s', '--subtype-format', dest='subtype_format', action='store',
-                        choices=['deep', 'wide', 'both'], default='deep',
-                        help='Determines whether subtypes (subclasses and subraces) are combined into a single entry (deep), seperate entries (wide), or both')
+                        choices=['usable', 'reference', 'none'], default='none',
+                        help='How to handle subclasses. usable: combine Base and Subs into unique Classes (good for running a character). reference: generate unique Classes for Base and Subs, but do not combine (each Class will be incomplete, but consise). none: do not generate unique Classes for Base and Subs.')
+
+    parser.add_argument('-i', '--includes', dest='includes', action='store', nargs='+',
+                        default=['*'],
+                        help='limit script to certain Compendiums, eg Fighter. primarily useful for testing.')
     parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='+',
                         choices=['UA', 'M', 'HB', 'PS', 'IL'], default=['M', 'HB'],
                         help='exclude certain content: UnearthedArcana, Modern (and Futuristic content), HomeBrew (and 3rd Party), PseudoSpells (Class Features logged as Spells, eg Maneuvers), InlinedLists (additional Eldritch Invocations). Default=[M, HB]')
     args = parser.parse_args()
 
+    print "Arguments: {0}".format(vars(args))
     create_full_compendium()
