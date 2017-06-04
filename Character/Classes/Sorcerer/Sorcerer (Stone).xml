@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-  <subclass baseclass="Sorcerer" UA="Sorcerer">
+<compendium version="5" UA="Sorcerer">
+	<subclass baseclass="Sorcerer">
 		<name>Sorcerer (Stone)</name>
 
 		<autolevel level="1">
@@ -66,5 +66,17 @@
 			</feature>
 		</autolevel>
 
-  </subclass>
+	</subclass>
+	<spellList class="Sorcerer (Stone)">
+		<index name="Compelled Duel" />
+		<index name="Searing Smite" />
+		<index name="Thunderous Smite" />
+		<index name="Wrathful Smite" />
+		<index name="Branding Smite" />
+		<index name="Magic Weapon" />
+		<index name="Blinding Smite" />
+		<index name="Elemental Weapon" />
+		<index name="Staggering Smite" />
+	</spellList>
+
 </compendium>

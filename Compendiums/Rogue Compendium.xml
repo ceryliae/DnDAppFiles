@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <compendium version="5">
-	<class name="Rogue (Arcane Trickster)"><name>Rogue</name>
+	<class name="Rogue"><name>Rogue</name>
 		<hd>8</hd>
 		<proficiency>Dexterity, Intelligence</proficiency>
 
@@ -171,9 +171,7 @@
 			</feature>
 		</autolevel>
 
-	<name>Rogue (Arcane Trickster)</name>
-
-		<spellAbility>Intelligence</spellAbility>
+	<spellAbility>Intelligence</spellAbility>
 		<autolevel level="3"> <slots optional="YES">3,2,0,0,0</slots></autolevel>
 		<autolevel level="4"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
 		<autolevel level="5"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
@@ -196,11 +194,11 @@
 		<autolevel level="3">
 
 			<feature optional="YES">
-			<feature optional="YES">
 				<name>Roguish Archetype: Arcane Trickster</name>
 				<text>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.</text>
 			</feature>
 
+			<feature optional="YES">
 				<name>Arcane Trickster: Mage Hand Legerdemain</name>
 				<text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:</text>
 				<text />
@@ -258,182 +256,8 @@
 			</feature>
 		</autolevel>
 
-	</class><class name="Rogue (Swashbuckler)"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
+	<autolevel level="3">
 
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue (Swashbuckler)</name>
-
-		<autolevel level="3">
-
-			<feature optional="YES">
 			<feature optional="YES">
 				<name>Roguish Archetype: Swashbuckler</name>
 				<text>You focus your training on the art of the blade, relying on speed, elegance, and charisma in equal parts. While other warriors are brutes clad in heavy armor, your method of fighting looks more like performance. Rakes, duelists, and pirates typically follow this archetype.</text>
@@ -441,6 +265,7 @@
 				<text>A swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent. Swashbucklers are especially talented at making difficult maneuvers to escape enemies or attack from an unexpected direction.</text>
 			</feature>
 
+			<feature optional="YES">
 				<name>Swashbuckler: Fancy Footwork</name>
 				<text>When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
 			</feature>
@@ -474,180 +299,7 @@
 			</feature>
 		</autolevel>
 
-	</class><class name="Rogue (Scout)"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
-
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue (Scout)</name>
-
-		<autolevel level="3">
+	<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Scout (UA)</name>
 				<text>You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians  and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wild.</text>
@@ -691,353 +343,8 @@
 			</feature>
 		</autolevel>
 
-	</class><class name="Rogue-Base"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
+	<autolevel level="3">
 
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue-Base</name></class><class name="Rogue (Mastermind)"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
-
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue (Mastermind)</name>
-
-		<autolevel level="3">
-
-			<feature optional="YES">
 			<feature optional="YES">
 				<name>Roguish Archetype: Mastermind</name>
 				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
@@ -1045,6 +352,7 @@
 				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
 			</feature>
 
+			<feature optional="YES">
 				<name>Mastermind: Master of Intrigue</name>
 				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
 				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
@@ -1084,180 +392,7 @@
 			</feature>
 		</autolevel>
 
-	</class><class name="Rogue (Thief)"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
-
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue (Thief)</name>
-
-		<autolevel level="3">
+	<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Thief</name>
 				<text>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.</text>
@@ -1297,451 +432,7 @@
 			</feature>
 		</autolevel>
 
-	</class><class name="Rogue"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
-
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue (Arcane Trickster)</name>
-
-		<spellAbility>Intelligence</spellAbility>
-		<autolevel level="3"> <slots optional="YES">3,2,0,0,0</slots></autolevel>
-		<autolevel level="4"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
-		<autolevel level="5"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
-		<autolevel level="6"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
-		<autolevel level="7"> <slots optional="YES">3,4,2,0,0</slots></autolevel>
-		<autolevel level="8"> <slots optional="YES">3,4,2,0,0</slots></autolevel>
-		<autolevel level="9"> <slots optional="YES">3,4,2,0,0</slots></autolevel>
-		<autolevel level="10"><slots optional="YES">4,4,3,0,0</slots></autolevel>
-		<autolevel level="11"><slots optional="YES">4,4,3,0,0</slots></autolevel>
-		<autolevel level="12"><slots optional="YES">4,4,3,0,0</slots></autolevel>
-		<autolevel level="13"><slots optional="YES">4,4,3,2,0</slots></autolevel>
-		<autolevel level="14"><slots optional="YES">4,4,3,2,0</slots></autolevel>
-		<autolevel level="15"><slots optional="YES">4,4,3,2,0</slots></autolevel>
-		<autolevel level="16"><slots optional="YES">4,4,3,3,0</slots></autolevel>
-		<autolevel level="17"><slots optional="YES">4,4,3,3,0</slots></autolevel>
-		<autolevel level="18"><slots optional="YES">4,4,3,3,0</slots></autolevel>
-		<autolevel level="19"><slots optional="YES">4,4,3,3,1</slots></autolevel>
-		<autolevel level="20"><slots optional="YES">4,4,3,3,1</slots></autolevel>
-
-		<autolevel level="3">
-
-			<feature optional="YES">
-			<feature optional="YES">
-				<name>Roguish Archetype: Arcane Trickster</name>
-				<text>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.</text>
-			</feature>
-
-				<name>Arcane Trickster: Mage Hand Legerdemain</name>
-				<text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:</text>
-				<text />
-				<text>• You can stow one object the hand is holding in a container worn or carried by another creature.</text>
-				<text>• You can retrieve an object in a container worn or carried by another creature.</text>
-				<text>• You can use thieves' tools to pick lock and disarm traps at range.</text>
-				<text />
-				<text>You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.</text>
-				<text>    In addition, you can use the bonus action granted by your Cunning Action to control the hand.</text>
-			</feature>
-			<feature>
-				<name>Arcane Trickster: Spellcasting</name>
-				<text>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</text>
-				<text />
-				<text>Cantrips</text>
-				<text>At 1st level, You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.</text>
-				<text />
-				<text>Spell Slots</text>
-				<text>The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
-				<text>    For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.</text>
-				<text />
-				<text>Spells Known of 1st-Level and Higher</text>
-				<text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.</text>
-				<text>    The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</text>
-				<text>    The spells you learn at 8th, 14th, and 20th level can come from any school of magic.</text>
-				<text>    Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.</text>
-				<text />
-				<text>Spellcasting Ability</text>
-				<text>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</text>
-				<text>    Spell save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
-				<text>    Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			<feature optional="YES">
-				<name>Arcane Trickster: Magical Ambush</name>
-				<text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			<feature optional="YES">
-				<name>Arcane Trickster: Versatile Trickster</name>
-				<text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			<feature optional="YES">
-				<name>Arcane Trickster: Spell Thief</name>
-				<text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</text>
-				<text>    Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue</name><name>Rogue (Swashbuckler)</name>
-
-		<autolevel level="3">
-
-			<feature optional="YES">
-			<feature optional="YES">
-				<name>Roguish Archetype: Swashbuckler</name>
-				<text>You focus your training on the art of the blade, relying on speed, elegance, and charisma in equal parts. While other warriors are brutes clad in heavy armor, your method of fighting looks more like performance. Rakes, duelists, and pirates typically follow this archetype.</text>
-				<text />
-				<text>A swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent. Swashbucklers are especially talented at making difficult maneuvers to escape enemies or attack from an unexpected direction.</text>
-			</feature>
-
-				<name>Swashbuckler: Fancy Footwork</name>
-				<text>When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Swashbuckler: Rakish Audacity</name>
-				<text>Starting at 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls. </text>
-				<text>    In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			<feature optional="YES">
-				<name>Swashbuckler: Panache</name>
-				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
-				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
-				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			<feature optional="YES">
-				<name>Swashbuckler: Elegant Maneuver</name>
-				<text>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			<feature optional="YES">
-				<name>Swashbuckler: Master Duelist</name>
-				<text>Beginning at 17th level, your mastery of the blade lets you turn failure to success in combat. If you miss with an attack roll, you can choose to roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue</name><name>Rogue (Scout)</name>
-
-		<autolevel level="3">
-			<feature optional="YES">
-				<name>Roguish Archetype: Scout (UA)</name>
-				<text>You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians  and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wild.</text>
-				<text>	</text>
-				<text>This Roguish Archetype is from Unearthed Arcana: Ranger and Rogue, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
-			</feature>
-
-			<feature optional="YES">
-				<name>Scout: Survivalist</name>
-				<text>When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</text>
-				<proficiency>Nature, Survival</proficiency>
-				<modifier category="skills">Nature +PROF</modifier>
-				<modifier category="skills">Survival +PROF</modifier>
-			</feature>
-			<feature optional="YES">
-				<name>Scout: Skirmisher</name>
-				<text>Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			<feature optional="YES">
-				<name>Scout: Superior Mobility</name>
-				<text>At 9th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.</text>
-				<modifier category="bonus">speed +10</modifier>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			<feature optional="YES">
-				<name>Scout: Ambush Master</name>
-				<text>Starting at 13th level, you excel at leading ambushes. If any of your foes are surprised, you can use a bonus action on your turn in the first round of the combat to grant each ally who can see you a +5 bonus to initiative that lasts until the combat ends. If the initiative bonus would increase an ally’s initiative above yours, the ally’s initiative instead equals your initiative.</text>
-				<text>  Each of the allies also receives a 10 -foot increase to speed that lasts until the end of the ally’s next turn.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			<feature optional="YES">
-				<name>Scout: Sudden Strike</name>
-				<text>Starting at 17th level, you can strike with deadly speed. If you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but only if the attack is the only one you make against the target this turn.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue</name><name>Rogue (Mastermind)</name>
-
-		<autolevel level="3">
-
-			<feature optional="YES">
-			<feature optional="YES">
-				<name>Roguish Archetype: Mastermind</name>
-				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
-				<text />
-				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
-			</feature>
-
-				<name>Mastermind: Master of Intrigue</name>
-				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
-				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Mastermind: Master of Tactics</name>
-				<text>Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			<feature optional="YES">
-				<name>Mastermind: Insightful Manipulator</name>
-				<text>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: </text>
-				<text />
-				<text>- Intelligence score </text>
-				<text>- Wisdom score </text>
-				<text>- Charisma score </text>
-				<text>- Class levels (if any) </text>
-				<text />
-				<text>    At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			<feature optional="YES">
-				<name>Mastermind: Misdirection</name>
-				<text>Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			<feature optional="YES">
-				<name>Mastermind: Soul of Deceit</name>
-				<text>Starting at 17th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
-				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue</name><name>Rogue (Thief)</name>
-
-		<autolevel level="3">
-			<feature optional="YES">
-				<name>Roguish Archetype: Thief</name>
-				<text>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.</text>
-				<text />
-				<text>Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
-			</feature>
-
-			<feature optional="YES">
-				<name>Thief: Fast Hands</name>
-				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Thief: Second-Story Work</name>
-				<text>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.</text>
-				<text>    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="9">
-			<feature optional="YES">
-				<name>Thief: Supreme Sneak</name>
-				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="13">
-			<feature optional="YES">
-				<name>Thief: Use Magic Device</name>
-				<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="17">
-			<feature optional="YES">
-				<name>Thief: Thief's Reflexes</name>
-				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue</name><name>Rogue (Inquisitive)</name>
-
-		<autolevel level="3">
+	<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Inquisitive (UA)</name>
 				<text>As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for details, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your sharp eye make you well equipped to expose and end hidden evils.</text>
@@ -1785,9 +476,7 @@
 			</feature>
 		</autolevel>
 
-	<name>Rogue</name><name>Rogue (Assassin)</name>
-
-		<autolevel level="3">
+	<autolevel level="3">
 			<feature optional="YES">
 				<name>Roguish Archetype: Assassin</name>
 				<text>You focus your training on the grim art of the death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.</text>
@@ -1828,8 +517,9 @@
 			</feature>
 		</autolevel>
 
-	<name>Rogue</name></class><class name="Rogue (Inquisitive)"><name>Rogue</name>
-		<hd>8</hd>
+	</class><class name="Rogue !Base">
+		<name>Rogue !Base</name>
+<hd>8</hd>
 		<proficiency>Dexterity, Intelligence</proficiency>
 
 		<autolevel level="1">
@@ -1999,6 +689,139 @@
 			</feature>
 		</autolevel>
 
+	</class><class name="Rogue (Arcane Trickster)">
+	<name>Rogue (Arcane Trickster)</name>
+
+		<spellAbility>Intelligence</spellAbility>
+		<autolevel level="3"> <slots optional="YES">3,2,0,0,0</slots></autolevel>
+		<autolevel level="4"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
+		<autolevel level="5"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
+		<autolevel level="6"> <slots optional="YES">3,3,0,0,0</slots></autolevel>
+		<autolevel level="7"> <slots optional="YES">3,4,2,0,0</slots></autolevel>
+		<autolevel level="8"> <slots optional="YES">3,4,2,0,0</slots></autolevel>
+		<autolevel level="9"> <slots optional="YES">3,4,2,0,0</slots></autolevel>
+		<autolevel level="10"><slots optional="YES">4,4,3,0,0</slots></autolevel>
+		<autolevel level="11"><slots optional="YES">4,4,3,0,0</slots></autolevel>
+		<autolevel level="12"><slots optional="YES">4,4,3,0,0</slots></autolevel>
+		<autolevel level="13"><slots optional="YES">4,4,3,2,0</slots></autolevel>
+		<autolevel level="14"><slots optional="YES">4,4,3,2,0</slots></autolevel>
+		<autolevel level="15"><slots optional="YES">4,4,3,2,0</slots></autolevel>
+		<autolevel level="16"><slots optional="YES">4,4,3,3,0</slots></autolevel>
+		<autolevel level="17"><slots optional="YES">4,4,3,3,0</slots></autolevel>
+		<autolevel level="18"><slots optional="YES">4,4,3,3,0</slots></autolevel>
+		<autolevel level="19"><slots optional="YES">4,4,3,3,1</slots></autolevel>
+		<autolevel level="20"><slots optional="YES">4,4,3,3,1</slots></autolevel>
+
+		<autolevel level="3">
+
+			<feature optional="YES">
+				<name>Roguish Archetype: Arcane Trickster</name>
+				<text>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Arcane Trickster: Mage Hand Legerdemain</name>
+				<text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:</text>
+				<text />
+				<text>• You can stow one object the hand is holding in a container worn or carried by another creature.</text>
+				<text>• You can retrieve an object in a container worn or carried by another creature.</text>
+				<text>• You can use thieves' tools to pick lock and disarm traps at range.</text>
+				<text />
+				<text>You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.</text>
+				<text>    In addition, you can use the bonus action granted by your Cunning Action to control the hand.</text>
+			</feature>
+			<feature>
+				<name>Arcane Trickster: Spellcasting</name>
+				<text>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</text>
+				<text />
+				<text>Cantrips</text>
+				<text>At 1st level, You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.</text>
+				<text />
+				<text>Spell Slots</text>
+				<text>The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>    For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.</text>
+				<text />
+				<text>Spells Known of 1st-Level and Higher</text>
+				<text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.</text>
+				<text>    The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</text>
+				<text>    The spells you learn at 8th, 14th, and 20th level can come from any school of magic.</text>
+				<text>    Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.</text>
+				<text />
+				<text>Spellcasting Ability</text>
+				<text>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</text>
+				<text>    Spell save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
+				<text>    Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Arcane Trickster: Magical Ambush</name>
+				<text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="13">
+			<feature optional="YES">
+				<name>Arcane Trickster: Versatile Trickster</name>
+				<text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Arcane Trickster: Spell Thief</name>
+				<text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</text>
+				<text>    Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.</text>
+				<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+
+	</class><class name="Rogue (Assassin)">
+	<name>Rogue (Assassin)</name>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Roguish Archetype: Assassin</name>
+				<text>You focus your training on the grim art of the death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.</text>
+				<text />
+				<text>Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Assassin: Assassinate</name>
+				<text>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Assassin: Bonus Proficiencies</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Assassin: Infiltration Expertise</name>
+				<text>Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.</text>
+				<text>    Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="13">
+			<feature optional="YES">
+				<name>Assassin: Impostor</name>
+				<text>At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.</text>
+				<text>    Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Assassin: Death Strike</name>
+				<text>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</text>
+			</feature>
+		</autolevel>
+
+	</class><class name="Rogue (Inquisitive)">
 	<name>Rogue (Inquisitive)</name>
 
 		<autolevel level="3">
@@ -2045,217 +868,191 @@
 			</feature>
 		</autolevel>
 
-	</class><class name="Rogue (Assassin)"><name>Rogue</name>
-		<hd>8</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
-
-		<autolevel level="1">
-			<feature>
-				<name>Starting Proficiencies</name>
-				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
-				<text>Armor: light armor</text>
-				<text>Weapons: simple weapons, hand crossbows, longswords, rapiers, shortswords</text>
-				<text>Tools: thieves' tools</text>
-				<text>Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</text>
-			</feature>
-			<feature>
-				<name>Starting Equipment</name>
-				<text>You start with the following items, plus anything provided by your background.</text>
-				<text />
-				<text>• (a) a rapier or (b) a shortsword</text>
-				<text>• (a) a shortbow and quiver of 20 arrows or (b) a shortsword</text>
-				<text>• (a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</text>
-				<text>• Leather armor, two daggers, and thieves' tools</text>
-				<text />
-				<text>Alternatively, you may start with 4d4 x 10 gp to buy your own equipment.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="1">
-			<feature>
-				<name>Expertise</name>
-				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</text>
-				<text>    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
-			</feature>
-			<feature>
-				<name>Sneak Attack</name>
-				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</text>
-				<text>    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</text>
-				<text>    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
-			</feature>
-			<feature>
-				<name>Thieves' Cant</name>
-				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</text>
-				<text>    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="2">
-			<feature>
-				<name>Cunning Action</name>
-				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
-			</feature>
-		</autolevel>
+	</class><class name="Rogue (Mastermind)">
+	<name>Rogue (Mastermind)</name>
 
 		<autolevel level="3">
-			<feature>
-				<name>Roguish Archetype</name>
-				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
+
+			<feature optional="YES">
+				<name>Roguish Archetype: Mastermind</name>
+				<text>Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.</text>
+				<text />
+				<text>Source: Sword Coast Adventurer's Guide, p. 135</text>
 			</feature>
 
-			
-		</autolevel>
-
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+			<feature optional="YES">
+				<name>Mastermind: Master of Intrigue</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice. </text>
+				<text>    Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language.</text>
 			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature>
-				<name>Uncanny Dodge</name>
-				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature>
-				<name>Evasion</name>
-				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+			<feature optional="YES">
+				<name>Mastermind: Master of Tactics</name>
+				<text>Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="9">
-			
-		</autolevel>
-
-		<autolevel level="10">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature>
-				<name>Reliable Talent</name>
-				<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+			<feature optional="YES">
+				<name>Mastermind: Insightful Manipulator</name>
+				<text>Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice: </text>
+				<text />
+				<text>- Intelligence score </text>
+				<text>- Wisdom score </text>
+				<text>- Charisma score </text>
+				<text>- Class levels (if any) </text>
+				<text />
+				<text>    At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="13">
-			
-		</autolevel>
-
-		<autolevel level="14">
-			<feature>
-				<name>Blindsense</name>
-				<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature>
-				<name>Slippery Mind</name>
-				<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+			<feature optional="YES">
+				<name>Mastermind: Misdirection</name>
+				<text>Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="17">
-			
-		</autolevel>
-
-		<autolevel level="18">
-			<feature>
-				<name>Elusive</name>
-				<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
+			<feature optional="YES">
+				<name>Mastermind: Soul of Deceit</name>
+				<text>Starting at 17th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.</text>
+				<text>    Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.</text>
 			</feature>
 		</autolevel>
 
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="20">
-			<feature>
-				<name>Stroke of Luck</name>
-				<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.</text>
-				<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-			</feature>
-		</autolevel>
-
-	<name>Rogue (Assassin)</name>
+	</class><class name="Rogue (Scout)">
+	<name>Rogue (Scout)</name>
 
 		<autolevel level="3">
 			<feature optional="YES">
-				<name>Roguish Archetype: Assassin</name>
-				<text>You focus your training on the grim art of the death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.</text>
+				<name>Roguish Archetype: Scout (UA)</name>
+				<text>You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians  and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wild.</text>
+				<text>	</text>
+				<text>This Roguish Archetype is from Unearthed Arcana: Ranger and Rogue, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Scout: Survivalist</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</text>
+				<proficiency>Nature, Survival</proficiency>
+				<modifier category="skills">Nature +PROF</modifier>
+				<modifier category="skills">Survival +PROF</modifier>
+			</feature>
+			<feature optional="YES">
+				<name>Scout: Skirmisher</name>
+				<text>Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Scout: Superior Mobility</name>
+				<text>At 9th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.</text>
+				<modifier category="bonus">speed +10</modifier>
+			</feature>
+		</autolevel>
+
+		<autolevel level="13">
+			<feature optional="YES">
+				<name>Scout: Ambush Master</name>
+				<text>Starting at 13th level, you excel at leading ambushes. If any of your foes are surprised, you can use a bonus action on your turn in the first round of the combat to grant each ally who can see you a +5 bonus to initiative that lasts until the combat ends. If the initiative bonus would increase an ally’s initiative above yours, the ally’s initiative instead equals your initiative.</text>
+				<text>  Each of the allies also receives a 10 -foot increase to speed that lasts until the end of the ally’s next turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Scout: Sudden Strike</name>
+				<text>Starting at 17th level, you can strike with deadly speed. If you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but only if the attack is the only one you make against the target this turn.</text>
+			</feature>
+		</autolevel>
+
+	</class><class name="Rogue (Swashbuckler)">
+	<name>Rogue (Swashbuckler)</name>
+
+		<autolevel level="3">
+
+			<feature optional="YES">
+				<name>Roguish Archetype: Swashbuckler</name>
+				<text>You focus your training on the art of the blade, relying on speed, elegance, and charisma in equal parts. While other warriors are brutes clad in heavy armor, your method of fighting looks more like performance. Rakes, duelists, and pirates typically follow this archetype.</text>
+				<text />
+				<text>A swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent. Swashbucklers are especially talented at making difficult maneuvers to escape enemies or attack from an unexpected direction.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Swashbuckler: Fancy Footwork</name>
+				<text>When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Swashbuckler: Rakish Audacity</name>
+				<text>Starting at 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls. </text>
+				<text>    In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Swashbuckler: Panache</name>
+				<text>At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</text>
+				<text>    If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.</text>
+				<text>    If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="13">
+			<feature optional="YES">
+				<name>Swashbuckler: Elegant Maneuver</name>
+				<text>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Swashbuckler: Master Duelist</name>
+				<text>Beginning at 17th level, your mastery of the blade lets you turn failure to success in combat. If you miss with an attack roll, you can choose to roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+
+	</class><class name="Rogue (Thief)">
+	<name>Rogue (Thief)</name>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Roguish Archetype: Thief</name>
+				<text>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.</text>
 				<text />
 				<text>Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
 			</feature>
 
 			<feature optional="YES">
-				<name>Assassin: Assassinate</name>
-				<text>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</text>
+				<name>Thief: Fast Hands</name>
+				<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Assassin: Bonus Proficiencies</name>
-				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
+				<name>Thief: Second-Story Work</name>
+				<text>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.</text>
+				<text>    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="9">
 			<feature optional="YES">
-				<name>Assassin: Infiltration Expertise</name>
-				<text>Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.</text>
-				<text>    Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</text>
+				<name>Thief: Supreme Sneak</name>
+				<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="13">
 			<feature optional="YES">
-				<name>Assassin: Impostor</name>
-				<text>At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.</text>
-				<text>    Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</text>
+				<name>Thief: Use Magic Device</name>
+				<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="17">
 			<feature optional="YES">
-				<name>Assassin: Death Strike</name>
-				<text>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</text>
+				<name>Thief: Thief's Reflexes</name>
+				<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
 			</feature>
 		</autolevel>
 

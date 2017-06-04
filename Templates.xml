@@ -220,4 +220,21 @@
 	<roll>xdx+CHA</roll> <!--add CHA MOD-->
 	<roll>xdx+PROF</roll> <!--add PROF-->
 </spell>
+
+
+	<!-- Additional formats supported by create_compendiums.py -->
+	<spellList class="<class_name>">
+		<index name="<spell_name>" />
+	</spellList>
+
+	<subclass baseclass="<class_name>">
+		<!-- same content as <class> -->
+	</subclass>
+
+	<any UA="<source_name>" M="M" HB="<attribution>" IL="">
+		 <!-- attributes UA|M|HB|IL used for filtering content from generated compendiums -->
+	</any>
+	<spell PS="">
+		<!-- attribute PS is also simple-filtering but intended for adding entries to Spell lists that are not strictly spells-->
+	</spell>
 </compendium>

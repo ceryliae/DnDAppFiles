@@ -15,6 +15,7 @@ from xml.etree import ElementTree as et
 from glob import glob
 import re
 import argparse
+import copy
 
 COMPENDIUM = 'Compendiums/{category} Compendium.xml'
 
@@ -25,8 +26,10 @@ class XMLCombiner(object):
 
     def __init__(self, filenames):
         assert len(filenames) > 0, 'No filenames!'
-        self.files = [self.informed_parse(f) for f in filenames]
-        self.roots = [f.getroot() for f in self.files]
+        # TODO: clean up instance variables. sources was added to hold a reference to the filename for logging, files/roots are not strictly necessary but more descriptive than anonymous structure sources
+        self.sources = [[file[0], file[1], file[1].getroot()] for file in [[name, self.informed_parse(name)] for name in filenames]]
+        self.files = [source[1] for source in self.sources]
+        self.roots = [source[2] for source in self.sources]
         self.remove_excludes()
 
     def informed_parse(self, filename):
@@ -58,13 +61,17 @@ class XMLCombiner(object):
 
     def combine_templates(self, output_path):
         """ Finds Base/Sub class nodes and combines into a Class Compendium"""
+        print "Compiling to {0}".format(output_path)
 
         items = self.remove_duplicates()
-        self.setup_class(items)
-        self.flatten_classes(items)
+        self.compile_bases(items)
+        self.compile_subs(items)
 
         # flatten out items for adding back into root
         elements = [ element for categories in items.values() for element in categories.values()]
+        # for element in elements:
+        #     print u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class'))
+        elements.sort(key=lambda element: u"{0}/{1}".format(element.tag, element.findtext('name') or element.get('class')))
 
         # drop <subclass> elements etc, FC5 doesn't recognize them and will treat <feature>s in them as <feat>s
         self.roots[0][:] = [element for element in elements
@@ -75,49 +82,72 @@ class XMLCombiner(object):
         """ Loads base elements into dictionaries, primarily so sub-classes can reference base-classes. Also removes and logs duplicates."""
         items = {'race':{},
         'class':{}, 'baseclass': {}, 'subclass':{},
-        'background':{}, 'feat':{}, 'item':{}, 'monster':{}, 'spell':{}}
+        'background':{}, 'feat':{}, 'item':{}, 'monster':{},
+        'spell':{}, 'spellList':{}}
+        attribution = copy.deepcopy(items)
         
-        for r in self.roots:
+        for filename, f, r in self.sources:
             for element in r:
-                name = element.findtext('name')
-                if name in items[element.tag]: print 'Duplicate {0} named {1}'.format(element.tag, name)
-                items[element.tag][name] = element
+                if element.tag == 'spellList':
+                    name = element.get('class')
+                    if name not in items[element.tag]:
+                        items[element.tag][name] = element
+                    else:
+                        items[element.tag][name].extend(list(element))
+
+                else:
+                    name = element.findtext('name')
+                    if name in attribution[element.tag]:
+                        print 'Duplicate {0} named {1} [{2} => {3}]'.format(element.tag, name, attribution[element.tag][name], filename)
+                    attribution[element.tag][name] = filename
+                    items[element.tag][name] = element
+
+        # Try to include classes from <spellList>s into the <spell>s for FC5 compatibility
+        for class_name, spells in items['spellList'].items():
+            for name in [index.get('name') for index in spells]:
+                if name in items['spell']:
+                    class_element = items['spell'][name].find('classes')
+                    class_list = [foo.strip() for foo in class_element.text.split(',')]
+                    if class_name not in class_list:
+                        class_list.append(class_name)
+                        class_element.text = ', '.join(class_list)
+
         return items
 
-    def setup_class(self, items):
-        # make class elements for baseclasses
+    def compile_bases(self, items):
+        # make <class> from <baseclass>
         for name, element in items['baseclass'].items():
             if args.basetype_format == 'complete': # else 'none' to not include a full class
                 if name in items['class']: print 'Duplicate' # should be redundant
-                deep_class = et.fromstring('<class name="{0}"></class>'.format(name))
-                deep_class.extend(list(element))
-                items['class'][name] = deep_class
+                complete_class = et.fromstring('<class name="{0}"></class>'.format(name))
+                complete_class.extend(list(element))
+                items['class'][name] = complete_class
+
             if args.subtype_format == 'reference': # else usable or none. 'usable' doesn't need !Base and 'none' doesn't want it
                 base_name = '{0} !Base'.format(name)
-                wide_class = et.fromstring('\<class name="{0}">\n\t\t</class>'.format(base_name))
-                wide_class.extend(list(element))
-                wide_class.append(et.fromstring('<name>{0}</name>'.format(base_name))) # a bit hacky but shadow other 'name's with base_name
-                items['class'][base_name] = wide_class
+                reference_class = et.fromstring('<class name="{0}">\n\t\t<name>{0}</name>\n</class>'.format(base_name))
+                reference_class.extend(list(element))
+                reference_class.remove(reference_class.find('name[last()]'))
+                items['class'][base_name] = reference_class
 
-    def flatten_classes(self, items):
+    def compile_subs(self, items):
         # combine subclasses with classes
         for name, element in items['subclass'].items():
             base_name = element.get('baseclass')
             if base_name not in items['baseclass']: print 'Missing baseclass {0} for {1}'.format(base_name, name)
 
-            # build combined classes. wide, deep, or both
             if args.basetype_format == 'complete': # else 'none' to not include a full class
-                deep_class = items['class'][base_name]
-                deep_class.extend(list(element))
-                deep_class.append(et.fromstring('<name>{0}</name>'.format(base_name))) # a bit hacky but shadow other 'name's with base_name
-                items['class'][base_name] = deep_class
+                complete_class = items['class'][base_name]
+                complete_class.extend(list(element))
+                complete_class.remove(complete_class.find('name[last()]'))
+                items['class'][base_name] = complete_class
 
             if args.subtype_format != 'none': # useable or reference both want entries
-                wide_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
+                reference_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
                 if args.subtype_format == 'usable': # skip baseclass info for 'reference'
-                    wide_class.extend(list(items['baseclass'][base_name]))
-                wide_class.extend(list(element))
-                items['class'][name] = wide_class
+                    reference_class.extend(list(items['baseclass'][base_name]))
+                reference_class.extend(list(element))
+                items['class'][name] = reference_class
 
     def combine_pruned(self, output_path):
         """Combine the xml files and sort the items alphabetically
@@ -127,6 +157,7 @@ class XMLCombiner(object):
         :param output_path: filepath in with the result will be stored.
 
         """
+        print "Compiling to {0}".format(output_path)
         items = []
         for r in self.roots:
             for element in r:
@@ -141,18 +172,6 @@ class XMLCombiner(object):
         print 'Removed {0} duplicate(s) from {1}'.format((len(items) - len(elements)), output_path)
 
         self.roots[0][:] = elements
-        return self.files[0].write(output_path, encoding='UTF-8')
-
-
-    def combine_concatenate(self, output_path):
-        """Combine the xml files by concating the items
-
-        :param output_path: filepath in with the result will be stored.
-
-        """
-        for r in self.roots[1:]:
-            self.roots[0].extend(r.getchildren())
-
         return self.files[0].write(output_path, encoding='UTF-8')
 
 
@@ -172,7 +191,7 @@ def create_category_compendiums():
         """build UA compendium, but exclude from Full"""
         if category != 'Unearthed Arcana':
             output_paths.append(output_path)
-        XMLCombiner(filenames).combine_pruned(output_path)
+        XMLCombiner(filenames).combine_templates(output_path)
     return output_paths
 
 
@@ -201,9 +220,12 @@ def create_full_compendium():
 
     category_paths = create_category_compendiums()
 
-    if args.includes != ['*']: return
-    full_path = COMPENDIUM.format(category='Full')
-    XMLCombiner(category_paths + class_paths).combine_concatenate(full_path)
+    if args.name == 'Full' and args.includes != ['*']:
+        category = 'Limited'
+    else:
+        category = args.name
+    full_path = COMPENDIUM.format(category=category)
+    XMLCombiner(category_paths + class_paths).combine_templates(full_path)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Compile Compendiums (including subclasses) into single file(s)')
@@ -220,6 +242,11 @@ if __name__ == '__main__':
     parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='+',
                         choices=['UA', 'M', 'HB', 'PS', 'IL'], default=['M', 'HB'],
                         help='exclude certain content: UnearthedArcana, Modern (and Futuristic content), HomeBrew (and 3rd Party), PseudoSpells (Class Features logged as Spells, eg Maneuvers), InlinedLists (additional Eldritch Invocations). Default=[M, HB]')
+
+
+    parser.add_argument('-n', '--name', dest='name', action='store',
+                        default='Full',
+                        help='name for the final combined Compendium, defaults to Full or Limited if usign --includes')
     args = parser.parse_args()
 
     print "Arguments: {0}".format(vars(args))
