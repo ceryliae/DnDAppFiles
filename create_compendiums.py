@@ -228,25 +228,56 @@ def create_full_compendium():
     XMLCombiner(category_paths + class_paths).combine_templates(full_path)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Compile Compendiums (including subclasses) into single file(s)')
+    parser = argparse.ArgumentParser(
+        description='Compile Compendiums (including subclasses) into single file(s)',
+        formatter_class=argparse.RawTextHelpFormatter
+        )
+
     parser.add_argument('-b', '--basetype-format', dest='basetype_format', action='store',
                         choices=['complete', 'none'], default='complete',
-                        help='Whether to include a class including every subclass. complete: include everything. none: do not include a full Class (see --subtype-format=usable)')
+                        help='''\
+(default=%(default)s)
+Whether to include a class including every subclass.
+complete: include everything.
+none: do not include a full Class
+(see --subtype-format=usable)
+                            ''')
     parser.add_argument('-s', '--subtype-format', dest='subtype_format', action='store',
                         choices=['usable', 'reference', 'none'], default='none',
-                        help='How to handle subclasses. usable: combine Base and Subs into unique Classes (good for running a character). reference: generate unique Classes for Base and Subs, but do not combine (each Class will be incomplete, but consise). none: do not generate unique Classes for Base and Subs.')
+                        help='''\
+(default=%(default)s)
+How to handle subclasses.
+usable: combine Base and Subs into unique Classes (good for running a character).
+reference: generate unique Classes for Base and Subs, but do not combine (each Class will be incomplete, but concise).
+none: do not generate unique Classes for Base and Subs.
+                            ''')
+
+    parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='+',
+                        choices=['UA', 'MF', 'HB', 'PS', 'IL'], default=['MF', 'HB'],
+                        help='''\
+(default=%(default)s)
+exclude certain content:
+UA UnearthedArcana
+MF renaissance Modern and Futuristic content
+HB HomeBrew (and 3rd Party)
+PS PseudoSpells (Class Features logged as Spells, eg Maneuvers)
+IL InlinedLists (eg repeated Eldritch Invocations)
+                            ''')
 
     parser.add_argument('-i', '--includes', dest='includes', action='store', nargs='+',
                         default=['*'],
-                        help='limit script to certain Compendiums, eg Fighter. primarily useful for testing.')
-    parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='+',
-                        choices=['UA', 'M', 'HB', 'PS', 'IL'], default=['M', 'HB'],
-                        help='exclude certain content: UnearthedArcana, Modern (and Futuristic content), HomeBrew (and 3rd Party), PseudoSpells (Class Features logged as Spells, eg Maneuvers), InlinedLists (additional Eldritch Invocations). Default=[M, HB]')
-
+                        help='''\
+(default=%(default)s)
+limit script to certain Compendiums, eg Fighter. primarily useful for testing.
+                            ''')
 
     parser.add_argument('-n', '--name', dest='name', action='store',
                         default='Full',
-                        help='name for the final combined Compendium, defaults to Full or Limited if usign --includes')
+                        help='''\
+(default=%(default)s)
+name for the final combined Compendium, defaults to Full or Limited if using --includes
+                            ''')
+
     args = parser.parse_args()
 
     print "Arguments: {0}".format(vars(args))
