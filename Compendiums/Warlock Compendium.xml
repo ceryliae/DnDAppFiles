@@ -428,305 +428,232 @@
         <autolevel level="18">
 			
 		</autolevel>
-        <autolevel UA="Warlock &amp; Wizard" level="2">
-            <feature optional="YES">
+        <autolevel level="2" optional="YES">
+            <feature UA="Revised Class Options" optional="YES">
                 <name>Eldritch Invocation: Aspect of the Moon (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
+                <text>Prerequisite: Pact of the Tome feature</text>
                 <text />
-                <text>You have gained the Maiden of the Moon’s favor. You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch.</text>
+                <text>You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard</text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Burning Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause a target cursed by your Hexblade’s Curse to take fire damage equal to your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
-                <text>Prerequisite: The Great Old One patron</text>
-                <text />
-                <text>The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chilling Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause frost to swirl around a target cursed by your Hexblade’s Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chronicle of the Raven Queen (UA)</name>
-                <text>Prerequisite: The Raven Queen patron, Pact of the Tome feature</text>
-                <text />
-                <text>You can place a corpse’s hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature’s spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature’s death, and a given creature can only be asked one question in this manner.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Claw of Acamar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Cloak of Baalzebul (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Curse Bringer (UA)</name>
-                <text>Prerequisite: The Hexblade patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade’s Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn’t extend the curse’s duration.</text>
-                <text>    When you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
+			<feature UA="Revised Class Options" optional="YES">
+				<name>Eldritch Invocation: Cloak of Flies (UA)</name>
+				<text>Prerequisite: 5th level</text>
+				<text />
+				<text>As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you’re incapacitated or you dismiss it with a bonus action.</text>
+				<text>	The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).</text>
+				<text>	Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was called Cloak of Baalzebul</text>
+			</feature>
+			<feature UA="Revised Class Options" optional="YES">
+				<name>Eldritch Invocation: Eldritch Smite</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text />
+				<text>Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot.</text>
+				<text>If the target takes any of this damage, you can knock the target prone if it is Huge or smaller.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Claw of Acamar, Curse Bringer, Mace of Dispater, Moon Bow </text>
+			</feature>
+            <feature UA="Revised Class Options">
                 <name>Eldritch Invocation: Frost Lance (UA)</name>
-                <text>Prerequisite: The Archfey patron, eldritch blast cantrip</text>
+                <text>Prerequisite: eldritch blast cantrip</text>
                 <text />
-                <text>You draw on the gifts of the Prince of Frost to trap your enemies in ice. When you hit a creature with your eldritch blast cantrip one or more times on your turn, you can reduce that creature’s speed by 10 feet until the end of your next turn.</text>
+                <text>Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature’s speed by 10 feet until the end of your next turn.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
             </feature>
-            <feature optional="YES">
+            <feature UA="Revised Class Options">
                 <name>Eldritch Invocation: Grasp of Hadar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, eldritch blast cantrip</text>
+                <text>Prerequisite: eldritch blast cantrip</text>
                 <text />
-                <text>Once during your turn when you hit a creature with your eldritch blast cantrip, you can move
-                    that creature in a straight line 10 feet closer to yourself.</text>
+                <text>Once on each of your turns when you hit a creature with your eldritch blast cantrip, you can move that creature in a straight line 10 feet closer to yourself.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Green Lord’s Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Gift of the Ever-Living Ones (UA)</name>
+                <text>Prerequisite: Pact of the Chain</text>
                 <text />
-                <text>The Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.</text>
+                <text>Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Green Lord’s Gift </text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Mace of Dispater (UA)</name>
-                <text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Improved Pact Weapon (UA)</name>
+                <text>Prerequisite: Pact of the Blade feature</text>
                 <text />
-                <text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Moon Bow (UA)</name>
-                <text>Prerequisite: The Archfey patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Path of the Seeker (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>The Seeker bids you to travel in search of knowledge, and little can prevent you from waling this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Raven Queen’s Blessing (UA)</name>
-                <text>Prerequisite: Raven Queen patron, eldritch blast cantrip</text>
-                <text />
-                <text>When you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature’s Constitution modifier (minimum of 1 hit point).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Sea Twins’ Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>The Sea Twins rule seas in the Feywild. Their gift allows you to travel through water with ease. You can breathe underwater, and you gain a swimming speed equal to your walking speed.</text>
-                <text>    You can also cast water breathing using a warlock spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Seeker’s Speech (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Tomb of Levistus (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. You also gain vulnerability to fire damage, your speed drops to 0, and you are incapacitated. All of these effects end when the ice melts.</text>
-                <text>    Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+                <text>You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.</text>
+				<text>	In addition, the weapon counts as a magic weapon with a +1 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
             </feature>
         </autolevel>
 
-        <autolevel UA="Warlock &amp; Wizard" level="5">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
-                <text>Prerequisite: 5th level, the Fiend patron, eldritch blast cantrip</text>
+		<autolevel level="5">
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Gift of the Depths (UA)</name>
+				<text>Prerequisite: The Archfey patron</text>
+				<text />
+				<text>You can breathe underwater, and you gain a swimming speed equal to your walking speed.</text>
+				<text>	You can also cast water breathing without expending a spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was called Sea Twins’ Gift</text>
+			</feature>
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
+				<text>Prerequisite: 5th level, eldritch blast cantrip</text>
+				<text />
+				<text>When you hit a creature with your eldritch blast, you can cast fireball as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with eldritch blast.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+            <feature UA="Revised Class Options" optional="YES">
+                <name>Eldritch Invocation: Maddening Hex (UA)</name>
+                <text>Prerequisite: 5th level</text>
                 <text />
-                <text>You can channel the fires of Mephistopheles through your eldritch blast. When you hit a creature with that cantrip, you can cast fireball as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast.</text>
+				<text>As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade’s Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 0 damage).</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was split between Burning Hex and Chilling Hex</text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Improved Pact Weapon (UA)</name>
-                <text>Prerequisite: 5th level, Pact of the Blade feature</text>
-                <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +1 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
-            </feature>
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Tomb of Levistus (UA)</name>
+				<text>Prerequisite: 5th level</text>
+				<text />
+				<text>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. You also gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects all end when the ice melts.</text>
+				<text>    Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
 		</autolevel>
-        <autolevel UA="Warlock &amp; Wizard" level="7">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Gaze of Khirad (UA)</name>
-                <text>Prerequisite: 7th level, the Great Old One patron</text>
-                <text />
-                <text>You gain the piercing gaze of the blue star Khirad. As an action, you can see through solid objects to a range of 30 feet until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.</text>
-            </feature>
-		</autolevel>
-        <autolevel IL="IL" UA="Warlock &amp; Wizard" level="9">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Aspect of the Moon (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>You have gained the Maiden of the Moon’s favor. You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Burning Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause a target cursed by your Hexblade’s Curse to take fire damage equal to your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
-                <text>Prerequisite: The Great Old One patron</text>
-                <text />
-                <text>The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chilling Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause frost to swirl around a target cursed by your Hexblade’s Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chronicle of the Raven Queen (UA)</name>
-                <text>Prerequisite: The Raven Queen patron, Pact of the Tome feature</text>
-                <text />
-                <text>You can place a corpse’s hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature’s spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature’s death, and a given creature can only be asked one question in this manner.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Claw of Acamar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Cloak of Baalzebul (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Curse Bringer (UA)</name>
-                <text>Prerequisite: The Hexblade patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade’s Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn’t extend the curse’s duration.</text>
-                <text>    When you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
-                <text>Prerequisite: 5th level, the Fiend patron, eldritch blast cantrip</text>
-                <text />
-                <text>You can channel the fires of Mephistopheles through your eldritch blast. When you hit a creature with that cantrip, you can cast fireball as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Frost Lance (UA)</name>
-                <text>Prerequisite: The Archfey patron, eldritch blast cantrip</text>
-                <text />
-                <text>You draw on the gifts of the Prince of Frost to trap your enemies in ice. When you hit a creature with your eldritch blast cantrip one or more times on your turn, you can reduce that creature’s speed by 10 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Gaze of Khirad (UA)</name>
-                <text>Prerequisite: 7th level, the Great Old One patron</text>
-                <text />
-                <text>You gain the piercing gaze of the blue star Khirad. As an action, you can see through solid objects to a range of 30 feet until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Grasp of Hadar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, eldritch blast cantrip</text>
-                <text />
-                <text>Once during your turn when you hit a creature with your eldritch blast cantrip, you can move
-                    that creature in a straight line 10 feet closer to yourself.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Green Lord’s Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>The Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Improved Pact Weapon (UA)</name>
-                <text>Prerequisite: 5th level, Pact of the Blade feature</text>
-                <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +1 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Mace of Dispater (UA)</name>
-                <text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
-                <text />
-                <text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Moon Bow (UA)</name>
-                <text>Prerequisite: The Archfey patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Path of the Seeker (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>The Seeker bids you to travel in search of knowledge, and little can prevent you from waling this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Raven Queen’s Blessing (UA)</name>
-                <text>Prerequisite: Raven Queen patron, eldritch blast cantrip</text>
-                <text />
-                <text>When you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature’s Constitution modifier (minimum of 1 hit point).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Relentless Hex (UA)</name>
-                <text>Prerequisite: 5th level, the Hexblade patron</text>
-                <text />
-                <text>Your Hexblade’s Curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport to a space you can see within 5 feet of the target cursed by your Hexblade’s Curse. To do so, you must be able to see the target and must be within 30 feet of it.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Sea Twins’ Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>The Sea Twins rule seas in the Feywild. Their gift allows you to travel through water with ease. You can breathe underwater, and you gain a swimming speed equal to your walking speed.</text>
-                <text>    You can also cast water breathing using a warlock spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Seeker’s Speech (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Superior Pact Weapon (UA)</name>
-                <text>Prerequisite: 9th level, Pact of the Blade feature</text>
-                <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +2 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Tomb of Levistus (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. You also gain vulnerability to fire damage, your speed drops to 0, and you are incapacitated. All of these effects end when the ice melts.</text>
-                <text>    Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
-            </feature>
-        </autolevel>
 
-        <autolevel IL="IL" UA="Warlock &amp; Wizard" level="15">
-			<feature optional="YES">
-                <name>Eldritch Invocation: Ultimate Pact Weapon (UA)</name>
-                <text>Prerequisite: 15th level, Pact of the Blade feature</text>
+        <autolevel level="7" optional="YES">
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Ghostly Gaze (UA)</name>
+                <text>Prerequisite: 7th level, the Great Old One patron</text>
                 <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +3 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
+                <text>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.</text>
+				<text>	Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was called Gaze of Khirad </text>
+            </feature>
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Relentless Hex (UA)</name>
+				<text>Prerequisite: 7th level</text>
+				<text />
+				<text>Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade’s Curse and Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Trickster’s Escape (UA)</name>
+                <text>Prerequisite: 7th level</text>
+                <text />
+                <text>You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Path of the Seeker.</text>
             </feature>
 		</autolevel>
-        <autolevel UA="Warlock &amp; Wizard" level="18">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Shroud of Ulban (UA)</name>
-                <text>Prerequisite: 18th level, the Great Old One patron</text>
+
+		<autolevel level="15" optional="YES">
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Shroud of Shadow (UA)</name>
+                <text>Prerequisite: 15th level</text>
                 <text />
-                <text>The blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn invisible for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn.</text>
+                <text>You can cast invisibility at will, without expending a spell slot.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Shroud of Ulban.</text>
             </feature>
 		</autolevel>
-        <autolevel level="1">
+
+		
+		<autolevel level="2" optional="YES">
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
+				<text>Prerequisite: The Great Old One patron</text>
+				<text />
+				<text>The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Chronicle of the Raven Queen (UA)</name>
+				<text>Prerequisite: The Raven Queen patron, Pact of the Tome feature</text>
+				<text />
+				<text>You can place a corpse’s hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature’s spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature’s death, and a given creature can only be asked one question in this manner.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Raven Queen’s Blessing (UA)</name>
+				<text>Prerequisite: Raven Queen patron, eldritch blast cantrip</text>
+				<text />
+				<text>When you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature’s Constitution modifier (minimum of 1 hit point).</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Seeker’s Speech (UA)</name>
+				<text>Prerequisite: The Seeker patron</text>
+				<text />
+				<text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Claw of Acamar (UA)</name>
+				<text>Prerequisite: The Great Old One patron, Pact of the Blade feature</text>
+				<text />
+				<text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Curse Bringer (UA)</name>
+				<text>Prerequisite: The Hexblade patron, Pact of the Blade feature</text>
+				<text />
+				<text>You can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade’s Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn't extend the curse's duration.</text>
+				<text>    When you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Mace of Dispater (UA)</name>
+				<text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
+				<text />
+				<text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Moon Bow (UA)</name>
+				<text>Prerequisite: The Archfey patron, Pact of the Blade feature</text>
+				<text />
+				<text>You can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+		</autolevel>
+    <autolevel level="1">
 		<feature optional="YES">
 			<name>Otherworldly Patron: The Great Old One</name>
 			<text>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.</text>
@@ -770,6 +697,55 @@
 			<name>The Great Old One: Create Thrall</name>
 			<text>At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.</text>
 			<text>    You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</text>
+		</feature>
+	</autolevel>
+
+  <autolevel level="1">
+		<feature optional="YES">
+			<name>Otherworldly Patron: The Archfey</name>
+			<text>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</text>
+			<text />
+			<text>Expanded Spell List: The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+			<text />
+			<text>1st - faerie fire, sleep</text>
+			<text />
+			<text>2nd - calm emotions, phantasmal force</text>
+			<text />
+			<text>3rd - blink, plant growth</text>
+			<text />
+			<text>4th - dominate beast, greater invisibility</text>
+			<text />
+			<text>5th - dominate person, seeming</text>
+		</feature>
+		<feature optional="YES">
+			<name>The Archfey: Fey Presence</name>
+			<text>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</text>
+			<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+		</feature>
+
+	</autolevel>
+
+	<autolevel level="6">
+		<feature optional="YES">
+			<name>The Archfey: Misty Escape</name>
+			<text>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</text>
+			<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+		</feature>
+	</autolevel>
+
+	<autolevel level="10">
+		<feature optional="YES">
+			<name>The Archfey: Beguiling Defenses</name>
+			<text>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</text>
+		</feature>
+	</autolevel>
+
+	<autolevel level="14">
+		<feature optional="YES">
+			<name>The Archfey: Dark Delirium</name>
+			<text>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</text>
+			<text>    Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.</text>
+			<text>    You must finish a short or long rest before you can use this feature again.</text>
 		</feature>
 	</autolevel>
 
@@ -822,61 +798,6 @@
 
   <autolevel level="1">
 		<feature optional="YES">
-			<name>Otherworldly Patron: The Undying Light (UA)</name>
-			<text>Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.</text>
-			<text>    Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.</text>
-			<text>    As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.</text>
-			<text />
-			<text>d6 - Quirk</text>
-			<text>1 — You are afraid of the dark, and must always have a light source at hand.</text>
-			<text>2 — You have a nervous compulsion to keep a bright light in even the barest shadow.</text>
-			<text>3 — You have a compulsion to enter and illuminate dark areas.</text>
-			<text>4 — You have an overwhelming hatred of undead creatures.</text>
-			<text>5 — You fidget and are irritable when you can't see the sun.</text>
-			<text>6 — In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</text>
-			<text />
-			<text>Expanded Spell List:</text>
-			<text>    The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
-			<text />
-			<text>1st - burning hands</text>
-			<text>2nd - flaming sphere</text>
-			<text>3rd - daylight</text>
-			<text>4th - fire shield</text>
-			<text>5th - flame strike</text>
-			<text />
-			<text>This Otherworldy Patron is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
-		</feature>
-		<feature optional="YES">
-			<name>The Undying Light: Radiant Soul</name>
-			<text>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They don't count against your number of cantrips known.</text>
-		</feature>
-	</autolevel>
-
-	<autolevel level="6">
-		<feature optional="YES">
-			<name>The Undying Light: Searing Vengeance</name>
-			<text>Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are blinded until the end of your turn.</text>
-			<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
-		</feature>
-	</autolevel>
-
-	<autolevel level="10">
-		<feature optional="YES">
-			<name>The Undying Light: Radiant Resilience</name>
-			<text>Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
-		</feature>
-	</autolevel>
-
-	<autolevel level="14">
-		<feature optional="YES">
-			<name>The Undying Light: Healing Light</name>
-			<text>At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total.</text>
-			<text>    You regain all expended dice from your pool when you finish a long rest.</text>
-		</feature>
-	</autolevel>
-
-  <autolevel level="1">
-		<feature optional="YES">
 			<name>Otherworldly Patron: The Raven Queen (UA)</name>
 			<text>You patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature’s death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.</text>
 			<text>    The Raven Queen’s followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.</text>
@@ -892,7 +813,17 @@
 			<text>4th - ice storm, locate creature</text>
 			<text />
 			<text>5th - commune, cone of cold</text>
-		  </feature>
+		</feature>
+		<feature optional="YES">
+			<name>The Raven Queen: Sentinel Raven</name>
+			<text>Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.</text>
+			<text>	While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can’t be targeted by any attack or other harmful effect; only you can cast spells on it; it can’t take damage; and it is incapacitated.</text>
+			<text>	You can see through the raven’s eyes and hear what it hears while it is within 100 feet of you.</text>
+			<text>	In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.</text>
+			<text>	The raven doesn’t require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action.</text>
+			<text>	The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.</text>
+			<text>	At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you.</text>
+		</feature>
 	</autolevel>
 
 	<autolevel level="6">
@@ -1024,50 +955,55 @@
 
   <autolevel level="1">
 		<feature optional="YES">
-			<name>Otherworldly Patron: The Archfey</name>
-			<text>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</text>
+			<name>Otherworldly Patron: The Celestial (UA)</name>
+			<text>Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.</text>
 			<text />
-			<text>Expanded Spell List: The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+			<text>	Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.</text>
 			<text />
-			<text>1st - faerie fire, sleep</text>
+			<text>Expanded Spell List:</text>
+			<text>	The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
 			<text />
-			<text>2nd - calm emotions, phantasmal force</text>
+			<text>1st - burning hands, cure wounds</text>
+			<text>2nd - flaming sphere, lesser restoration</text>
+			<text>3rd - daylight, revivify</text>
+			<text>4th - guardian of faith, wall of fire</text>
+			<text>5th - flame strike, greater restoration</text>
 			<text />
-			<text>3rd - blink, plant growth</text>
-			<text />
-			<text>4th - dominate beast, greater invisibility</text>
-			<text />
-			<text>5th - dominate person, seeming</text>
-		</feature>
-		<feature optional="YES">
-			<name>The Archfey: Fey Presence</name>
-			<text>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.</text>
-			<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			<text>This Otherworldy Patron is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			<text>	This had an earlier version included in Unearthed Arcana: Light, Dark, Underdark!, where it was called Undying Light</text>
 		</feature>
 
+		<feature optional="YES">
+			<name>The Celestial: Bonus Cantrips</name>
+			<text>At 1st level, you learn the sacred flame and light cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known.</text>
+		</feature>
+		<feature optional="YES">
+			<name>The Celestial: Healing Light</name>
+			<text>At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.</text>
+			<text>	As a bonus action, you can touch a creature and heal it, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.</text>
+			<text>	Your pool regains all expended dice when you finish a long rest.</text>
+		</feature>
 	</autolevel>
 
 	<autolevel level="6">
 		<feature optional="YES">
-			<name>The Archfey: Misty Escape</name>
-			<text>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.</text>
-			<text>    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			<name>The Celestial: Radiant Soul</name>
+			<text>Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your Charisma modifier to that damage against one target of your choice.</text>
 		</feature>
 	</autolevel>
 
 	<autolevel level="10">
 		<feature optional="YES">
-			<name>The Archfey: Beguiling Defenses</name>
-			<text>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</text>
+			<name>The Celestial: Celestial Resilience</name>
+			<text>Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
 		</feature>
 	</autolevel>
 
 	<autolevel level="14">
 		<feature optional="YES">
-			<name>The Archfey: Dark Delirium</name>
-			<text>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</text>
-			<text>    Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.</text>
-			<text>    You must finish a short or long rest before you can use this feature again.</text>
+			<name>The Celestial: Searing Vengeance</name>
+			<text>Starting at 14th level, the radiant energy you channel allows you to overcome grievous injuries. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up, if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn.</text>
+			<text>	Once you use this feature, you can’t use it again until you finish a long rest.</text>
 		</feature>
 	</autolevel>
 
@@ -1553,305 +1489,232 @@
         <autolevel level="18">
 			
 		</autolevel>
-        <autolevel UA="Warlock &amp; Wizard" level="2">
-            <feature optional="YES">
+        <autolevel level="2" optional="YES">
+            <feature UA="Revised Class Options" optional="YES">
                 <name>Eldritch Invocation: Aspect of the Moon (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
+                <text>Prerequisite: Pact of the Tome feature</text>
                 <text />
-                <text>You have gained the Maiden of the Moon’s favor. You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch.</text>
+                <text>You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard</text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Burning Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause a target cursed by your Hexblade’s Curse to take fire damage equal to your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
-                <text>Prerequisite: The Great Old One patron</text>
-                <text />
-                <text>The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chilling Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause frost to swirl around a target cursed by your Hexblade’s Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chronicle of the Raven Queen (UA)</name>
-                <text>Prerequisite: The Raven Queen patron, Pact of the Tome feature</text>
-                <text />
-                <text>You can place a corpse’s hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature’s spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature’s death, and a given creature can only be asked one question in this manner.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Claw of Acamar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Cloak of Baalzebul (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Curse Bringer (UA)</name>
-                <text>Prerequisite: The Hexblade patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade’s Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn’t extend the curse’s duration.</text>
-                <text>    When you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
+			<feature UA="Revised Class Options" optional="YES">
+				<name>Eldritch Invocation: Cloak of Flies (UA)</name>
+				<text>Prerequisite: 5th level</text>
+				<text />
+				<text>As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you’re incapacitated or you dismiss it with a bonus action.</text>
+				<text>	The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).</text>
+				<text>	Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was called Cloak of Baalzebul</text>
+			</feature>
+			<feature UA="Revised Class Options" optional="YES">
+				<name>Eldritch Invocation: Eldritch Smite</name>
+				<text>Prerequisite: 5th level, Pact of the Blade feature</text>
+				<text />
+				<text>Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot.</text>
+				<text>If the target takes any of this damage, you can knock the target prone if it is Huge or smaller.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Claw of Acamar, Curse Bringer, Mace of Dispater, Moon Bow </text>
+			</feature>
+            <feature UA="Revised Class Options">
                 <name>Eldritch Invocation: Frost Lance (UA)</name>
-                <text>Prerequisite: The Archfey patron, eldritch blast cantrip</text>
+                <text>Prerequisite: eldritch blast cantrip</text>
                 <text />
-                <text>You draw on the gifts of the Prince of Frost to trap your enemies in ice. When you hit a creature with your eldritch blast cantrip one or more times on your turn, you can reduce that creature’s speed by 10 feet until the end of your next turn.</text>
+                <text>Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature’s speed by 10 feet until the end of your next turn.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
             </feature>
-            <feature optional="YES">
+            <feature UA="Revised Class Options">
                 <name>Eldritch Invocation: Grasp of Hadar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, eldritch blast cantrip</text>
+                <text>Prerequisite: eldritch blast cantrip</text>
                 <text />
-                <text>Once during your turn when you hit a creature with your eldritch blast cantrip, you can move
-                    that creature in a straight line 10 feet closer to yourself.</text>
+                <text>Once on each of your turns when you hit a creature with your eldritch blast cantrip, you can move that creature in a straight line 10 feet closer to yourself.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Green Lord’s Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Gift of the Ever-Living Ones (UA)</name>
+                <text>Prerequisite: Pact of the Chain</text>
                 <text />
-                <text>The Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.</text>
+                <text>Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Green Lord’s Gift </text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Mace of Dispater (UA)</name>
-                <text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Improved Pact Weapon (UA)</name>
+                <text>Prerequisite: Pact of the Blade feature</text>
                 <text />
-                <text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Moon Bow (UA)</name>
-                <text>Prerequisite: The Archfey patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Path of the Seeker (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>The Seeker bids you to travel in search of knowledge, and little can prevent you from waling this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Raven Queen’s Blessing (UA)</name>
-                <text>Prerequisite: Raven Queen patron, eldritch blast cantrip</text>
-                <text />
-                <text>When you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature’s Constitution modifier (minimum of 1 hit point).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Sea Twins’ Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>The Sea Twins rule seas in the Feywild. Their gift allows you to travel through water with ease. You can breathe underwater, and you gain a swimming speed equal to your walking speed.</text>
-                <text>    You can also cast water breathing using a warlock spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Seeker’s Speech (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Tomb of Levistus (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. You also gain vulnerability to fire damage, your speed drops to 0, and you are incapacitated. All of these effects end when the ice melts.</text>
-                <text>    Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+                <text>You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.</text>
+				<text>	In addition, the weapon counts as a magic weapon with a +1 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
             </feature>
         </autolevel>
 
-        <autolevel UA="Warlock &amp; Wizard" level="5">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
-                <text>Prerequisite: 5th level, the Fiend patron, eldritch blast cantrip</text>
+		<autolevel level="5">
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Gift of the Depths (UA)</name>
+				<text>Prerequisite: The Archfey patron</text>
+				<text />
+				<text>You can breathe underwater, and you gain a swimming speed equal to your walking speed.</text>
+				<text>	You can also cast water breathing without expending a spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was called Sea Twins’ Gift</text>
+			</feature>
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
+				<text>Prerequisite: 5th level, eldritch blast cantrip</text>
+				<text />
+				<text>When you hit a creature with your eldritch blast, you can cast fireball as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with eldritch blast.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+            <feature UA="Revised Class Options" optional="YES">
+                <name>Eldritch Invocation: Maddening Hex (UA)</name>
+                <text>Prerequisite: 5th level</text>
                 <text />
-                <text>You can channel the fires of Mephistopheles through your eldritch blast. When you hit a creature with that cantrip, you can cast fireball as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast.</text>
+				<text>As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade’s Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 0 damage).</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was split between Burning Hex and Chilling Hex</text>
             </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Improved Pact Weapon (UA)</name>
-                <text>Prerequisite: 5th level, Pact of the Blade feature</text>
-                <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +1 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
-            </feature>
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Tomb of Levistus (UA)</name>
+				<text>Prerequisite: 5th level</text>
+				<text />
+				<text>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. You also gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects all end when the ice melts.</text>
+				<text>    Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
 		</autolevel>
-        <autolevel UA="Warlock &amp; Wizard" level="7">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Gaze of Khirad (UA)</name>
-                <text>Prerequisite: 7th level, the Great Old One patron</text>
-                <text />
-                <text>You gain the piercing gaze of the blue star Khirad. As an action, you can see through solid objects to a range of 30 feet until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.</text>
-            </feature>
-		</autolevel>
-        <autolevel IL="IL" UA="Warlock &amp; Wizard" level="9">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Aspect of the Moon (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>You have gained the Maiden of the Moon’s favor. You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Burning Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause a target cursed by your Hexblade’s Curse to take fire damage equal to your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
-                <text>Prerequisite: The Great Old One patron</text>
-                <text />
-                <text>The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chilling Hex (UA)</name>
-                <text>Prerequisite: The Hexblade patron</text>
-                <text />
-                <text>As a bonus action, you cause frost to swirl around a target cursed by your Hexblade’s Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Chronicle of the Raven Queen (UA)</name>
-                <text>Prerequisite: The Raven Queen patron, Pact of the Tome feature</text>
-                <text />
-                <text>You can place a corpse’s hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature’s spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature’s death, and a given creature can only be asked one question in this manner.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Claw of Acamar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Cloak of Baalzebul (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Curse Bringer (UA)</name>
-                <text>Prerequisite: The Hexblade patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade’s Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn’t extend the curse’s duration.</text>
-                <text>    When you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Kiss of Mephistopheles (UA)</name>
-                <text>Prerequisite: 5th level, the Fiend patron, eldritch blast cantrip</text>
-                <text />
-                <text>You can channel the fires of Mephistopheles through your eldritch blast. When you hit a creature with that cantrip, you can cast fireball as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Frost Lance (UA)</name>
-                <text>Prerequisite: The Archfey patron, eldritch blast cantrip</text>
-                <text />
-                <text>You draw on the gifts of the Prince of Frost to trap your enemies in ice. When you hit a creature with your eldritch blast cantrip one or more times on your turn, you can reduce that creature’s speed by 10 feet until the end of your next turn.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Gaze of Khirad (UA)</name>
-                <text>Prerequisite: 7th level, the Great Old One patron</text>
-                <text />
-                <text>You gain the piercing gaze of the blue star Khirad. As an action, you can see through solid objects to a range of 30 feet until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Grasp of Hadar (UA)</name>
-                <text>Prerequisite: The Great Old One patron, eldritch blast cantrip</text>
-                <text />
-                <text>Once during your turn when you hit a creature with your eldritch blast cantrip, you can move
-                    that creature in a straight line 10 feet closer to yourself.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Green Lord’s Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>The Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Improved Pact Weapon (UA)</name>
-                <text>Prerequisite: 5th level, Pact of the Blade feature</text>
-                <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +1 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Mace of Dispater (UA)</name>
-                <text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
-                <text />
-                <text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Moon Bow (UA)</name>
-                <text>Prerequisite: The Archfey patron, Pact of the Blade feature</text>
-                <text />
-                <text>You can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Path of the Seeker (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>The Seeker bids you to travel in search of knowledge, and little can prevent you from waling this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Raven Queen’s Blessing (UA)</name>
-                <text>Prerequisite: Raven Queen patron, eldritch blast cantrip</text>
-                <text />
-                <text>When you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature’s Constitution modifier (minimum of 1 hit point).</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Relentless Hex (UA)</name>
-                <text>Prerequisite: 5th level, the Hexblade patron</text>
-                <text />
-                <text>Your Hexblade’s Curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport to a space you can see within 5 feet of the target cursed by your Hexblade’s Curse. To do so, you must be able to see the target and must be within 30 feet of it.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Sea Twins’ Gift (UA)</name>
-                <text>Prerequisite: The Archfey patron</text>
-                <text />
-                <text>The Sea Twins rule seas in the Feywild. Their gift allows you to travel through water with ease. You can breathe underwater, and you gain a swimming speed equal to your walking speed.</text>
-                <text>    You can also cast water breathing using a warlock spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Seeker’s Speech (UA)</name>
-                <text>Prerequisite: The Seeker patron</text>
-                <text />
-                <text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Superior Pact Weapon (UA)</name>
-                <text>Prerequisite: 9th level, Pact of the Blade feature</text>
-                <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +2 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Eldritch Invocation: Tomb of Levistus (UA)</name>
-                <text>Prerequisite: The Fiend patron</text>
-                <text />
-                <text>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. You also gain vulnerability to fire damage, your speed drops to 0, and you are incapacitated. All of these effects end when the ice melts.</text>
-                <text>    Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
-            </feature>
-        </autolevel>
 
-        <autolevel IL="IL" UA="Warlock &amp; Wizard" level="15">
-			<feature optional="YES">
-                <name>Eldritch Invocation: Ultimate Pact Weapon (UA)</name>
-                <text>Prerequisite: 15th level, Pact of the Blade feature</text>
+        <autolevel level="7" optional="YES">
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Ghostly Gaze (UA)</name>
+                <text>Prerequisite: 7th level, the Great Old One patron</text>
                 <text />
-                <text>Any weapon you create using your Pact of the Blade feature is a +3 weapon. This invocation doesn’t affect a magic weapon you transformed into your pact weapon.</text>
+                <text>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.</text>
+				<text>	Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was called Gaze of Khirad </text>
+            </feature>
+			<feature UA="Revised Class Options">
+				<name>Eldritch Invocation: Relentless Hex (UA)</name>
+				<text>Prerequisite: 7th level</text>
+				<text />
+				<text>Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade’s Curse and Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Trickster’s Escape (UA)</name>
+                <text>Prerequisite: 7th level</text>
+                <text />
+                <text>You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Path of the Seeker.</text>
             </feature>
 		</autolevel>
-        <autolevel UA="Warlock &amp; Wizard" level="18">
-            <feature optional="YES">
-                <name>Eldritch Invocation: Shroud of Ulban (UA)</name>
-                <text>Prerequisite: 18th level, the Great Old One patron</text>
+
+		<autolevel level="15" optional="YES">
+            <feature UA="Revised Class Options">
+                <name>Eldritch Invocation: Shroud of Shadow (UA)</name>
+                <text>Prerequisite: 15th level</text>
                 <text />
-                <text>The blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn invisible for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn.</text>
+                <text>You can cast invisibility at will, without expending a spell slot.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Warlock &amp; Wizard, where it was patron-based and called Shroud of Ulban.</text>
             </feature>
 		</autolevel>
-        </class><class name="Warlock (Archfey)">
+
+		
+		<autolevel level="2" optional="YES">
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
+				<text>Prerequisite: The Great Old One patron</text>
+				<text />
+				<text>The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Chronicle of the Raven Queen (UA)</name>
+				<text>Prerequisite: The Raven Queen patron, Pact of the Tome feature</text>
+				<text />
+				<text>You can place a corpse’s hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature’s spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature’s death, and a given creature can only be asked one question in this manner.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Raven Queen’s Blessing (UA)</name>
+				<text>Prerequisite: Raven Queen patron, eldritch blast cantrip</text>
+				<text />
+				<text>When you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature’s Constitution modifier (minimum of 1 hit point).</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Seeker’s Speech (UA)</name>
+				<text>Prerequisite: The Seeker patron</text>
+				<text />
+				<text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, without replacement</text>
+			</feature>
+
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Claw of Acamar (UA)</name>
+				<text>Prerequisite: The Great Old One patron, Pact of the Blade feature</text>
+				<text />
+				<text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Curse Bringer (UA)</name>
+				<text>Prerequisite: The Hexblade patron, Pact of the Blade feature</text>
+				<text />
+				<text>You can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade’s Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn't extend the curse's duration.</text>
+				<text>    When you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Mace of Dispater (UA)</name>
+				<text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
+				<text />
+				<text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+			<feature UA="Warlock &amp; Wizard">
+				<name>Eldritch Invocation: Moon Bow (UA)</name>
+				<text>Prerequisite: The Archfey patron, Pact of the Blade feature</text>
+				<text />
+				<text>You can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.</text>
+				<text />
+				<text>This Eldritch Invocation is from Unearthed Arcana: Warlock &amp; Wizard, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This was deprecated in Unearthed Arcana: Revised Class Options, in favor of Eldritch Smite</text>
+			</feature>
+		</autolevel>
+    </class><class name="Warlock (Archfey)">
 	<name>Warlock (Archfey)</name>
 	<autolevel level="1">
 		<feature optional="YES">
@@ -1899,6 +1762,63 @@
 			<text>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.</text>
 			<text>    Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.</text>
 			<text>    You must finish a short or long rest before you can use this feature again.</text>
+		</feature>
+	</autolevel>
+
+  </class><class name="Warlock (Celestial)">
+	<name>Warlock (Celestial)</name>
+
+	<autolevel level="1">
+		<feature optional="YES">
+			<name>Otherworldly Patron: The Celestial (UA)</name>
+			<text>Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.</text>
+			<text />
+			<text>	Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.</text>
+			<text />
+			<text>Expanded Spell List:</text>
+			<text>	The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+			<text />
+			<text>1st - burning hands, cure wounds</text>
+			<text>2nd - flaming sphere, lesser restoration</text>
+			<text>3rd - daylight, revivify</text>
+			<text>4th - guardian of faith, wall of fire</text>
+			<text>5th - flame strike, greater restoration</text>
+			<text />
+			<text>This Otherworldy Patron is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			<text>	This had an earlier version included in Unearthed Arcana: Light, Dark, Underdark!, where it was called Undying Light</text>
+		</feature>
+
+		<feature optional="YES">
+			<name>The Celestial: Bonus Cantrips</name>
+			<text>At 1st level, you learn the sacred flame and light cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known.</text>
+		</feature>
+		<feature optional="YES">
+			<name>The Celestial: Healing Light</name>
+			<text>At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.</text>
+			<text>	As a bonus action, you can touch a creature and heal it, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.</text>
+			<text>	Your pool regains all expended dice when you finish a long rest.</text>
+		</feature>
+	</autolevel>
+
+	<autolevel level="6">
+		<feature optional="YES">
+			<name>The Celestial: Radiant Soul</name>
+			<text>Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your Charisma modifier to that damage against one target of your choice.</text>
+		</feature>
+	</autolevel>
+
+	<autolevel level="10">
+		<feature optional="YES">
+			<name>The Celestial: Celestial Resilience</name>
+			<text>Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
+		</feature>
+	</autolevel>
+
+	<autolevel level="14">
+		<feature optional="YES">
+			<name>The Celestial: Searing Vengeance</name>
+			<text>Starting at 14th level, the radiant energy you channel allows you to overcome grievous injuries. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up, if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn.</text>
+			<text>	Once you use this feature, you can’t use it again until you finish a long rest.</text>
 		</feature>
 	</autolevel>
 
@@ -2078,7 +1998,17 @@
 			<text>4th - ice storm, locate creature</text>
 			<text />
 			<text>5th - commune, cone of cold</text>
-		  </feature>
+		</feature>
+		<feature optional="YES">
+			<name>The Raven Queen: Sentinel Raven</name>
+			<text>Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.</text>
+			<text>	While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can’t be targeted by any attack or other harmful effect; only you can cast spells on it; it can’t take damage; and it is incapacitated.</text>
+			<text>	You can see through the raven’s eyes and hear what it hears while it is within 100 feet of you.</text>
+			<text>	In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.</text>
+			<text>	The raven doesn’t require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action.</text>
+			<text>	The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.</text>
+			<text>	At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you.</text>
+		</feature>
 	</autolevel>
 
 	<autolevel level="6">
@@ -2164,64 +2094,6 @@
 		</feature>
 	</autolevel>
 
-  </class><class name="Warlock (Undying Light)">
-	<name>Warlock (Undying Light)</name>
-
-	<autolevel level="1">
-		<feature optional="YES">
-			<name>Otherworldly Patron: The Undying Light (UA)</name>
-			<text>Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.</text>
-			<text>    Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.</text>
-			<text>    As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.</text>
-			<text />
-			<text>d6 - Quirk</text>
-			<text>1 — You are afraid of the dark, and must always have a light source at hand.</text>
-			<text>2 — You have a nervous compulsion to keep a bright light in even the barest shadow.</text>
-			<text>3 — You have a compulsion to enter and illuminate dark areas.</text>
-			<text>4 — You have an overwhelming hatred of undead creatures.</text>
-			<text>5 — You fidget and are irritable when you can't see the sun.</text>
-			<text>6 — In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought.</text>
-			<text />
-			<text>Expanded Spell List:</text>
-			<text>    The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
-			<text />
-			<text>1st - burning hands</text>
-			<text>2nd - flaming sphere</text>
-			<text>3rd - daylight</text>
-			<text>4th - fire shield</text>
-			<text>5th - flame strike</text>
-			<text />
-			<text>This Otherworldy Patron is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
-		</feature>
-		<feature optional="YES">
-			<name>The Undying Light: Radiant Soul</name>
-			<text>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They don't count against your number of cantrips known.</text>
-		</feature>
-	</autolevel>
-
-	<autolevel level="6">
-		<feature optional="YES">
-			<name>The Undying Light: Searing Vengeance</name>
-			<text>Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are blinded until the end of your turn.</text>
-			<text>    Once you use this feature, you can't use it again until you finish a long rest.</text>
-		</feature>
-	</autolevel>
-
-	<autolevel level="10">
-		<feature optional="YES">
-			<name>The Undying Light: Radiant Resilience</name>
-			<text>Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier.</text>
-		</feature>
-	</autolevel>
-
-	<autolevel level="14">
-		<feature optional="YES">
-			<name>The Undying Light: Healing Light</name>
-			<text>At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total.</text>
-			<text>    You regain all expended dice from your pool when you finish a long rest.</text>
-		</feature>
-	</autolevel>
-
   </class><class name="Warlock (Undying)">
 	<name>Warlock (Undying)</name>
 
@@ -2291,12 +2163,12 @@
 		<text />
 		<text>You can cast levitate on yourself at will, without expending a spell slot or material components.</text>
 	</spell>
-	<spell PS="PS" UA="UA">
+	<spell PS="PS" UA="Revised Class Options">
 	  <name>Eldritch Invocation: Aspect of the Moon (UA)</name>
 	  <classes>Warlock Eldritch Invocation</classes>
-	  <text>Prerequisite: The Archfey patron</text>
+	  <text>Prerequisite: Pact of the Tome feature</text>
 	  <text />
-	  <text>You have gained the Maiden of the Moon’s favor. You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch.</text>
+	  <text>You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.</text>
   </spell>
   <spell PS="PS">
 		<name>Eldritch Invocation: Beast Speech</name>
@@ -2324,13 +2196,6 @@
 		<text>    On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</text>
 	</spell>
 	<spell PS="PS" UA="UA">
-	  <name>Eldritch Invocation: Burning Hex (UA)</name>
-	  <classes>Warlock Eldritch Invocation</classes>
-	  <text>Prerequisite: The Hexblade patron</text>
-	  <text />
-	  <text>As a bonus action, you cause a target cursed by your Hexblade’s Curse to take fire damage equal to your Charisma modifier (minimum of 1).</text>
-  </spell>
-  <spell PS="PS" UA="UA">
 	  <name>Eldritch Invocation: Caiphon's Beacon (UA)</name>
 	  <classes>Warlock Eldritch Invocation</classes>
 	  <text>Prerequisite: The Great Old One patron</text>
@@ -2365,13 +2230,15 @@
 	  <text />
 	  <text>You can create a black, lead flail using your Pact of the Blade feature. The flail’s head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature’s speed to 0 feet until the end of your next turn.</text>
   </spell>
-  <spell PS="PS" UA="UA">
-	  <name>Eldritch Invocation: Cloak of Baalzebul (UA)</name>
-	  <classes>Warlock Eldritch Invocation</classes>
-	  <text>Prerequisite: The Fiend patron</text>
-	  <text />
-	  <text>As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action.</text>
-  </spell>
+	<spell PS="PS" UA="UA">
+		<name>Eldritch Invocation: Cloak of Flies (UA)</name>
+		<classes>Warlock Eldritch Invocation</classes>
+		<text>Prerequisite: 5th level</text>
+		<text />
+		<text>As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you’re incapacitated or you dismiss it with a bonus action.</text>
+		<text>	The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).</text>
+		<text>	Once you use this invocation, you can’t use it again until you finish a short or long rest.</text>
+	</spell>
   <spell PS="PS" UA="UA">
 	  <name>Eldritch Invocation: Curse Bringer (UA)</name>
 	  <classes>Warlock Eldritch Invocation</classes>
@@ -2475,6 +2342,13 @@
 	  <text>Prerequisite: The Fiend patron, Pact of the Blade feature</text>
 	  <text />
 	  <text>When you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.</text>
+  </spell>
+  <spell PS="PS" UA="Revised Class Options">
+	  <name>Eldritch Invocation: Maddening Hex (UA)</name>
+	  <classes>Warlock Eldritch Invocation</classes>
+	  <text>Prerequisite: The Hexblade patron</text>
+	  <text />
+	  <text>As a bonus action, you cause a target cursed by your Hexblade’s Curse to take fire damage equal to your Charisma modifier (minimum of 1).</text>
   </spell>
   <spell PS="PS">
 		<name>Eldritch Invocation: Mask of Many Faces</name>
@@ -2656,7 +2530,19 @@
 	</spell>
 
   
-  <spellList class="Warlock (Hexblade)">
+  <spellList class="Warlock (Celestial)">
+		<index name="Burning Hands" />
+		<index name="Cure Wounds" />
+		<index name="Flaming Sphere" />
+		<index name="Lesser Restoration" />
+		<index name="Daylight" />
+		<index name="Revivify" />
+		<index name="Guardian of Faith" />
+		<index name="Wall of Fire" />
+		<index name="Flame Strike" />
+		<index name="Greater Restoration" />
+	</spellList>
+<spellList class="Warlock (Hexblade)">
 		<index name="Shield" />
 		<index name="Wrathful Smite" />
 		<index name="Branding Smite" />
@@ -2693,11 +2579,4 @@
 		<index name="Passwall" />
 	</spellList>
 
-<spellList class="Warlock (Undying Light)">
-		<index name="Burning Hands" />
-		<index name="Flaming Sphere" />
-		<index name="Daylight" />
-		<index name="Fire Shield" />
-		<index name="Flame Strike" />
-	</spellList>
 </compendium>
