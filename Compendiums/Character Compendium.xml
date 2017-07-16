@@ -8980,6 +8980,26 @@
                 <name>Primeval Guardian: Piercing Thorns</name>
                 <text>At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional 1d6 piercing damage to one creature you hit with a weapon attack.</text>
             </feature>
+            <feature optional="YES">
+                <name>Ranger Archetype: Monster Slayer (UA)</name>
+                <text>Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Slayer’s Mysticism</name>
+                <text>You learn an additional spell when you reach certain levels in this class, as shown in the Slayer Spells table. The spell counts as a ranger spell for you but doesn’t count against the number of ranger spells you know.</text>
+                <text />
+                <text>3rd — protection from evil and good</text>
+                <text>5th — zone of truth</text>
+                <text>9th — magic circle</text>
+                <text>13th — banishment</text>
+                <text>17th — planar binding</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Slayer’s Eye</name>
+                <text>Starting at 3rd level, you gain the ability to study and unravel a creature’s defenses. As a bonus action, choose one creature you can see within 120 feet of you. You immediately learn the target’s vulnerabilities, immunities, and resistances. You also learn any special effects triggered when the target takes damage, such as fire damage halting its regeneration.</text>
+                <text>In addition, the first time each turn you hit the target with a weapon attack, the target takes an extra 1d6 damage from the weapon.</text>
+                <text>This benefit lasts until you target a different creature with this feature or until you finish a short or long rest.</text>
+            </feature>
         </autolevel>
         <autolevel level="7">
             <feature optional="YES">
@@ -8994,6 +9014,10 @@
             <feature optional="YES">
                 <name>Primeval Guardian: Ancient Fortitude</name>
                 <text>At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Supernatural Defense</name>
+                <text>At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever the target of your Slayer’s Eye forces you to make a saving throw, add 1d6 to your roll.</text>
             </feature>
         </autolevel>
         <autolevel level="11">
@@ -9010,6 +9034,10 @@
                 <name>Primeval Guardian: Rooted Defense</name>
                 <text>At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is difficult terrain for your enemies.</text>
             </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Relentless Slayer</name>
+                <text>At 11th level, you gain the ability to foil your foe’s ability to escape. Your study of folklore and arcane knowledge gives you a key insight to keep your prey cornered. If the target of your Slayer’s Eye attempts to teleport, change its shape, travel to another plane of existence, or turn gaseous, you can use your reaction to make a Wisdom check contested by a Wisdom check made by the target. To use this ability, you must be able to see the target and need to be within 30 feet of it. If you succeed, you foil its attempt, causing it to waste the action, bonus action, or reaction it used.</text>
+            </feature>
         </autolevel>
         <autolevel level="15">
             <feature optional="YES">
@@ -9023,6 +9051,10 @@
             <feature optional="YES">
                 <name>Primeval Guardian: Guardian Aura</name>
                 <text>Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Slayer’s Counter</name>
+                <text>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Eye forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</text>
             </feature>
         </autolevel>
     </class>
@@ -9307,6 +9339,26 @@
                 <name>Primeval Guardian: Piercing Thorns</name>
                 <text>At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional 1d6 piercing damage to one creature you hit with a weapon attack.</text>
             </feature>
+            <feature optional="YES">
+                <name>Ranger Conclave: Monster Slayer</name>
+                <text>Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Slayer’s Mysticism</name>
+                <text>You learn an additional spell when you reach certain levels in this class, as shown in the Slayer Spells table. The spell counts as a ranger spell for you but doesn’t count against the number of ranger spells you know.</text>
+                <text />
+                <text>3rd — protection from evil and good</text>
+                <text>5th — zone of truth</text>
+                <text>9th — magic circle</text>
+                <text>13th — banishment</text>
+                <text>17th — planar binding</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Slayer’s Eye</name>
+                <text>Starting at 3rd level, you gain the ability to study and unravel a creature’s defenses. As a bonus action, choose one creature you can see within 120 feet of you. You immediately learn the target’s vulnerabilities, immunities, and resistances. You also learn any special effects triggered when the target takes damage, such as fire damage halting its regeneration.</text>
+                <text>In addition, the first time each turn you hit the target with a weapon attack, the target takes an extra 1d6 damage from the weapon.</text>
+                <text>This benefit lasts until you target a different creature with this feature or until you finish a short or long rest.</text>
+            </feature>
         </autolevel>
         <autolevel level="4">
             <feature>
@@ -9334,6 +9386,10 @@
             </feature>
             <feature optional="YES">
                 <name>Primeval Guardian: Extra Attack</name>
+                <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Extra Attack</name>
                 <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
             </feature>
         </autolevel>
@@ -9377,6 +9433,10 @@
             <feature optional="YES">
                 <name>Primeval Guardian: Ancient Fortitude</name>
                 <text>At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Supernatural Defense</name>
+                <text>At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever the target of your Slayer’s Eye forces you to make a saving throw, add 1d6 to your roll.</text>
             </feature>
         </autolevel>
         <autolevel level="8">
@@ -9428,6 +9488,10 @@
                 <name>Primeval Guardian: Rooted Defense</name>
                 <text>At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is difficult terrain for your enemies.</text>
             </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Relentless Slayer</name>
+                <text>At 11th level, you gain the ability to foil your foe’s ability to escape. Your study of folklore and arcane knowledge gives you a key insight to keep your prey cornered. If the target of your Slayer’s Eye attempts to teleport, change its shape, travel to another plane of existence, or turn gaseous, you can use your reaction to make a Wisdom check contested by a Wisdom check made by the target. To use this ability, you must be able to see the target and need to be within 30 feet of it. If you succeed, you foil its attempt, causing it to waste the action, bonus action, or reaction it used.</text>
+            </feature>
         </autolevel>
         <autolevel level="12">
             <feature>
@@ -9474,6 +9538,10 @@
             <feature optional="YES">
                 <name>Primeval Guardian: Guardian Aura</name>
                 <text>Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Monster Slayer: Slayer’s Counter</name>
+                <text>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Eye forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</text>
             </feature>
         </autolevel>
         <autolevel level="16">
