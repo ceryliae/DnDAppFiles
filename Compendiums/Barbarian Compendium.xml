@@ -1,0 +1,1072 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compendium version="5">
+	<class name="Barbarian"><name>Barbarian</name>
+        <hd>12</hd>
+        <proficiency>Strength, Constitution</proficiency>
+
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor, medium armor, shields</text>
+                <text>Weapons: simple weapons, martial weapons</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text />
+                <text>• (a) a greataxe or (b) any martial melee weapon</text>
+                <text>• (a) two handaxes or (b) any simple weapon</text>
+                <text>• An explorer's pack, and four javelins</text>
+                <text />
+                <text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="1">
+            <feature>
+                <name>Rage</name>
+                <text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</text>
+                <text>    While raging, you gain the following benefits if you aren't wearing heavy armor:</text>
+                <text />
+                <text>• You have advantage on Strength checks and Strength saving throws.</text>
+                <text>• When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.</text>
+                <text>• You have resistance to bludgeoning, piercing, and slashing damage.</text>
+                <text />
+                <text>If you are able to cast spells, you can't cast them or concentrate on them while raging.</text>
+                <text>    Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</text>
+                <text>    Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+            </feature>
+            <feature>
+                <name>Unarmored Defense</name>
+                <text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="2">
+            <feature>
+                <name>Danger Sense</name>
+                <text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+            </feature>
+            <feature>
+                <name>Reckless Attack</name>
+                <text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="3">
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 3 times before a long rest.</text>
+            </feature>
+            <feature>
+                <name>Primal Path</name>
+                <text>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</text>
+            </feature>
+			
+        </autolevel>
+
+        <autolevel level="4">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="5">
+            <feature>
+                <name>Extra Attack</name>
+                <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+            </feature>
+            <feature>
+                <name>Fast Movement</name>
+                <text>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</text>
+                <modifier category="bonus">speed +10</modifier>
+            </feature>
+        </autolevel>
+
+        <autolevel level="6">
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 4 times before a long rest.</text>
+            </feature>
+			
+        </autolevel>
+
+        <autolevel level="7">
+            <feature>
+                <name>Feral Instinct</name>
+                <text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</text>
+                <text>    Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="8">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="9">
+            <feature>
+                <name>Brutal Critical (1 die)</name>
+                <text>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</text>
+                <text>    This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
+            </feature>
+            <feature>
+                <name>Increased Rage Damage</name>
+                <text>You now have a +3 bonus to melee damage rolls while raging.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="10">
+			
+        </autolevel>
+
+        <autolevel level="11">
+            <feature>
+                <name>Relentless Rage</name>
+                <text>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</text>
+                <text>    Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="12">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 5 times before a long rest</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="13">
+            <feature>
+                <name>Brutal Critical (2 dice)</name>
+                <text>You now roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="14">
+			
+        </autolevel>
+
+        <autolevel level="15">
+            <feature>
+                <name>Persistent Rage</name>
+                <text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="16">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+            <feature>
+                <name>Increased Rage Damage</name>
+                <text>You now have a +4 bonus to melee damage rolls while raging.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="17">
+            <feature>
+                <name>Brutal Critical (3 dice)</name>
+                <text>You now roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
+            </feature>
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 6 times before a long rest</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="18">
+            <feature>
+                <name>Indomitable Might</name>
+                <text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="19">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="20">
+            <feature>
+                <name>Primal Champion</name>
+                <text>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</text>
+                <modifier category="ability score">strength +4</modifier>
+                <modifier category="ability score">constitution +4</modifier>
+            </feature>
+            <feature>
+                <name>Unlimited Rages</name>
+                <text>At 20th level, there is no limit to the number of times you may rage.</text>
+            </feature>
+        </autolevel>
+    <autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Berserker</name>
+                <text>For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Berserker: Frenzy</name>
+                <text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Berserker: Mindless Rage</name>
+                <text>Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Berserker: Intimidating Presence</name>
+                <text>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.</text>
+                <text>    If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Berserker: Retaliation</name>
+                <text>Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature.</text>
+            </feature>
+		</autolevel>
+
+	<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Ancestral Guardian (UA)</name>
+                <text>Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger in the world as mighty spirits, who can guide and protect the living. When a barbarian who follows this path rages, the barbarian contacts the spirit world and calls on these guardian spirits for aid in a time of need.</text>
+                <text>	Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies.</text>
+                <text>	In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Revised Subclasses, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Barbarian Primal Paths</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Ancestral Protectors</name>
+                <text>Starting when you choose this path at 3rd level, spectral warriors appear when you enter your rage. These warriors distract a foe you strike and hinder its attempts to harm your companions. While you’re raging, the first creature you hit with an attack on your turn becomes the target of the warriors. Until the start of your next turn or until your rage ends, that target has disadvantage on any attack roll that doesn't target you, and creatures other than you have resistance to the damage of the target’s attacks.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Spirit Shield</name>
+                <text>Beginning at 6th level, the guardian spirits that aid you can provide supernatural protection for your allies. If you are raging and a creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by 2d8.</text>
+				<text>	When you reach certain levels in this class, you can reduce the damage by more: by 3d8 at 10th level and by 4d8 at 14th level.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Consult the Spirits</name>
+                <text>At 10th level, you gain the ability to consult with your ancestral spirits and use them to scout far- off areas. When you do so, you cast the clairvoyance spell, without needing a spell slot. Rather than creating a spherical sensor, the spell invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for the spell.</text>
+				<text>	After you cast the spell in this way, you can’t do so again until you finish a short or long rest.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Vengeful Ancestors</name>
+                <text>At 14th level, your ancestral spirits grow powerful enough to strike foes that dare to harm those you protect. When you use your Spirit Shield to protect a creature damaged by an attack, the attacker takes the same amount of damage that your Spirit Shield prevents.</text>
+            </feature>
+		</autolevel>
+
+	<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Zealot (UA)</name>
+                <text>Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots - warriors who channel their rage into powerful displays of divine power.</text>
+                <text>	A variety of gods across the worlds of D&amp;D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Barbarian Primal Paths, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Zealot: Divine Fury</name>
+                <text>Starting when you choose this path at 3rd level, you can channel divine fury when you start to rage. If you do so, you become cloaked in an aura of divine power until the rage ends. At the end of each of your turns for that duration, each creature within 5 feet of you takes damage equal to 1d6 + half your barbarian level. The damage is necrotic or radiant; you choose the type of damage when you gain this feature.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Zealot: Warrior of the Gods</name>
+                <text>At 3rd level, your soul is marked for endless battle. If a spell would have the sole effect of restoring you to life (but not undeath), the caster does not need material components to cast the spell on you.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Zealot: Zealot Focus</name>
+                <text>At 6th level, the divine power that fuels your rage can shield you from harm. If you fail a saving throw while raging, you can instead succeed on that saving throw as a reaction. However, doing so immediately ends your rage, and you can't rage again until you finish a short or long rest.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Zealot: Zealous Presence</name>
+                <text>At 10th level, you learn to channel divine power to inspire zealotry in others. As an action, you howl in fury and unleash a battle cry infused with divine energy. Every ally within 60 feet of you gains advantage on attack rolls and saving throws until the start of your next turn.</text>
+                <text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Zealot: Rage Beyond Death</name>
+                <text>Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.</text>
+                <text>	While raging, having 0 hit points doesn't knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends.</text>
+            </feature>
+		</autolevel>
+
+	<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Totem Warrior</name>
+                <text>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.</text>
+                <text />
+                <text>Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Spirit Seeker</name>
+                <text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Totem Spirit</name>
+                <text>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment — that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.</text>
+                <text>Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Bear)</name>
+                <text>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Eagle)</name>
+                <text>While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Elk)</name>
+                <text>While you're raging and aren't wearing heaving armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Tiger)</name>
+                <text>While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Wolf)</name>
+                <text>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Aspect of the Beast</name>
+                <text>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Bear</name>
+                <text>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Eagle</name>
+                <text>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Elk</name>
+                <text>Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. The elk spirit helps you roam far and fast.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Tiger</name>
+                <text>You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Wolf</name>
+                <text>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Spirit Walker</name>
+                <text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Totemic Attunement</name>
+                <text>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Bear</name>
+                <text>While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Eagle</name>
+                <text>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Elk</name>
+                <text>While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked prone and take bludgeoning damage equal to 1d12 + your strength modifier.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Tiger</name>
+                <text>While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Wolf</name>
+                <text>While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</text>
+            </feature>
+		</autolevel>
+
+	<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Storm Herald (UA)</name>
+                <text>Typical barbarians harbor a fury that dwells within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn instead to transform their rage into a mantle of primal magic that swirls around them. When in a fury, a barbarian of this path taps into nature to create powerful, magical effects.</text>
+                <text>	Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect the natural realm. Other storm heralds hone their craft in elite lodges founded in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Barbarian Primal Paths, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Storm of Fury </name>
+                <text>When you select this path at 3rd level, choose one of the following options: desert, sea, or tundra. The environment you choose shapes the nature of the storm you conjure when you rage.</text>
+                <text>	While raging, you emanate an aura in a 10-foot radius. The effects of this aura depend on your chosen environment.</text>
+                <text />
+                <text>Desert: Any enemy that ends its turn in your aura takes fire damage equal to 2 + your barbarian level divided by 4.</text>
+                <text />
+                <text>Sea: At the end of each of your turns, you can choose a creature in your aura, other than yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. This damage increases to 3d6 at 10th level and to 4d6 at 15th level.</text>
+                <text />
+                <text>Tundra: Any enemy that ends its turn in your aura takes cold damage equal to 2 + your barbarian level divided by 4.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Storm Soul</name>
+                <text>At 6th level, your link to the power of the storm grants you additional abilities based on the environment you chose at 3rd level.</text>
+                <text />
+                <text>Desert: You gain resistance to fire damage and don't suffer the effects of extreme heat.</text>
+                <text />
+                <text>Sea: You gain resistance to lightning damage and can breathe underwater.</text>
+                <text />
+                <text>Tundra. You gain resistance to cold damage and don't suffer the effects of extreme cold.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Shield of the Storm</name>
+                <text>At 10th level, you learn to use your mastery of the storm to protect your allies. While you are raging, allies within your aura gain the benefits of your Storm Soul feature.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Storm Herald Raging Storm</name>
+                <text>At 14th level, the power of the storm you channel grows mightier.</text>
+                <text />
+                <text>Desert: The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura must make a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed drops to 0 until the start of its next turn.</text>
+                <text />
+                <text>Sea: Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+                <text />
+                <text>Tundra: The air around you coldly slows your foes. The area within your aura is difficult terrain for your enemies.</text>
+                <text />
+            </feature>
+		</autolevel>
+
+	<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Battlerager</name>
+                <text>Known as Kuldjargh (literally "axe idiot") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Battlerager: Restriction - Dwarves Only</name>
+                <text>Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.</text>
+                <text />
+                <text>Your DM can lift this restriction to better suite the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Battlerager: Battlerager Armor</name>
+                <text>When you choose this path at 3rd level, you gain the ability to use spiked armor as a weapon.</text>
+                <text />
+                <text>While you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.</text>
+                <text />
+                <text>Additionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Battlerager: Reckless Abandon</name>
+                <text>Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Battlerager: Battlerager Charge</name>
+                <text>Beginning at 10th level, you can take the Dash action as a bonus action while you are raging.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Battlerager: Spiked Retribution</name>
+                <text>Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor</text>
+            </feature>
+		</autolevel>
+
+	</class><class name="Barbarian !Base">
+		<name>Barbarian !Base</name>
+<hd>12</hd>
+        <proficiency>Strength, Constitution</proficiency>
+
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>Armor: light armor, medium armor, shields</text>
+                <text>Weapons: simple weapons, martial weapons</text>
+                <text>Tools: none</text>
+                <text>Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text />
+                <text>• (a) a greataxe or (b) any martial melee weapon</text>
+                <text>• (a) two handaxes or (b) any simple weapon</text>
+                <text>• An explorer's pack, and four javelins</text>
+                <text />
+                <text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="1">
+            <feature>
+                <name>Rage</name>
+                <text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</text>
+                <text>    While raging, you gain the following benefits if you aren't wearing heavy armor:</text>
+                <text />
+                <text>• You have advantage on Strength checks and Strength saving throws.</text>
+                <text>• When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.</text>
+                <text>• You have resistance to bludgeoning, piercing, and slashing damage.</text>
+                <text />
+                <text>If you are able to cast spells, you can't cast them or concentrate on them while raging.</text>
+                <text>    Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</text>
+                <text>    Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+            </feature>
+            <feature>
+                <name>Unarmored Defense</name>
+                <text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="2">
+            <feature>
+                <name>Danger Sense</name>
+                <text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+            </feature>
+            <feature>
+                <name>Reckless Attack</name>
+                <text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="3">
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 3 times before a long rest.</text>
+            </feature>
+            <feature>
+                <name>Primal Path</name>
+                <text>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</text>
+            </feature>
+			
+        </autolevel>
+
+        <autolevel level="4">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="5">
+            <feature>
+                <name>Extra Attack</name>
+                <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+            </feature>
+            <feature>
+                <name>Fast Movement</name>
+                <text>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</text>
+                <modifier category="bonus">speed +10</modifier>
+            </feature>
+        </autolevel>
+
+        <autolevel level="6">
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 4 times before a long rest.</text>
+            </feature>
+			
+        </autolevel>
+
+        <autolevel level="7">
+            <feature>
+                <name>Feral Instinct</name>
+                <text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</text>
+                <text>    Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="8">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="9">
+            <feature>
+                <name>Brutal Critical (1 die)</name>
+                <text>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</text>
+                <text>    This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
+            </feature>
+            <feature>
+                <name>Increased Rage Damage</name>
+                <text>You now have a +3 bonus to melee damage rolls while raging.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="10">
+			
+        </autolevel>
+
+        <autolevel level="11">
+            <feature>
+                <name>Relentless Rage</name>
+                <text>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</text>
+                <text>    Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="12">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 5 times before a long rest</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="13">
+            <feature>
+                <name>Brutal Critical (2 dice)</name>
+                <text>You now roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="14">
+			
+        </autolevel>
+
+        <autolevel level="15">
+            <feature>
+                <name>Persistent Rage</name>
+                <text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="16">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+            <feature>
+                <name>Increased Rage Damage</name>
+                <text>You now have a +4 bonus to melee damage rolls while raging.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="17">
+            <feature>
+                <name>Brutal Critical (3 dice)</name>
+                <text>You now roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
+            </feature>
+            <feature>
+                <name>Increased Rages</name>
+                <text>You may now rage 6 times before a long rest</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="18">
+            <feature>
+                <name>Indomitable Might</name>
+                <text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="19">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="20">
+            <feature>
+                <name>Primal Champion</name>
+                <text>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</text>
+                <modifier category="ability score">strength +4</modifier>
+                <modifier category="ability score">constitution +4</modifier>
+            </feature>
+            <feature>
+                <name>Unlimited Rages</name>
+                <text>At 20th level, there is no limit to the number of times you may rage.</text>
+            </feature>
+        </autolevel>
+    </class><class name="Barbarian (Ancestral Guardian)">
+	<name>Barbarian (Ancestral Guardian)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Ancestral Guardian (UA)</name>
+                <text>Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger in the world as mighty spirits, who can guide and protect the living. When a barbarian who follows this path rages, the barbarian contacts the spirit world and calls on these guardian spirits for aid in a time of need.</text>
+                <text>	Barbarians who draw on their ancestral guardians can better fight to protect their tribes and their allies.</text>
+                <text>	In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell sagas of victories against terrible monsters and other fearsome rivals.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Revised Subclasses, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Barbarian Primal Paths</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Ancestral Protectors</name>
+                <text>Starting when you choose this path at 3rd level, spectral warriors appear when you enter your rage. These warriors distract a foe you strike and hinder its attempts to harm your companions. While you’re raging, the first creature you hit with an attack on your turn becomes the target of the warriors. Until the start of your next turn or until your rage ends, that target has disadvantage on any attack roll that doesn't target you, and creatures other than you have resistance to the damage of the target’s attacks.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Spirit Shield</name>
+                <text>Beginning at 6th level, the guardian spirits that aid you can provide supernatural protection for your allies. If you are raging and a creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage by 2d8.</text>
+				<text>	When you reach certain levels in this class, you can reduce the damage by more: by 3d8 at 10th level and by 4d8 at 14th level.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Consult the Spirits</name>
+                <text>At 10th level, you gain the ability to consult with your ancestral spirits and use them to scout far- off areas. When you do so, you cast the clairvoyance spell, without needing a spell slot. Rather than creating a spherical sensor, the spell invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for the spell.</text>
+				<text>	After you cast the spell in this way, you can’t do so again until you finish a short or long rest.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Ancestral Guardian: Vengeful Ancestors</name>
+                <text>At 14th level, your ancestral spirits grow powerful enough to strike foes that dare to harm those you protect. When you use your Spirit Shield to protect a creature damaged by an attack, the attacker takes the same amount of damage that your Spirit Shield prevents.</text>
+            </feature>
+		</autolevel>
+
+	</class><class name="Barbarian (Battlerager)">
+	<name>Barbarian (Battlerager)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Battlerager</name>
+                <text>Known as Kuldjargh (literally "axe idiot") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Battlerager: Restriction - Dwarves Only</name>
+                <text>Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.</text>
+                <text />
+                <text>Your DM can lift this restriction to better suite the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Battlerager: Battlerager Armor</name>
+                <text>When you choose this path at 3rd level, you gain the ability to use spiked armor as a weapon.</text>
+                <text />
+                <text>While you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.</text>
+                <text />
+                <text>Additionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Battlerager: Reckless Abandon</name>
+                <text>Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Battlerager: Battlerager Charge</name>
+                <text>Beginning at 10th level, you can take the Dash action as a bonus action while you are raging.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Battlerager: Spiked Retribution</name>
+                <text>Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor</text>
+            </feature>
+		</autolevel>
+
+	</class><class name="Barbarian (Berserker)">
+	<name>Barbarian (Berserker)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Berserker</name>
+                <text>For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Berserker: Frenzy</name>
+                <text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Berserker: Mindless Rage</name>
+                <text>Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Berserker: Intimidating Presence</name>
+                <text>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.</text>
+                <text>    If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Berserker: Retaliation</name>
+                <text>Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature.</text>
+            </feature>
+		</autolevel>
+
+	</class><class name="Barbarian (Storm Herald)">
+	<name>Barbarian (Storm Herald)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Storm Herald (UA)</name>
+                <text>Typical barbarians harbor a fury that dwells within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn instead to transform their rage into a mantle of primal magic that swirls around them. When in a fury, a barbarian of this path taps into nature to create powerful, magical effects.</text>
+                <text>	Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect the natural realm. Other storm heralds hone their craft in elite lodges founded in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Barbarian Primal Paths, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Storm of Fury </name>
+                <text>When you select this path at 3rd level, choose one of the following options: desert, sea, or tundra. The environment you choose shapes the nature of the storm you conjure when you rage.</text>
+                <text>	While raging, you emanate an aura in a 10-foot radius. The effects of this aura depend on your chosen environment.</text>
+                <text />
+                <text>Desert: Any enemy that ends its turn in your aura takes fire damage equal to 2 + your barbarian level divided by 4.</text>
+                <text />
+                <text>Sea: At the end of each of your turns, you can choose a creature in your aura, other than yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. This damage increases to 3d6 at 10th level and to 4d6 at 15th level.</text>
+                <text />
+                <text>Tundra: Any enemy that ends its turn in your aura takes cold damage equal to 2 + your barbarian level divided by 4.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Storm Soul</name>
+                <text>At 6th level, your link to the power of the storm grants you additional abilities based on the environment you chose at 3rd level.</text>
+                <text />
+                <text>Desert: You gain resistance to fire damage and don't suffer the effects of extreme heat.</text>
+                <text />
+                <text>Sea: You gain resistance to lightning damage and can breathe underwater.</text>
+                <text />
+                <text>Tundra. You gain resistance to cold damage and don't suffer the effects of extreme cold.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Storm Herald: Shield of the Storm</name>
+                <text>At 10th level, you learn to use your mastery of the storm to protect your allies. While you are raging, allies within your aura gain the benefits of your Storm Soul feature.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Storm Herald Raging Storm</name>
+                <text>At 14th level, the power of the storm you channel grows mightier.</text>
+                <text />
+                <text>Desert: The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura must make a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed drops to 0 until the start of its next turn.</text>
+                <text />
+                <text>Sea: Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+                <text />
+                <text>Tundra: The air around you coldly slows your foes. The area within your aura is difficult terrain for your enemies.</text>
+                <text />
+            </feature>
+		</autolevel>
+
+	</class><class name="Barbarian (Totem Warrior)">
+	<name>Barbarian (Totem Warrior)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Totem Warrior</name>
+                <text>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.</text>
+                <text />
+                <text>Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Spirit Seeker</name>
+                <text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Totem Spirit</name>
+                <text>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment — that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.</text>
+                <text>Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Bear)</name>
+                <text>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Eagle)</name>
+                <text>While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Elk)</name>
+                <text>While you're raging and aren't wearing heaving armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Tiger)</name>
+                <text>While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totem Spirit (Wolf)</name>
+                <text>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Aspect of the Beast</name>
+                <text>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Bear</name>
+                <text>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Eagle</name>
+                <text>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Elk</name>
+                <text>Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. The elk spirit helps you roam far and fast.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Tiger</name>
+                <text>You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Aspect of the Beast: Wolf</name>
+                <text>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Spirit Walker</name>
+                <text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Totem Warrior: Totemic Attunement</name>
+                <text>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Bear</name>
+                <text>While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Eagle</name>
+                <text>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Elk</name>
+                <text>While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked prone and take bludgeoning damage equal to 1d12 + your strength modifier.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Tiger</name>
+                <text>While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Totemic Attunement: Wolf</name>
+                <text>While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</text>
+            </feature>
+		</autolevel>
+
+	</class><class name="Barbarian (Zealot)">
+	<name>Barbarian (Zealot)</name>
+
+		<autolevel level="3">
+            <feature optional="YES">
+                <name>Primal Path: Path of the Zealot (UA)</name>
+                <text>Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots - warriors who channel their rage into powerful displays of divine power.</text>
+                <text>	A variety of gods across the worlds of D&amp;D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.</text>
+                <text />
+                <text>This Primal Path is from Unearthed Arcana: Barbarian Primal Paths, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Zealot: Divine Fury</name>
+                <text>Starting when you choose this path at 3rd level, you can channel divine fury when you start to rage. If you do so, you become cloaked in an aura of divine power until the rage ends. At the end of each of your turns for that duration, each creature within 5 feet of you takes damage equal to 1d6 + half your barbarian level. The damage is necrotic or radiant; you choose the type of damage when you gain this feature.</text>
+            </feature>
+            <feature optional="YES">
+                <name>Path of the Zealot: Warrior of the Gods</name>
+                <text>At 3rd level, your soul is marked for endless battle. If a spell would have the sole effect of restoring you to life (but not undeath), the caster does not need material components to cast the spell on you.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="6">
+            <feature optional="YES">
+                <name>Path of the Zealot: Zealot Focus</name>
+                <text>At 6th level, the divine power that fuels your rage can shield you from harm. If you fail a saving throw while raging, you can instead succeed on that saving throw as a reaction. However, doing so immediately ends your rage, and you can't rage again until you finish a short or long rest.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="10">
+            <feature optional="YES">
+                <name>Path of the Zealot: Zealous Presence</name>
+                <text>At 10th level, you learn to channel divine power to inspire zealotry in others. As an action, you howl in fury and unleash a battle cry infused with divine energy. Every ally within 60 feet of you gains advantage on attack rolls and saving throws until the start of your next turn.</text>
+                <text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+            </feature>
+		</autolevel>
+
+		<autolevel level="14">
+            <feature optional="YES">
+                <name>Path of the Zealot: Rage Beyond Death</name>
+                <text>Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.</text>
+                <text>	While raging, having 0 hit points doesn't knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends.</text>
+            </feature>
+		</autolevel>
+
+	</class></compendium>
