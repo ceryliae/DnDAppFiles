@@ -9,7 +9,8 @@
 <modifier category="bonus">ABC [+/-]##</modifier>
 
 <!-- special hard-coded bonuses that impact AC, Attack, and Check calculations, eg Fighting Style: (Archery|Defense|Dueling), Jack of all Trades, Unarmored Defense: (Ability)-->
-<special></special>
+<special>
+</special>
 
 <!-- Saving Throws, and Skills to include Proficiency Bonus -->
 <proficiency>Intelligence, Acrobatics</proficiency>
@@ -231,10 +232,227 @@
 		<!-- same content as <class> -->
 	</subclass>
 
-	<any UA="<source_name>" M="M" HB="<attribution>" IL="">
-		 <!-- attributes UA|M|HB|IL used for filtering content from generated compendiums -->
+	<any UA="<source_name>" MF="" HB="<attribution>" IL="">
+		 <!-- attributes UA|MF|HB|IL used for filtering content from generated compendiums. UnearthedArcana Modern/Future HomeBrew Inlined-Lists(eg repeated Eldritch Invocations) -->
 	</any>
 	<spell PS="">
 		<!-- attribute PS is also simple-filtering but intended for adding entries to Spell lists that are not strictly spells-->
 	</spell>
 </compendium>
+
+<!-- This is the data format used in cloudCompendium.xml backups, especially the default content-->
+<data>
+	<version>22</version> <!-- circa July 2017 -->
+
+	<!-- RegExp <spell><source>1</source><name>([^<]*)</name>(?:<level>\d</level>)?<school>\d</school>(?:<ritual>1</ritual>)?<time>[^<]*</time><range>[^<]*</range><components>[^<]*</components><duration>[^<]*</duration><text>[^<]*</text> -->
+	<spell>
+		<source>1</source> <!-- '1' seems to 'default content, show license' -->
+		<name>Color Spray</name>
+		<level>1</level> <!-- omitted on cantrips (0) -->
+		<school>6</school> <!-- 1: 2: 3: 4: 5: 6:Illusion 7:-->
+		<ritual>1</ritual> <!-- omitted if false (0) -->
+		<time>1 action</time>
+		<range>Self (15 foot cone)</range>
+		<components>V, S, M (a pinch of powder or sand that is colored red, yellow, and blue)</components>
+		<duration>1 round</duration>
+		<text>A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15 foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can’t see).
+    Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected.
+    At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.</text>
+		<sclass>Sorcerer</sclass>
+		<sclass>Wizard</sclass>
+	</spell>
+
+	<!-- RegExp <item>(?:<(source|name|detail|text|type|weight|magic|ac|strength|stealth|damage1H|damage2H|damageType|weaponProperty|weaponRange|weaponLongRange)>[^<]*</\1>)+</item> -->
+	<item>
+		<source>1</source>
+		<name>Piton</name>
+		<weight>0.25</weight>
+	</item>
+
+	<item>
+		<source>1</source>
+		<name>Hammer of Thunderbolts</name>
+		<detail>legendary</detail> <!-- subtitle, eg restrictions -->
+		<text>...</text>
+		<type>5</type>
+		<weight>10</weight>
+		<magic>1</magic>
+		<damage1H>2d6</damage1H>
+		<damageType>1</damageType>
+		<weaponProperty>260</weaponProperty>
+	</item>
+
+	<!-- RegExp <race>(?:<(source|name|size|speed|feat|mod)>(?![<]/\1>)[\d\D]*?</\1>)+</race> -->
+	<race>
+		<source>1</source>
+		<name>Rock Gnome</name>
+		<spellAbility>5</spellAbility>
+		<size>1</size>
+		<speed>25</speed>
+		<feat>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Infernal.</text>
+		</feat>
+		<feat />
+		<mod>
+			<category>1</category>
+			<type>5</type>
+			<value>2</value>
+		</mod>
+		<mod />
+		<spell>
+			<source>1</source>
+			<name>Darkness</name>
+			<level>2</level>
+			<school>5</school>
+			<time>1 action</time>
+			<range>60 feet</range>
+			<components>V, M (bat fur and a drop of pitch or piece of coal)</components>
+			<duration>Concentration, up to 10 minutes</duration>
+			<text>Magical darkness spreads from a point you choose within range to fill a 15 foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can’t see through this darkness, and nonmagical light can’t illuminate it. If the point you choose is on an object you are holding or one that isn’t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
+				If any of this spell’s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</text>
+			<sclass>Sorcerer</sclass>
+			<sclass>Warlock</sclass>
+			<sclass>Wizard</sclass>
+		</spell>
+	</race>
+
+	<!-- RegExp <class>(?:<(source|id|name|hd|spellAbility|slots|slotsCurrent|proficiency|autolevel)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</class> -->
+	<class>
+		<source>1</source>
+		<id>2611</id>
+		<name>Cleric</name>
+		<hd>2</hd>
+		<spellAbility>4</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+		<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+		<proficiency>4</proficiency>
+		<proficiency>5</proficiency>
+
+		<!-- <autolevel>(?:<(level|slots|feat)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</autolevel> -->
+		<autolevel>
+			<level>2</level>
+			<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+
+			<!-- <feat>(?:<(optional|name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat> -->
+			<feat>
+				<optional>1</optional>
+				<name>Life Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</text>
+			</feat>
+			<feat />
+		</autolevel>
+
+		<numClassSkills>2</numClassSkills>
+	</class>
+
+	<!-- <background>(?:<(source|name|feat|proficiency)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</background> -->
+	<background>
+		<source>1</source>
+		<name>Acolyte</name>
+
+		<!-- <feat>(?:<(name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat> -->
+		<feat>
+			<name>Languages</name>
+			<text>Two of your choice</text>
+		</feat>
+		<feat>
+			<name>Shelter of the Faithful</name>
+			<text>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.
+	You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</text>
+		</feat>
+		<proficiency>114</proficiency>
+		<proficiency>106</proficiency>
+	</background>
+
+	<!-- <feat>(?:<(source|name|prereq|text)>(?![<]/\1>)[\d\D]*?</\1>\n?)+</feat> -->
+	<feat>
+		<source>1</source>
+		<name>Grappler</name>
+		<prereq>Strength 13 or higher</prereq>
+		<text>You’ve developed the skills necessary to hold your own in close quarters grappling. You gain the following benefits:
+• You have advantage on attack rolls against a creature you are grappling.
+• You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.</text>
+	</feat>
+
+	<!-- <monster>(?:<(src|name|size|type|alignment|ac|armor|hpMax|hpCurrent|speed|abilities|savingThrow|skill|vulnerable|resist|immune|conditionImmune|senses|passive|languages|cr|trait|action|reaction|legendary)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</monster> -->
+	<!-- <monster>(?:<(src|name|size|type|alignment|ac|armor|hpMax|hpCurrent|speed|abilities|savingThrow|skill|vulnerable|resist|immune|conditionImmune|senses|passive|languages|cr)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+((?:<(trait|action|reaction|legendary)>.*</\3>\n?\t?)*)</monster> -->
+	<!-- => <monster>$2</monster> -->
+	<!-- (?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+-->
+	<!-- <monster>(?:<trait>(?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</trait>\n?\t?)*(?:<action>(?:<(name|text|attack)>(?![<]/\2>)[\d\D]*?</\2>\n?\t?)+</action>\n?\t?)*</monster> -->
+	<!--((?:<reaction>(?:<(name|text|attack)>(?![<]/\4>)[\d\D]*?</\4>\n?\t?)+</reaction>\n?\t?)*)((?:<legendary>(?:<(name|text|attack)>(?![<]/\5>)[\d\D]*?</\5>\n?\t?)+</legendary>\n?\t?)*)-->
+	<monster>
+		<src>1</src>
+		<name>Steam Mephit</name>
+		<size>1</size>
+		<type>elemental</type>
+		<alignment>neutral evil</alignment>	<hpMax>21</hpMax>
+		<hpCurrent>1</hpCurrent>
+		<speed>30 ft., fly 30 ft.</speed>	<abilities>5,11,10,11,10,12,</abilities>
+		<immune>fire, poison</immune> <!-- serialization has literal \n\t -->
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<languages>Aquan, Ignan</languages>
+		<cr>-1</cr>
+
+		<!-- <trait>(?:<(name|text|attack)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+</trait> -->
+		<trait>
+			<name>Death Burst</name>
+			<text>When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.</text>
+
+			<!-- <trait>(?:<(name|text)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)+<attack>(?:<(name|damage)>(?![<]/\1>)[\d\D]*?</\1>\n?\t?)</attack></trait> -->
+			<attack>
+				<name>Death Burst</name>
+				<damage>1d8</damage>
+			</attack>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (1/Day)</name>
+			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire damage.</text>
+			<attack>
+				<name>Claws</name>
+				<attackBonus>2</attackBonus>
+				<damage>2d4</damage>
+			</attack>
+		</action>
+		<action>
+			<name>Steam Breath (Recharge 6)</name>
+			<text>The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+		</action>
+		<action>
+			<name>Variant: Summon Mephits (1/Day)</name>
+			<text>The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can&#39;t summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.</text>
+		</action>
+	</monster>
+
+	<character>
+		<name></name>
+		<race>...</race>
+		<class>...</class>
+		<background>...</background>
+		<xp>0</xp>
+		<abilities>10,10,10,10,10,10,</abilities>
+		<hpMax></hpMax>
+		<hpCurrent></hpCurrent>
+		<hpTemp></hpTemp>
+		<feat>...</feat>
+		<item></item>
+		<container>
+			<name>Storage</name>
+			<item>
+				<name>Copper (cp)</name>
+				<text>bar</text>
+				<type>15</type>
+				<quantity>10</quantity>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<attack></attack>
+		<track></track>
+		<monster></monster>
+	</character>
+</data>

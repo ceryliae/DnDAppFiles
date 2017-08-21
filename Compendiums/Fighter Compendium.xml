@@ -231,31 +231,68 @@
 		<name>Martial Archetype: Arcane Archer (UA)</name>
 		<text>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.</text>
 		<text />
-		<text>This Martial Archetype is from Unearthed Arcana: Fighter Martial Archetypes, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>This Martial Archetype is from Unearthed Arcana: Revised Subclasses, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>	This had an earlier version included in Unearthed Arcana: Fighter Martial Archetypes</text>
 	  </feature>
 	  <feature optional="YES">
-		<name>Arcane Archer: Arcane Arrow</name>
-		<text>When you choose this archetype at 3rd level, you learn to channel magic into your attacks with a longbow or shortbow.</text>
-		<text />
-		<text>Create Magic Arrow:</text>
-		<text>	As a bonus action on your turn, you can create one magic arrow in your hand. The arrow lasts until the end of the turn or until it hits or misses a target. You can fire the arrow from a shortbow or longbow. The arrow is a magic weapon that deals an additional 2d6 force damage on a hit.</text>
-		<text>	You have two uses of this feature, and you regain all expended uses of it when you finish a short or long rest.</text>
-		<text />
-		<text>Arcane Shot:</text>
-		<text>	When you gain this feature, you learn two Arcane Shot options of your choice (see the Arcane Shots section below). Whenever you create a magic arrow with this feature, you can apply the benefits of one of your Arcane Shot options to that arrow.</text>
-		<text>	You gain an additional Arcane Shot option of your choice at 7th, 10th, 15th, and 18th level.</text>
+		<name>Arcane Archer: Magic Arrow</name>
+		<text>When you choose this archetype at 3rd level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it a magic arrow, with a +1 bonus to the attack and damage rolls. The magic fades from the arrow immediately after it hits or misses its target.</text>
+	  </feature>
+	<feature optional="YES">
+		<name>Arcane Archer: Arcane Shot</name>
+		<text>At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see the “Arcane Shot Options” section below).</text>
+		<text>	Once per turn when you fire a magic arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits, unless the option doesn’t involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.</text>
+		<text>	You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.</text>
 	  </feature>
 	  <feature optional="YES">
-		<name>Arcane Archer: Archer's Lore</name>
-		<text>At 3rd level, you learn a few skills relating to the typical duties of an Arcane Archer. You learn to understand magical theory and develop survival skills for wandering the wilds.</text>
-		<text>	You gain proficiency in two of the following skills of your choice: Arcana, Athletics, Nature, Perception, Stealth, and Survival.</text>
+		<name>Arcane Archer: Arcane Archer's Lore</name>
+		<text>At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You gain proficiency in either the Arcana or the Nature skill.</text>
 	  </feature>
+	</autolevel>
+	<autolevel level="3">
+		<feature optional="YES">
+			<name>Arcane Archer: Arcane Shot Options</name>
+			<text>The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.</text>
+			<text>	If an option requires a saving throw, your Arcane Shot save DC equals 8 + your proficiency bonus + your Intelligence modifier.</text>
+			<text />
+			<text>	Banishing Arrow:</text>
+			<text>You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.</text>
+			<text>	After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.</text>
+			<text />
+			<text>	Brute Bane Arrow:</text>
+			<text>You weave necromantic magic into your arrow. If the arrow hits a creature, the target takes an extra 2d6 necrotic damage, and it must make a Constitution saving throw. On a failed save, the damage of the target’s attacks is halved until the start of your next turn.</text>
+			<text>	The necrotic damage increases to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Bursting Arrow:</text>
+			<text>You imbue your arrow with a blast of force energy drawn from the school of evocation. If the arrow hits a creature, the target and each creature within 10 feet of it also take 2d6 force damage each.</text>
+			<text>	The force damage increases to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Grasping Arrow:</text>
+			<text>When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. If the arrow hits a creature, the target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.</text>
+			<text>	The poison and slashing damage both increase to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Mind-Scrambling Arrow:</text>
+			<text>Your enchantment magic causes this arrow to temporarily beguile its target. Choose one of your allies within 30 feet of the target. If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or it can’t attack the chosen ally or include that ally in a harmful area of effect until the start of your next turn. This effect ends early if the chosen ally deals any damage to the target.</text>
+			<text>	The psychic damage increases to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Piercing Arrow:</text>
+			<text>You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.</text>
+			<text>	The piercing damage increases to 2d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Seeking Arrow:</text>
+			<text>Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. On a failed save, it takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.</text>
+			<text>	The force damage increases to 2d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Shadow Arrow:</text>
+			<text>You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.</text>
+			<text>	The psychic damage increases to 4d6 when you reach 18th level in this class.</text>
+		</feature>
 	</autolevel>
 
 	<autolevel level="7">
 	  <feature optional="YES">
-		<name>Arcane Archer: Conjure Arrows</name>
-		<text>At 7th level, you learn a minor but useful magical trick. As an action, you can conjure 20 nonmagical arrows. The arrows appear in your hand or in a container, such as a quiver, on your body. The arrows remain for 10 minutes or until you use this feature again; they then vanish.</text>
+		<name>Arcane Archer: Curving Shot</name>
+		<text>At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.</text>
 	  </feature>
 	  <feature optional="YES">
 		<name>Arcane Archer: Arcane Shot Option (3rd)</name>
@@ -272,8 +309,8 @@
 
 	<autolevel level="15">
 	  <feature optional="YES">
-		<name>Arcane Archer: Ever-Ready Arrow</name>
-		<text>Starting at 15th level, you can conjure forth a magic-infused arrow more often than before. One minute after expending your last remaining use of Arcane Arrow, you regain one use of it.</text>
+		<name>Arcane Archer: Ever-Ready Shot</name>
+		<text>Starting at 15th level, your magical archery is ever available to you when you need it most. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it</text>
 	  </feature>
 	  <feature optional="YES">
 		<name>Arcane Archer: Arcane Shot Option (5th)</name>
@@ -442,18 +479,22 @@
 	<autolevel level="3">
 	  <feature optional="YES">
 		<name>Martial Archetype: Cavalier (UA)</name>
-		<text>The archetypal Cavalier excels at mounted combat. Usually born to nobility and raised in a royal court, a Cavalier is equally at home leading a cavalry charge or exchanging witty repartee at a state dinner.</text>
+		<text>The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.</text>
 		<text />
-		<text>This Martial Archetype is from Unearthed Arcana: Kits of Old, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>This Martial Archetype is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>	This had an earlier version included in Unearthed Arcana: Kits of Old</text>
 	  </feature>
+
 	  <feature optional="YES">
-		<name>Cavalier: Bonus Proficiencies</name>
-		<text>When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Animal Handling, Insight, Performance, or Persuasion. You can choose to gain one tool proficiency in place of one skill proficiency.</text>
+		<name>Cavalier: Bonus Proficiency</name>
+		<text>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.</text>
 	  </feature>
 	  <feature optional="YES">
 		<name>Cavalier: Born to the Saddle</name>
-		<text>At 3rd level, you have advantage on saving throws made to avoid falling off your mount. If you fall off your mount, you always land on your feet if you are capable of taking actions. Mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
+		<text>Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you’re not incapacitated.</text>
+		<text>Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
 	  </feature>
+
 		<slots optional="YES">0,4</slots>
 	  <feature optional="YES">
 		<name>Cavalier: Combat Superiority</name>
@@ -463,16 +504,17 @@
 		<text>	You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</text>
 		<text>	You gain another superiority die at 7th level and one more at 15th level.</text>
 		<text />
-		<text>Using Superiority Dice:</text>
-		<text>	You can expend superiority dice to gain a number of different benefits.</text>
+		<text>Maneuvers:</text>
+		<text>	You spend your superiority dice on your maneuvers. You can use more than one maneuver per turn, but no more than one maneuver per attack.</text>
+		<text>	You know the following maneuvers:</text>
 		<text />
-		<text>• When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.</text>
+		<text>Control Mount. When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
 		<text />
-		<text>• When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</text>
+		<text>Precision Attack. When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
 		<text />
-		<text>• When you make an attack with a lance while mounted, you can expend one superiority die to add it to your damage roll. In addition, the target of the attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+		<text>Trip Attack. When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack’s damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
 		<text />
-		<text>• If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a reaction, adding the number rolled to your or your mount's AC. If the attack still hits, you or your mount take half damage from it.</text>
+		<text>Warding Maneuver. If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you’re wielding a weapon or a shield. Roll the die, and add the number rolled to the target’s AC against that attack. If the attack still hits, the target has resistance against the attack’s damage.</text>
 	  </feature>
 	</autolevel>
 
@@ -480,7 +522,7 @@
 	  <slots optional="YES">0,5</slots>
 	  <feature optional="YES">
 		<name>Cavalier: Ferocious Charger</name>
-		<text>At 7th level, you gain additional benefits when you use superiority dice to increase your damage when you attack with a lance. You can expend up to two superiority dice on the attack, adding both to the damage roll. If you spend two dice, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
+		<text>At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
 	  </feature>
 	</autolevel>
 
@@ -495,7 +537,7 @@
 	  <slots optional="YES">0,6</slots>
 	  <feature optional="YES">
 		<name>Cavalier: Relentless</name>
-		<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</text>
+		<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die.</text>
 	  </feature>
 	</autolevel>
 
@@ -1232,31 +1274,68 @@
 		<name>Martial Archetype: Arcane Archer (UA)</name>
 		<text>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.</text>
 		<text />
-		<text>This Martial Archetype is from Unearthed Arcana: Fighter Martial Archetypes, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>This Martial Archetype is from Unearthed Arcana: Revised Subclasses, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>	This had an earlier version included in Unearthed Arcana: Fighter Martial Archetypes</text>
 	  </feature>
 	  <feature optional="YES">
-		<name>Arcane Archer: Arcane Arrow</name>
-		<text>When you choose this archetype at 3rd level, you learn to channel magic into your attacks with a longbow or shortbow.</text>
-		<text />
-		<text>Create Magic Arrow:</text>
-		<text>	As a bonus action on your turn, you can create one magic arrow in your hand. The arrow lasts until the end of the turn or until it hits or misses a target. You can fire the arrow from a shortbow or longbow. The arrow is a magic weapon that deals an additional 2d6 force damage on a hit.</text>
-		<text>	You have two uses of this feature, and you regain all expended uses of it when you finish a short or long rest.</text>
-		<text />
-		<text>Arcane Shot:</text>
-		<text>	When you gain this feature, you learn two Arcane Shot options of your choice (see the Arcane Shots section below). Whenever you create a magic arrow with this feature, you can apply the benefits of one of your Arcane Shot options to that arrow.</text>
-		<text>	You gain an additional Arcane Shot option of your choice at 7th, 10th, 15th, and 18th level.</text>
+		<name>Arcane Archer: Magic Arrow</name>
+		<text>When you choose this archetype at 3rd level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it a magic arrow, with a +1 bonus to the attack and damage rolls. The magic fades from the arrow immediately after it hits or misses its target.</text>
+	  </feature>
+	<feature optional="YES">
+		<name>Arcane Archer: Arcane Shot</name>
+		<text>At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see the “Arcane Shot Options” section below).</text>
+		<text>	Once per turn when you fire a magic arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits, unless the option doesn’t involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.</text>
+		<text>	You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.</text>
 	  </feature>
 	  <feature optional="YES">
-		<name>Arcane Archer: Archer's Lore</name>
-		<text>At 3rd level, you learn a few skills relating to the typical duties of an Arcane Archer. You learn to understand magical theory and develop survival skills for wandering the wilds.</text>
-		<text>	You gain proficiency in two of the following skills of your choice: Arcana, Athletics, Nature, Perception, Stealth, and Survival.</text>
+		<name>Arcane Archer: Arcane Archer's Lore</name>
+		<text>At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You gain proficiency in either the Arcana or the Nature skill.</text>
 	  </feature>
+	</autolevel>
+	<autolevel level="3">
+		<feature optional="YES">
+			<name>Arcane Archer: Arcane Shot Options</name>
+			<text>The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.</text>
+			<text>	If an option requires a saving throw, your Arcane Shot save DC equals 8 + your proficiency bonus + your Intelligence modifier.</text>
+			<text />
+			<text>	Banishing Arrow:</text>
+			<text>You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.</text>
+			<text>	After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.</text>
+			<text />
+			<text>	Brute Bane Arrow:</text>
+			<text>You weave necromantic magic into your arrow. If the arrow hits a creature, the target takes an extra 2d6 necrotic damage, and it must make a Constitution saving throw. On a failed save, the damage of the target’s attacks is halved until the start of your next turn.</text>
+			<text>	The necrotic damage increases to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Bursting Arrow:</text>
+			<text>You imbue your arrow with a blast of force energy drawn from the school of evocation. If the arrow hits a creature, the target and each creature within 10 feet of it also take 2d6 force damage each.</text>
+			<text>	The force damage increases to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Grasping Arrow:</text>
+			<text>When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. If the arrow hits a creature, the target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.</text>
+			<text>	The poison and slashing damage both increase to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Mind-Scrambling Arrow:</text>
+			<text>Your enchantment magic causes this arrow to temporarily beguile its target. Choose one of your allies within 30 feet of the target. If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or it can’t attack the chosen ally or include that ally in a harmful area of effect until the start of your next turn. This effect ends early if the chosen ally deals any damage to the target.</text>
+			<text>	The psychic damage increases to 4d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Piercing Arrow:</text>
+			<text>You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.</text>
+			<text>	The piercing damage increases to 2d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Seeking Arrow:</text>
+			<text>Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. On a failed save, it takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.</text>
+			<text>	The force damage increases to 2d6 when you reach 18th level in this class.</text>
+			<text />
+			<text>	Shadow Arrow:</text>
+			<text>You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.</text>
+			<text>	The psychic damage increases to 4d6 when you reach 18th level in this class.</text>
+		</feature>
 	</autolevel>
 
 	<autolevel level="7">
 	  <feature optional="YES">
-		<name>Arcane Archer: Conjure Arrows</name>
-		<text>At 7th level, you learn a minor but useful magical trick. As an action, you can conjure 20 nonmagical arrows. The arrows appear in your hand or in a container, such as a quiver, on your body. The arrows remain for 10 minutes or until you use this feature again; they then vanish.</text>
+		<name>Arcane Archer: Curving Shot</name>
+		<text>At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.</text>
 	  </feature>
 	  <feature optional="YES">
 		<name>Arcane Archer: Arcane Shot Option (3rd)</name>
@@ -1273,8 +1352,8 @@
 
 	<autolevel level="15">
 	  <feature optional="YES">
-		<name>Arcane Archer: Ever-Ready Arrow</name>
-		<text>Starting at 15th level, you can conjure forth a magic-infused arrow more often than before. One minute after expending your last remaining use of Arcane Arrow, you regain one use of it.</text>
+		<name>Arcane Archer: Ever-Ready Shot</name>
+		<text>Starting at 15th level, your magical archery is ever available to you when you need it most. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it</text>
 	  </feature>
 	  <feature optional="YES">
 		<name>Arcane Archer: Arcane Shot Option (5th)</name>
@@ -1452,18 +1531,22 @@
 	<autolevel level="3">
 	  <feature optional="YES">
 		<name>Martial Archetype: Cavalier (UA)</name>
-		<text>The archetypal Cavalier excels at mounted combat. Usually born to nobility and raised in a royal court, a Cavalier is equally at home leading a cavalry charge or exchanging witty repartee at a state dinner.</text>
+		<text>The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.</text>
 		<text />
-		<text>This Martial Archetype is from Unearthed Arcana: Kits of Old, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>This Martial Archetype is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		<text>	This had an earlier version included in Unearthed Arcana: Kits of Old</text>
 	  </feature>
+
 	  <feature optional="YES">
-		<name>Cavalier: Bonus Proficiencies</name>
-		<text>When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Animal Handling, Insight, Performance, or Persuasion. You can choose to gain one tool proficiency in place of one skill proficiency.</text>
+		<name>Cavalier: Bonus Proficiency</name>
+		<text>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.</text>
 	  </feature>
 	  <feature optional="YES">
 		<name>Cavalier: Born to the Saddle</name>
-		<text>At 3rd level, you have advantage on saving throws made to avoid falling off your mount. If you fall off your mount, you always land on your feet if you are capable of taking actions. Mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
+		<text>Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you’re not incapacitated.</text>
+		<text>Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
 	  </feature>
+
 		<slots optional="YES">0,4</slots>
 	  <feature optional="YES">
 		<name>Cavalier: Combat Superiority</name>
@@ -1473,16 +1556,17 @@
 		<text>	You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</text>
 		<text>	You gain another superiority die at 7th level and one more at 15th level.</text>
 		<text />
-		<text>Using Superiority Dice:</text>
-		<text>	You can expend superiority dice to gain a number of different benefits.</text>
+		<text>Maneuvers:</text>
+		<text>	You spend your superiority dice on your maneuvers. You can use more than one maneuver per turn, but no more than one maneuver per attack.</text>
+		<text>	You know the following maneuvers:</text>
 		<text />
-		<text>• When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.</text>
+		<text>Control Mount. When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
 		<text />
-		<text>• When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</text>
+		<text>Precision Attack. When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
 		<text />
-		<text>• When you make an attack with a lance while mounted, you can expend one superiority die to add it to your damage roll. In addition, the target of the attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+		<text>Trip Attack. When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack’s damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
 		<text />
-		<text>• If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a reaction, adding the number rolled to your or your mount's AC. If the attack still hits, you or your mount take half damage from it.</text>
+		<text>Warding Maneuver. If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you’re wielding a weapon or a shield. Roll the die, and add the number rolled to the target’s AC against that attack. If the attack still hits, the target has resistance against the attack’s damage.</text>
 	  </feature>
 	</autolevel>
 
@@ -1490,7 +1574,7 @@
 	  <slots optional="YES">0,5</slots>
 	  <feature optional="YES">
 		<name>Cavalier: Ferocious Charger</name>
-		<text>At 7th level, you gain additional benefits when you use superiority dice to increase your damage when you attack with a lance. You can expend up to two superiority dice on the attack, adding both to the damage roll. If you spend two dice, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
+		<text>At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
 	  </feature>
 	</autolevel>
 
@@ -1505,7 +1589,7 @@
 	  <slots optional="YES">0,6</slots>
 	  <feature optional="YES">
 		<name>Cavalier: Relentless</name>
-		<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</text>
+		<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die.</text>
 	  </feature>
 	</autolevel>
 
@@ -2025,71 +2109,75 @@
 	  </feature>
 	</autolevel>
 
-  </class><spell PS="PS" UA="UA">
-	<name>Cavalier's Defense</name>
-	<level>1</level>
-	<school>EV</school>
-	<time>1 reaction if hit while mounted</time>
-	<range>Self or Mount</range>
-	<components>Mounted</components>
-	<classes>Fighter (Cavalier)</classes>
-	<text>If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a reaction, adding the number rolled to your or your mount's AC. If the attack still hits, you or your mount take half damage from it.</text>
-	<text />
-	<text>Add roll to AC, take half damage if still hit.</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-
-<spell PS="PS" UA="UA">
-	<name>Cavalier's Lance</name>
-	<level>1</level>
-	<school>EV</school>
-	<components>Mounted Attack with a lance</components>
-	<classes>Fighter (Cavalier)</classes>
-	<text>When you make an attack with a lance while mounted, you can expend one superiority die to add it to your damage roll. In addition, the target of the attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
-	<text>	At 7th level, you gain additional benefits when you use superiority dice to increase your damage when you attack with a lance. You can expend up to two superiority dice on the attack, adding both to the damage roll. If you spend two dice, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
-	<text />
-	<text>Add roll to damage, knock prone vs Strength Saving Throw</text>
-	<text>At 7th (class) level, use twice for disadvantage.</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-  <spell PS="PS" UA="UA">
-	<name>Cavalier's Precision</name>
-	<level>1</level>
-	<school>EV</school>
-	<time>free reaction</time>
-	<classes>Fighter (Cavalier)</classes>
-	<text>When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</text>
-	<text />
-	<text>Add roll to Weapon Attack Roll</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-  <spell PS="PS" UA="UA">
-	<name>Cavalier's Ride</name>
-	<level>1</level>
-	<school>EV</school>
-	<components>Mounted Skill Check to influence or control</components>
-	<time>free reaction</time>
-	<classes>Fighter (Cavalier)</classes>
-	<text>When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful</text>
-	<text />
-  	<text>Add roll to Skill Check</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-  <spell>
+  </class><spell PS="PS">
+		<name>Banishing Arrow</name>
+		<level>1</level>
+		<school>A</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild.</text>
+		<text>If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished.</text>
+		<text>While banished in this way, its speed is 0, and it is incapacitated.</text>
+		<text>At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.</text>
+		<text>	After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.</text>
+		<roll>2d6</roll>
+	</spell>
+	<spell PS="PS">
+		<name>Brute Bane Arrow</name>
+		<level>1</level>
+		<school>N</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>You weave necromantic magic into your arrow.  </text>
+		<text>If the arrow hits a creature, the target takes an extra 2d6 necrotic damage, and it must make a Constitution saving throw.</text>
+		<text>On a failed save, the damage of the target’s attacks is halved until the start of your next turn.</text>
+		<text>	The necrotic damage increases to 4d6 when you reach 18th level in this class.</text>
+		<roll>2d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spell PS="PS">
+		<name>Bursting Arrow</name>
+		<level>1</level>
+		<school>EV</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>You imbue your arrow with a blast of force energy drawn from the school of evocation.</text>
+		<text>If the arrow hits a creature, the target and each creature within 10 feet of it also take 2d6 force damage each.</text>
+		<text>	The force damage increases to 4d6 when you reach 18th level in this class.</text>
+		<roll>2d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spell>
 	<name>Commander's Strike</name>
 	<level>1</level>
 	<school>EV</school>
 	<components />
 	<classes>Fighter (Battle Master)</classes>
 	<text>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll.</text>
+  </spell>
+  <spell PS="PS" UA="Revised Class Options">
+	<name>Control Mount</name>
+	<level>1</level>
+	<school />
+	<time>superiority die</time>
+	<range />
+	<components />
+	<classes>Fighter (Cavalier)</classes>
+	<text>When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
+	<text />
+  	<text>Add roll to Skill Check</text>
+	<roll>1d8</roll>
+	<roll>1d10</roll>
+	<roll>1d12</roll>
   </spell>
   <spell>
 	<name>Disarming Attack</name>
@@ -2131,7 +2219,23 @@
 	<classes>Fighter (Battle Master)</classes>
 	<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</text>
   </spell>
-  <spell>
+  <spell PS="PS">
+		<name>Grasping Arrow</name>
+		<level>1</level>
+		<school>C</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target.</text>
+		<text>If the arrow hits a creature, the target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC.</text>
+		<text>Otherwise, the brambles last for 1 minute or until you use this option again.</text>
+		<text>	The poison and slashing damage both increase to 4d6 when you reach 18th level in this class.</text>
+		<roll>2d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spell>
 	<name>Lunging Attack</name>
 	<level>1</level>
 	<school>EV</school>
@@ -2155,7 +2259,24 @@
 	<classes>Fighter (Battle Master)</classes>
 	<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</text>
   </spell>
-  <spell>
+  <spell PS="PS">
+		<name>Mind-Scrambling Arrow</name>
+		<level>1</level>
+		<school>EN</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>Your enchantment magic causes this arrow to temporarily beguile its target.</text>
+		<text>Choose one of your allies within 30 feet of the target.</text>
+		<text>If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or it can’t attack the chosen ally or include that ally in a harmful area of effect until the start of your next turn.</text>
+		<text>This effect ends early if the chosen ally deals any damage to the target.</text>
+		<text>	The psychic damage increases to 4d6 when you reach 18th level in this class.</text>
+		<roll>2d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spell>
 	<name>Parry</name>
 	<level>1</level>
 	<school>EV</school>
@@ -2163,13 +2284,45 @@
 	<classes>Fighter (Battle Master)</classes>
 	<text>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier</text>
   </spell>
-  <spell>
+  <spell PS="PS">
+		<name>Piercing Arrow</name>
+		<level>1</level>
+		<school>T</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>You use transmutation magic to give your arrow an ethereal quality.</text>
+		<text>When you use this option, you don’t make an attack roll for the attack. Instead, the arrow fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover.</text>
+		<text>Each creature in that line must make a Dexterity saving throw.</text>
+		<text>On a failed save, a target takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.</text>
+		<text>	The piercing damage increases to 2d6 when you reach 18th level in this class.</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+	</spell>
+	<spell>
 	<name>Precision Attack</name>
 	<level>1</level>
 	<school>EV</school>
 	<components />
 	<classes>Fighter (Battle Master)</classes>
 	<text>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</text>
+  </spell>
+  <spell PS="PS" UA="Revised Class Options">
+	<name>Precision Attack (Cavalier)</name>
+	<level>1</level>
+	<school />
+	<time>superiority die</time>
+	<range />
+	<components />
+	<classes>Fighter (Cavalier)</classes>
+	<text>When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
+	<text />
+	<text>Add roll to Weapon Attack Roll</text>
+	<roll>1d8</roll>
+	<roll>1d10</roll>
+	<roll>1d12</roll>
   </spell>
   <spell>
 	<name>Pushing Attack</name>
@@ -2195,7 +2348,42 @@
 	<classes>Fighter (Battle Master)</classes>
 	<text>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll.</text>
   </spell>
-  <spell>
+  <spell PS="PS">
+		<name>Seeking Arrow</name>
+		<level>1</level>
+		<school>D</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey.</text>
+		<text>When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute.</text>
+		<text>The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover.</text>
+		<text>If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw.</text>
+		<text>On a failed save, it takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location.</text>
+		<text>On a successful save, the target takes half as much damage, and you don’t learn its location.</text>
+		<text>	The force damage increases to 2d6 when you reach 18th level in this class.</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+	</spell>
+	<spell PS="PS">
+		<name>Shadow Arrow</name>
+		<level>1</level>
+		<school>I</school>
+		<time />
+		<duration />
+		<range />
+		<components />
+		<classes>Fighter (Arcane Archer)</classes>
+		<text>You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows.</text>
+		<text>If the arrow hits a creature, the target takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.</text>
+		<text>	The psychic damage increases to 4d6 when you reach 18th level in this class.</text>
+		<roll>2d6</roll>
+		<roll>4d6</roll>
+	</spell>
+
+<spell>
 	<name>Sweeping Attack</name>
 	<level>1</level>
 	<school>EV</school>
@@ -2211,5 +2399,46 @@
 	<classes>Fighter (Battle Master)</classes>
 	<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</text>
   </spell>
+
+<spell PS="PS" UA="Revised Class Options">
+	<name>Trip Attack (Cavalier)</name>
+	<level>1</level>
+	<school />
+	<time>superiority die</time>
+	<range />
+	<components />
+	<classes>Fighter (Cavalier)</classes>
+	<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack’s damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+	<text />
+	<text>	At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
+	<text />
+	<text>Add roll to damage, knock prone (Large) vs Strength Saving Throw</text>
+	<text>At 7th (class) level, use twice for disadvantage.</text>
+	<roll>1d8</roll>
+	<roll>1d10</roll>
+	<roll>1d12</roll>
+  </spell>
+  <spell PS="PS" UA="Revised Class Options">
+	<name>Warding Maneuver</name>
+	<level>1</level>
+	<school />
+	<time>1 reaction</time>
+	<range>creature within 5 feet</range>
+	<components />
+	<duration />
+	<classes>Fighter (Cavalier)</classes>
+	<text>If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you’re wielding a weapon or a shield. Roll the die, and add the number rolled to the target’s AC against that attack. If the attack still hits, the target has resistance against the attack’s damage.</text>
+	<text />
+	<text>Add roll to AC, resistance if still hit.</text>
+	<roll>1d8</roll>
+	<roll>1d10</roll>
+	<roll>1d12</roll>
+  </spell>
+
+	<spellList UA="Revised Class Options" class="Fighter (Cavalier)">
+		
+		
+		
+	</spellList>
 
 </compendium>

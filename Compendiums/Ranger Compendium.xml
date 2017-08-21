@@ -141,6 +141,8 @@
 			<feature optional="YES">
 				<name>Ranger Conclave: Horizon Walker</name>
 				<text>Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.</text>
+				<text />
+				<text>This Monastic Tradition is from Unearthed Arcana: Ranger &amp; Rogue, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
 			</feature>
 
 			<feature optional="YES">
@@ -279,6 +281,63 @@
 			<feature optional="YES">
 				<name>Superior Hunter's Defense: Uncanny Dodge</name>
 				<text>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
+			</feature>
+		</autolevel>
+
+	</class><class name="Ranger (Monster Slayer)">
+	<name>Ranger (Monster Slayer)</name>
+
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Ranger Conclave: Monster Slayer</name>
+				<text>Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.</text>
+				<text />
+				<text>This Monastic Tradition is from Unearthed Arcana: A Trio of Subclasses, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Monster Slayer: Slayer’s Mysticism</name>
+				<text>You learn an additional spell when you reach certain levels in this class, as shown in the Slayer Spells table. The spell counts as a ranger spell for you but doesn’t count against the number of ranger spells you know.</text>
+				<text />
+				<text>3rd-protection from evil and good </text>
+				<text>5th-zone of truth </text>
+				<text>9th-magic circle </text>
+				<text>13th-banishment </text>
+				<text>17th-planar binding</text>
+			</feature>
+			<feature optional="YES">
+				<name>Monster Slayer: Slayer’s Eye</name>
+				<text>Starting at 3rd level, you gain the ability to study and unravel a creature’s defenses. As a bonus action, choose one creature you can see within 120 feet of you. You immediately learn the target’s vulnerabilities, immunities, and resistances. You also learn any special effects triggered when the target takes damage, such as fire damage halting its regeneration.</text>
+				<text>	In addition, the first time each turn you hit the target with a weapon attack, the target takes an extra 1d6 damage from the weapon.</text>
+				<text>	This benefit lasts until you target a different creature with this feature or until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature optional="YES">
+				<name>Monster Slayer: Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Monster Slayer: Supernatural Defense</name>
+				<text>At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever the target of your Slayer’s Eye forces you to make a saving throw, add 1d6 to your roll.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Monster Slayer: Relentless Slayer</name>
+				<text>At 11th level, you gain the ability to foil your foe’s ability to escape. Your study of folklore and arcane knowledge gives you a key insight to keep your prey cornered. If the target of your Slayer’s Eye attempts to teleport, change its shape, travel to another plane of existence, or turn gaseous, you can use your reaction to make a Wisdom check contested by a Wisdom check made by the target. To use this ability, you must be able to see the target and need to be within 30 feet of it. If you succeed, you foil its attempt, causing it to waste the action, bonus action, or reaction it used.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Monster Slayer: Slayer’s Counter</name>
+				<text>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Eye forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</text>
 			</feature>
 		</autolevel>
 
@@ -588,70 +647,6 @@
 		</autolevel>
 	<autolevel level="3">
 			<feature optional="YES">
-				<name>Ranger Conclave: Primeval Guardian</name>
-				<text>Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes. </text>
-				<text>	These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.</text>
-			</feature>
-
-			<feature optional="YES">
-				<name>Primeval Guardian: Guardian Magic</name>
-				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.</text>
-				<text />
-				<text>3rd-entangle </text>
-				<text>5th-enhance ability </text>
-				<text>9th-conjure animals </text>
-				<text>13th-giant insect </text>
-				<text>17th-insect plague</text>
-			</feature>
-			<feature optional="YES">
-				<name>Primeval Guardian: Guardian Soul</name>
-				<text>Starting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. As a bonus action, you assume this guardian form, which lasts until you end it as a bonus action or until you are incapacitated. </text>
-				<text>	You undergo the following changes while in your guardian form: </text>
-				<text />
-				<text>• Your size becomes Large, unless you were larger. </text>
-				<text />
-				<text>• Any speed you have becomes 5 feet, unless the speed was lower. </text>
-				<text />
-				<text>• Your reach increases by 5 feet. </text>
-				<text />
-				<text>• You gain a number of temporary hit points at the start of each of your turns. The number equals half your ranger level. When the form ends, you lose any temporary hit points you have from it.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Primeval Guardian: Piercing Thorns</name>
-				<text>At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional 1d6 piercing damage to one creature you hit with a weapon attack.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="5">
-			<feature optional="YES">
-				<name>Primeval Guardian: Extra Attack</name>
-				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="7">
-			<feature optional="YES">
-				<name>Primeval Guardian: Ancient Fortitude</name>
-				<text>At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="11">
-			<feature optional="YES">
-				<name>Primeval Guardian: Rooted Defense</name>
-				<text>At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is difficult terrain for your enemies.</text>
-			</feature>
-		</autolevel>
-
-		<autolevel level="15">
-			<feature optional="YES">
-				<name>Primeval Guardian: Guardian Aura</name>
-				<text>Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</text>
-			</feature>
-		</autolevel>
-
-	<autolevel level="3">
-			<feature optional="YES">
 				<name>Ranger Conclave: Beast Conclave</name>
 				<text>Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.</text>
 			</feature>
@@ -725,58 +720,56 @@
 
 	<autolevel level="3">
 			<feature optional="YES">
-				<name>Ranger Conclave: Horizon Walker</name>
-				<text>Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.</text>
+				<name>Ranger Conclave: Deep Stalker Conclave</name>
+				<text>Most folk descend into the depths of the Underdark only under the most pressing conditions, undertaking some desperate quest or following the promise of vast riches. All too often, evil festers beneath the earth unnoticed, and rangers of the Deep Stalker Conclave strive to uncover and defeat such threats before they can reach the surface.</text>
+				<text>	</text>
+				<text>Source: Unearthed Arcana: The Ranger, Revised, p. 6</text>
 			</feature>
 
 			<feature optional="YES">
-				<name>Horizon Walker: Planar Magic</name>
-				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know. </text>
+				<name>Deep Stalker Conclave: Deep Stalker Magic</name>
+				<text>At 3rd level, you gain darkvision out to a range of 90 feet. If you already have darkvision, you increase its range by 30 feet.</text>
+				<text>	You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. Once you gain a deep stalker spell, it counts as a ranger spell for you but doesn't count against the number of ranger spells you know.</text>
 				<text />
-				<text>3rd-protection from evil and good </text>
-				<text>5th-alter self </text>
-				<text>9th-protection from energy </text>
-				<text>13th-banishment </text>
-				<text>17th-teleportation circle</text>
+				<text>3rd-disguise self</text>
+				<text>5th-rope trick</text>
+				<text>9th-glyph of warding</text>
+				<text>13th-greater invisibility</text>
+				<text>17th-seeming</text>
 			</feature>
 			<feature optional="YES">
-				<name>Horizon Walker: Planar Warrior</name>
-				<text>At 3rd level, you learn to draw on the energy of the planes to augment your attacks. As a bonus action, choose one creature you can see within 30 feet of you. Until the end of this turn, your attacks against that creature ignore its damage resistances, and the next time you hit it on this turn, it takes an additional 1d6 force damage.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Horizon Walker: Portal Lore</name>
-				<text>At 3rd level, you gain the ability to detect the presence of planar portals. As an action, you detect the distance and direction to any planar portals within 1,000 feet of you. You also sense which plane of existence each portal leads to. However, if magic obscures any details of a portal, this feature doesn't reveal them. </text>
-				<text>	Once you use this feature, you can't use it again until you finish a short or long rest. Alternatively, you can use the feature again if you expend a spell slot of 2nd level or higher. </text>
-				<text>	See the "Planar Travel" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals.</text>
+				<name>Deep Stalker Conclave: Underdark Scout</name>
+				<text>At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed, and if you use the Attack action, you can make one additional attack. </text>
+				<text>	You are also adept at evading creatures that rely on darkvision. Such creatures gain no benefit when attempting to detect you in dark and dim conditions. Additionally, when the DM determines if you can hide from a creature, that creature gains no benefit from its darkvision.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="5">
 			<feature optional="YES">
-				<name>Horizon Walker: Extra Attack</name>
+				<name>Deep Stalker Conclave: Extra Attack</name>
 				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="7">
 			<feature optional="YES">
-				<name>Horizon Walker: Ethereal Step</name>
-				<text>At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the etherealness spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+				<name>Deep Stalker Conclave: Iron Mind</name>
+				<text>At 7th level, you gain proficiency in Wisdom saving throws.</text>
+				<proficiency>Wisdom</proficiency>
 			</feature>
 		</autolevel>
 
 		<autolevel level="11">
 			<feature optional="YES">
-				<name>Horizon Walker: Distant Strike</name>
-				<text>At 11th level, you gain the ability to step between the planes in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation. </text>
-				<text>	If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.</text>
+				<name>Deep Stalker Conclave: Stalker's Flurry</name>
+				<text>Starting at 11th level, once on each of your turns when you miss with an attack, you can make another attack.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="15">
 			<feature optional="YES">
-				<name>Horizon Walker: Spectral Defense</name>
-				<text>At 15th level, your ability to move between planes becomes even more finely tuned. As a reaction when you take damage, you can halve that damage against you. For a moment, you slip into the planar boundary to lessen the harm.</text>
+				<name>Deep Stalker Conclave: Stalker's Dodge</name>
+				<text>At 15th level, whenever a creature attacks you and does not have advantage, you can use your reaction to impose disadvantage on the creature's attack roll against you. You can use this feature before or after the attack roll is made, but it must be used before the outcome of the roll is determined.</text>
 			</feature>
 		</autolevel>
 
@@ -867,56 +860,178 @@
 
 	<autolevel level="3">
 			<feature optional="YES">
-				<name>Ranger Conclave: Deep Stalker Conclave</name>
-				<text>Most folk descend into the depths of the Underdark only under the most pressing conditions, undertaking some desperate quest or following the promise of vast riches. All too often, evil festers beneath the earth unnoticed, and rangers of the Deep Stalker Conclave strive to uncover and defeat such threats before they can reach the surface.</text>
-				<text>	</text>
-				<text>Source: Unearthed Arcana: The Ranger, Revised, p. 6</text>
+				<name>Ranger Conclave: Monster Slayer</name>
+				<text>Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.</text>
+				<text />
+				<text>This Monastic Tradition is from Unearthed Arcana: A Trio of Subclasses, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
 			</feature>
 
 			<feature optional="YES">
-				<name>Deep Stalker Conclave: Deep Stalker Magic</name>
-				<text>At 3rd level, you gain darkvision out to a range of 90 feet. If you already have darkvision, you increase its range by 30 feet.</text>
-				<text>	You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. Once you gain a deep stalker spell, it counts as a ranger spell for you but doesn't count against the number of ranger spells you know.</text>
+				<name>Monster Slayer: Slayer’s Mysticism</name>
+				<text>You learn an additional spell when you reach certain levels in this class, as shown in the Slayer Spells table. The spell counts as a ranger spell for you but doesn’t count against the number of ranger spells you know.</text>
 				<text />
-				<text>3rd-disguise self</text>
-				<text>5th-rope trick</text>
-				<text>9th-glyph of warding</text>
-				<text>13th-greater invisibility</text>
-				<text>17th-seeming</text>
+				<text>3rd-protection from evil and good </text>
+				<text>5th-zone of truth </text>
+				<text>9th-magic circle </text>
+				<text>13th-banishment </text>
+				<text>17th-planar binding</text>
 			</feature>
 			<feature optional="YES">
-				<name>Deep Stalker Conclave: Underdark Scout</name>
-				<text>At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed, and if you use the Attack action, you can make one additional attack. </text>
-				<text>	You are also adept at evading creatures that rely on darkvision. Such creatures gain no benefit when attempting to detect you in dark and dim conditions. Additionally, when the DM determines if you can hide from a creature, that creature gains no benefit from its darkvision.</text>
+				<name>Monster Slayer: Slayer’s Eye</name>
+				<text>Starting at 3rd level, you gain the ability to study and unravel a creature’s defenses. As a bonus action, choose one creature you can see within 120 feet of you. You immediately learn the target’s vulnerabilities, immunities, and resistances. You also learn any special effects triggered when the target takes damage, such as fire damage halting its regeneration.</text>
+				<text>	In addition, the first time each turn you hit the target with a weapon attack, the target takes an extra 1d6 damage from the weapon.</text>
+				<text>	This benefit lasts until you target a different creature with this feature or until you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="5">
 			<feature optional="YES">
-				<name>Deep Stalker Conclave: Extra Attack</name>
+				<name>Monster Slayer: Extra Attack</name>
 				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="7">
 			<feature optional="YES">
-				<name>Deep Stalker Conclave: Iron Mind</name>
-				<text>At 7th level, you gain proficiency in Wisdom saving throws.</text>
-				<proficiency>Wisdom</proficiency>
+				<name>Monster Slayer: Supernatural Defense</name>
+				<text>At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever the target of your Slayer’s Eye forces you to make a saving throw, add 1d6 to your roll.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="11">
 			<feature optional="YES">
-				<name>Deep Stalker Conclave: Stalker's Flurry</name>
-				<text>Starting at 11th level, once on each of your turns when you miss with an attack, you can make another attack.</text>
+				<name>Monster Slayer: Relentless Slayer</name>
+				<text>At 11th level, you gain the ability to foil your foe’s ability to escape. Your study of folklore and arcane knowledge gives you a key insight to keep your prey cornered. If the target of your Slayer’s Eye attempts to teleport, change its shape, travel to another plane of existence, or turn gaseous, you can use your reaction to make a Wisdom check contested by a Wisdom check made by the target. To use this ability, you must be able to see the target and need to be within 30 feet of it. If you succeed, you foil its attempt, causing it to waste the action, bonus action, or reaction it used.</text>
 			</feature>
 		</autolevel>
 
 		<autolevel level="15">
 			<feature optional="YES">
-				<name>Deep Stalker Conclave: Stalker's Dodge</name>
-				<text>At 15th level, whenever a creature attacks you and does not have advantage, you can use your reaction to impose disadvantage on the creature's attack roll against you. You can use this feature before or after the attack roll is made, but it must be used before the outcome of the roll is determined.</text>
+				<name>Monster Slayer: Slayer’s Counter</name>
+				<text>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Eye forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</text>
+			</feature>
+		</autolevel>
+
+	<autolevel level="3">
+			<feature optional="YES">
+				<name>Ranger Conclave: Horizon Walker</name>
+				<text>Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.</text>
+				<text />
+				<text>This Monastic Tradition is from Unearthed Arcana: Ranger &amp; Rogue, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Horizon Walker: Planar Magic</name>
+				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know. </text>
+				<text />
+				<text>3rd-protection from evil and good </text>
+				<text>5th-alter self </text>
+				<text>9th-protection from energy </text>
+				<text>13th-banishment </text>
+				<text>17th-teleportation circle</text>
+			</feature>
+			<feature optional="YES">
+				<name>Horizon Walker: Planar Warrior</name>
+				<text>At 3rd level, you learn to draw on the energy of the planes to augment your attacks. As a bonus action, choose one creature you can see within 30 feet of you. Until the end of this turn, your attacks against that creature ignore its damage resistances, and the next time you hit it on this turn, it takes an additional 1d6 force damage.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Horizon Walker: Portal Lore</name>
+				<text>At 3rd level, you gain the ability to detect the presence of planar portals. As an action, you detect the distance and direction to any planar portals within 1,000 feet of you. You also sense which plane of existence each portal leads to. However, if magic obscures any details of a portal, this feature doesn't reveal them. </text>
+				<text>	Once you use this feature, you can't use it again until you finish a short or long rest. Alternatively, you can use the feature again if you expend a spell slot of 2nd level or higher. </text>
+				<text>	See the "Planar Travel" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature optional="YES">
+				<name>Horizon Walker: Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Horizon Walker: Ethereal Step</name>
+				<text>At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the etherealness spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Horizon Walker: Distant Strike</name>
+				<text>At 11th level, you gain the ability to step between the planes in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation. </text>
+				<text>	If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Horizon Walker: Spectral Defense</name>
+				<text>At 15th level, your ability to move between planes becomes even more finely tuned. As a reaction when you take damage, you can halve that damage against you. For a moment, you slip into the planar boundary to lessen the harm.</text>
+			</feature>
+		</autolevel>
+
+	<autolevel level="3">
+			<feature optional="YES">
+				<name>Ranger Conclave: Primeval Guardian</name>
+				<text>Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes. </text>
+				<text>	These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Primeval Guardian: Guardian Magic</name>
+				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.</text>
+				<text />
+				<text>3rd-entangle </text>
+				<text>5th-enhance ability </text>
+				<text>9th-conjure animals </text>
+				<text>13th-giant insect </text>
+				<text>17th-insect plague</text>
+			</feature>
+			<feature optional="YES">
+				<name>Primeval Guardian: Guardian Soul</name>
+				<text>Starting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. As a bonus action, you assume this guardian form, which lasts until you end it as a bonus action or until you are incapacitated. </text>
+				<text>	You undergo the following changes while in your guardian form: </text>
+				<text />
+				<text>• Your size becomes Large, unless you were larger. </text>
+				<text />
+				<text>• Any speed you have becomes 5 feet, unless the speed was lower. </text>
+				<text />
+				<text>• Your reach increases by 5 feet. </text>
+				<text />
+				<text>• You gain a number of temporary hit points at the start of each of your turns. The number equals half your ranger level. When the form ends, you lose any temporary hit points you have from it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Primeval Guardian: Piercing Thorns</name>
+				<text>At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional 1d6 piercing damage to one creature you hit with a weapon attack.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="5">
+			<feature optional="YES">
+				<name>Primeval Guardian: Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Primeval Guardian: Ancient Fortitude</name>
+				<text>At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Primeval Guardian: Rooted Defense</name>
+				<text>At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is difficult terrain for your enemies.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Primeval Guardian: Guardian Aura</name>
+				<text>Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</text>
 			</feature>
 		</autolevel>
 
@@ -1171,6 +1286,13 @@
 		<index name="Protection from Energy" />
 		<index name="Banishment" />
 		<index name="Teleportation Circle" />
+	</spellList>
+<spellList class="Ranger (Monster Slayer)">
+		<index name="Protection from Evil and Good" />
+		<index name="Zone of Truth" />
+		<index name="Magic Circle" />
+		<index name="Banishment" />
+		<index name="Planar Binding" />
 	</spellList>
 <spellList class="Ranger (Primeval Guardian)">
 		<index name="Entangle" />

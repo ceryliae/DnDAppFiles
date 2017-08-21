@@ -2,7 +2,7 @@
 <compendium UA="Artificer" version="5">
 	<class name="Artificer"><name>Artificer</name>
         <hd>8</hd>
-        <proficiency>Intelligence, Constitution</proficiency>
+        <proficiency>Constitution, Intelligence</proficiency>
         <spellAbility>Intelligence</spellAbility>
         <autolevel level="1"> <slots>0,0,0,0,0,0</slots></autolevel>
         <autolevel level="2"> <slots>0,0,0,0,0,0</slots></autolevel>
@@ -108,6 +108,7 @@
             </feature>
 			
         </autolevel>
+
         <autolevel level="4">
             <feature optional="YES">
                 <name>Ability Score Improvement</name>
@@ -115,7 +116,14 @@
                 <text />
                 <text>    If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
+			<feature>
+				<name>Infuse Magic</name>
+				<text>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell’s effect's occur. Instead, the spell transfers into that item for later use if the item doesn’t already contain a spell from this feature.</text>
+				<text>Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intelligence score of at least 6. The spell is cast using your spellcasting ability, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell’s range is self, it targets the creature that activates the item.</text>
+				<text>When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted. You can have a limited number of infused spells at the same time. The number equals your Intelligence modifier.</text>
+			</feature>
         </autolevel>
+
         <autolevel level="5">
             <feature>
                 <name>Superior Attunement</name>
@@ -133,6 +141,7 @@
                 <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
             </feature>
         </autolevel>
+
         <autolevel level="6">
             <feature>
                 <name>Mechanical Servant</name>
@@ -150,6 +159,7 @@
                 <text>If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials.</text>
             </feature>
         </autolevel>
+
         <autolevel level="8">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -157,9 +167,11 @@
                 <text>If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
+
         <autolevel level="9">
 			
         </autolevel>
+
         <autolevel level="10">
             <feature>
                 <name>Wondrous Invention</name>
@@ -202,6 +214,7 @@
                 <text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
             </feature>
         </autolevel>
+
         <autolevel level="16">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -209,9 +222,11 @@
                 <text>    If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
+
         <autolevel level="17">
 			
         </autolevel>
+
         <autolevel level="18">
             <feature>
                 <name>Ability Score Improvement  </name>
@@ -219,6 +234,7 @@
                 <text>    If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
+
         <autolevel level="20">
             <feature>
                 <name>Wondrous Invention</name>
@@ -306,8 +322,8 @@
             <feature optional="YES">
                 <name>Alchemist: Alchemical Formula</name>
                 <text>At 1st level, you learn three Alchemical Formula options: Alchemical Fire, Alchemical Acid, and one other option of your choice. You learn an additional formula of your choice at 3rd, 9th, 14th, and 17th levels.</text>
-                <text>To use any of these options, your Alchemist’s Satchel must be within reach.
-                    If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</text>
+				<text>	To use any of these options, your Alchemist’s Satchel must be within reach.</text>
+				<text>	If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Alchemical Fire</name>
@@ -317,12 +333,12 @@
             <feature optional="YES">
                 <name>Alchemical Formula: Alchemical Acid</name>
                 <text>Alchemical Acid. As an action, you can reach into your Alchemist’s Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don’t hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized.</text>
-                <text>This formula’s damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
+                <text>	This formula’s damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Healing Draught</name>
                 <text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula.</text>
-                <text>This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+                <text>	This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Smoke Stick</name>
@@ -335,7 +351,7 @@
             <feature optional="YES">
                 <name>Alchemical Formula: Tanglefoot Bag</name>
                 <text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). </text>
-                <text>The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+                <text>	The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Thunderstone</name>
@@ -448,7 +464,7 @@
 	</class><class name="Artificer !Base">
 		<name>Artificer !Base</name>
 <hd>8</hd>
-        <proficiency>Intelligence, Constitution</proficiency>
+        <proficiency>Constitution, Intelligence</proficiency>
         <spellAbility>Intelligence</spellAbility>
         <autolevel level="1"> <slots>0,0,0,0,0,0</slots></autolevel>
         <autolevel level="2"> <slots>0,0,0,0,0,0</slots></autolevel>
@@ -554,6 +570,7 @@
             </feature>
 			
         </autolevel>
+
         <autolevel level="4">
             <feature optional="YES">
                 <name>Ability Score Improvement</name>
@@ -561,7 +578,14 @@
                 <text />
                 <text>    If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
+			<feature>
+				<name>Infuse Magic</name>
+				<text>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell’s effect's occur. Instead, the spell transfers into that item for later use if the item doesn’t already contain a spell from this feature.</text>
+				<text>Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intelligence score of at least 6. The spell is cast using your spellcasting ability, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell’s range is self, it targets the creature that activates the item.</text>
+				<text>When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted. You can have a limited number of infused spells at the same time. The number equals your Intelligence modifier.</text>
+			</feature>
         </autolevel>
+
         <autolevel level="5">
             <feature>
                 <name>Superior Attunement</name>
@@ -579,6 +603,7 @@
                 <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
             </feature>
         </autolevel>
+
         <autolevel level="6">
             <feature>
                 <name>Mechanical Servant</name>
@@ -596,6 +621,7 @@
                 <text>If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials.</text>
             </feature>
         </autolevel>
+
         <autolevel level="8">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -603,9 +629,11 @@
                 <text>If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
+
         <autolevel level="9">
 			
         </autolevel>
+
         <autolevel level="10">
             <feature>
                 <name>Wondrous Invention</name>
@@ -648,6 +676,7 @@
                 <text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
             </feature>
         </autolevel>
+
         <autolevel level="16">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -655,9 +684,11 @@
                 <text>    If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
+
         <autolevel level="17">
 			
         </autolevel>
+
         <autolevel level="18">
             <feature>
                 <name>Ability Score Improvement  </name>
@@ -665,6 +696,7 @@
                 <text>    If your DM allows the use of feats, you may instead take a feat.</text>
             </feature>
         </autolevel>
+
         <autolevel level="20">
             <feature>
                 <name>Wondrous Invention</name>
@@ -700,8 +732,8 @@
             <feature optional="YES">
                 <name>Alchemist: Alchemical Formula</name>
                 <text>At 1st level, you learn three Alchemical Formula options: Alchemical Fire, Alchemical Acid, and one other option of your choice. You learn an additional formula of your choice at 3rd, 9th, 14th, and 17th levels.</text>
-                <text>To use any of these options, your Alchemist’s Satchel must be within reach.
-                    If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</text>
+				<text>	To use any of these options, your Alchemist’s Satchel must be within reach.</text>
+				<text>	If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Alchemical Fire</name>
@@ -711,12 +743,12 @@
             <feature optional="YES">
                 <name>Alchemical Formula: Alchemical Acid</name>
                 <text>Alchemical Acid. As an action, you can reach into your Alchemist’s Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don’t hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized.</text>
-                <text>This formula’s damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
+                <text>	This formula’s damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Healing Draught</name>
                 <text>As an action, you can reach into your Alchemist’s Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can’t do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can’t use this formula.</text>
-                <text>This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+                <text>	This formula’s healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Smoke Stick</name>
@@ -729,7 +761,7 @@
             <feature optional="YES">
                 <name>Alchemical Formula: Tanglefoot Bag</name>
                 <text>As an action, you can reach into your Alchemist’s Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don’t hurl the bag by the end of the current turn). </text>
-                <text>The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
+                <text>	The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can’t do so again for 1 minute.</text>
             </feature>
             <feature optional="YES">
                 <name>Alchemical Formula: Thunderstone</name>
