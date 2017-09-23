@@ -63,7 +63,7 @@
 			<text />
 			<text>Cantrips (at will): blade ward. dancing lights, mending, message, ray of frost</text>
 			<text />
-			<text>1st level {4 slots): alarm*, mage armor, magic missile, shield*</text>
+			<text>1st level (4 slots): alarm*, mage armor, magic missile, shield*</text>
 			<text />
 			<text>2nd level (3 slots): arcane lock*, invisibility</text>
 			<text />
@@ -1107,7 +1107,7 @@
 		<int>9</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1290,10 +1290,6 @@
 		<trait>
 			<name>Amphibious</name>
 			<text>The dragon can breathe air and water.</text>
-		</trait>
-		<trait>
-			<name>Legendary Resistance (3/Day)</name>
-			<text>If the dragon fails a saving throw, it can choose to succeed instead.</text>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (3/Day)</name>
@@ -2085,7 +2081,7 @@
 	<monster>
 		<name>Animated Table</name>
 		<size>L</size>
-		<type>construct</type>
+		<type>construct, tales from the yawning portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>39 (6d10+6)</hp>
@@ -2103,7 +2099,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 230</text>
+			<text>tales from the yawning portal,  page 230</text>
 		</trait>
         <trait>
 			<name>Constructed Nature</name>
@@ -2234,7 +2230,7 @@
 		</trait>
 		<trait>
 			<name>Variant: Death Coven</name>
-			<text>For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:</text>
+			<text>For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:</text>
 			<text>	 </text>
 			<text>1st level (4 slots): false life, inflict wounds</text>
 			<text>	 </text>
@@ -2250,7 +2246,7 @@
 		</trait>
 		<trait>
 			<name>Variant: Nature Coven</name>
-			<text>For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:</text>
+			<text>For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:</text>
 			<text>	 </text>
 			<text>1st level (4 slots): entangle, speak with animals</text>
 			<text>	 </text>
@@ -2266,13 +2262,13 @@
 		</trait>
 		<trait>
 			<name>Variant: Prophecy Coven</name>
-			<text>For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:</text>
+			<text>For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:</text>
 			<text>	 </text>
 			<text>1st level (4 slots): bane, bless</text>
 			<text>	 </text>
 			<text>2nd level (3 slots): augury, detect thoughts</text>
 			<text>	 </text>
-			<text>3rd level (3 slots): calirvoyance, dispel magic, nondetection</text>
+			<text>3rd level (3 slots): clairvoyance, dispel magic, nondetection</text>
 			<text>	 </text>
 			<text>4th level (3 slots): arcane eye, locate creature</text>
 			<text>	 </text>
@@ -3252,7 +3248,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Resonant Connection</name>
-			<text>If the banderhobb has even a tiny piece of a creature or an obect in its possession, such as a lock of hair or a splinter of wood, it knows the most direct route to that creature or object if it is within1 mile of the banderhobb.</text>
+			<text>If the banderhobb has even a tiny piece of a creature or an object in its possession, such as a lock of hair or a splinter of wood, it knows the most direct route to that creature or object if it is within1 mile of the banderhobb.</text>
 		</trait>
 		<trait>
 			<name>Shadow Stealth</name>
@@ -3266,7 +3262,7 @@
 		</action>
 		<action>
 			<name>Tongue</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 10 (3d6) necrotic damage, and the target must make a DC 15 Strength savng throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb, which can use a bonus action to make a bite attack against the target.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 10 (3d6) necrotic damage, and the target must make a DC 15 Strength saving throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb, which can use a bonus action to make a bite attack against the target.</text>
 			<attack>Tongue|8|3d6</attack>
 			<attack />
 		</action>
@@ -4185,7 +4181,7 @@
 		</trait>
 		<trait>
 			<name>Variant: Death Coven</name>
-			<text>For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:</text>
+			<text>For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:</text>
 			<text>	 </text>
 			<text>1st level (4 slots): false life, inflict wounds</text>
 			<text>	 </text>
@@ -4201,7 +4197,7 @@
 		</trait>
 		<trait>
 			<name>Variant: Nature Coven</name>
-			<text>For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:</text>
+			<text>For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:</text>
 			<text>	 </text>
 			<text>1st level (4 slots): entangle, speak with animals</text>
 			<text>	 </text>
@@ -4217,13 +4213,13 @@
 		</trait>
 		<trait>
 			<name>Variant: Prophecy Coven</name>
-			<text>For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:</text>
+			<text>For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:</text>
 			<text>	 </text>
 			<text>1st level (4 slots): bane, bless</text>
 			<text>	 </text>
 			<text>2nd level (3 slots): augury, detect thoughts</text>
 			<text>	 </text>
-			<text>3rd level (3 slots): calirvoyance, dispel magic, nondetection</text>
+			<text>3rd level (3 slots): clairvoyance, dispel magic, nondetection</text>
 			<text>	 </text>
 			<text>4th level (3 slots): arcane eye, locate creature</text>
 			<text>	 </text>
@@ -5131,7 +5127,7 @@
 		<cr>5</cr>
 		<action>
 			<name>Stomp</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 			<attack>Stomp|8|5d8+5</attack>
 			<attack />
 		</action>
@@ -5828,7 +5824,7 @@
 	<monster>
 		<name>Centaur Mummy</name>
 		<size>L</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
@@ -5846,7 +5842,7 @@
 		<cr>6</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 231</text>
+			<text>tales from the yawning portal,  page 231</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>A mummy doesn't require air, food, drink, or sleep.</text>
@@ -5967,7 +5963,7 @@
 		</action>
 		<action>
 			<name>Infestation Spores (1/Day)</name>
-			<text>The chanberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<text>The chamberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
 		</action>
 	</monster>
 	<monster>
@@ -6818,7 +6814,7 @@
         </trait>
         <trait>
             <name>Spell Turning</name>
-            <text>The cat has advantage on saving throws against any spell that tagets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead tagets the caster.</text>
+            <text>The cat has advantage on saving throws against any spell that targets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead targets the caster.</text>
         </trait>
         <action>
             <name>Bite</name>
@@ -7173,7 +7169,7 @@
         <int>11</int>
         <wis>11</wis>
         <cha>15</cha>
-        <skill>History +2, Intimidation +4, Investigation +2, Perception +2, Presuasion +4</skill>
+        <skill>History +2, Intimidation +4, Investigation +2, Perception +2, Persuasion +4</skill>
         <passive>12</passive>
         <languages>Common</languages>
         <cr>0</cr>
@@ -7369,7 +7365,7 @@
         <type>humanoid (Illuskan human), storm kings thunder</type>
         <alignment>neutral</alignment>
         <ac>12</ac>
-        <hp>27(5d8+5)</hp>
+        <hp>27 (5d8+5)</hp>
         <speed>30 ft.</speed>
         <str>15</str>
         <dex>15</dex>
@@ -7400,7 +7396,7 @@
             <name>Roleplaying Information</name>
             <text>In his youth, Darz was a member of the Xanathar Thieves' Guild in Waterdeep. After serving ten years in prison for his crimes, he cut all ties to the city and moved north to be a campground caretaker.</text>
             <text />
-            <text>Ideal: "You csan run from your past, but you can't hide from it."</text>
+            <text>Ideal: "You can run from your past, but you can't hide from it."</text>
             <text>Bond: "I've made a new life in Triboar. I'm not gonna run away this time. "</text>
             <text>Flaw: "I have no regrets. I do whatever it takes to survive."</text>
         </trait>
@@ -7668,7 +7664,7 @@
 	<monster>
 		<name>Deathlock Wight</name>
 		<size>M</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>37 (5d8+15)</hp>
@@ -7686,7 +7682,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 233</text>
+			<text>tales from the yawning portal,  page 233</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>A wight doesn't require air, food, drink, or sleep.</text>
@@ -8018,7 +8014,7 @@
 		</trait>
 		<trait>
 			<name>Two Heads</name>
-			<text>Demogorgon has advantage on saving throws against being blinded, defened, stunned, and knocked unconscious.</text>
+			<text>Demogorgon has advantage on saving throws against being blinded, deafened, stunned, and knocked unconscious.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -8039,7 +8035,7 @@
 		</action>
 		<legendary>
 			<name />
-			<text>Demogorgon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Demogorgon regains spent legendary actions at the start of his turn.</text>
+			<text>Demogorgon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Demogorgon regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Tail</name>
@@ -8957,7 +8953,7 @@
 	<monster>
 		<name>Dread Warrior</name>
 		<size>M</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>37 (5d8+15)</hp>
@@ -8975,7 +8971,7 @@
 		<cr>l</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 233</text>
+			<text>tales from the yawning portal,  page 233</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>A dread warrior doesn't require air, food, drink, or sleep.</text>
@@ -9700,7 +9696,7 @@
 		</trait>
 		<trait>
 			<name>Cavalry Training</name>
-			<text>When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make a melee attack agains the same target as a reaction.</text>
+			<text>When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make a melee attack against the same target as a reaction.</text>
 		</trait>
 		<trait>
 			<name>Duergar Resilience</name>
@@ -9845,7 +9841,7 @@
 		</action>
 		<action>
 			<name>Soulblade</name>
-			<text>Melee Weapon Attackk: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.</text>
 			<attack>Soulblade|5|1d6+3</attack>
 			<attack>Enlarged|5|2d6+3</attack>
 		</action>
@@ -9884,7 +9880,7 @@
 	<monster>
 		<name>Duergar Spy</name>
 		<size>M</size>
-		<type>humanoid (dwarf)</type>
+		<type>humanoid (dwarf), tales from the yawning portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>15 (studded leather)</ac>
 		<hp>33 (6d8+6)</hp>
@@ -9902,7 +9898,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 234</text>
+			<text>tales from the yawning portal,  page 234</text>
 		</trait>		<trait>
 			<name>Cunning Action</name>
 			<text>On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.</text>
@@ -12311,7 +12307,7 @@
 			<name>Innate Spellcasting</name>
 			<text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:</text>
 			<text />
-			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force</text>
+			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasmal force</text>
 			<text>3/day each: confusion, dream, mislead, programmed illusion, seeming</text>
 			<text>1/day each: mirage arcane, modify memory, project image</text>
 		</trait>
@@ -12347,7 +12343,7 @@
 		</action>
 		<legendary>
 			<name />
-			<text>Fraz-Urb'luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Fraz-Urb'luu regains spent legendary actions at the start of his turn.</text>
+			<text>Fraz-Urb'luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Fraz-Urb'luu regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Tail</name>
@@ -12358,7 +12354,7 @@
 			<name>Phantasmal Killer (Costs 2 Actions)</name>
 			<text>Fraz-Urb'luu casts phantasmal killer, no concentration required.</text>
 		</legendary>
-		<spells>alter self, detect magic, dispel magic, phantasamal force, confusion, dream, mislead, programmed illusion, seeming, mirage arcane, modify memory, project image</spells>
+		<spells>alter self, detect magic, dispel magic, phantasmal force, confusion, dream, mislead, programmed illusion, seeming, mirage arcane, modify memory, project image</spells>
 	</monster>
 	<monster>
 		<name>Frog</name>
@@ -12411,7 +12407,7 @@
 			<text>The froghemoth can breathe air and water.</text>
 		</trait>
 		<trait>
-			<name>Shock Suscptibility</name>
+			<name>Shock Susceptibility</name>
 			<text>If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can’t use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.</text>
 		</trait>
 		<action>
@@ -13277,7 +13273,7 @@
 	<monster>
 		<name>Giant Crayfish</name>
 		<size>L</size>
-		<type>beast</type>
+		<type>beast, tales from the yawning portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>45 (7d10+7)</hp>
@@ -13296,7 +13292,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 235</text>
+			<text>tales from the yawning portal,  page 235</text>
 		</trait>		<trait>
 			<name>Amphibious</name>
 			<text>The giant crayfish can breathe air and water.</text>
@@ -13307,8 +13303,8 @@
 		</action>
 		<action>
 			<name>Claw</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1dl0 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.</text>
-			<attack>Claw|4|1dl0+2</attack>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.</text>
+			<attack>Claw|4|1d10+2</attack>
 		</action>
 		<spells />
 		<slots />
@@ -13562,7 +13558,7 @@
 	<monster>
 		<name>Giant Lightning Eel</name>
 		<size>L</size>
-		<type>beast</type>
+		<type>beast, tales from the yawning portal</type>
 		<alignment>unaligned</alignment>
 		<ac>13</ac>
 		<hp>42 (5d10+15)</hp>
@@ -13580,7 +13576,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 236</text>
+			<text>tales from the yawning portal,  page 236</text>
 		</trait>		<trait>
 			<name>Water Breathing</name>
 			<text>The eel can breathe only underwater.</text>
@@ -13957,7 +13953,7 @@
 	<monster>
 		<name>Giant Subterranean Lizard</name>
 		<size>H</size>
-		<type>beast</type>
+		<type>beast, tales from the yawning portal</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>66 (7d12+21)</hp>
@@ -13975,7 +13971,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 236</text>
+			<text>tales from the yawning portal,  page 236</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -15213,7 +15209,7 @@
 		</action>
 		<legendary>
 			<name />
-			<text>Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Graz'zt regains spent legendary actions at the start of his turn.</text>
+			<text>Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Graz'zt regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Attack</name>
@@ -15236,7 +15232,7 @@
 	<monster>
 		<name>Greater Zombie</name>
 		<size>M</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>97 (13d8+39)</hp>
@@ -15255,7 +15251,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 237</text>
+			<text>tales from the yawning portal,  page 237</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>A zombie doesn't require air, food, drink, or sleep.</text>
@@ -15931,19 +15927,18 @@
 	<monster>
 		<name>Guard Drake</name>
 		<size>M</size>
-		<type>dragon, tyranny of dragons</type>
+		<type>dragon, Volo's Guide, Volo's Guide</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>52 (7d8+21)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str>
-		<dex>11</dex>
-		<con>16</con>
-		<int>4</int>
-		<wis>10</wis>
-		<cha>7</cha>
+		<str>16</str><dex>11</dex><con>16</con><int>4</int><wis>10</wis><cha>7</cha>
+		<save />
 		<skill>Perception +2</skill>
-		<resist>lightning</resist>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>understands Draconic but can't speak it</languages>
@@ -15954,14 +15949,15 @@
 		</action>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage.</text>
 			<attack>Bite|5|1d8+3</attack>
 		</action>
 		<action>
 			<name>Tail</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage.</text>
 			<attack>Tail|5|1d6+3</attack>
 		</action>
+		<spells />
 	</monster>
 	<monster>
 		<name>Guardian Naga</name>
@@ -18246,7 +18242,7 @@
 	<monster>
 		<name>Kalka-Kylla</name>
 		<size>L</size>
-		<type>monstrosity</type>
+		<type>monstrosity, tales from the yawning portal</type>
 		<alignment>neutral</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
@@ -18264,7 +18260,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 238</text>
+			<text>tales from the yawning portal,  page 238</text>
 		</trait>		<trait>
 			<name>Amphibious</name>
 			<text>Kalka-Kylla can breathe air and water.</text>
@@ -18292,7 +18288,7 @@
 	<monster>
 		<name>Kelpie</name>
 		<size>M</size>
-		<type>plant</type>
+		<type>plant, tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>67 (9d8+27)</hp>
@@ -18310,7 +18306,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 238</text>
+			<text>tales from the yawning portal,  page 238</text>
 		</trait>		<trait>
 			<name>Amphibious</name>
 			<text>The kelpie can breathe air and water.</text>
@@ -19421,7 +19417,7 @@
         <int>10</int>
         <wis>10</wis>
         <cha>7</cha>
-		<resist>blugdeoning, piercing</resist>
+		<resist>bludgeoning, piercing</resist>
 		<vulnerable>fire</vulnerable>
         <passive>10</passive>
         <languages>Common</languages>
@@ -19784,7 +19780,7 @@
         </action>
         <legendary>
             <name>Quench Magic</name>
-            <text>Maegera targets one creature that it can see within 60 feet of it. Any resistence or immunity to fire damage that the target gains from a spell or magic item is suppressed.  The effect lasts until the end of Maegera's next turn.</text>
+            <text>Maegera targets one creature that it can see within 60 feet of it. Any resistance or immunity to fire damage that the target gains from a spell or magic item is suppressed.  The effect lasts until the end of Maegera's next turn.</text>
         </legendary>
         <legendary>
             <name>Smoke Cloud (Costs 2 Actions)</name>
@@ -19961,7 +19957,7 @@
 	<monster>
 		<name>Malformed Kraken</name>
 		<size>H</size>
-		<type>monstrosity</type>
+		<type>monstrosity, tales from the yawning portal</type>
 		<alignment>chaotic evil</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>172 (15d12+75)</hp>
@@ -19979,7 +19975,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 239</text>
+			<text>tales from the yawning portal,  page 239</text>
 		</trait>		<trait>
 			<name>Amphibious</name>
 			<text>The kraken can breathe air and water.</text>
@@ -20008,7 +20004,7 @@
 		</action>
 		<action>
 			<name>Lightning Storm</name>
-			<text>The kraken creates three bolts of lightning, each of which can strike a target the kraken can see within 150 feet ofit. A target must make a DC 16 Dexterity saving throw, taking 16 (3dl0) lightning damage on a failed save, or half as much damage on a successful one.</text>
+			<text>The kraken creates three bolts of lightning, each of which can strike a target the kraken can see within 150 feet ofit. A target must make a DC 16 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 		</action>
 		<spells />
 		<slots />
@@ -21901,7 +21897,7 @@
         </action>
         <trait>
             <name>Roleplaying Information</name>
-            <text>Narth sells gear to adventurers, and he also has an adventurous spirit. The Lionshield Coster pays him well, but he longs to make a name for himself. At the same time, he runsa a business with his partner Alaestra and knows she wouldn't forgive him if he ran off and never returned.</text>
+            <text>Narth sells gear to adventurers, and he also has an adventurous spirit. The Lionshield Coster pays him well, but he longs to make a name for himself. At the same time, he runs a business with his partner Alaestra and knows she wouldn't forgive him if he ran off and never returned.</text>
             <text />
             <text>Ideal: "The bigger the risk, the greater the reward."</text>
             <text>Bond: "I adore my colleague Alestra, and I'd like to do something to impress her."</text>
@@ -21943,7 +21939,7 @@
         </action>
         <trait>
             <name>Roleplaying Information</name>
-            <text>Goldenfields' crops are vital Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adeuately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.</text>
+            <text>Goldenfields' crops are vital Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adequately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.</text>
             <text />
             <text>Ideal: "There's no problem that can't be solved with magic."</text>
             <text>Bond: "I have great respect for Lady Laeral Silverhand of Waterdeep. She and the Lords' Alliance are going to bring some much-needed order to this lawless land."</text>
@@ -22222,7 +22218,7 @@
 	<monster>
 		<name>Nereid</name>
 		<size>M</size>
-		<type>fey</type>
+		<type>fey, tales from the yawning portal</type>
 		<alignment>any chaotic alignment</alignment>
 		<ac>13</ac>
 		<hp>44 (8d8+8)</hp>
@@ -22240,7 +22236,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 240</text>
+			<text>tales from the yawning portal,  page 240</text>
 		</trait>		<trait>
 			<name>Amphibious</name>
 			<text>The nereid can breathe air and water.</text>
@@ -23080,7 +23076,7 @@
 	<monster>
 		<name>Ooze Master</name>
 		<size>H</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>9 (natural armor)</ac>
 		<hp>138 (12d12+60)</hp>
@@ -23098,7 +23094,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 241</text>
+			<text>tales from the yawning portal,  page 241</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>The ooze master doesn't require air, food, drink, or sleep.</text>
@@ -23110,7 +23106,7 @@
 		</trait>
 		<trait>
 			<name>Instinctive Attack</name>
-			<text>When the Ooze Master casts a spell with a casting time of l action, it can make one pseudopod attack as a bonus action.</text>
+			<text>When the Ooze Master casts a spell with a casting time of 1 action, it can make one pseudopod attack as a bonus action.</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
@@ -24899,7 +24895,7 @@
 		<wis>10</wis>
 		<cha>10</cha>
 		<skill>Stealth +5</skill>
-		<resist>cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>cold; fire; lightning; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 120 ft.</senses>
@@ -26242,7 +26238,8 @@
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</text>
-			<attack>Spear|7|2d6+4+1d6</attack>
+			<attack>Spear 1H|7|2d6+4+1d6</attack>
+			<attack>Spear 2H|7|2d8+4+1d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -26482,7 +26479,7 @@
 	<monster>
 		<name>Sea Lion</name>
 		<size>L</size>
-		<type>monstrosity</type>
+		<type>monstrosity, tales from the yawning portal</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>90 (12d10+24)</hp>
@@ -26500,7 +26497,7 @@
 		<cr>5</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 242</text>
+			<text>tales from the yawning portal,  page 242</text>
 		</trait>
         <trait>
 			<name>Amphibious</name>
@@ -26863,7 +26860,7 @@
 	<monster>
 		<name>Sharwyn Hucrele</name>
 		<size>M</size>
-		<type>humanoid (human)</type>
+		<type>humanoid (human), tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (Barkskin trait)</ac>
 		<hp>13 (2d8+4)</hp>
@@ -26881,7 +26878,7 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 242</text>
+			<text>tales from the yawning portal,  page 242</text>
 		</trait>
         <trait>
 			<name>Barkskin</name>
@@ -27187,7 +27184,7 @@
     <monster>
 		<name>Sir Braford</name>
 		<size>M</size>
-		<type>humanoid (human)</type>
+		<type>humanoid (human), tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>19 (3d8+6)</hp>
@@ -27205,18 +27202,18 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 243</text>
+			<text>tales from the yawning portal,  page 243</text>
 		</trait>		<trait>
 			<name>Barkskin</name>
 			<text>Sir Braford's AC can't be lower than 16.</text>
 		</trait>
 		<trait>
 			<name>Special Equipment</name>
-			<text>Sir Braford wields Shatterspike, a magic longsword that grants a + l bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties.</text>
+			<text>Sir Braford wields Shatterspike, a magic longsword that grants a + 1 bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties.</text>
 		</trait>
 		<trait>
 			<name>Tree Thrall</name>
-			<text>If the Gulthias Tree dies, Sir Bra ford dies 24 hours later.</text>
+			<text>If the Gulthias Tree dies, Sir Braford dies 24 hours later.</text>
 		</trait>
 		<action>
 			<name>Longsword</name>
@@ -27266,7 +27263,7 @@
         </reaction>
         <trait>
             <name>Roleplaying Information</name>
-            <text>An acolyte of Torm, Sirac grew up on the streets of Suzail, the capital of Cormyr. He came to Icewind Dale to become a knucklehead trout fishe but instead found religion. The misbegotten son of Artus Climber, a renowened human adventurer, Sirac hasn't seen his father since he was a baby.</text>
+            <text>An acolyte of Torm, Sirac grew up on the streets of Suzail, the capital of Cormyr. He came to Icewind Dale to become a knucklehead trout fisher but instead found religion. The misbegotten son of Artus Climber, a renowned human adventurer, Sirac hasn't seen his father since he was a baby.</text>
             <text />
             <text>Ideal: "Without duty or loyalty, a man is nothing."</text>
             <text>Bond: "Icewind Dale is where i belong for the rest of my life."</text>
@@ -27276,7 +27273,7 @@
     <monster>
 		<name>Siren</name>
 		<size>M</size>
-		<type>fey</type>
+		<type>fey, tales from the yawning portal</type>
 		<alignment>chaotic good</alignment>
 		<ac>14</ac>
 		<hp>38 (7d8+7)</hp>
@@ -27294,7 +27291,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 243</text>
+			<text>tales from the yawning portal,  page 243</text>
 		</trait>		<trait>
 			<name>Amphibious</name>
 			<text>Siren can breathe air and water.</text>
@@ -27303,7 +27300,7 @@
 			<name>Innate Spellcasting</name>
 			<text>Siren's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells, requiring no material components:</text>
 			<text>	 </text>
-			<text>1/day each: charm person.fog cloud, greater invisibility, polymorph (self only).</text>
+			<text>1/day each: charm person, fog cloud, greater invisibility, polymorph (self only).</text>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -28332,7 +28329,7 @@
 		</action>
 		<action>
 			<name>Windjavelin</name>
-			<text>The giant coalesces wind into a javeIin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6+9) piercing damage to the target, striking unerringly. The javelin disappears after it hits.</text>
+			<text>The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6+9) piercing damage to the target, striking unerringly. The javelin disappears after it hits.</text>
 			<attack>Wind Javelin||3d6+9</attack>
 		</action>
 		<legendary>
@@ -28739,7 +28736,7 @@
 		<str>9</str><dex>14</dex><con>10</con><int>15</int><wis>11</wis><cha>14</cha>
 		<save />
 		<skill />
-		<resist>bludgenoning, piercing, slashing</resist>
+		<resist>bludgeoning, piercing, slashing</resist>
 		<vulnerable />
 		<immune />
 		<conditionImmune>charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
@@ -29266,7 +29263,7 @@
 	<monster>
 		<name>Tarul Var</name>
 		<size>M</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>105 (14d8+42)</hp>
@@ -29284,7 +29281,7 @@
 		<cr>13</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 244</text>
+			<text>tales from the yawning portal,  page 244</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>A lich doesn't require air, food, drink, or sleep.</text>
@@ -29355,7 +29352,7 @@
 	<monster>
 		<name>Thayan Warrior</name>
 		<size>M</size>
-		<type>humanoid (human)</type>
+		<type>humanoid (human), tales from the yawning portal</type>
 		<alignment>any non-good alignment</alignment>
 		<ac>16 (chain shirt, shield)</ac>
 		<hp>52 (8d8+16)</hp>
@@ -29373,7 +29370,7 @@
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 246</text>
+			<text>tales from the yawning portal,  page 246</text>
 		</trait>
         <trait>
 			<name>Doomvault Devotion</name>
@@ -29472,12 +29469,12 @@
 	<monster>
 		<name>Thorn Slinger</name>
 		<size>L</size>
-		<type>plant</type>
+		<type>plant, tales from the yawning portal</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
 		<hp>32 (5d10+5)</hp>
 		<speed>10 ft.</speed>
-		<str>13</str><dex>12</dex><con>12</con><int>l</int><wis>10</wis><cha>l</cha>
+		<str>13</str><dex>12</dex><con>12</con><int>1</int><wis>10</wis><cha>1</cha>
 		<save />
 		<skill />
 		<resist />
@@ -29490,7 +29487,7 @@
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 246</text>
+			<text>tales from the yawning portal,  page 246</text>
 		</trait>		<trait>
 			<name>Adhesive Blossoms</name>
 			<text>The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.</text>
@@ -30324,11 +30321,11 @@
 		<cr>3</cr>
 		<trait>
 			<name>Chameleon Skin</name>
-			<text>The troglodyte has aadvantage on Dexterity (Stealth) checks made to hide.</text>
+			<text>The troglodyte has advantage on Dexterity (Stealth) checks made to hide.</text>
 		</trait>
 		<trait>
 			<name>Stench</name>
-			<text>Any creature other than a ttroglodyte that starts its turn within 5 feet of the troglodyte must succeed on a DC 14 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all ttroglodytes for 1 hour.</text>
+			<text>Any creature other than a troglodyte that starts its turn within 5 feet of the troglodyte must succeed on a DC 14 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.</text>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -31137,7 +31134,7 @@
 	<monster>
 		<name>Vampiric Mist</name>
 		<size>M</size>
-		<type>undead</type>
+		<type>undead, tales from the yawning portal</type>
 		<alignment>chaotic evil</alignment>
 		<ac>13</ac>
 		<hp>45 (6d8+18)</hp>
@@ -31155,7 +31152,7 @@
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 247</text>
+			<text>tales from the yawning portal,  page 247</text>
 		</trait>		<trait>
 			<name>Undead Nature</name>
 			<text>A vampiric mist doesn't require air or sleep.</text>
@@ -31291,14 +31288,6 @@
 		<trait>
 			<name>Plant Camouflage </name>
 			<text>The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</text>
-		</trait>
-		<trait>
-			<name>Plant Camouflage </name>
-			<text>The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</text>
-		</trait>
-		<trait>
-			<name>Regeneration</name>
-			<text>The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate.</text>
 		</trait>
 		<trait>
 			<name>Regeneration</name>
@@ -31963,7 +31952,7 @@
 		<int>5</int>
 		<wis>10</wis>
 		<cha>8</cha>
-		<resist>acid, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -32047,7 +32036,7 @@
 		<int>11</int>
 		<wis>10</wis>
 		<cha>10</cha>
-		<resist>fire, bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<resist>fire; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious</conditionImmune>
 		<senses>blindsight 30 ft.</senses>
@@ -32470,7 +32459,7 @@
 	<monster>
 		<name>White Maw</name>
 		<size>G</size>
-		<type>ooze</type>
+		<type>ooze, tales from the yawning portal</type>
 		<alignment>chaotic neutral</alignment>
 		<ac>5
 </ac>
@@ -32489,7 +32478,7 @@
 		<cr>10</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 248</text>
+			<text>tales from the yawning portal,  page 248</text>
 		</trait>
         <trait>
 			<name>Ooze Nature</name>
@@ -33410,11 +33399,11 @@
 		</action>
 		<action>
 			<name>Caustic Spores (1/Day)</name>
-			<text>Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw ortake 1d6 acid damage at the start of each of Yestbrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success.</text>
+			<text>Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw or take 1d6 acid damage at the start of each of Yestbrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success.</text>
 		</action>
 		<action>
 			<name>Infestation Spores (1/Day)</name>
-			<text>Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<text>Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
 		</action>
 		<legendary>
 			<name />
@@ -34764,7 +34753,7 @@
 	<monster>
 		<name>Yusdrayl</name>
 		<size>S</size>
-		<type>humanoid (kobold)</type>
+		<type>humanoid (kobold), tales from the yawning portal</type>
 		<alignment>lawful evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>16 (3d6+6)</hp>
@@ -34782,7 +34771,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Source</name>
-			<text>Tales from the Yawning Portal,  page 248</text>
+			<text>tales from the yawning portal,  page 248</text>
 		</trait>
         <trait>
 			<name>Spellcasting</name>
