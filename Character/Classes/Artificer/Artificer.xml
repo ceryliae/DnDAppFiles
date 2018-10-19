@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Artificer">
+    <baseclass>
+        <name>Artificer</name>
+        <hd>8</hd>
+        <proficiency>Constitution, Intelligence</proficiency>
+        <spellAbility>Intelligence</spellAbility>
+        <autolevel level="1"> <slots>0,0,0,0,0,0</slots></autolevel>
+        <autolevel level="2"> <slots>0,0,0,0,0,0</slots></autolevel>
+        <autolevel level="3"> <slots>0,2,0,0,0,0</slots></autolevel>
+        <autolevel level="4"> <slots>0,3,0,0,0,0</slots></autolevel>
+        <autolevel level="5"> <slots>0,3,0,0,0,0</slots></autolevel>
+        <autolevel level="6"> <slots>0,3,0,0,0,0</slots></autolevel>
+        <autolevel level="7"> <slots>0,4,2,0,0,0</slots></autolevel>
+        <autolevel level="8"> <slots>0,4,2,0,0,0</slots></autolevel>
+        <autolevel level="9"> <slots>0,4,2,0,0,0</slots></autolevel>
+        <autolevel level="10"><slots>0,4,3,0,0,0</slots></autolevel>
+        <autolevel level="11"><slots>0,4,3,0,0,0</slots></autolevel>
+        <autolevel level="12"><slots>0,4,3,0,0,0</slots></autolevel>
+        <autolevel level="13"><slots>0,4,3,2,0,0</slots></autolevel>
+        <autolevel level="14"><slots>0,4,3,2,0,0</slots></autolevel>
+        <autolevel level="15"><slots>0,4,3,2,0,0</slots></autolevel>
+        <autolevel level="16"><slots>0,4,3,3,0,0</slots></autolevel>
+        <autolevel level="17"><slots>0,4,3,3,0,0</slots></autolevel>
+        <autolevel level="18"><slots>0,4,3,3,0,0</slots></autolevel>
+        <autolevel level="19"><slots>0,4,3,3,1,0</slots></autolevel>
+        <autolevel level="20"><slots>0,4,3,3,1,0</slots></autolevel>
+        <autolevel level="1">
+            <feature>
+                <name>Starting Proficiencies</name>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text />
+                <text>Armor: light armor, medium armor</text>
+                <text>Weapons: simple weapons</text>
+                <text>Tools: thieves’ tools + 2 other of your choice</text>
+                <text>Skills: Choose three from Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand</text>
+            </feature>
+            <feature>
+                <name>Starting Equipment</name>
+                <text>You start with the following items, plus anything provided by your background.</text>
+                <text />
+                <text>• (a) a hand axe and light hammer or (b) any two simple weapons</text>
+                <text>• light crossbow and 20 bolts</text>
+                <text>• (a) scale mail or (b) studded leather armor</text>
+                <text>• Thieves’ tools and dungeoneer’s pack</text>
+                <text />
+            </feature>
+        </autolevel>
+        <autolevel level="1">
+            <feature>
+                <name>Artificer Specialist</name>
+                <text>At 1st level, you choose the type of Artificer Specialist you are: Alchemist or Gunsmith, both of which are detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 9th, 14th, and 17th level.</text>
+            </feature>
+            <feature>
+                <name>Magic Item Analysis</name>
+                <text>Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells detect magic and identify, and you can cast them as rituals. You don’t need to provide a material component when casting identify with this class feature.</text>
+            </feature>
+			<!-- Archetype features -->
+        </autolevel>
+
+        <autolevel level="2">
+            <feature>
+                <name>Tool Expertise</name>
+                <text>Starting at 2nd level, your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class.</text>
+            </feature>
+            <feature>
+                <name>Wondrous Invention</name>
+                <text>At 2nd level, you gain the use of a magic item that you have crafted. Choose the item from the list of 2nd-level items below. </text>
+                <text>Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.</text>
+                <text>You complete another item of your choice when you reach certain levels in this class: 5th, 10th, 15th, and 20th level. The item you choose must be on the list for your current artificer level or a lower level.</text>
+                <text>These magic items are detailed in the Dungeon Master’s Guide.</text>
+                <text />
+                <text>2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</text>
+                <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
+                <text>10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward’s handy haversack</text>
+                <text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
+                <text>20th Level: eyes of the eagle, gem of brightness, gloves of missile snaring, gloves of swimming and climbing, ring of jumping, ring of mind shielding, wings of flying</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="3">
+            <feature>
+                <name>Spellcasting</name>
+                <text>As part of your study of magic, you gain the ability to cast spells at 3rd level. The spells you learn are limited in scope, primarily concerned with modifying creatures and objects or creating items.</text>
+                <text />
+                <text>Spell Slots</text>
+                <text />
+                <text>The Artificer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</text>
+                <text />
+                <text>Spells Known of 1st Level and Higher</text>
+                <text />
+                <text>You know three 1st-level spells of your choice from the artificer spell list (which appears at the end of this document).</text>
+                <text />
+                <text>The Spells Known column of the Artificer table shows when you learn more artificer spells of your choice from this feature. Each of these spells must be of a level for which you have spell slots on the Artificer table.</text>
+                <text />
+                <text>Additionally, when you gain a level in this class, you can choose one of the artificer spells you know from this feature and replace it with another spell from the artificer spell list. The new spell must also be of a level for which you have spell slots on the Artificer table.</text>
+                <text />
+                <text>Spellcasting Ability</text>
+                <text />
+                <text>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</text>
+                <text />
+                <text>Spell save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
+                <text />
+                <text>Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+                <text />
+                <text>Spellcasting Focus</text>
+                <text />
+                <text>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, “Equipment,” in the Player’s Handbook for various arcane focus options.</text>
+            </feature>
+			<!-- Archetype features -->
+        </autolevel>
+
+        <autolevel level="4">
+            <feature optional="YES">
+                <name>Ability Score Improvement</name>
+                <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text />
+                <text>    If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+			<feature>
+				<name>Infuse Magic</name>
+				<text>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell’s effect's occur. Instead, the spell transfers into that item for later use if the item doesn’t already contain a spell from this feature.</text>
+				<text>Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intelligence score of at least 6. The spell is cast using your spellcasting ability, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell’s range is self, it targets the creature that activates the item.</text>
+				<text>When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted. You can have a limited number of infused spells at the same time. The number equals your Intelligence modifier.</text>
+			</feature>
+        </autolevel>
+
+        <autolevel level="5">
+            <feature>
+                <name>Superior Attunement</name>
+                <text>At 5th level, your superior understanding of magic items allows you to master their use. You can now attune to up to four, rather than three, magic items at a time.</text>
+                <text>At 15th level, this limit increases to five magic items.</text>
+            </feature>
+            <feature>
+                <name>Wondrous Invention 2</name>
+                <text>At 5th level, you gain the use of a magic item that you have crafted.</text>
+                <text>Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.</text>
+                <text>The item you choose must be on the list for your current artificer level or a lower level.</text>
+                <text>These magic items are detailed in the Dungeon Master’s Guide.</text>
+                <text />
+                <text>2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</text>
+                <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="6">
+            <feature>
+                <name>Mechanical Servant</name>
+                <text>At 6th level, your research and mastery of your craft allow you to produce a mechanical servant. The servant is a construct that obeys your commands without hesitation and functions in combat to protect you. Though magic fuels its creation, the servant is not magical itself. You are assumed to have been working on the servant for quite some time, finally finishing it during a short or long rest after you reach 6th level.</text>
+                <text>Select a Large beast with a challenge rating of 2 or less. The servant uses that beast’s game statistics, but it can look however you like, as long as its form is appropriate for its statistics. It has the following modifications:</text>
+                <text />
+                <text>• It is a construct instead of a beast.</text>
+                <text>• It can’t be charmed.</text>
+                <text>• It is immune to poison damage and the poisoned condition.</text>
+                <text>• It gains darkvision with a range of 60 feet if it doesn’t have it already.</text>
+                <text>• It understands the languages you can speak when you create it, but it can’t speak.</text>
+                <text>• If you are the target of a melee attack and the servant is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make a melee attack against the attacker. </text>
+                <text />
+                <text>The servant obeys your orders to the best of its ability. In combat, it rolls its own initiative and acts on its own.</text>
+                <text>If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="8">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="9">
+			<!-- Archetype features -->
+        </autolevel>
+
+        <autolevel level="10">
+            <feature>
+                <name>Wondrous Invention</name>
+                <text>At 10th level, you gain the use of a magic item that you have crafted.</text>
+                <text>Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.</text>
+                <text>The item you choose must be on the list for your current artificer level or a lower level.</text>
+                <text>These magic items are detailed in the Dungeon Master’s Guide.</text>
+                <text />
+                <text>2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</text>
+                <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
+                <text>10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward’s handy haversack</text>
+            </feature>
+        </autolevel>
+        <autolevel level="12">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+        <autolevel level="14">
+			<!-- Archetype features -->
+        </autolevel>
+
+        <autolevel level="15">
+            <feature>
+                <name>Superior Attunement</name>
+                <text>At 15th level, your superior understanding of magic items allows you to master their use. You can now attune to up to five, rather than four, magic items at a time.</text>
+            </feature>
+            <feature>
+                <name>Wondrous Invention</name>
+                <text>At 15th level, you gain the use of a magic item that you have crafted.</text>
+                <text>Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.</text>
+                <text>The item you choose must be on the list for your current artificer level or a lower level.</text>
+                <text>These magic items are detailed in the Dungeon Master’s Guide.</text>
+                <text />
+                <text>2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</text>
+                <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
+                <text>10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward’s handy haversack</text>
+                <text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="16">
+            <feature>
+                <name>Ability Score Improvement</name>
+                <text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="17">
+			<!-- Archetype features -->
+        </autolevel>
+
+        <autolevel level="18">
+            <feature>
+                <name>Ability Score Improvement  </name>
+                <text>When you reach 18th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+                <text>    If your DM allows the use of feats, you may instead take a feat.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="20">
+            <feature>
+                <name>Wondrous Invention</name>
+                <text>At 20th level, you gain the use of a magic item that you have crafted.</text>
+                <text>Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.</text>
+                <text>The item you choose must be on the list for your current artificer level or a lower level.</text>
+                <text>These magic items are detailed in the Dungeon Master’s Guide.</text>
+                <text />
+                <text>2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones</text>
+                <text>5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets</text>
+                <text>10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward’s handy haversack</text>
+                <text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
+                <text>20th Level: eyes of the eagle, gem of brightness, gloves of missile snaring, gloves of swimming and climbing, ring of jumping, ring of mind shielding, wings of flying</text>
+            </feature>
+            <feature>
+                <name>Soul of Artifice</name>
+                <text>At 20th level, your understanding of magic items is unmatched, allowing you to mingle your soul with items linked to you. You can attune to up to six magic items at once. In addition, you gain a +1 bonus to all saving throws per magic item you are currently attuned to.</text>
+            </feature>
+        </autolevel>
+    </baseclass>
+
+	<spellList class="Artificer">
+		<index name="Aid"/>
+		<index name="Alarm"/>
+		<index name="Alter Self"/>
+		<index name="Arcane Eye"/>
+		<index name="Arcane Lock"/>
+		<index name="Blink"/>
+		<index name="Blur"/>
+		<index name="Continual Flame"/>
+		<index name="Cure Wounds"/>
+		<index name="Darkvision"/>
+		<index name="Death Ward"/>
+		<index name="Detect Magic"/>
+		<index name="Disguise Self"/>
+		<index name="Enhance Ability"/>
+		<index name="Enlarge/Reduce"/>
+		<index name="Expeditious Retreat"/>
+		<index name="Fabricate"/>
+		<index name="False Life"/>
+		<index name="Fly"/>
+		<index name="Freedom of Movement"/>
+		<index name="Gaseous Form"/>
+		<index name="Glyph of Warding"/>
+		<index name="Haste"/>
+		<index name="Identify"/>
+		<index name="Invisibility"/>
+		<index name="Jump"/>
+		<index name="Leomund's Secret Chest"/>
+		<index name="Lesser Restoration"/>
+		<index name="Levitate"/>
+		<index name="Longstrider"/>
+		<index name="Magic Weapon"/>
+		<index name="Mordenkainen's Faithful Hound"/>
+		<index name="Mordenkainen's Private Sanctum"/>
+		<index name="Otiluke's Resilient Sphere"/>
+		<index name="Protection from Energy"/>
+		<index name="Protection from Poison"/>
+		<index name="Revivify"/>
+		<index name="Rope Trick"/>
+		<index name="Sanctuary"/>
+		<index name="See Invisibility"/>
+		<index name="Shield of Faith"/>
+		<index name="Spider Climb"/>
+		<index name="Stone Shape"/>
+		<index name="Stoneskin"/>
+		<index name="Water Breathing"/>
+		<index name="Water Walk"/>
+	</spellList>
+
+</compendium>
