@@ -13,6 +13,8 @@ You can review optional parameters (such separating subclasses into separate 'cl
 """
 from xml.etree import ElementTree as et
 from glob import glob
+import fnmatch
+import os
 import re
 import argparse
 import copy
@@ -76,7 +78,7 @@ class XMLCombiner(object):
         # drop <subclass> elements etc, FC5 doesn't recognize them and will treat <feature>s in them as <feat>s
         self.roots[0][:] = [element for element in elements
                             if element.tag not in ['baseclass', 'subclass']]
-        return self.files[0].write(output_path, encoding='UTF-8')     
+        return self.files[0].write(output_path, encoding='UTF-8')
 
     def remove_duplicates(self):
         """ Loads base elements into dictionaries, primarily so sub-classes can reference base-classes. Also removes and logs duplicates."""
@@ -85,7 +87,7 @@ class XMLCombiner(object):
         'background':{}, 'feat':{}, 'item':{}, 'monster':{},
         'spell':{}, 'spellList':{}}
         attribution = copy.deepcopy(items)
-        
+
         for filename, f, r in self.sources:
             for element in r:
                 if element.tag == 'spellList':
@@ -185,7 +187,11 @@ def create_category_compendiums():
     output_paths = []
     for category in categories:
         if (args.includes != ['*'] and (category not in args.includes)): continue
-        filenames = glob('%s/*.xml' % category)
+        # filenames = glob('%s/*.xml' % category)
+        filenames = []
+        for root, dirnames, fnames in os.walk(category):
+            for filename in fnmatch.filter(fnames, '*.xml'):
+                filenames.append(os.path.join(root, filename))
         output_path = COMPENDIUM.format(category=category)
 
         """build UA compendium, but exclude from Full"""
@@ -193,7 +199,6 @@ def create_category_compendiums():
             output_paths.append(output_path)
         XMLCombiner(filenames).combine_templates(output_path)
     return output_paths
-
 
 def create_class_compendiums():
     classes = {}
@@ -215,6 +220,17 @@ def create_class_compendiums():
 
 def create_full_compendium():
     """Create the category compendiums and combine them into full compendium"""
+
+    # create the Compendiums directory if it doesn't already exist
+    print "Making sure compendiums directory exists..."
+
+    if not os.path.exists("Compendiums"):
+        print "Making Compendiums directory"
+        try:
+            os.makedirs("Compendiums")
+        except OSError:
+            print "Error making Compendiums directory"
+            return
 
     class_paths = create_class_compendiums()
 
