@@ -183,7 +183,7 @@ def create_category_compendiums():
     :return: list of output paths.
 
     """
-    categories = ['Items', 'Character', 'Spells', 'Bestiary', 'Unearthed Arcana']
+    categories = ['Items', 'Character', 'Spells', 'Bestiary', 'Unearthed Arcana', 'Homebrew']
     output_paths = []
     for category in categories:
         if (args.includes != ['*'] and (category not in args.includes)): continue
