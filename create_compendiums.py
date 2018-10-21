@@ -268,7 +268,7 @@ reference: generate unique Classes for Base and Subs, but do not combine (each C
 none: do not generate unique Classes for Base and Subs.
                             ''')
 
-    parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='+',
+    parser.add_argument('-e', '--excludes', dest='excludes', action='store', nargs='*',
                         choices=['UA', 'MF', 'HB', 'PS', 'IL'], default=['MF', 'HB'],
                         help='''\
 (default=%(default)s)
