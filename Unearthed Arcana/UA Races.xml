@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<race>
+<compendium version="5" UA="Gothic Heroes, Waterborne Adventures">
+	<race name="Revenant" UA="Gothic Heroes">
+		<name>Revenant</name>
+		<ability>Con 1</ability>
+		<trait>
+			<name>Subrace</name>
+			<text>Having met a cruel and undeserved end, you have returned to the realm of the living. As a revenant, you thirst for revenge against those who wronged you in life, or seek to complete a final, critical task you left unfinished.</text>
+			<text>The revenant subrace can be applied to any race that has a subrace, and replaces that race's existing subrace options. Alternatively, you can apply this new subrace to a race without subrace options using the modification options provided below.</text>
+			<text>Your DM might also allow you to take this subrace for a slain character. In that case, your character rises from the dead with its original subrace replaced (or with the necessary modifications made to its base traits), filled with a determination to seek vengeance or complete its mission.</text>
+			<text>This Subrace is from Unearthed Arcana: Gothic Heroes, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+		</trait>
+		<trait>
+			<name>Ability Score Increase</name>
+			<text>Your Constitution score increases by 1, replacing any other subrace Ability Score Increase</text>
+		</trait>
+		<trait>
+			<name>Relentless Nature</name>
+			<text>Your DM assigns a goal to you—typically, one related to your character's death. The goal must be a specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain the following benefits:</text>
+			<text>• If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.</text>
+			<text>• If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.</text>
+			<text>• You know the distance and direction between you and any creature involved in your goal, such as a person you seek vengeance against or someone you pledged to defend. This awareness fails if the creature is on another plane of existence.</text>
+			<text>When your goal is complete, you finally find rest. You die and cannot be restored to life.</text>
+		</trait>
+	</race>
+	<race name="Minotaur" UA="Waterborne Adventures">
+		<name>Minotaur</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Str 1</ability>
+		<trait>
+			<name>Conqueror's Virtue</name>
+			<text>From a young age, you focused on one of the three virtues of strength, cunning, or intellect. Your choice of your Strength, Intelligence, or Wisdom score increases by 1.</text>
+		</trait>
+		<trait>
+			<name>Horns</name>
+			<text>You are never unarmed. You are proficient with your horns, which are a melee weapon that deals 1d10 piercing damage. Your horns grant you advantage on all checks made to shove a creature, but not to avoid being shoved yourself.</text>
+		</trait>
+		<trait>
+			<name>Goring Rush</name>
+			<text>When you use the Dash action during your turn, you can make a melee attack with your horns as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Hammering Horns</name>
+			<text>When you use the Attack action during your turn to make a melee attack, you can attempt to shove a creature with your horns as a bonus action. You cannot use this shove attempt to knock a creature prone.</text>
+		</trait>
+		<trait>
+			<name>Labyrinthine Recall</name>
+			<text>You can perfectly recall any path you have traveled.</text>
+		</trait>
+		<trait>
+			<name>Sea Reaver</name>
+			<text>You gain proficiency with navigator's tools and vehicles (water).</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common.</text>
+		</trait>
+	</race>
+	<race name="Shifter (Beasthide)" UA="Eberron">
 		<name>Shifter (Beasthide)</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -26,7 +83,7 @@
 			<text>While shifting, you gain a +1 bonus to AC.</text>
 		</trait>
 	</race>
-	<race>
+	<race name="Changeling" UA="Eberron">
 		<name>Changeling</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -45,7 +102,7 @@
 			<text>You can speak, read, and write Common and two other languages of your choice.</text>
 		</trait>
 	</race>
-	<race>
+	<race name="Shifter (Cliffwalk)" UA="Eberron">
 		<name>Shifter (Cliffwalk)</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -71,7 +128,7 @@
 			<text>While shifting, you gain a climb speed of 30 feet.</text>
 		</trait>
 	</race>
-	<race>
+	<race name="Shifter (Longstride)" UA="Eberron">
 		<name>Shifter (Longstride)</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -97,7 +154,7 @@
 			<text>While shifting, you can use the Dash action as a bonus action.</text>
 		</trait>
 	</race>
-	<race>
+	<race name="Shifter (Longtooth)" UA="Eberron">
 		<name>Shifter (Longtooth)</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -123,7 +180,33 @@
 			<text>While shifting, you can make a bite attack as an action. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals 1d6 piercing damage. If this attack hits a target that is your size or smaller, the target is also grappled.</text>
 		</trait>
 	</race>
-	<race>
+	<race name="Shifter (Wildhunt)" UA="Eberron">
+		<name>Shifter (Wildhunt)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<ability>Dex 1, Wis 1</ability>
+		<trait>
+			<name>Darkvision</name>
+			<text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Shifting</name>
+			<text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
+			<text />
+			<text>While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.</text>
+			<text />
+			<text>You must finish a short or long rest before you can shift again.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common and Sylvan.</text>
+		</trait>
+		<trait>
+			<name>Shifting Feature</name>
+			<text>While shifting, you gain advantage on all Wisdom-based checks and saving throws.</text>
+		</trait>
+	</race>
+	<race name="Warforged" UA="Eberron">
 		<name>Warforged</name>
 		<size>M</size>
 		<speed>30</speed>
@@ -143,7 +226,7 @@
 			<text>You can speak, read, and write Common and one other language of your choice.</text>
 		</trait>
 	</race>
-	<race>
+	<race name="Tiefling (Abyssal)" UA="That Old Black Magick">
 		<name>Tiefling (Abyssal)</name>
 		<size>M</size>
 		<speed>30</speed>
