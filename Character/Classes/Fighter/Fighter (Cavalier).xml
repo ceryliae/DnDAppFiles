@@ -1,148 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-  <subclass baseclass="Fighter" UA="Revised Class Options">
-	<name>Fighter (Cavalier)</name>
-	<spellAbility>Strength</spellAbility>
+	<subclass baseclass="Fighter" UA="Revised Class Options">
+		<name>Fighter (Cavalier)</name>
+		<spellAbility>Strength</spellAbility>
 
-	<autolevel level="3">
-	  <feature optional="YES">
-		<name>Martial Archetype: Cavalier (UA)</name>
-		<text>The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.</text>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Martial Archetype: Cavalier (UA)</name>
+				<text>The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.</text>
+				<text/>
+				<text>This Martial Archetype is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+				<text>	This had an earlier version included in Unearthed Arcana: Kits of Old</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Cavalier: Bonus Proficiency</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Cavalier: Born to the Saddle</name>
+				<text>Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated.</text>
+				<text>Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
+			</feature>
+
+			<slots optional="YES">0,4</slots>
+			<feature optional="YES">
+				<name>Cavalier: Combat Superiority</name>
+				<text>At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.</text>
+				<text/>
+				<text>Superiority Dice:</text>
+				<text>	You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</text>
+				<text>	You gain another superiority die at 7th level and one more at 15th level.</text>
+				<text/>
+				<text>Maneuvers:</text>
+				<text>	You spend your superiority dice on your maneuvers. You can use more than one maneuver per turn, but no more than one maneuver per attack.</text>
+				<text>	You know the following maneuvers:</text>
+				<text/>
+				<text>Control Mount. When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
+				<text/>
+				<text>Precision Attack. When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
+				<text/>
+				<text>Trip Attack. When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack's damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
+				<text/>
+				<text>Warding Maneuver. If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you're wielding a weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="7">
+			<slots optional="YES">0,5</slots>
+			<feature optional="YES">
+				<name>Cavalier: Ferocious Charger</name>
+				<text>At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Cavalier: Improved Combat Superiority</name>
+				<text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="15">
+			<slots optional="YES">0,6</slots>
+			<feature optional="YES">
+				<name>Cavalier: Relentless</name>
+				<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Cavalier: Improved Combat Superiority</name>
+				<text>At 18th level, your superiority dice turn into d12s.</text>
+			</feature>
+		</autolevel>
+
+	</subclass>
+
+	<!--Cavalier Psuedo-Spells-->
+	<spell PS="PS" UA="Revised Class Options">
+		<name>Control Mount</name>
+		<level>1</level>
+		<school/>
+		<time>superiority die</time>
+		<range />
+		<components />
+		<classes>Fighter (Cavalier)</classes>
+		<text>When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
 		<text/>
-		<text>This Martial Archetype is from Unearthed Arcana: Revised Class Options, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
-		<text>	This had an earlier version included in Unearthed Arcana: Kits of Old</text>
-	  </feature>
-
-	  <feature optional="YES">
-		<name>Cavalier: Bonus Proficiency</name>
-		<text>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.</text>
-	  </feature>
-	  <feature optional="YES">
-		<name>Cavalier: Born to the Saddle</name>
-		<text>Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated.</text>
-		<text>Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</text>
-	  </feature>
-
-		<slots optional="YES">0,4</slots>
-	  <feature optional="YES">
-		<name>Cavalier: Combat Superiority</name>
-		<text>At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.</text>
+		<text>Add roll to Skill Check</text>
+		<roll>1d8</roll>
+		<roll>1d10</roll>
+		<roll>1d12</roll>
+	</spell>
+	<spell PS="PS" UA="Revised Class Options">
+		<name>Precision Attack (Cavalier)</name>
+		<level>1</level>
+		<school/>
+		<time>superiority die</time>
+		<range />
+		<components />
+		<classes>Fighter (Cavalier)</classes>
+		<text>When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
 		<text/>
-		<text>Superiority Dice:</text>
-		<text>	You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</text>
-		<text>	You gain another superiority die at 7th level and one more at 15th level.</text>
+		<text>Add roll to Weapon Attack Roll</text>
+		<roll>1d8</roll>
+		<roll>1d10</roll>
+		<roll>1d12</roll>
+	</spell>
+	<spell PS="PS" UA="Revised Class Options">
+		<name>Trip Attack (Cavalier)</name>
+		<level>1</level>
+		<school/>
+		<time>superiority die</time>
+		<range />
+		<components />
+		<classes>Fighter (Cavalier)</classes>
+		<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack's damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
 		<text/>
-		<text>Maneuvers:</text>
-		<text>	You spend your superiority dice on your maneuvers. You can use more than one maneuver per turn, but no more than one maneuver per attack.</text>
-		<text>	You know the following maneuvers:</text>
+		<text>	At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
+		<text />
+		<text>Add roll to damage, knock prone (Large) vs Strength Saving Throw</text>
+		<text>At 7th (class) level, use twice for disadvantage.</text>
+		<roll>1d8</roll>
+		<roll>1d10</roll>
+		<roll>1d12</roll>
+	</spell>
+	<spell PS="PS" UA="Revised Class Options">
+		<name>Warding Maneuver</name>
+		<level>1</level>
+		<school/>
+		<time>1 reaction</time>
+		<range>creature within 5 feet</range>
+		<components />
+		<duration />
+		<classes>Fighter (Cavalier)</classes>
+		<text>If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you're wielding a weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.</text>
 		<text/>
-		<text>Control Mount. When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
-		<text/>
-		<text>Precision Attack. When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
-		<text/>
-		<text>Trip Attack. When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack's damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
-		<text/>
-		<text>Warding Maneuver. If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you're wielding a weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.</text>
-	  </feature>
-	</autolevel>
-
-	<autolevel level="7">
-	  <slots optional="YES">0,5</slots>
-	  <feature optional="YES">
-		<name>Cavalier: Ferocious Charger</name>
-		<text>At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
-	  </feature>
-	</autolevel>
-
-	<autolevel level="10">
-	  <feature optional="YES">
-		<name>Cavalier: Improved Combat Superiority</name>
-		<text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</text>
-	  </feature>
-	</autolevel>
-
-	<autolevel level="15">
-	  <slots optional="YES">0,6</slots>
-	  <feature optional="YES">
-		<name>Cavalier: Relentless</name>
-		<text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die.</text>
-	  </feature>
-	</autolevel>
-
-	<autolevel level="18">
-	  <feature optional="YES">
-		<name>Cavalier: Improved Combat Superiority</name>
-		<text>At 18th level, your superiority dice turn into d12s.</text>
-	  </feature>
-	</autolevel>
-
-  </subclass>
-
-  <!--Cavalier Psuedo-Spells-->
-  <spell PS="PS" UA="Revised Class Options">
-	<name>Control Mount</name>
-	<level>1</level>
-	<school/>
-	<time>superiority die</time>
-	<range />
-	<components />
-	<classes>Fighter (Cavalier)</classes>
-	<text>When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</text>
-	<text/>
-  	<text>Add roll to Skill Check</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-  <spell PS="PS" UA="Revised Class Options">
-	<name>Precision Attack (Cavalier)</name>
-	<level>1</level>
-	<school/>
-	<time>superiority die</time>
-	<range />
-	<components />
-	<classes>Fighter (Cavalier)</classes>
-	<text>When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</text>
-	<text/>
-	<text>Add roll to Weapon Attack Roll</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-  <spell PS="PS" UA="Revised Class Options">
-	<name>Trip Attack (Cavalier)</name>
-	<level>1</level>
-	<school/>
-	<time>superiority die</time>
-	<range />
-	<components />
-	<classes>Fighter (Cavalier)</classes>
-	<text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack's damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</text>
-	<text/>
-	<text>	At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</text>
-	<text />
-	<text>Add roll to damage, knock prone (Large) vs Strength Saving Throw</text>
-	<text>At 7th (class) level, use twice for disadvantage.</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
-  <spell PS="PS" UA="Revised Class Options">
-	<name>Warding Maneuver</name>
-	<level>1</level>
-	<school/>
-	<time>1 reaction</time>
-	<range>creature within 5 feet</range>
-	<components />
-	<duration />
-	<classes>Fighter (Cavalier)</classes>
-	<text>If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you're wielding a weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.</text>
-	<text/>
-	<text>Add roll to AC, resistance if still hit.</text>
-	<roll>1d8</roll>
-	<roll>1d10</roll>
-	<roll>1d12</roll>
-  </spell>
+		<text>Add roll to AC, resistance if still hit.</text>
+		<roll>1d8</roll>
+		<roll>1d10</roll>
+		<roll>1d12</roll>
+	</spell>
 
 	<spellList class="Fighter (Cavalier)" UA="Revised Class Options">
 		<!-- Cavalier currently has access to PHB Battle Master Maneuvers 'Precision Attack' and 'Trip Attack',
