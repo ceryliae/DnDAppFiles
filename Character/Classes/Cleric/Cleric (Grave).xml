@@ -1,66 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" UA="Cleric">
+<compendium version="5">
 	<subclass baseclass="Cleric">
 		<name>Cleric (Grave)</name>
 
 		<autolevel level="1">
-            <feature optional="YES">
-                <name>Divine Domain: Grave (UA)</name>
-                <text>Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse's workings. To resist death, or to desecrate the dead's rest, is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. These deities teach their followers to respect the dead and pay them due homage. Followers of these deities seek to put restless spirits to rest, destroy the undead wherever they find them, and ease the suffering of dying creatures. Their magic also allows them to stave off a creature's death, though they refuse to use such magic to extend a creature's lifespan beyond its mortal limits.</text>
-                <text />
-                <text>Grave Domain Spells</text>
-                <text>1st - bane, false life</text>
-                <text>3rd - gentle repose, ray of enfeeblement</text>
-                <text>5th - revivify, vampiric touch</text>
-                <text>7th - blight, death ward</text>
-                <text>9th - antilife shell, raise dead</text>
-                <text />
-                <text>This Divine Domain is from Unearthed Arcana: Cleric Divine Domains, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Grave Domain: Bonus Proficiency</name>
-                <text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Grave Domain: Circle of Mortality</name>
-                <text>At 1st level, you gain the ability to manipulate the line between life and death. When you cast a spell that restores hit points to a living creature currently at 0, treat any dice rolled to determine the spell's healing as having rolled their maximum result. In addition, if you have the spare the dying cantrip, you can cast it as a bonus action.</text>
-            </feature>
-            <feature optional="YES">
-                <name>Grave Domain: Eyes of the Grave</name>
-                <text>Starting at 1st level, you gain an innate sense of creatures whose existence is an insult to the natural cycle of life. If you spend 1 minute in uninterrupted contemplation, you can determine the presence and nature of undead creatures in the area. This detection extends up to 1 mile in all directions. You learn the number of undead and their distance and direction from you. In addition, you learn the creature type of the undead in that area that has the highest challenge rating. </text>
-                <text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
-            </feature>
+			<feature optional="YES">
+				<name>Divine Domain: Grave</name>
+				<text>Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse's workings. To resist death, or to desecrate the dead's rest, is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. These deities teach their followers to respect the dead and pay them due homage. Followers of these deities seek to put restless spirits to rest, destroy the undead wherever they find them, and ease the suffering of dying creatures. Their magic also allows them to stave off a creature's death, though they refuse to use such magic to extend a creature's lifespan beyond its mortal limits.</text>
+				<text />
+				<text>Grave Domain Spells</text>
+				<text>1st - bane, false life</text>
+				<text>3rd - gentle repose, ray of enfeeblement</text>
+				<text>5th - revivify, vampiric touch</text>
+				<text>7th - blight, death ward</text>
+				<text>9th - antilife shell, raise dead</text>
+			</feature>
+			<feature optional="YES">
+				<name>Grave Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Grave Domain: Circle of Mortality</name>
+				<text>At 1st level, you gain the ability to manipulate the line between life and death. When you cast a spell that restores hit points to a living creature currently at 0, treat any dice rolled to determine the spell's healing as having rolled their maximum result. In addition, if you have the spare the dying cantrip, you can cast it as a bonus action.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Grave Domain: Eyes of the Grave</name>
+				<text>Starting at 1st level, you gain an innate sense of creatures whose existence is an insult to the natural cycle of life. If you spend 1 minute in uninterrupted contemplation, you can determine the presence and nature of undead creatures in the area. This detection extends up to 1 mile in all directions. You learn the number of undead and their distance and direction from you. In addition, you learn the creature type of the undead in that area that has the highest challenge rating. </text>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="2">
-            <feature optional="YES">
-                <name>Grave Domain Channel Divinity: Path to the Grave</name>
-                <text>Starting at 2nd level, you can use your Channel Divinity to mark another creature's life force for termination. </text>
-                <text>	As an action, you touch a creature. The next time that creature takes damage from a spell or an attack from you or an ally, it is vulnerable to that spell or attack's damage. If the source of damage has multiple damage types, the creature is vulnerable to all of them. The vulnerability applies only to the first time that source inflicts damage, and then ends. </text>
-                <text>	If the creature has resistance or is immune to the damage, it instead loses its resistance or immunity against that spell or attack when it first applies damage.</text>
-            </feature>
+			<feature optional="YES">
+				<name>Grave Domain Channel Divinity: Path to the Grave</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to mark another creature's life force for termination. </text>
+				<text>	As an action, you touch a creature. The next time that creature takes damage from a spell or an attack from you or an ally, it is vulnerable to that spell or attack's damage. If the source of damage has multiple damage types, the creature is vulnerable to all of them. The vulnerability applies only to the first time that source inflicts damage, and then ends. </text>
+				<text>	If the creature has resistance or is immune to the damage, it instead loses its resistance or immunity against that spell or attack when it first applies damage.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="6">
-            <feature optional="YES">
-                <name>Grave Domain: Sentinel at Death's Door</name>
-                <text>Starting at 6th level, you gain the ability to impede death's progress. As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled. </text>
-                <text>	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
-            </feature>
+			<feature optional="YES">
+				<name>Grave Domain: Sentinel at Death's Door</name>
+				<text>Starting at 6th level, you gain the ability to impede death's progress. As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled. </text>
+				<text>	Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="8">
-            <feature optional="YES">
-                <name>Grave Domain: Divine Strike</name>
-                <text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. When you reach 14th level, the extra damage increases to 2d8.</text>
-            </feature>
+			<feature optional="YES">
+				<name>Grave Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
 		</autolevel>
 
 		<autolevel level="17">
-            <feature optional="YES">
-                <name>Grave Domain: Keeper of Souls</name>
-                <text>At 17th level, you gain the ability to manipulate the boundary between life and death. When an enemy you can see dies within 30 feet of you, you or one ally of your choice that is within 30 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature as long as you aren't incapacitated, but no more than once per round.</text>
-            </feature>
+			<feature optional="YES">
+				<name>Grave Domain: Keeper of Souls</name>
+				<text>At 17th level, you gain the ability to manipulate the boundary between life and death. When an enemy you can see dies within 30 feet of you, you or one ally of your choice that is within 30 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature as long as you aren't incapacitated, but no more than once per round.</text>
+			</feature>
 		</autolevel>
 	</subclass>
 	<spellList class="Cleric (Grave)">
