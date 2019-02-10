@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Updated 2015/12/21 (Errata) -->
 <compendium version="5">
+<!--Dungeon Master's Guide-->
 	<item>
 		<name>Adamantine Chain Mail</name>
 		<type>HA</type>
@@ -13856,31 +13857,194 @@
 		<modifier category="bonus">ac +3</modifier>
 	</item>
 	<item>
-		<name>Dragontooth Dagger</name>
-		<type>M</type>
+		<name>Adamantine Spiked Armor</name>
+		<type>MA</type>
 		<magic>1</magic>
-		<weight>1</weight>
-		<dmg1>1d4</dmg1>
-		<dmgType>P</dmgType>
-		<property>F,L,T</property>
-		<range>20/60</range>
-		<text>A dagger fashioned from the tooth of a dragon. While the blade is obviously a fang or predator's tooth, the handle is leather wrapped around the root of the tooth, and there is no crossguard.</text>
-		<text>You gain a +1 bonus to attack rolls and damage rolls you make with this weapon. On a hit with this weapon, the target takes an extra 1d6 acid damage.</text>
-		<text>Draconic Potency: Against enemies of the Cult of the Dragon, the dagger's bonus to attack rolls and damage rolls increases to 2, and the extra acid damage increases to 2d6.</text>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>	This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</text>
 		<text />
-		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
-		<text />
-		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
-		<text />
-		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range</text>
-		<text />
-		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
-		<text />
-		<text>Source: The Rise of Tiamat, page 94</text>
-		<modifier category="bonus">weapon attacks +1</modifier>
-		<modifier category="bonus">weapon damage +1</modifier>
-		<roll>1d6</roll>
+		<text>Source: Dungeon Master's Guide, page 150</text>
 	</item>
+	<item>
+		<name>Spiked Armor +1</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>	You have a +1 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +1</modifier>
+	</item>
+	<item>
+		<name>Spiked Armor +2</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>	You have a +2 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +2</modifier>
+	</item>
+	<item>
+		<name>Spiked Armor +3</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>	You have a +3 bonus to AC while wearing this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Spiked Armor of Acid Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to acid damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Cold Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to cold damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Fire Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to fire damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Force Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to force damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Lightning Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to lightning damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Necrotic Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to necrotic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Poison Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to poison damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Psychic Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to psychic damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Radiant Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to radiant damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Spiked Armor of Thunder Resistance</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>Requires Attunement</text>
+		<text>	You have resistance to thunder damage while you wear this armor.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 152</text>
+	</item>
+	<item>
+		<name>Mariner's Spiked Armor</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<stealth>YES</stealth>
+		<text>	While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 181</text>
+	</item>
+	<item>
+		<name>Mithral Spiked Armor</name>
+		<type>MA</type>
+		<magic>1</magic>
+		<weight>45</weight>
+		<ac>14</ac>
+		<text>	Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 182</text>
+	</item>
+<!--Princes of the Apocalypse-->
 	<item>
 		<name>Drown</name>
 		<type>M</type>
@@ -13912,35 +14076,6 @@
 		<modifier category="bonus">weapon attacks +1</modifier>
 		<modifier category="bonus">weapon damage +1</modifier>
 		<roll>1d8</roll>
-	</item>
-	<item>
-		<name>Hazirawn</name>
-		<type>M</type>
-		<magic>1</magic>
-		<weight>6</weight>
-		<dmg1>2d6</dmg1>
-		<dmgType>S</dmgType>
-		<property>H,2H</property>
-		<text>Requires Attunement</text>
-		<text />
-		<text>A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus on attack rolls and damage rolls made with this weapon. If you are attuned to Hazirawn, you deal an extra 1d6 necrotic damage when you hit with the weapon.</text>
-		<text />
-		<text>Increased Potency: While you are attuned to this weapon, its bonus on attack rolls and damage rolls increases to +2, and a hit deals an extra 2d6 necrotic damage (instead of 1d6)</text>
-		<text />
-		<text>Spells: Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast detect magic (1 charge), detect evil and good (1 charge), or detect thoughts (2 charges). Each night at midnight, Hazirawn regains 1d4 expended charges.</text>
-		<text />
-		<text>Wounding: While you are attuned to the weapon, any creature that you hit with Hazirawn can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.</text>
-		<text />
-		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
-		<text />
-		<text>Two-Handed: This weapon requires two hands to use.</text>
-		<text />
-		<text>Source: Hoard of the Dragon Queen, page 94</text>
-		<modifier category="bonus">melee attacks +2</modifier>
-		<modifier category="bonus">melee damage +2</modifier>
-		<roll>1d6</roll>
-		<roll>2d6</roll>
-		<roll>1d4</roll>
 	</item>
 	<item>
 		<name>Ironfang</name>
@@ -14256,6 +14391,7 @@
 		<text />
 		<text>Source: Princes of the Apocalypse, page 222</text>
 	</item>
+<!--Hoard of the Dragon Queen/Rise of Tiamat-->
 	<item>
 		<name>Draakhorn</name>
 		<type>W</type>
@@ -14269,6 +14405,32 @@
 		<text />
 		<text>Source: The Rise of Tiamat, page 93</text>
 		<roll>6d8</roll>
+	</item>
+	<item>
+		<name>Dragontooth Dagger</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<property>F,L,T</property>
+		<range>20/60</range>
+		<text>A dagger fashioned from the tooth of a dragon. While the blade is obviously a fang or predator's tooth, the handle is leather wrapped around the root of the tooth, and there is no crossguard.</text>
+		<text>You gain a +1 bonus to attack rolls and damage rolls you make with this weapon. On a hit with this weapon, the target takes an extra 1d6 acid damage.</text>
+		<text>Draconic Potency: Against enemies of the Cult of the Dragon, the dagger's bonus to attack rolls and damage rolls increases to 2, and the extra acid damage increases to 2d6.</text>
+		<text />
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text />
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text />
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range</text>
+		<text />
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<text />
+		<text>Source: The Rise of Tiamat, page 94</text>
+		<modifier category="bonus">weapon attacks +1</modifier>
+		<modifier category="bonus">weapon damage +1</modifier>
+		<roll>1d6</roll>
 	</item>
 	<item>
 		<name>Green Dragon Mask</name>
@@ -14293,6 +14455,35 @@
 		<text>Water Breathing: You can breathe underwater.</text>
 		<text />
 		<text>Source: Rise of Tiamat Online Supplement, page 4</text>
+	</item>
+	<item>
+		<name>Hazirawn</name>
+		<type>M</type>
+		<magic>1</magic>
+		<weight>6</weight>
+		<dmg1>2d6</dmg1>
+		<dmgType>S</dmgType>
+		<property>H,2H</property>
+		<text>Requires Attunement</text>
+		<text />
+		<text>A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus on attack rolls and damage rolls made with this weapon. If you are attuned to Hazirawn, you deal an extra 1d6 necrotic damage when you hit with the weapon.</text>
+		<text />
+		<text>Increased Potency: While you are attuned to this weapon, its bonus on attack rolls and damage rolls increases to +2, and a hit deals an extra 2d6 necrotic damage (instead of 1d6)</text>
+		<text />
+		<text>Spells: Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast detect magic (1 charge), detect evil and good (1 charge), or detect thoughts (2 charges). Each night at midnight, Hazirawn regains 1d4 expended charges.</text>
+		<text />
+		<text>Wounding: While you are attuned to the weapon, any creature that you hit with Hazirawn can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.</text>
+		<text />
+		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
+		<text />
+		<text>Two-Handed: This weapon requires two hands to use.</text>
+		<text />
+		<text>Source: Hoard of the Dragon Queen, page 94</text>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>1d4</roll>
 	</item>
 	<item>
 		<name>Insignia of Claws</name>
@@ -14413,6 +14604,7 @@
 		<text />
 		<text>Source: Hoard of the Dragon Queen, page 94</text>
 	</item>
+<!--Out of the Abyss-->
 	<item>
 		<name>Dawnbringer</name>
 		<type>M</type>
@@ -14644,194 +14836,7 @@
 		<text>Source: Out of the Abyss, page 223</text>
 		<roll>1d6+1</roll>
 	</item>
-	<item>
-		<name>Adamantine Spiked Armor</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>	This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 150</text>
-	</item>
-	<item>
-		<name>Spiked Armor +1</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>	You have a +1 bonus to AC while wearing this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-		<modifier category="bonus">ac +1</modifier>
-	</item>
-	<item>
-		<name>Spiked Armor +2</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>	You have a +2 bonus to AC while wearing this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-		<modifier category="bonus">ac +2</modifier>
-	</item>
-	<item>
-		<name>Spiked Armor +3</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>	You have a +3 bonus to AC while wearing this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-		<modifier category="bonus">ac +3</modifier>
-	</item>
-	<item>
-		<name>Spiked Armor of Acid Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to acid damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Cold Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to cold damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Fire Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to fire damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Force Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to force damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Lightning Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to lightning damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Necrotic Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to necrotic damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Poison Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to poison damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Psychic Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to psychic damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Radiant Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to radiant damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Spiked Armor of Thunder Resistance</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>Requires Attunement</text>
-		<text>	You have resistance to thunder damage while you wear this armor.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 152</text>
-	</item>
-	<item>
-		<name>Mariner's Spiked Armor</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<stealth>YES</stealth>
-		<text>	While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 181</text>
-	</item>
-	<item>
-		<name>Mithral Spiked Armor</name>
-		<type>MA</type>
-		<magic>1</magic>
-		<weight>45</weight>
-		<ac>14</ac>
-		<text>	Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 182</text>
-	</item>
+<!--Curse of Strahd-->
 	<item>
 		<name>Tome of Strahd</name>
 		<type>G</type>
@@ -14967,6 +14972,7 @@
 		<modifier category="bonus">melee attacks +2</modifier>
 		<modifier category="bonus">melee damage +2</modifier>
 	</item>
+<!--Storm King's Thunder-->
 	<item>
 		<name>Banner of the Krig Rune</name>
 		<type>W</type>
@@ -15258,6 +15264,7 @@
 		<text />
 		<text>Source: Storm King's Thunder, page 237</text>
 	</item>
+<!--Volo's Guide to Monsters-->
 	<item>
 		<name>Mind Carapace Chain Mail</name>
 		<type>HA</type>
@@ -15450,7 +15457,7 @@
 		<strength />
 		<stealth />
 	</item>
-	<!--Tales from Yawning Portal-->
+<!--Tales from Yawning Portal-->
 	<item>
 		<name>Amulet of Protection from Turning</name>
 		<type>W</type>
