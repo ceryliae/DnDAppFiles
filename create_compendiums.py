@@ -187,8 +187,15 @@ def create_category_compendiums():
     output_paths = []
     for category in categories:
         if (args.includes != ['*'] and (category not in args.includes)): continue
+
         # filenames = glob('%s/*.xml' % category)
         filenames = []
+
+        if (category is 'Homebrew'): # populate base classes to allow for homebrew archetypes
+            for root, dirnames, fnames in os.walk('Character/Classes'):
+                for filename in [fname for fname in fnmatch.filter(fnames, '*.xml') if "(" not in fname]:
+                    filenames.append(os.path.join(root, filename))
+
         for root, dirnames, fnames in os.walk(category):
             for filename in fnmatch.filter(fnames, '*.xml'):
                 filenames.append(os.path.join(root, filename))
@@ -204,8 +211,13 @@ def create_class_compendiums():
     classes = {}
     output_paths = []
 
+    files = glob('Character/Classes/*/*.xml')
+
+    if (args.includes == ['*'] and 'HB' not in args.excludes) or 'Homebrew' in args.includes:
+        files += glob('Homebrew/Archetypes/*/*.xml')
+
     # Group source xml files into base class
-    for file in glob('Character/Classes/*/*.xml'):
+    for file in files:
         class_name, subclass_name = re.search(r"/([^/]+)/([^/]+)\.xml$", file).groups()
         if args.includes == ['*'] or (class_name in args.includes):
             if class_name not in classes: classes[class_name] = []
