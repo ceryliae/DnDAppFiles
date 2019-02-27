@@ -297,6 +297,7 @@ IL InlinedLists (eg repeated Eldritch Invocations)
                         help='''\
 (default=%(default)s)
 limit script to certain Compendiums, eg Fighter. primarily useful for testing.
+If Homebrew is specified, this will override the HB parameter in excludes
                             ''')
 
     parser.add_argument('-n', '--name', dest='name', action='store',
@@ -309,4 +310,9 @@ name for the final combined Compendium, defaults to Full or Limited if using --i
     args = parser.parse_args()
 
     print "Arguments: {0}".format(vars(args))
+
+    # includes will override excludes if homebrew is in both
+    if 'HB' in args.excludes and 'Homebrew' in args.includes:
+        args.excludes.remove('HB')
+
     create_full_compendium()
