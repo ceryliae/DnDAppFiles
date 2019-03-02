@@ -5,64 +5,38 @@
 		<autolevel level="3">
 			<feature optional="YES">
 				<name>Bard College: College of Discord</name>
-				<text>Bards of the College of Discord yearn to take the performances to the next level. While some artists feel the need to prepare or learn progressions within a harmonic framework, the extemporaneous nature of the bard’s study encourages inventing variations in their musical repertoire mid performance. This practice usually bleeds into their outlook on life and, whether with accompaniment or solo, these bards are excited to delve into the unknown, no matter the vibe.</text>
+				<text>Bards of the College of Discord yearn to take the performances to the next level. While some artists feel the need to prepare or learn progressions within a harmonic framework, the extemporaneous nature of the bard's study encourages inventing variations in their musical repertoire mid performance. This practice usually bleeds into their outlook on life and, whether with accompaniment or solo, these bards are excited to delve into the unknown, no matter the vibe.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Bonus Proficiencies</name>
+				<name>College of Discord: Bonus Proficiencies</name>
 				<text>When you join the College of Discord at 3rd level, you gain proficiency with medium armor and one additional musical instrument.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Melodic Mayhem</name>
+				<name>College of Discord: Melodic Mayhem</name>
 				<text>Beginning at 3rd level, you gain the ability to use your musical instruments effectively in martial combat. When you wield your musical instrument in one or two hands, and no other weapons, it becomes a weapon that deals 1d6 bludgeoning damage and has the versatile (1d8) property. When used in one hand, it gains the  nesse property. Wielded with two hands, your Armor Class increases by 2.</text>
 			</feature>
 			<feature optional="YES">
-				<name>Gunslinger: Firearm Properties</name>
-				<text>Reload</text>
-				<text>The weapon can be fired a number of times equal to its Reload number before the wielder must spend 1 Attack of your Attack Action, or an Action, to reload. You must have one free hand to reload a firearm. </text>
-				<text>Misfire</text>
-				<text>Whenever the Firearm is fired in a way that requires an Attack Roll, if the dice roll is equal to or lower than the Misfire number, the weapon Misfires, the attack misses, and it cannot be used to attack again until an Action and successful Tinker's Tools Ability Check (DC = 10 + Firearm's Misfire Score) is used to repair and clear the weapon. Should the Tinker's Tools check fail, the weapon is considered broken and must be repaired out of combat at half the cost of the weapon (or DM's discretion).</text>
-				<text>Scatter</text>
-				<text>An attack is made against each creature within a 30 ft cone. If an affected creature is adjacent to you, they suffer double damage on a hit.</text>
-				<text>Explosive</text>
-				<text>Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw or suffer half damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so.</text>
-				<!-- TO DO - Add table....somehow -->
+				<name>College of Discord: Battaglia</name>
+				<text>Also at 3rd level, you're able to anticipate the rhythm of battle and adjust to disrupt the flow of your enemies. As a bonus action on your turn, you can choose to teleport to an unoccupied square adjacent to any number of creatures you can see within 30 feet of you. Any Large or smaller creature within 5 feet of your new location must succeed on a Strength saving throw or be knocked prone. At 6th level, the radius of this effect increases to 10 feet, and to 15 feet at 14th level.</text>
+				<text>	You can use this feature a number of times equal to your Charisma modifier and regain all expended uses after you finish a short or long rest.</text>
+				<text>	As part of this bonus action, you can expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and adding the number rolled to the save DC. You can choose to use this feature after the creature makes its roll but before the DM announces if it succeeds or fails.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="7">
+		<autolevel level="6">
 			<feature optional="YES">
-				<name>Gunslinger: Additional Deeds</name>
-				<text>Quick Draw:</text>
-				<text>Starting at 7th level, the Gunslinger gains +2 Initiative and can draw and stow Firearms as a free Flourish.</text>
-				<text>Violent Shot:</text>
-				<text>Starting at 7th Level, the Gunslinger can spend 1 or more Grit points before rolling an Attack. For each Grit point spent, that Attack gains +1 to the weapon's Misfire number. If the attack hits, it deals an additional dice of Firearm damage per Grit point spent. If the attack misses, Grit points are still expended. (ex: 3 Grit points = +3 to misfire, +3d[Firearm Damage Die]). Weapons with multiple damage dice add only 1 die per Grit spent. (ex: a 2d12 gun adds +1d12 per Grit)</text>
+				<name>College of Discord: Encore</name>
+				<text>At 6th level, every success fuels your performance. When you succeed on a Strength, Dexterity, or Constitution saving throw in combat, you gain advantage on your next skill check, saving throw, or attack roll until the end of your next turn.</text>
+				<text>	Additionally, your attacks with your musical instruments count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="10">
+		<autolevel level="14">
 			<feature optional="YES">
-				<name>Gunslinger: Additional Deed - Trick Shot</name>
-				<!-- <text>Trick Shot:</text> -->
-				<text>Starting at 10th Level, the Gunslinger can spend a Grit point to target a specific location on a foe's body with a Firearm. If the attack misses, the Grit point is still lost. If the Gunslinger has multiple attacks for their Attack action, they can make multiple Targeted shots for 1 Grit point each. Your Trick Shot DC is 8 + your Proficiency Mod + your Dexterity Mod.</text>
-				<text>• Arms – On a hit, the target takes normal damage and must make a Strength saving throw or drop 1 held item of the Gunslinger's choice.</text>
-				<text>• Head – On a hit, the target takes normal damage and must make a Constitution saving throw or have disadvantage on attacks for 1 round.</text>
-				<text>• Legs – On a hit, the target takes normal damage and must make a Strength saving throw or get knocked prone.</text>
-				<text>• Torso – On a hit, the target takes normal damage and is pushed up to 10 ft away from you.</text>
-				<text>• Wings – On a hit, the target takes normal damage, and must make a Constitution saving throw or plummet 20 ft.</text>
-			</feature>
-		</autolevel>
-		<autolevel level="15">
-			<feature optional="YES">
-				<name>Gunslinger: Additional Deed - Lightning Reload</name>
-				<!-- <text>Lightning Reload:</text> -->
-				<text>Starting at 15th level, the Gunslinger can reload a one-handed or two-handed firearm as a Bonus action.</text>
-			</feature>
-		</autolevel>
-		<autolevel level="18">
-			<feature optional="YES">
-				<name>Gunslinger Additional Deeds</name>
-				<text>Cheat Death:</text>
-				<text>Starting at 18th level, whenever the Gunslinger is reduced to 0 hit points or lower, the Gunslinger can immediately spend all of their current Grit points (minimum of 1) to instead be reduced to 1 hit point.</text>
-				<text>Mortal Shot:</text>
-				<text>Starting at 18th level, whenever the Gunslinger scores a Critical Hit with a firearm (even with another Deed), they can spend a Grit point to increase the damage multiplier for that attack from x 2 to x 3.</text>
+				<name>College of Discord: Pandemonium</name>
+				<text>At 14th level, you learn to provoke those the area around you by amplifying the clash of arms and  ailing bodies, trumpeting your allies to hasten attack while sending your enemies into dysphonic chaos that is audible with 300 feet of you. Using your action to activate this feature, you create a hyper-sonic field that reverberates out from you in a 30-foot cube which requires concentration and lasts for 1 minute.</text>
+				<text>	When the field appears, friendly creatures within the field experience a haste-like effect and gain a +2 bonus to AC, have advantage on Dexterity saving throws, and gain an additional action on each turn. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action. A creature can only benefit from one such effect at a time. While you concentrate on this effect, your speed is 0, and you can only make melee attacks against creatures within 5 feet of you. If you have a fly speed, or are held in place my magical means, you can hover in place.</text>
+				<text>	Additionally, when a hostile creature starts its turn within the field, or moves there for the first time, must make a Wisdom saving throw or be affected for the duration. Affected creatures' speed is halved, takes a –2 penalty to AC and Dexterity saving throws, and can't use reactions. On an affected creature's turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</text>
+				<text>	If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take e ect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted. If a creature affected by this feature exits the field, the effect ends for it at the start of its next turn.</text>
+				<text>	When your solo ends, you can't move or take actions until after your next turn, as a wave of exhaustion sweeps over you. Once you use this feature, you must finish a long rest before you can use it again.</text>
 			</feature>
 		</autolevel>
 	</subclass>
