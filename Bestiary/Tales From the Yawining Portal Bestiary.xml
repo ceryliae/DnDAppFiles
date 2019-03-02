@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-    <monster>
+	<monster>
 		<name>Animated Table</name>
 		<size>L</size>
 		<type>construct, tales from the yawning portal</type>
@@ -8,22 +8,27 @@
 		<ac>15 (natural armor)</ac>
 		<hp>39 (6d10+6)</hp>
 		<speed>40 ft.</speed>
-		<str>18</str><dex>8</dex><con>13</con><int>1</int><wis>3</wis><cha>1</cha>
-		<save></save>
-		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
+		<str>18</str>
+		<dex>8</dex>
+		<con>13</con>
+		<int>1</int>
+		<wis>3</wis>
+		<cha>1</cha>
+		<save/>
+		<skill/>
+		<resist/>
+		<vulnerable/>
 		<immune>poison, psychic</immune>
 		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
 		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
 		<passive>6</passive>
-		<languages></languages>
+		<languages/>
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 230</text>
 		</trait>
-        <trait>
+		<trait>
 			<name>Constructed Nature</name>
 			<text>An animated table doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -44,8 +49,8 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</text>
 			<attack>Ram|6|2d8+4</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Centaur Mummy</name>
@@ -55,9 +60,14 @@
 		<ac>13 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
 		<speed>30 ft.</speed>
-		<str>20</str><dex>12</dex><con>16</con><int>5</int><wis>14</wis><cha>12</cha>
+		<str>20</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>5</int>
+		<wis>14</wis>
+		<cha>12</cha>
 		<save>Wis +5</save>
-		<skill></skill>
+		<skill/>
 		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<vulnerable>fire</vulnerable>
 		<immune>necrotic, poison</immune>
@@ -69,7 +79,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 231</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>A mummy doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -95,8 +106,8 @@
 			<name>Dreadful Glare</name>
 			<text>The centaur mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target must succeed on a DC 12 wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for tne next 24 hours.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Deathlock Wight</name>
@@ -106,11 +117,16 @@
 		<ac>12 (15 with mage armor)</ac>
 		<hp>37 (5d8+15)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>14</dex><con>16</con><int>12</int><wis>14</wis><cha>16</cha>
+		<str>11</str>
+		<dex>14</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>16</cha>
 		<save>Wis +4</save>
 		<skill>Arcana +3, Perception +4</skill>
 		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -120,7 +136,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 233</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>A wight doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -152,7 +169,7 @@
 			<attack>Life Drain|4|2d6+2</attack>
 		</action>
 		<spells>detect magic, disguise self, mage armor, fear, hold person, misty step</spells>
-		<slots></slots>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Dread Warrior</name>
@@ -162,11 +179,16 @@
 		<ac>18 (chain mail, shield)</ac>
 		<hp>37 (5d8+15)</hp>
 		<speed>30 ft.</speed>
-		<str>15</str><dex>11</dex><con>16</con><int>10</int><wis>12</wis><cha>10</cha>
+		<str>15</str>
+		<dex>11</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>10</cha>
 		<save>Wis +3</save>
 		<skill>Athletics +4, Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
+		<resist/>
+		<vulnerable/>
 		<immune>poison</immune>
 		<conditionImmune>exhaustion, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -176,7 +198,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 233</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>A dread warrior doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -199,8 +222,8 @@
 			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Javelin|4|1d6+2</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Duergar Spy</name>
@@ -210,13 +233,18 @@
 		<ac>15 (studded leather)</ac>
 		<hp>33 (6d8+6)</hp>
 		<speed>25 ft.</speed>
-		<str>10</str><dex>16</dex><con>12</con><int>12</int><wis>10</wis><cha>13</cha>
-		<save></save>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>12</int>
+		<wis>10</wis>
+		<cha>13</cha>
+		<save/>
 		<skill>Deception +5, Insight +2, Investigation +5, Perception +4, Persuasion +3, Sleight of Hand +5, Stealth +7</skill>
 		<resist>poison</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>darkvision 120 ft.</senses>
 		<passive>14</passive>
 		<languages>Dwarvish, Undercommon</languages>
@@ -224,7 +252,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 234</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Cunning Action</name>
 			<text>On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.</text>
 		</trait>
@@ -262,8 +291,8 @@
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
 			<text>The spy magically turns invisible until it attacks, deals damage, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the spy wears or carries is invisible with it.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Giant Crayfish</name>
@@ -273,22 +302,28 @@
 		<ac>15 (natural armor)</ac>
 		<hp>45 (7d10+7)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
-		<str>15</str><dex>13</dex><con>13</con><int>1</int><wis>9</wis><cha>3</cha>
-		<save></save>
+		<str>15</str>
+		<dex>13</dex>
+		<con>13</con>
+		<int>1</int>
+		<wis>9</wis>
+		<cha>3</cha>
+		<save/>
 		<skill>Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>blindsight 30 ft.</senses>
 		<passive>9
 </passive>
-		<languages></languages>
+		<languages/>
 		<cr>2</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 235</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>The giant crayfish can breathe air and water.</text>
 		</trait>
@@ -301,8 +336,8 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.</text>
 			<attack>Claw|4|1d10+2</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Giant Lightning Eel</name>
@@ -312,21 +347,27 @@
 		<ac>13</ac>
 		<hp>42 (5d10+15)</hp>
 		<speed>5 ft., swim 30 ft.</speed>
-		<str>11</str><dex>17</dex><con>16</con><int>2</int><wis>12</wis><cha>3</cha>
-		<save></save>
-		<skill></skill>
+		<str>11</str>
+		<dex>17</dex>
+		<con>16</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>3</cha>
+		<save/>
+		<skill/>
 		<resist>lightning</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>blindsight 60 ft.</senses>
 		<passive>11</passive>
-		<languages></languages>
+		<languages/>
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 236</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Water Breathing</name>
 			<text>The eel can breathe only underwater.</text>
 		</trait>
@@ -343,8 +384,8 @@
 			<name>Lightning jolt (Recharge 5-6)</name>
 			<text>One creature the eel touches within 5 feet of it outside water, or each creature within l 5 feet ofit in a body of water, must make a DC 12 Constitution saving throw. On failed save, a target takes 13 (3d8) lightning damage. If the target takes any of this damage, the target is stunned until the end of the eel's next turn. On a successful save, a target takes half as much damage and isn't stunned.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Giant Subterranean Lizard</name>
@@ -354,16 +395,21 @@
 		<ac>14 (natural armor)</ac>
 		<hp>66 (7d12+21)</hp>
 		<speed>30 ft., swim 50 ft.</speed>
-		<str>21</str><dex>9</dex><con>17</con><int>2</int><wis>10</wis><cha>7</cha>
-		<save></save>
+		<str>21</str>
+		<dex>9</dex>
+		<con>17</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<save/>
 		<skill>Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses/>
 		<passive>10</passive>
-		<languages></languages>
+		<languages/>
 		<cr>4</cr>
 		<trait>
 			<name>Source</name>
@@ -389,8 +435,8 @@
 			<text>	If the lizard dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
 			<attack>Swallow|7|2d10+5</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Greater Zombie</name>
@@ -400,11 +446,16 @@
 		<ac>15 (natural armor)</ac>
 		<hp>97 (13d8+39)</hp>
 		<speed>30 ft.</speed>
-		<str>18</str><dex>10</dex><con>17</con><int>4</int><wis>6</wis><cha>6</cha>
+		<str>18</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>4</int>
+		<wis>6</wis>
+		<cha>6</cha>
 		<save>Wis + 1</save>
-		<skill></skill>
+		<skill/>
 		<resist>cold, necrotic</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>poison</immune>
 		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -415,7 +466,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 237</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>A zombie doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -436,8 +488,8 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.</text>
 			<attack>Empowered Slam|7|1d6+4</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Kalka-Kylla</name>
@@ -447,13 +499,18 @@
 		<ac>15 (natural armor)</ac>
 		<hp>85 (10d10+30)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
-		<str>17</str><dex>12</dex><con>16</con><int>15</int><wis>16</wis><cha>12</cha>
-		<save></save>
+		<str>17</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>15</int>
+		<wis>16</wis>
+		<cha>12</cha>
+		<save/>
 		<skill>Deception +3, Insight +5, Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>blindsight 30 ft.</senses>
 		<passive>13</passive>
 		<languages>Olman</languages>
@@ -461,7 +518,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 238</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>Kalka-Kylla can breathe air and water.</text>
 		</trait>
@@ -482,8 +540,8 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and if the target is a Medium or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target is restrained. Kalka-Kylla has two claws, each of which can grapple only one target.</text>
 			<attack>Claw|5|2d6+3</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Kelpie</name>
@@ -493,12 +551,17 @@
 		<ac>14 (natural armor)</ac>
 		<hp>67 (9d8+27)</hp>
 		<speed>10 ft., swim 30 ft.</speed>
-		<str>14</str><dex>14</dex><con>16</con><int>7</int><wis>12</wis><cha>10</cha>
-		<save></save>
+		<str>14</str>
+		<dex>14</dex>
+		<con>16</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>10</cha>
+		<save/>
 		<skill>Perception +3, Stealth +4</skill>
 		<resist>bludgeoning, fire, piercing</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
+		<vulnerable/>
+		<immune/>
 		<conditionImmune>blinded, deafened, exhaustion</conditionImmune>
 		<senses>blindsight 60 ft.</senses>
 		<passive>13</passive>
@@ -507,7 +570,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 238</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>The kelpie can breathe air and water.</text>
 		</trait>
@@ -536,8 +600,8 @@
 			<text>	Before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the kelpie or drowning, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.</text>
 			<text>	A target that successfully saves is immune to this kelpie's hypnosis for the next 24 hours.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Malformed Kraken</name>
@@ -547,11 +611,16 @@
 		<ac>17 (natural armor)</ac>
 		<hp>172 (15d12+75)</hp>
 		<speed>20 ft., swim 40 ft.</speed>
-		<str>25</str><dex>11</dex><con>20</con><int>11</int><wis>15</wis><cha>15</cha>
+		<str>25</str>
+		<dex>11</dex>
+		<con>20</con>
+		<int>11</int>
+		<wis>15</wis>
+		<cha>15</cha>
 		<save>Str +11, Con +9, Int +4, Wis +6, Cha +6</save>
-		<skill></skill>
+		<skill/>
 		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>lightning</immune>
 		<conditionImmune>frightened, paralyzed</conditionImmune>
 		<senses>truesight 60 ft.</senses>
@@ -561,7 +630,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 239</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>The kraken can breathe air and water.</text>
 		</trait>
@@ -591,8 +661,8 @@
 			<name>Lightning Storm</name>
 			<text>The kraken creates three bolts of lightning, each of which can strike a target the kraken can see within 150 feet ofit. A target must make a DC 16 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Nereid</name>
@@ -602,13 +672,18 @@
 		<ac>13</ac>
 		<hp>44 (8d8+8)</hp>
 		<speed>30 ft., swim 60 ft.</speed>
-		<str>10</str><dex>17</dex><con>12</con><int>13</int><wis>14</wis><cha>16</cha>
-		<save></save>
-		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<str>10</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<save/>
+		<skill/>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Aquan, Common, Elvish, Sylvan</languages>
@@ -616,7 +691,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 240</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>The nereid can breathe air and water.</text>
 		</trait>
@@ -649,8 +725,8 @@
 			<name>Water Lash</name>
 			<text>The nereid causes a 5-foot cube of water within 60 feet of it to take a shape of its choice and strike one target it can see within 5 feet of that water. The target must make a DC 13 Strength saving throw. On a failed save, it takes 17 (4d6 + 3) bludgeoning damage, and ifit is a Large or smaller creature, it is pushed up to 15 feet in a straight line or is knocked prone (nereid's choice). On a successful save, the target takes half as much damage and isn't pushed or knocked prone.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Ooze Master</name>
@@ -660,11 +736,16 @@
 		<ac>9 (natural armor)</ac>
 		<hp>138 (12d12+60)</hp>
 		<speed>30 ft., climb 30 ft.</speed>
-		<str>16</str><dex>1</dex><con>20</con><int>17</int><wis>10</wis><cha>16</cha>
+		<str>16</str>
+		<dex>1</dex>
+		<con>20</con>
+		<int>17</int>
+		<wis>10</wis>
+		<cha>16</cha>
 		<save>Int +7, Wis +4</save>
 		<skill>Arcana +7, Insight +4</skill>
 		<resist>lightning, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>acid, cold, poison</immune>
 		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, paralyzed, poisoned, prone</conditionImmune>
 		<senses>blindsight 120 ft.</senses>
@@ -674,7 +755,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 241</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>The ooze master doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -715,7 +797,7 @@
 		<reaction>
 			<name>Instinctive Charm</name>
 			<text>If a creature the Ooze Master can see makes an attack roll against it while within 30 feet of it, the Ooze Master can use a reaction to divert the attack if another creature is within the attack's range. The attacker must make a DC 15 Wisdom saving throw. On a failed save, the attacker targets the creature that is closest to it, not including itself or the Ooze Master. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, the attacker is immune to this Instinctive Charm for 24 hours. Creatures that can't be charmed are immune to this effect.</text>
-			<attack></attack>
+			<attack/>
 		</reaction>
 		<spells>acid splash, friends, mage hand, poison spray, charm person, detect magic, magic missile, ray of sickness, detect thoughts, Melf's acid arrow, suggestion,fear, slow, stinking cloud, confusion, Evard's black tentacles, cloudkill</spells>
 		<slots>4,3,3,3,1</slots>
@@ -728,22 +810,27 @@
 		<ac>15 (natural armor)</ac>
 		<hp>90 (12d10+24)</hp>
 		<speed>10 ft., swim 40 ft.</speed>
-		<str>17</str><dex>15</dex><con>15</con><int>3</int><wis>12</wis><cha>8</cha>
-		<save></save>
+		<str>17</str>
+		<dex>15</dex>
+		<con>15</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>8</cha>
+		<save/>
 		<skill>Perception +4, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses/>
 		<passive>14</passive>
-		<languages></languages>
+		<languages/>
 		<cr>5</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 242</text>
 		</trait>
-        <trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>The sea lion can breathe air and water.</text>
 		</trait>
@@ -773,8 +860,8 @@
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage</text>
 			<attack>Claw|6|2d8+3</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Sharwyn Hucrele</name>
@@ -784,14 +871,19 @@
 		<ac>16 (Barkskin trait)</ac>
 		<hp>13 (2d8+4)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>13</dex><con>14</con><int>16</int><wis>14</wis><cha>9</cha>
-		<save></save>
+		<str>11</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>16</int>
+		<wis>14</wis>
+		<cha>9</cha>
+		<save/>
 		<skill>Arcana +5, Insight +4, Persuasion + 1</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses/>
 		<passive>12</passive>
 		<languages>Common, Draconic, Goblin</languages>
 		<cr>1/2</cr>
@@ -799,7 +891,7 @@
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 242</text>
 		</trait>
-        <trait>
+		<trait>
 			<name>Barkskin</name>
 			<text>Sharwyn's AC can't be lower than 16.</text>
 		</trait>
@@ -835,21 +927,27 @@
 		<ac>18 (chain mail, shield)</ac>
 		<hp>19 (3d8+6)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>9</dex><con>14</con><int>10</int><wis>13</wis><cha>14</cha>
-		<save></save>
+		<str>16</str>
+		<dex>9</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save/>
 		<skill>Athletics +5, Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses/>
 		<passive>13</passive>
 		<languages>Common</languages>
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 243</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Barkskin</name>
 			<text>Sir Braford's AC can't be lower than 16.</text>
 		</trait>
@@ -870,10 +968,10 @@
 		<reaction>
 			<name>Protection</name>
 			<text>When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll.</text>
-			<attack></attack>
+			<attack/>
 		</reaction>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Siren</name>
@@ -883,13 +981,18 @@
 		<ac>14</ac>
 		<hp>38 (7d8+7)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
-		<str>10</str><dex>18</dex><con>12</con><int>13</int><wis>14</wis><cha>16</cha>
-		<save></save>
+		<str>10</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<save/>
 		<skill>Medicine +4, Nature +3, Stealth +6, Survival +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Common, Elvish, Sylvan</languages>
@@ -897,7 +1000,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 243</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Amphibious</name>
 			<text>Siren can breathe air and water.</text>
 		</trait>
@@ -921,7 +1025,7 @@
 			<text>Siren touches one creature she can see within 5 feet of her. The creature must succeed on a DC 13 Intelligence saving throw or take 13 (3d6 + 3) psychic damage and be stunned until the start of Siren's next turn.</text>
 		</action>
 		<spells>charm person, fog cloud, greater invisibility, polymorph</spells>
-		<slots></slots>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Tarul Var</name>
@@ -931,11 +1035,16 @@
 		<ac>16 (natural armor)</ac>
 		<hp>105 (14d8+42)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>16</dex><con>16</con><int>19</int><wis>14</wis><cha>16</cha>
+		<str>11</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>19</int>
+		<wis>14</wis>
+		<cha>16</cha>
 		<save>Con +8, Int +9, Wis +7</save>
 		<skill>Arcana +9, History +9, Insight +7, Perception +7</skill>
 		<resist>cold, lightning, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>poison</immune>
 		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -945,7 +1054,8 @@
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 244</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>A lich doesn't require air, food, drink, or sleep.</text>
 		</trait>
@@ -1020,14 +1130,19 @@
 		<ac>16 (chain shirt, shield)</ac>
 		<hp>52 (8d8+16)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>13</dex><con>14</con><int>10</int><wis>11</wis><cha>11</cha>
-		<save></save>
+		<str>16</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>11</cha>
+		<save/>
 		<skill>Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
+		<senses/>
 		<passive>12</passive>
 		<languages>Common, Thayan</languages>
 		<cr>2</cr>
@@ -1035,7 +1150,7 @@
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 246</text>
 		</trait>
-        <trait>
+		<trait>
 			<name>Doomvault Devotion</name>
 			<text>Within the Doomvault, the warrior has advantage on saving throws against being charmed or frightened .</text>
 		</trait>
@@ -1058,8 +1173,8 @@
 			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
 			<attack>Javelin|5|1d6+3</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Thorn Slinger</name>
@@ -1069,21 +1184,27 @@
 		<ac>11</ac>
 		<hp>32 (5d10+5)</hp>
 		<speed>10 ft.</speed>
-		<str>13</str><dex>12</dex><con>12</con><int>1</int><wis>10</wis><cha>1</cha>
-		<save></save>
-		<skill></skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
+		<str>13</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>1</cha>
+		<save/>
+		<skill/>
+		<resist/>
+		<vulnerable/>
+		<immune/>
 		<conditionImmune>blinded, deafened, frightened</conditionImmune>
 		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
 		<passive>10</passive>
-		<languages></languages>
+		<languages/>
 		<cr>1/2</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 246</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Adhesive Blossoms</name>
 			<text>The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.</text>
 			<text>	At the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage.</text>
@@ -1097,8 +1218,8 @@
 			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft., one target. Hit: 8 (2d6 + 1) piercing damage.</text>
 			<attack>Thorns|3|2d6+1</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Vampiric Mist</name>
@@ -1108,21 +1229,27 @@
 		<ac>13</ac>
 		<hp>45 (6d8+18)</hp>
 		<speed>0 ft., fly 30 ft. (hover)</speed>
-		<str>6</str><dex>16</dex><con>16</con><int>6</int><wis>12</wis><cha>7</cha>
+		<str>6</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>6</int>
+		<wis>12</wis>
+		<cha>7</cha>
 		<save>Wis +3</save>
-		<skill></skill>
+		<skill/>
 		<resist>acid, cold, lightning, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>poison</immune>
 		<conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>11</passive>
-		<languages></languages>
+		<languages/>
 		<cr>3</cr>
 		<trait>
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 247</text>
-		</trait>		<trait>
+		</trait>
+		<trait>
 			<name>Undead Nature</name>
 			<text>A vampiric mist doesn't require air or sleep.</text>
 		</trait>
@@ -1147,8 +1274,8 @@
 			<text>One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.</text>
 			<text>	This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0.</text>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>White Maw</name>
@@ -1159,11 +1286,16 @@
 </ac>
 		<hp>217 (14d20+70)</hp>
 		<speed>10 ft.</speed>
-		<str>18</str><dex>1</dex><con>20</con><int>12</int><wis>10</wis><cha>3</cha>
-		<save></save>
-		<skill></skill>
+		<str>18</str>
+		<dex>1</dex>
+		<con>20</con>
+		<int>12</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<save/>
+		<skill/>
 		<resist>acid, cold, fire</resist>
-		<vulnerable></vulnerable>
+		<vulnerable/>
 		<immune>poison</immune>
 		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, poisoned, prone</conditionImmune>
 		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
@@ -1174,7 +1306,7 @@
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 248</text>
 		</trait>
-        <trait>
+		<trait>
 			<name>Ooze Nature</name>
 			<text>White Maw doesn't require sleep.</text>
 		</trait>
@@ -1200,8 +1332,8 @@
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) bludgeoning damage plus 9 (2d8) acid damage. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</text>
 			<attack>Pseudopod|8|4d8+4+2d8</attack>
 		</action>
-		<spells></spells>
-		<slots></slots>
+		<spells/>
+		<slots/>
 	</monster>
 	<monster>
 		<name>Yusdrayl</name>
@@ -1211,13 +1343,18 @@
 		<ac>12 (15 with mage armor)</ac>
 		<hp>16 (3d6+6)</hp>
 		<speed>30 ft.</speed>
-		<str>8</str><dex>15</dex><con>14</con><int>10</int><wis>10</wis><cha>16</cha>
-		<save></save>
+		<str>8</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>16</cha>
+		<save/>
 		<skill>Arcana +2, Insight +2, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
+		<resist/>
+		<vulnerable/>
+		<immune/>
+		<conditionImmune/>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages>Common, Draconic</languages>
@@ -1226,7 +1363,7 @@
 			<name>Source</name>
 			<text>tales from the yawning portal,  page 248</text>
 		</trait>
-        <trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>Yusdrayl is a 2nd-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She knows the following sorcerer spells:</text>
 			<text>	 </text>
@@ -1250,4 +1387,4 @@
 		<spells>mage hand, prestidigitation, ray of frost, shocking grasp, burning hands, chromatic orb, mage armor</spells>
 		<slots>4</slots>
 	</monster>
-    </compendium>
+</compendium>

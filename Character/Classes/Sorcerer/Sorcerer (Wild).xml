@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-  <subclass baseclass="Sorcerer">
+	<subclass baseclass="Sorcerer">
 		<name>Sorcerer (Wild)</name>
-
 		<autolevel level="1">
 			<feature optional="YES">
 				<name>Sorcerous Origin: Wild Magic</name>
@@ -11,7 +10,7 @@
 			<feature optional="YES">
 				<name>Wild Magic: Wild Magic Surge</name>
 				<text>Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge can happen once per turn.</text>
-				<text />
+				<text/>
 				<text>    If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.</text>
 				<text>Wild Magic Surge</text>
 				<text>d100 — Effect</text>
@@ -70,29 +69,25 @@
 				<name>Wild Magic: Tides of Chaos</name>
 				<text>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.</text>
 				<text>    Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</text>
-		  </feature>
+			</feature>
 		</autolevel>
-
 		<autolevel level="6">
 			<feature optional="YES">
 				<name>Wild Magic: Bend Luck</name>
 				<text>Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur.</text>
 			</feature>
 		</autolevel>
-
 		<autolevel level="14">
 			<feature optional="YES">
 				<name>Wild Magic: Controlled Chaos</name>
 				<text>At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</text>
 			</feature>
 		</autolevel>
-
 		<autolevel level="18">
 			<feature optional="YES">
 				<name>Wild Magic: Spell Bombardment</name>
 				<text>Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</text>
 			</feature>
 		</autolevel>
-
-  </subclass>
+	</subclass>
 </compendium>

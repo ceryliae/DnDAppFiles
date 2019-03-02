@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" HB="HB">
 	<monster>
 		<name>Aboleth, Nihilith</name>
@@ -96,19 +96,17 @@
 			<name>Psychic Drain (Costs 2 Actions)</name>
 			<text>One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.</text>
 		</legendary>
-
 		<legendary>
-			<name></name>
+			<name/>
 			<text>The nihileth cannot use the same effect two rounds in a row.</text>
 		</legendary>
 		<legendary>
-			<name></name>
+			<name/>
 			<text>A nihileth can pull the life force from those it has converted to nihilethic zombies to replenish its own life. This takes 18 (6d6) hit points from zombies within 30 feet of the nihileth, spread evenly between the zombies, and healing the nihileth. If a zombie reaches 0 hit points from this action, it perishes with no Undead Fortitude saving throw.</text>
 		</legendary>
-
 		<legendary>
 			<name>The regional effects of a nihileth's lair are the same as that of an aboleth, except as following</name>
-			<text></text>
+			<text/>
 		</legendary>
 		<legendary>
 			<name>Water sources within 1 mile of a nihileth's lair are not only supernaturally fouled but can spread the disease of the nihileth</name>
@@ -185,7 +183,7 @@
 		<save>Dex +8, Con +8, Cha +12</save>
 		<skill> Deception +12, Perception +7, Performance +12, Persuasion +12</skill>
 		<immune>fire</immune>
-		<senses></senses>
+		<senses/>
 		<passive>17</passive>
 		<languages> Common, Draconic, Elven, Sylvan</languages>
 		<cr>11</cr>
@@ -706,57 +704,8 @@
 			<attack>Talons|8|2d6+5</attack>
 		</action>
 	</monster>
-	<monster>
-		<name>Angler Worm</name>
-		<size>H</size>
-		<type>monstrosity,tome of Beasts</type>
-		<alignment>unaligned</alignment>
-		<ac>14 (natural armor)</ac>
-		<hp>133 (14d12 + 42)</hp>
-		<speed>20 ft., climb 20 ft.</speed>
-		<str>14</str>
-		<dex>5</dex>
-		<con>16</con>
-		<int>3</int>
-		<wis>14</wis>
-		<cha>1</cha>
-		<immune>poison</immune>
-		<conditionImmune>blinded, charmed, deafened, poisoned, prone</conditionImmune>
-		<senses>tremorsense 60 ft.</senses>
-		<passive>12</passive>
-		<languages>-</languages>>
-		<cr>4</cr>
-		<trait>
-			<name>Spider Climb</name>
-			<text>The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.</text>
-		</trait>
-		<trait>
-			<name>Keen Touch</name>
-			<text>The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.</text>
-		</trait>
-		<trait>
-			<name>Transparent Trap</name>
-			<text>A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence.</text>
-		</trait>
-		<action>
-			<name>Multiattack</name>
-			<text>An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils.once it has coiled around one creature it stops coil attacks against others.</text>
-		</action>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.</text>
-			<attack>Bite|4|2d6 + 2</attack>
-		</action>
-		<action>
-			<name>Coils</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.</text>
-			<attack>Coils|4|3d8</attack>
-		</action>
-		<action>
-			<name>Ethereal Lure (Recharge 4-6)</name>
-			<text>The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible.</text>
-		</action>
-	</monster>
+	<monster><name>Angler Worm</name><size>H</size><type>monstrosity,tome of Beasts</type><alignment>unaligned</alignment><ac>14 (natural armor)</ac><hp>133 (14d12 + 42)</hp><speed>20 ft., climb 20 ft.</speed><str>14</str><dex>5</dex><con>16</con><int>3</int><wis>14</wis><cha>1</cha><immune>poison</immune><conditionImmune>blinded, charmed, deafened, poisoned, prone</conditionImmune><senses>tremorsense 60 ft.</senses><passive>12</passive><languages>-</languages>&gt;
+		<cr>4</cr><trait><name>Spider Climb</name><text>The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.</text></trait><trait><name>Keen Touch</name><text>The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.</text></trait><trait><name>Transparent Trap</name><text>A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence.</text></trait><action><name>Multiattack</name><text>An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils.once it has coiled around one creature it stops coil attacks against others.</text></action><action><name>Bite</name><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.</text><attack>Bite|4|2d6 + 2</attack></action><action><name>Coils</name><text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.</text><attack>Coils|4|3d8</attack></action><action><name>Ethereal Lure (Recharge 4-6)</name><text>The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible.</text></action></monster>
 	<monster>
 		<name>Giant Ant</name>
 		<size>L</size>
@@ -975,19 +924,19 @@
 			<text>An aridni can add a magical effect in addition to the normal damage done by its arrows. If so, the aridni chooses from the following effects:</text>
 		</action>
 		<action>
-			<name></name>
+			<name/>
 			<text>Confusion. The target must succeed on a DC 14 Wisdom saving throw or become confused (as the spell) for 2d4-1 rounds.</text>
 		</action>
 		<action>
-			<name></name>
+			<name/>
 			<text>Fear. The target must succeed on a DC 14 Wisdom saving throw or become frightened for 2d4 rounds.</text>
 		</action>
 		<action>
-			<name></name>
+			<name/>
 			<text>Hideous Laughter. The target must succeed on a DC 14 Wisdom saving throw or become incapacitated for 2d4 rounds. While incapacitated, the target is prone and laughing uncontrollably.</text>
 		</action>
 		<action>
-			<name></name>
+			<name/>
 			<text>Sleep. The target must succeed on a DC 14 Wisdom saving throw or fall asleep for 2d4 minutes. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</text>
 		</action>
 	</monster>
@@ -1085,7 +1034,7 @@
 		<resist>bludgeoning, piercing, and slashing damage from nonmagical weapons</resist>
 		<immune>cold, lightning, poison</immune>
 		<conditionImmune>exhaustion, paralyzed, poisoned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>18</passive>
 		<languages> Celestial, Common, Infernal; telepathy 100 ft.</languages>
 		<cr>11</cr>
@@ -1213,7 +1162,7 @@
 		<resist>bludgeoning, piercing, and slashing damage from nonmagical weapons</resist>
 		<immune>fire, lightning, poison</immune>
 		<conditionImmune>blinded, charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>18</passive>
 		<languages> Celestial, Common, Infernal; telepathy 100 ft.</languages>
 		<cr>11</cr>
@@ -1413,7 +1362,6 @@
 		<passive>10</passive>
 		<languages> Behtu, Common, Infernal</languages>
 		<cr>2</cr>
-
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
@@ -2516,7 +2464,7 @@
 		<cha>4</cha>
 		<skill> Perception +5, Stealth +9</skill>
 		<resist>acid, fire, poison</resist>
-		<senses></senses>
+		<senses/>
 		<passive>15</passive>
 		<languages> understands Common; telepathy (touch)</languages>
 		<cr>1/8</cr>
@@ -2968,7 +2916,7 @@
 		<cha>5</cha>
 		<resist>bludgeoning, piercing, slashing</resist>
 		<conditionImmune>charmed, frightened, paralyzed, petrified, prone, stunned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>11</passive>
 		<languages>-</languages>
 		<cr>2</cr>
@@ -4542,7 +4490,7 @@
 		</trait>
 		<trait>
 			<name>large enough for a Tiny insect</name>
-			<text></text>
+			<text/>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -4780,7 +4728,7 @@
 		<resist>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</resist>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>12</passive>
 		<languages> Common, Infernal; telepathy 100 ft.</languages>
 		<cr>10</cr>
@@ -4966,7 +4914,7 @@
 		<resist>cold; bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered</resist>
 		<immune>fire, poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>14</passive>
 		<languages> Celestial, Common, Draconic, Infernal; telepathy (120 ft.)</languages>
 		<cr>7</cr>
@@ -5014,7 +4962,6 @@
 			<text>Neck: CON Save or Stunned, unable to breathe for 1 round</text>
 			<text>Other: No additional effects</text>
 		</action>
-
 		<action>
 			<name>Scorn Base Metals</name>
 			<text>A gilded devil's attacks ignore any protection provided by nonmagical armor made of bronze, iron, steel, or similar metals. Protection provided by valuable metals such as adamantine, mithral, and gold apply, as do bonuses provided by non-metallic objects.</text>
@@ -5285,7 +5232,6 @@
 			<name>Stomp</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage.</text>
 		</action>
-
 	</monster>
 	<monster>
 		<name>Salt Devil</name>
@@ -5353,7 +5299,7 @@
 		<wis>12</wis>
 		<cha>6</cha>
 		<skill> Perception +3</skill>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages>-</languages>
 		<cr>3</cr>
@@ -5386,7 +5332,7 @@
 		<wis>9</wis>
 		<cha>6</cha>
 		<skill> Perception +5</skill>
-		<senses></senses>
+		<senses/>
 		<passive>15</passive>
 		<languages>-</languages>
 		<cr>5</cr>
@@ -5428,7 +5374,7 @@
 		<wis>11</wis>
 		<cha>10</cha>
 		<skill> Perception +5</skill>
-		<senses></senses>
+		<senses/>
 		<passive>15</passive>
 		<languages>-</languages>
 		<cr>13</cr>
@@ -5495,7 +5441,7 @@
 		<wis>11</wis>
 		<cha>8</cha>
 		<skill> Perception +3</skill>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages>-</languages>
 		<cr>5</cr>
@@ -6127,7 +6073,7 @@
 		<save>Dex +7, Con +11, Wis +7, Cha +10</save>
 		<skill> Deception +10, Insight +7, Perception +12, Persuasion +10, Stealth +7</skill>
 		<immune>fire</immune>
-		<senses></senses>
+		<senses/>
 		<passive>22</passive>
 		<languages> Common, Draconic, Giant, Ignan, Infernal, Orc</languages>
 		<cr>16</cr>
@@ -6204,7 +6150,7 @@
 		<save>Dex +6, Con +8, Wis +5, Cha +8</save>
 		<skill> Deception +8, Insight +5, Perception +9, Persuasion +8, Stealth +6</skill>
 		<immune>fire</immune>
-		<senses></senses>
+		<senses/>
 		<passive>19</passive>
 		<languages> Common, Draconic, Ignan, Giant, Infernal, Orc</languages>
 		<cr>9</cr>
@@ -6248,7 +6194,7 @@
 		<save>Dex +4, Con +4, Wis +3, Cha +5</save>
 		<skill> Deception +5, Insight +3, Perception +5, Persuasion +5, Stealth +4</skill>
 		<immune>fire</immune>
-		<senses></senses>
+		<senses/>
 		<passive>15</passive>
 		<languages> Common, Draconic, Ignan</languages>
 		<cr>3</cr>
@@ -6598,7 +6544,7 @@
 		<save>Dex +5, Con +11, Wis +7, Cha +9</save>
 		<skill> Perception +12, Stealth +5</skill>
 		<immune>cold</immune>
-		<senses></senses>
+		<senses/>
 		<passive>22</passive>
 		<languages> Common, Draconic</languages>
 		<cr>16</cr>
@@ -6689,7 +6635,7 @@
 		</trait>
 		<trait>
 			<name>and structures</name>
-			<text></text>
+			<text/>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -6759,7 +6705,7 @@
 		<skill> Arcana +18, History +18, Perception +16, Persuasion +13, Stealth +7</skill>
 		<immune>cold</immune>
 		<conditionImmune>charmed, frightened</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>26</passive>
 		<languages> Celestial, Common, Draconic, Infernal, Primordial, Void Speech</languages>
 		<cr>24</cr>
@@ -6876,7 +6822,7 @@
 		<skill> Arcana +13, History +13, Perception +11, Persuasion +10, Stealth +5</skill>
 		<immune>cold</immune>
 		<conditionImmune>charmed, frightened</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>21</passive>
 		<languages> Common, Draconic, Void Speech</languages>
 		<cr>14</cr>
@@ -6974,7 +6920,7 @@
 		<skill> Arcana +10, History +10, Perception +8, Persuasion +8, Stealth +4</skill>
 		<immune>cold</immune>
 		<conditionImmune>charmed, frightened</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>18</passive>
 		<languages> Common, Draconic, Void Speech</languages>
 		<cr>9</cr>
@@ -7021,56 +6967,7 @@
 			<text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 4 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text>
 		</reaction>
 	</monster>
-	<monster>
-		<name>Void Dragon Wyrmling</name>
-		<size>M</size>
-		<type>dragon,tome of Beasts</type>
-		<alignment>chaotic neutral</alignment>
-		<ac>17 (natural armor)</ac>
-		<hp>45 (6d8 + 18)</hp>
-		<speed>30 ft., fly 60 ft. (hover)</speed>
-		<str>16</str>
-		<dex>10</dex>
-		<con>17</con>
-		<int>12</int>
-		<wis>9</wis>
-		<cha>17</cha>
-		<save>Dex +4, Con +5, Wis +1, Cha +5</save>
-		<skill> Perception +3, Stealth +2</skill>
-		<immune>cold</immune>
-		<senses></senses>
-		<passive>13</passive>
-		<languages> Common, Draconic, Void Speech</languages>
-		<cr>2</cr>
-		<trait>
-			<name>Chill of the Void</name>
-			<text>Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.</text>
-		</trait>
-		<trait>
-			<name>Void Dweller</name>
-			<text>As ancient void dragon.</text>
-		</trait>
-		<action>
-			<name>Bite</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text>
-			<attack>Bite|5|1d10 + 3</attack>
-		</action>
-		<action>
-			<name>Breath Weapons (Recharge 5-6)</name>
-			<text>The dragon uses one of the following breath weapons:</text>
-		</action>
-		<action>
-			<name>Gravitic Breath</name>
-			<text>The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text>
-		</action>
-		<action>
-			<name>Stellar Flare Breath</name>
-			<text>The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
-		</action>
-		<reaction>
-			<name>Void Twist</name>
-			<text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text>
-		</reaction>>
+	<monster><name>Void Dragon Wyrmling</name><size>M</size><type>dragon,tome of Beasts</type><alignment>chaotic neutral</alignment><ac>17 (natural armor)</ac><hp>45 (6d8 + 18)</hp><speed>30 ft., fly 60 ft. (hover)</speed><str>16</str><dex>10</dex><con>17</con><int>12</int><wis>9</wis><cha>17</cha><save>Dex +4, Con +5, Wis +1, Cha +5</save><skill> Perception +3, Stealth +2</skill><immune>cold</immune><senses/><passive>13</passive><languages> Common, Draconic, Void Speech</languages><cr>2</cr><trait><name>Chill of the Void</name><text>Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.</text></trait><trait><name>Void Dweller</name><text>As ancient void dragon.</text></trait><action><name>Bite</name><text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text><attack>Bite|5|1d10 + 3</attack></action><action><name>Breath Weapons (Recharge 5-6)</name><text>The dragon uses one of the following breath weapons:</text></action><action><name>Gravitic Breath</name><text>The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text></action><action><name>Stellar Flare Breath</name><text>The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.</text></action><reaction><name>Void Twist</name><text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text></reaction>&gt;
 	</monster>
 	<monster>
 		<name>Ancient Wind Dragon</name>
@@ -8487,7 +8384,7 @@
 		<cha>19</cha>
 		<save>Str +4, Dex +7, Con +6, Int +5, Wis +5, Cha +7</save>
 		<skill> Deception +7, Insight +5, Perception +5</skill>
-		<senses></senses>
+		<senses/>
 		<passive>15</passive>
 		<languages> Aquan, Common, Elvish, Sylvan</languages>
 		<cr>5</cr>
@@ -8878,7 +8775,7 @@
 		<resist>cold, fire; piercing damage</resist>
 		<immune>poison</immune>
 		<conditionImmune>blinded, deafened, exhausted, paralyzed, petrified, poisoned, prone, unconscious</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages> Common, Draconic, telepathy 250 ft.</languages>
 		<cr>1</cr>
@@ -8974,7 +8871,7 @@
 		<wis>11</wis>
 		<cha>13</cha>
 		<skill> Arcana +6, History +6</skill>
-		<senses></senses>
+		<senses/>
 		<passive>10</passive>
 		<languages> Common, Eonic, Giant, Sylvan</languages>
 		<cr>1</cr>
@@ -9390,8 +9287,6 @@
 			<text>- Emotions within 5 miles of the Bear King's lair run high. Arguments quickly descend into physical scuffles and enjoyable get-togethers are likely to become raucous carousing or even brawls.</text>
 			<text>If the Bear King dies, conditions in the area surrounding the lair return to normal over the course of 1d6 days.</text>
 		</trait>
-
-
 		<action>
 			<name>Multiattack</name>
 			<text>The bear king makes two ranged attacks or two melee attacks. In hybrid or grizzly bear form he can also make one additional bite attack.</text>
@@ -9432,7 +9327,6 @@
 			<name>Frightful Roar (2 actions)</name>
 			<text>The Bear King lets out a bloodcurdling roar. All creatures within 90 feet who can hear the Bear King must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature that makes its save, or who the effect ends for, is immune to the Frightful Roar for 24 hours. The bear king's allies are unaffected.</text>
 		</legendary>
-
 	</monster>
 	<monster>
 		<name>Lord Of The Hunt</name>
@@ -9525,7 +9419,6 @@
 			<name>Call the Hunt (2 actions)</name>
 			<text>The Lord of the Hunt blows his hunting horn and chooses one creature he can see within 60 feet. If the creature can hear the horn, it must succeed on a DC 16 Charisma saving throw against this magic or be charmed by the Lord of the Hunt for 8 hours. A charmed creature joins the wild hunt and follows the verbal instructions of the Lord of the Hunt, treating all former allies as enemies. If a charmed creature damages or is damaged by a former ally, it can repeat the saving throw at the end of its turn, ending the effect on itself on a success. Once a creature successfully saves or the effect ends for it, it is immune to Call the Hunt for the next 24 hours.</text>
 		</legendary>
-
 	</monster>
 	<monster>
 		<name>Moonlit King</name>
@@ -9626,7 +9519,6 @@
 			<name>Aura of Madness (2 actions)</name>
 			<text>While he is standing in an area of moonlight, the Moonlit King can spread his madness to other creatures within 30 feet. A creature other than a fiend that starts its turn in the aura or enters it for the first time on a turn (including when the aura is created) must succeed on a DC 19 Charisma saving throw or be confused (as if affected by the confusion spell) until the start of its next turn. The aura lasts until the start of the Moonlit King's next turn.</text>
 		</legendary>
-
 	</monster>
 	<monster>
 		<name>Queen Of Night And Magic</name>
@@ -9742,7 +9634,6 @@
 			<name>Spell (2 actions)</name>
 			<text>The Queen of Night and Magic casts a spell.</text>
 		</legendary>
-
 	</monster>
 	<monster>
 		<name>Queen Of Witches</name>
@@ -9990,8 +9881,6 @@
 			<text>- Light snowfall or swirling powder blown by the wind lightly obscures the area within 5 miles of the lair.</text>
 			<text>If the Snow Queen dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days.</text>
 		</trait>
-
-
 		<action>
 			<name>Multiattack</name>
 			<text>The Snow Queen makes two attacks in any combination of her claws and her ice crown.</text>
@@ -10275,7 +10164,7 @@
 		<resist>cold</resist>
 		<immune>necrotic</immune>
 		<conditionImmune>frightened</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>15</passive>
 		<languages> Common, Void Speech</languages>
 		<cr>2</cr>
@@ -10367,7 +10256,7 @@
 		<cha>7</cha>
 		<skill> Stealth +4</skill>
 		<immune>cold</immune>
-		<senses></senses>
+		<senses/>
 		<passive>10</passive>
 		<languages> Sylvan</languages>
 		<cr>1/2</cr>
@@ -10493,7 +10382,7 @@
 		<wis>13</wis>
 		<cha>7</cha>
 		<skill> Perception +4, Stealth +8</skill>
-		<senses></senses>
+		<senses/>
 		<passive>14</passive>
 		<languages>-</languages>
 		<cr>6</cr>
@@ -10534,7 +10423,7 @@
 		<resist>bludgeoning, piercing, and slashing damage from nonmagical weapons</resist>
 		<immune>poison</immune>
 		<conditionImmune>charmed, frightened, exhaustion, poisoned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages> Common</languages>
 		<cr>6</cr>
@@ -10935,7 +10824,6 @@
 			<name>Font of Power (3 actions)</name>
 			<text>Roll 1d8. The emperor regains a spell slot of that level or lower.</text>
 		</legendary>
-
 	</monster>
 	<monster>
 		<name>Ghoul, Imperial</name>
@@ -11047,7 +10935,7 @@
 		<save>Str + 12, Con +10, Cha +6</save>
 		<skill> Perception +8, Stealth +4, Survival +8</skill>
 		<immune>fire</immune>
-		<senses></senses>
+		<senses/>
 		<passive>18</passive>
 		<languages> Common, Giant</languages>
 		<cr>9</cr>
@@ -11092,7 +10980,7 @@
 		<skill> Perception +3</skill>
 		<immune>poison</immune>
 		<conditionImmune>poisoned</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages> Dwarvish, Giant</languages>
 		<cr>4</cr>
@@ -11133,7 +11021,7 @@
 		<resist>lightning, thunder</resist>
 		<immune>cold; bludgeoning, piercing, and slashing from nonmagical weapons</immune>
 		<conditionImmune>exhaustion</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>19</passive>
 		<languages> Auran, Common, Giant (can't speak in roc form)</languages>
 		<cr>19</cr>
@@ -13256,7 +13144,7 @@
 		<wis>10</wis>
 		<cha>7</cha>
 		<skill> Perception +3</skill>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages>-</languages>
 		<cr>5</cr>
@@ -13346,8 +13234,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<text>- Koschei is aware of any spell cast within 5 miles of his lair. He knows the source of the magic (innate, the caster's class, or a magic item) and knows the direction to the caster.</text>
 			<text>If Koschei dies, conditions in the area surrounding his lair return to normal over the course of 1d10 days.</text>
 		</trait>
-
-
 		<action>
 			<name>Multiattack</name>
 			<text>Koschei makes two longsword attacks and one drain life attack.</text>
@@ -13488,7 +13374,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<name>Vomit Forth the Deeps (1/Day)</name>
 			<text>The krake spawn sprays halfdigested food from its maw over a 15-foot cone. This acidic slurry causes 3 (1d6) acid damage and targets must make a successful DC 18 Constitution saving throw or be incapacitated until the end of their next turn.</text>
 		</action>
-
 	</monster>
 	<monster>
 		<name>Lantern Dragonette</name>
@@ -14016,7 +13901,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<wis>14</wis>
 		<cha>10</cha>
 		<skill> Survival +5</skill>
-		<senses></senses>
+		<senses/>
 		<passive>12</passive>
 		<languages> Loxodan</languages>
 		<cr>6</cr>
@@ -15363,7 +15248,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<int>2</int>
 		<wis>10</wis>
 		<cha>5</cha>
-		<senses></senses>
+		<senses/>
 		<passive>10</passive>
 		<languages>-</languages>
 		<cr>1/2</cr>
@@ -15400,7 +15285,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<wis>11</wis>
 		<cha>16</cha>
 		<conditionImmune>frightened</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>10</passive>
 		<languages> Common, plus the language spoken by the noctini's fext master</languages>
 		<cr>2</cr>
@@ -15811,7 +15696,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<wis>12</wis>
 		<cha>11</cha>
 		<skill> Arcana +5, Investigation +5</skill>
-		<senses></senses>
+		<senses/>
 		<passive>11</passive>
 		<languages> Common</languages>
 		<cr>1/4</cr>
@@ -16031,7 +15916,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<vulnerable>fire, cold</vulnerable>
 		<resist>bludgeoning, piercing</resist>
 		<conditionImmune>blinded, deafened</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>13</passive>
 		<languages> Common, Druidic, Elvish, Sylvan</languages>
 		<cr>5</cr>
@@ -16355,7 +16240,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<text>Melee Weapon Attack. +8 to hit, reach 10 ft., one target. Hit: 8 (1d6 + 5) slashing damage. If both tendril attacks hit the same target in a single turn, that target is grappled (escape DC 15). The rime worm can grapple one creature at a time, and it can't use its tendril or devour attacks against a different target while it has a creature grappled.</text>
 			<attack>Tendril|8|1d6 + 5</attack>
 		</action>
-
 		<action>
 			<name>Devour</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) slashing damage. If the target was grappled by the rime worm, it takes an additional 13 (2d12) cold damage.</text>
@@ -18352,7 +18236,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<save>Dex +7</save>
 		<resist>piercing from nonmagical weapons</resist>
 		<immune>lightning, thunder</immune>
-		<senses></senses>
+		<senses/>
 		<passive>10</passive>
 		<languages> Common, Sylvan</languages>
 		<cr>3</cr>
@@ -19460,7 +19344,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the lake troll hits a creature with both claw attacks in the same turn, the target creature must make a successful DC 16 Dexterity saving throw or its weapon (if any) gains a permanent and cumulative -1 penalty to damage rolls. If the penalty reaches -5, the weapon is destroyed. A damaged weapon can be repaired with appropriate artisan's tools during a long rest.</text>
 			<attack>Claws|8|2d8+5</attack>
 		</action>
-
 	</monster>
 	<monster>
 		<name>Trollkin Reaver</name>
@@ -20635,7 +20518,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) force damage, and the xanka regains hit points equal to the damage caused by its attack. In addition, a living creature hit by this attack must make a successful DC 12 Dexterity saving throw or suffer a gaping wound that causes 2 (1d4) necrotic damage at the end of each of the creature's turns until the wound is treated with magical healing or with a successful DC 10 Intelligence (Medicine) check. If a creature who fails this saving throw is wearing armor or using a shield, the creature can choose to prevent the necrotic damage by permanently reducing the AC of its armor or shield by 1 instead.</text>
 			<attack>Absorb|4|1d8+2</attack>
 		</action>
-
 	</monster>
 	<monster>
 		<name>Xhkarsh</name>
@@ -20696,7 +20578,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<cha>10</cha>
 		<resist>bludgeoning</resist>
 		<conditionImmune>exhaustion</conditionImmune>
-		<senses></senses>
+		<senses/>
 		<passive>11</passive>
 		<languages>-</languages>
 		<cr>11</cr>
@@ -20992,7 +20874,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<cha>14</cha>
 		<save>Str +5, Dex +4, Wis +2</save>
 		<skill> Athletics +5, Deception +4, Intimidation +4</skill>
-		<senses></senses>
+		<senses/>
 		<passive>10</passive>
 		<languages> any two languages</languages>
 		<cr>4</cr>
@@ -21058,7 +20940,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<name>Magic Weapons</name>
 			<text>The black knight commander's weapon attacks are made with magical (+1) weapons.</text>
 		</trait>
-
 		<action>
 			<name>Multiattack</name>
 			<text>The black knight commander makes two melee attacks.</text>
@@ -21078,8 +20959,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<text>The black knight commander lets loose a terrifying cry and makes one melee attack at the end of a charge. Whether the attack hits or misses, all enemies within 15 feet of the target and aware of the black knight commander's presence must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 		</action>
 	</monster>
-
-
 	<monster>
 		<name>City Watch Captian</name>
 		<size>m</size>
@@ -21130,7 +21009,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<text>Each creature of the city watch captain's choice that is within 30 feet of it and can hear it makes one melee or ranged weapon attack as a reaction. This person could easily have been on the other side of the law, but he likes the way he looks in the city watch uniform.and the way city residents look at him when he walks down the street leading a patrol. With a long mustache and a jaunty cap, there's no denying that he cuts a rakishly handsome figure. While a trained investigator, the city watch captain is not afraid to draw his blade to end a threat to his city.</text>
 		</action>
 	</monster>
-
 	<monster>
 		<name>Devilbound Gnomish Prince</name>
 		<size>s</size>
@@ -21282,7 +21160,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<name>Surprise Attack</name>
 			<text>If the elvish veteran archer surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</text>
 		</trait>
-
 		<action>
 			<name>Multiattack</name>
 			<text>The elvish veteran archer makes two melee attacks or three ranged attacks.</text>
@@ -21365,7 +21242,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<attack>Lance|6|1d12 + 3</attack>
 		</action>
 	</monster>
-
 	<monster>
 		<name>Ogre Chieftain, Corrupted</name>
 		<size>L</size>
@@ -21449,8 +21325,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<attack>Sling|4|1d4 + 2</attack>
 		</action>
 	</monster>
-
-
 	<monster>
 		<name>Wolf Reaver Dwarf</name>
 		<size>M</size>
@@ -21506,7 +21380,6 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<attack>Spear|6|1d6+4</attack>
 		</action>
 	</monster>
-
 	<monster>
 		<name>Emerald Order Cult Leader</name>
 		<size>m</size>
