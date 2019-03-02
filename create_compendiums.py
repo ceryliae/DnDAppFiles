@@ -194,16 +194,19 @@ def create_category_compendiums():
         if (category is 'Homebrew'): # populate base classes to allow for homebrew archetypes
             for root, dirnames, fnames in os.walk('Character/Classes'):
                 for filename in [fname for fname in fnmatch.filter(fnames, '*.xml') if "(" not in fname]:
-                    filenames.append(os.path.join(root, filename))
+                    class_name = re.search('(.*)\.xml', filename).groups()[0]
+                    if args.includes == ['Homebrew'] or class_name in args.includes:
+                        filenames.append(os.path.join(root, filename))
 
         for root, dirnames, fnames in os.walk(category):
             for filename in fnmatch.filter(fnames, '*.xml'):
                 filenames.append(os.path.join(root, filename))
         output_path = COMPENDIUM.format(category=category)
 
-        """build UA compendium, but exclude from Full"""
-        if category != 'Unearthed Arcana':
-            output_paths.append(output_path)
+        """build UA compendium, but exclude from Full unless included"""
+        if category == 'Unearthed Arcana' and 'Unearthed Arcana' not in args.includes:
+            continue
+        output_paths.append(output_path)
         XMLCombiner(filenames).combine_templates(output_path)
     return output_paths
 
@@ -297,6 +300,7 @@ IL InlinedLists (eg repeated Eldritch Invocations)
                         help='''\
 (default=%(default)s)
 limit script to certain Compendiums, eg Fighter. primarily useful for testing.
+If Homebrew is specified, this will override the HB parameter in excludes
                             ''')
 
     parser.add_argument('-n', '--name', dest='name', action='store',
@@ -309,4 +313,9 @@ name for the final combined Compendium, defaults to Full or Limited if using --i
     args = parser.parse_args()
 
     print "Arguments: {0}".format(vars(args))
+
+    # includes will override excludes if homebrew is in both
+    if 'HB' in args.excludes and 'Homebrew' in args.includes:
+        args.excludes.remove('HB')
+
     create_full_compendium()
