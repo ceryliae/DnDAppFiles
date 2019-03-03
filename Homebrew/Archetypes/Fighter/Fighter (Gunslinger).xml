@@ -3,14 +3,14 @@
 	<subclass baseclass="Fighter" HB="HB">
 		<name>Fighter (Gunslinger)</name>
 		<autolevel level="3">
-			<feature optional="YES" optional="YES">
+			<feature optional="YES">
 				<name>Martial Archetype: Gunslinger</name>
 				<text>Most warriors and combat specialists spend their years perfecting the classic arts of swordplay, archery, or polearm tactics. Whether duelist or infantry, martial weapons were seemingly perfected long ago, and the true challenge is to master them.</text>
 				<text>	However, some minds couldn't stop with the innovation of the crossbow. Experimentation with alchemical components and rare metals have unlocked the secrets of controlled explosive force. The few who survive these trials of ingenuity may become the first to create, and deftly wield, the first firearms.</text>
 				<text>	This archetype focuses on the ability to design, craft, and utilize powerful, yet dangerous ranged weapons. Through creative innovation and immaculate aim, you become a distant force of death on the battlefield. However, not being a perfect science, firearms carry an inherent instability that can occasionally leave you without a functional means of attack. This is the danger of new, untested technologies in a world where the arcane energies that rule the elements are ever present.</text>
 				<text>	Should this path of powder, fire, and metal call to you, keep your wits about you, hold on to your convictions as a fighter, and let skill meet luck to guide your bullets to strike true.</text>
 			</feature>
-			<feature optional="YES" optional="YES">
+			<feature optional="YES">
 				<name>Gunslinger: Firearm Proficiency</name>
 				<text>Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms.</text>
 			</feature>
@@ -18,14 +18,14 @@
 				<name>Gunslinger: Gunsmith</name>
 				<text>Upon choosing this archetype at 3rd level, you gain proficiency with Tinker's Tools. You may use them to craft ammunition at half the cost, repair damaged firearms, or even draft and create new ones (DM's discretion). Some extremely experimental and intricate firearms are only available through crafting.</text>
 			</feature>
-			<feature optional="YES" optional="YES">
+			<feature optional="YES">
 				<name>Gunslinger: Firearm Properties</name>
 				<text>Reload: The weapon can be fired a number of times equal to its Reload number before the wielder must spend 1 Attack of your Attack Action, or an Action, to reload. You must have one free hand to reload a firearm.</text>
 				<text>Misfire: Whenever the Firearm is fired in a way that requires an Attack Roll, if the dice roll is equal to or lower than the Misfire number, the weapon Misfires, the attack misses, and it cannot be used to attack again until an Action and successful Tinker's Tools Ability Check (DC = 10 + Firearm's Misfire Score) is used to repair and clear the weapon. Should the Tinker's Tools check fail, the weapon is considered broken and must be repaired out of combat at half the cost of the weapon (or DM's discretion).</text>
 				<text>Scatter: An attack is made against each creature within a 30 ft cone. If an affected creature is adjacent to you, they suffer double damage on a hit.</text>
 				<text>Explosive: Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw or suffer half damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so.</text>
 			</feature>
-			<feature optional="YES" optional="YES">
+			<feature optional="YES">
 				<name>Gunslinger: Ammunition</name>
 				<text>All firearms require ammunition to make an attack, and due to their rare nature, ammunition may be near impossible to find or purchase. However, if materials are gathered, you can craft ammunition yourself using your Tinker’s Tools at half the cost. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed below next to the price.</text>
 				<text />
@@ -38,7 +38,7 @@
 				<text>Bad News       Crafted    10g (5)     2d12 piercing    25 lb.    (200/800)    Two-handed, misfire 3, explosive</text>
 				<text>Hand Mortar    Crafted    10g (1)     2d8 fire         10 lb.    (30/60)      Reload 1, misfire 3, explosive</text>
 			</feature>
-			<feature optional="YES" optional="YES">
+			<feature optional="YES">
 				<name>Gunslinger: Adept Marksman</name>
 				<text>When you choose this archetype at 3rd level, you learn to perform powerful trick shots to disable or damage your opponents using your firearms.</text>
 				<text/>
@@ -54,29 +54,29 @@
 				</feature>
 			</autolevel>
 			<autolevel level="7">
-				<feature optional="YES" optional="YES">
+				<feature optional="YES">
 					<name>Gunslinger: Quickdraw</name>
 					<text>When you reach 7th level, you add your proficiency bonus to your initiative. You can also stow a firearm, then draw another firearm as a single object interaction on your turn.</text>
 				</feature>
 			</autolevel>
 			<autolevel level="10">
-				<feature optional="YES" optional="YES">
+				<feature optional="YES">
 					<name>Gunslinger: Rapid Repair</name>
 					<text>Upon reaching 10th level, you learn how to quickly attempt to fix a jammed gun. You can spend a grit point to attempt to repair a misfired (but not broken) firearm as a bonus action.</text>
 				</feature>
 			</autolevel>
 			<autolevel level="15">
-				<feature optional="YES" optional="YES">
+				<feature optional="YES">
 					<name>Gunslinger: Lightning Reload</name>
 					<text>Starting at 15th level, you can reload any firearm as a bonus action.</text>
 				</feature>
 			</autolevel>
 			<autolevel level="18">
-				<feature optional="YES" optional="YES">
+				<feature optional="YES">
 					<name>Gunslinger: Vicious Intent</name>
 					<text>At 18th level, your firearm attacks score a critical hit on a roll of 19-20, and you regain a grit point on a roll of 19 or 20 on a d20 attack roll.</text>
 				</feature>
-				<feature optional="YES" optional="YES">
+				<feature optional="YES">
 					<name>Gunslinger: Hemorrhaging Critical</name>
 					<text>Upon reaching 18th level, whenever you score a critical hit on an attack with a firearm, the target additionally suffers half of the damage from the attack at the end of its next turn.</text>
 				</feature>
