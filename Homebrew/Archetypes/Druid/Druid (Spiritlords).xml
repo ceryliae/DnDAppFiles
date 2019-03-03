@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Druid" HB="HB">
+		<name>Druid (Spiritlords)</name>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Druid Circle: Circle of The Spiritlords</name>
+				<text>Ages ago, nature priests with a greater connection to the spirit realm believed the world itself to be formed from a group of elemental and primordial spirits, each specifically charged to harness one of the major elements of creation. This band of tribal druids developed a set of ritual practices that allowed them to summon these spirits, whose essence now resides in every rock, tree, and breath of air, controlling the ebb and  ow of nature not only in their homeland, but in all lands beyond. This order of priests were known as spiritlords.</text>
+				<text>	Spiritlords begin their journey with the rites handed down by those before them, specifically, the ritual to create a special mask from an ironwood tree. This mask allows the spiritlord to play host to the spirit-elementals roaming this world.</text>
+				<text>	As the spiritlord grows in power and gains a heightened level of attunement to the spirit world, their mask transforms along with them, being altered with new carvings, ritual paints, and brands that symbolize the bond between the druid and the spirits they carry within.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Circle of The Spiritlords: Spirit Bond</name>
+				<text>When you choose this circle at 2nd level, you choose one spirit-element to bond with your mask from the Spirit Bond table below and you learn the cantrip associated with your spirit-element’s fledgling conduit, which counts as a druid cantrip for you, and doesn’t count against your number of cantrips known. You can select one additional spirit-element at 6th level and again at 10th level.</text>
+				<text>	Additionally, you can cast the find familiar spell, which bears features similar to your chosen spirit-element (glowing skin, fiery eyes, a thorny tail, etc.). Once you cast find familiar using this feature, you can't cast it again until you finish a long rest.</text>
+				<text>You can only have one mask at a time and once this bond is formed, you can’t change the spirit-element within your mask. If the mask is lost or destroyed, creating a new mask for your spirit-element takes 8 hours of uninterrupted time, which you can accomplish during a long rest.</text>
+				<text />
+				<text>Spirit Bond</text>
+				<text>Spirit type   Fledgling Conduit    Empowered Conduit    Damage Type</text>
+				<text>Earth         mold earth           magic stone          Poison</text>
+				<text>Fire          control flame        create bonfire       Fire</text>
+				<text>Water         shape water          frostbite            Cold</text>
+				<text>Wind          gust                 thunderclap          Lightning</text>
+				<text>Light         dancing lights       sacred flame         Radiant</text>
+				<text>Shadow        minor illusion       chill touch          Necrotic</text>
+			</feature>
+
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Circle of The Spiritlords: Empowered Conduit</name>
+				<text>At 6th level, your mask channels the destructive powers of your spirit element. You gain the cantrip in the Empowered Conduit column on the Spirit Bond table.</text>
+				<text>	Further, when your connection with the spirit realm strengthens enough to host an additional spirit-element, you can switch between them with an action. When you do, you gain the benefits of the mask's current bond and your familiar can take on a similar appearance. No matter how many spirits inhabit your mask, you can only ever call on the aid of one at a time.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Circle of The Spiritlords: Vigilant Spirits</name>
+				<text>Starting at 10th level, you add your Wisdom modi er to the damage you deal with any druid cantrip and, each time you switch to a different spirit-element within your mask, you gain resistance to that damage type.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Circle of The Spiritlords: Honored Host</name>
+				<text>At 14th level, you have become a beacon for the spirits who wish to affect the world through you. You gain access to all of the spirit-elements listed on the Spirit Bond table, and can switch between them with a bonus action, and your spells ignore resistance and immunity to that damage type.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>
