@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Paladin" HB="HB">
+		<name>Paladin (Predation)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Predation</name>
+				<text>Paladins who follow the Oath of Predation believe that the world can only be made perfect through utter control. Through careful planning, subterfuge and unwavering patience, these paladins create hierarchies with themselves at the top, and execute their power with impunity. Few paladins can resist the allure of unchecked power, and most succumb to the temptations of tyranny. The clearest example of these illriggers come from the Dragonlance setting, an Order known as the Knights of Takhisis.</text>
+				<text />
+				<text>Tenets of the Predation</text>
+				<text />
+				<text>The tenets of the Oath of Predation remind its adherents that the whims of their patron supersede all other oaths and laws.</text>
+				<text>	Cultivate the Flock. It is not enough to gather a congregation. You must hone them to a ready point, zealous to do what is necessary with a word.</text>
+				<text>	Maintain Supremacy. You are the order in the midst of chaos. You vow to follow no rules other than the rigid disciplines necessary to maintain the faith. Those who deviate from the plan will die.</text>
+				<text>	Reward thy Followers. Engage not in needless cruelty and will treat well those who submit. Honor thy contracts but do not hesitate to steal, murder or mislead to complete your orders.</text>
+				<text>	World of Order. I will provide authority where it lacks and subjugate myself to the cause. Just as I do no operate with impunity, I will create and maintain a network of followers to precipitate our unquestionable dominion.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Predation: Oath Spells</name>
+				<text>You gain oath spells at the paladin levels listed.</text>
+				<text />
+				<text>3rd - command, protection from evil and good</text>
+				<text />
+				<text>5th - enthrall, pass without trace</text>
+				<text />
+				<text>9th - hypnotic pattern, nondetection</text>
+				<text />
+				<text>13th - compulsion, Mordenkainen’s private sanctum</text>
+				<text />
+				<text>17th - dominate person, teleportation circle</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of Predation: Bonus Proficiencies</name>
+				<text>At 3rd level, you gain proficiency in thieves’ tools and your choice of the Sleight of Hand or Stealth skills.</text>
+				<text>Additionally, if you are proficient in the Deception, Intimidation, or Persuasion skills, your proficiency bonus is doubled to these checks using these skills.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Predation Channel Divinity: Predatory Instincts</name>
+				<text>When you roll initiative, you can use your Channel Divinity to imbue your movements with foul alacrity. You add your Charisma modifier to your initiative roll, you have advantage on attack rolls against any creature that hasn’t taken a turn in combat yet, and you deal an additional 1d6 necrotic damage to that creature. This damage increases to 2d6 at 7th level, 3d6 at 11th level, 4d6 at 15th level, and 5d6 at 19th level.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Predation Channel Divinity: Fell Suggestion</name>
+				<text>As an action, you can use your Channel Divinity to magically enthrall another creature within 5 feet of you. If the target can see or hear you, it must succeed a Wisdom saving throw or become charmed by you for 1 minute.</text>
+				<text>	You can use a bonus action to issue simple commands to the charmed creature if it is within 60 feet of you. You decide what action the creature will take and where it will move during its next turn. When you issue a command, and at the end of each of its turns, the creature must succeed a Wisdom saving throw or carry out your instructions to the best of its ability on its turn. The DM determines how the target behaves.</text>
+				<text>	Once the effect ends, or if the creature succeeds on its initial saving throw against this e ect, you can’t use this feature on that creature again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Oath of the Predation: Perfect Domination</name>
+				<text>Starting at 7th level, when you use your Fell Suggestion feature, you can choose to force the creature to fail its saving throw if its challenge rating is equal to or below a certain threshold, as shown below. When the creature would make a saving throw to break the effect, it does so at disadvantage.</text>
+				<text>	A creature subjected to your perfect domination is charmed by you for 1 hour instead of 1 minute.</text>
+				<text>	Starting at 15th level, creatures of CR 1/2 or lower are charmed by you indefinitely until the charm is broken. At 19th level, this indefinite charm extends to creatures of CR 1 or lower.</text>
+				<text/>
+				<text>Perfect Domination</text>
+				<text>Paladin Level    Creature’s CR</text>
+				<text>7th              1/2 or lower</text>
+				<text>11th             1 or lower</text>
+				<text>15th             2 or lower</text>
+				<text>19th             3 or lower</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Oath of the Predation: Shroud of the Illrigger</name>
+				<text>Beginning at 15th level, you are always under the effects of a pass without trace spell.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature optional="YES">
+				<name>Oath of the Predation: Hand of Manipulation</name>
+				<text>At 20th level, you gain the ability to execute your master plans unseen. As an action, you can magically become an avatar of deception and subterfuge, gaining the following bene ts for 1 minute.</text>
+				<text>• You gain the effects of a greater invisibility spell.</text>
+				<text>• Once per turn, while you have advantage on your attack roll, you deal additional damage equal to 5d6 necrotic damage.</text>
+				<text>• Your friends have advantage on melee attack rolls</text>
+				against any creature within 5 feet of you that is hostile to you. Their attacks deal additional damage equal to your Charisma modi er (minimum of 1).</text>
+				<text>• You and each creature of your choice that you can see within 30 feet of you are immune to being charmed.</text>
+				<text>Once you use this feature, you can’t use it again until you finish a long rest</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>
