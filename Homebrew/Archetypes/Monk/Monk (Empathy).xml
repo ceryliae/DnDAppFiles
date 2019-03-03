@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Monk" HB="HB">
+		<name>Monk (Empathy)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Monastic Tradition: Way of Empathy</name>
+				<text>Monks of the Way of Empathy follow the tradition instilled with compassion for all living beings. While their training includes martial practice as a form of self-discipline, their teachings also focus on a healing art of rare form, known as Empathy. Using these techniques, they learn to manipulate the ki to transfer malady and pain from another to themselves. Some members of this tradition dedicate themselves to the sick and the poor, while others  nd their calling side by side with soldiers, rehabilitating the fallen in battle. Their scars might telltale of thousands of warriors, without ever feeling the cold of steel against their own  esh.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of Empathy: Healing Chakra</name>
+				<text>When you choose this tradition at 3rd level, you learn to extend the bounds of your internal fortitude through focus and deep concentration to recover from injury at an accelerated pace. During a short rest, when you roll a hit die to regain hit points, you regain twice the number rolled before adding your Constitution modifier.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of Empathy: Empathy</name>
+				<text>At 3rd level, your depths of compassion allow you to take the wounds of others at the cost of your own health. As an action, you can expend 1 ki point to touch a creature and heal a number of hit points up to 5 × your monk level. You take damage equal to the amount of hit points healed.</text>
+				<text>	This feature doesn’t transfer any other effects that might accompany the damage, and this damage can’t be reduced in any way (except the Improved Empathic Bond class feature).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Way of Empathy: Sense Emotion</name>
+				<text>At 6th level, you can unlock the chakra pathways within other creatures. You learn the friends cantrip, and can spend 2 ki points to cast calm emotions or detect thoughts.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of Empathy: Empathetic Bond</name>
+				<text>At 6th level, you can create a metaphysical link between you and another creature at the end of a short or long rest. While the creature is within 60 feet of you it has resistance to all damage. Also, each time it takes damage, you take the same amount, and this damage can’t be reduced in any way. This feature doesn’t transfer any other effects that might accompany the damage.</text>
+				<text>	If the creature you are linked to is reduced to 0 hit points but isn’t killed outright, it is stabilized as any excess damage carries over to you, and the bond is severed. You can also end this link on your turn as a bonus action.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Way of Empathy: Adrenal Surge</name>
+				<text>At 11th level, as a bonus action, you can expend 5 ki points to send a surge of adrenaline to push your allies to peak performance. Up to five creatures within 30 feet that can see you gain advantage on their next Constitution, Dexterity, or Strength ability check, attack roll, or saving throw and gains temporary hit points equal to your monk level, provided the creature can see or hear you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Way of Empathy: Improved Empathetic Bond</name>
+				<text>At 17th level, you can use your Empathetic Bond feature to create two bonds instead of one, and you can use your Empathy feature as an action to replace some of their hit points if they are within 30 feet.</text>
+				<text>	Additionally, while both links are active, you gain resistance to all damage, including damage from your Empathy and your Empathic Bond features. If either link is lost, so is this resistance, and you can’t use this feature again until you finish a long rest.</text>
+				<text>	You can end one or both links on your turn as a bonus action.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>
