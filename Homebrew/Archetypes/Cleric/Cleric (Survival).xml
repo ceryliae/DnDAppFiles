@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Survival)</name>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain Survival</name>
+				<text>Clerics and shamans of primitive tribes living in harsh environments have no greater mission than ensuring the survival of their tribes. The gods of survival often have other domains in similar realms, such as life or nature. The worshippers who work within the Survival domain, however, are much more primal and brutal than their counterparts.</text>
+				<text>	The gods of primitive and uncivilized races are most likely to hold this domain: lizardfolk god Semuanya and orc goddess Luthic are prime examples of deities whose clerics embrace the Survival domain. They are more likely to remain in their territories, nurturing and protecting their flocks, but fighting fiercely when a threat invades their lairs.</text>
+				<text />
+				<text>Survival Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text />
+				<text>1st - create or destroy water, false life</text>
+				<text />
+				<text>3rd - locate animals or plants, prayer of healing</text>
+				<text />
+				<text>5th - fear, protection from energy</text>
+				<text />
+				<text>7th - death ward, dominate beast</text>
+				<text />
+				<text>9th - antilife shell, greater restoration</text>
+			</feature>
+			<feature optional="YES">
+				<name>Survival Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain proficiency in the Survival and Nature skills. Your proficiency bonus is doubled for any ability checks you make that use those skills.</text>
+			</feature>
+			<feature>
+				<name>Survival Domain: Stand the Fallen</name>
+				<text>Also starting at 1st level, when you cast the spare the dying cantrip, you can make the following changes to the spell: change the range from touch to 30 feet, and the creature gains 1 hit point instead of becoming stable.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long or short rest.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Survival Domain Channel Divinity: Encourage the Troops</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to bolster the fighting abilities of your allies.</text>
+				<text>	As an action, you present your holy symbol and invoke the survival instincts of your deity. Each allied creature that can see you gains advantage on their next melee or ranged weapon attack before the start of your next turn. If their attack hits, the allied creature also regains hit points equal to your cleric level.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Survival Domain: Push the Limits</name>
+				<text>At 6th level, you can use your Channel Divinity to strengthen the resolve your allies. All allied creatures within 30 feet of you gain temporary hit points equal to your cleric level.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Survival Domain: Potent Spell Casting</name>
+				<text>At 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Survival Domain: Protection of the Tribe</name>
+				<text>Starting at 17th level, you can use a bonus action to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage until the start of your next turn. You regain the use of this ability when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>
