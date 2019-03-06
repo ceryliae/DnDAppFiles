@@ -186,7 +186,7 @@
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common, Auran</languages>
-		<cr>5</cr>
+		<cr>1/2</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The gen’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
@@ -214,6 +214,61 @@
 			<name>Thunderbolt</name>
 			<text>Ranged Weapon Attack: +4 to hit, reach 5 ft., one target range 30/120. Hit: 5 (1d6 + 2) lightning damage.</text>
 			<attack>Thunderbolt|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gen, Earth</name>
+		<size>T</size>
+		<type>elemental, Xanathar's Lost Notes to Everything Else</type>
+		<alignment>neutral</alignment>
+		<ac>13</ac>
+		<hp>10 (3d4+3)</hp>
+		<speed>30 ft., fly 40 ft. (hover)</speed>
+		<str>15</str>
+		<dex>11</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<skill>Athletics +4, Insight +3</skill>
+		<immune>poison</immune>
+		<conditionImmune>poisones</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 30 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Terran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen’s innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no components:</text>
+			<text>	At will: detect evil and good</text>
+			<text>	2/day each: entangle, plane shift (self only)</text>
+			<text>	1/day each: earth tremor, tongues</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates into crystalline powder, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two fist attacks.</text>
+		</action>
+		<action>
+			<name>Fist</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Fist|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Smash</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage and the target must succeed on a DC 12 Strength saving throw or be knocked prone.</text>
+			<attack>Smash|4|1d8+2</attack>
 		</action>
 		<action>
 			<name>Invisibility</name>
