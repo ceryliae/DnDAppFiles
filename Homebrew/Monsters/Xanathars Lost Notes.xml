@@ -332,4 +332,62 @@
 			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Gen, Water</name>
+		<size>T</size>
+		<type>elemental, Xanathar's Lost Notes to Everything Else</type>
+		<alignment>neutral</alignment>
+		<ac>12</ac>
+		<hp>10 (3d4 + 3)</hp>
+		<speed>30 ft., swim 90 ft., fly 60 ft (hover)</speed>
+		<str>13</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<skill>Perception +4, Insight +4</skill>
+		<resist>acid, cold</resist>
+		<senses>blindsight 30 ft., darkvision 90 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Aquan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
+			<text>	At will: detect evil and good, frostbite, shape water</text>
+			<text>	2/day each: plane shift (self only)</text>
+			<text>	1/day each: tongues, water walk (self only)</text>
+		</trait>
+		<trait>
+			<name>Amphibious</name>
+			<text>The gen can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+			<attack>Scimitar|10|1d6+1</attack>
+		</action>
+		<action>
+			<name>Tidal Wave (Recharge 6)</name>
+			<text>The gen creates a rushing wave of water in a 15-foot cone. Each creature in that area must succeed on a DC 13 Dexterity saving throw, taking 5 (2d4) bludgeoning damage on a failed save, or half as much on a successful one. A creature that fails its save is also pushed up to 10 feet away and knocked prone.</text>
+			<attack>Tidal Wave||2d4</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
 </compendium>
