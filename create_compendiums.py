@@ -195,12 +195,12 @@ def create_category_compendiums():
             for root, dirnames, fnames in os.walk('Character/Classes'):
                 for filename in [fname for fname in fnmatch.filter(fnames, '*.xml') if "(" not in fname]:
                     class_name = re.search('(.*)\.xml', filename).groups()[0]
-                    if args.includes == ['Homebrew'] or class_name in args.includes:
+                    if args.includes == ['*'] or args.includes == ['Homebrew'] or class_name in args.includes:
                         filenames.append(os.path.join(root, filename))
-
-        for root, dirnames, fnames in os.walk(category):
-            for filename in fnmatch.filter(fnames, '*.xml'):
-                filenames.append(os.path.join(root, filename))
+        else:
+            for root, dirnames, fnames in os.walk(category):
+                for filename in fnmatch.filter(fnames, '*.xml'):
+                    filenames.append(os.path.join(root, filename))
         output_path = COMPENDIUM.format(category=category)
 
         """build UA compendium, but exclude from Full unless included"""
