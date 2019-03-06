@@ -60,4 +60,51 @@
 			<text>The urban dryad can step magically from one shadow within its reach and emerge from a second unoccupied shadow within 60 feet of the original shadow.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Urban Sproutling</name>
+		<size>S</size>
+		<type>fey, Xanathar's Lost Notes to Everything Else</type>
+		<alignment>neutral</alignment>
+		<ac>11</ac>
+		<hp>13 (3d6 + 3)</hp>
+		<speed>20 ft.</speed>
+		<str>12</str>
+		<dex>16</dex>
+		<con>13</con>
+		<int>6</int>
+		<wis>8</wis>
+		<cha>10</cha>
+		<skill>Acrobatics +5, Stealth +7</skill>
+		<conditionImmune>blinded, deafened</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+		<passive>12</passive>
+		<languages>Common, Sylvan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While hidden or resting, the sproutling is indistinguishable from a common weed.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The sproutling has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The sproutling can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The urban sproutling makes one bite attack and one claw attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d4 +2) piercing damage plus 3 (1d6) poison damage.</text>
+			<attack>Bite|3|1d4+2+1d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Hand Crossbow|6|3d6+4+1d6+1</attack>
+		</action>
+	</monster>
 </compendium>
