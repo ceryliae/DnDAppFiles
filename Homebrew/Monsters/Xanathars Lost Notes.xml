@@ -166,4 +166,58 @@
 			<text>Once on its turn, the elder dryad can step magically from one shadow within its reach and emerge from a second unoccupied shadow within 60 feet of the original shadow.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Gen, Air</name>
+		<size>T</size>
+		<type>elemental, Xanathar's Lost Notes to Everything Else</type>
+		<alignment>neutral</alignment>
+		<ac>12</ac>
+		<hp>7 (1d4+2)</hp>
+		<speed>0 ft., fly 60 ft.</speed>
+		<str>6</str>
+		<dex>15</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>14</wis>
+		<cha>17</cha>
+		<skill>Perception +4, Persuasion +5</skill>
+		<resist>lightning, bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Auran</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
+			<text>	At will: detect evil and good, gust</text>
+			<text>	2/day each: fog cloud, plane shift (self only), tongues</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates into a warm breeze, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two melee or two ranged attacks</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Thunderbolt</name>
+			<text>Ranged Weapon Attack: +4 to hit, reach 5 ft., one target range 30/120. Hit: 5 (1d6 + 2) lightning damage.</text>
+			<attack>Thunderbolt|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
 </compendium>
