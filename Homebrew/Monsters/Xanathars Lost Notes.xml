@@ -107,4 +107,63 @@
 			<attack>Hand Crossbow|6|3d6+4+1d6+1</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Dryad, Elder</name>
+		<size>S</size>
+		<type>fey, Xanathar's Lost Notes to Everything Else</type>
+		<alignment>neutral</alignment>
+		<ac>15</ac>
+		<hp>105 (14d6 + 56)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>16</dex>
+		<con>18</con>
+		<int>14</int>
+		<wis>17</wis>
+		<cha>18</cha>
+		<skill>Perception +4, Stealth +5, Persuasion +7</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The urban dryad’s innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text>	At will: commune with nature, meld into stone, sleep</text>
+			<text>	3/day: spike growth</text>
+			<text>	1/day: blight</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While hidden or resting, the elder dryad is indistinguishable from a flowering azalea or another local shrub.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The elder dryad has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The elder dryad can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elder dryad makes three melee attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) slashing damage plus 11 (2d10) poison damage.</text>
+			<attack>Lash|6|1d6+3+2d10</attack>
+		</action>
+		<action>
+			<name>Entangling Roots</name>
+			<text>The elder dryad can animate roots in the ground in a 15-foot square within 30 feet of it. These roots turn the ground in that area into difficult terrain. A creature in that area when the effect begins must make a successful DC 15 Strength saving throw or be restrained by entangling roots. A creature restrained by the plants can use its action to make a DC 15 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the elder dryad dies or uses entangling roots again.</text>
+		</action>
+		<action>
+			<name>Shadow Walk</name>
+			<text>Once on its turn, the elder dryad can step magically from one shadow within its reach and emerge from a second unoccupied shadow within 60 feet of the original shadow.</text>
+		</action>
+	</monster>
 </compendium>
