@@ -195,7 +195,7 @@ def create_category_compendiums():
             for root, dirnames, fnames in os.walk('Character/Classes'):
                 for filename in [fname for fname in fnmatch.filter(fnames, '*.xml') if "(" not in fname]:
                     class_name = re.search('(.*)\.xml', filename).groups()[0]
-                    if args.includes == ['Homebrew'] or class_name in args.includes:
+                    if args.includes == ['*'] or args.includes == ['Homebrew'] or class_name in args.includes:
                         filenames.append(os.path.join(root, filename))
 
         for root, dirnames, fnames in os.walk(category):
