@@ -1,29 +1,64 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-    <class name="Blood Hunter" HB="HB">
+	<class name="Blood Hunter" HB="HB">
 		<name>Blood Hunter</name>
 		<hd>10</hd>
 		<proficiency>Strength, Wisdom</proficiency>
 		<spellAbility>Wisdom</spellAbility>
-		<autolevel level="3"> <slots>2,1,0,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="4"> <slots>2,1,0,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="5"> <slots>2,2,0,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="6"> <slots>2,2,0,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="7"> <slots>2,0,2,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="8"> <slots>2,0,2,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="9"> <slots>2,0,2,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="10"><slots>2,0,2,0,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="11"><slots>2,0,0,2,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="12"><slots>3,0,0,2,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="13"><slots>3,0,0,2,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="14"><slots>3,0,0,3,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="15"><slots>3,0,0,3,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="16"><slots>3,0,0,3,0,0,0,0,0,0</slots></autolevel>
-		<autolevel level="17"><slots>3,0,0,0,3,0,0,0,0,0</slots></autolevel>
-		<autolevel level="18"><slots>3,0,0,0,3,0,0,0,0,0</slots></autolevel>
-		<autolevel level="19"><slots>3,0,0,0,3,0,0,0,0,0</slots></autolevel>
-		<autolevel level="20"><slots>3,0,0,0,3,0,0,0,0,0</slots></autolevel>
-
+		<autolevel level="3">
+			<slots>2,1,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>2,1,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>2,2,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>2,2,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>2,0,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>2,0,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>2,0,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>2,0,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>2,0,0,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>3,0,0,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>3,0,0,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>3,0,0,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>3,0,0,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>3,0,0,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>3,0,0,0,3,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>3,0,0,0,3,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>3,0,0,0,3,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>3,0,0,0,3,0,0,0,0,0</slots>
+		</autolevel>
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -36,16 +71,15 @@
 			<feature>
 				<name>Starting Equipment</name>
 				<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
-				<text />
+				<text/>
 				<text>• (a) a martial weapon or (b) two simple weapons</text>
 				<text>• (a) a light crossbow and 20 bolts or (b) hand crossbow and 20 bolts</text>
 				<text>• (a) studded leather armor or (b) scale mail armor</text>
 				<text>• an explorer's pack</text>
-				<text />
+				<text/>
 				<text>Alternatively, you may start with 4d4 x 10 gp and purchase starting items of your choice.</text>
 			</feature>
 		</autolevel>
-
 		<autolevel level="1">
 			<feature>
 				<name>Credits!</name>
@@ -54,18 +88,18 @@
 			<feature>
 				<name>Hunter's Bane</name>
 				<text>Beginning at 1st level you have survived the imbibing of the Hunter's Bane, a poisonous alchemical concoction that alters your life's blood, forever binding you to the darkness and hoping your senses against it.</text>
-				<text />
-				<text>    You have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</text>
-				<text />
-				<text>    Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check.</text>
+				<text/>
+				<text>	You have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</text>
+				<text/>
+				<text>	Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check.</text>
 			</feature>
 			<feature>
 				<name>Crimson Rite</name>
 				<text>At 1st level, you learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.</text>
-				<text>    As a bonus action, you imbue a single weapon with the elemental energy of a known rite for up to 8 hours. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.</text>
-				<text>    When a crimson rite is activated, it reduces your maximum hit points a number equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.</text>
-				<text>    Crimson rite can be used on multiple weapon, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).</text>
-				<text>    You gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level.</text>
+				<text>	As a bonus action, you imbue a single weapon with the elemental energy of a known rite for up to 8 hours. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.</text>
+				<text>	When a crimson rite is activated, it reduces your maximum hit points a number equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.</text>
+				<text>	Crimson rite can be used on multiple weapon, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).</text>
+				<text>	You gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Crimson Rite: Primal Rites</name>
@@ -107,7 +141,7 @@
 			<feature>
 				<name>Blood Hunter Order</name>
 				<text>At 3rd level, you commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, Order of the Profane Soul, or Order of the Lycan. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.</text>
-				<text>    There are a handful of secretive orders of blood hunters that guard their cryptic techniques and blasphemous rituals. One must adhere to one of these orders to even be granted access to the Hunter's Bane rite that starts their journey, and only once they've proven their ability will the secrets of the order begin to be revealed. Some even wait a few years before they are sure they want to continue down this cursed path. Either or, it's within these small, enigmatic sects that the real power of a blood hunter is learned.</text>
+				<text>	There are a handful of secretive orders of blood hunters that guard their cryptic techniques and blasphemous rituals. One must adhere to one of these orders to even be granted access to the Hunter's Bane rite that starts their journey, and only once they've proven their ability will the secrets of the order begin to be revealed. Some even wait a few years before they are sure they want to continue down this cursed path. Either or, it's within these small, enigmatic sects that the real power of a blood hunter is learned.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Order of the Ghostslayer</name>
@@ -117,13 +151,13 @@
 				<name>Order of the Ghostslayer: Rite of the Dawn</name>
 				<text>When you join this order at 3rd level, you learn the esoteric rite Rite of the Dawn.</text>
 				<text>  • Rite of the Dawn. Your rite damage is radiant type.</text>
-				<text>    If you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your Wisdom modifier.</text>
-				<text>    Upon reaching 11th level, any creature you hit with your Rite of the Dawn suffers this additional radiant damage.</text>
+				<text>	If you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your Wisdom modifier.</text>
+				<text>	Upon reaching 11th level, any creature you hit with your Rite of the Dawn suffers this additional radiant damage.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Order of the Profane Soul</name>
 				<text>The magics adopted by the wayward blood hunter prove formidable against many an evil across the realm. However, the darkest of abominations draw from an ancient well of cruel, unfathomable power. These terrors can control shadows to do their bidding, hide in plain sight among the noblest of nobles, and bend the minds of the most stalwart warrior with but a glance. These fiends are far trickier to hunt, and many lost their lives in pursuit of such wickedness.</text>
-				<text>    A small sect of blood hunters had finally had enough and delved into the same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater. While they may have lost a part of themselves, the power gained far outweighed the price, for even devils now quake when they know they've drawn the attention of the Order of the Profane Soul.</text>
+				<text>	A small sect of blood hunters had finally had enough and delved into the same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater. While they may have lost a part of themselves, the power gained far outweighed the price, for even devils now quake when they know they've drawn the attention of the Order of the Profane Soul.</text>
 			</feature>
 			<feature>
 				<name>Order of the Profane Soul: Otherworldly Patron</name>
@@ -132,14 +166,14 @@
 			<feature>
 				<name>Order of the Profane Soul: Pact Magic</name>
 				<text>When you reach 3rd level, you can augment your combat techniques with the ability to cast spells. See chapter 10 of the PHB for the general rules of spellcasting and chapter 11 of the PHB for the Warlock spell list.</text>
-				<text>    Cantrips. You learn two cantrips of your choice from the Warlock spell list. You learn an additional Warlock cantrip of your choice at 10th level.</text>
-				<text>    Spell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your Warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</text>
-				<text>    For example, when you are 8th level, you have two 2nd level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 2nd-level spell.</text>
-				<text>    Spell Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the Warlock spell list.</text>
-				<text>    The total spell known are equal to the Warlock level divided by 2, rounded up. A spell you choose to learn must be of a level no higher than what's shown in the table's (listed at the beginning of this class description) Slot Level column for our level. When you reach 11th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</text>
-				<text>    Additionally when you get a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</text>
-				<text>    Spellcasting Ability. Wisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</text>
-				<text>    Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				<text>	Cantrips. You learn two cantrips of your choice from the Warlock spell list. You learn an additional Warlock cantrip of your choice at 10th level.</text>
+				<text>	Spell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your Warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</text>
+				<text>	For example, when you are 8th level, you have two 2nd level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 2nd-level spell.</text>
+				<text>	Spell Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the Warlock spell list.</text>
+				<text>	The total spell known are equal to the Warlock level divided by 2, rounded up. A spell you choose to learn must be of a level no higher than what's shown in the table's (listed at the beginning of this class description) Slot Level column for our level. When you reach 11th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</text>
+				<text>	Additionally when you get a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</text>
+				<text>	Spellcasting Ability. Wisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
 				<text>Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
 			</feature>
 			<feature>
@@ -153,12 +187,12 @@
 			<feature>
 				<name>Order of the Mutant</name>
 				<text>The process of consuming the Hunter's Bane is a painful, scarring, and often fatal experience. Those that survive find themselves irrevocably changed, enhanced. Some found this experience exalting, embracing the ability to alter one's own physiology through corrupted alchemy.</text>
-				<text>    Over generations of experimentation, a splinter order of blood hunters began to emerge, one that focused on brewing toxic elixirs to modify their capabilities in battle, altering their blood and, over time become something beyond human. They called themselves the Order of the Mutant.</text>
+				<text>	Over generations of experimentation, a splinter order of blood hunters began to emerge, one that focused on brewing toxic elixirs to modify their capabilities in battle, altering their blood and, over time become something beyond human. They called themselves the Order of the Mutant.</text>
 			</feature>
 			<feature>
 				<name>Order of the Mutant: Formulas</name>
 				<text>You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.</text>
-				<text>    Beginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th, 10th, 15th, and 18th level.</text>
+				<text>	Beginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this order description. You gain an additional formula at 7th, 10th, 15th, and 18th level.</text>
 				<text>Additionally, when you gain a new mutagen formula, you can choose one of the formulas you already know and replace it with another mutagen formula.</text>
 			</feature>
 			<feature>
@@ -166,7 +200,7 @@
 				<text>At 3rd level, you can take a short rest to concoct a single mutagen. Consuming a single mutagen requires a bonus action, and the effects (including side effects) last until you take a short or long rest to mediate and flush the toxins from your system.</text>
 				<text>Mutagens are designed for your biology. They have no effect on large or larger creatures, and only impart the side effects on other medium or smaller creatures that drink the entire mutagen. They are also unstable by nature, losing their potency over time and becoming inert if not swallowed before you finish your next short or long rest.</text>
 				<text>Your body will begin to better utilize the toxins you instill it with as you grow in power and experience. These advancing mutations may be signified by a Mutation score.</text>
-				<text>    Mutation Score = your blood hunter level divided by 4, rounded up.</text>
+				<text>	Mutation Score = your blood hunter level divided by 4, rounded up.</text>
 			</feature>
 			<feature>
 				<name>Order of the Mutant: Mutagen List</name>
@@ -190,8 +224,7 @@
 			<feature>
 				<name>Order of the Lycan</name>
 				<text>Of the many terrible curses that plague the realm, few are as ancient or as feared as Lycanthropy. Passed through blood, this affliction seeds a host with the savage strength and hunger for violence of a wild beast. Those that shun the curse spend their lives burying their wild, bestial urges deep inside. However, the power of a rising full moon makes the curse too strong to resist, and the host transforms into a terrifying animal-humanoid hybrid controlled by murderous impulse. Those that embrace the dark nature of their curse learn to harness their bestial gifts, but also succumb to the evil, vicious temperament that drives the beast within.</text>
-
-				<text>    The Order of the Lycan is a proud order of blood hunters who undergo "The Taming, " a ceremonial inflicting of lycanthropy from a senior member. These hunters then use their abilities to harness the power of the monster they harbor without losing themselves to it. Through intense honing of one's own willpower, combined with the secrets of the order's blood magic rituals, members learn to control and unleash their hybrid form for short periods of time. Enhanced physical prowess, unnatural resilience, and razor sharp claws make these warriors a terrible foe to any evil that crosses their path. Yet, no training is perfect, and without care and complete focus, even the greatest of blood hunters can temporarily lose themselves to the bloodlust.</text>
+				<text>	The Order of the Lycan is a proud order of blood hunters who undergo "The Taming, " a ceremonial inflicting of lycanthropy from a senior member. These hunters then use their abilities to harness the power of the monster they harbor without losing themselves to it. Through intense honing of one's own willpower, combined with the secrets of the order's blood magic rituals, members learn to control and unleash their hybrid form for short periods of time. Enhanced physical prowess, unnatural resilience, and razor sharp claws make these warriors a terrible foe to any evil that crosses their path. Yet, no training is perfect, and without care and complete focus, even the greatest of blood hunters can temporarily lose themselves to the bloodlust.</text>
 			</feature>
 			<feature>
 				<name>Order of the Lycan: Heightened Senses</name>
@@ -200,13 +233,13 @@
 			<feature>
 				<name>Order of the Lycan: Hybrid Transformation</name>
 				<text>Upon choosing this archetype at 3rd level, you begin to learn to control the lycanthropic curse that now lives in your blood. As an action, you can transform into your Hybrid form. This form lasts for 1 minute. You can speak, use equipment, and wear armor in this form. You can revert to your normal form earlier by using an action on your turn. You automatically revert to your normal form if you fall unconscious, drop to 0 hit points, or die. The benefits of this form replace the rules for Lycanthropy within the Monster's Manual.</text>
-				<text>    You can use this feature twice. You regain expended uses when you finish a short or long rest. While you are transformed, you gain the following features:</text>
+				<text>	You can use this feature twice. You regain expended uses when you finish a short or long rest. While you are transformed, you gain the following features:</text>
 				<text>  • Feral Might. You gain a bonus to melee damage rolls equal to half your proficiency bonus (rounded down). You also have advantage on Strength checks and Strength saving throws.</text>
 				<text>  • Resilient Hide. While you are not wearing heavy armor, you can a +1 bonus to your AC.</text>
 				<text>  • Predatory Strikes. Your unarmed strikes are considered a single weapon in regards to your crimson rite feature. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes. When you use the Attack action with an unarmed strike, you can make another unarmed strike as a bonus action. Unarmed strikes deal 1d4 slashing damage.</text>
 				<text>  • Cursed Weakness. You have vulnerability to damage from silvered weapons.</text>
 				<text>  • Bloodlust. At the start of your turn, if you've taken any damage since the beginning of your last turn, you must make a Wisdom saving throw to maintain control. The DC equals 10, or 15 if you have no more than half of your hit points left. On a failed save, you must move directly towards the nearest creature to you and use the Attack action against that creature. If there is more than one possible target, the DM chooses the target. Your turn immediately ends, and you regain control.</text>
-				<text>    If you are under an effect that prevents you from concentrating (like the Barbarian's rage feature), you automatically fail this saving throw.</text>
+				<text>	If you are under an effect that prevents you from concentrating (like the Barbarian's rage feature), you automatically fail this saving throw.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="4">
@@ -229,48 +262,48 @@
 			<feature>
 				<name>Blood Maledict</name>
 				<text>At 6th level, you gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain two (2) blood curses of your choice, detailed in the "blood curses" section below. You learn one (1) additional blood curse of your choice at 9th, 13th, 17th level.</text>
-				<text>    When you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to AMPLIFY the curse by suffering damage equal to your crimson rite damage die. An amplified curse gains an additional effect, noted in the curses description. Creatures that do not have blood in their bodies are immune to blood curses (DM's discretion).</text>
-				<text>    You can use this feature twice. You regain expended uses when you finish a short or long rest. Beginning at 11th, you can use your Blood Maledict three times between rests, and at 17th, you can use it four times between rests.</text>
+				<text>	When you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to AMPLIFY the curse by suffering damage equal to your crimson rite damage die. An amplified curse gains an additional effect, noted in the curses description. Creatures that do not have blood in their bodies are immune to blood curses (DM's discretion).</text>
+				<text>	You can use this feature twice. You regain expended uses when you finish a short or long rest. Beginning at 11th, you can use your Blood Maledict three times between rests, and at 17th, you can use it four times between rests.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of Binding</name>
 				<text>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the beginning of your next turn.</text>
-				<text>    AMPLIFY: This curse becomes ongoing, and can affect a creature no more than two sizes larger than you. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).</text>
+				<text>	AMPLIFY: This curse becomes ongoing, and can affect a creature no more than two sizes larger than you. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of the Eyeless</name>
 				<text>When an enemy with eyes within 30 feet makes a weapon attack against you, you can use your reaction to impose disadvantage on the attack.</text>
-				<text>    AMPLIFY: The triggering attack can be targeting a creature other than yourself.</text>
+				<text>	AMPLIFY: The triggering attack can be targeting a creature other than yourself.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of the Fallen Puppet</name>
 				<text>The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.</text>
-				<text>    AMPLIFY: You grant a bonus to the attack roll and damage roll of the cursed creature's attack equal to your Wisdom modifier (minimum of 1).</text>
+				<text>	AMPLIFY: You grant a bonus to the attack roll and damage roll of the cursed creature's attack equal to your Wisdom modifier (minimum of 1).</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of the Fending Rite</name>
 				<text>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equal to your Wisdom Modifier (minimum of 1). This curse is invoked before the saving throw is rolled.</text>
-				<text>    AMPLIFY: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.</text>
+				<text>	AMPLIFY: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of the Marked</name>
 				<text>As a bonus action, you can mark an enemy within 30 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.</text>
-				<text>    AMPLIFY: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn.</text>
+				<text>	AMPLIFY: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of Mutual Suffering</name>
 				<text>As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.</text>
-				<text>    AMPLIFY: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance.</text>
+				<text>	AMPLIFY: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of Purgation</name>
 				<text>As a bonus action, you can manipulate the vitality of a creature within 30 feet to expunge a corruption in their blood. The target creature can immediately make a swing throw against a poisoned condition afflicting it.</text>
-				<text>    AMPLIFY: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed.</text>
+				<text>	AMPLIFY: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Blood Curse: Blood Curse of Spell Sunder</name>
 				<text>When an enemy casts a spell within 30 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.</text>
-				<text>    AMPLIFY: You make a Wisdom ability check. The DC equals 10 + the spell's level. On a success, the creature's spell misses you automatically.</text>
+				<text>	AMPLIFY: You make a Wisdom ability check. The DC equals 10 + the spell's level. On a success, the creature's spell misses you automatically.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="7">
@@ -297,15 +330,15 @@
 			<feature>
 				<name>Order of the Lycan: Improved Transformation</name>
 				<text>At 7th level, when you have an active rite while in your hybrid form, your unarmed strikes are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
-				<text>    In addition, your hybrid form gains the Stalker's Prowess feature.</text>
-				<text>    Stalker's Prowess. Your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance.</text>
+				<text>	In addition, your hybrid form gains the Stalker's Prowess feature.</text>
+				<text>	Stalker's Prowess. Your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="8">
 			<feature>
 				<name>Ability Score Improvement</name>
 				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="9">
@@ -332,32 +365,32 @@
 			<feature>
 				<name>Order of the Ghostslayer: Supernal Surge</name>
 				<text>Upon reaching 11th level, you can spend a bonus action to allow your body to take on a swift, ghostly form. This effect lasts a number of rounds equal to your Wisdom modifier (minimum 1). While this surge lasts, you can make a single weapon attack as a bonus action on each of your turns.</text>
-				<text>    In addition, you become spectral for the duration, allowing you to move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If this surge ends while you are inside an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved.</text>
-				<text>    Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<text>	In addition, you become spectral for the duration, allowing you to move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If this surge ends while you are inside an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved.</text>
+				<text>	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
 			</feature>
 			<feature>
 				<name>Order of the Profane Soul: Diabolic Channel</name>
 				<text>At 11th level, you can temporarily infuse your rite with the seed of a powerful spell. As an action, you can imbue your rite-enhanced weapon with one spell you can cast or is already active, then make a single attack with that weapon. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target's initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target's space.</text>
-				<text>    The spell must be of 1st level or higher, having a casting time of 1 action, or require an action to activate an already active concentration spell.</text>
+				<text>	The spell must be of 1st level or higher, having a casting time of 1 action, or require an action to activate an already active concentration spell.</text>
 			</feature>
 			<feature>
 				<name>Order of the Mutant: Strange Metabolism</name>
 				<text>Beginning at 11th level, you can use a bonus action to install a burst of adrenaline to temporarily resist the negative effects of a mutagen. You can choose to ignore the side effect of a mutagen affecting you for 1 minute.</text>
-				<text>    Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<text>	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
 			</feature>
 			<feature>
 				<name>Order of the Lycan: Advanced Transformation</name>
-				<text>    Starting at 11th level, you learn to unleash and control more of the beast within. Your hybrid transformation now lasts for up to 10 minutes.</text>
-				<text>    Your unarmed strikes damage increase from 1d4 to 1d6.</text>
-				<text>    In addition, your hybrid form gains the Improved Resilient Hide feature.</text>
-				<text>    Improved Resilient Hide. You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered.</text>
+				<text>	Starting at 11th level, you learn to unleash and control more of the beast within. Your hybrid transformation now lasts for up to 10 minutes.</text>
+				<text>	Your unarmed strikes damage increase from 1d4 to 1d6.</text>
+				<text>	In addition, your hybrid form gains the Improved Resilient Hide feature.</text>
+				<text>	Improved Resilient Hide. You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="12">
 			<feature>
 				<name>Ability Score Improvement</name>
 				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="13">
@@ -400,15 +433,15 @@
 			<feature>
 				<name>Order of the Lycan: Iron Volition</name>
 				<text>Beginning at 15th level, you've honed your willpower to better resist the violent urges of your lycanthropic curse. Whenever you make a Wisdom saving throw to maintain control of your hybrid form, you do so with advantage.</text>
-				<text>    In addition, your hybrid form gains the Pack Hunter feature.</text>
-				<text>    Pack Hunter. You have disadvantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+				<text>	In addition, your hybrid form gains the Pack Hunter feature.</text>
+				<text>	Pack Hunter. You have disadvantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="16">
 			<feature>
 				<name>Ability Score Improvement</name>
 				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="17">
@@ -421,7 +454,7 @@
 			<feature>
 				<name>Order of the Ghostslayer: Vengeful Spirit</name>
 				<text>Upon reaching 18th level, you learn to project your spirit to fight on while on the edge of death. Whenever your hit points drop to 0, you can choose to let your soul emerge from your body to fight on. Your body remains unconscious and subject to death saving throws per normal. At the beginning of your next turn, you manifest a spirit form in your space that picks up your weapons and continues fighting on, acting on your turn and every one of your subsequent turns under your control. Your spirit form has your physical attributes and armor class, as well as your weapons and ammunition, and can move through other creatures and objects as if they were difficult terrain. This form is immune to cold, necrotic, and non-magical weapon damage. Your spirit form has access to all of your abilities other than your blood maledict feature.</text>
-				<text>    If your spirit form takes any damage, your body dies, or you regain any hit points, your spirit form vanishes. If your spirit form vanishes, it drops your weapons in its space.</text>
+				<text>	If your spirit form takes any damage, your body dies, or you regain any hit points, your spirit form vanishes. If your spirit form vanishes, it drops your weapons in its space.</text>
 			</feature>
 			<feature>
 				<name>Order of the Profane Soul: Soul Siphon</name>
@@ -434,17 +467,17 @@
 			<feature>
 				<name>Order of the Lycan: Hybrid Transformation Mastery</name>
 				<text>At 18th level, you have wrestled your inner predator and mastered it. You can now use your hybrid transformation feature three times between rests.</text>
-				<text>    You also gain the Blood Curse of the Howl for your blood malediction feature. This does not count against your blood curses known.</text>
-				<text>    Blood Curse of the Howl. As an action, you howl at a creature within 30 feet, chilling their blood and stunning them with fear. If the target creature can hear you, they must succeed on a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Wisdom modifier) or be stunned until the end of your next turn. </text>
-				<text>    AMPLIFY: This curse affects every creature within 15 feet of you.</text>
-				<text>    Your unarmed strikes damage increases from 1d6 to 1d8.</text>
+				<text>	You also gain the Blood Curse of the Howl for your blood malediction feature. This does not count against your blood curses known.</text>
+				<text>	Blood Curse of the Howl. As an action, you howl at a creature within 30 feet, chilling their blood and stunning them with fear. If the target creature can hear you, they must succeed on a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Wisdom modifier) or be stunned until the end of your next turn. </text>
+				<text>	AMPLIFY: This curse affects every creature within 15 feet of you.</text>
+				<text>	Your unarmed strikes damage increases from 1d6 to 1d8.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="19">
 			<feature>
 				<name>Ability Score Improvement</name>
 				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>    If your DM allows the use of feats, you may instead take a feat.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
 			</feature>
 			<feature>
 				<name>Crimson Rite Damage Increase</name>
