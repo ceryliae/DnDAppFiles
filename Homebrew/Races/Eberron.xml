@@ -41,7 +41,7 @@
 		<ability>Wis 1, Cha 1</ability>
 		<trait>
 			<name>Ability Score Increase</name>
-			<text> Your Wisdom and Charisma scores both increase by 1. In addition, one ability score of your choice increases by 1.</text>
+			<text>Your Wisdom and Charisma scores both increase by 1. In addition, one ability score of your choice increases by 1.</text>
 		</trait>
 		<trait>
 			<name>Dual Mind</name>
@@ -68,6 +68,107 @@
 		<trait>
 			<name>Languages</name>
 			<text>You can speak, read, and write Common, Quori, and one other language of your choice.</text>
+		</trait>
+	</race>
+	<race name="Shifter (Beasthide)">
+		<name>Shifter (Beasthide)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<proficiency>Perception, Athletics</proficiency>
+		<ability>Con 2, Dex 1</ability>
+		<trait>
+			<name>Darkvision</name>
+			<text>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Shifting</name>
+			<text>As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.</text>
+			<text>	Once you shift, you can’t do so again until you finish a short or long rest.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common.</text>
+		</trait>
+		<trait>
+			<name>Shifting Feature</name>
+			<text>Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted, you have a +1 bonus to your AC.</text>
+		</trait>
+	</race>
+	<race name="Shifter (Longtooth)">
+		<name>Shifter (Longtooth)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<proficiency>Perception, Intimidation</proficiency>
+		<ability>Str 2, Dex 1</ability>
+		<trait>
+			<name>Darkvision</name>
+			<text>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Shifting</name>
+			<text>As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.</text>
+			<text>	Once you shift, you can’t do so again until you finish a short or long rest.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common.</text>
+		</trait>
+		<trait>
+			<name>Shifting Feature</name>
+			<text>While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+		</trait>
+	</race>
+	<race name="Shifter (Swiftstride)">
+		<name>Shifter (Swiftstride)</name>
+		<size>M</size>
+		<speed>35</speed>
+		<proficiency>Perception, Acrobatics</proficiency>
+		<ability>Dex 2, Cha 1</ability>
+		<trait>
+			<name>Darkvision</name>
+			<text>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Shifting</name>
+			<text>As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.</text>
+			<text>	Once you shift, you can’t do so again until you finish a short or long rest.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common.</text>
+		</trait>
+		<trait>
+			<name>Shifting Feature</name>
+			<text>While shifted, your walking speed increases by an additional 5 feet.</text>
+			<text>	Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.</text>
+		</trait>
+	</race>
+	<race name="Shifter (Wildhunt)">
+		<name>Shifter (Wildhunt)</name>
+		<size>M</size>
+		<speed>30</speed>
+		<proficiency>Perception, Survival</proficiency>
+		<ability>Wis 2, Dex 1</ability>
+		<trait>
+			<name>Darkvision</name>
+			<text>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</text>
+		</trait>
+		<trait>
+			<name>Shifting</name>
+			<text>As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.</text>
+			<text>	Once you shift, you can’t do so again until you finish a short or long rest.</text>
+		</trait>
+		<trait>
+			<name>Languages</name>
+			<text>You can speak, read, and write Common.</text>
+		</trait>
+		<trait>
+			<name>Mark the Scent</name>
+			<text>As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked creature, and you always know the location of that creature if it is within 60 feet of you. You can’t use this trait again until you finish a short or long rest.</text>
+		</trait>
+		<trait>
+			<name>Shifting Feature</name>
+			<text>While shifted, you have advantage on Wisdom checks.</text>
 		</trait>
 	</race>
 </compendium>
