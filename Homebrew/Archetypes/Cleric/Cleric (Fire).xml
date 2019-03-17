@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Fire)</name>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain Fire</name>
+				<text>The mortal races have long had a strong connection to fire; it is the mastery of fire that is the first technology developed by any group clawing its way toward civilization. Fire is a primal force, and the gods who claim fire as a part of their portfolio are often similarly primal. Fire is a cornerstone of civilization, and yet at the same time it is never truly tamed; its presence invokes wariness of danger, and it remains strongly associated with unpredictability, destruction, and catastrophe. Clerics who have been granted the blessings of the Fire domain are often similarly regarded: though on the outside they might appear calm and in control, inside them roils a dangerous power that, when stoked and unleashed, can do as much to unmake civilization as to prop it up. Even at their calmest, clerics with this domain give the impression that smoldering embers lie just out of sight, waiting on the right trigger to fan the flames waiting at their fingertips.</text>
+				<text />
+				<text>Fire Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text />
+				<text>1st - burning hands, hellish rebuke</text>
+				<text />
+				<text>3rd - flaming sphere, heat metal</text>
+				<text />
+				<text>5th - daylight, fireball</text>
+				<text />
+				<text>7th - conjure minor elementals, wall of fire</text>
+				<text />
+				<text>9th - conjure elemental, flame strike</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fire Domain: Bonus Cantrip</name>
+				<text>When you choose this domain at 1st level, you gain the fire bolt and produce flame cantrips if you don’t already know them. These cantrips count as cleric spells for you.</text>
+			</feature>
+			<feature>
+				<name>Fire Domain: Allied to the Fire</name>
+				<text>Also starting at 1st level, you gain resistance to fire damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Fire Domain Channel Divinity: Stoke the Blaze</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to cause the flames created by your spells to burn with an intensity stoked by divine power.</text>
+				<text>	When you roll fire damage, after you have rolled you can use your Channel Divinity to deal maximum damage to a single target, instead of what you rolled.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Fire Domain: Searing Radiance</name>
+				<text>Beginning at 6th level, when you would cast a spell that deals  re damage, you can choose for half of the damage dealt to be radiant damage, and the rest to be fire damage. You must make this decision before you resolve the spell’s effect.
+				</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Fire Domain: Powerful Spellcasting</name>
+				<text>Beginning at 8th level, when you deal damage with any cleric cantrip, add your Wisdom modi er to the damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Fire Domain: Untouched by Flame</name>
+				<text>Starting at 17th level, you become immune to fire damage.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+
+	<spellList class="Cleric (Fire)">
+		<index name="Fire Bolt" />
+		<index name="Produce Flame" />
+		<index name="Burning Hands" />
+		<index name="Hellish Rebuke" />
+		<index name="Flaming Sphere" />
+		<index name="Heat Metal" />
+		<index name="Daylight" />
+		<index name="Fireball" />
+		<index name="Conjure Minor Elementals" />
+		<index name="Wall of Fire" />
+		<index name="Conjure Elemental" />
+		<index name="Flame Strike" />
+	</spellList>
+</compendium>
