@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Beauty)</name>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain Beauty</name>
+				<text>Gods of beauty embody all that is lovely, charming, and beautiful in the world, from the qualities of attractiveness to the profound beauty of nature.  ey are often gods of love, lust, or sexuality as well, although some are more focused on purely aesthetic beauty, or patrons of the arts or performance. Although usually kind and good, deities of beauty can sometimes be vain and petty, especially in contests of skill or attractiveness. Beauty can also be deceptive, and not all gods associated with this domain are as pleasant as they seem. Aymara, a God of the Womb, includes Beauty in her portfolio.</text>
+				<text />
+				<text>Beauty Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text />
+				<text>1st - charm person, heroism</text>
+				<text />
+				<text>3rd - enthrall, suggestion</text>
+				<text />
+				<text>5th - bestow curse, remove curse</text>
+				<text />
+				<text>7th - compulsion, confusion</text>
+				<text />
+				<text>9th - dominate person, geas</text>
+			</feature>
+			<feature optional="YES">
+				<name>Beauty Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain the friends cantrip if you don’t already have it.</text>
+			</feature>
+			<feature>
+				<name>Beauty Domain: Alluring Presence</name>
+				<text>You become proficient in Deception or Persuasion. Your proficiency bonus is doubled for any ability check you make using the skill you chose.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Beauty Domain Channel Divinity: Beguiling Beauty</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to infuse your appearance with the power from your god to ensnare a creature with your beauty.</text>
+				<text>	As an action, you present your holy symbol, and one creature you choose within 30 feet of you that can see you must make a Wisdom saving throw. If you or your companions are fighting it, the creature makes the saving throw with advantage. On a failed saving throw, the creature becomes charmed by you for 1 minute or until you or one of your companions do anything harmful to it. When the effect ends, the creature knows you charmed it.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Beauty Domain Channel Divinity: Blinding Beauty</name>
+				<text>Starting at 6th level, you can use your Channel Divinity to become a vision of divine beauty so profound it causes those around you to become blinded by weeping.</text>
+				<text>	As an action, you present your holy symbol and are enveloped in a vision of divine beauty; all creatures within 30 feet of you that can see you must make a Wisdom saving throw. Blinding beauty has no effect on creatures that cannot be blinded or charmed. On a failure, the creature is blinded for 1 minute. At the end of each of its turns, the creature can make another saving throw. On a success, the effect ends for that creature.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Beauty Domain: Powerful Spellcasting</name>
+				<text>Beginning at 8th level, when you deal damage with any cleric cantrip, add your Wisdom modi er to the damage.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Beauty Domain: Perfect Beauty</name>
+				<text>Starting at 17th level, you become transformed into a vision of perfect beauty. A creature charmed by your Beguiling Beauty remains so until you or one of your companions does anything harmful to it or you use Beguiling Beauty again. When the creature is no longer charmed in this way, it becomes hostile toward you and might attack you, depending on its nature as the GM decides.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+
+	<spellList name="Cleric (Beauty)">
+		<index name="Friends" />
+		<index name="Charm Person" />
+		<index name="Heroism" />
+		<index name="Enthrall" />
+		<index name="Suggestion" />
+		<index name="Bestow Curse" />
+		<index name="Remove Curse" />
+		<index name="Compulsion" />
+		<index name="Confusion" />
+		<index name="Dominate Person" />
+		<index name="Geas" />
+	</spellList>
+</compendium>
