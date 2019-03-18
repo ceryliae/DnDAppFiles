@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Tyranny)</name>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain Tyranny</name>
+				<text>At heart, the Tyranny domain reflects the urge to impose one’s will on others. Expressions of tyranny can be found throughout the world, from the monarch whose word is law, to the powerful crime lord who takes control of a city’s underworld. Merchants who have a monopoly over a crucial commodity, a benevolent dictator whose good intentions mask intolerance for competing views, or even the conquering general who always looks ahead to the next nation to fall under her control are further representations and find appeal in serving gods who would strengthen their authority. The gods of tyranny send their clerics to support these individuals, to help them expand their dominions, and silence any opposition they might face.
+				</text>
+				<text />
+				<text>Tyranny Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text />
+				<text>1st - charm person, command</text>
+				<text />
+				<text>3rd - hold person, suggestion</text>
+				<text />
+				<text>5th - bestow curse, fear</text>
+				<text />
+				<text>7th - banishment, compulsion</text>
+				<text />
+				<text>9th - dominate person, hold monster</text>
+			</feature>
+			<feature optional="YES">
+				<name>Tyranny Domain: Bonus Proficiency</name>
+				<text>At 1st level, you gain proficiency with martial weapons and heavy armor.</text>
+			</feature>
+			<feature>
+				<name>Tyranny Domain: Blessing of the Tyrant</name>
+				<text>Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Charisma (Intimidation) checks. The blessing lasts for 1 hour or until you use this feature again.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Tyranny Domain Channel Divinity: Invoke Authority</name>
+				<text>Beginning at 2nd level, you can use your Channel Divinity to impose your will on other creatures.</text>
+				<text>	As an action, you present your holy symbol and chan- nel divine authority at one creature you can see within 60 feet of you. Constructs are immune to this effect. The target creature must make a Wisdom saving throw. On a success, the creature becomes immune to this effect until you finish a long rest. On a failure, the creature becomes compelled until the start of your next turn. While compelled, when the creature takes its next turn, you can tell it what to do on its turn, deciding how it moves and uses an action. If the creature refuses, it takes psychic damage equal to 1d6 + half your level.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Tyranny Domain: Fear the Tyrant</name>
+				<text>Starting at 6th level, you can use your Channel Divinity to fill an enemy attacking you with dread.</text>
+				<text>	As a reaction, when a creature you can see attacks you, it has disadvantage on its attack roll. If the attack misses, the creature becomes frightened until the end of its next turn. Creatures that cannot be frightened are immune to this effect.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Tyranny Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage to the target of the same type normally dealt by the weapon. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Tyranny Domain: Unassailable Authority</name>
+				<text>At 17th level, you can use a bonus action to cast the command spell. You must still expend a slot as normal.</text>
+				<text>	In addition, creatures have disadvantage on saving throws against enchantment spells you cast.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+
+	<spellList class="Cleric (Tyranny)">
+		<index name="Charm Person" />
+		<index name="Command" />
+		<index name="Hold Person" />
+		<index name="Suggestion" />
+		<index name="Bestow Curse" />
+		<index name="Fear" />
+		<index name="Banishment" />
+		<index name="Compulsion" />
+		<index name="Dominate Person" />
+		<index name="Hold Monster" />
+	</spellList>
+</compendium>
