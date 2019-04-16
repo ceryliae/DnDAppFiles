@@ -2,6 +2,8 @@ language: python
 python:
     - "2.7"
 script:
+    - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+    - git fetch
     - git diff --name-only --diff-filter=AM HEAD...$TRAVIS_BRANCH | grep ".xml" | xargs -d "\n" xmllint --noout
     - python create_compendiums.py --excludes
 before_install:
