@@ -2,7 +2,7 @@ language: python
 python:
     - "2.7"
 script:
-    - git diff --name-only --diff-filter=AM HEAD...$TRAVIS_BRANCH | xargs xmllint -d '\n' --noout
+    - git diff --name-only --diff-filter=AM HEAD...$TRAVIS_BRANCH | grep ".xml" | xargs xmllint -d '\n' --noout
     - python create_compendiums.py --excludes
 before_install:
       - sudo apt-get install -y libxml2-utils
