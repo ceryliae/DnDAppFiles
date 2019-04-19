@@ -203,9 +203,8 @@ def create_category_compendiums():
         output_path = COMPENDIUM.format(category=category)
 
         """build UA compendium, but exclude from Full unless included"""
-        if category == 'Unearthed Arcana' and 'Unearthed Arcana' not in args.includes:
-            continue
-        output_paths.append(output_path)
+        if category != 'Unearthed Arcana' or 'Unearthed Arcana' in args.includes:
+            output_paths.append(output_path)
         XMLCombiner(filenames).combine_templates(output_path)
     return output_paths
 
