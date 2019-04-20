@@ -198,6 +198,7 @@
 		<action>
 			<name>Slam</name>
 			<text>+8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) damage plus 28 (8d6) fire damage.</text>
+			<attack>Slam|8|1d8+3+8d6</attack>
 		</action>
 		<action>
 			<name>Blinding Gaze (Recharge 5-6)</name>
@@ -471,7 +472,7 @@
 		<action>
 			<name>Stinger</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage, and the target must make a successful DC 13 Constitution saving throw or be poisoned for 1 hour.</text>
-			<attack>Stinger|6|1d6 + 4</attack>
+			<attack>Stinger|6|1d6 + 4+3d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -615,10 +616,12 @@
 		<action>
 			<name>Fiery Greatsword</name>
 			<text>Melee Weapon Attack. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 16 (3d10) fire damage.</text>
+			<attack>Fiery Greatsword|7|2d6+4+3d10</attack>
 		</action>
 		<action>
 			<name>Fallen Glory (Recharge 5-6)</name>
 			<text>All creatures within 50 feet of the chained angel and in its line of sight take 19 (3d12) radiant damage and are knocked prone, or take half damage and aren't knocked prone with a successful DC 15 Strength saving throw.</text>
+			<attack>Fallen Glory (Recharge 5-6)||3d12</attack>
 		</action>
 		<reaction>
 			<name>Fiendish Cunning</name>
@@ -705,7 +708,7 @@
 		</action>
 	</monster>
 	<monster><name>Angler Worm</name><size>H</size><type>monstrosity,tome of Beasts</type><alignment>unaligned</alignment><ac>14 (natural armor)</ac><hp>133 (14d12 + 42)</hp><speed>20 ft., climb 20 ft.</speed><str>14</str><dex>5</dex><con>16</con><int>3</int><wis>14</wis><cha>1</cha><immune>poison</immune><conditionImmune>blinded, charmed, deafened, poisoned, prone</conditionImmune><senses>tremorsense 60 ft.</senses><passive>12</passive><languages>-</languages>&gt;
-		<cr>4</cr><trait><name>Spider Climb</name><text>The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.</text></trait><trait><name>Keen Touch</name><text>The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.</text></trait><trait><name>Transparent Trap</name><text>A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence.</text></trait><action><name>Multiattack</name><text>An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils.once it has coiled around one creature it stops coil attacks against others.</text></action><action><name>Bite</name><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.</text><attack>Bite|4|2d6 + 2</attack></action><action><name>Coils</name><text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.</text><attack>Coils|4|3d8</attack></action><action><name>Ethereal Lure (Recharge 4-6)</name><text>The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible.</text></action></monster>
+		<cr>4</cr><trait><name>Spider Climb</name><text>The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.</text></trait><trait><name>Keen Touch</name><text>The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.</text></trait><trait><name>Transparent Trap</name><text>A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence.</text></trait><action><name>Multiattack</name><text>An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils.once it has coiled around one creature it stops coil attacks against others.</text></action><action><name>Bite</name><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.</text><attack>Bite|4|2d6 + 2+1d6</attack></action><action><name>Coils</name><text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.</text><attack>Coils|4|3d8</attack></action><action><name>Ethereal Lure (Recharge 4-6)</name><text>The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible.</text></action></monster>
 	<monster>
 		<name>Giant Ant</name>
 		<size>L</size>
@@ -740,7 +743,7 @@
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.</text>
-			<attack>Sting|4|1d8 + 2</attack>
+			<attack>Sting|4|1d8 + 2+4d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -781,7 +784,7 @@
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 14 Constitution saving throw.</text>
-			<attack>Sting|5|1d8 + 3</attack>
+			<attack>Sting|5|1d8 + 3+4d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -1424,12 +1427,12 @@
 		<action>
 			<name>Ice Dagger</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 2 (1d4) cold damage.</text>
-			<attack>Ice Dagger|5|1d4 + 3</attack>
+			<attack>Ice Dagger|5|1d4 + 3+1d4</attack>
 		</action>
 		<action>
 			<name>Icy Shortbow</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 2 (1d4) cold damage, and the target must make a successful DC 13 Constitution saving throw or gain 2 levels of exhaustion from the arrow's icy chill. If the save succeeds, the target also becomes immune to further exhaustion from beli arrows for 24 hours (but any levels of exhaustion already gained remain in effect). A character who gains a sixth level of exhaustion doesn't die automatically but drops to 0 hit points and must make death saving throws as normal. The exhaustion lasts until the target recovers fully from the cold damage.</text>
-			<attack>Icy Shortbow|5|1d4 + 3</attack>
+			<attack>Icy Shortbow|5|1d4 + 3+1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -1764,11 +1767,12 @@
 		<action>
 			<name>Ice Spear (Humanoid Form)</name>
 			<text>Melee Weapon Attack. +13 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 17 (5d6) cold damage.</text>
+			<attack>Ice Spear|13|1d8+7+5d6</attack>
 		</action>
 		<action>
 			<name>North Wind Longbow</name>
 			<text>Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 10 (1d8+6) piercing damage plus 9 (2d8) cold damage.</text>
-			<attack>North Wind Longbow|12|1d8+6</attack>
+			<attack>North Wind Longbow|12|1d8+6+2d8</attack>
 		</action>
 		<action>
 			<name>Whirlwind Blast (Wind Form Only)</name>
@@ -1837,7 +1841,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 10 (3d6) poison damage.</text>
-			<attack>Bite|7|2d8 + 4</attack>
+			<attack>Bite|7|2d8 + 4+3d6</attack>
 		</action>
 		<action>
 			<name>Mephitic Claw</name>
@@ -2032,7 +2036,7 @@
 		<action>
 			<name>Hooves</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.</text>
-			<attack>Hooves|8|2d6 + 4</attack>
+			<attack>Hooves|8|2d6 + 4+4d8</attack>
 		</action>
 		<action>
 			<name>Teleport (1/Day)</name>
@@ -2118,7 +2122,7 @@
 		<action>
 			<name>Tendril</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one creature. Hit: 10 (2d6 + 3) bludgeoning damage plus 3 (1d6) piercing damage, and a Medium or smaller target is grappled (escape DC 13). Until this grapple ends, the target is restrained. If the target is neither undead nor a construct, the cactid drains the target's body fluids; at the start of each of the target's turns, the target must make a DC 13 Constitution saving throw. On a failed save, the creature's hit point maximum is reduced by 3 (1d6). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction lasts until the creature finishes a long rest and drinks abundant water or until it receives a greater restoration spell or comparable magic. The cactid has two tendrils, each of which can grapple one target at a time.</text>
-			<attack>Tendril|5|2d6 + 3</attack>
+			<attack>Tendril|5|2d6 + 3+1d6</attack>
 		</action>
 		<action>
 			<name>Reel</name>
@@ -2571,7 +2575,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 5 (2d4) poison damage, or one-half poison damage with a successful DC 10 Constitution saving throw.</text>
-			<attack>Bite|5|1d6 + 3</attack>
+			<attack>Bite|5|1d6 + 3+2d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2602,7 +2606,7 @@
 		<action>
 			<name>Bites</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 0 ft., up to 4 creatures in the swarm's space. Hit: 17 (5d6) piercing damage plus 3 (1d6) poison damage.</text>
-			<attack>Bites|5|5d6</attack>
+			<attack>Bites|5|5d6+1d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -2983,7 +2987,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 10 (3d6) necrotic damage and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained.</text>
-			<attack>Slam|11|2d10 + 7</attack>
+			<attack>Slam|11|2d10 + 7+3d6</attack>
 		</action>
 		<action>
 			<name>Bone Shard</name>
@@ -3032,7 +3036,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage, and the dau regains hit points equal to the necrotic damage dealt. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest.</text>
-			<attack>Slam|5|1d6 + 3</attack>
+			<attack>Slam|5|1d6 + 3+3d6</attack>
 		</action>
 		<action>
 			<name>Tangible Illusion (1/Day)</name>
@@ -3336,7 +3340,7 @@
 		<action>
 			<name>Unholy Trident</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 13 (2d12) necrotic damage.</text>
-			<attack>Unholy Trident|8|2d8 + 5</attack>
+			<attack>Unholy Trident|8|2d8 + 5+2d12</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3444,6 +3448,7 @@
 		<action>
 			<name>Absorb</name>
 			<text>The berstuc draws a Medium or smaller creature it has grappled into its body. An absorbed creature is no longer grappled but is blinded and restrained, has total cover from attacks and other effects from outside the berstuc, and takes 14 (2d8 + 5) piercing damage plus 27 (5d10) poison damage at the start of each of the berstuc's turns. The berstuc can hold one absorbed creature at a time. If the berstuc takes 20 damage or more on a single turn from a creature inside it, the berstuc must succeed on a DC 17 Constitution saving throw or expel the absorbed creature, which falls prone within 5 feet of the berstuc. If the berstuc dies, an absorbed creature is no longer restrained and can escape from the corpse by using 5 feet of movement, exiting prone.</text>
+			<attack>Absorb||2d8+5+5d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3721,6 +3726,7 @@
 		<action>
 			<name>Cloak of Swarms (Recharge 5-6)</name>
 			<text>Akyishigal can emit a cloud of flying, stinging insects from his mouth, his eyes, and the tears in his skin. This cloud surrounds him to a depth of 5 feet. When the cloak is active, all attacks against him are made with disadvantage, and Akyishigal can see in all directions (through the insects' eyes). Any living creature that starts its turn within 5 feet of Akyishigal takes 11 (2d10) piercing damage plus 10 (3d6) poison damage, or half as much poison damage with a successful DC 17 Constitution saving throw. If the saving throw fails, the character is also poisoned for 1 hour. The swarm lasts for 5 rounds; it dissipates instantly if Akyishigal takes 30 or more damage from a nonweapon attack that he doesn't have resistance to. While poisoned by the Cloak of Swarms, a character emits a stench of decomposition. All uncontrolled vermin attack that character on sight and in preference to other targets.</text>
+			<attack>Cloak of Swarms||2d10 + 3d6</attack>
 		</action>
 		<legendary>
 			<name>Akyishigal can take 2 legendary actions, choosing from the options below</name>
@@ -3780,7 +3786,7 @@
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage plus 5 (1d10) poison damage, and the target must succeed on a DC 15 Constitution saving throw or become poisoned for 1d6 rounds.</text>
-			<attack>Sting|5|2d8 + 2</attack>
+			<attack>Sting|5|2d8 + 2+1d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -3954,12 +3960,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 5 ft., one target. Hit: 38 (8d6 + 10) piercing damage plus 7 (2d6) fire damage, and the target must make a successful DC 22 Constitution saving throw or have its Strength score reduced by 1d4. A creature reduced to 0 Strength dies.</text>
-			<attack>Bite|17|8d6 + 10</attack>
+			<attack>Bite|17|8d6 + 10+2d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 31 (6d6 + 10) slashing damage plus 7 (2d6) fire damage, and the target must make a successful DC 22 Constitution saving throw or have its Strength score reduced by 1d4. A creature reduced to 0 Strength dies.</text>
-			<attack>Claw|17|6d6 + 10</attack>
+			<attack>Claw|17|6d6 + 10+2d6</attack>
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 5-6)</name>
@@ -4081,7 +4087,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 5 (1d10) fire damage.</text>
-			<attack>Bite|17|2d10 + 9</attack>
+			<attack>Bite|17|2d10 + 9+1d10</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -4091,10 +4097,12 @@
 		<action>
 			<name>Immolating Breath (Recharge 5-6)</name>
 			<text>Mechuiti exhales fire and acid in a 60-foot cone. Each creature in that cone takes 21 (6d6) fire damage plus 21 (6d6) acid damage, or half damage with a successful DC 24 Dexterity saving throw.</text>
+			<attack>Immolating Breath||6d6+6d6</attack>
 		</action>
 		<action>
 			<name>Immolating Corona</name>
 			<text>Mechuiti's fiery crown explodes into a burst of yellow-green flames. All creatures within 30 feet of Mechuiti take 10 (3d6) fire damage plus 10 (3d6) acid damage, or half damage with a successful DC 24 Dexterity saving throw. If the saving throw fails, the creature also catches fire and takes 3 (1d6) fire damage at the start of each of its turns while on fire. A creature can use an action to extinguish a fire on itself or on another creature within 5 feet.</text>
+			<attack>Immolating Corona||3d6+3d6</attack>
 		</action>
 		<action>
 			<name>Frightful Presence</name>
@@ -4111,6 +4119,7 @@
 		<legendary>
 			<name>Burn from Inside</name>
 			<text>Mechuiti targets a creature within 120 feet that has Mechuiti's Ichor disease. The creature takes 10 (3d6) fire damage plus 10 (3d6) acid damage, or half damage with a successful DC 24 Constitution saving throw. If the saving throw fails, the creature also catches fire and takes 3 (1d6) fire damage at the start of each of its turns while on fire. A creature can use an action to extinguish a fire on itself or on another creature within reach.</text>
+			<attack>Burn from Inside||3d6+3d6</attack>
 		</legendary>
 		<legendary>
 			<name>Spell (Costs 2 Actions)</name>
@@ -4314,12 +4323,12 @@
 		<action>
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage plus 9 (2d8) necrotic damage.</text>
-			<attack>Scimitar|7|1d6 + 4</attack>
+			<attack>Scimitar|7|1d6 + 4+2d8</attack>
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target, Hit: 9 (1d10 + 4) piercing damage plus 9 (2d8) necrotic damage.</text>
-			<attack>Heavy Crossbow|7|1d10 + 4</attack>
+			<attack>Heavy Crossbow|7|1d10 + 4+2d8</attack>
 		</action>
 		<action>
 			<name>Infectious Insanity (Recharge 5-6)</name>
@@ -4387,12 +4396,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 9 (2d8) poison damage. If the target is a creature, it must succeed on a DC 22 Constitution saving throw or be cursed with Arbeyach rot. The cursed target is poisoned, can't regain hit points, its hit point maximum decreases by 13 (3d8) for every 24 hours that elapse, and vermin attack the creature on sight. If the curse reduces the target's hit point maximum to 0, the target dies and immediately transforms into a randomly chosen swarm of insects. The curse lasts until removed by the remove curse spell or comparable magic.</text>
-			<attack>Bite|13|2d8 + 6</attack>
+			<attack>Bite|13|2d8 + 6+2d8</attack>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) slashing damage plus 9 (2d8) poison damage.</text>
-			<attack>Claw|13|1d8 + 6</attack>
+			<attack>Claw|13|1d8 + 6+2d8</attack>
 		</action>
 		<action>
 			<name>Vermin Breath (Recharge 5-6)</name>
@@ -4452,12 +4461,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 4 (1d8) poison damage.</text>
-			<attack>Bite|7|2d6 + 4</attack>
+			<attack>Bite|7|2d6 + 4+1d8</attack>
 		</action>
 		<action>
 			<name>Stinger</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 9 (2d8) poison damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Stinger|7|1d6 + 4</attack>
+			<attack>Stinger|7|1d6 + 4+2d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -4514,7 +4523,8 @@
 		<action>
 			<name>Bites</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: 21 (6d6) piercing damage plus 14 (4d6) fire damage plus 14 (4d6) poison damage, or 10 (3d6) piercing damage plus 7 (2d6) fire damage plus 7 (2d6) poison damage if Ia'Affrat has half of its hit points or fewer. The target must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Bites|10|6d6</attack>
+			<attack>Bites|10|6d6+4d6+4d6</attack>
+			<attack>Bites(half)|10|3d6+2d6+2d6</attack>
 		</action>
 		<action>
 			<name>Smoke Jump</name>
@@ -4523,6 +4533,7 @@
 		<action>
 			<name>Whirlwind (Recharge 4-6)</name>
 			<text>Each creature in Ia'Affrat's space must make a DC 18 Strength saving throw. Each creature that fails takes 28 (8d6) bludgeoning damage plus 14 (4d6) fire damage plus 14 (4d6) poison damage and is flung up 20 feet away from Ia'Affrat in a random direction and knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it traveled. If the target collides with another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked prone.</text>
+			<attack>Whirlwind||8d6+4d6+4d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -4589,12 +4600,12 @@
 		<action>
 			<name>Purse</name>
 			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage plus 18 (4d8) radiant damage</text>
-			<attack>Purse|14|7d8+6</attack>
+			<attack>Purse|14|7d8+6+4d8</attack>
 		</action>
 		<action>
 			<name>Molten Coins</name>
 			<text>Ranged Weapon Attack: +14 to hit, range 40/120 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage plus 18 (4d8) fire damage.</text>
-			<attack>Molten Coins|14|3d6 + 6</attack>
+			<attack>Molten Coins|14|3d6 + 6+4d8</attack>
 		</action>
 		<action>
 			<name>Your Weight In Gold (Recharge 5-6)</name>
@@ -4690,7 +4701,7 @@
 		<action>
 			<name>Hellfire Bolt (Recharge 5-6)</name>
 			<text>Ranged Spell Attack: +15 to hit, range 120 ft., one target. Hit: 65 (10d12) force damage plus 33 (6d10) thunder damage; a successful DC 20 Dexterity saving throw halves thunder damage.</text>
-			<attack>Hellfire Bolt|15|10d12</attack>
+			<attack>Hellfire Bolt|15|10d12+6d10</attack>
 		</action>
 		<legendary>
 			<name>Totivillus can take 3 legendary actions, choosing from the options below</name>
@@ -4819,12 +4830,12 @@
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 12 (2d4 + 7) slashing damage plus 2 (1d4) Charisma damage.</text>
-			<attack>Claw|11|2d4 + 7</attack>
+			<attack>Claw|11|2d4 + 7+1d4</attack>
 		</action>
 		<action>
 			<name>Flaming Ranseur</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 12 (1d10 + 7) piercing damage plus 10 (3d6) fire damage.</text>
-			<attack>Flaming Ranseur|11|1d10 + 7</attack>
+			<attack>Flaming Ranseur|11|1d10 + 7+3d6</attack>
 		</action>
 		<action>
 			<name>Devilish Weapons</name>
@@ -5227,10 +5238,12 @@
 		<action>
 			<name>Flail</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage plus 18 (4d8) acid damage.</text>
+			<attack>Flail|13|2d8+8+4d8</attack>
 		</action>
 		<action>
 			<name>Stomp</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage.</text>
+			<attack>Stomp|13|2d6+8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -5823,7 +5836,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 18 (3d6 + 8) plus 3 (1d6) poison damage.</text>
-			<attack>Bite|13|3d6 + 8</attack>
+			<attack>Bite|13|3d6 + 8+1d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -5907,7 +5920,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 3 (1d6) poison damage.</text>
-			<attack>Bite|8|2d6 + 6</attack>
+			<attack>Bite|8|2d6 + 6+1d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -5957,7 +5970,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 3 (1d6) poison damage.</text>
-			<attack>Bite|6|2d6 + 4</attack>
+			<attack>Bite|6|2d6 + 4+1d6</attack>
 		</action>
 		<action>
 			<name>Poison Breath (Recharge 5-6)</name>
@@ -6015,7 +6028,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 14 (4d6) fire damage.</text>
-			<attack>Bite|13|2d10 + 6</attack>
+			<attack>Bite|13|2d10 + 6+4d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6092,7 +6105,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) fire damage.</text>
-			<attack>Bite|9|2d10 + 4</attack>
+			<attack>Bite|9|2d10 + 4+2d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6165,7 +6178,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 3 (1d6) fire damage.</text>
-			<attack>Bite|6|2d10 + 2</attack>
+			<attack>Bite|6|2d10 + 2+1d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6201,7 +6214,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10+1) piercing damage plus 3 (1d6) fire damage.</text>
-			<attack>Bite|3|1d10+1</attack>
+			<attack>Bite|3|1d10+1+1d6</attack>
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 5-6)</name>
@@ -6490,7 +6503,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 11 (2d10) cold damage.</text>
-			<attack>Bite|16|2d10 + 9</attack>
+			<attack>Bite|16|2d10 + 9+2d10</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6567,7 +6580,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) cold damage.</text>
-			<attack>Bite|12|2d10 + 7</attack>
+			<attack>Bite|12|2d10 + 7+1d10</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6644,7 +6657,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) cold damage.</text>
-			<attack>Bite|9|2d10 + 5</attack>
+			<attack>Bite|9|2d10 + 5+1d10</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6680,7 +6693,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text>
-			<attack>Bite|5|1d10 + 3</attack>
+			<attack>Bite|5|1d10 + 3+1d6</attack>
 		</action>
 		<action>
 			<name>Tidal Breath (Recharge 5-6)</name>
@@ -6747,12 +6760,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 14 (4d6) cold damage.</text>
-			<attack>Bite|16|2d10 + 9</attack>
+			<attack>Bite|16|2d10 + 9+4d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage plus 7 (2d6) cold damage.</text>
-			<attack>Claw|16|2d6 + 9</attack>
+			<attack>Claw|16|2d6 + 9+2d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -6845,12 +6858,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 7 (2d6) cold damage.</text>
-			<attack>Bite|12|2d10 + 7</attack>
+			<attack>Bite|12|2d10 + 7+2d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage plus 3 (1d6) cold damage.</text>
-			<attack>Claw|12|2d6 + 7</attack>
+			<attack>Claw|12|2d6 + 7+1d6</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -6939,7 +6952,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) cold damage.</text>
-			<attack>Bite|9|2d10 + 5</attack>
+			<attack>Bite|9|2d10 + 5+1d6</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -6967,7 +6980,7 @@
 			<text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 4 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text>
 		</reaction>
 	</monster>
-	<monster><name>Void Dragon Wyrmling</name><size>M</size><type>dragon,tome of Beasts</type><alignment>chaotic neutral</alignment><ac>17 (natural armor)</ac><hp>45 (6d8 + 18)</hp><speed>30 ft., fly 60 ft. (hover)</speed><str>16</str><dex>10</dex><con>17</con><int>12</int><wis>9</wis><cha>17</cha><save>Dex +4, Con +5, Wis +1, Cha +5</save><skill> Perception +3, Stealth +2</skill><immune>cold</immune><senses/><passive>13</passive><languages> Common, Draconic, Void Speech</languages><cr>2</cr><trait><name>Chill of the Void</name><text>Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.</text></trait><trait><name>Void Dweller</name><text>As ancient void dragon.</text></trait><action><name>Bite</name><text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text><attack>Bite|5|1d10 + 3</attack></action><action><name>Breath Weapons (Recharge 5-6)</name><text>The dragon uses one of the following breath weapons:</text></action><action><name>Gravitic Breath</name><text>The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text></action><action><name>Stellar Flare Breath</name><text>The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.</text></action><reaction><name>Void Twist</name><text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text></reaction>&gt;
+	<monster><name>Void Dragon Wyrmling</name><size>M</size><type>dragon,tome of Beasts</type><alignment>chaotic neutral</alignment><ac>17 (natural armor)</ac><hp>45 (6d8 + 18)</hp><speed>30 ft., fly 60 ft. (hover)</speed><str>16</str><dex>10</dex><con>17</con><int>12</int><wis>9</wis><cha>17</cha><save>Dex +4, Con +5, Wis +1, Cha +5</save><skill> Perception +3, Stealth +2</skill><immune>cold</immune><senses/><passive>13</passive><languages> Common, Draconic, Void Speech</languages><cr>2</cr><trait><name>Chill of the Void</name><text>Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.</text></trait><trait><name>Void Dweller</name><text>As ancient void dragon.</text></trait><action><name>Bite</name><text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text><attack>Bite|5|1d10 + 3+1d6</attack></action><action><name>Breath Weapons (Recharge 5-6)</name><text>The dragon uses one of the following breath weapons:</text></action><action><name>Gravitic Breath</name><text>The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text></action><action><name>Stellar Flare Breath</name><text>The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.</text></action><reaction><name>Void Twist</name><text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text></reaction>&gt;
 	</monster>
 	<monster>
 		<name>Ancient Wind Dragon</name>
@@ -7288,12 +7301,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) piercing damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 18 Constitution saving throw or become paralyzed for 1d4 rounds.</text>
-			<attack>Bite|12|4d8 + 8</attack>
+			<attack>Bite|12|4d8 + 8+1d10</attack>
 		</action>
 		<action>
 			<name>Tail Slap</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) bludgeoning damage plus 5 (1d10) lightning damage and push the target up to 10 feet away.</text>
-			<attack>Tail Slap|12|5d8 + 8</attack>
+			<attack>Tail Slap|12|5d8 + 8+1d10</attack>
 		</action>
 		<action>
 			<name>Lightning Breath (Recharge 6)</name>
@@ -7526,7 +7539,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 4 (1d8) fire damage.</text>
-			<attack>Bite|4|1d6 + 2</attack>
+			<attack>Bite|4|1d6 + 2+1d8</attack>
 		</action>
 		<action>
 			<name>Stinger</name>
@@ -7581,11 +7594,12 @@
 		<action>
 			<name>Stinger</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 4 rounds. While poisoned this way, the target must repeat the save at the start of its turn, ending the condition on a success. On a failure, it takes 10 (3d6) poison damage. When animate dead is cast on creatures killed by this poison, the caster requires no material components.</text>
-			<attack>Stinger|9|2d10 + 5</attack>
+			<attack>Stinger|9|2d10 + 5+2d6</attack>
 		</action>
 		<action>
 			<name>Breath Weapon (Recharge 5-6)</name>
 			<text>A deep drake blasts forth a crackling 80-foot line of purple-black energy that wracks its victims with pain. This attack deals 35 (10d6) necrotic damage, or half damage with a successful DC 16 Dexterity saving throw. Targets that fail this saving throw must also succeed on a DC 16 Constitution saving throw or become stunned for 1d4 rounds.</text>
+			<attack>Breath Weapon||10d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -7851,7 +7865,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (4d4) acid damage.</text>
-			<attack>Bite|7|2d6 + 4</attack>
+			<attack>Bite|7|2d6 + 4+4d4</attack>
 		</action>
 		<action>
 			<name>Tail</name>
@@ -8078,7 +8092,7 @@
 		<action>
 			<name>Spine Whip</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) slashing damage plus 10 (3d10) necrotic damage. If the target is a creature it must make a DC 15 Constitution saving throw or be wracked with pain and fall prone.</text>
-			<attack>Spine Whip|8|2d10 + 4</attack>
+			<attack>Spine Whip|8|2d10 + 4+3d10</attack>
 		</action>
 		<action>
 			<name>Seal the Doom</name>
@@ -8410,7 +8424,7 @@
 		<action>
 			<name>Dagger</name>
 			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 3 (1d6) poison damage.</text>
-			<attack>Dagger|7|1d4 + 4</attack>
+			<attack>Dagger|7|1d4 + 4+1d6</attack>
 		</action>
 		<action>
 			<name>Reed Flower Net</name>
@@ -8567,7 +8581,7 @@
 		<action>
 			<name>Rapier</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>Rapier|8|1d8 + 5</attack>
+			<attack>Rapier|8|1d8 + 5+2d6</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -8628,7 +8642,7 @@
 		<action>
 			<name>Rapier</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 17 (5d6) psychic damage.</text>
-			<attack>Rapier|5|1d8 + 2</attack>
+			<attack>Rapier|5|1d8 + 2+5d6</attack>
 		</action>
 		<action>
 			<name>Beguiling Whispers (recharge 5-6)</name>
@@ -8692,7 +8706,7 @@
 		<action>
 			<name>Longbow</name>
 			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>Longbow|7|1d8 + 4</attack>
+			<attack>Longbow|7|1d8 + 4+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -9061,7 +9075,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 26 (5d8 + 4) slashing damage plus 11 (2d10) necrotic damage.</text>
-			<attack>Bite|7|5d8 + 4</attack>
+			<attack>Bite|7|5d8 + 4+2d10</attack>
 		</action>
 		<action>
 			<name>Spectral Bite</name>
@@ -9170,7 +9184,7 @@
 		<action>
 			<name>Necrotic Slam</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
-			<attack>Necrotic Slam|5|2d8 + 2</attack>
+			<attack>Necrotic Slam|5|2d8 + 2+1d8</attack>
 		</action>
 		<action>
 			<name>Violent Escapement</name>
@@ -9225,7 +9239,7 @@
 		<action>
 			<name>Eldritch Blade</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) slashing damage plus 16 (3d10) force damage.</text>
-			<attack>Eldritch Blade|5|2d6+2</attack>
+			<attack>Eldritch Blade|5|2d6+2+3d10</attack>
 		</action>
 		<action>
 			<name>Eldritch Fury</name>
@@ -9392,12 +9406,12 @@
 		<action>
 			<name>Huntsman's Spear</name>
 			<text>Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 60/120 ft., one target. Hit: 12 (2d6 + 5) piercing damage or 14 (2d8 + 5) piercing damage if used in two hands, plus 7 (2d6) poison damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone. As a bonus action, the Lord of the Hunt can cause his spear to magically appear in his hand, even if it is destroyed.</text>
-			<attack>Huntsman's Spear|11|2d6 + 5</attack>
+			<attack>Huntsman's Spear|11|2d6 + 5+2d6</attack>
 		</action>
 		<action>
 			<name>Howling Longbow</name>
 			<text>Ranged Weapon Attack: +10 to hit, range 150/600 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>Howling Longbow|10|2d8 + 4</attack>
+			<attack>Howling Longbow|10|2d8 + 4+2d6</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -9484,7 +9498,7 @@
 		<action>
 			<name>Crystal Staff</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) radiant damage. A target that is struck by the staff two or more times in one turn must make a successful DC 17 Constitution saving throw or be stunned until the end of its next turn.</text>
-			<attack>Crystal Staff|9|1d8 + 3</attack>
+			<attack>Crystal Staff|9|1d8 + 3+2d6</attack>
 		</action>
 		<action>
 			<name>Moon Bolt</name>
@@ -9591,7 +9605,7 @@
 		<action>
 			<name>Rapier</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage plus 10 (3d6) cold damage.</text>
-			<attack>Rapier|12|1d8 + 5</attack>
+			<attack>Rapier|12|1d8 + 5+3d6</attack>
 		</action>
 		<action>
 			<name>Shadow Rift (Recharge 5-6)</name>
@@ -9600,7 +9614,7 @@
 		<action>
 			<name>Star Strike</name>
 			<text>Ranged Spell Attack: +15 to hit, range 120 ft., one target. Hit: 9 (2d8) fire damage plus 9 (2d8) radiant damage.</text>
-			<attack>Star Strike|15|2d8</attack>
+			<attack>Star Strike|15|2d8+2d8</attack>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -9704,7 +9718,7 @@
 		<action>
 			<name>Moonsilver Ring</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 10 (3d6) radiant damage. The moonsilver ring is a magical weapon.</text>
-			<attack>Moonsilver Ring|12|2d8 + 6</attack>
+			<attack>Moonsilver Ring|12|2d8 + 6+3d6</attack>
 		</action>
 		<action>
 			<name>Blast</name>
@@ -9792,7 +9806,7 @@
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage or 10 (1d10 + 5) slashing damage if used with two hands, plus 10 (3d6) lightning damage.</text>
-			<attack>Longsword|10|1d8 + 5</attack>
+			<attack>Longsword|10|1d8 + 5+3d6</attack>
 		</action>
 		<action>
 			<name>Flood Blast</name>
@@ -9888,12 +9902,12 @@
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 7 (2d6) cold damage.</text>
-			<attack>Claws|9|2d6 + 4</attack>
+			<attack>Claws|9|2d6 + 4+2d6</attack>
 		</action>
 		<action>
 			<name>Ice Crown</name>
 			<text>Ranged Weapon Attack: +9 to hit, range 80/320ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) cold damage. The target's speed is reduced by 10 feet until the end of its next turn.</text>
-			<attack>Ice Crown|9|2d8 + 4</attack>
+			<attack>Ice Crown|9|2d8 + 4+2d6</attack>
 		</action>
 		<action>
 			<name>Cold Snap (Recharge 5-6)</name>
@@ -10133,7 +10147,7 @@
 		<action>
 			<name>Bone Spur</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necrotic damage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.</text>
-			<attack>Bone Spur|8|2d12 + 4</attack>
+			<attack>Bone Spur|8|2d12 + 4+2d10</attack>
 		</action>
 		<action>
 			<name>Tormenting Gaze</name>
@@ -10195,11 +10209,12 @@
 		<action>
 			<name>Psychic Scimitar</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) psychic damage.</text>
-			<attack>Psychic Scimitar|4|1d6 + 2</attack>
+			<attack>Psychic Scimitar|4|1d6 + 2+1d6</attack>
 		</action>
 		<action>
 			<name>Hooked Spider Net (Recharge 5-6)</name>
 			<text>Ranged Weapon Attack. +4 to hit, range 20/50 ft., one target. Hit: 3 (1d6) piercing damage plus 19 (3d12) poison damage, and the target is restrained. A successful DC 14 Constitution saving throw halves the poison damage.</text>
+			<attack>Hooked Spider Net|4|1d6+3d12</attack>
 		</action>
 	</monster>
 	<monster>
@@ -10331,6 +10346,7 @@
 		<action>
 			<name>Engulf</name>
 			<text>When a frostveil wraps itself around a Medium or smaller creature, the target takes 14 (2d8 + 5) bludgeoning damage plus 13 (3d8) acid damage and is grappled (escape DC 15). The target takes another 9 (2d8) bludgeoning damage plus 13 (3d8) acid damage at the end of each of its turns when it's still grappled by the frostveil. A frostveil can't attack while it has a creature engulfed. Damage from attacks against the frostveil is split evenly between the frostveil and the engulfed creature; the only exceptions are slashing and psychic damage, which affect only the frostveil.</text>
+			<attack>Engulf||2d8+5+3d8</attack>
 		</action>
 		<action>
 			<name>Spirit Spores (recharge 6)</name>
@@ -10512,7 +10528,7 @@
 		<action>
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage, plus 3 (1d6) necrotic damage.</text>
-			<attack>Scimitar|9|2d6 + 5</attack>
+			<attack>Scimitar|9|2d6 + 5+1d6</attack>
 		</action>
 		<action>
 			<name>Dust Devil</name>
@@ -10802,7 +10818,7 @@
 		<action>
 			<name>Scepter</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage plus 17 (5d6) necrotic damage.</text>
-			<attack>Scepter|10|1d10 + 4</attack>
+			<attack>Scepter|10|1d10 + 4+5d6</attack>
 		</action>
 		<reaction>
 			<name>Blood Armor</name>
@@ -11267,6 +11283,7 @@
 		<action>
 			<name>Constrict</name>
 			<text>One creature that's already grappled by the glass gator takes 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) poison damage, or half as much poison damage with a successful DC 11 Constitution saving throw.</text>
+			<attack>Constrict||2d4+2+2d6</attack>
 		</action>
 		<reaction>
 			<name>Silt Cloud (Recharges after a Short or Long Rest)</name>
@@ -11903,6 +11920,7 @@
 		<legendary>
 			<name>Swallow</name>
 			<text>The gug swallows one creature it has grappled. The creature takes 26 (3d12 + 7) bludgeoning damage immediately plus 13 (2d12) acid damage at the start of each of the gug's turns. A swallowed creature is no longer grappled but is blinded and restrained, and has total cover against attacks and other effects from outside the gug. If the gug takes 75 points of damage in a single turn, the swallowed creature is expelled and falls prone next to the gug. When the gug dies, a swallowed creature can crawl from the corpse by using 10 feet of movement.</text>
+			<attack>Swallow||3d12+7+2d12</attack>
 		</legendary>
 		<legendary>
 			<name>Throw</name>
@@ -12133,6 +12151,7 @@
 		<action>
 			<name>Scouring Sirocco (Recharge 5-6)</name>
 			<text>The sand hag generates a blast of hot wind in a 30-foot line or a 15-foot cone. Creatures inside it take 14 (4d6) slashing damage plus 7 (2d6) fire damage and are blinded for 1 minute; a successful DC 14 Constitution saving throw halves the damage and negates the blindness. A blinded creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. The affected area (line or cone) is heavily obscured until the end of the sand hag's next turn.</text>
+			<attack>Scouring Sirocco||4d6+2d6</attack>
 		</action>
 		<action>
 			<name>Change Shape</name>
@@ -12646,7 +12665,7 @@
 		<action>
 			<name>Ice Dagger</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.</text>
-			<attack>Ice Dagger|6|1d4 + 3</attack>
+			<attack>Ice Dagger|6|1d4 + 3+1d6</attack>
 		</action>
 		<action>
 			<name>Flurry-Form</name>
@@ -12712,7 +12731,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage plus 18 (4d8) psychic damage.</text>
-			<attack>Slam|8|1d6 + 5</attack>
+			<attack>Slam|8|1d6 + 5+4d8</attack>
 		</action>
 		<action>
 			<name>Seduce the Righteous</name>
@@ -12990,12 +13009,12 @@
 		<action>
 			<name>Dagger</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) poison damage.</text>
-			<attack>Dagger|5|1d4 + 3</attack>
+			<attack>Dagger|5|1d4 + 3+2d4</attack>
 		</action>
 		<action>
 			<name>Dart</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) poison damage.</text>
-			<attack>Dart|5|1d4 + 3</attack>
+			<attack>Dart|5|1d4 + 3+2d4</attack>
 		</action>
 		<action>
 			<name>Alchemical Protection (Recharge after a Short or Long Rest)</name>
@@ -13042,12 +13061,12 @@
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on a success.</text>
-			<attack>Shortsword|5|1d6 + 3</attack>
+			<attack>Shortsword|5|1d6 + 3+3d6</attack>
 		</action>
 		<action>
 			<name>Shortbow</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on a success.</text>
-			<attack>Shortbow|5|1d6 + 3</attack>
+			<attack>Shortbow|5|1d6 + 3+3d6</attack>
 		</action>
 		<action>
 			<name>Inspiring Presence (Recharge after Short or Long Rest)</name>
@@ -13056,6 +13075,7 @@
 		<reaction>
 			<name>Springspike Shield (5/rest)</name>
 			<text>When the kobold chieftain is hit by a melee attack within 5 feet, the kobold chieftain can fire one of its shield spikes at the attacker. The attacker takes 3 (1d6) piercing damage plus 3 (1d6) poison damage.</text>
+			<attack>Springspike Shield||1d6+1d6</attack>
 		</reaction>
 	</monster>
 	<monster>
@@ -13100,10 +13120,12 @@
 		<trait>
 			<name>Poisoned Sliver</name>
 			<text>A poisoned sliver or needle can be hidden almost anywhere: inside a lock or a box, in a carpeted floor, on the underside of a door handle, in a cup of liquid or a bowl of gems. When someone meets the conditions for being jabbed by the sliver, the trap makes a melee weapon attack with advantage: +5 to hit, reach 0 ft., one target; Hit: 2 (1d4) piercing damage plus 14 (4d6) poison damage, or one-half poison damage with a successful DC 13 Constitution saving throw.</text>
+			<attack>Poisoned Sliver|5|1d4+4d6</attack>
 		</trait>
 		<trait>
 			<name>Skullpopper</name>
 			<text>This trap consists of either a heavy weight, a spike, or a blade, set to fall or swing into a victim. When triggered, a skullpopper makes a melee weapon attack against the first target in its path: +5 to hit, reach 15 ft., one target; Hit: 11 (2d10) damage. The type of damage depends on how the skullpopper is built: a stone or heavy log does bludgeoning damage, a spiked log does piercing damage, a scything blade does slashing damage, etc.</text>
+			<attack>Skullpopper|5|2d10</attack>
 		</trait>
 		<trait>
 			<name>Slingsnare</name>
@@ -13117,7 +13139,7 @@
 		<action>
 			<name>Light Crossbow</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) poison damage, or one-half poison damage with a successful DC 13 Constitution saving throw.</text>
-			<attack>Light Crossbow|5|1d8 + 3</attack>
+			<attack>Light Crossbow|5|1d8 + 3+2d6</attack>
 		</action>
 		<action>
 			<name>Shredder (Recharge 6)</name>
@@ -13241,7 +13263,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage or 11 (1d10 + 6) slashing damage if used in two hands plus 14 (4d6) necrotic damage.</text>
-			<attack>Longsword|12|1d8 + 6</attack>
+			<attack>Longsword|12|1d8 + 6+4d6</attack>
 		</action>
 		<action>
 			<name>Drain Life</name>
@@ -14203,7 +14225,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Enervating Spiked Gauntlet</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 19 (2d12 + 6) bludgeoning damage plus 11 (2d10) necrotic damage, and the target must succeed on a DC 17 Wisdom saving throw or gain 1 level of exhaustion. The target recovers from all exhaustion caused by the enervating spiked gauntlet at the end of its next long rest.</text>
-			<attack>Enervating Spiked Gauntlet|11|2d12 + 6</attack>
+			<attack>Enervating Spiked Gauntlet|11|2d12 + 6+2d10</attack>
 		</action>
 		<action>
 			<name>Wail of the Forgotten (Recharge 6)</name>
@@ -14255,7 +14277,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23 (4d8 + 5) bludgeoning damage plus 11 (2d10) necrotic damage.</text>
-			<attack>Slam|9|4d8 + 5</attack>
+			<attack>Slam|9|4d8 + 5+2d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14333,7 +14355,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Handaxe</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 2 (1d4) poison damage.</text>
-			<attack>Handaxe|6|2d6 + 4</attack>
+			<attack>Handaxe|6|2d6 + 4+1d4</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14616,12 +14638,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Greatsword</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage plus 11 (2d10) cold or fire damage.</text>
-			<attack>Greatsword|7|3d6 + 4</attack>
+			<attack>Greatsword|7|3d6 + 4+2d10</attack>
 		</action>
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 11 (2d10) cold or fire damage.</text>
-			<attack>Slam|7|2d6 + 4</attack>
+			<attack>Slam|7|2d6 + 4+2d10</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14659,12 +14681,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 9 (2d8) cold or fire damage.</text>
-			<attack>Longsword|6|2d6 + 4</attack>
+			<attack>Longsword|6|2d6 + 4+2d8</attack>
 		</action>
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 9 (2d8) cold or fire damage.</text>
-			<attack>Slam|6|1d8 + 4</attack>
+			<attack>Slam|6|1d8 + 4+2d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14712,17 +14734,17 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Spike</name>
 			<text>Ranged Weapon Attack: +8 to hit, range 20/60 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 3 (1d6) acid damage.</text>
-			<attack>Spike|8|2d8 + 3</attack>
+			<attack>Spike|8|2d8 + 3+1d6</attack>
 		</action>
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage plus 7 (2d6) acid damage.</text>
-			<attack>Tentacle|11|2d10 + 6</attack>
+			<attack>Tentacle|11|2d10 + 6+2d6</attack>
 		</action>
 		<action>
 			<name>Filaments</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage plus 10 (3d6) acid damage, and the target is grappled (escape DC 16) and restrained.</text>
-			<attack>Filaments|11|3d10 + 6</attack>
+			<attack>Filaments|11|3d10 + 6+3d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14822,7 +14844,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Mushroom-Poisoned Javelin</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 6 (1d12) poison damage and the target is poisoned until the start of the moss lurker's next turn. A successful DC 11 Constitution save halves the poison damage and prevents poisoning.</text>
-			<attack>Mushroom-Poisoned Javelin|4|1d6 + 2</attack>
+			<attack>Mushroom-Poisoned Javelin|4|1d6 + 2+1d12</attack>
 		</action>
 		<action>
 			<name>Dropped Boulder</name>
@@ -14864,7 +14886,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Venomous Fist</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be affected by the Selket's venom curse (see above).</text>
-			<attack>Venomous Fist|5|2d6 + 3</attack>
+			<attack>Venomous Fist|5|2d6 + 3+3d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -14900,7 +14922,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Fist</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 11 (4d4 + 1) bludgeoning damage plus 10 (4d4) poison damage.</text>
-			<attack>Fist|3|4d4 + 1</attack>
+			<attack>Fist|3|4d4 + 1+4d4</attack>
 		</action>
 		<action>
 			<name>Deathcap Spores (3/day)</name>
@@ -15391,7 +15413,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 15 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) acid damage, and a target that's Large or smaller is grappled (escape DC 16) and restrained until the grapple ends. The oozasis has two pseudopods, each of which can grapple one target at a time.</text>
-			<attack>Pseudopod|8|2d8 + 4</attack>
+			<attack>Pseudopod|8|2d8 + 4+3d6</attack>
 		</action>
 		<action>
 			<name>Engulf</name>
@@ -15435,7 +15457,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 3 (1d6) acid damage, and the target is grappled (escape DC 13).</text>
-			<attack>Slam|6|2d8 + 3</attack>
+			<attack>Slam|6|2d8 + 3+1d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -15798,7 +15820,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Gore</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 14 (4d6) psychic damage and the target must make a successful DC 14 Wisdom saving throw or be charmed for 1 round. While charmed in this way, the creature regards one randomly determined ally as a foe.</text>
-			<attack>Gore|6|4d6</attack>
+			<attack>Gore|6|1+4d6</attack>
 		</action>
 		<action>
 			<name>Divisive Chatter (recharge 5-6)</name>
@@ -16048,7 +16070,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Radiant Runespear</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (1d12 + 1) piercing damage plus 2 (1d4) radiant damage.</text>
-			<attack>Radiant Runespear|3|1d12 + 1</attack>
+			<attack>Radiant Runespear|3|1d12 + 1+1d4</attack>
 		</action>
 		<action>
 			<name>Rapier</name>
@@ -16103,7 +16125,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Radiant Runestaff</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage plus 4 (1d8) radiant damage.</text>
-			<attack>Radiant Runestaff|3|1d8</attack>
+			<attack>Radiant Runestaff|3|1d8+1d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -16230,6 +16252,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<trait>
 			<name>Ringed by Ice and Death</name>
 			<text>A rime worm is surrounded by an aura of cold, necrotic magic. At the start of the rime worm's turn, enemies within 5 feet take 2 (1d4) cold damage plus 2 (1d4) necrotic damage. If two or more enemies take damage from the aura on a single turn, the rime worm's black ice spray recharges immediately.</text>
+			<attack>Ringed by Ice and Death||1d4+1d4</attack>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -16413,12 +16436,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Begrimed Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>Begrimed Shortsword|5|1d6 + 3</attack>
+			<attack>Begrimed Shortsword|5|1d6 + 3+2d6</attack>
 		</action>
 		<action>
 			<name>Begrimed Dart</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>Begrimed Dart|5|1d4 + 2</attack>
+			<attack>Begrimed Dart|5|1d4 + 2+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -16457,7 +16480,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Wind of Decay</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 0 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 14 (4d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.</text>
-			<attack>Wind of Decay|8|2d6 + 5</attack>
+			<attack>Wind of Decay|8|2d6 + 5+4d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -16649,7 +16672,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Stinger</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 12 (2d6 + 5) piercing damage plus 24 (7d6) poison damage, or half as much poison damage with a successful DC 15 Constitution saving throw. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned and paralyzed for 1 hour. Regaining hit points doesn't end the poisoning or paralysis.</text>
-			<attack>Stinger|8|2d6 + 5</attack>
+			<attack>Stinger|8|2d6 + 5+7d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -16729,7 +16752,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 14 (4d6) acid damage.</text>
-			<attack>Slam|5|2d6 + 2</attack>
+			<attack>Slam|5|2d6 + 2+4d6</attack>
 		</action>
 		<action>
 			<name>Frightful Presence</name>
@@ -16779,6 +16802,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the sathaq worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 7 (2d6) bludgeoning damage plus 7 (2d6) slashing damage plus 7 (2d6) acid damage at the start of each of the sathaq worm's turns. The sathaq worm can have only one creature swallowed at a time. If the sathaq worm takes 20 damage or more on a single turn from a creature inside it, the sathaq worm must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 5 feet of the sathaq worm. If the sathaq worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.</text>
 			<attack>Bite|10|4d8 + 6</attack>
+			<attack>Swallowed||2d6+2d6+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -16935,7 +16959,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, plus 21 (6d6) poison damage and the target is poisoned until it completes a short or long rest. A successful DC 10 Constitution saving throw reduces the poison damage to half and prevents the poisoned condition. If the target fails this saving throw while already poisoned, it gains one level of exhaustion in addition to the other effects.</text>
-			<attack>Sting|5|6d6+1</attack>
+			<attack>Sting|5|6d6+1+6d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -17080,7 +17104,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Nabboot</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) bludgeoning damage plus 7 (2d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb taint. The cursed target's speed is reduced to half, and its hit point maximum decreases by 3 (1d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.</text>
-			<attack>Nabboot|8|1d4 + 5</attack>
+			<attack>Nabboot|8|1d4 + 5+2d6</attack>
 		</action>
 		<action>
 			<name>Telekinesis</name>
@@ -17526,12 +17550,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage plus 5 (1d10) acid damage, and the target is grappled (escape DC 12). The skitterhaunt has two claws, each of which can grapple one target.</text>
-			<attack>Claw|4|1d8 + 2</attack>
+			<attack>Claw|4|1d8 + 2+1d10</attack>
 		</action>
 		<action>
 			<name>Sting</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) acid damage.</text>
-			<attack>Sting|4|1d10 + 2</attack>
+			<attack>Sting|4|1d10 + 2+1d10</attack>
 		</action>
 		<action>
 			<name>Acid Spray (Recharge 6)</name>
@@ -17577,7 +17601,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 31 (4d12 + 5) bludgeoning damage plus 9 (2d8) piercing damage.</text>
-			<attack>Slam|10|4d12 + 5</attack>
+			<attack>Slam|10|4d12 + 5+2d8</attack>
 		</action>
 		<action>
 			<name>Static Shock (Recharge 5-6)</name>
@@ -17691,7 +17715,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 18). If the target was already grappled, it is swallowed instead. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects from outside the son of Fenris, and it takes 28 (8d6) acid damage at the start of each of the son of Fenris's turns. It can swallow only one creature at a time. If it takes 45 damage or more on a single turn from the swallowed creature, it must succeed on a DC 17 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the son of Fenris. If the son of Fenris dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.</text>
-			<attack>Bite|12|2d10 + 8</attack>
+			<attack>Bite|12|2d10 + 8+1d10</attack>
 		</action>
 		<action>
 			<name>Slam</name>
@@ -17741,7 +17765,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) psychic damage, or half as much psychic damage with a successful DC 15 Constitution saving throw.</text>
-			<attack>Claw|9|2d6 + 6</attack>
+			<attack>Claw|9|2d6 + 6+2d6</attack>
 		</action>
 		<action>
 			<name>Soul Drain</name>
@@ -17960,7 +17984,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 13 (3d8) poison damage, or half poison damage with a successful DC 15 Constitution saving throw. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned and paralyzed for 1 hour, even after regaining hit points. While using Ghostwalk, the spider's bite and poison do half damage to targets that aren't affected by Ghostly Snare (see below).</text>
-			<attack>Bite|9|2d10 + 5</attack>
+			<attack>Bite|9|2d10 + 5+3d8</attack>
 		</action>
 		<action>
 			<name>Ghostly Snare (During Ghostwalk Only, Recharge 5-6)</name>
@@ -18012,7 +18036,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage plus 22 (5d8) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw. A target dropped to 0 hit points by this attack is stable but poisoned and paralyzed for 1 hour, even after regaining hit points.</text>
-			<attack>Bite|5|1d10 + 3</attack>
+			<attack>Bite|5|1d10 + 3+5d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -18098,7 +18122,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10 + 5) piercing damage plus 13 (3d8) poison damage, or half as much poison damage with a successful DC 13 Constitution saving throw.</text>
-			<attack>Bite|8|2d10 + 5</attack>
+			<attack>Bite|8|2d10 + 5+3d8</attack>
 		</action>
 		<reaction>
 			<name>Trapdoor Ambush</name>
@@ -18153,7 +18177,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage plus 4 (1d8) poison damage.</text>
-			<attack>Claw|6|2d10 + 3</attack>
+			<attack>Claw|6|2d10 + 3+1d8</attack>
 		</action>
 		<action>
 			<name>Spit Venom</name>
@@ -18163,7 +18187,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Staff of Leng</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 13 (2d12) psychic damage, and the target must make a successful DC 15 Wisdom saving throw or be stunned until the start of the spider's next turn.</text>
-			<attack>Staff of Leng|5|2d6 + 2</attack>
+			<attack>Staff of Leng|5|2d6 + 2+2d12</attack>
 		</action>
 		<reaction>
 			<name>Ancient Hatred</name>
@@ -18258,7 +18282,8 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Lightning Dart</name>
 			<text>Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 1 piercing damage plus 9 (2d8) lightning damage. If the attack misses, the target still takes 4 (1d8) lightning damage. Whether the attack hits or misses its intended target, every other creature within 10 feet of the target takes 9 (2d8) lightning damage, or half damage with a successful DC 14 Dexterity saving throw.</text>
-			<attack>Lightning Dart|6|2d8</attack>
+			<attack>Lightning Dart|6|1+2d8</attack>
+			<attack>Lightning Dart(around)||2d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -18303,11 +18328,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Crushing Claws</name>
 			<text>Melee Weapon Attack. +12 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage plus 13 (3d8) necrotic damage.</text>
+			<attack>Crushing Claws|12|2d12+7+3d8</attack>
 		</action>
 		<action>
 			<name>Disintegrating Gaze (Recharge 5-6)</name>
 			<text>Ranged Spell Attack: +15 to hit, range 60 ft., one target in line of sight. Hit: 32 (5d12) necrotic damage, and the target must make a successful DC 20 Constitution saving throw or dissipate into vapor as if affected by a gaseous form spell. An affected creature repeats the saving throw at the end of each of its turns; on a success, the effect ends on that creature, but on a failure, the creature takes another 32 (5d12) necrotic damage and remains gaseous. A creature reduced to 0 hit points by this necrotic damage is permanently disintegrated and can be restored only by a wish or comparable magic that doesn't require some portion of a corpse to work.</text>
-			<attack>Disintegrating Gaze (Recharge 5-6)|15|Recharge 5-6</attack>
+			<attack>Disintegrating Gaze (Recharge 5-6)|15|5d12</attack>
 		</action>
 		<action>
 			<name>Dimensional Stomp</name>
@@ -18694,7 +18720,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage plus 3 (1d6) cold damage. The target is also knocked prone if the attack scored a critical hit.</text>
-			<attack>Bite|5|2d4+3</attack>
+			<attack>Bite|5|2d4+3+1d6</attack>
 		</action>
 		<action>
 			<name>Icy Doom (Recharge 5-6)</name>
@@ -18741,7 +18767,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage plus 9 (2d4 + 4) bludgeoning damage, and the target is grappled (escape DC 14). The target must also make a successful DC 15 Constitution saving throw or be stunned until the end of its next turn.</text>
-			<attack>Bite|7|3d8 + 4</attack>
+			<attack>Bite|7|3d8 + 42d4+4</attack>
 		</action>
 		<action>
 			<name>Slam</name>
@@ -18788,7 +18814,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) slashing damage plus 26 (4d12) cold damage. If the target is wearing metal armor, it must make a successful DC 17 Constitution saving throw or gain one level of exhaustion.</text>
-			<attack>Claw|10|2d8+6</attack>
+			<attack>Claw|10|2d8+6+4d12</attack>
 		</action>
 		<action>
 			<name>Freezing Breath (Recharge 5-6)</name>
@@ -19437,7 +19463,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Tentacles</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage plus 10 (3d6) lightning damage. The target is also grappled (escape DC 13). Until this grapple ends, the target is restrained. While grappling the target, the tusked skyfish can't use this attack against other targets. When the tusked skyfish moves, a Medium or smaller target it is grappling moves with it.</text>
-			<attack>Tentacles|5|3d6 + 3</attack>
+			<attack>Tentacles|5|3d6 + 3+3d6</attack>
 		</action>
 		<action>
 			<name>Stench Spray (Recharge 5-6)</name>
@@ -19477,7 +19503,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 9 (2d8) poison damage, and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target takes 9 (2d8) fire damage at the start of its turn. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on a success.</text>
-			<attack>Bite|4|1d6 + 2</attack>
+			<attack>Bite|4|1d6 + 2+2d8</attack>
 		</action>
 		<action>
 			<name>Searing Breath (Recharge 5-6)</name>
@@ -19609,7 +19635,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Medjai's Scepter</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) poison damage.</text>
-			<attack>Medjai's Scepter|9|2d6 + 5</attack>
+			<attack>Medjai's Scepter|9|2d6 + 5+3d6</attack>
 		</action>
 		<action>
 			<name>Khopesh</name>
@@ -19664,7 +19690,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Greataxe</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) slashing damage plus 3 (1d6) necrotic damage.</text>
-			<attack>Greataxe|7|1d12 + 5</attack>
+			<attack>Greataxe|7|1d12 + 5+1d6</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
@@ -19726,12 +19752,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) radiant damage.</text>
-			<attack>Longsword|8|1d8 + 4</attack>
+			<attack>Longsword|8|1d8 + 4+2d10</attack>
 		</action>
 		<action>
 			<name>Spear</name>
 			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 10 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 11 (2d10) radiant damage.</text>
-			<attack>Spear|8|1d6 + 4</attack>
+			<attack>Spear|8|1d6 + 4+2d10</attack>
 		</action>
 		<legendary>
 			<name>A valkyrie can take 3 legendary actions, choosing from the options below</name>
@@ -20025,7 +20051,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Unclean Cut</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature that is grappled by the vile barber, incapacitated, or restrained. Hit: 6 (1d4 + 4) slashing damage plus 7 (2d6) necrotic damage. The creature and all its allies who see this attack must make successful DC 15 Wisdom saving throws or become frightened for 1d4 rounds.</text>
-			<attack>Unclean Cut|6|1d4 + 4</attack>
+			<attack>Unclean Cut|6|1d4 + 4+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -20081,7 +20107,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Tendril</name>
 			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 7 (1d4 + 5) slashing damage plus 3 (1d6) poison damage.</text>
-			<attack>Tendril|8|1d4 + 5</attack>
+			<attack>Tendril|8|1d4 + 5+1d6</attack>
 		</action>
 		<action>
 			<name>Awaken the Green (1/Day)</name>
@@ -20187,7 +20213,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Tendril</name>
 			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) slashing damage plus 11 (2d10) necrotic damage.</text>
-			<attack>Tendril|10|1d8 + 6</attack>
+			<attack>Tendril|10|1d8 + 6+2d10</attack>
 		</action>
 		<action>
 			<name>Necrotic Burst (Recharge 5-6)</name>
@@ -20479,7 +20505,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Helminth Infestation</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or be afflicted with a helminth infestation (parasitic worms). An afflicted creature can't regain hit points and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the affliction reduces the target's hit point maximum to 0, the victim dies. The affliction lasts until removed by any magic that cures disease.</text>
-			<attack>Helminth Infestation|5|2d6</attack>
+			<attack>Helminth Infestation|5|2d6+3d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -21234,12 +21260,12 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Battleaxe</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) slashing damage if used with two hands, plus 10 (3d6) necrotic damage.</text>
-			<attack>Battleaxe|6|1d8 + 3</attack>
+			<attack>Battleaxe|6|1d8 + 3+3d6</attack>
 		</action>
 		<action>
 			<name>Lance</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 10 (3d6) necrotic damage.</text>
-			<attack>Lance|6|1d12 + 3</attack>
+			<attack>Lance|6|1d12 + 3+3d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -21317,7 +21343,7 @@ whirlwind by using its action to repeat the saving throw; on a success, it moves
 		<action>
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) poison damage.</text>
-			<attack>Scimitar|4|1d6 + 2</attack>
+			<attack>Scimitar|4|1d6 + 2+1d6</attack>
 		</action>
 		<action>
 			<name>Sling</name>

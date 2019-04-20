@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Water)</name>
+
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Water</name>
+				<text>Few clerics are granted powers that encompass elements that are simultaneously fundamental to the flourishing of life and capable of wiping away all traces that life was once there. Water takes many forms; so too do the powers granted to clerics of this domain. A cleric devoted to a god with dominion over water can call to hand the force of a rushing river current, summon the relentless, crashing power of the tides, or conjure the bitter cold of a blizzard. Clerics with this domain can summon or vanish into blinding mists, walk across the bottom of a lake without harm, and harness the catastrophic power of a flood. Many different deities grant the powers of the water domain to their followers: gods of the sea, gods of the rain and snow, and gods of rivers, lakes, and streams.</text>
+				<text />
+				<text>Water Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text />
+				<text>1st - create or destroy water, fog cloud</text>
+				<text />
+				<text>3rd - blur, misty step</text>
+				<text />
+				<text>5th - sleet storm, water breathing</text>
+				<text />
+				<text>7th - conjure minor elementals, control water</text>
+				<text />
+				<text>9th - conjure elemental, cone of cold</text>
+			</feature>
+			<feature optional="YES">
+				<name>Water Domain: Relentless as the Tides</name>
+				<text>When you choose this domain at 1st level, you gain proficiency with heavy armor. Additionally, wearing heavy armor does not affect your ability to swim or encumber your movement in water.</text>
+			</feature>
+			<feature>
+				<name>Water Domain: Destructive as the Flood</name>
+				<text>Also starting at 1st level, your damaging spells are more effective. Whenever you roll damage for a cleric spell of 1st level or higher, add your Wisdom modifier to the damage (minimum of 1)</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Water Domain Channel Divinity: Crashing Waves</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to summon the power of the crashing waves to strike at your enemies.</text>
+				<text>	When you hit an enemy with a melee weapon attack, you can use your Channel Divinity as a bonus action to cause a wave of divine power to wash out over each enemy you choose that is within 10 feet of the target of the attack. For each of those creatures, if the attack roll of the weapon attack equals or exceeds that creature’s Armor Class, that creature takes bludgeoning damage equal to the weapon’s damage die + your Wisdom modifier (plus any extra damage gained from the Divine Strike feature once you reach 8th level).</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Water Domain: Placid as the Lakes</name>
+				<text>Beginning at 6th level, when you are charmed, you can use your action to end the effect that is causing you to be charmed.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Water Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 bludgeoning damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Water Domain: Untouchable as the Mists</name>
+				<text>Starting at 17th level, you are permanently under the effects of the water breathing spell, and whenever you cast one of your domain spells, you gain resistance to bludgeoning, piercing, and slashing damage until the end of your next turn.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+
+	<spellList class="Cleric (Water)">
+		<index name="Create or Destroy Water" />
+		<index name="Fog Cloud" />
+		<index name="Blur" />
+		<index name="Misty Step" />
+		<index name="Sleet Storm" />
+		<index name="Water Breathing" />
+		<index name="Conjure Minor Elementals" />
+		<index name="Control Water" />
+		<index name="Conjure Elemental" />
+		<index name="Cone of Cold" />
+	</spellList>
+</compendium>

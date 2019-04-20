@@ -208,7 +208,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage plus 35 (10d6) fire damage</text>
-			<attack>Slam|12|3d6+5</attack>
+			<attack>Slam|12|3d6+5+10d6</attack>
 		</action>
 		<legendary>
 			<name>Quench Magic</name>
@@ -327,7 +327,7 @@
 		<action>
 			<name>Shortbow</name>
 			<text>Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>Shortbow|3|1d6+1</attack>
 		</action>
 		<spells> dancing lights, message, mage hand, thaumaturgy, augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians</spells>
 	</monster>
@@ -361,12 +361,12 @@
 		<action>
 			<name>Greatsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</text>
-			<attack>|6|4d6+4</attack>
+			<attack>Greatsword|6|4d6+4</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
 			<text>Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit: 9 (2d8) piercing damage.</text>
-			<attack>|2|2d8</attack>
+			<attack>Longbow|2|2d8</attack>
 		</action>
 	</monster>
 	<monster>
@@ -409,7 +409,7 @@
 		<action>
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage, or 12 (2d8+3) bludgeoning damage if used with two hands.</text>
-			<attack>|5|2d6+3</attack>
+			<attack>Quarterstaff|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Summon Earth Elemental (1/day)</name>
@@ -446,12 +446,12 @@
 		<action>
 			<name>Warhammer</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) bludgeoning damage, or 7 (1d10+2) bludgeoning damage if used with two hands.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Warhammer|4|1d8+2</attack>
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Augrek carries ten crossbow bolts.</text>
-			<attack>|2|1d10</attack>
+			<attack>Heavy Crossbow|2|1d10</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -483,12 +483,12 @@
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
-			<attack>|5|1d6+3</attack>
+			<attack>Shortsword|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Dart</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage. Sirac carries six darts.</text>
-			<attack>|5|1d4+3</attack>
+			<attack>Dart|5|1d4+3</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -524,7 +524,7 @@
 		<action>
 			<name>Dagger</name>
 			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 2 (1d4) piercing damage. Duvessa carries only one dagger.</text>
-			<attack>|2|1d4</attack>
+			<attack>Dagger|2|1d4</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
@@ -564,12 +564,12 @@
 		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage, or 7 (1d10+2) slashing damage if used with two hands.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Longsword|4|1d8+2</attack>
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10+1) piercing damage. Markham carries twenty crossbow bolts.</text>
-			<attack>|3|1d10+1</attack>
+			<attack>Heavy Crossbow|3|1d10+1</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -601,12 +601,12 @@
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage, .</text>
-			<attack>|4|1d6+2</attack>
+			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Beldora carries ten crossbow bolts.</text>
-			<attack>|3|1d10+1</attack>
+			<attack>Hand Crossbow|3|1d10+1</attack>
 		</action>
 		<reaction>
 			<name>Duck and Cover</name>
@@ -646,12 +646,12 @@
 		<action>
 			<name>Maul</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
-			<attack>|6|2d6+4</attack>
+			<attack>Maul|6|2d6+4</attack>
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Baric carries twenty crossbow bolts.</text>
-			<attack>|2|1d10</attack>
+			<attack>Heavy Crossbow|2|1d10</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -683,17 +683,17 @@
 		<trait>
 			<name>Sneak Attack (1/turn)</name>
 			<text>Shalvus deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Shalvus that isn't incapacitated and Shalvus doesn't have disadvantage on the attack roll.</text>
-			<attack>||2d6</attack>
+			<attack>Sneak Attack||2d6</attack>
 		</trait>
 		<action>
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with both hands.</text>
-			<attack>|2|1d6</attack>
+			<attack>Quarterstaff|2|1d6</attack>
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
 			<text>Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Shalvus carries ten crossbow bolts.</text>
-			<attack>|2|1d10</attack>
+			<attack>Hand Crossbow|2|1d10</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -734,7 +734,7 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6+4) bludgeoning damage.</text>
-			<attack>|6|2d6+4</attack>
+			<attack>Slam|6|2d6+4</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -774,12 +774,12 @@
 		<action>
 			<name>Quarterstaff</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with both hands.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>Quarterstaff|3|1d6+1</attack>
 		</action>
 		<action>
 			<name>Sling</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage. Zi carries twenty sling stones.</text>
-			<attack>|4|1d4+2</attack>
+			<attack>Sling|4|1d4+2</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -811,17 +811,17 @@
 		<action>
 			<name>Bear Hug</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4+3) bludgeoning damage, and the target grappled (escape DC 13) and takes 5 (1d4 + 3) bludgeoning damage at the start of each of Miros's turns until the grapple ends. Miros cannot make attacks while grappling a creature.</text>
-			<attack>|5|1d4+3</attack>
+			<attack>Bear Hug|5|1d4+3</attack>
 		</action>
 		<action>
 			<name>Club</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+1) bludgeoning damage</text>
-			<attack>|5|1d4+3</attack>
+			<attack>Club|5|1d4+3</attack>
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Miros carries ten crossbow bolts.</text>
-			<attack>|2|1d10</attack>
+			<attack>Heavy Crossbow|2|1d10</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -862,7 +862,7 @@
 		<action>
 			<name>Staff</name>
 			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</text>
-			<attack>|1|1d6-1</attack>
+			<attack>Staff|1|1d6-1</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -909,7 +909,7 @@
 		<action>
 			<name>Dagger</name>
 			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 3 (1d4+1) piercing damage. Duvessa carries only one dagger.</text>
-			<attack>|3|1d4+1</attack>
+			<attack>Dagger|3|1d4+1</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -949,12 +949,12 @@
 		<action>
 			<name>Greatsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage</text>
-			<attack>|5|2d6+3</attack>
+			<attack>Greatsword|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Darathra carries twenty crossbow bolts.</text>
-			<attack>|2|1d10</attack>
+			<attack>Heavy Crossbow|2|1d10</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -986,17 +986,17 @@
 		<trait>
 			<name>Sneak Attack (1/turn)</name>
 			<text>Darz deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Darz that isn't incapacitated and Darz doesn't have disadvantage on the attack roll.</text>
-			<attack>||2d6</attack>
+			<attack>Sneak Attack||2d6</attack>
 		</trait>
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
-			<attack>|2|1d6</attack>
+			<attack>Shortsword|2|1d6</attack>
 		</action>
 		<action>
 			<name>Sling</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) piercing damage. Darz carries twenty sling stones.</text>
-			<attack>|4|1d4+2</attack>
+			<attack>Sling|4|1d4+2</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
@@ -1032,12 +1032,12 @@
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
-			<attack>|2|1d6</attack>
+			<attack>Shortsword|2|1d6</attack>
 		</action>
 		<action>
 			<name>Hand Crossbow</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Narth carries twenty crossbow bolts.</text>
-			<attack>|4|1d6+2</attack>
+			<attack>Hand Crossbow|4|1d6+2</attack>
 		</action>
 		<trait>
 			<name>Roleplaying Information</name>
