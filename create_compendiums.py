@@ -144,7 +144,7 @@ class XMLCombiner(object):
 
     def compile_subs(self, items):
         # combine subclasses with classes
-        for name, element in items['subclass'].items():
+        for name, element in sorted(items['subclass'].iteritems()):
             base_name = element.get('baseclass')
             if base_name not in items['baseclass']:
                 print 'Missing baseclass {0} for {1}'.format(base_name, name)
