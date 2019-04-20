@@ -18,6 +18,7 @@ import os
 import re
 import argparse
 import copy
+from xml.etree.ElementTree import ParseError
 
 COMPENDIUM = 'Compendiums/{category} Compendium.xml'
 
@@ -41,8 +42,9 @@ class XMLCombiner(object):
         """Parse source XML, logs filename on error"""
         try:
             return et.parse(filename)
-        except TypeError:
+        except ParseError as pe:
             print filename
+            print pe
             raise
 
     def remove_excludes(self):
