@@ -304,7 +304,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (3d8 + 9) piercing damage plus 36 (8d8) radiant damage.</text>
-			<attack>Bite|16|3d8+9</attack>
+			<attack>Bite|16|3d8+9+8d8</attack>
 		</action>
 		<action>
 			<name>Claw</name>
@@ -463,6 +463,7 @@
 		<legendary>
 			<name>Searing Burst (Costs 2 Actions)</name>
 			<text>Raguel emits magical, divine energy. Each creature of his choice in a 10-foot radius must make a DC 26 Dexterity saving throw, taking 22 (4d10) fire damage plus 22 (4d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Searing Burst||4d10+4d10</attack>
 		</legendary>
 		<legendary>
 			<name>Blinding Gaze (Costs 3 Actions)</name>

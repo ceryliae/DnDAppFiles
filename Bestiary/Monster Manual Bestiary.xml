@@ -2604,7 +2604,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|2d6+3+2d6</attack>
+			<attack>Bite|5|2d6+3+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -6214,12 +6214,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>|4|1d8+2+1d8</attack>
+			<attack>Bite|4|1d8+2+1d8</attack>
 		</action>
 		<action>
 			<name>Claws</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
-			<attack>|4|2d4+2</attack>
+			<attack>Claws|4|2d4+2</attack>
 		</action>
 		<action>
 			<name>Web (Recharge 5-6)</name>
@@ -9070,7 +9070,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</text>
-			<attack>|3|1d6+1+2d6</attack>
+			<attack>Pseudopod|3|1d6+1+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -9109,7 +9109,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</text>
-			<attack>|3|1d6+1+2d6</attack>
+			<attack>Pseudopod|3|1d6+1+2d6</attack>
 		</action>
 		<action>
 			<name>Psychic Crush (Recharge 5-6)</name>
@@ -9874,12 +9874,12 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage.</text>
-			<attack>|5|1d8+3+2d6</attack>
+			<attack>Bite|5|1d8+3+2d6</attack>
 		</action>
 		<action>
 			<name>Fire Breath (Recharge 5-6)</name>
 			<text>The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>||6d6</attack>
+			<attack>Fire Breath||6d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -12062,17 +12062,17 @@
 		<action>
 			<name>Snake Hair</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</text>
-			<attack>|5|1d4+2+4d6</attack>
+			<attack>Snake Hair|5|1d4+2+4d6</attack>
 		</action>
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
-			<attack>|5|1d6+2</attack>
+			<attack>Shortsword|5|1d6+2</attack>
 		</action>
 		<action>
 			<name>Longbow</name>
 			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|1d8+2+2d6</attack>
+			<attack>Longbow|5|1d8+2+2d6</attack>
 		</action>
 	</monster>
 	<monster>
@@ -17619,12 +17619,12 @@
 		<action>
 			<name>Unarmed Strike (Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).</text>
-			<attack>|9|1d8+4</attack>
+			<attack>Unarmed Strike|9|1d8+4</attack>
 		</action>
 		<action>
 			<name>Bite (Bat or Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.</text>
-			<attack>|9|1d6+4+3d6</attack>
+			<attack>Bite|9|1d6+4+3d6</attack>
 		</action>
 		<action>
 			<name>Charm</name>
@@ -17692,7 +17692,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
-			<attack>|6|1d6+3+2d6</attack>
+			<attack>Bite|6|1d6+3+2d6</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -17770,12 +17770,12 @@
 		<action>
 			<name>Unarmed Strike (Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).</text>
-			<attack>|9|1d8+4</attack>
+			<attack>Unarmed Strike|9|1d8+4</attack>
 		</action>
 		<action>
 			<name>Bite (Bat or Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.</text>
-			<attack>|9|1d6+4+3d6</attack>
+			<attack>Bite|9|1d6+4+3d6</attack>
 		</action>
 		<action>
 			<name>Charm</name>
@@ -17848,12 +17848,12 @@
 		<action>
 			<name>Unarmed Strike (Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).</text>
-			<attack>|9|1d8+4</attack>
+			<attack>Unarmed Strike|9|1d8+4</attack>
 		</action>
 		<action>
 			<name>Bite (Bat or Vampire Form Only)</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.</text>
-			<attack>|9|1d6+4+3d6</attack>
+			<attack>Bite|9|1d6+4+3d6</attack>
 		</action>
 		<action>
 			<name>Charm</name>
@@ -18892,7 +18892,7 @@
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.</text>
-			<attack>|6|1d6+4+1d6</attack>
+			<attack>Claw|6|1d6+4+1d6</attack>
 		</action>
 		<action>
 			<name>Chilling Gaze</name>
@@ -19534,22 +19534,22 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.</text>
-			<attack>|7|1d6+4+3d6</attack>
+			<attack>Bite|7|1d6+4+3d6</attack>
 		</action>
 		<action>
 			<name>Constrict</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan_ti can't constrict another target.</text>
-			<attack>|7|2d6+4</attack>
+			<attack>Constrict|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Scimitar (Abomination Form Only)</name>
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
-			<attack>|7|2d6+4</attack>
+			<attack>Scimitar|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Longbow (Abomination Form Only)</name>
 			<text>Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 10 (3d6) poison damage.</text>
-			<attack>|6|2d8+3+3d6</attack>
+			<attack>Longbow|6|2d8+3+3d6</attack>
 		</action>
 		<spells>animal friendship, suggestion, fear</spells>
 	</monster>
@@ -19604,17 +19604,17 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|1d4+3+2d6</attack>
+			<attack>Bite|5|1d4+3+2d6</attack>
 		</action>
 		<action>
 			<name>Scimitar (Yuan_ti Form Only)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-			<attack>|5|1d6+3</attack>
+			<attack>Scimitar|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Longbow (Yuan_ti Form Only)</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|4|1d8+2+2d6</attack>
+			<attack>Longbow|4|1d8+2+2d6</attack>
 		</action>
 		<spells>animal friendship, suggestion</spells>
 	</monster>
@@ -19669,7 +19669,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|1d4+3+2d6</attack>
+			<attack>Bite|5|1d4+3+2d6</attack>
 		</action>
 		<spells>animal friendship, suggestion</spells>
 	</monster>
@@ -19724,22 +19724,22 @@
 		<action>
 			<name>Bite (Snake Form Only)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|5|1d4+3+2d6</attack>
+			<attack>Bite|5|1d4+3+2d6</attack>
 		</action>
 		<action>
 			<name>Constrict</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the yuan_ti can't constrict another target.</text>
-			<attack>|5|2d6+3</attack>
+			<attack>Constrict|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Scimitar (Yuan_ti Form Only)</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
-			<attack>|5|1d6+3</attack>
+			<attack>Scimitar|5|1d6+3</attack>
 		</action>
 		<action>
 			<name>Longbow (Yuan_ti Form Only)</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Longbow|4|1d8+2</attack>
 		</action>
 		<spells>animal friendship, suggestion</spells>
 	</monster>
@@ -19782,12 +19782,12 @@
 		<action>
 			<name>Scimitar</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>Scimitar|3|1d6+1</attack>
 		</action>
 		<action>
 			<name>Shortbow</name>
 			<text>Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.</text>
-			<attack>|3|1d6+1+2d6</attack>
+			<attack>Shortbow|3|1d6+1+2d6</attack>
 		</action>
 		<spells>animal friendship, poison spray, suggestion</spells>
 	</monster>
