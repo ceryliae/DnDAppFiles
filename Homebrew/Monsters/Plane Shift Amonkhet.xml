@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<monster>
+		<name>Dryad, Urban</name>
+		<size>M</size>
+		<type>fey, Xanathar's Lost Notes to Everything Else</type>
+		<alignment>neutral</alignment>
+		<ac>13</ac>
+		<hp>78 (12d8 + 24)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>14</int>
+		<wis>14</wis>
+		<cha>18</cha>
+		<skill>Perception +5, Stealth +7, Insight +5</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The urban dryad’s innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text>	At will: druidcraft</text>
+			<text>	2/day each: earth tremor, goodberry, thorn whip</text>
+			<text>	1/day each: calm emotions, earthbind, pass without trace</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While hidden or resting, an urban dryad is indistinguishable from a mass of ivy creepers.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The urban dryad has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The urban dryad can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The urban dryad makes two lash attacks.</text>
+		</action>
+		<action>
+			<name>Lash</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d6 + 1) slashing damage plus 11 (2d10) poison damage.</text>
+			<attack>Lash|6|2d6+1+2d10</attack>
+		</action>
+		<action>
+			<name>Hand Crossbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, reach 5 ft., one target range 30/120. Hit: 4 (1d6 + 1) piercing damage plus 11 (2d10) poison damage.</text>
+			<attack>Hand Crossbow|6|1d6+1+2d10</attack>
+		</action>
+		<action>
+			<name>Shadow Walk</name>
+			<text>The urban dryad can step magically from one shadow within its reach and emerge from a second unoccupied shadow within 60 feet of the original shadow.</text>
+		</action>
+	</monster>
+</compendium>
