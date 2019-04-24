@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<monster>
+		<name>Battleforce Angel</name>
+		<size>M</size>
+		<type>celestial, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful good</alignment>
+		<ac>18 (plate)</ac>
+		<hp>66 (12d8 + 12)</hp>
+		<speed>30 ft., fly 90 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>17</wis>
+		<cha>18</cha>
+		<save>Wis +6, Cha +7</save>
+		<skill>Investigation +3, Perception +6</skill>
+		<resist>fire, radiant</resist>
+		<immune></immune>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<senses>darkvision 120 ft., truesight 120 ft.</senses>
+		<passive>16</passive>
+		<languages>all</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Flyby</name>
+			<text>The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The angel has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The angel makes two melee attacks. It also uses Battlefield Inspiration.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 18 (4d8) radiant damage. If the target is within 5 feet of any of the angel's allies, the target takes an extra 2 (1d4) radiant damage.</text>
+			<attack>Longsword (1H)|6|1d8+3+4d8</attack>
+			<attack>Longsword (2H)|6|1d10+3+4d8</attack>
+		</action>
+		<action>
+			<name>Battlefield Inspiration</name>
+			<text>The angel chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a d4 to its attack rolls and saving throws.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Firemane Angel</name>
+		<size>M</size>
+		<type>celestial, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic good</alignment>
+		<ac>18 (plate)</ac>
+		<hp>135 (18d8 + 54)</hp>
+		<speed>40 ft., fly 120 ft.</speed>
+		<str>22</str>
+		<dex>15</dex>
+		<con>17</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>23</cha>
+		<save>Str +10, Wis +6, Cha +10</save>
+		<skill>Insight +6, Perception +6</skill>
+		<resist>fire, radiant; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>16</passive>
+		<languages>all</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Flyby</name>
+			<text>The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The angel's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The angel can innately cast the following spells, requiring no material components:</text>
+			<text>	3/day each: compelled duel, guiding bolt (as a 5th-level spell)</text>
+			<text>	1/day each: daylight, fireball (as a 6th-level spell)</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The angel has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Relentless (Recharges after a Short or Long Rest)</name>
+			<text>If the angel takes 21 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The angel makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +10 to hit, reach S ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands, plus 22 (Sd8) fire or radiant damage (angel's choice).</text>
+			<attack>Longsword (1H)|10|1d8+6+5d8</attack>
+			<attack>Longsword (2H)|10|1d10+6+5d8</attack>
+		</action>
+		<spells>Compelled Duel, Guiding Bolt, Daylight, Fireball</spells>
+	</monster>
+	<monster>
+		<name>Deathpact Angel</name>
+		<size>M</size>
+		<type>celestial, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>175 (27d8 + 54)</hp>
+		<speed>30 ft., fly 90 ft.</speed>
+		<str>16</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>19</int>
+		<wis>20</wis>
+		<cha>23</cha>
+		<save>Int +9, Wis +10, Cha +11</save>
+		<skill>Insight +10, Intimidation +11, Perception +10, Persuasion +11</skill>
+		<resist>necrotic, radiant; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>20</passive>
+		<languages>all</languages>
+		<cr>14</cr>
+		<trait>
+			<name>Exploitation of the Debtors</name>
+			<text>As a bonus action, the angel targets a creature charmed by it that it can see within 30 feet of it. The angel deals 11 (2d10) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt.</text>
+		</trait>
+		<trait>
+			<name>Flyby</name>
+			<text>The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The angel's innate spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). The angel can innately cast the following spells, requiring no material components:</text>
+			<text>	At will: command (as a 2nd-level spell), detect evil and good</text>
+			<text>	3/day each: charm person (as a 5th-level spell), darkness, suggestion</text>
+			<text>	1/day: raise dead</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The angel has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The angel makes two attacks with its scythe. It can substitute Chains ofObligation for one of these attacks.</text>
+		</action>
+		<action>
+			<name>Scythe</name>
+			<text>Melee Weapon Attack:+9 to hit, reach 10 ft., one target. Hit: 9 (2d4 + 4) slashing damage plus 27 (6d8) necrotic damage.</text>
+			<attack>Scythe|9|2d4+4+6d8</attack>
+		</action>
+		<action>
+			<name>Chains of Obligation</name>
+			<text>The angel targets one creature charmed by it that it can see within 90 feet of it. The target must succeed on a DC 19 Charisma saving throw or become paralyzed for 1 minute or until it takes any damage.</text>
+		</action>
+		<spells>Command, Detect Evil and Good, Charm Person, Darkness, Suggestion, Raise Dead</spells>
+	</monster>
+</compendium>
