@@ -451,4 +451,60 @@
 			<text>Each creature within 120 feet of the master must succeed on a DC 17 Wisdom saving throw or be charmed by the master for 1 hour. While charmed in this way, a creature's speed is 0. If the charmed creature takes damage, it can repeat the saving throw, ending the effect on itself on a success. A target that succeeds on the saving throw is immune to the Captivating Presence of all masters of cruelties for the next 24 hours.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Sire of Insanities</name>
+		<size>H</size>
+		<type>fiend(demon), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>157 (15d12+ 60)</hp>
+		<speed>40 ft.</speed>
+		<str>23</str>
+		<dex>6</dex>
+		<con>19</con>
+		<int>14</int>
+		<wis>19</wis>
+		<cha>22</cha>
+		<save>Con +8, Int +6, Wis +8, Cha +10</save>
+		<skill>Deception +10, Intimidation +10</skill>
+		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, Common, telepathy 120 ft.</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Aura of Mind Erosion</name>
+			<text>Any creature that starts its turn within 30 feet of the sire must make a DC 18 Wisdom saving throw. On a successful save, the creature is immune to this aura for the next 24 hours. On a failed save, the creature has disadvantage for 1 minute on Wisdom and Charisma checks and on Wisdom and Charisma saves.</text>
+			<text>	At the start of each of its turns, the sire can suppress this aura until the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The sire's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The sire can innately cast the following spells, requiring no material components:</text>
+			<text>At will: clairvoyance, crown of madness, major image, suggestion</text>
+			<text>1/day: confusion, mass suggestion</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Clairvoyance, Crown of Madness, Major Image, Suggestion, Confusion, Mass Suggestion</spells>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The sire has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The sire makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit: 25 (3d12 + 6) piercing damage plus 16 (3d10) psychic damage.</text>
+			<attack>Bite|10|3d12+6+3d10</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) slashing damage plus 9 (2d8) psychic damage</text>
+			<attack>Claws|10|1d8+6+2d8</attack>
+		</action>
+	</monster>
 </compendium>
