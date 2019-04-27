@@ -392,4 +392,63 @@
 			<attack>Spiked Chain|5|1d6+3</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Master of Cruelties</name>
+		<size>L</size>
+		<type>fiend(demon), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>18 (plate)</ac>
+		<hp>127 (15d10 + 45)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>17</dex>
+		<con>16</con>
+		<int>19</int>
+		<wis>16</wis>
+		<cha>21</cha>
+		<save>Con +7, Int +8, Wis +7, Cha +9</save>
+		<skill>Deception +9, Intimidation +9, Performance +9, Persuasion +9</skill>
+		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>13</passive>
+		<languages>Abyssal, Common, telepathy 120 ft.</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Aura of Blood Lust</name>
+			<text>When any other creature starts its turn within 30 feet of the master, that creature must succeed on a DC 17 Wisdom saving throw, or it must immediately take the Attack action, making one melee attack against a random creature within reach. If no creatures are within reach, it makes a ranged attack against a random creature within range, throwing its weapon if necessary.</text>
+		</trait>
+		<trait>
+			<name>Feed on the Crowd</name>
+			<text>Whenever a creature within 60 feet of the master dies, the master gains 15 temporary hit points and has advantage on all attack rolls, ability checks, and saving throws until the end of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The master's innate spellcasting ability is Charisma (spell save DC 17). The master can innately cast the following spells, requiring no material components:</text>
+			<text>At will: charm person (as a 3rd-level spell), crown of madness</text>
+			<text>1/day: dominate person</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Charm Person, Crown of Madness, Dominate Person</spells>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The master has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The master makes two melee attacks with its spear.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 13 (3d8) psychic damage.</text>
+			<attack>Spear (1H)|8|2d6+4+3d8</attack>
+			<attack>Spear (2H)|8|2d8+4+3d8</attack>
+		</action>
+		<action>
+			<name>Captivating Presence (Recharge 6)</name>
+			<text>Each creature within 120 feet of the master must succeed on a DC 17 Wisdom saving throw or be charmed by the master for 1 hour. While charmed in this way, a creature's speed is 0. If the charmed creature takes damage, it can repeat the saving throw, ending the effect on itself on a success. A target that succeeds on the saving throw is immune to the Captivating Presence of all masters of cruelties for the next 24 hours.</text>
+		</action>
+	</monster>
 </compendium>
