@@ -158,4 +158,69 @@
 		</action>
 		<spells>Command, Detect Evil and Good, Charm Person, Darkness, Suggestion, Raise Dead</spells>
 	</monster>
+	<monster>
+		<name>Archon of the Triumvirate</name>
+		<size>M</size>
+		<type>celestial, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>144 (17d8 + 68)</hp>
+		<speed>30 ft.</speed>
+		<str>20</str>
+		<dex>15</dex>
+		<con>19</con>
+		<int>15</int>
+		<wis>21</wis>
+		<cha>18</cha>
+		<save>Con +9, Wis +10, Cha +9</save>
+		<skill>Insight +10, Perception +10</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>20</passive>
+		<languages>all</languages>
+		<cr>14</cr>
+		<trait>
+			<name>Eye of the Law</name>
+			<text>As a bonus action, the archon can target a creature it can see within 120 feet of it and determine which laws that creature has broken in the last 24 hours.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The archon's innate spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). The archon can innately cast the following spells, requiring no material components:</text>
+			<text>	At will: calm emotions, command, compelled duel</text>
+		</trait>
+		<trait>
+			<name>Mount</name>
+			<text>If the archon isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the archon and its mount are on the same plane of existence. When it teleports, the archon appears astride the mount along with any equipment it is wearing or carrying.</text>
+			<text>	While mounted and not incapacitated, the archon can't be surprised, and both it and its mount gain advantage on Dexter· ity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The archon makes two Hammer of Justice attacks.</text>
+		</action>
+		<action>
+			<name>Hammer of Justice</name>
+			<text>Melee Weapon Attack: +10 to hit, reach S ft., one target. Hit: 12 (2d6 +5) bludgeoning damage plus 18 (4d8) force damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</text>
+			<attack>Hammer of Justice|10|2d6+5+4d8</attack>
+		</action>
+		<action>
+			<name>Pacifying Presence</name>
+			<text>Each creature of the archon's choice that the archon can see within 120 feet of it must succeed on a DC 18 Wisdom saving throw, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes charmed by the archon for 1 minute. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Ifa creature's saving throw is successful or the effect ends for it, the creature is immune to the archon's Pacifying Presence for the next 24 hours.</text>
+		</action>
+		<legendary>
+			<name>Rejoin Mount</name>
+			<text>If the archon isn't mounted, it magically teleports to its steed and mounts it as long as the archon and its steed are on the same plane of existence.</text>
+		</legendary>
+		<legendary>
+			<name>Smite (Costs 2 Actions)</name>
+			<text>The archon makes a Hammer of justice attack, and then its mount can use its reaction to make a melee weapon attack.</text>
+		</legendary>
+		<legendary>
+			<name>Detention (Costs 3 Actions)</name>
+			<text>The archon targets a creature it can see within 60 feet of it. The target must succeed on a DC 18 Charisma saving throw or be magically teleported to a harmless demiplane until the end of the archon's next turn, whereupon the target reappears in the space it left or the nearest unoccupied space if that space is occupied.</text>
+		</legendary>
+		<spells>Calm Emotions, Command, Compelled Duel</spells>
+	</monster>
 </compendium>
