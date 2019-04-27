@@ -341,4 +341,55 @@
 		<spellAbility>Charisma</spellAbility>
 		<spells>Druidcraft, Dispel Magic, Entangle, Plant Growth, Spike Growth, Moonbeam, Grasping Vine, Wall of Thorns</spells>
 	</monster>
+	<monster>
+		<name>Cackler</name>
+		<size>S</size>
+		<type>fiend (demon), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>10 (3d6)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str>
+		<dex>16</dex>
+		<con>11</con>
+		<int>11</int>
+		<wis>7</wis>
+		<cha>12</cha>
+		<save></save>
+		<skill>Deception +3, Perception +O, Performance +3</skill>
+		<resist>cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Fir Bolt, Tasha's Hideous Laughter</spells>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The cackler's innate spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). The cackler can innately cast the following spells, requiring no material components:</text>
+			<text>At will: fire bolt</text>
+			<text>1/day: Tasha's hideous laughter</text>
+		</trait>
+		<trait>
+			<name>Last Laugh</name>
+			<text>When the cackler dies, it releases a dying laugh that scars the minds of other nearby creatures. Each creature within 10 feet of the cackler must succeed on a DC 11 Wisdom saving throw or take 2 (1d4) psychic damage.</text>
+		</trait>
+		<trait>
+			<name>Mimicry</name>
+			<text>The cackler can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 11 Wisdom (Insight) check.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5(1d4+3) piercing damage.</text>
+			<attack>Bite|5|1d4+3</attack>
+		</action>
+		<action>
+			<name>Spiked Chain</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Spiked Chain|5|1d6+3</attack>
+		</action>
+	</monster>
 </compendium>
