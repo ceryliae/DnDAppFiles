@@ -507,4 +507,79 @@
 			<attack>Claws|10|1d8+6+2d8</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Devkarin Lich</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>97 (15d8 + 30)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>19</int>
+		<wis>16</wis>
+		<cha>15</cha>
+		<save>Con +7, Int +9, Wis +8</save>
+		<skill>Arcana +14, Insight +8, Perception +8</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>18</passive>
+		<languages>Common, Elvish, Kraul</languages>
+		<cr>14</cr>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If the lich fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The lich regains 10 hit points at the start of its turn. If the lich takes fire or radiant damage, this trait doesn't function at the start of the lich's next turn. The lich dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The lich is a 14th-level Golgari spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lich has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): acid splash, chill touch, mage hand, poison spray, prestidigitation</text>
+			<text>1st level (4 slots): chromatic orb, magic missile, ray of sickness</text>
+			<text>2nd level (3 slots): Melfs acid arrow, ray of enfeeblement, spider climb, web</text>
+			<text>3rd level (3 slots): animate dead, bestow curse, fear, vampiric touch</text>
+			<text>4th level (3 slots): blight, Evard's black tentacles</text>
+			<text>5th level (2 slots): cloudkill, insect plague</text>
+			<text>6th level (1 slot): circle of death, create undead</text>
+			<text>7th level (1 slot): finger of death</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,0,0</slots>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Acid Splash, Chill Touch, Mage Hand, Poison Spray, Prestidigitation, Chromatic Orb, Magic Missile, Ray of Sickness, Melfs Acid Arrow, Ray of Enfeeblement, Spider Climb, Web, Animate Dead, Bestow Curse, Fear, Vampiric Touch, Blight, Evard's Black Tentacles, Cloudkill, Insect Plague, Circle of Death, Create Undead, Finger of Death</spells>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>The lich has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the lich to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the lich drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Noxious Touch</name>
+			<text>Melee Spell Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (4d6) poison damage, and the target must succeed on a DC 17 Constitution saving throw or be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Noxious Touch|9|4d6</attack>
+		</action>
+		<legendary>
+			<name>Cantrip</name>
+			<text>The lich casts one of its cantrips.</text>
+		</legendary>
+		<legendary>
+			<name>Noxious Touch (Costs 2 Actions)</name>
+			<text>The lich uses Noxious Touch</text>
+			<attack>Noxious Touch|9|4d6</attack>
+		</legendary>
+		<legendary>
+			<name>Disrupt Life (Costs 3 Actions)</name>
+			<text>Each creature within 30 feet of the lich must make a DC 17 Constitution saving throw, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Disrupt Life||6d6</attack>
+		</legendary>
+	</monster>
 </compendium>
