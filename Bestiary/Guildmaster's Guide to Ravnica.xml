@@ -1050,4 +1050,128 @@
 			<attack>Withering Touch|3|3d6</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Blisercoil Weird</name>
+		<size>M</size>
+		<type>elemental, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>13</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>40 ft., swim 60 ft.</speed>
+		<str>16</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>5</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<skill></skill>
+		<resist>cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Draconic</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Feed on Fire</name>
+			<text>If the weird takes fire damage from a spell or other magical effect,its size increases by one category. If there isn't enough room for the weird to increase in size, it attains the maximum size possible in the space available. While the weird is Large or bigger, it makes Strength checks and saving throws with advantage.</text>
+			<text>	If the weird starts its turn at Gargantuan size, the weird releases energy in an explosion. Each creature within 30 feet of the weird must make a DC 12 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in the area that aren't being worn or carried. The weird's size then becomes Medium.</text>
+		</trait>
+		<trait>
+			<name>Form of Fire and Water</name>
+			<text>The weird can move through a space as narrow as 1 inch wide without squeezing. In addition, the weird can enter a hostile creature's space and stop there. The first time the weird enters another creature's space on a turn, that creature takes 5(1d10) fire damage and catches fire; until someone takes an action to douse the fire, the burning creature takes 5(1d10) fire damage at the start of each of its turns.</text>
+		</trait>
+		<trait>
+			<name>Heated Body</name>
+			<text>A creature that touches the weird or hits it with a melee attack while within 5 feet of it takes 5(1d10) fire damage.</text>
+		</trait>
+		<trait>
+			<name>Illumination</name>
+			<text>The weird sheds bright light in a 30-foot radius and dim light for an additional 30 feet.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +5 to hit, reach S ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
+			<attack>Slam|5|1d8+3+2d6</attack>
+			<attack>Slam (Large+)|5|2d8+3+4d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Fluxcharger</name>
+		<size>L</size>
+		<type>elemental, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>60 (8d10 + 16)</hp>
+		<speed>0 ft., fly 60 ft.</speed>
+		<str>15</str>
+		<dex>18</dex>
+		<con>15</con>
+		<int>6</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<skill></skill>
+		<resist>thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>lightning, poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Draconic</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Amplify Lightning</name>
+			<text>Whenever a spell that deals lightning damage includes one or more fluxchargers in its area, the spell deals an extra 9 (2d8) lightning damage.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The fluxcharger makes two slam attacks or uses Arc Lightning twice.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) fire damage.</text>
+			<attack>Slam|7|2d8+3+3d6</attack>
+		</action>
+		<action>
+			<name>Arc Lightning</name>
+			<text>Melee Weapon Attack: +5 to hit, reach S ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) fire damage, or 11 (2d8 + 3) bludgeoning damage plus 14 (4d6) fire damage if the weird is Large or bigger.</text>
+			<attack>Arc Lightning|7|3d10</attack>
+			<attack>Arc Lightning(second)||3d8</attack>
+			<attack>Arc Lightning(self)||1d10</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Galvanice Weird</name>
+		<size>M</size>
+		<type>elemental, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>22 (3d8 + 9)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<skill></skill>
+		<resist>cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Death Burst</name>
+			<text>When the galvanice weird dies, it explodes in a burst of ice and lightning. Each creature within 10 feet of the exploding weird must make a DC 13 Dexterity saving throw, taking 7 (2d6) lightning damage on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 5 (2d4) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or lose the ability to use reactions until the start of the weird's next turn.</text>
+			<attack>Slam|4|1d6+2+2d4</attack>
+		</action>
+	</monster>
 </compendium>
