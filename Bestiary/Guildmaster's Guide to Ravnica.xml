@@ -2464,4 +2464,217 @@
 			<text>When the mage or a creature it can see makes an attack roll, a saving throw, or an ability check, the mage can cause the roll to be made with advantage or disadvantage.</text>
 		</reaction>
 	</monster>
+	<monster>
+		<name>Aurelia</name>
+		<size>M</size>
+		<type>celesital (angel), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful good</alignment>
+		<ac>22 (natural armor)</ac>
+		<hp>287 (25d8 + 175)</hp>
+		<speed>50ft., fly 150 ft.</speed>
+		<str>26</str>
+		<dex>24</dex>
+		<con>25</con>
+		<int>17</int>
+		<wis>25</wis>
+		<cha>30</cha>
+		<save>Dex +14, Con +14, Cha +17</save>
+		<skill>Insight +14, Perception +14</skill>
+		<resist>necrotic, radiant; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>24</passive>
+		<languages>all</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Aurelia fails a saving throw, she can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Aurelia has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Aurelia makes three longsword attacks and uses Leadership.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 12 (1d8 + 8) slashing damage, or 13 (1d10 + 8) slashing damage when used with two hands, plus 27 (6d8) radiant damage.</text>
+			<attack>Longsword (1H)|15|1d8+8+6d8</attack>
+			<attack>Longsword (2H)|15|1d10+8+6d8</attack>
+		</action>
+		<action>
+			<name>Leadership</name>
+			<text>Aurelia utters a few inspiring words to one creature she can see within 30 feet of her. Ifthe creature can hear her, it can add a d10 to one attack roll or saving throw it makes before the start of Aurelia's next turn.</text>
+		</action>
+		<action>
+			<name>Warleader's Helix (Recharge 5-6)</name>
+			<text>Ranged Spell Attack: +17 to hit, range 60 ft., one creature. Hit: 54 (12d8) radiant damage, and Aurelia can choose another creature she can see within 10 feet of the target. The second creature regains 27 (6d8) hit points.</text>
+			<attack>Warleader's Helix|17|12d8+6d8</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>Aurelia adds 7 to her AC against one melee attack that would hit her. To do so, Aurelia must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+		<reaction>
+			<name>Unyielding</name>
+			<text>When Aurelia is subjected to an effect that would move her, knock her prone, or both, she can use her reaction to be neither moved nor knocked prone.</text>
+		</reaction>
+		<legendary>
+			<name>Command Allies</name>
+			<text>Aurelia chooses up to three creatures she can see within 30 feet of her. If a chosen creature can see or hear Aurelia, it can immediately use its reaction to make one weapon attack, with advantage on the attack roll.</text>
+		</legendary>
+		<legendary>
+			<name>Longsword Attack (Costs 2 Actions)</name>
+			<text>Aurelia makes one longsword attack.</text>
+			<attack>Longsword (1H)|15|1d8+8+6d8</attack>
+			<attack>Longsword (2H)|15|1d10+8+6d8</attack>
+		</legendary>
+		<legendary>
+			<name>Frighten Foes (Costs 3 Actions)</name>
+			<text>Aurelia targets up to five creatures she can see within 30 feet of her. Each target must succeed on a DC 25 Wisdom saving throw or be frightened of her until the end of her next turn. Any target within 5 feet of Aurelia has disadvantage on the saving throw.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Firefist</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful good</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8 + 36)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>17</wis>
+		<cha>13</cha>
+		<save>Con +5, Wis +6</save>
+		<skill>Intimidation +4, Religion +3</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The firefist is a 9th-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): fire bolt, light, sacred flame, spare the dying</text>
+			<text>1st level (4 slots): guiding bolt, healing word, heroism, shield of faith</text>
+			<text>2nd level (3 slots): lesser restoration, scorching ray</text>
+			<text>3rd level (3 slots): blinding smite, crusader's mantle, revivify</text>
+			<text>4th level (3 slots): banishment, wolf of fire</text>
+			<text>5th level (1 slot): flame strike</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Fire Bolt, Light, Sacred Flame, Spare the Dying, Guiding Bolt, Healing Word, Heroism, Shield of Faith, Lesser Restoration, Scorching Ray, Blinding Smite, Crusader's Mantle, Revivify, Banishment, Wolf of Fire, Flame Strike</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The firefist makes two greatsword attacks.</text>
+		</action>
+		<action>
+			<name>Greatsword</name>
+			<text>Melee Weapon Attack: +6 to hit , reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
+			<attack>Greatsword|6|2d6+3</attack>
+		</action>
+		<reaction>
+			<name>Guided Attack (Recharges after a Short or Long Rest)</name>
+			<text>When the firefist or one creature it can see within 30 feet of it makes an attack roll, the firefist grants a +10 bonus to that roll.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Frontline Medic</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful good</alignment>
+		<ac>20 (plate, shield)</ac>
+		<hp>19 (3d8 + 6)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>12</cha>
+		<save></save>
+		<skill>Medicine +5, Perception +3</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The medic is a 3rd-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 11). The medic has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): mending, resistance, spore the dying</text>
+			<text>1st level (4 slots): cure wounds, sanctuary</text>
+			<text>2nd level (2 slots): aid, lesser restoration</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Mending, Resistance, Spare the Dying, Cure Wounds, Sanctuary, Aid, Lesser Restoration</spells>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach S ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|4|1d6+2</attack>
+			<attack>Spear (2H)|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Reckoner</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>15</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Arcana +4, Intimidation +2, Perception +3</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>Common plus any one language</languages>
+		<cr>4</cr>
+		<trait>
+			<name>First Strike</name>
+			<text>The reckoner has advantage on initiative rolls</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The reckoner is a 5th-level Boros spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The reckoner has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): blade ward, light, message, shocking grasp</text>
+			<text>1st level (4 slots): guiding bolt, shield, thunderwave, witch bolt</text>
+			<text>2nd level (3 slots): blur, levitate</text>
+			<text>3rd level (2 slots): lightning bolt</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Blade Ward, Light, Message, Shocking Grasp, Guiding Bolt, Shield, Thunderwave, Witch Bolt, Blur, Levitate, Lightning Bolt</spells>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</text>
+			<attack>Longsword (1H)|5|1d8+3</attack>
+			<attack>Longsword (2H)|5|1d10+3</attack>
+		</action>
+		<reaction>
+			<name>Lightning Backlash (Recharge 5-6)</name>
+			<text>When a creature hits the reckoner with an attack, the attacker takes lightning damage equal to half the damage dealt by the attack.</text>
+		</reaction>
+	</monster>
 </compendium>
