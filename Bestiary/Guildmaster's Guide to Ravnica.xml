@@ -2677,4 +2677,150 @@
 			<text>When a creature hits the reckoner with an attack, the attacker takes lightning damage equal to half the damage dealt by the attack.</text>
 		</reaction>
 	</monster>
+		<monster>
+		<name>Lazav</name>
+		<size>M</size>
+		<type>monstrosity (shapechanger), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>204 (24d8 + 96)</hp>
+		<speed>40 ft.</speed>
+		<str>16</str>
+		<dex>24</dex>
+		<con>18</con>
+		<int>22</int>
+		<wis>20</wis>
+		<cha>22</cha>
+		<save>Dex +13, Int +12, Wis +11, Cha +12</save>
+		<skill>Deception +18, Insight +11, Perception +11, Stealth +19</skill>
+		<resist>necrotic, psychic</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>21</passive>
+		<languages>Common, thieves' cant</languages>
+		<cr>17</cr>
+		<trait>
+			<name>Elusive</name>
+			<text>No attack roll has advantage against Lazav unless he is incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Lazav's innate spellcasting ability is Intelligence (spell save DC 20). He can innately cast the following spells, requiring no material components:</text>
+			<text>At will: detect thoughts, encode thoughts (see chapter 2), freedom of movement, vicious mockery (4d4 psychic damage)</text>
+			<text>3/day each: blur, confusion, mirror image</text>
+			<text>1/day each: modify memory, Rory's telepathic bond</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Detect Thoughts, Encode Thoughts, Freedom of Movement, Vicious Mockery, Blur, Confusion, Mirror Image, Modify Memory, Rory's Telepathic Bond</spells>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Lazav fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Shapechanger Savant</name>
+			<text>Lazav can use a bonus action to polymorph into a Small or Medium humanoid he has seen. His statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying isn't transformed.</text>
+		</trait>
+		<trait>
+			<name>Psychic Defenses</name>
+			<text>Unless Lazav is incapacitated, he is immune to magic that allows other creatures to read his thoughts, determine whether he is lying, know his alignment, or know his creature type. Creatures can telepathically communicate with Lazav only if he allows it.</text>
+		</trait>
+		<action><name>Multiattack</name><text>Lazav makes three shortsword attacks.</text></action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target has disadvantage on the next attack roll it makes before Lazav's next turn.</text>
+			<attack>Shortsword|13|1d6+7+3d6</attack>
+		</action>
+		<legendary><name>Attack</name><text>Lazav makes a weapon attack.</text><attack>Shortsword|13|1d6+7+3d6</attack></legendary>
+		<legendary><name>Cast a Spell (Costs 2 Actions)</name><text>Lazav casts one of his innate spells.</text></legendary>
+		<legendary><name>Shifting Nightmare (Costs 3 Actions)</name><text>Lazav rapidly takes the form of several nightmarish creatures, lashing out at all nearby. Each creature within 10 feet of Lazav must succeed on a DC 21 Dexterity saving throw or take 18 (4d8) damage of a type chosen by Lazav: acid, cold, fire, lightning, or necrotic.</text><attack>Shifting Nightmare||4d8</attack></legendary>
+	</monster>
+		<monster>
+		<name>Mind Mage</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>49 (11d8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>20</int>
+		<wis>15</wis>
+		<cha>16</cha>
+		<save>Int +8, Wis +5</save>
+		<skill>Arcana +8, Deception +6, Insight +5, Persuasion +6</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common plus any four languages</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>The mage wears a spies' murmur (see chapter 5).</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The mage's spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: encode thoughts (see chapter 2), friends</text>
+			<text>3/day each: charm person, detect thoughts, mage armor, sleep, suggestion</text>
+			<text>1/day each: dominate person, mass suggestion, modify memory</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Encode Thoughts, Friends, Charm Person, Detect Thoughts, Mage Armor, Sleep, Suggestion, Dominate Person, Mass Suggestion, Modify Memory</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|5|1d4+2</attack>
+		</action>
+	</monster>
+<monster>
+		<name>Thought Spy</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>13 (leather armor)</ac>
+		<hp>27 (6d8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>10</con>
+		<int>16</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill>Deception +6, Insight +3, Investigation +5, Perception +3, Sleight of Hand +4, Stealth +4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 30 ft.</senses>
+		<passive>13</passive>
+		<languages>Common plus any one languages</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of its turns, the thought spy can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The thought spy's innate spellcasting ability is Intelligence (spell save DC 13). The thought spy can innately cast the following spells, requiring no components:</text>
+			<text>At will: charm person, disguise self, encode thoughts (see chapter 2)</text>
+			<text>1/day each: blur, detect thoughts, gaseous form</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Charm Person, Disguise Self, Encode Thoughts, Blur, Detect Thoughts, Gaseous Form</spells>
+		<attack><name>Multiattack</name><text>The thought spy makes two melee attacks, or it makes three ranged attacks with its daggers.</text></attack>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action><name>Rapier</name><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text><attack>Rapier|4|1d8+2</attack></action>
+	</monster>
 </compendium>
