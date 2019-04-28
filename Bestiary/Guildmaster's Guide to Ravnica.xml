@@ -820,7 +820,7 @@
 		<type>giant, Guildmaster's Guide to Ravnica</type>
 		<alignment>chaotic neutral</alignment>
 		<ac>20 (stone armor)</ac>
-		<hp>138 (12d12 + 60}</hp>
+		<hp>138 (12d12 + 60)</hp>
 		<speed>40 ft.</speed>
 		<str>23</str>
 		<dex>15</dex>
@@ -834,7 +834,7 @@
 		<immune></immune>
 		<conditionImmune></conditionImmune>
 		<vulnerable></vulnerable>
-		<senses>darkvision60 ft.</senses>
+		<senses>darkvision 60 ft.</senses>
 		<passive>15</passive>
 		<languages>Giant</languages>
 		<cr>10</cr>
@@ -864,6 +864,157 @@
 			<name>Rock</name>
 			<text>Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</text>
 			<attack>Rock|10|4d10+6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Flying Horror</name>
+		<size>M</size>
+		<type>abberation, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>49 (9d8 + 9)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>9</str>
+		<dex>20</dex>
+		<con>12</con>
+		<int>2</int>
+		<wis>15</wis>
+		<cha>16</cha>
+		<skill>Perception +4, Stealth +7</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>frightened</conditionImmune>
+		<vulnerable>radiant</vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Fear Frenzy</name>
+			<text>The horror has advantage on attack rolls against frightened creatures</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the horror has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +7 to hit, reach S ft., one target. Hit: 8 (1d6 + 5) slashing damage plus 14 (4d6) psychic damage.</text>
+			<attack>Claws|7|1d6+5</attack>
+		</action>
+		<action>
+			<name>Frightening Screech (Recharge 5-6)</name>
+			<text>The horror screeches. Each creature within 30 feet of it that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened of it for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Ifa creature's saving throw is successful or the effect ends for it, the creature is immune to the horror's Frightening Screech for the next 24 hours.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Shadow Horror</name>
+		<size>L</size>
+		<type>abberation, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>120 (16d10 + 32)</hp>
+		<speed>40 ft.</speed>
+		<str>12</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>17</wis>
+		<cha>18</cha>
+		<skill>Perception +4, Stealth +7</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>frightened</conditionImmune>
+		<vulnerable>radiant</vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>17</passive>
+		<languages>—</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The horror can move through other creatures and objects as if they were difficult terrain. It takes 5(1d10) force damage if it ends its turn inside an object.</text>
+			<roll>1d10</roll>
+		</trait>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the horror can take the Hide action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Shadow Stride</name>
+			<text>As a bonus action, the horror can step into a shadow within 5 feet of it and magically appear in an unoccupied space within 5 feet of a second shadow that is up to 60 feet away. Both shadows must be cast by a Small or larger creature or object.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the horror has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The horror makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 21 (4d8 + 3) piercing damage.</text>
+			<attack>Bite|7|4d8+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) slashing damage, and the target must succeed on a DC 16 Wisdom saving throw or be frightened of the horror until the end of the target's next turn.</text>
+			<attack>Claw|7|3d6+3</attack>
+		</action>
+		<action>
+			<name>Lashing Shadows (Recharge 5-6)</name>
+			<text>Each creature within 60 feet of the horror, except other horrors, must succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage.</text>
+			<attack>Lashing Shadows||6d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Skittering Horror</name>
+		<size>H</size>
+		<type>abberation, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>228 (24d12 + 72)</hp>
+		<speed>40 ft., climb 40 ft.</speed>
+		<str>22</str>
+		<dex>16</dex>
+		<con>17</con>
+		<int>2</int>
+		<wis>14</wis>
+		<cha>18</cha>
+		<skill>Perception +7, Stealth +8</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>frightened</conditionImmune>
+		<vulnerable>radiant</vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>17</passive>
+		<languages>—</languages>
+		<cr>15</cr>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The horror can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the horror has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The horror can use its Maddening Presence and make three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 28 (4d10 + 6) piercing damage.</text>
+			<attack>Bite|11|4d10+6</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) slashing damage.</text>
+			<attack>Claws|11|4d8+6</attack>
+		</action>
+		<action>
+			<name>Maddening Presence</name>
+			<text>The horror targets one creature it can see within 30 feet of it. If the target can see or hear the horror, the target must make a DC 17 Wisdom saving throw. On a failed saving throw, the target becomes paralyzed until the end of its next turn. If a creature's saving throw is successful, the creature is immune to the horror's Maddening Presence for the next 24 hours.</text>
 		</action>
 	</monster>
 </compendium>
