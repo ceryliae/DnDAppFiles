@@ -1535,4 +1535,719 @@
 			<attack>Quarterstaff (2H)|5|1d8+3</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Nightveil Specter</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>105 (14d8 + 42)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>19</dex>
+		<con>16</con>
+		<int>6</int>
+		<wis>17</wis>
+		<cha>11</cha>
+		<save>Dex +8, Wis +7</save>
+		<skill>Insight +7, Perception +7, Stealth +8</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>17</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Mount</name>
+			<text>If the specter isn't mounted, it can use a bonus action to magically teleport onto its gloamwing mount, provided the specte r and the gloamwing are on the same plane of existence. When it teleports, the specter appears astride the gloamwing along with any equipment it is wearing or carrying.</text>
+			<text>	While mounted and not incapacitated, the specter can't be surprised, and both it and its mount gain advantage on Dexterity saving throws.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The specter makes two scythe attacks.</text>
+		</action>
+		<action>
+			<name>Scythe</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:11 (2d6 + 4) slashing damage plus 13 (3d8) psychic damage.</text>
+			<attack>Scythe|8|2d6+4+3d8</attack>
+		</action>
+		<action>
+			<name>Mind Twist (Recharge 5-6)</name>
+			<text>The specter magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Wisdom saving throw or take 22 (5d8) psychic damage and be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+		<action>
+			<name>Reap Memory (3/Day)</name>
+			<text>The specter touches one incapacitated creature and chooses 1 hour from among the past 24. Unless the creature succeeds on a DC 15 Intelligence saving throw, the creature loses all memory of that hour. The creature regains the memory only if the specter dies within the next 24 hours.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gloamwing</name>
+		<size>L</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>136 (16d10 + 48)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>20</str>
+		<dex>16</dex>
+		<con>17</con>
+		<int>2</int>
+		<wis>11</wis>
+		<cha>6</cha>
+		<save>Str +8, Dex +6</save>
+		<skill>Perception +3, Stealth +6</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>13</passive>
+		<languages>understands Common</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Death Link</name>
+			<text>If its specter rider is reduced to 0 hit points. the gloamwing is destroyed.</text>
+		</trait>
+		<trait>
+			<name>Flyby</name>
+			<text>The gloamwing doesn't provoke an opportunity attack when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the gloamwing has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gloamwing makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage.</text>
+			<attack>Bite|8|3d8+5</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage.</text>
+			<attack>Claws|8|3d6+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Nivix Cyclops</name>
+		<size>L</size>
+		<type>giant, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (half plate)</ac>
+		<hp>115 (10d10 + 60)</hp>
+		<speed>30 ft.</speed>
+		<str>24</str>
+		<dex>9</dex>
+		<con>22</con>
+		<int>7</int>
+		<wis>10</wis>
+		<cha>9</cha>
+		<save>Con +9, Wis +3</save>
+		<skill></skill>
+		<resist></resist>
+		<immune>poison, psychic</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Giant</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The cyclops has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The cyclops makes two slam attacks.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft. one target. Hit: 23 (3d10 + 7) bludgeoning damage.</text>
+			<attack>Slam|10|3d10+7</attack>
+		</action>
+		<reaction>
+			<name>Spell Vitalization</name>
+			<text>Immediately after a creature casts a spell of 1st level or higher within 120 feet ofthe cyclops, the cyclops can move up to twice its speed without provoking opportunity attacks. It can then make one slam attack against a target of its choice.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Hybrid Brute</name>
+		<size>M</size>
+		<type>humanoid (Simic hybrid), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>11</dex>
+		<con>15</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Common plus any one language</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The hybrid can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The hybrid makes two claw attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+			<attack>Claw|6|1d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hybrid Flier</name>
+		<size>M</size>
+		<type>humanoid (Simic hybrid), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>13</ac>
+		<hp>39 (6d8 + 12)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>12</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill></skill>
+		<resist>acid</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Common plus any one language</languages>
+		<cr>2</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The hybrid makes two javelin attacks. It can replace one javelin attack with Spit Acid.</text>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Javelin|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Spit Acid</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (4d4) acid damage.</text>
+			<attack>Spit Acid|5|4d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hybrid Poisoner</name>
+		<size>M</size>
+		<type>humanoid (Simic hybrid), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>14</ac>
+		<hp>26 (4d8 + 8)</hp>
+		<speed>40 ft.</speed>
+		<str>12</str>
+		<dex>19</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>12</cha>
+		<save>Dex +6, Con +4</save>
+		<skill>Athletics +3, Perception +3, Stealth +6</skill>
+		<resist></resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 30 ft.</senses>
+		<passive>13</passive>
+		<languages>Common plus any one language</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Assassinate</name>
+			<text>During its first turn, the hybrid poisoner has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the hybrid scores against a surprised creature is a critical hit.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that touches the hybrid or hits it with a melee attack while within 5 feet of it takes 3 (1d6) poison damage.</text>
+			<roll>1d6</roll>
+		</trait>
+		<action>
+			<name>Toxic Touch</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. At the end of each ofthe poisoned target's turns, it must repeat the save, taking 3 (1d6) poison damage on a failed save, or ending the effect on itselfon a successful one.</text>
+			<attack>Toxic Touch|6|2d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hybrid Shocker</name>
+		<size>M</size>
+		<type>humanoid (Simic hybrid), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>12</ac>
+		<hp>39 (6d8 + 12)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>9</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune>lightning</immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Common plus any one language</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Electrified Body</name>
+			<text>Any creature that touches the hybrid or hits it with a melee attack while within 5 feet of it takes 5 (1d10) lightning damage.</text>
+			<roll>1d10</roll>
+		</trait>
+		<trait>
+			<name>Illumination</name>
+			<text>The hybrid sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The hybrid makes two attacks: one with its shocking touch and one with its tentacles.</text>
+		</action>
+		<action>
+			<name>Shocking Touch</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d8) lightning damage.</text>
+			<roll>Shocking Touch|4|2d8</roll>
+		</action>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 15 ft., one creature. Hit: The target is grappled (escape DC 11), and the hybrid pulls the target up to 15 feet straight towa rd it. Until this grapple ends, the target takes 5 (1d10) lightning damage at the start of each of its turns, and the hybrid shocker can't use its tentacles on another creature.</text>
+			<attack>Tentacles|4|</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hybrid Spy</name>
+		<size>M</size>
+		<type>humanoid (Simic hybrid), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>13</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>11</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>9</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +5</skill>
+		<resist></resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common plus any one language</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Chameleon Skin</name>
+			<text>The hybrid has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The hybrid can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The hybrid makes two shortsword attacks.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Skyjek Roc</name>
+		<size>L</size>
+		<type>monsrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (breastplate)</ac>
+		<hp>37 (5d10 + 10)</hp>
+		<speed>20 ft., fly 90 ft.</speed>
+		<str>20</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>8</cha>
+		<save>Dex +3, Wis +2</save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 30 ft.</senses>
+		<passive>12</passive>
+		<languages>—</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Keen Sight</name>
+			<text>The roc has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The roc makes two attacks: one with its beak and one with its talons.</text>
+		</action>
+		<action>
+			<name>Beak</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>Beak|7|1d8+5</attack>
+		</action>
+		<action>
+			<name>Talons</name>
+			<text>Melee Weapon Attack:+7 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage.</text>
+			<attack>Talons|7|2d4+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Skyswimmer</name>
+		<size>G</size>
+		<type>monsrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>216 (16d20 + 48)</hp>
+		<speed>10 ft., fly 60 ft.</speed>
+		<str>23</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save>Con +8</save>
+		<skill>Perception +6</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>—</languages>
+		<cr>13</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The skyswimmer can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The skyswimmer makes three attacks: one with its bite and two with its slam.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack:+11 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage. Ifthe target is a Large or smaller creature, it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer.</text>
+			<text>A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the skyswimmer, and it takes 21 (6d6) acid damage at the start ofeach of the skyswimmer's turns.</text>
+			<text>	If the skyswimmer takes 30 damage or more on a single turn from the swallowed creature, the skyswimmer must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within l0 feet of the skyswimmer. If the skyswimmer dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.</text>
+			<attack>Bite|7|3d10+6</attack>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 30 ft., one target. Hit: 19 (2d12 + 6) bludgeoning damage.</text>
+			<attack>Slam|11|2d12+6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Servitor Thrull</name>
+		<size>S</size>
+		<type>construct, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>22 (4d6 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>6</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5(1d8 + 1) slashing damage.</text>
+			<attack>Claws|3|1d8+1</attack>
+		</action>
+		<reaction>
+			<name>Self-Sacrifice</name>
+			<text>When a creature within 5 feet of the thrull is hit by an attack, the thrull swaps places with that creature and is hit instead.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Winged Thrull</name>
+		<size>S</size>
+		<type>construct, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>31 (7d6 + 7)</hp>
+		<speed>30 ft., fly 30 ft.</speed>
+		<str>9</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>8</int>
+		<wis>9</wis>
+		<cha>8</cha>
+		<save>Dex +4</save>
+		<skill></skill>
+		<resist></resist>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>1/2</cr>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
+			<attack>Claws|4|2d4+2</attack>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.</text>
+			<attack>Rock|4|1d5+2</attack>
+		</action>
+		<reaction>
+			<name>Self-Sacrifice</name>
+			<text>When a creature within 5 feet of the thrull is hit by an attack, the thrull swaps places with that creature and is hit instead.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Undercity Medusa</name>
+		<size>M</size>
+		<type>monstrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>120 (16d8 + 48)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>18</dex>
+		<con>16</con>
+		<int>17</int>
+		<wis>12</wis>
+		<cha>15</cha>
+		<save></save>
+		<skill>Deception +5, Insight +4, Perception +4, Stealth +7</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Elvish</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The medusa's innate spellcasting ability is Intelligence (spell save DC 14). The medusa can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: expeditious retreat, fog cloud, misty step</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Expeditious Retreat, Fog Cloud, Misty Step</spells>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The medusa has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Surprise Attack</name>
+			<text>During the first round of combat, the medusa has advantage on attack rolls against any creature that is surprised, and it deals an extra 10 (3d6) damage each time it hits such a creature with an attack.</text>
+			<roll>3d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The medusa makes two claw attacks. It can also use Petrifying Gaze before or after making these attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
+			<attack>Claw|7|2d8+4</attack>
+		</action>
+		<action>
+			<name>Petrifying Gaze</name>
+			<text>The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. The target must make a DC 14 Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a greaterrestoration spell or similar magic.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Blood Drinker Vampire</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful evil</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>90 (12d8 + 36)</hp>
+		<speed>40 ft., Ay 40 ft. (hover)</speed>
+		<str>16</str>
+		<dex>18</dex>
+		<con>17</con>
+		<int>16</int>
+		<wis>13</wis>
+		<cha>19</cha>
+		<save>Dex +7, Con +6, Wis +4</save>
+		<skill>Intimidation +7, Perception +4, Stealth +7</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>8</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The vampire makes three melee attacks, only one of which can be a bite attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach S ft., one willing creature, or a creature that is grappled by the vampire, incapac· itated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target is humanoid, it must succeed on a DC 15 Charisma saving throw or be charmed by the vampire for 1 minute. While charmed in this way, the target is infatuated with the vampire.</text>
+			<text>	The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
+			<attack>Bite|7|1d6+4+2d6</attack>
+		</action>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (ld8 + 4) piercing damage.</text>
+			<attack>Rapier|7|1d8+4</attack>
+		</action>
+		<action>
+			<name>Unarmed Strike</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. The vampire can also grapple the target (escape DC 14) if it is a creature and the vampire has a hand free.</text>
+			<attack>Unarmed Strike|6|1d8+3</attack>
+		</action>
+		<reaction>
+			<name>Parry</name>
+			<text>The vampire adds 3 to its AC against one melee attack that would hit it. To do so, the vampire must see the attacker and be wielding a melee weapon.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Mind Drinker Vampire</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>14</ac>
+		<hp>55 (10d8 + 10)</hp>
+		<speed>30 ft., fly 30 ft. (hover)</speed>
+		<str>16</str>
+		<dex>18</dex>
+		<con>12</con>
+		<int>19</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save>Dex +6, Int +6, Wis +3</save>
+		<skill>Deception +4, Insight +3, Perception +3, Stealth +6</skill>
+		<resist>necrotic</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Innate Spellcasting (Psionics)</name>
+			<text>The vampire's innate spellcasting ability is Intelligence (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text>	At will: message</text>
+			<text>	3/day each: charm person, hold person, mirror image, sleep</text>
+			<text>	1/day each: gaseous form, major image</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Message, Charm Person, Hold Person, Mirror Image, Sleep, Gaseous Form, Major Image</spells>
+		<trait>
+			<name>Shadow Stealth</name>
+			<text>While in dim light or darkness, the vampire can take the Hide action as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the vampire has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The vampire makes two attacks, only one of which can be a bite attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage.</text>
+			<text>	The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
+			<attack>Bite|7|1d6+4+2d6</attack>
+		</action>
+		<action>
+			<name>Unarmed Strike</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage. The vampire can also grapple the target (escape DC 13) if it is a creature and the vampire has a hand free.</text>
+			<attack>Unarmed Strike|6|1d8+4</attack>
+		</action>
+		<action>
+			<name>Mind Siphon (Recharge 5-6)</name>
+			<text>The vampire targets a creature it can see within 30 feet of it. The target must make a DC 14 Intelligence saving throw, with disadvantage if the vampire has previously consumed the target's blood. On a failed save, the target takes 28 (8d6) psychic damage, and the vampire discerns the target's surface emotions and thoughts. On a successful save, the target takes half as much damage, and the vampire discerns the target's general emotional state but not its thoughts.</text>
+			<attack>Mind Siphon||8d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Wurm</name>
+		<size>H</size>
+		<type>monstrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>200 (16d12 + 96)</hp>
+		<speed>SO ft., burrow 30 ft.</speed>
+		<str>24</str>
+		<dex>10</dex>
+		<con>12</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>4</cha>
+		<save>Con +11, Wis +6</save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>blindsight 60 ft., tremorsense 60 ft.</senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>14</cr>
+		<trait>
+			<name>Earth Tremors</name>
+			<text>The wurm creates earth tremors as it moves overland or underground. Any creature that comes within 30 feet of the moving wurm for the first time on a turn must succeed on a DC 20 Dexterity saving throw or take 10 (3d6) bludgeoning damage and fall prone. Any structure or object anchored to the ground that comes within 30 feet of the moving wurm for the first time on a turn takes 10 (3d6) force damage.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The wurm deals double damage to objects and structures.</text>
+		</trait>
+		<trait>
+			<name>Tunneler</name>
+			<text>The wurm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 24 (5d6 + 7) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 20 Dexterity saving throw or be swallowed by the wurm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the wurm, and takes 17 (5d6) acid damage at the start of each of the wurm's turns.</text>
+			<text>	If the wurm takes 30 damage or more on a single turn from a creature inside it, the wurm must succeed on a DC 21 Constitution saving throw at the end ofthat turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the wurm. If the wurm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</text>
+			<attack>Bite|12|5d6+7</attack>
+		</action>
+	</monster>
 </compendium>
