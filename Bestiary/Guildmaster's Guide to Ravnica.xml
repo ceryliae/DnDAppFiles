@@ -1174,4 +1174,210 @@
 			<attack>Slam|4|1d6+2+2d4</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Category 1 Krasis</name>
+		<size>M</size>
+		<type>monstrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>19 (3d8 + 6)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>13</wis>
+		<cha>8</cha>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The krasis can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Adaptations</name>
+			<text>Roll once on the Major Adaptations table and once on the Minor Adaptations table (or choose an option from each table) to determine its additional characteristics. The potency of some adaptations varies based on the category of the krasis, as indicated in the descriptions of those adaptations.</text>
+			<text>Major Adaptations</text>
+			<text>d8   Major Adaptations</text>
+			<text>1    Acidic Skin. Any creature that touches the krasis or hits it with a melee attack while within 5 feet of it takes 2 (1d4) acid damage (category 1), 4 (1d8) acid damage (category 2), or 6 (1d12) acid damage (category 3).</text>
+			<text>2    Armored Hide. The krasis has better natural armor afforded by a shell or thick scales, increasing its Armor Class by 4.</text>
+			<text>3    Bioluminescent Markings. The krasis has glowing patterns on its skin that take the shape of defensive runes, granting it advantage on saving throws against spells and other magical effects.</text>
+			<text>4    Flight. The krasis has wings and gains a flying speed equal to its walking speed.</text>
+			<text>5    Crabber. When the krasis hits a creature with its claws, the target is grappled (escape DC 13 for category 1, DC 15 for category 2, and DC 19 for category 3) by a specialized grasping appendage on the krasis. It can have only one creature grappled in this way at a time.</text>
+			<text>6    Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours.</text>
+			<text>7    Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be poisoned for 1 minute. If the krasis is a category 2 or 3, the creature is paralyzed while poisoned in this way. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>8    Regeneration. The krasis regains hit points (2 for a category 1, 5 for a category 2, and 10 for a category 3) at the start of each of its turns if it has at least 1 hit point.</text>
+			<text></text>
+			<text>Minor Adaptations</text>
+			<text>d8   Minor Adaptation</text>
+			<text>1    Amorphous Structure. The krasis can move through a space as narrow as 1 inch wide without squeezing.</text>
+			<text>2    Aquatic. The krasis gains a swimming speed equal to its walking speed.</text>
+			<text>3    Climbing Speed. The krasis gains a climbing speed equal to its walking speed.</text>
+			<text>4    Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity (Stealth) checks made to hide.</text>
+			<text>5    Heightened Awareness. The krasis can't be surprised, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes.</text>
+			<text>6    Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
+			<text>7    Leaping Legs. With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
+			<text>8    Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The krasis makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage.</text>
+			<attack>Bite|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +5 to hit, reach Sft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+			<attack>Claws|5|1d8+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Category 2 Krasis</name>
+		<size>L</size>
+		<type>monstrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>136 (16dl0 + 48)</hp>
+		<speed>40 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>16</con>
+		<int>2</int>
+		<wis>13</wis>
+		<cha>8</cha>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The krasis can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Adaptations</name>
+			<text>Roll once on the Major Adaptations table and once on the Minor Adaptations table (or choose an option from each table) to determine its additional characteristics. The potency of some adaptations varies based on the category of the krasis, as indicated in the descriptions of those adaptations.</text>
+			<text>Major Adaptations</text>
+			<text>d8   Major Adaptations</text>
+			<text>1    Acidic Skin. Any creature that touches the krasis or hits it with a melee attack while within 5 feet of it takes 2 (1d4) acid damage (category 1), 4 (1d8) acid damage (category 2), or 6 (1d12) acid damage (category 3).</text>
+			<text>2    Armored Hide. The krasis has better natural armor afforded by a shell or thick scales, increasing its Armor Class by 4.</text>
+			<text>3    Bioluminescent Markings. The krasis has glowing patterns on its skin that take the shape of defensive runes, granting it advantage on saving throws against spells and other magical effects.</text>
+			<text>4    Flight. The krasis has wings and gains a flying speed equal to its walking speed.</text>
+			<text>5    Crabber. When the krasis hits a creature with its claws, the target is grappled (escape DC 13 for category 1, DC 15 for category 2, and DC 19 for category 3) by a specialized grasping appendage on the krasis. It can have only one creature grappled in this way at a time.</text>
+			<text>6    Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours.</text>
+			<text>7    Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be poisoned for 1 minute. If the krasis is a category 2 or 3, the creature is paralyzed while poisoned in this way. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>8    Regeneration. The krasis regains hit points (2 for a category 1, 5 for a category 2, and 10 for a category 3) at the start of each of its turns if it has at least 1 hit point.</text>
+			<text></text>
+			<text>Minor Adaptations</text>
+			<text>d8   Minor Adaptation</text>
+			<text>1    Amorphous Structure. The krasis can move through a space as narrow as 1 inch wide without squeezing.</text>
+			<text>2    Aquatic. The krasis gains a swimming speed equal to its walking speed.</text>
+			<text>3    Climbing Speed. The krasis gains a climbing speed equal to its walking speed.</text>
+			<text>4    Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity (Stealth) checks made to hide.</text>
+			<text>5    Heightened Awareness. The krasis can't be surprised, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes.</text>
+			<text>6    Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
+			<text>7    Leaping Legs. With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
+			<text>8    Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The krasis makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 17 (2d12 + 4) piercing damage.</text>
+			<attack>Bite|7|2d12+4</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.</text>
+			<attack>Claws|7|2d12+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Category 3 Krasis</name>
+		<size>H</size>
+		<type>monstrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>287 (25d12 + 125)</hp>
+		<speed>40 ft.</speed>
+		<str>23</str>
+		<dex>12</dex>
+		<con>21</con>
+		<int>2</int>
+		<wis>13</wis>
+		<cha>8</cha>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>16</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The krasis can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Adaptations</name>
+			<text>Roll once on the Major Adaptations table and once on the Minor Adaptations table (or choose an option from each table) to determine its additional characteristics. The potency of some adaptations varies based on the category of the krasis, as indicated in the descriptions of those adaptations.</text>
+			<text>Major Adaptations</text>
+			<text>d8   Major Adaptations</text>
+			<text>1    Acidic Skin. Any creature that touches the krasis or hits it with a melee attack while within 5 feet of it takes 2 (1d4) acid damage (category 1), 4 (1d8) acid damage (category 2), or 6 (1d12) acid damage (category 3).</text>
+			<text>2    Armored Hide. The krasis has better natural armor afforded by a shell or thick scales, increasing its Armor Class by 4.</text>
+			<text>3    Bioluminescent Markings. The krasis has glowing patterns on its skin that take the shape of defensive runes, granting it advantage on saving throws against spells and other magical effects.</text>
+			<text>4    Flight. The krasis has wings and gains a flying speed equal to its walking speed.</text>
+			<text>5    Crabber. When the krasis hits a creature with its claws, the target is grappled (escape DC 13 for category 1, DC 15 for category 2, and DC 19 for category 3) by a specialized grasping appendage on the krasis. It can have only one creature grappled in this way at a time.</text>
+			<text>6    Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours.</text>
+			<text>7    Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be poisoned for 1 minute. If the krasis is a category 2 or 3, the creature is paralyzed while poisoned in this way. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>8    Regeneration. The krasis regains hit points (2 for a category 1, 5 for a category 2, and 10 for a category 3) at the start of each of its turns if it has at least 1 hit point.</text>
+			<text></text>
+			<text>Minor Adaptations</text>
+			<text>d8   Minor Adaptation</text>
+			<text>1    Amorphous Structure. The krasis can move through a space as narrow as 1 inch wide without squeezing.</text>
+			<text>2    Aquatic. The krasis gains a swimming speed equal to its walking speed.</text>
+			<text>3    Climbing Speed. The krasis gains a climbing speed equal to its walking speed.</text>
+			<text>4    Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity (Stealth) checks made to hide.</text>
+			<text>5    Heightened Awareness. The krasis can't be surprised, as a result of having sensitive barbels like a catfish, stereoscopic vision like a chameleon, a tongue like a snake, eye stalks like a lobster, or an array of several eyes.</text>
+			<text>6    Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can use a bonus action to expel a cloud of ink and then move up to its speed. The ink cloud is stationary and fills a 20-foot-radius sphere centered on a point in the krasis's space before it moves. The sphere is heavily obscured until the ink disperses after 1 minute. A strong current also disperses the ink cloud.</text>
+			<text>7    Leaping Legs. With or without a running start, the krasis's long jump is 20 feet (category 1), 30 feet (category 2), or 40 feet (category 3). Its high jump is 10 feet (category 1), 20 feet (category 2), or 30 feet (category 3).</text>
+			<text>8    Stabilizing Legs. The krasis has several crablike legs. As a result, it has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The krasis makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit: 27 (6d6 + 6) piercing damage.</text>
+			<attack>Bite|11|6d6+6</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) slashing damage.</text>
+			<attack>Claws|11|3d10+6</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 33 (6d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone.</text>
+			<attack>Tail|11|6d8+6</attack>
+		</action>
+	</monster>
 </compendium>
