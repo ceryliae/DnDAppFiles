@@ -690,4 +690,180 @@
 			<attack>Claws|7|3d6+4</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Bloodfray Giant</name>
+		<size>L</size>
+		<type>giant, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>103 (9d12 + 45)</hp>
+		<speed>40 ft.</speed>
+		<str>23</str>
+		<dex>9</dex>
+		<con>20</con>
+		<int>7</int>
+		<wis>8</wis>
+		<cha>9</cha>
+		<save>Str +9, Con +8, Wis +2</save>
+		<skill>Athletics +9, Perception +2</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<passive>12</passive>
+		<languages>Giant</languages>
+		<cr>6</cr>
+		<action>
+			<name>Chain</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 20 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage. If the target is a creature, it is grappled (escape DC 17). Until the grapple ends, the target is restrained, and the giant can't use this attack on anyone else.</text>
+			<attack>Chain|9|3d6+6</attack>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text> Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.</text>
+			<attack>Rock|9|3d6+6</attack>
+		</action>
+		<reaction>
+			<name>Furious Defense</name>
+			<text>After a creature the giant can see is dealt damage by a foe within 20 feet of the giant, the giant makes a chain attack against that foe.</text>
+			<attack>Chain|9|3d6+6</attack>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Guardian Giant</name>
+		<size>H</size>
+		<type>giant, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>19 (half plate, shield)</ac>
+		<hp>137 (11d12 + 66)</hp>
+		<speed>40 ft.</speed>
+		<str>24</str>
+		<dex>17</dex>
+		<con>22</con>
+		<int>10</int>
+		<wis>18</wis>
+		<cha>12</cha>
+		<save>Dex +6, Wis +7</save>
+		<skill>Insight +7, Perception +10</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<passive>20</passive>
+		<languages>Common, Giant</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Vigilant</name>
+			<text>The giant can't be surprised</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The giant makes three spear attacks.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +10 to hit, reach 10 ft. or range 60/240 ft., one target. Hit: 17 (3d6 + 7) piercing damage, or 20 (3d8 + 7) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|10|3d6+7</attack>
+			<attack>Spear (2H)|10|3d8+7</attack>
+		</action>
+		<reaction>
+			<name>Protection</name>
+			<text>When an attacker the giant can see makes an attack roll against a creature within 10 feet of the giant, the giant can impose disadvantage on the attack roll.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Orzhov Giant</name>
+		<size>L</size>
+		<type>giant, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful evil</alignment>
+		<ac>18 (plate)</ac>
+		<hp>84 (8d10 + 40)</hp>
+		<speed>40 ft.</speed>
+		<str>23</str>
+		<dex>13</dex>
+		<con>21</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>7</cha>
+		<save>Dex +4, Con +8, Wis +4</save>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Giant</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Focus</name>
+			<text>As a bonus action, the giant can target a creature it can see within 30 feet of it and make that creature its focus. The target remains the giant's focus for 1 minute, or until either the target or the giant drops to 0 hit points.</text>
+			<text>	When the giant makes an attack roll against its focus, it adds a d4 to its attack roll. If the giant attacks a different target while it has a focus, it subtracts a d4 from its attack roll.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The giant makes two greataxe attacks.</text>
+		</action>
+		<action>
+			<name>Greataxe</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage. If the Orzhov giant scores a critical hit, it rolls the damage dice three times, instead of twice.</text>
+			<attack>Greataxe|9|3d12+6</attack>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.</text>
+			<attack>Rock|9|4d10+6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Sunder Shaman</name>
+		<size>H</size>
+		<type>giant, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>20 (stone armor)</ac>
+		<hp>138 (12d12 + 60}</hp>
+		<speed>40 ft.</speed>
+		<str>23</str>
+		<dex>15</dex>
+		<con>21</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>9</cha>
+		<save>Dex +6, Con +9, Wis +5</save>
+		<skill>Athletics +10, Perception +5</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision60 ft.</senses>
+		<passive>15</passive>
+		<languages>Giant</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start of its turn, the giant can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The giant deals double damage to objects and structures.</text>
+		</trait>
+		<trait>
+			<name>Stone Camouflage</name>
+			<text>The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The giant makes two slam attacks. The first of those attacks that hits deals an extra 18 (4d8) damage if the giant has taken damage since its last turn.</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 24 (4d8 + 6) bludgeoning damage.</text>
+			<attack>Slam|10|4d8+6</attack>
+			<attack>Extra Dmg||4d8</attack>
+		</action>
+		<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</text>
+			<attack>Rock|10|4d10+6</attack>
+		</action>
+	</monster>
 </compendium>
