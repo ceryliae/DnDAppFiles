@@ -2250,4 +2250,218 @@
 			<attack>Bite|12|5d6+7</attack>
 		</action>
 	</monster>
+	<!--Guild NPC's -->
+	<monster>
+		<name>Soldier</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>any alignment</alignment>
+		<ac>18 (chain mail, shield)</ac>
+		<hp>16 (3d8 + 3)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill>Perception +2, Athletics +3</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Formation Tactics</name>
+			<text>The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The soldier makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.</text>
+			<attack>Longsword (1H)|3|1d8+2</attack>
+			<attack>Longsword (2H)|3|1d10+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Isperia</name>
+		<size>G</size>
+		<type>monstrosity, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>261 (18d20 + 72)</hp>
+		<speed>40 ft., fly 60 ft.</speed>
+		<str>20</str>
+		<dex>14</dex>
+		<con>18</con>
+		<int>23</int>
+		<wis>26</wis>
+		<cha>20</cha>
+		<save>Dex +9, Con +11, Int +13, Wis +15</save>
+		<skill>Arcana +13, History +13, Insight +15, Perception +15</skill>
+		<resist></resist>
+		<immune>psychic; bludgeoning, piercing, and slashing from nonmagical attacks</immune>
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>25</passive>
+		<languages>Common, Sphinx</languages>
+		<cr>21</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Isperia's innate spellcasting ability is Wisdom (spell save DC 23). Isperia can innately cast imprisonment twice per day, requiring no material components.</text>
+		</trait>
+		<trait>
+			<name>Inscrutable</name>
+			<text>Isperia is immune to any effect that would sense her emotions or read her thoughts, as well as any divination spell that she refuses. Wisdom (Insight) checks made to ascertain her intentions or sincerity have disadvantage.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Isperia fails a saving throw, she can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Isperia has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Isperia is a 15th-level Azorius spellcaster. Her spellcasting ability is Wisdom (spell save DC 23, +14 to hit with spell attacks). Isperia has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): guidance, light, resistance, sacred flame, thaumaturgy</text>
+			<text>1st level (4 slots): command, detect evil and good, ensnaring strike, sanctuary, shield of faith</text>
+			<text>2nd level (3 slots): arcane lock, augury, calm emotions, hold person, silence, zone oftruth</text>
+			<text>3rd level (3 slots): bestow curse, clairvoyance, counterspell, dispel magic, tongues</text>
+			<text>4th level (3 slots): divination, locate creature</text>
+			<text>5th level (2 slots): dispel evil and good, scrying</text>
+			<text>6th level (1 slot): word of recall</text>
+			<text>7th level (1 slot): divine word</text>
+			<text>8th level (1 slot): antimagic field</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Imprisonment, Guidance, Light, Resistance, Sacred Flame, Thaumaturgy, Command, Detect Evil and Good, Ensnaring Strike, Sanctuary, Shield of Faith, Arcane Lock, Augury, Calm Emotions, Hold Person, silence, Zone of Truth, Bestow Curse, Clairvoyance, Counterspell, Dispel Magic, Tongues, Divination, Locate Creature, Dispel Evil and Good, Scrying, Word of Recall, Divine Word, Antimagic Field</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>Isperia makes two claw attacks. She can cast a spell with a casting time of 1 action in place of one claw attack.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) slashing damage. If the target is a creature, it must succeed on a DC 23 Wisdom saving throw or take 14 (4d6) psychic damage after each attack it makes against lsperia before the start ofher next turn.</text>
+			<attack>Claw|12|2d10+5</attack>
+			<attack>Claw (psychic dmg)||4d6</attack>
+		</action>
+		<action>
+			<name>Supreme Legal Authority</name>
+			<text>Isperia chooses up to three creatures she can see within 90 feet of her. Each target must succeed on a DC 23 Intelligence saving throw or Isperia chooses an action for that target: Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, or Use an Object. The affected target can't take that action for 1 minute. At the end of each of the target's turns, it can end the effect on itself with a successful DC 23 Intelligence saving throw. A target that succeeds on the saving throw becomes immune to Isperia's Supreme Legal Authority for 24 hours.</text>
+		</action>
+		<legendary>
+			<name>Claw Attack</name>
+			<text>Isperia makes one claw attack.</text>
+			<attack>Claw|12|2d10+5</attack>
+			<attack>Claw (psychic dmg)||4d6</attack>
+		</legendary>
+		<legendary>
+			<name>Cast a Spell (Costs 2 Actions)</name>
+			<text>Isperia casts a spell of 3rd level or lower from her list of prepared spells, using a spell slot as normal.</text>
+		</legendary>
+		<legendary>
+			<name>Supreme Legal Authority (Costs 3 Actions)</name>
+			<text>Isperia uses Supreme Legal Authority.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Lawmage</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>15 (breastplate)</ac>
+		<hp>84 (13d8 + 26)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>17</int>
+		<wis>14</wis>
+		<cha>13</cha>
+		<save>Int +6, Wis +5</save>
+		<skill>Arcana +6, Perception +5, Persuasion +4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common plus any one language</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The lawmage is an 8th-level Azorius spellcaster. Its spellcasting ability is Intelligence (spellsave DC 14, +6 to hit with spell attacks). The lawmage has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): fire bolt, friends, light, message</text>
+			<text>1st level (4 slots): alarm, expeditious retreat, shield</text>
+			<text>2nd level (3 slots): arcane lock, detect thoughts, hold person</text>
+			<text>3rd level (3 slots): clairvoyance, dispel magic, slow</text>
+			<text>4th level (2 slots): locate creature, stoneskin</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Fire Bolt, Friends, Light, Message, Alarm, Expeditious Retreat, Shield, Arcane Lock, Detect Thoughts, Hold Person, Clairvoyance, Dispel Magic, Slow, Locate Creature, Stoneskin</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff (1H)|4|1d6+1</attack>
+			<attack>Quarterstaff (2H)|4|1d8+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Precognitive Mage</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>11 (14 with mage armor)</ac>
+		<hp>63 (14d8)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str>
+		<dex>13</dex>
+		<con>10</con>
+		<int>18</int>
+		<wis>13</wis>
+		<cha>11</cha>
+		<save>Int +6, Wis +3</save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>13</passive>
+		<languages>Common plus any one language</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The mage's innate spellcasting ability is Intelligence (spell save DC 14). It can cast the following spells, requiring no material components:</text>
+			<text>3/day: detect thoughts, mage armor</text>
+			<text>1/day each: clairvoyance, locate object</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Detect Thoughts, Mage Armor, Clairvoyance, Locate Object</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff (1H)|1|1d6-1</attack>
+			<attack>Quarterstaff (2H)|1|1d8-1</attack>
+		</action>
+		<action>
+			<name>Glimpse the Temporal Flood (Recharge 5-6)</name>
+			<text>The mage targets one creature within 120 feet of it that it can see. The target takes 18 (4d8) psychic damage, and it must succeed on a DC 14 Intelligence saving throw or be stunned until the end of its next turn.</text>
+			<attack>Glipmse the Temporal Flood||4d8</attack>
+		</action>
+		<reaction>
+			<name>Precognitive Insight (3/Day)</name>
+			<text>When the mage or a creature it can see makes an attack roll, a saving throw, or an ability check, the mage can cause the roll to be made with advantage or disadvantage.</text>
+		</reaction>
+	</monster>
 </compendium>
