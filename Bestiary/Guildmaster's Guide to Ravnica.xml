@@ -1017,4 +1017,37 @@
 			<text>The horror targets one creature it can see within 30 feet of it. If the target can see or hear the horror, the target must make a DC 17 Wisdom saving throw. On a failed saving throw, the target becomes paralyzed until the end of its next turn. If a creature's saving throw is successful, the creature is immune to the horror's Maddening Presence for the next 24 hours.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Indentured Spirit</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>any alignment</alignment>
+		<ac>11</ac>
+		<hp>13 (3d8)</hp>
+		<speed>0 ft., fly 40 ft. (hover)</speed>
+		<str>7</str>
+		<dex>13</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>11</cha>
+		<skill></skill>
+		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>cold, necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>the languages it knew in life</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d1O) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<action>
+			<name>Withering Touch</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10 (3d6) necrotic damage.</text>
+			<attack>Withering Touch|3|3d6</attack>
+		</action>
+	</monster>
 </compendium>
