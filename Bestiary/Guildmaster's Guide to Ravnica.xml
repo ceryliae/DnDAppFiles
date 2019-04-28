@@ -643,7 +643,7 @@
 		<alignment>lawful neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>93 (11d10 + 33)</hp>
-		<speed>40 ft.</speed>
+		<speed>40 ft., fly 40 ft.</speed>
 		<str>19</str>
 		<dex>16</dex>
 		<con>17</con>
@@ -880,6 +880,7 @@
 		<int>2</int>
 		<wis>15</wis>
 		<cha>16</cha>
+		<save></save>
 		<skill>Perception +4, Stealth +7</skill>
 		<resist></resist>
 		<immune></immune>
@@ -921,6 +922,7 @@
 		<int>2</int>
 		<wis>17</wis>
 		<cha>18</cha>
+		<save></save>
 		<skill>Perception +4, Stealth +7</skill>
 		<resist></resist>
 		<immune></immune>
@@ -981,6 +983,7 @@
 		<int>2</int>
 		<wis>14</wis>
 		<cha>18</cha>
+		<save></save>
 		<skill>Perception +7, Stealth +8</skill>
 		<resist></resist>
 		<immune></immune>
@@ -1031,6 +1034,7 @@
 		<int>10</int>
 		<wis>12</wis>
 		<cha>11</cha>
+		<save></save>
 		<skill></skill>
 		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<immune>cold, necrotic, poison</immune>
@@ -1064,6 +1068,7 @@
 		<int>5</int>
 		<wis>10</wis>
 		<cha>7</cha>
+		<save></save>
 		<skill></skill>
 		<resist>cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<immune>poison</immune>
@@ -1111,6 +1116,7 @@
 		<int>6</int>
 		<wis>10</wis>
 		<cha>7</cha>
+		<save></save>
 		<skill></skill>
 		<resist>thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<immune>lightning, poison</immune>
@@ -1155,6 +1161,7 @@
 		<int>3</int>
 		<wis>10</wis>
 		<cha>5</cha>
+		<save></save>
 		<skill></skill>
 		<resist>cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
 		<immune>poison</immune>
@@ -1188,6 +1195,7 @@
 		<int>2</int>
 		<wis>13</wis>
 		<cha>8</cha>
+		<save></save>
 		<skill></skill>
 		<resist></resist>
 		<immune></immune>
@@ -1255,6 +1263,7 @@
 		<int>2</int>
 		<wis>13</wis>
 		<cha>8</cha>
+		<save></save>
 		<skill></skill>
 		<resist></resist>
 		<immune></immune>
@@ -1322,6 +1331,7 @@
 		<int>2</int>
 		<wis>13</wis>
 		<cha>8</cha>
+		<save></save>
 		<skill></skill>
 		<resist></resist>
 		<immune></immune>
@@ -1378,6 +1388,151 @@
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 33 (6d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone.</text>
 			<attack>Tail|11|6d8+6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kraul Warrior</name>
+		<size>M</size>
+		<type>humanoid (kraul), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>27 (5d8 + 5)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>15</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60ft.</senses>
+		<passive>11</passive>
+		<languages>Kraul, understands Common but can't speak it</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Hive Mind</name>
+			<text>The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kraul has advantage on an attack roll against a creature if at least one ofthe kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/ 60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|4|1d6+2</attack>
+			<attack>Spear (2H)|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Winged Kraul Warrior</name>
+		<size>M</size>
+		<type>humanoid (kraul), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>27 (5d8 + 5)</hp>
+		<speed>30 ft., climb 30 ft., fly 40 ft.</speed>
+		<str>15</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60ft.</senses>
+		<passive>11</passive>
+		<languages>Kraul, understands Common but can't speak it</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Hive Mind</name>
+			<text>The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kraul has advantage on an attack roll against a creature if at least one ofthe kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/ 60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|4|1d6+2</attack>
+			<attack>Spear (2H)|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kraul Death Priest</name>
+		<size>M</size>
+		<type>humanoid (kraul), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>65 (10d8 + 20)</hp>
+		<speed>30 ft., climb 30 ft., fly 40 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>15</wis>
+		<cha>10</cha>
+		<save>Con +4, Wis +4</save>
+		<skill>Insight +4, Nature +3, Religion +3</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Kraul</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Feed on Death</name>
+			<text>When a creature within 30 feet of the kraul drops to 0 hit points, the kraul or another creature of its choice within 30 feet o f it gains 5 (1d10) temporary hit points, provided the kraul isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Hive Mind</name>
+			<text>The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The kraul's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kraul can innately cast the following spells, requiring no mate- rial components:</text>
+			<text>At will: chill touch, poison spray</text>
+			<text>3/day each: ray of enfeeblement, ray of sickness</text>
+			<text>1/day each: animate dead, blight, vampiric touch</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Chill Touch, Poison Spray, Ray of Enfeeblement, Ray of Sickness, Animate Dead, Blight, Vampiric Touch</spells>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kraul has advantage on an attack roll against a creature if at least one ofthe kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The kraul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The kraul makes one attack with its quarterstaff and casts one of its spells with a casting time of 1 action.</text>
+		</action>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff (1H)|5|1d6+3</attack>
+			<attack>Quarterstaff (2H)|5|1d8+3</attack>
 		</action>
 	</monster>
 </compendium>
