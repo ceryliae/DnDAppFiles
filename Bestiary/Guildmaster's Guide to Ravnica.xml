@@ -3210,4 +3210,285 @@
 			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 	</monster>
+		<monster>
+		<name>Niv-Mizzet</name>
+		<size>G</size>
+		<type>dragon, Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>22 (natural armor)</ac>
+		<hp>370 (19d20 + 171)</hp>
+		<speed>40 ft., climb 30 ft., fly 80 ft.</speed>
+		<str>29</str>
+		<dex>14</dex>
+		<con>29</con>
+		<int>30</int>
+		<wis>17</wis>
+		<cha>25</cha>
+		<save>Con +17, Int +18, Wis +11</save>
+		<skill>Arcana +18, Insight +11, Perception +11</skill>
+		<resist>cold, psychic, thunder</resist>
+		<immune>fire, lightning</immune>
+		<conditionImmune>charmed</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>blindsight 60 ft., darkvision 120 ft.</senses>
+		<passive>21</passive>
+		<languages>Common, Draconic</languages>
+		<cr>26</cr>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Niv-Mizzet fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Locus of the Firemind</name>
+			<text>Niv-Mizzet can maintain concentration on two different spells at the same time. In addition, he has advantage on saving throws to maintain concentration on spells.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Niv-Mizzet has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Master Chemister</name>
+			<text>When Niv-Mizzet casts a spell that deals damage, he can change the spell's damage to cold, fire, force, lightning, or thunder.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Niv-Mizzet is a 20th-level lzzet spellcaster. His spellcasting ability is Intelligence (spell save DC 26, +18 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<spell>Cantrips (at will): fire bolt, light, prestidigitation, ray of frost, shocking grasp</text>
+			<spell>1st level (4 slots): detect magic, magic missile, shield, thunderwave, unseen servant</text>
+			<spell>2nd level (3 slots): blur, enlarge/reduce, flaming sphere, scorching ray</text>
+			<spell>3rd level (3 slots): counterspell, fireball, hold person, lightning bolt, slow</text>
+			<spell>4th level (3 slots): confusion, dimension door, fabricate</text>
+			<spell>5th level (2 slots): conjure elemental, polymorph, wall of fire, wall of force</text>
+			<spell>6th level (1 slot): chain lightning, disintegrate, true seeing</text>
+			<spell>7th level (1 slot): project image, reverse gravity, teleport</text>
+			<spell>8th level (1 slot): control weather, maze, power word stun</text>
+			<spell>9th level (1 slot): prismatic wall</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,1,1</slots>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Fire Bolt, Light, Prestidigitation, Ray of Frost, Shocking Grasp, Detect Magic, Magic Missile, Shield, Thunderwave, Unseen Servant, Blur, Enlarge/Reduce, Flaming Sphere, Scorching Ray, Counterspell, Fireball, Hold Person, Lightning Bolt, Slow, Confusion, Dimension Door, Fabricate, Conjure Elemental, Polymorph, Wall of Fire, Wall of Force, Chain Lightning, Disintegrate, True Seeing, Project Image, Reverse Gravity, Teleport, Control Weather, Maze, Power Word Stun, Prismatic Wall
+		</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>Niv-Mizzet makes three attacks: one with his bite and two with his claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 18 (2d8 + 9) piercing damage plus 14 (4d6) fire damage.</text>
+			<attack>Bite|17|2d8+9+4d6</attack>
+		</action>
+				<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 14 (2d4 + 9) slashing damage.</text>
+			<attack>Claw|17|2d4+9</attack>
+		</action>
+						<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 16 (2d6 + 9) bludgeoning damage.</text>
+			<attack>Tail|17|2d6+9</attack>
+		</action>
+		<action>
+			<name>Fire Breath (Recharge 5-6)</name>
+			<text>Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Fire Breath||26d6</attack>
+		</action>
+				<action>
+			<name>Cantrip</name>
+			<text>Niv-Mizzet casts one of his cantrips</text>
+		</action>
+				<action>
+			<name>Tail Attack</name>
+			<text>Niv-Mizzet makes a tail attack.</text>
+			<attack>Tail|17|2d6+9</attack>
+		</action>
+				<action>
+			<name>Wing Attack (Costs 2 Actions)</name>
+			<text>Niv-Mizzet beats his wings. Each creature within 15 feet of him must succeed on a DC 25 Dexterity saving throw or take 14 (2d4 + 9) bludgeoning damage and be knocked prone. Niv-Mizzet can then fly up to half his flying speed.</text>
+			<attack>Fire Breath||26d6</attack>
+		</action>
+				<action>
+			<name>Dracogenius (Costs 3 Actions)</name>
+			<text>Niv-Mizzet regains a spell slot of 3rd level or lower.</text>
+		</action>
+	</monster>
+<monster>
+		<name>Comsotronic Blastseeker</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>15 (chain shirt)</ac>
+		<hp>37 (5d8 + 15)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>18</int>
+		<wis>9</wis>
+		<cha>12</cha>
+		<save>Dex +4, Con +5</save>
+		<skill>Arcana +6, Intimidation +3, Perception +1</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Empowered Spell (3/Day)</name>
+			<text>When the blastseeker rolls damage for a spell, it can reroll up to four dice of damage. It must use the new dice.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The blastseeker's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear, which doesn't function for others:</text>
+			<text>3/day each: scorching ray, shield, thunderwave</text>
+			<text>2/day: fireball</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Scorching Ray, Shield, Thunderwave, Fireball</spells>
+		<trait>
+			<name>Tides of Chaos (1/Day)</name>
+			<text>The blastseeker makes one attack roll, ability check, or saving throw with advantage.</text>
+		</trait>
+		<action>
+			<name>Warhammer</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage if used with two hands.</text>
+			<attack>Warhammer (1H)|4|1d8+2</attack>
+			<attack>Warhammer (1H)|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Counterflux Blastseeker</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>39 (6d8 + 12)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>18</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save>Con +4, Wis +2</save>
+		<skill>Arcana +6, Perception +2</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common plus any one language</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Counterflux Overcast (Recharge 5-6</name>
+			<text>The blastseeker can create an additional effect immediately after casting a spell. Roll a d6 to determine the effect:</text>
+			<text>1-3. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have disadvantage on saving throws against spells and other magical effects.</text>
+			<text>4-6. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The blastseeker's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear,which doesn't function for others:</text>
+			<text>3/day each: enlarge/reduce, mage armor (self only), scorching ray</text>
+			<text>1/day each: counterspell, dispel magic, protection from energy</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Enlarge/Reduce, Mage Armor, Scorching Ray, Counterspell, Dispel Magic, Protection from Energy</spells>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>Rapier|5|1d8+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Galvanic Blastseeker</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>13</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>17</dex>
+		<con>14</con>
+		<int>19</int>
+		<wis>10</wis>
+		<cha>13</cha>
+		<save>Dex +6</save>
+		<skill>Acrobatics +6, Arcana +7, Perception +3</skill>
+		<resist>lightning, thunder</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>Common and Primordial, plus any one language</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Galvanic Overcast (Recharge 5-6)</name>
+			<text>When the blastseeker casts lightning bolt or thunderwave, it can roll a die. On an odd num- ber, the blastseeker takes 9 (2d8) force damage. On an even number, the spell also deals 9 (2d8) lightning damage to each target that fails its saving throw.</text>
+		</trait>
+		<trait>
+			<name>Heart ofthe Storm</name>
+			<text>When the blastseeker casts lightning bolt or thunderwave, all other creatures within 10 feet of the blastseeker each take 3 lightning damage.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The blastseeker's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The blastseeker can innately cast the following spells, requiring no components other than its Izzet gear, which doesn't function for others:</text>
+			<text>3/day each: levitate, lightning bolt, thunderwave</text>
+			<text>1/day: stoneskin</text>
+		</trait>
+		<trait>
+			<name>Gust-Propelled Leap</name>
+			<text>The blastseeker can use a bonus action to fly up to 10 feet without provok ing opportunity attacks.</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Levitate, Lightning Bolt, Thunderwave, Stoneskin</spells>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|3|1d6</attack>
+			<attack>Spear (2H)|3|1d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Scorchbringer Guard</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>16 (breastplate)</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>9</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Explosive Tank</name>
+			<text>When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer action recharges, the tank on its back explodes in a 10-foot radius sphere. Each creature in that area must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or halfas much damage on a successful one. The explosion ignites flammable objects that aren't being worn or carried, and it destroys the scorchbringer.</text>
+		</trait>
+		<action>
+			<name>Light Hammer</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Light Hammer|4|1d4+2</attack>
+		</action>
+				<action>
+			<name>Scorchbringer (Recharge 4-6)</name>
+			<text>The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+		</action>
+	</monster>
 </compendium>
