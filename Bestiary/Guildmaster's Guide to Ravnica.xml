@@ -3562,7 +3562,301 @@
 		</legendary>
 		<legendary>
 			<name>Indentured Spirits (Costs 3 Actions)</name>
-			<text>The Obzedat ghosts conjure ld6 indentured spirits (described in this chapter) within 60 feet of one of them.</text>
+			<text>The Obzedat ghosts conjure 1d6 indentured spirits (described in this chapter) within 60 feet of one of them.</text>
 		</legendary>
+	</monster>
+	<monster>
+		<name>Rakdos</name>
+		<size>H</size>
+		<type>fiend (demon), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>20 (natural armor)</ac>
+		<hp>300 (24d12 + 144)</hp>
+		<speed>40 ft., fly 80 ft.</speed>
+		<str>26</str>
+		<dex>15</dex>
+		<con>22</con>
+		<int>14</int>
+		<wis>18</wis>
+		<cha>30</cha>
+		<save>Str +15, Con +13, Wis +11, Cha +17</save>
+		<skill>Intimidation +17, Performance +17, Persuasion +17</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>charmed, exhausted, frightened, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, Common</languages>
+		<cr>24</cr>
+		<trait>
+			<name>Captivating Presence</name>
+			<text>Any creature that starts its turn within 30 feet of Rakdos must make a DC 25 Wisdom saving throw. On a failed save, the creature becomes charmed by Rakdos for 1 minute or until the creature is farther than 30 feet away from him. On a successful save, the creature becomes immune to Rakdos's Captivating Presence for 24 hours.</text>
+		</trait>
+		<trait>
+			<name>Cruel Entertainment</name>
+			<text>When a creature Rakdos can see within 60 feet of him is reduced to 0 hit points, Rakdos gains 25 temporary hit points.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Rakdos's spellcasting ability is Charisma (spell save DC 25). He can innately cast hellish rebuke (at 5th level) at will, requiring no material components.</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Hellish Rebuke</spells>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Rakdos fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Rakdos has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>Rakdos's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Rakdos makes two attacks with his Curtain-Call Scythe or his claws.</text>
+		</action>
+		<action>
+			<name>Curtain-Call Scythe</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 24 (3d10 + 8) slashing damage plus 13 (3d8) fire damage.</text>
+			<attack>Curtain-Call Scythe|15|3d10+8+3d8</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) slashing damage.</text>
+			<attack>Claw|15|2d8+8</attack>
+		</action>
+		<legendary>
+			<name>Sadistic Revelry</name>
+			<text>Each creature within 60 feet o f Rakdos that is his ally or is charmed by him must use its reaction to move up to half its speed toward the creature closest to it that it can see, provided it isn't already within Sfeet ofthat creature. It then must make one melee attack against that creature if it is able to do so.</text>
+		</legendary>
+		<legendary>
+			<name>Scythe (Costs 2 Actions)</name>
+			<text>Rakdos uses Curtain-Call Scythe</text>
+			<attack>Curtain-Call Scythe|15|3d10+8+3d8</attack>
+		</legendary>
+		<legendary>
+			<name>Touch of Pain (Costs 3 Actions)</name>
+			<text>Rakdos makes a claw attack against one creature within 10 feet of him. The target must succeed on a DC 25 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the creature can't maintain concentration on a spell or any other effect that requires concentration. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Claw|15|2d8+8</attack>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Blood Witch</name>
+		<size>M</size>
+		<type>Humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>78 (12d8 + 24)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>13</int>
+		<wis>9</wis>
+		<cha>19</cha>
+		<save>Wis +2, Cha +7</save>
+		<skill>Arcana +4, Intimidation +7, Perception +2, Stealth +5</skill>
+		<resist>psychic</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive></passive>
+		<languages>Abyssal plus any one language (usually Common)</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Blood Witch Dance</name>
+			<text>The witch can use a bonus action to control the movement ofone creature cursed by its hex spell that it can see within 30 feet ofit. The creature must succeed on a DC 15 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice.</text>
+		</trait>
+		<trait>
+			<name>Devil's Sight</name>
+			<text>Magical darkness doesn't impede the witch's darkvision.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The witch's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:</text>
+			<text>At will: alter self, detect magic, eldritch blast (at 11th level).false life, levitate (self only), mage armor (self only)</text>
+<text>1/day each: circle of death, enthrall, suggestion</text>
+<text>3/day each: hellish rebuke, hex, scorching ray (at 3rd level)</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Alter Self, Detect Magic, Eldritch Blast, False Life, Levitate, Mage Armor, Circle of Death, Enthrall, Suggestion, Hellish Rebuke, Hex, Scorching Ray</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The witch makes two attacks: one with its longsword and one with its shortsword.</text>
+		</action>
+				<action>
+			<name>Longsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+			<attack>Longsword|6|1d8+3</attack>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|6|1d6+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Rakdos Lampooner</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>12 (leather armor)</ac>
+		<hp>27 (5d8 + 5)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>12</int>
+		<wis>9</wis>
+		<cha>18</cha>
+		<save></save>
+		<skill>Deception +6, Performance +6</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>Common plus any one language</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The lampooner is a 4th-level Rakdos spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following bard spells:</text>
+			<text>Cantrips (at will): dancing lights, minor illusion, vicious mockery</text>
+			<text>1st level (4 slots): bane, dissonant whispers , silent image, Tasha's hideous laughter, thunderwave</text>
+			<text>2nd level (3 slots): crown of madness, enthrall, suggestion</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
+		<spells>Dancing Lights, Minor Illusion, Vicious Mockery, Bane, Dissonant Whispers, Silent Image, Tasha's Hideous Laughter, Thunderwave, Crown of Madness, Enthrall, Suggestion</spells>
+		<action>
+			<name>Club</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+			<attack>Club|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Rakdos Performer (Blade Juggler)</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>40 ft., climb 30 ft.</speed>
+		<str>13</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>8</wis>
+		<cha>15</cha>
+		<save>Dex +5, Cha +4</save>
+		<skill>Acrobatics +7, Performance + 4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Nimble</name>
+			<text>The performer can take the Disengage action as a bonus action on each ofits turns.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The juggler makes three dagger attacks.</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Rakdos Performer (Fire Eater)</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>40 ft., climb 30 ft.</speed>
+		<str>13</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>8</wis>
+		<cha>15</cha>
+		<save>Dex +5, Cha +4</save>
+		<skill>Acrobatics +7, Performance + 4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Nimble</name>
+			<text>The performer can take the Disengage action as a bonus action on each ofits turns.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The fire eater makes two attacks with its bladed chain.</text>
+		</action>
+		<action>
+			<name>Bladed Chain</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Bladed Chain|5|1d6+3</attack>
+		</action>
+				<action>
+			<name>Spew Flame (Recharge 4-6)</name>
+			<text>The fire eater exhales flames. Each creature in a 15-foot cone must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Spew Flame||2d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Rakdos Performer (Blade Juggler)</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>40 ft., climb 30 ft.</speed>
+		<str>13</str>
+		<dex>17</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>8</wis>
+		<cha>15</cha>
+		<save>Dex +5, Cha +4</save>
+		<skill>Acrobatics +7, Performance + 4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Nimble</name>
+			<text>The performer can take the Disengage action as a bonus action on each ofits turns.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The acrobat makes two attacks with its barbed pole.</text>
+		</action>
+		<action>
+			<name>Barbed Pole</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the acrobat can jump up to 20 feet. This movement doesn't provoke opportunity attacks.</text>
+			<attack>Barbed Pole|5|1d8+3</attack>
+		</action>
 	</monster>
 </compendium>
