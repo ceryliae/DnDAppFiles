@@ -2988,18 +2988,18 @@
 			<attack>Quarterstaff (1H)|4|1d6+2</attack>
 			<attack>Quarterstaff (2H)|4|1d8+2</attack>
 		</action>
-				<action>
+		<action>
 			<name>Fungal Rot</name>
 			<text>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage, and the target must make a DC 14 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fungal Rot|9|2d8</attack>
 		</action>
-				<reaction>
+		<reaction>
 			<name>Feed on Death</name>
 			<text>When a creature within 30 feet of the shaman drops to 0 hit points, the shaman gains 5 (1d10) temporary hit points.</text>
 			<attack>Feed on Death||1d10</attack>
 		</reaction>
 	</monster>
-		<monster>
+	<monster>
 		<name>Borborygmos</name>
 		<size>H</size>
 		<type>giant, Guildmaster's Guide to Ravnica</type>
@@ -3035,27 +3035,30 @@
 			<name>Siege Monster</name>
 			<text>Borborygmos deals double damage to objects and structures.</text>
 		</trait>
-		<action><name>Multiattack</name><text>Borborygmos can use his Frightful Presence. He also makes two attacks: one with his maul and one with his stomp.</text></action>
+		<action>
+			<name>Multiattack</name>
+			<text>Borborygmos can use his Frightful Presence. He also makes two attacks: one with his maul and one with his stomp.</text>
+		</action>
 		<action>
 			<name>Maul</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 28 (6d6 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.</text>
 			<attack>Maul|13|6d6+7</attack>
 		</action>
-				<action>
+		<action>
 			<name>Stomp</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage.</text>
 			<attack>Stomp|13|2d10+7</attack>
 		</action>
-				<action>
+		<action>
 			<name>Rock</name>
 			<text>Ranged Weapon Attack: +13 to hit, range 30/120 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
 			<attack>Rock|13|4d10+7</attack>
 		</action>
-				<action>
+		<action>
 			<name>Frightful Presence</name>
 			<text>Each creature of Borborygmos's choice that is within 60 feet of him and can see or hear him must succeed on a DC 17 Wisdom saving throw or become frightened of him for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Borborygmos's Frightful Presence for the next 24 hours.</text>
 		</action>
-				<legendary>
+		<legendary>
 			<name>Attack</name>
 			<text>Borborygmos makes a weapon attack</text>
 		</legendary>
@@ -3068,7 +3071,7 @@
 			<text>Borborygmos moves up to half his speed and can move through the space of any creature smaller than Huge. The first time Borborygmos enters a creature's space during this move, the creature must make a DC 21 Dexterity saving throw. If the saving throw succeeds, the creature is pushed 5 feet away from Borborygmos. If the saving throw fails, that creature is knocked prone, and Borborygmos can make a stomp attack against it.</text>
 		</legendary>
 	</monster>
-		<monster>
+	<monster>
 		<name>Anarach</name>
 		<size>M</size>
 		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
@@ -3210,7 +3213,7 @@
 			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 	</monster>
-		<monster>
+	<monster>
 		<name>Niv-Mizzet</name>
 		<size>G</size>
 		<type>dragon, Guildmaster's Guide to Ravnica</type>
@@ -3277,12 +3280,12 @@
 			<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 18 (2d8 + 9) piercing damage plus 14 (4d6) fire damage.</text>
 			<attack>Bite|17|2d8+9+4d6</attack>
 		</action>
-				<action>
+		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 14 (2d4 + 9) slashing damage.</text>
 			<attack>Claw|17|2d4+9</attack>
 		</action>
-						<action>
+		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 16 (2d6 + 9) bludgeoning damage.</text>
 			<attack>Tail|17|2d6+9</attack>
@@ -3292,26 +3295,26 @@
 			<text>Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Fire Breath||26d6</attack>
 		</action>
-				<action>
+		<action>
 			<name>Cantrip</name>
 			<text>Niv-Mizzet casts one of his cantrips</text>
 		</action>
-				<action>
+		<action>
 			<name>Tail Attack</name>
 			<text>Niv-Mizzet makes a tail attack.</text>
 			<attack>Tail|17|2d6+9</attack>
 		</action>
-				<action>
+		<action>
 			<name>Wing Attack (Costs 2 Actions)</name>
 			<text>Niv-Mizzet beats his wings. Each creature within 15 feet of him must succeed on a DC 25 Dexterity saving throw or take 14 (2d4 + 9) bludgeoning damage and be knocked prone. Niv-Mizzet can then fly up to half his flying speed.</text>
 			<attack>Fire Breath||26d6</attack>
 		</action>
-				<action>
+		<action>
 			<name>Dracogenius (Costs 3 Actions)</name>
 			<text>Niv-Mizzet regains a spell slot of 3rd level or lower.</text>
 		</action>
 	</monster>
-<monster>
+	<monster>
 		<name>Comsotronic Blastseeker</name>
 		<size>M</size>
 		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
@@ -3486,9 +3489,80 @@
 			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
 			<attack>Light Hammer|4|1d4+2</attack>
 		</action>
-				<action>
+		<action>
 			<name>Scorchbringer (Recharge 4-6)</name>
 			<text>The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</text>
 		</action>
+	</monster>
+	<monster>
+		<name>Obzedat Ghost</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful evil</alignment>
+		<ac>14 (natural armor) plus 1 for each other Obzedat ghost within 30 feet of it</ac>
+		<hp>110 (20d8+ 20)</hp>
+		<speed>0 ft., fly 30 ft. (hover)</speed>
+		<str>10</str>
+		<dex>10</dex>
+		<con>13</con>
+		<int>18</int>
+		<wis>20</wis>
+		<cha>17</cha>
+		<save>Int +7, Wis +8</save>
+		<skill>Insight +8, Perception +8</skill>
+		<resist>acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses> darkvision 60 ft.</senses>
+		<passive>18</passive>
+		<languages>Common</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Council of Five</name>
+			<text>The ghost has a trait based on who it is, as shown below:</text>
+			<text>Enezesku: Enfeebling Ray. Enezesku's Innate Spellcasting trait includes ray of enfeeblement, which he can cast at will.</text>
+			<text>Fautomni: Undead Fortitude. If damage reduces Fautomni to 0 hit points, he must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is radiant or from a critical hit. On a success, Fautomni drops to 1 hit point instead.</text>
+			<text>Karlov: Unnatural Vigor. When Karlov regains hit points, he has advantage on attack rolls he makes on his next turn.</text>
+			<text>Vuliev: Teleportation. Vuliev's Innate Spellcasting trait includes misty step, which he can cast at will.</text>
+			<text>Xii Xaxosz: Lingering Spite. When Xii Xaxosz is reduced to 0 hit points, his incorporeal form explodes in a burst of necrotic energy. Each creature within 5 feet of him must make a DC 16 Constitution saving throw, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<trait>
+			<name>Ethereal Sight</name>
+			<text>The ghost can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The ghost's innate spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: chill touch (at 5th level, and the ghost regains hit points equal to half the amount of damage the target takes)</text>
+			<text>1/day each: sanctuary, spirit guardians (at 4th level)</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Chill Touch, Sanctuary, Spirit Guardians, Ray of Enfeeblement, Misty Step</spells>
+		<trait>
+			<name>Legendary Resistance (1/Day)</name>
+			<text>If the ghost fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<action>
+			<name>Life Drain</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 18 (4d8) necrotic damage, and the ghost regains hit points equal to half the amount of damage the target takes. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. The target dies if its hit point maximum is reduced to 0. This reduction to the target's hit point maximum lasts until the target finishes a long rest.</text>
+			<attack>Life Drain|8|4d8</attack>
+		</action>
+		<action>
+			<name>Convene the Ghost Council</name>
+			<text>The ghost summons the other four members of the Obzedat. At the start of the ghost's next turn, the other members appear in unoccupied spaces within 30 feet of the summoner. The ghosts each roll initiative when they appear.</text>
+		</action>
+		<legendary>
+			<name>Forced Obedience</name>
+			<text>A target that all of the Obzedat ghosts can see must succeed on a DC 16 Wisdom saving throw or bow until the end of its next turn. Until this bow ends, the target can't take actions or reactions, and its speed is 0 and can't be increased.</text>
+		</legendary>
+		<legendary>
+			<name>Indentured Spirits (Costs 3 Actions)</name>
+			<text>The Obzedat ghosts conjure ld6 indentured spirits (described in this chapter) within 60 feet of one of them.</text>
+		</legendary>
 	</monster>
 </compendium>
