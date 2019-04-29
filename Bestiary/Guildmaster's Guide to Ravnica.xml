@@ -2343,6 +2343,7 @@
 			<text>7th level (1 slot): divine word</text>
 			<text>8th level (1 slot): antimagic field</text>
 		</trait>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Imprisonment, Guidance, Light, Resistance, Sacred Flame, Thaumaturgy, Command, Detect Evil and Good, Ensnaring Strike, Sanctuary, Shield of Faith, Arcane Lock, Augury, Calm Emotions, Hold Person, silence, Zone of Truth, Bestow Curse, Clairvoyance, Counterspell, Dispel Magic, Tongues, Divination, Locate Creature, Dispel Evil and Good, Scrying, Word of Recall, Divine Word, Antimagic Field</spells>
 		<action>
@@ -2407,6 +2408,7 @@
 			<text>3rd level (3 slots): clairvoyance, dispel magic, slow</text>
 			<text>4th level (2 slots): locate creature, stoneskin</text>
 		</trait>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Fire Bolt, Friends, Light, Message, Alarm, Expeditious Retreat, Shield, Arcane Lock, Detect Thoughts, Hold Person, Clairvoyance, Dispel Magic, Slow, Locate Creature, Stoneskin</spells>
 		<action>
@@ -2572,6 +2574,7 @@
 			<text>4th level (3 slots): banishment, wolf of fire</text>
 			<text>5th level (1 slot): flame strike</text>
 		</trait>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Fire Bolt, Light, Sacred Flame, Spare the Dying, Guiding Bolt, Healing Word, Heroism, Shield of Faith, Lesser Restoration, Scorching Ray, Blinding Smite, Crusader's Mantle, Revivify, Banishment, Wolf of Fire, Flame Strike</spells>
 		<action>
@@ -2619,6 +2622,7 @@
 			<text>1st level (4 slots): cure wounds, sanctuary</text>
 			<text>2nd level (2 slots): aid, lesser restoration</text>
 		</trait>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
 		<spellAbility>Wisdom</spellAbility>
 		<spells>Mending, Resistance, Spare the Dying, Cure Wounds, Sanctuary, Aid, Lesser Restoration</spells>
 		<action>
@@ -2664,6 +2668,7 @@
 			<text>2nd level (3 slots): blur, levitate</text>
 			<text>3rd level (2 slots): lightning bolt</text>
 		</trait>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Blade Ward, Light, Message, Shocking Grasp, Guiding Bolt, Shield, Thunderwave, Witch Bolt, Blur, Levitate, Lightning Bolt</spells>
 		<action>
@@ -2677,7 +2682,7 @@
 			<text>When a creature hits the reckoner with an attack, the attacker takes lightning damage equal to half the damage dealt by the attack.</text>
 		</reaction>
 	</monster>
-		<monster>
+	<monster>
 		<name>Lazav</name>
 		<size>M</size>
 		<type>monstrosity (shapechanger), Guildmaster's Guide to Ravnica</type>
@@ -2726,17 +2731,31 @@
 			<name>Psychic Defenses</name>
 			<text>Unless Lazav is incapacitated, he is immune to magic that allows other creatures to read his thoughts, determine whether he is lying, know his alignment, or know his creature type. Creatures can telepathically communicate with Lazav only if he allows it.</text>
 		</trait>
-		<action><name>Multiattack</name><text>Lazav makes three shortsword attacks.</text></action>
+		<action>
+			<name>Multiattack</name>
+			<text>Lazav makes three shortsword attacks.</text>
+		</action>
 		<action>
 			<name>Shortsword</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target has disadvantage on the next attack roll it makes before Lazav's next turn.</text>
 			<attack>Shortsword|13|1d6+7+3d6</attack>
 		</action>
-		<legendary><name>Attack</name><text>Lazav makes a weapon attack.</text><attack>Shortsword|13|1d6+7+3d6</attack></legendary>
-		<legendary><name>Cast a Spell (Costs 2 Actions)</name><text>Lazav casts one of his innate spells.</text></legendary>
-		<legendary><name>Shifting Nightmare (Costs 3 Actions)</name><text>Lazav rapidly takes the form of several nightmarish creatures, lashing out at all nearby. Each creature within 10 feet of Lazav must succeed on a DC 21 Dexterity saving throw or take 18 (4d8) damage of a type chosen by Lazav: acid, cold, fire, lightning, or necrotic.</text><attack>Shifting Nightmare||4d8</attack></legendary>
+		<legendary>
+			<name>Attack</name>
+			<text>Lazav makes a weapon attack.</text>
+			<attack>Shortsword|13|1d6+7+3d6</attack>
+		</legendary>
+		<legendary>
+			<name>Cast a Spell (Costs 2 Actions)</name>
+			<text>Lazav casts one of his innate spells.</text>
+		</legendary>
+		<legendary>
+			<name>Shifting Nightmare (Costs 3 Actions)</name>
+			<text>Lazav rapidly takes the form of several nightmarish creatures, lashing out at all nearby. Each creature within 10 feet of Lazav must succeed on a DC 21 Dexterity saving throw or take 18 (4d8) damage of a type chosen by Lazav: acid, cold, fire, lightning, or necrotic.</text>
+			<attack>Shifting Nightmare||4d8</attack>
+		</legendary>
 	</monster>
-		<monster>
+	<monster>
 		<name>Mind Mage</name>
 		<size>M</size>
 		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
@@ -2779,7 +2798,7 @@
 			<attack>Dagger|5|1d4+2</attack>
 		</action>
 	</monster>
-<monster>
+	<monster>
 		<name>Thought Spy</name>
 		<size>M</size>
 		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
@@ -2815,12 +2834,169 @@
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Charm Person, Disguise Self, Encode Thoughts, Blur, Detect Thoughts, Gaseous Form</spells>
-		<attack><name>Multiattack</name><text>The thought spy makes two melee attacks, or it makes three ranged attacks with its daggers.</text></attack>
+		<action>
+			<name>Multiattack</name>
+			<text>The thought spy makes two melee attacks, or it makes three ranged attacks with its daggers.</text>
+		</action>
 		<action>
 			<name>Dagger</name>
 			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
-		<action><name>Rapier</name><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text><attack>Rapier|4|1d8+2</attack></action>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Rapier|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Jarad Vod Savo</name>
+		<size>M</size>
+		<type>undead, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp> 180 (24d8 + 72)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>20</int>
+		<wis>16</wis>
+		<cha>15</cha>
+		<save>Con +10, Int +12, Wis +10</save>
+		<skill>Arcana +12, Insight +10, Perception +10</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhausted, frightened, paralyzed, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Elvish, Kraul</languages>
+		<cr>22</cr>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Jarad fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Jarad has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>Jarad regains 25 hit points at the start ofhis turn. If he takes fire or radiant damage, this trait doesn't function at the start of his next turn. He dies only if he starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text> Jarad is a 14th-level Golgari spellcaster. His spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spellattacks). Jarad has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): acid splash, chill touch, mage hand, poison spray, prestidigitation</text>
+			<text>1st level (4 slots): entangle, ray ofsickness, sleep</text>
+			<text>2nd level (3 slots): Melfs acid arrow, ray of enfeeblement, spider climb, web</text>
+			<text>3rd level (3 slots): animate dead, plant growth, vampiric touch</text>
+			<text>4th level (3 slots): blight, giant insect, grasping vine</text>
+			<text>5th level (2 slots): cloudkill, insect plague</text>
+			<text>6th level (1 slot): circle of death, create undead</text>
+			<text>7th level (1 slot): finger of death, forcecage</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,0,0</slots>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Acid Splash, Chill Touch, Mage Hand, Poison Spray, Prestidigitation, Entangle, Ray of Sickness, Sleep, Melfs Acid Arrow, Ray of Enfeeblement, Spider Climb, Web, Animate Dead, Plant Growth, Vampiric Touch, Blight, Giant Insect, Grasping Vine, Cloudkill, Insect Plague, Circle of Death, Create Undead, Finger of Death, Forcecage</spells>
+		<trait>
+			<name>Spore Infusion</name>
+			<text>Jarad is surrounded by a cloud of spores. As a bonus action, he can cause the spores to deal 11 (2d10) poison damage to a creature he can see within 10 feet of him.</text>
+			<roll>2d10</roll>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>Jarad has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces Jarad to 0 hit points, he must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, he drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Jarad makes two attacks: one with his Noxious Touch and one with his Staff of Svogthir. He can cast a spell with a casting time of1 action in place ofone ofthese attacks.</text>
+		</action>
+		<action>
+			<name>Noxious Touch</name>
+			<text>Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 28 (8d6) poison damage, and the target must succeed on a DC 20 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+			<attack>Noxious Touch|12|8d6</attack>
+		</action>
+		<action>
+			<name>Staff of Svogthir</name>
+			<text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 13 (3d8) poison damage and 13 (3d8) necrotic damage.</text>
+			<attack>Staff of Svogthir|12|2d6+5+3d8+3d8</attack>
+		</action>
+		<legendary>
+			<name>Cantrip</name>
+			<text>Jarad casts one of his cantrips.</text>
+		</legendary>
+		<legendary>
+			<name>Noxious Touch (Costs 2 Actions)</name>
+			<text>Jarad uses Noxious Touch</text>
+			<attack>Noxious Touch|12|8d6</attack>
+		</legendary>
+		<legendary>
+			<name>Disrupt Life (Costs 3 Actions)</name>
+			<text>Each creature within 30 feet of Jarad must make a DC 20 Constitution saving throw, taking 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Disrupt Life||10d6</attack>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Golgari Shaman</name>
+		<size>M</size>
+		<type>humanoid (elf), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral evil</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>49 (11d8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>12</int>
+		<wis>17</wis>
+		<cha>16</cha>
+		<save>Int +8, Wis +5</save>
+		<skill>Arcana +8, Deception +6, Insight +5, Persuasion +6</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common plus any four languages</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>The shaman has advantage on saving throws against being charmed, and magic can't put it to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The shaman is an 8th-level Golgari spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The shaman has the following druid spells prepared:</text>
+			<text>Cantrips (at will): poison spray, shillelagh, thorn whip</text>
+			<text>1st level (4 slots): cure wounds, entangle, ray ofsickness</text>
+			<text>2nd level (3 slots): pass without trace, ray of enfeeblement, spike growth</text>
+			<text>3rd level (3 slots): animate dead, dispel magic, plant growth</text>
+			<text>4th level (2 slots): blight, giant insect</text>
+		</trait>
+		<slots>4,3,3,2,0,0,0,0,0</slots>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Poison Spray, Shillelagh, Thorn Whip, Cure Wounds, Entangle, Ray of Sickness, Pass Without Trace, Ray of Enfeeblement, Spike Growth, Animate Dead, Dispel Magic, Plant Growth, Blight, Giant Insect</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff (1H)|4|1d6+2</attack>
+			<attack>Quarterstaff (2H)|4|1d8+2</attack>
+		</action>
+				<action>
+			<name>Fungal Rot</name>
+			<text>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage, and the target must make a DC 14 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Fungal Rot|9|2d8</attack>
+		</action>
+				<reaction>
+			<name>Feed on Death</name>
+			<text>When a creature within 30 feet of the shaman drops to 0 hit points, the shaman gains 5 (1d10) temporary hit points.</text>
+			<attack>Feed on Death||1d10</attack>
+		</reaction>
 	</monster>
 </compendium>
