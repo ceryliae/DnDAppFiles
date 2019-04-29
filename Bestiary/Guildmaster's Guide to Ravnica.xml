@@ -2999,4 +2999,215 @@
 			<attack>Feed on Death||1d10</attack>
 		</reaction>
 	</monster>
+		<monster>
+		<name>Borborygmos</name>
+		<size>H</size>
+		<type>giant, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>270 (20d12 + 140)</hp>
+		<speed>40 ft.</speed>
+		<str>24</str>
+		<dex>11</dex>
+		<con>24</con>
+		<int>8</int>
+		<wis>17</wis>
+		<cha>16</cha>
+		<save>Str +13, Con +13, Wis +9</save>
+		<skill>Athletics +13, Insight +9, Survival +9</skill>
+		<resist>poison, psychic</resist>
+		<immune></immune>
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>tremorsense 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Giant</languages>
+		<cr>18</cr>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Borborygmos fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Poor Depth Perception</name>
+			<text>Borborygmos has disadvantage on any attack roll against a target more than 30 feet away.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>Borborygmos deals double damage to objects and structures.</text>
+		</trait>
+		<action><name>Multiattack</name><text>Borborygmos can use his Frightful Presence. He also makes two attacks: one with his maul and one with his stomp.</text></action>
+		<action>
+			<name>Maul</name>
+			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 28 (6d6 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.</text>
+			<attack>Maul|13|6d6+7</attack>
+		</action>
+				<action>
+			<name>Stomp</name>
+			<text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage.</text>
+			<attack>Stomp|13|2d10+7</attack>
+		</action>
+				<action>
+			<name>Rock</name>
+			<text>Ranged Weapon Attack: +13 to hit, range 30/120 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
+			<attack>Rock|13|4d10+7</attack>
+		</action>
+				<action>
+			<name>Frightful Presence</name>
+			<text>Each creature of Borborygmos's choice that is within 60 feet of him and can see or hear him must succeed on a DC 17 Wisdom saving throw or become frightened of him for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Borborygmos's Frightful Presence for the next 24 hours.</text>
+		</action>
+				<legendary>
+			<name>Attack</name>
+			<text>Borborygmos makes a weapon attack</text>
+		</legendary>
+		<legendary>
+			<name>Bellow (Costs 2 Actions)</name>
+			<text>Borborygmos yells menacingly at one creature he can see within 60 feet of him. That creature must succeed on a DC 17 Wisdom saving throw or become frightened of him for 1 minute. If the creature is already frightened, it becomes stunned instead. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Borborygmos's Bellow for the next 24 hours.</text>
+		</legendary>
+		<legendary>
+			<name>Wide Berth (Costs 3 Actions)</name>
+			<text>Borborygmos moves up to half his speed and can move through the space of any creature smaller than Huge. The first time Borborygmos enters a creature's space during this move, the creature must make a DC 21 Dexterity saving throw. If the saving throw succeeds, the creature is pushed 5 feet away from Borborygmos. If the saving throw fails, that creature is knocked prone, and Borborygmos can make a stomp attack against it.</text>
+		</legendary>
+	</monster>
+		<monster>
+		<name>Anarach</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Perception +2, Survival +2</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the anarch can move up to its speed toward a hostile creature it can see.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The anarch deals double damage to objects and structures.</text>
+		</trait>
+		<action>
+			<name>Spiked Club</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 7 (1d10 + 2) piercing damage if used with two hands .</text>
+			<attack>Spiked Club (1H)|4|1d8+2</attack>
+			<attack>Spiked Club (2H)|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Druid of the Old Ways</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>14 (hide armor)</ac>
+		<hp>90 (12d8 + 36)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>20</wis>
+		<cha>14</cha>
+		<save>Dex +5, Con +6, Wis +8</save>
+		<skill>Nature +3, Perception +8, Survival +8</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>18</passive>
+		<languages>Common, Druidic</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The druid deals double damage to objects and structures.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The druid can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The druid is a 12th-level Gruul spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following druid spells prepared:</text>
+			<text>Cantrips (at will): druidcraft, produce fire, resistance, thorn whip</text>
+			<text>1st level (4 slots): cure wounds, faerie fire, thunderwave</text>
+			<text>2nd level (3 slots): beast sense, flame blade, pass without trace</text>
+			<text>3rd level (3 slots): conjure animals, dispel magic, plant growth</text>
+			<text>4th level (3 slots): dominate beast, freedom of movement, wall of fire</text>
+			<text>5th level (2 slots): commune with nature, conjure elemental, scrying</text>
+			<text>6th level (1 slot): transport via plants, wall of thorns</text>
+		</trait>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Druidcraft, Produce Fire, Resistance, Thorn Whip, Cure Wounds, Faerie Fire, Thunderwave, Beast Sense, Flame Blade, Pass Without Trace, Conjure Animals, Dispel Magic, Plant Growth, Dominate Beast, Freedom of Movement, Wall of Fire, Commune with Nature, Conjure Elemental, Scrying, Transport via Plants, Wall of Thorns</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff (1H)|3|1d6</attack>
+			<attack>Quarterstaff (2H)|3|1d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Rubblebelt Stalker</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>14 (piecemeal armor)</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill>Athletics +2, Perception +4, Stealth +4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Ambusher</name>
+			<text>In the first round ofa combat, the stalker has advantage on attack rolls against any creature that hasn't taken a turn yet.</text>
+		</trait>
+		<trait>
+			<name>Nimble Escape</name>
+			<text>The stalker can take the Disengage or Hide action as a bonus action on each of its turns.</text>
+		</trait>
+		<trait>
+			<name>Ruin Dweller</name>
+			<text>The stalker has advantage on Dexterity (Stealth) checks made to hide in ruins, and its speed is not reduced in difficult terrain composed of rubble.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The stalker deals double damage to objects and structures.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The stalker makes three attacks with its shortsword.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+	</monster>
 </compendium>
