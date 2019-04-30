@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<monster>
+		<name>Werewolf (Krallenhorde)</name>
+		<size>M</size>
+		<type>humanoid (human, shapechanger), Plane Shift: Innistrad</type>
+		<alignment>chaotic evil</alignment>
+		<ac>11 in human form, 12 (natural armor) in canid form</ac>
+		<hp>58 (9d8 + 18)</hp>
+		<speed>30 ft. (40 ft. in canid form)</speed>
+		<str>15</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Perception +4, Stealth +3</skill>
+		<immune>bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons</immune>
+		<passive>14</passive>
+		<languages>Common (can’t speak in canid form)</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The werewolf polymorphs into a wolf-humanoid canid form, or back into its true human form. This change is dictated by the moon, but can also be induced by trauma or strong emotion. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<trait>
+			<name>Keen Hearing and Smell</name>
+			<text>The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<action>
+			<name>Multiattack (Canid Form Only)</name>
+			<text>The werewolf makes two attacks: one with its bite and one with its claws or spear.</text>
+		</action>
+		<action>
+			<name>Bite (Canid Form Only)</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Bite|4|1d8 + 2</attack>
+		</action>
+		<action>
+			<name>Claws (Canid Form Only)</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
+			<attack>Claws|4|2d4+2</attack>
+		</action>
+		<action>
+			<name>Spear (Human Form Only)</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|4|1d6+2</attack>
+			<attack>Spear (2H)|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Vampire Neonate</name>
+		<size>M</size>
+		<type>undead, Plane Shift: Innistrad</type>
+		<alignment>neutral evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>82 (11d8 + 33)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>12</cha>
+		<save>Dex +6, Wis +3</save>
+		<skill>Perception +3, Stealth +6</skill>
+		<resist>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks not made with living wood weapons</resist>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Regeneration</name>
+			<text>The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point. If the vampire takes radiant damage or damage from holy water, this trait doesn’t function at the start of the vampire’s next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The vampire makes two attacks, only one of which can be a bite attack.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).</text>
+			<attack>Claws|6|2d4+3</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
+			<attack>Bite|6|1d6+3+2d6</attack>
+		</action>
+		<action>
+			<name>Vampiric Glamer</name>
+			<text>The vampire obscures its form with mind-affecting magic that makes others perceive it as a beautiful human of the same size and shape. The illusion ends if the vampire takes a bonus action to end it or if the vampire dies. A creature that can see the vampire can take an action to visually inspect it, ending the mental effect on itself and seeing the vampire’s true form with a successful DC 20 Wisdom (Perception) check.</text>
+		</action>
+		<action>
+			<name>Aura of Silence</name>
+			<text>The vampire shrouds itself in a cloak of silence to a radius of 2 feet. Within that radius, the effect is the same as the silence spell.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Geist</name>
+		<size>M</size>
+		<type>undead, Plane Shift: Innistrad</type>
+		<alignment>any alignment</alignment>
+		<ac>11</ac>
+		<hp>45 (10d8)</hp>
+		<speed>0ft., fly 40 ft.</speed>
+		<str>7</str>
+		<dex>13</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<resist>acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>cold, necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
+		<senses>darkvision 60 ft</senses>
+		<passive>11</passive>
+		<languages>any languages it knew in life</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Ethereal Sight</name>
+			<text>The geist can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The geist can move through other creatures and objects as if they were di cult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<action>
+			<name>Withering Touch</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.</text>
+			<attack>Withering Touch|5|4d6+3</attack>
+		</action>
+		<action>
+			<name>Etherealness</name>
+			<text>The geist enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can’t affect or be affected by anything on the other plane.</text>
+		</action>
+		<action>
+			<name>Possession (Recharge 6)</name>
+			<text>One creature that the geist can see within 5 feet of it must succeed on a DC 13 Charisma saving throw or be possessed by the geist; the geist then disappears, and the target is incapacitated and loses control of its body. The geist now controls the body but doesn’t deprive the target of awareness. The geist can’t be targeted by any attack, spell, or other e ect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target’s statistics, but doesn’t gain access to the target’s knowledge, class features, or proficiencies.</text>
+			<text>	The possession lasts until the body drops to 0 hit points, the geist ends it as a bonus action, or the geist is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the geist reappears in an unoccupied space within 5 feet of the body. The target is immune to this geist’s Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
+			<text>	The geist can instead target the corpse of a creature, effectively using its own life force to animate the corpse as a zombie. The animated corpse uses zombie statistics and returns to death if the geist ends the possession.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Creepy Doll</name>
+		<size>T</size>
+		<type>construct, Plane Shift: Innistrad</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>21 (6d4 + 6)</hp>
+		<speed>40 ft.</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>12</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<skill>Stealth +4</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, paralyzed, poisoned, unconscious</conditionImmune>
+		<senses>darkvision 60 ft</senses>
+		<passive>10</passive>
+		<languages>speaks and understands the languages known by its creator</languages>
+		<cr>2</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the creepy doll remains motionless, it is indistinguishable from an ordinary, inanimate doll.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The creepy doll makes one attack with its scissors and uses Psychic Assault.</text>
+		</action>
+		<action>
+			<name>Scissors</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
+			<attack>Scissors|4|2d4+2</attack>
+		</action>
+		<action>
+			<name>Psychic Assault</name>
+			<text>The creepy doll targets one creature it can see within 10 feet of it that has a brain. The target must succeed on a DC 12 Intelligence saving throw or take 11 (2d10) psychic damage. Also on a failure, roll 3d6. If the total equals or exceeds the target’s Intelligence score, that score is reduced to 0. The target is stunned until it regains at least one point of Intelligence, as from the greater restoration spell or similar magic.</text>
+		</action>
+		<action>
+			<name>Body Exchange</name>
+			<text>he creepy doll initiates an Intelligence contest with an incapacitated humanoid within 5 feet of it. If it wins the contest, the creepy doll’s spirit inhabits the target’s body while the target’s spirit is placed into the creepy doll’s body. The creepy doll controls the target’s body completely. It retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target’s statistics, but doesn’t gain access to the target’s knowledge, class features, or proficiencies. The target retains its alignment, Intelligence, Wisdom, and Charisma while inhabiting the creepy doll’s body.</text>
+			<text>	The body exchange lasts until the doll’s spirit is forced out by magic. (The dispel evil and good spell will accomplish this, though the doll is not one of the creature types whose possession that spell normally ends.) The body and the doll must be within 5 feet of each other for such an effect to work. The target is immune to this doll’s Body Exchange for 24 hours after winning the Intelligence contest or after the exchange ends.</text>
+		</action>
+	</monster>
+</compendium>
