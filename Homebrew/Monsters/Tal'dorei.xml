@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Tal'dorei-->
+<compendium version="5" HB="HB">
+	<monster>
+		<name>Plainscow</name>
+		<size>L</size>
+		<type>beast, Guildmaster's Guide to Ravnica</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>42 (5d10 + 15)</hp>
+		<speed>40 ft.</speed>
+		<str>18</str>
+		<dex>8</dex>
+		<con>16</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill>Insight +2</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Trampling Charge</name>
+			<text>If the plainscow moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the plainscow can make another attack with its hooves as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Hooves</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<attack>Hooves|6|2d6+4</attack>
+		</action>
+	</monster>
+</compendium>
