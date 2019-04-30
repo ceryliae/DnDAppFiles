@@ -3859,4 +3859,147 @@
 			<attack>Barbed Pole|5|1d8+3</attack>
 		</action>
 	</monster>
+		<monster>
+		<name>Trostani</name>
+		<size>L</size>
+		<type>fey, Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>252 (24d10 + 120)</hp>
+		<speed>30 ft.</speed>
+		<str>19</str>
+		<dex>14</dex>
+		<con>20</con>
+		<int>16</int>
+		<wis>30</wis>
+		<cha>25</cha>
+		<save>Con +11, Wis +16, Cha +13</save>
+		<skill>Arcana +9, Insight +16, Nature +9, Perception +16, Persuasion +13</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>charmed, grappled</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>26</passive>
+		<languages>Common, Druidic, Elvish, Sylvan</languages>
+		<cr>18</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Trostani's innate spellcasting ability is Wisdom (spell save DC 24). She can innately cast the following spells, requiring no material components:</text>
+			<text>At will: dispel magic, druidcraft</text>
+			<text>3/day each: bless, conjure animals, giant insect, moonbeam, plant growth, spike growth, suggestion</text>
+			<text>1/day each: conjure fey, mass cure wounds</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Dispel magic, Druidcraft, Bless, Conjure Animals, Giant Insect, Moonbeam, Plant Growth, Spike Growth, Suggestion, Conjure Fey, Mass Cure Wounds</spells>
+		<trait>
+			<name>Legendary Resistance (3/day)</name>
+			<text>If Trostani fails a saving throw, she can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Trostani has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>Trostani's weapon attacks are magical</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>Trostani can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<trait>
+			<name>Tree Stride</name>
+			<text>Once on her turn, Trostani can use 10 feet of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Trostani takes three actions: she uses Constrict and Touch of Order, and she casts a spell with a casting time of 1 action.</text>
+		</action>
+		<action>
+			<name>Constrict</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one creature. Hit: 15 (3d6 + 5) bludgeoning damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained. Trostani can grapple no more than three targets at a time.</text>
+			<attack>Constrict|11|3d6+5</attack>
+		</action>
+				<action>
+			<name>Touch of Order</name>
+			<text>Melee Spell Attack: +16 to hit. reach 5 ft., one creature. Hit: 23 (3d8 + 10) radiant damage, and Trostani can choose one magic item she can see in the target's possession. Unless it's an artifact, the item's magic is suppressed until the start ofTrostani's next turn.</text>
+			<attack>Touch of Order|16|3d8+10</attack>
+		</action>
+		<action>
+			<name>Wrath of Mat'Selesnya (Recharge 5-6)</name>
+			<text>Trostani conjures a momentary whirl of branches and vines at a point she can see within 60 feet of her. Each creature in a 30-foot cube on that point must make a DC 24 Dexterity saving throw, taking 21 (6d6) bludgeoning damage and 21 (6d6) slashing damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Wrath of Mat'Selesnya||6d6+6d6</attack>
+		</action>
+		<legendary>
+		<name>Voice of Harmony</name>
+		<text>Trostani makes one melee attack, with advantage on the attack roll.</text>
+		</legendary>
+		<legendary>
+		<name>Voice of Life</name>
+		<text>Trostani bestows 20 temporary hit points on another creature she can see within 120 feet of her.</text>
+		</legendary>
+		<legendary>
+		<name>Voice of Order</name>
+		<text>Trostani casts dispel magic.</text>
+		</legendary>
+		<legendary>
+		<name>Chorus of the Conclave (Costs 2 Actions)</name>
+		<text>Trostani casts suggestion. This counts as one of her daily uses of the spell.</text>
+		</legendary>
+		<legendary>
+		<name>Awaken Grove Guardians (Costs 3 Actions)</name>
+		<text>Trostani animates one or two trees she can see within 120 feet of her, causing them to uproot themselves and become awakened trees (see the Monster Manual for their stat blocks) for 1 minute or until Trostani uses a bonus action to end the effect. These trees understand Druidic and obey Trostani's spoken commands, but can't speak. If she issues no commands to them, the trees do nothing but follow her and take the Dodge action.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Horncaller</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>39 (6d8 + 12)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>13</cha>
+		<save></save>
+		<skill>Animal Handling +4 , Nature +2, Perception +4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Common plus any one language</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The horncaller's innate spellcasting ability is Wisdom (spell save DC 14). The horncaller can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: bless, conjure animals</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Bless, Conjure Animals</spells>
+		<trait>
+			<name>Speak with Beasts</name>
+			<text>The horncaller can communicate with beasts as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The horncaller makes two melee attacks with its staff and uses One with the Worldsoul.</text>
+		</action>
+		<action>
+			<name>Staff</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands.</text>
+			<attack>Staff (1H)|3|1d6+1</attack>
+			<attack>Staff (2H)|3|1d8+1</attack>
+		</action>
+				<action>
+			<name>One with the Worldsoul</name>
+			<text>The horncaller chooses one beast it can see within 30 feet of it. If the beast can hear the horncaller, the beast uses its reaction to make one melee attack against a target that the horncaller can see.</text>
+		</action>
+	</monster>
 </compendium>
