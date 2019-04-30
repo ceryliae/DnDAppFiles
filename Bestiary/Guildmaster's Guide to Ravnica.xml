@@ -3680,8 +3680,8 @@
 			<name>Innate Spellcasting</name>
 			<text>The witch's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The witch can innately cast the following spells, requiring no material components:</text>
 			<text>At will: alter self, detect magic, eldritch blast (at 11th level).false life, levitate (self only), mage armor (self only)</text>
-<text>1/day each: circle of death, enthrall, suggestion</text>
-<text>3/day each: hellish rebuke, hex, scorching ray (at 3rd level)</text>
+			<text>1/day each: circle of death, enthrall, suggestion</text>
+			<text>3/day each: hellish rebuke, hex, scorching ray (at 3rd level)</text>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<spells>Alter Self, Detect Magic, Eldritch Blast, False Life, Levitate, Mage Armor, Circle of Death, Enthrall, Suggestion, Hellish Rebuke, Hex, Scorching Ray</spells>
@@ -3689,7 +3689,7 @@
 			<name>Multiattack</name>
 			<text>The witch makes two attacks: one with its longsword and one with its shortsword.</text>
 		</action>
-				<action>
+		<action>
 			<name>Longsword</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
 			<attack>Longsword|6|1d8+3</attack>
@@ -3815,7 +3815,7 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Bladed Chain|5|1d6+3</attack>
 		</action>
-				<action>
+		<action>
 			<name>Spew Flame (Recharge 4-6)</name>
 			<text>The fire eater exhales flames. Each creature in a 15-foot cone must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Spew Flame||2d8</attack>
@@ -3859,7 +3859,7 @@
 			<attack>Barbed Pole|5|1d8+3</attack>
 		</action>
 	</monster>
-		<monster>
+	<monster>
 		<name>Trostani</name>
 		<size>L</size>
 		<type>fey, Guildmaster's Guide to Ravnica</type>
@@ -3921,7 +3921,7 @@
 			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one creature. Hit: 15 (3d6 + 5) bludgeoning damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained. Trostani can grapple no more than three targets at a time.</text>
 			<attack>Constrict|11|3d6+5</attack>
 		</action>
-				<action>
+		<action>
 			<name>Touch of Order</name>
 			<text>Melee Spell Attack: +16 to hit. reach 5 ft., one creature. Hit: 23 (3d8 + 10) radiant damage, and Trostani can choose one magic item she can see in the target's possession. Unless it's an artifact, the item's magic is suppressed until the start ofTrostani's next turn.</text>
 			<attack>Touch of Order|16|3d8+10</attack>
@@ -3932,24 +3932,24 @@
 			<attack>Wrath of Mat'Selesnya||6d6+6d6</attack>
 		</action>
 		<legendary>
-		<name>Voice of Harmony</name>
-		<text>Trostani makes one melee attack, with advantage on the attack roll.</text>
+			<name>Voice of Harmony</name>
+			<text>Trostani makes one melee attack, with advantage on the attack roll.</text>
 		</legendary>
 		<legendary>
-		<name>Voice of Life</name>
-		<text>Trostani bestows 20 temporary hit points on another creature she can see within 120 feet of her.</text>
+			<name>Voice of Life</name>
+			<text>Trostani bestows 20 temporary hit points on another creature she can see within 120 feet of her.</text>
 		</legendary>
 		<legendary>
-		<name>Voice of Order</name>
-		<text>Trostani casts dispel magic.</text>
+			<name>Voice of Order</name>
+			<text>Trostani casts dispel magic.</text>
 		</legendary>
 		<legendary>
-		<name>Chorus of the Conclave (Costs 2 Actions)</name>
-		<text>Trostani casts suggestion. This counts as one of her daily uses of the spell.</text>
+			<name>Chorus of the Conclave (Costs 2 Actions)</name>
+			<text>Trostani casts suggestion. This counts as one of her daily uses of the spell.</text>
 		</legendary>
 		<legendary>
-		<name>Awaken Grove Guardians (Costs 3 Actions)</name>
-		<text>Trostani animates one or two trees she can see within 120 feet of her, causing them to uproot themselves and become awakened trees (see the Monster Manual for their stat blocks) for 1 minute or until Trostani uses a bonus action to end the effect. These trees understand Druidic and obey Trostani's spoken commands, but can't speak. If she issues no commands to them, the trees do nothing but follow her and take the Dodge action.</text>
+			<name>Awaken Grove Guardians (Costs 3 Actions)</name>
+			<text>Trostani animates one or two trees she can see within 120 feet of her, causing them to uproot themselves and become awakened trees (see the Monster Manual for their stat blocks) for 1 minute or until Trostani uses a bonus action to end the effect. These trees understand Druidic and obey Trostani's spoken commands, but can't speak. If she issues no commands to them, the trees do nothing but follow her and take the Dodge action.</text>
 		</legendary>
 	</monster>
 	<monster>
@@ -3997,7 +3997,7 @@
 			<attack>Staff (1H)|3|1d6+1</attack>
 			<attack>Staff (2H)|3|1d8+1</attack>
 		</action>
-				<action>
+		<action>
 			<name>One with the Worldsoul</name>
 			<text>The horncaller chooses one beast it can see within 30 feet of it. If the beast can hear the horncaller, the beast uses its reaction to make one melee attack against a target that the horncaller can see.</text>
 		</action>
@@ -4043,13 +4043,13 @@
 			<text>Zegana is a 15th-level Simic spellcaster. Her spell· casting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). She has the following wizard spells prepared:</text>
 			<text>Cantrips (at will): acid splash, druidcraft, ray of frost, shape water</text>
 			<text>1st level (4 slots): color spray, expeditious retreat, fog cloud, shield</text>
-<text>2nd level (3 slots): enlarge/reduce, gust of wind</text>
-<text>3rd level (3 slots): counterspell,fly, slow</text>
-<text>4th level (3 slots): control water, ice storm, polymorph</text>
-<text>5th level (2 slots): conjure elemental, creation</text>
-<text>6th level (1 slot): move earth, wall ofice</text>
-<text>7th level (1 slot): prismatic spray, teleport</text>
-<text>8th level (1 slot): control weather, dominate monster</text>
+			<text>2nd level (3 slots): enlarge/reduce, gust of wind</text>
+			<text>3rd level (3 slots): counterspell,fly, slow</text>
+			<text>4th level (3 slots): control water, ice storm, polymorph</text>
+			<text>5th level (2 slots): conjure elemental, creation</text>
+			<text>6th level (1 slot): move earth, wall ofice</text>
+			<text>7th level (1 slot): prismatic spray, teleport</text>
+			<text>8th level (1 slot): control weather, dominate monster</text>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<spells>Acid Splash, Druidcraft, Ray of Frost, Shape Water, Color Spray, Expeditious Retreat, Fog Cloud, Shield, Enlarge/Reduce, Gust of Wind, Counterspell, Fly, Slow, Control Water, Ice Storm, Polymorph, Conjure Elemental, Creation, Move Earth, Wall of Ice, Prismatic Spray, Teleport, Control Weather, Dominate Monster</spells>
@@ -4061,19 +4061,19 @@
 			<attack>Thunder dmg||2d8</attack>
 			<attack>Thunder dmg (underwater)||3d8</attack>
 		</action>
-				<action>
+		<action>
 			<name>Deluge (Recharge 4-6)</name>
 			<text>Zegana conjures a wave of water that crashes down on an area within 120 feet of her. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 18 (4d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water spreads out across the ground, extinguishing unprotected flames it comes in contact with, and then vanishes.</text>
 			<attack>Deluge||4d8</attack>
 		</action>
-				<legendary>
+		<legendary>
 			<name>Adaptive Skin</name>
 			<text>Zegana gains resistance to one damage type of her choice-acid, fire, lightning, or thunder-until the start of her next turn</text>
 		</legendary>
-				<legendary>
+		<legendary>
 			<name>Trident</name>
 			<text>Zegana makes one melee attack with the Prime Speaker's Trident.</text>
-						<attack>Prime Speaker's Trident|10|2d6+5</attack>
+			<attack>Prime Speaker's Trident|10|2d6+5</attack>
 			<attack>Thunder dmg||2d8</attack>
 			<attack>Thunder dmg (underwater)||3d8</attack>
 		</legendary>
@@ -4081,7 +4081,7 @@
 			<name>Enlarge (Costs 2 Actions)</name>
 			<text>Zegana casts enlarge/reduce on herself, using the enlarge option, without expending a spell slot.</text>
 		</legendary>
-				<legendary>
+		<legendary>
 			<name>Deluge (Costs 3 Actions)</name>
 			<text>Zegana uses Deluge, if available.</text>
 			<attack>Deluge||4d8</attack>
@@ -4116,22 +4116,22 @@
 			<text>The biomancer magically emanates life-giving energy within 30 feet of itself. Any ally of the biomancer that starts its turn there regains 5 (1d10) hit points.</text>
 			<roll>1d10</roll>
 		</trait>
-				<trait>
+		<trait>
 			<name>Magic Resistance</name>
 			<text>The biomancer has advantage on saving throws against spells and other magical effects.</text>
 		</trait>
-				<trait>
+		<trait>
 			<name>Spellcasting</name>
 			<text>The biomancer is a 16th-level Simic spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The biomancer has the following wizard spells prepared:</text>
 			<text>Cantrips (at will): acid splash, light, mending, poison spray, shocking grasp</text>
 			<text>1st level (4 slots): detect magic, grease, shield</text>
-<text>2nd level (3 slots): alter self, darkvision, enlarge/reduce, hold person</text>
-<text>3rd level (3 slots): counterspell, dispel magic, haste, protection from energy</text>
-<text>4th level (3 slots): confusion, conjure minor elementals, polymorph</text>
-<text>5th level (2 slots): cone of cold, creation, hold monster</text>
-<text>6th level (1 slot): move earth, wall ofice</text>
-<text>7th level (1 slot): prismatic spray</text>
-<text>8th level (1 slot): control weather</text>
+			<text>2nd level (3 slots): alter self, darkvision, enlarge/reduce, hold person</text>
+			<text>3rd level (3 slots): counterspell, dispel magic, haste, protection from energy</text>
+			<text>4th level (3 slots): confusion, conjure minor elementals, polymorph</text>
+			<text>5th level (2 slots): cone of cold, creation, hold monster</text>
+			<text>6th level (1 slot): move earth, wall ofice</text>
+			<text>7th level (1 slot): prismatic spray</text>
+			<text>8th level (1 slot): control weather</text>
 		</trait>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
 		<spellAbility>Intelligence</spellAbility>
