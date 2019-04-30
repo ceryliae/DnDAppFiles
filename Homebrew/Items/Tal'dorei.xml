@@ -110,4 +110,60 @@
 		<text>Requires 1 minute to harness. While harnessed and falling, the bearer falls at 30 feet per round, and the wind glider carries the bearer 40 feet in a line each round until they land. You can change direction each round. While harnessed, your movement is halved, and you have disadvantage on attack rolls. A wind glider has an AC of 10, and 5 hit points.</text>
 	</item>
 	<!--Vestiges of Divergence-->
+	<item>
+		<name>Agony</name>
+		<type>M</type>
+		<magic>1</magic>
+		<value>10gp</value>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement by a non-good character</text>
+		<text>Utilized in countless tortures and slow executions, the hooked chains of this brutal weapon still smell of dried blood and rot. You gain a +2 bonus to damage rolls made with this magic weapon.</text>
+		<text>	When you hit with an attack using this weapon, and that creature was injured with this weapon on your previous attack, you deal an additional 1d6 piercing damage.</text>
+		<roll>1d6</roll>
+		<modifier category="bonus">melee attacks +2</modifier>
+		<modifier category="bonus">melee damage +2</modifier>
+	</item>
+	<item>
+		<name>Agony (Awakened)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<value>10gp</value>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement by a non-good character</text>
+		<text>Utilized in countless tortures and slow executions, the hooked chains of this brutal weapon still smell of dried blood and rot. You gain a +3 bonus to damage rolls made with this magic weapon.</text>
+		<text>	When you hit with an attack using this weapon, and that creature was injured with this weapon on your previous attack, you deal an additional 1d8 piercing damage.</text>
+		<text>	When a creature is damaged by this weapon, they suffer disadvantage on Strength ability checks until the beginning of your next turn.</text>
+		<text>	When you drop a creature to 0 hit points with an attack using Agony, you can immediately make an additional melee attack with this weapon as a bonus action.</text>
+		<roll>1d8</roll>
+		<modifier category="bonus">melee attacks +3</modifier>
+		<modifier category="bonus">melee damage +3</modifier>
+	</item>
+	<item>
+		<name>Agony (Exalted)</name>
+		<type>M</type>
+		<magic>1</magic>
+		<value>10gp</value>
+		<weight>2</weight>
+		<dmg1>1d8</dmg1>
+		<dmgType>B</dmgType>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement by a non-good character</text>
+		<text>Utilized in countless tortures and slow executions, the hooked chains of this brutal weapon still smell of dried blood and rot. You gain a +4 bonus to damage rolls made with this magic weapon.</text>
+		<text>	When you hit with an attack using this weapon, and that creature was injured with this weapon on your previous attack, you deal an additional 2d6 piercing damage.</text>
+		<text>	When a creature is damaged by this weapon, they suffer disadvantage on Strength ability checks until the beginning of your next turn.</text>
+		<text>	When you drop a creature to 0 hit points with an attack using Agony, you can immediately make an additional melee attack with this weapon as a bonus action.</text>
+		<text>	When you score a critical hit with this weapon, the target must make a DC 17 Wisdom saving throw or become frightened of you for 1 minute. If this saving throw is successful, not only does the target not become frightened, they become immune to this frightening e ect for the next 24 hours.</text>
+		<roll>2d6</roll>
+		<modifier category="bonus">melee attacks +4</modifier>
+		<modifier category="bonus">melee damage +4</modifier>
+	</item>
 </compendium>
