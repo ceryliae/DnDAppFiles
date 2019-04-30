@@ -4002,4 +4002,144 @@
 			<text>The horncaller chooses one beast it can see within 30 feet of it. If the beast can hear the horncaller, the beast uses its reaction to make one melee attack against a target that the horncaller can see.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Zegana</name>
+		<size>M</size>
+		<type>humanoid (merfolk), Guildmaster's Guide to Ravnica</type>
+		<alignment>lawful neutral</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>130 (20d8 + 40)</hp>
+		<speed>30 ft., swim 40 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>20</int>
+		<wis>18</wis>
+		<cha>16</cha>
+		<save>Int +10, Wis +9</save>
+		<skill>Insight +9, Nature +10, Perception +9</skill>
+		<resist>cold, poison</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>19</passive>
+		<languages>Common, Elvish, Merfolk</languages>
+		<cr>16</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>Zegana can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Day)</name>
+			<text>If Zegana fails a saving throw, she can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Zegana has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Zegana is a 15th-level Simic spellcaster. Her spell· casting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). She has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): acid splash, druidcraft, ray of frost, shape water</text>
+			<text>1st level (4 slots): color spray, expeditious retreat, fog cloud, shield</text>
+<text>2nd level (3 slots): enlarge/reduce, gust of wind</text>
+<text>3rd level (3 slots): counterspell,fly, slow</text>
+<text>4th level (3 slots): control water, ice storm, polymorph</text>
+<text>5th level (2 slots): conjure elemental, creation</text>
+<text>6th level (1 slot): move earth, wall ofice</text>
+<text>7th level (1 slot): prismatic spray, teleport</text>
+<text>8th level (1 slot): control weather, dominate monster</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Acid Splash, Druidcraft, Ray of Frost, Shape Water, Color Spray, Expeditious Retreat, Fog Cloud, Shield, Enlarge/Reduce, Gust of Wind, Counterspell, Fly, Slow, Control Water, Ice Storm, Polymorph, Conjure Elemental, Creation, Move Earth, Wall of Ice, Prismatic Spray, Teleport, Control Weather, Dominate Monster</spells>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
+		<action>
+			<name>Prime Speaker's Trident.</name>
+			<text>Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 12 (2d6 + 5) piercing damage, and the trident emits a thunderous boom. Each creature in a 15-foot cube originating from the prongs of the trident must make a DC 18 Constitution saving throw. On a failed save, the creature takes 9 (2d8) thunder damage and is pushed 10 feet away from Zegana. If the creature is underwater, the damage is increased to 13 (3d8). On a successful save, the creature takes half as much damage and isn't pushed.</text>
+			<attack>Prime Speaker's Trident|10|2d6+5</attack>
+			<attack>Thunder dmg||2d8</attack>
+			<attack>Thunder dmg (underwater)||3d8</attack>
+		</action>
+				<action>
+			<name>Deluge (Recharge 4-6)</name>
+			<text>Zegana conjures a wave of water that crashes down on an area within 120 feet of her. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 18 (4d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water spreads out across the ground, extinguishing unprotected flames it comes in contact with, and then vanishes.</text>
+			<attack>Deluge||4d8</attack>
+		</action>
+				<legendary>
+			<name>Adaptive Skin</name>
+			<text>Zegana gains resistance to one damage type of her choice-acid, fire, lightning, or thunder-until the start of her next turn</text>
+		</legendary>
+				<legendary>
+			<name>Trident</name>
+			<text>Zegana makes one melee attack with the Prime Speaker's Trident.</text>
+						<attack>Prime Speaker's Trident|10|2d6+5</attack>
+			<attack>Thunder dmg||2d8</attack>
+			<attack>Thunder dmg (underwater)||3d8</attack>
+		</legendary>
+		<legendary>
+			<name>Enlarge (Costs 2 Actions)</name>
+			<text>Zegana casts enlarge/reduce on herself, using the enlarge option, without expending a spell slot.</text>
+		</legendary>
+				<legendary>
+			<name>Deluge (Costs 3 Actions)</name>
+			<text>Zegana uses Deluge, if available.</text>
+			<attack>Deluge||4d8</attack>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Biomancer</name>
+		<size>M</size>
+		<type>humanoid (any race), Guildmaster's Guide to Ravnica</type>
+		<alignment>neutral good</alignment>
+		<ac>17 (splint)</ac>
+		<hp>110 (17d8 + 34)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>20</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save>Int +9, Wis +6</save>
+		<skill>Arcana +9, Nature +9</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common plus any one language</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Bolstering Presence</name>
+			<text>The biomancer magically emanates life-giving energy within 30 feet of itself. Any ally of the biomancer that starts its turn there regains 5 (1d10) hit points.</text>
+			<roll>1d10</roll>
+		</trait>
+				<trait>
+			<name>Magic Resistance</name>
+			<text>The biomancer has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+				<trait>
+			<name>Spellcasting</name>
+			<text>The biomancer is a 16th-level Simic spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The biomancer has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): acid splash, light, mending, poison spray, shocking grasp</text>
+			<text>1st level (4 slots): detect magic, grease, shield</text>
+<text>2nd level (3 slots): alter self, darkvision, enlarge/reduce, hold person</text>
+<text>3rd level (3 slots): counterspell, dispel magic, haste, protection from energy</text>
+<text>4th level (3 slots): confusion, conjure minor elementals, polymorph</text>
+<text>5th level (2 slots): cone of cold, creation, hold monster</text>
+<text>6th level (1 slot): move earth, wall ofice</text>
+<text>7th level (1 slot): prismatic spray</text>
+<text>8th level (1 slot): control weather</text>
+		</trait>
+		<slots>4,3,3,3,2,1,1,1,0</slots>
+		<spellAbility>Intelligence</spellAbility>
+		<spells>Acid Splash, Light, Mending, Poison Spray, Shocking Grasp, Detect Magic, Grease, Shield, Darkvision, Enlarge/Reduce, Hold Person, Counterspell, Dispel Magic, Haste, Protection from Energy, Confusion, Conjure Minor Elementals, Polymorph, Cone of Cold, Creation, Hold Monster, Move Earth, Wall of Ice, Prismatic Spray, Control Weather</spells>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Scimitar|6|1d6+2</attack>
+		</action>
+	</monster>
 </compendium>
