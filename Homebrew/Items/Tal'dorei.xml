@@ -741,7 +741,7 @@
 		<text>Forged from deep red iron, this massive hammer houses an ever-burning gemstone of orange flame. You have a +1 bonus to attack rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional 1d6 fire damage.</text>
 		<text>	You can choose to have this weapon shed bright light in a 30 foot radius and dim light for an additional 30 feet. If you kill a creature with an attack using this weapon, the corpse is immolated, turning to ash.</text>
 		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
-		<text/>
+		<text></text>
 		<text>Two-Handed: This weapon requires two hands to use.</text>
 		<roll>1d6</roll>
 		<modifier category="bonus">melee attacks +1</modifier>
@@ -763,7 +763,7 @@
 		<text>	As an action, you can slam the Pyremaul into the ground to cast the burning hands spell at 2nd level (spell save DC 15). You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you score a critical hit with this weapon, the target must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
 		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
-		<text/>
+		<text></text>
 		<text>Two-Handed: This weapon requires two hands to use.</text>
 		<roll>2d6</roll>
 		<modifier category="bonus">melee attacks +2</modifier>
@@ -785,7 +785,7 @@
 		<text>	As an action, you can slam the Pyremaul into the ground to cast the burning hands spell at 3rd level (spell save DC 17). You cannot use this ability again until you finish a short or long rest.</text>
 		<text>	When you score a critical hit with this weapon, the target must succeed on a DC 17 Strength saving throw or be knocked prone. You can also roll an additional 3d6 fire damage when determining the extra damage for the critical hit.</text>
 		<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.</text>
-		<text/>
+		<text></text>
 		<text>Two-Handed: This weapon requires two hands to use.</text>
 		<roll>3d6</roll>
 		<modifier category="bonus">melee attacks +3</modifier>
@@ -864,5 +864,82 @@
 		<text>	Siege. You deal double damage against objects and structures.</text>
 		<text>	You can use an action to grow in size as per the enlarge spell for 10 minutes. You cannot use this ability again until you finish a long rest.</text>
 		<text>	While you are under the effects of the enlarge spell granted by this item, you gain resistance to fire, cold, and lightning damage. This lasts as long as you are affected by the spell.</text>
+	</item>
+	<item>
+		<name>Whisper</name>
+		<type>W</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<property>F,L,T</property>
+		<range>20/60</range>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement</text>
+		<text>Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved blade. You have a +1 bonus to attack and damage rolls made with this weapon.</text>
+		<text>	Whenever you strike a creature with a critical hit using Whisper, the target must make a DC 13 Wisdom saving throw or become frightened of you for 1 minute. On a success, they are immune to being frightened by this effect for the next 24 hours.</text>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<modifier category="bonus">weapon attacks +1</modifier>
+		<modifier category="bonus">weapon damage +1</modifier>
+	</item>
+	<item>
+		<name>Whisper (Awakened)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<property>F,L,T</property>
+		<range>20/60</range>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement</text>
+		<text>Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved blade. You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text>	Additionally, when you hit a target with this weapon, the target takes an additional 1d6 psychic damage.</text>
+		<text>	Whenever you strike a creature with a critical hit using Whisper, the target must make a DC 15 Wisdom saving throw or become frightened of you for 1 minute. On a success, they are immune to being frightened by this effect for the next 24 hours.</text>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<roll>1d6</roll>
+		<modifier category="bonus">weapon attacks +2</modifier>
+		<modifier category="bonus">weapon damage +2</modifier>
+	</item>
+	<item>
+		<name>Whisper (Exalted)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<weight>1</weight>
+		<dmg1>1d4</dmg1>
+		<dmgType>P</dmgType>
+		<property>F,L,T</property>
+		<range>20/60</range>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement</text>
+		<text>Forged with a mercurial metal pulled from the Far Realm, light dances and shifts across this curved blade. You have a +2 bonus to attack and damage rolls made with this weapon.</text>
+		<text>	Additionally, when you hit a target with this weapon, the target takes an additional 1d8 psychic damage.</text>
+		<text>	Whenever you strike a creature with a critical hit using Whisper, the target must make a DC 17 Wisdom saving throw or become frightened of you for 1 minute. On a success, they are immune to being frightened by this effect for the next 24 hours.</text>
+		<text>	Whenever Whisper is thrown but before it hits, you can choose to transform into shadow and merge with the blade, teleporting instantly to wherever the blade impacts. If the target is a creature, you emerge adjacent to the target in a space of your choice. If you miss with the attack, the DM determines where you teleport accordingly.</text>
+		<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</text>
+		<text></text>
+		<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</text>
+		<text></text>
+		<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.</text>
+		<text></text>
+		<text>Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.</text>
+		<roll>1d8</roll>
+		<modifier category="bonus">weapon attacks +3</modifier>
+		<modifier category="bonus">weapon damage +3</modifier>
 	</item>
 </compendium>
