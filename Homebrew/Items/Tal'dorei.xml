@@ -114,7 +114,7 @@
 		<name>Agony</name>
 		<type>M</type>
 		<magic>1</magic>
-		<value>10gp</value>
+		<value></value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>B</dmgType>
@@ -131,7 +131,7 @@
 		<name>Agony (Awakened)</name>
 		<type>M</type>
 		<magic>1</magic>
-		<value>10gp</value>
+		<value></value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>B</dmgType>
@@ -150,7 +150,7 @@
 		<name>Agony (Exalted)</name>
 		<type>M</type>
 		<magic>1</magic>
-		<value>10gp</value>
+		<value></value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>B</dmgType>
@@ -216,5 +216,48 @@
 		<text>	You gain immunity to the frightened condition while wearing this armor. Your immunity to the frightened condition extends to include all friendly creatures within 15 feet, as long as you are conscious.</text>
 		<text>	The spell save DC of the armor’s command spell becomes DC 17, and it can target four additional creatures.</text>
 		<modifier category="bonus">ac +3</modifier>
+	</item>
+	<item>
+		<name>Cabal's Ruin</name>
+		<type>W</type>
+		<magic>1</magic>
+		<value></value>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement</text>
+		<text>This cloak of dark leather and gold trim seems to occasionally shimmer with small sparks of blue energy across the shadowed lining. This cloak has 4 charges, and regains 1d4 expended charges daily at dawn.</text>
+		<text>	When you are targeted by an enemy’s spell, you can use your reaction to have the cloak swallow part of the spell. The cloak gains a number of charges equal to the spell level of the triggering spell. You are still subject to whatever effects the spell would normally inflict on you. You cannot use this ability again until you finish a short or long rest.</text>
+		<text>	When you hit with an attack, you can choose to expend any number of charges from the cloak, dealing an additional 1d6 lightning damage per charge expended, which is inflicted on the target of that attack. If your attack strikes multiple targets, you must choose one target from the group to be subject to this damage.</text>
+		<roll>1d4</roll>
+	</item>
+	<item>
+		<name>Cabal's Ruin (Awakened)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<value></value>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement</text>
+		<text>This cloak of dark leather and gold trim seems to occasionally shimmer with small sparks of blue energy across the shadowed lining. This cloak has 6 charges, and regains 1d4+2 expended charges daily at dawn.</text>
+		<text>	When you are targeted by an enemy’s spell, you can use your reaction to have the cloak swallow part of the spell. The cloak gains a number of charges equal to the spell level of the triggering spell. You are still subject to whatever effects the spell would normally inflict on you. You cannot use this ability again until you finish a short or long rest.</text>
+		<text>	When you hit with an attack, you can choose to expend any number of charges from the cloak, dealing an additional 1d6 lightning damage per charge expended, which is inflicted on the target of that attack. If your attack strikes multiple targets, you must choose one target from the group to be subject to this damage.</text>
+		<text>	You gain advantage on all saving throws against spells and other magical effects while wearing this cloak.</text>
+		<text>	When using the cloak’s ability to swallow a spell, you gain resistance to the damage of that spell.</text>
+		<roll>1d4+2</roll>
+	</item>
+	<item>
+		<name>Cabal's Ruin (Exalted)</name>
+		<type>W</type>
+		<magic>1</magic>
+		<value></value>
+		<rarity>Legendary</rarity>
+		<text>Rarity: Legendary</text>
+		<text>Requires attunement</text>
+		<text>This cloak of dark leather and gold trim seems to occasionally shimmer with small sparks of blue energy across the shadowed lining. This cloak has 10 charges, and regains 1d6+4 expended charges daily at dawn.</text>
+		<text>	When you are targeted by an enemy’s spell, you can use your reaction to have the cloak swallow part of the spell. The cloak gains a number of charges equal to the spell level of the triggering spell. You are still subject to whatever effects the spell would normally inflict on you. You cannot use this ability again until you finish a short or long rest.</text>
+		<text>	When you hit with an attack, you can choose to expend any number of charges from the cloak, dealing an additional 1d6 lightning damage per charge expended, which is inflicted on the target of that attack. If your attack strikes multiple targets, you must choose one target from the group to be subject to this damage.</text>
+		<text>	You gain advantage on all saving throws against spells and other magical effects while wearing this cloak.</text>
+		<text>	When using the cloak’s ability to swallow a spell, you gain resistance to the damage of that spell.</text>
+		<roll>1d6+4</roll>
 	</item>
 </compendium>
