@@ -254,51 +254,97 @@
 		</reaction>
 	</monster>
 	<monster>
-		<name>Cinderslag Elemental</name>
-		<size>L</size>
-		<type>elemental, Tal'dorei Campaign Setting</type>
-		<alignment>chaotic evil</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>102 (12d10 + 36)</hp>
-		<speed>20 ft., burrow 40 ft.</speed>
-		<str>15</str>
-		<dex>12</dex>
-		<con>20</con>
-		<int>1</int>
-		<wis>10</wis>
-		<cha>3</cha>
-		<save></save>
-		<skill></skill>
-		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
-		<immune>fire, poison</immune>
-		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<name>Clasp Cutthroat</name>
+		<size>M</size>
+		<type>humanoid (any race), Tal'dorei Campaign Setting</type>
+		<alignment>any nonlawful alignment</alignment>
+		<ac>14 (leather)</ac>
+		<hp>44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>8</int>
+		<wis>14</wis>
+		<cha>9</cha>
+		<save>Dexterity +5</save>
+		<skill>Deception +3, Stealth +7</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
 		<vulnerable></vulnerable>
-		<senses>darkvision 60 ft.</senses>
-		<passive>16</passive>
-		<languages>—</languages>
-		<cr>5</cr>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common, Thieves’ Cant</languages>
+		<cr>3</cr>
 		<trait>
-			<name>Molten Form</name>
-			<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 5 (1d10) fire damage and must make a DC 14 Strength saving throw, becoming restrained on a failure. When the begins its turn while restrained in this way, it takes 5 (1d10) fire damage.</text>
-			<roll>1d10</roll>
+			<name>Cunning Action</name>
+			<text>On each of its turns, the cutthroat can use a bonus action to take the Dash, Disengage, or Hide action.</text>
 		</trait>
 		<trait>
-			<name>Water Susceptibility</name>
-			<text>For every 5 feet that elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>The cutthroat deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the cutthroat that isn’t incapacitated and the cutthroat doesn’t have disadvantage on the attack roll.</text>
+			<roll>4d6</roll>
 		</trait>
 		<action>
 			<name>Multiattack</name>
-			<text>The elemental makes two slam attacks</text>
+			<text>The cutthroat makes two shortsword or dagger attacks.</text>
 		</action>
 		<action>
-			<name>Slam</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 2) bludgeoning damage plus 5 (1d10) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
-			<attack>Slam|5|3d6+2+1d10</attack>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|6|1d6+3</attack>
 		</action>
 		<action>
-			<name>Molten Gaze</name>
-			<text>Ranged Spell Attack: +8 to hit, range 30 ft., one target. Hit: 21 (6d6) fire damage and the target must make a DC 14 Constitution saving throw. On a failure, one nonmagical item the target is carrying instantly melts or burns to cinders.</text>
-			<attack>Molten Gaze|8|6d6</attack>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|6|1d4+3</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>When an attacker that the cutthroat can see hits it with an attack, the cutthroat takes half damage instead.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Clasp Enforcer</name>
+		<size>M</size>
+		<type>humanoid (any race), Tal'dorei Campaign Setting</type>
+		<alignment>any nonlawful alignment</alignment>
+		<ac>16 (half plate)</ac>
+		<hp>102 (12d8 + 48)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>18</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill>Athletics +6, Intimidation +8</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Common, Thieves’ Cant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Intimidating Presence</name>
+			<text>Whenever the enforcer hits with a melee attack, the target must make a DC 15 Wisdom saving throw. On a failure, the target is frightened of the enforcer until the end of its next turn. The enforcer’s allies have advantage on attack rolls against creatures frightened in this way.</text>
+		</trait>
+		<trait>
+			<name>Second Wind (Recharges after a Short or Long Rest)</name>
+			<text>As a bonus action, the enforcer can regain 12 hit points.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The enforcer makes three warhammer attacks.</text>
+		</action>
+		<action>
+			<name>Warhammer</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) bludgeoning damage.</text>
+			<attack>Warhammer|6|1d10+3</attack>
 		</action>
 	</monster>
 </compendium>
