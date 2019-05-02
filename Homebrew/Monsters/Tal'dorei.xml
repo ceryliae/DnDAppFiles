@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Tal'dorei-->
 <compendium version="5" HB="HB">
 	<monster>
 		<name>Plainscow</name>
 		<size>L</size>
-		<type>beast, Guildmaster's Guide to Ravnica</type>
+		<type>beast, Tal'dorei Campaign Setting</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>42 (5d10 + 15)</hp>
@@ -252,5 +252,53 @@
 			<name>Slow Fall</name>
 			<text>When the skydancer takes falling damage, it may reduce the damage by half.</text>
 		</reaction>
+	</monster>
+	<monster>
+		<name>Cinderslag Elemental</name>
+		<size>L</size>
+		<type>elemental, Tal'dorei Campaign Setting</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>102 (12d10 + 36)</hp>
+		<speed>20 ft., burrow 40 ft.</speed>
+		<str>15</str>
+		<dex>12</dex>
+		<con>20</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>16</passive>
+		<languages>—</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Molten Form</name>
+			<text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 5 (1d10) fire damage and must make a DC 14 Strength saving throw, becoming restrained on a failure. When the begins its turn while restrained in this way, it takes 5 (1d10) fire damage.</text>
+			<roll>1d10</roll>
+		</trait>
+		<trait>
+			<name>Water Susceptibility</name>
+			<text>For every 5 feet that elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elemental makes two slam attacks</text>
+		</action>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 2) bludgeoning damage plus 5 (1d10) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</text>
+			<attack>Slam|5|3d6+2+1d10</attack>
+		</action>
+		<action>
+			<name>Molten Gaze</name>
+			<text>Ranged Spell Attack: +8 to hit, range 30 ft., one target. Hit: 21 (6d6) fire damage and the target must make a DC 14 Constitution saving throw. On a failure, one nonmagical item the target is carrying instantly melts or burns to cinders.</text>
+			<attack>Molten Gaze|8|6d6</attack>
+		</action>
 	</monster>
 </compendium>
