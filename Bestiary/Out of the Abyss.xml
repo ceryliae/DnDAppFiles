@@ -1860,4 +1860,32 @@
 		</legendary>
 		<spells>detect magic, locate animals or plants, ray of sickness, dispel magic, ensnaring strike, entangle, plant growth, etherealness, teleport</spells>
 	</monster>
+	<monster>
+		<name>Giant Rocktopus</name>
+		<size>L</size>
+		<type>beast, Out of the Abyss</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>52 (8d10+8)</hp>
+		<speed>20 ft., climb 10 ft.</speed>
+		<str>17</str>
+		<dex>13</dex>
+		<con>13</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>4</cha>
+		<skill>Perception +4, Stealth +5</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<cr>1</cr>
+		<trait>
+			<name>Camouflage</name>
+			<text>The octopus has advantage on Dexterity (Stealth) checks.</text>
+		</trait>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</text>
+			<attack>Tentacles|5|2d6+3</attack>
+		</action>
+	</monster>
 </compendium>
