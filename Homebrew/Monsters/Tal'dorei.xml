@@ -552,7 +552,8 @@
 		<action>
 			<name>Warhammer</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands.</text>
-			<attack>Warhammer|6|1d8+3</attack>
+			<attack>Warhammer (1H)|6|1d8+3</attack>
+			<attack>Warhammer (2H)|6|1d10+3</attack>
 		</action>
 	</monster>
 	<monster>
@@ -600,6 +601,111 @@
 			<name>Ram</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
 			<attack>Ram|8|2d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ravager Stabby-Stabber</name>
+		<size>S</size>
+		<type>humanoid (goblinoid), Tal'dorei Campaign Setting</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (studded leather)</ac>
+		<hp>36 (8d6 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>8</wis>
+		<cha>7</cha>
+		<save>Wis +1</save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune>charmed</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Goblin</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Nimble Escape</name>
+			<text>The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</text>
+			<roll></roll>
+		</trait>
+		<trait>
+			<name>Stabby Frenzy</name>
+			<text>When the goblin hits with a melee attack, it may attack again. It can continue making additional attacks until it does not hit. The goblin cannot move between attacks made with this trait.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ravager Slaughter Lord</name>
+		<size>L</size>
+		<type>humanoid (orc), Tal'dorei Campaign Setting</type>
+		<alignment>lawful evil</alignment>
+		<ac>17 (armor name)</ac>
+		<hp>152 (16d8 + 80)</hp>
+		<speed>30 ft.</speed>
+		<str>22</str>
+		<dex>14</dex>
+		<con>20</con>
+		<int>12</int>
+		<wis>16</wis>
+		<cha>16</cha>
+		<save>Str +10, Con +9, Wis +7</save>
+		<skill>Intimidation +11, Religion +5</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Orc</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the Slaughter Lord can move up to its speed toward a hostile creature it can see.</text>
+		</trait>
+		<trait>
+			<name>Blessings of the Ruiner</name>
+			<text>The Slaughter Lord has been showered with a cocktail of divine blessings, and can call upon them at any time. Its innate spellcasting ability is Wisdom (spell save DC 15). The Slaughter Lord can innately cast the following spells, requiring no material components:</text>
+			<text>At will: thaumaturgy</text>
+			<text>3/day each: flame strike, spirit guardians</text>
+			<text>1/day each: control weather, divine word, fire storm</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (2/Day)</name>
+			<text>If the Slaughter Lord fails a saving throw, it can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Unarmored Defense</name>
+			<text>While the Slaughter Lord is wearing no armor and not wielding a shield, its AC equals 10 + its Dexterity modifier + its Constitution modifier.</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<spells>Thaumaturgy, Flame Strike, Spirit Guardians, Control Weather, Divine Word, Fire Storm</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The Slaughter Lord makes four attacks with its greatswords or three attacks with its spear.</text>
+		</action>
+		<action>
+			<name>Dual Greatswords</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 3 (1d6) fire damage.</text>
+			<attack>Dual Greatswords|10|2d6+6+1d6</attack>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +10 to hit, range 20/60 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 3 (1d6) fire damage, or 15 (2d8 + 6) piercing damage plus 3 (1d6) fire damage if used with both hands to make a melee attack.</text>
+			<attack>Spear (1H)|10|2d6+6+1d6</attack>
+			<attack>Spear (2H)|10|2d8+6+1d6</attack>
 		</action>
 	</monster>
 </compendium>
