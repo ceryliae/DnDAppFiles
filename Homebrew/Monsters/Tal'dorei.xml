@@ -708,4 +708,115 @@
 			<attack>Spear (2H)|10|2d8+6+1d6</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Remnant Cultist</name>
+		<size>M</size>
+		<type>humanoid (any race), Tal'dorei Campaign Setting</type>
+		<alignment>neutral evil</alignment>
+		<ac>13 (16 with mage armor)</ac>
+		<hp>60 (11d8 + 11)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>18</int>
+		<wis>8</wis>
+		<cha>8</cha>
+		<save>Wis +3</save>
+		<skill>Deception +7, Stealth +7</skill>
+		<resist>psychic, necrotic</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>9</passive>
+		<languages>Common, Infernal</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The remnant cultist is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The cultist has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): chill touch, message, minor illusion, prestidigitation, ray of frost</text>
+			<text>1st level (4 slots): detect magic, hideous laughter, mage armor, shield</text>
+			<text>2nd level (3 slots): detect thoughts, suggestion</text>
+			<text>3rd level (3 slots): counterspell, fear, vampiric touch</text>
+			<text>4th level (3 slots): greater invisibility, phantasmal killer</text>
+			<text>5th level (2 slot): dream, mislead</text>
+			<text>6th level (1 slot): circle of death</text>
+			<roll></roll>
+		</trait>
+		<trait>
+			<name>Unknowable Secrets</name>
+			<text>Any attempt to form a mental link with the remnant cultist, scry the cultist, or cast speak with dead on a cultist instantly fails, and the creature that initiated the attempt takes 6d6 psychic damage.</text>
+			<roll>6d6</roll>
+		</trait>
+		<trait>
+			<name>One-Eyed</name>
+			<text>The cultist has disadvantage on any attack roll made against a target more than 30 feet away.</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
+		<spells>Chill Touch, Message, Minor Illusion, Prestidigitation, Ray of Frost, Detect Magic, Hideous Laughter, Mage Armor, shield, Detect Thoughts, Suggestion, Counterspell, Fear, Vampiric Touch, Greater Invisibility, Phantasmal Killer, Dream, Mislead, Circle of Death</spells>
+		<action>
+			<name>Dagger of Wounding</name>
+			<text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Hit points lost to this weapon’s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.</text>
+			<text>	Once per turn, the cultist may choose to wound its target. At the start of each of the wounded creature’s turns, it takes 1d4 necrotic damage for each time the cultist wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.</text>
+			<attack>Dagger of Wounding|7|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Remnant Chosen</name>
+		<size>M</size>
+		<type>humanoid (any race), Tal'dorei Campaign Setting</type>
+		<alignment>neutral evil</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>117 (18d8 + 36)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>15</int>
+		<wis>16</wis>
+		<cha>20</cha>
+		<save>Cha +9, Wis +6</save>
+		<skill>Arcana +11, Deception +9</skill>
+		<resist>damage from spells</resist>
+		<immune>necrotic</immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Infernal, Abyssal</languages>
+		<cr>12</cr>
+		<trait>
+			<name>All-Seeing Eye</name>
+			<text>As a bonus action, the Chosen may select a creature or object a ected by an illusion spell of 4th level or lower. One illusion of the Chosen’s choice a ecting that creature is instantly dispelled.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The Chosen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The Chosen is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). The Chosen has the following sorcerer spells prepared:</text>
+			<text>Cantrips (at will): chill touch, dancing lights, mage hand, message, shocking grasp</text>
+			<text>1st level (4 slots): charm person, expeditious retreat, mage armor*, shield</text>
+			<text>2nd level (3 slots): blindness/deafness, darkness, detect thoughts</text>
+			<text>3rd level (3 slots): counterspell, fly, hypnotic pattern</text>
+			<text>4th level (3 slots): confusion, greater invisibility*</text>
+			<text>5th level (3 slots): dominate person, scrying, seeming</text>
+			<text>6th level (1 slot): eyebite</text>
+			<text>7th level (1 slot): finger of death</text>
+			<text>8th level (1 slot): power word stun</text>
+			<text>9th level (1 slot): power word kill</text>
+			<text>*The Chosen typically casts these spells on itself before combat.</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,3,3,3,3,1,1,1,1</slots>
+		<spells>Chill Touch, Dancing Lights, Mage Hand, Message, Shocking Grasp, Charm Person, Expeditious Retreat, Mage Armor, Shield, Blindness/Deafness, Darkness, Detect Thoughts, Counterspell, Fly, Hypnotic Pattern, Confusion, Greater Invisibility, Dominate Person, Scrying, Seeming, Eyebite, Finger of Death, Power Word Stun, Power Word Kill</spells>
+		<action>
+			<name>Withered Hand</name>
+			<text>Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 37 (5d6 + 20) force damage. If this damage reduces the target to 0 hit points, it is disintegrated.</text>
+			<attack>Withered Hand|6|5d6+20</attack>
+		</action>
+	</monster>
 </compendium>
