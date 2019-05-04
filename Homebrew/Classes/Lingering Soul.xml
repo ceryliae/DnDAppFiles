@@ -38,6 +38,10 @@
 				<text>	Aspect Attack modifier = your proficiency bonus + your Aspect modifier</text>
 			</feature>
 			<feature>
+				<name>Phantom Callings</name>
+				<text>When a soul lingers long enough to buck the draw to the afterlife, they begin to walk a path of transformation. The choices they made in life, and in this current state of undeath, instill their spirit with varying degrees of positive and negative energy, slowly forging the soul into a hungry specter seeking to feast on the life force of the living, a mischievous reflection of nature's trickery who can bend the corporeal world to their will, or a divine spirit of protection using their ethereal gifts to aid their still-living allies.</text>
+			</feature>
+			<feature>
 				<name>Ghostly Form</name>
 				<text>At 1st level, your physical body is no more, your new, spectral form existing in the space between realms. You gain the following benefits:</text>
 				<text>• Your creature type is Undead, and you are considered undead in respect to all spells, abilities, and effects.</text>
@@ -51,6 +55,25 @@
 				<text>• You still take short or long rests per usual to use hit dice and regain the use of abilities, but do not require sleep.</text>
 				<text>• Should you fall to 0 hit points, you begin fading. You are considered unconscious, and make death saving throws as normal. Should you fail three death saving throws, your spirit withers away into the ether. Your soul is cast into the vaults of the underworld and cannot be recovered or resurrected outside of the use of a Wish spell.</text>
 				<text>• Should you ever be brought back to life via a spell or resurrection effect, you immediately lose all levels in Lingering Soul and return to life as your previous, living self. You gain back class levels in your original classes as they were upon death, plus one additional character level per level of Lingering Soul gained while playing as a spirit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Phantom Calling: Calling of the Poltergeist</name>
+				<text>Those souls who wish to still exert their will on the physical world, shifting steel and flesh with their anger alone, begin walking the way of the Poltergeist. Abandoning subtlety to instead harness a maelstrom of unbridled emotion. the Poltergeist exhibits the ability to lift, push, and manipulate the substantial realm around them. The clattering of dangerous weapons and helpless attackers being invisibly flung through the air mercilessly marks the fury of these ferocious shades.</text>
+				<text>	Upon becoming a Poltergeist, choose either your Strength, Dexterity or Intelligence to become your Aspect. Your Aspect modifier is equal to that of the chosen Ability Score. You gain proficiency in Strength saving throws.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Calling of the Poltergeist: Implements of Anger</name>
+				<text>Upon choosing to become a Poltergeist at 1st level, you gain proficiency with 3 melee weapons of your choice.</text>
+				<text>	You may choose 2 additional melee weapons to gain proficiency with at 6th level, 11th level, and 15th level.</text>
+			</feature>
+
+			<feature optional="YES">
+				<name>Calling of the Poltergeist: Haunt</name>
+				<text>Beginning at 1st level, you are able to focus on small objects and move them with alarming speed using your phantom strength. You learn the Mage Hand cantrip.</text>
+				<text>	As an action, you can choose an object that weighs no more than 10 pounds within 30 feet of you. You mystically hurl it 30 feet in any direction. If you choose to have the object strike a creature, roll a ranged Aspect attack against that creature. On a hit, the target takes 1d4 + your Aspect modifier bludgeoning damage, and the object drops to the ground. If the object is a weapon you are proficient in, use the weapon's damage dice and type instead. Any magical weapons you are proficient with and attuned to can be used with this feature.</text>
+				<text>	If the target object is currently held by another creature, they must make a Strength saving throw. On a failed save. the creature drops the object you choose and you may move it 15 feet with this feature.</text>
+				<text>	Upon reaching 6th level, you can target and move two objects when you take the Haunt action instead of one. Alternatively, you can move a single object twice in rapid succession, allowing two attacks with a single weapon or object.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="2">
@@ -86,6 +109,13 @@
 				<text>At 5th level, you've become more adept at controlling and manipulating the bodies of your host. If a creature is unaware of your presence, you can attempt to possess them without them knowing. Make a Dexterity (Stealth) contested by the target's Wisdom (Perception) check. If you win, and they fail their saving throw, you successfully possess them without their knowledge. Whenever you force the host to do anything, they can make a Wisdom (Insight) check against your Lingering Soul DC. On a success, they become aware of the possession.</text>
 			</feature>
 		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Calling of the Poltergeist: Spectral Warrior</name>
+				<text>When you reach 6th level, you can will nearby gear to surround your spectral body. As a bonus action, select any pieces of wearable equipment within 30 feet that aren't currently being worn by a creature. The equipment is drawn into the air and assembles around you, bestowing you with any Armor Class bonuses, benefits, and detriments granted by wearing the equipment. You need not be proficient with any armor to wear it in this way, and you ignore the Strength requirement of heavy armor. Any magical equipment you are attuned to can be used with this feature. You are still limited by equipment slots (one helmet, one set of boots, etc).</text>
+				<text>	This equipment remains assembled around you until you choose to drop it, you attempt to possess a creature, you pass through a solid creature or object, or until you take a short or long rest. Equipment dropped is immediately left on the ground in your space.</text>
+			</feature>
+		</autolevel>
 		<autolevel level="7">
 			<feature>
 				<name>Obfuscate</name>
@@ -108,6 +138,14 @@
 				<text>• You can cast invisibility on yourself, without requiring material components, twice per day.</text>
 			</feature>
 		</autolevel>
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Calling of the Poltergeist: Phantasmic Force</name>
+				<text>Upon reaching 11th level, you can exert your ghostly will to manipulate living creatures from a distance. As an action, you can choose a creature that is large or smaller within 30 feet of you. The target must make a Strength saving throw or be hurled 30 feet in any direction, including upward. If the target comes into contact with a hard surface, creature, or heavy object, the target takes 1d8 bludgeoning damage per 10 feet moved and is knocked prone.</text>
+				<text>	If the target creature is hurled into a second creature within range, the second creature must make a Dexterity saving throw. The second creature also takes 1d8 bludgeoning damage per 10 feet moved and is knocked prone on a failed save, or half as much damage and is not prone on a successful one.</text>
+				<text>	You can use this feature a number of times equal to your Aspect modifier (minimum of once). You regain any expended uses when you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
 		<autolevel level="13">
 			<feature>
 				<name>Piercing Chill</name>
@@ -120,6 +158,13 @@
 				<text>Beginning at 14th level, you can twist your appearance into a terrifying vision of undeath. As an action, choose any number of creatures within 30 feet of you. If they can see you, they must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creatures until the end of your next turn. This effect ends if a creature ends its turn out of line of sight of you.</text>
 				<text>	If a creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</text>
 				<text>	You must finish a short or long rest before you can use this feature again.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Calling of the Poltergeist: Torrent of Rage</name>
+				<text>Once you reach 15th level, you've learned to unleash your spectral anger. As an action, you begin calling surrounding debris to spiral and orbit you at incredible speeds. Whenever an enemy creature comes within 30 feet of you for the first time on a turn, or starts its turn within 30 feet of you, it immediately suffers 1d6 slashing damage, 1d6 piercing damage, and 1d6 bludgeoning damage. This feature lasts for up to 1 minute.</text>
+				<text>	Once you use this feature, you must finish a long rest before you can use it again.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="17">
