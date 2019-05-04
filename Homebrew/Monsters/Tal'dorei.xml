@@ -504,4 +504,102 @@
 			<attack>Endurance||1d12+2</attack>
 		</reaction>
 	</monster>
+	<monster>
+		<name>Kraghammer Goat-Knight</name>
+		<size>M</size>
+		<type>humanoid (dwarf), Tal'dorei Campaign Setting</type>
+		<alignment>neutral good</alignment>
+		<ac>20 (plate, shield)</ac>
+		<hp>52 (8d8 + 16)</hp>
+		<speed>25 ft., mounted 40 ft.</speed>
+		<str>16</str>
+		<dex>8</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save>Str +5, Dex +1, Con +4, Int +2, Wis +2, Cha +4</save>
+		<skill>Nature +3, Religion +6</skill>
+		<resist>poison</resist>
+		<immune></immune>
+		<conditionImmune>diseases</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Dwarvish</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Aura of Protection</name>
+			<text>Whenever the goat-knight or a friendly creature within 10 feet of it makes a saving throw, the creature gains a +2 bonus (included above). The knight must be conscious to grant this bonus.</text>
+		</trait>
+		<trait>
+			<name>Dwarven Resilience</name>
+			<text>The goat-knight has advantage on saving throws against poison.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The goat-knight is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). The goat-knight has the following paladin spells prepared:</text>
+			<text>1st level (4 slots): bless, cure wounds, protection from evil and good, sanctuary, shield of faith</text>
+			<text>2nd level (2 slots): branding smite, lesser restoration, locate object, zone of truth</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
+		<spells>Bless, Cure Wounds, Protection from Evil and Good, Sanctuary, Shield of Faith, Branding Smite, Lesser Restoration, Locate Object, Zone of Truth</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The goat-knight makes two warhammer attacks.</text>
+		</action>
+		<action>
+			<name>Warhammer</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands.</text>
+			<attack>Warhammer|6|1d8+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Goat-Knight Steed</name>
+		<size>L</size>
+		<type>celestial, Tal'dorei Campaign Setting</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>40 ft.</speed>
+		<str>17</str>
+		<dex>11</dex>
+		<con>12</con>
+		<int>6</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Dwarvish (comprehends, but cannot speak)</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Charge</name>
+			<text>If the goat-knight steed moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes a extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<roll>2d4</roll>
+		</trait>
+		<trait>
+			<name>Sure-Footed</name>
+			<text>The goat-knight steed has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<trait>
+			<name>Rider and Steed</name>
+			<text>Any spell with a range of Self cast by a goat-knight rider who is mounted on a goat-knight steed also targets the goat-knight steed.</text>
+		</trait>
+		<trait>
+			<name>Divine Provenance</name>
+			<text>When the goat-knight steed drops to 0 hit points it disappears, leaving behind no physical form. A goat knight can also dismiss his steed at any point as an action, causing it to disappear. In either case, the same steed is summoned when the goat-knight casts find steed.</text>
+		</trait>
+		<action>
+			<name>Ram</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Ram|8|2d4+3</attack>
+		</action>
+	</monster>
 </compendium>
