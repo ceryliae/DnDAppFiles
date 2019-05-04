@@ -403,4 +403,105 @@
 			<attack>Ice Claws|7|3d6+3+1d6</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Goliath Stormborn</name>
+		<size>M</size>
+		<type>humanoid (goliath), Tal'dorei Campaign Setting</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>102 (12d8 + 48)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>12</dex>
+		<con>18</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<save>Con +6</save>
+		<skill>Athletics +6, Intimidation +3</skill>
+		<resist>lightning</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Common, Giant</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start of its turn, the stormborn can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The stormborn’s innate spellcasting ability is Charisma (spell save DC 9). The stormborn can innately cast the following spells, requiring no material components:</text>
+			<text>3/day: lightning bolt</text>
+			<text>1/day: call lightning</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells>Lightning Bolt, Call Lightning</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The stormborn makes two greataxe attacks</text>
+		</action>
+		<action>
+			<name>Greataxe</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage plus 7 (2d6) lightning damage. Miss: 3 (1d6) lightning damage.</text>
+			<attack>Greataxe|6|1d12+4+2d6</attack>
+		</action>
+		<reaction>
+			<name>Endurance</name>
+			<text>When the stormborn takes damage, it may reduce the damage by 10 (1d12 + 4). It cannot use this trait again until it completes a short or long rest.</text>
+			<attack>Endurance||1d12+4</attack>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Goliath Brawler</name>
+		<size>M</size>
+		<type>humanoid (goliath), Tal'dorei Campaign Setting</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>15</ac>
+		<hp>65 (10d8 + 20)</hp>
+		<speed>40 ft.</speed>
+		<str>17</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>9</int>
+		<wis>16</wis>
+		<cha>7</cha>
+		<save></save>
+		<skill>Acrobatics +4, Athletics +5, Perception +5</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common, Giant</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Unarmored Defense</name>
+			<text>While the brawler is wearing no armor and not wielding a shield, its AC equals 10 + its Dexterity modifier + its Wisdom modifier.</text>
+		</trait>
+		<spellAbility></spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells></spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The brawler makes three unarmed strikes</text>
+		</action>
+		<action>
+			<name>Unarmed Strike</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the brawler can choose one of the following additional effects:</text>
+			<text>• Bruise. The target must succeed on a DC 13 Constitution saving throw. On a failure, its speed is reduced by 5 feet until it receives at least 1 point of magical healing. A DC 15 Wisdom (Medicine) check performed as an action can also restore any lost speed.</text>
+			<text>• Disarm. The target must succeed on a DC 13 Strength saving throw or drop one item it is holding. The brawler may choose which item is dropped, and may choose to pick it up.</text>
+			<text>• Suplex. The target must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Unarmed Strike|5|1d8+3</attack>
+		</action>
+		<reaction>
+			<name>Endurance</name>
+			<text>When the stormborn takes damage, it may reduce the damage by 8 (1d12 + 2). It cannot use this trait again until it completes a short or long rest.</text>
+			<attack>Endurance||1d12+2</attack>
+		</reaction>
+	</monster>
 </compendium>
