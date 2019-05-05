@@ -942,4 +942,399 @@
 			<text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
 		</action>
 	</monster>
+	<monster>
+		<name>Giant Four-Armed Gargoyle</name>
+		<size>L</size>
+		<type>elemental, Tomb of Annihilation</type>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>147 (14d10 + 70)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>19</str>
+		<dex>11</dex>
+		<con>20</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<save>Wis +4</save>
+		<skill>Perception +4</skill>
+		<resist>bludgeoning, piercing, and slashing damage from nonmagical attacks not made with adamantine weapons</resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Terran</languages>
+		<cr>10</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the gargoyle remains motionless, it is indistinguishable from an inanimate statue</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gargoyle makes five attacks: one with its bite and four with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Bite|8|2d6+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</text>
+			<attack>Claw|8|2d4+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Giant Snapping Turtle</name>
+		<size>L</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>17 (natural armor), 12 while prone</ac>
+		<hp>75 (10d10+20)</hp>
+		<speed>30 ft., swim 40 ft.</speed>
+		<str>19</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The turtle can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Stable</name>
+			<text>Whenever an effect knocks the turtle prone, it can make a DC 10 Constitution saving throw to avoid being knocked prone. A prone turtle is upside down. To stand up, it must succeed on a DC 10 Dexterity check on its turn and then use all its movement for that turn.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</text>
+			<attack>Bite|6|4d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Giant Strider</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>22 (3d10 + 6)</hp>
+		<speed>50 ft.</speed>
+		<str>18</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>4</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Fire Absorption</name>
+			<text>Whenever the giant strider is subjected to fire damage, it takes no damage and regains a number of hit points equal to half the fire damage dealt.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach Sft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>Bite|6|1d8+4</attack>
+		</action>
+		<action>
+			<name>Fire Burst (Recharge 5-6)</name>
+			<text>The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren't being worn or carried.</text>
+			<attack>Fire Burst||4d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Girallon</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>59 (7d10 + 21)</hp>
+		<speed>40 ft., climb 40 ft.</speed>
+		<str>18</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>5</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +S</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the girallon can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The girallon has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The girallon makes five attacks: one with its bite and four with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Bite|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+			<attack>Claw|6|1d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Grung</name>
+		<size>S</size>
+		<type>humanoid (grung), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>11 (2d6 + 4)</hp>
+		<speed>25 ft., climb 25 ft.</speed>
+		<str>7</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<save>Dex +4</save>
+		<skill>Athletics +2, Perception +2, Stealth +4, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Grung</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The grung can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Standing Leap</name>
+			<text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Grung Elite Warrior</name>
+		<size>S</size>
+		<type>humanoid (grung), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>13</ac>
+		<hp>49 (9d6 + 18)</hp>
+		<speed>25 ft., climb 25 ft.</speed>
+		<str>7</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +5</save>
+		<skill>Athletics +2, Perception +2, Stealth +5, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>posion</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Grung</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The grung can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Standing Leap</name>
+			<text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+		<action>
+			<name>Mesmerizing Chirr (Recharge 6)</name>
+			<text>The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a DC 12 Wisdom saving throw or be stunned until the end ofthe grung's next turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Grung Wilding</name>
+		<size>S</size>
+		<type>humanoid (grung), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>13 (16 with barkskin)</ac>
+		<hp>27 (5d6 + 10)</hp>
+		<speed>25 ft., climb 25 ft.</speed>
+		<str>7</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>10</int>
+		<wis>15</wis>
+		<cha>11</cha>
+		<save>Dex +5</save>
+		<skill>Athletics +2, Perception +4, Stealth +5, Survival +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Grung</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The grung can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:</text>
+			<text>1st level (4 slots): cure wounds, jump</text>
+			<text>2nd level (3 slots): barkskin, spike growth</text>
+			<text>3rd level (2 slots): plant growth</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+		<spells>Cure Wounds, Jump, Barkskin, Spike Growth, Plant Growth</spells>
+		<trait>
+			<name>Standing Leap</name>
+			<text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/ 320 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hadrosaurus</name>
+		<size>L</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>40 ft.</speed>
+		<str>15</str>
+		<dex>10</dex>
+		<con>13</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>—</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.</text>
+			<attack>Tail|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Jaculi</name>
+		<size>L</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>16 (3d10)</hp>
+		<speed>30 ft., climb 20 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>2</int>
+		<wis>8</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill>Athletics +4, Perception +1, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Camouflage</name>
+			<text>The jaculi has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The jaculi has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit. reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Bite|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Spring</name>
+			<text>The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage.</text>
+			<attack>Extra Dmg||2d6</attack>
+		</action>
+	</monster>
 </compendium>
