@@ -2,7 +2,9 @@ language: python
 python:
     - "2.7"
 script:
-    - if [ -z "$( 2>&1 find . \( -name "*.xml" ! -name "Templates.xml" \) -exec xmllint --noout {} \; | tee /dev/stderr)"  ]; then return 0; else return 1; fi
+    - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+    - git fetch
+    - git diff --name-only --diff-filter=AM origin/${TRAVIS_BRANCH} HEAD | grep ".xml" | xargs -d '\n' xmllint --noout
     - python create_compendiums.py --excludes
 before_install:
       - sudo apt-get install -y libxml2-utils

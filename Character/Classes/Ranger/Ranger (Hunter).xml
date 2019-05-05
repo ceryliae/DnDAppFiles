@@ -23,6 +23,10 @@
 				<name>Hunter's Prey: Horde Breaker</name>
 				<text>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</text>
 			</feature>
+			<feature optional="YES" HB="HB">
+				<name>Hunter’s Prey: Zombie Killer</name>
+				<text>When you damage an enemy with a weapon attack, that enemy has disadvantage on the next saving throw it makes before the end of your next turn.</text>
+			</feature>
 		</autolevel>
 		<autolevel level="5">
 			<feature optional="YES">
@@ -47,6 +51,10 @@
 				<name>Defensive Tactics: Steel Will</name>
 				<text>You have advantage on saving throws against being frightened.</text>
 			</feature>
+			<feature optional="YES" HB="HB">
+				<name>Defensive Tactics: Resist Death</name>
+				<text>You have advantage on saving throws made to avoid being cursed or paralyzed and you have resistance to necrotic damage.</text>
+			</feature>
 		</autolevel>
 		<autolevel level="11">
 			<feature optional="YES">
@@ -60,6 +68,10 @@
 			<feature optional="YES">
 				<name>Multiattack: Whirlwind Attack</name>
 				<text>You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.</text>
+			</feature>
+			<feature optional="YES" HB="HB">
+				<name>Multiattack: Skirmish Attack</name>
+				<text>You can use your action to choose up to 3 creatures within 30 feet of you that you can see and make a melee attack against each of them. Each creature must be within your reach to attack it, though you can use your movement before and after each attack to put those creatures within your reach.</text>
 			</feature>
 		</autolevel>
 		<autolevel level="15">
@@ -78,6 +90,11 @@
 			<feature optional="YES">
 				<name>Superior Hunter's Defense: Uncanny Dodge</name>
 				<text>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
+			</feature>
+			<feature optional="YES" HB="HB">
+				<name>Superior Hunter’s Defense: Superior Resilience</name>
+				<text>When you are subjected to an e ect that allows you to make a Constitution saving throw, such as a ghast’s stench or a wraith’s life drain, you can use a 20 instead of the number you rolled on the die for that saving throw.</text>
+				<text>	You can use this feature up to three times. You regain all expended uses of this feature when you finish a short or long rest.</text>
 			</feature>
 		</autolevel>
 	</subclass>

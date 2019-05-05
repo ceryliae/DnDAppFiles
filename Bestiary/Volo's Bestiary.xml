@@ -1209,12 +1209,12 @@
 		<action>
 			<name>Greatsword</name>
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining.</text>
-			<attack>Greatsword|9|2d6+5</attack>
+			<attack>Greatsword|9|2d6+5+2d6</attack>
 		</action>
 		<action>
 			<name>Light Crossbow</name>
 			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d8+2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half of its total hit points remaining.</text>
-			<attack>Light Crossbow|6|1d8+2</attack>
+			<attack>Light Crossbow|6|1d8+2+2d6</attack>
 		</action>
 		<spells/>
 	</monster>
@@ -1342,7 +1342,7 @@
 		<type>giant (cloud giant), Volo's Guide</type>
 		<alignment>chaotic neutral</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>262 (21d12+128)</hp>
+		<hp>262 (21d12+126)</hp>
 		<speed>40 ft.</speed>
 		<str>26</str>
 		<dex>12</dex>
@@ -4511,7 +4511,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Bite|5|1d6+3+$d6</attack>
+			<attack>Bite|5|1d6+3+4d6</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -4610,7 +4610,7 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
-			<attack>Bite|5|1d6+3+$d6</attack>
+			<attack>Bite|5|1d6+3+4d6</attack>
 		</action>
 		<action>
 			<name>Claws</name>
@@ -5491,12 +5491,12 @@
 		</action>
 		<action>
 			<name>Burrowing Worm</name>
-			<text>A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target's skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target's skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target's skin at the end of the target's next turn, dealing l piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away.</text>
+			<text>A worm launches from the spawn of Kyuss at one humanoid that the spawn can see within 10 feet of it. The worm latches onto the target's skin unless the target succeeds on a DC 11 Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target's skin, the worm can be killed by normal means or scraped off using an action (the spawn can use this action to launch a scraped-off worm at a humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target's skin at the end of the target's next turn, dealing 1 piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6) necrotic damage per worm infesting it (maximum of 10d6). A worm-infested target dies if it drops to 0 hit points, then rises 10 minutes later as a spawn of Kyuss. If a worm-infested creature is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away.</text>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage plus 7 (2d6) necrotic damage.</text>
-			<attack>Claw|6|1d6+3</attack>
+			<attack>Claw|6|1d6+3+2d6</attack>
 		</action>
 		<spells/>
 	</monster>
@@ -6062,7 +6062,7 @@
 		<type>aberration, Volo's Guide</type>
 		<alignment>lawful evil</alignment>
 		<ac>15 (breastplate)</ac>
-		<hp>127 (17d10+14)</hp>
+		<hp>127 (17d10+34)</hp>
 		<speed>30 ft.</speed>
 		<str>15</str>
 		<dex>12</dex>

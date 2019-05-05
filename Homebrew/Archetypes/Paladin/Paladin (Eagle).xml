@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Paladin" HB="HB">
+		<name>Paladin (Eagle)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Eagle</name>
+				<text>The paladins that swear the Oath of the Eagle see the eagle as a symbol of all that should be aspired to, and the Oath takes the attributes of those majestic birds and transforms them into edicts to live by. These paladins admire eagles not only for their beauty and splendor, but also their nobility, their speed, their awareness, and their skills as hunters. Most of all, paladins who swear the Oath of the Eagle look up to the sky and see the eagle in flight as a symbol of liberation, and seek to break the chains that bind any mortal and prevent them from soaring just the same.</text>
+				<text />
+				<text>Tenets of the Eagle</text>
+				<text />
+				<text>The tenets of the Oath of the Eagle transform the eagle from a symbol into practical guidance on living one’s life. While most who swear this Oath recognize that these tenets are built heavily on symbolism and allegory, they nonetheless willingly embrace the idealistic mantras.</text>
+				<text>	Freedom Above All: None can reach the heights that the eagle does when they are chained to the ground. Fight slavery and imprisonment wherever you can, and oppose those tyrants who would restrict the freedoms of their people.</text>
+				<text>	Shine as a Symbol: You are an example to others; just as you once gazed up to the skies and saw the soaring eagle above you, so too will others look up to you and see your deeds and triumphs. Always remember that you exemplify not only the tenets of your Oath, but all those of your order. Give those who look upon you something to aspire to.</text>
+				<text>	Be a Relentless Hunter: Do not flag in your pursuit of your enemies. When you drive off slavers and tyrants, give them no chance to escape; pursue, and bring them down. The enemies of your order cannot be allowed to flee from the justice of your grasp.</text>
+				<text>	Soar to the Greatest Heights: Always strive to achieve great things. Reach for the skies in all things, and never be satisfied with your deeds. There is always more to be done, and every triumph you complete elevates both you and the other members of your faith.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Eagle: Oath Spells</name>
+				<text>You gain oath spells at the paladin levels listed.</text>
+				<text />
+				<text>3rd - feather fall, jump</text>
+				<text />
+				<text>5th - gust of wind, levitate</text>
+				<text />
+				<text>9th - fly, wind wall</text>
+				<text />
+				<text>13th - dominate monster, freedom of movement</text>
+				<text />
+				<text>17th - cone of cold, wall of force</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Eagle Channel Divinity: Sacred Hunt</name>
+				<text>As a bonus action, you can set your sights upon a single enemy, using your Channel Divinity to mark them as your prey. You choose one enemy that you can see, and for 1 minute if you start your turn and are not within 5 feet of that enemy, before moving or taking any actions you can move up to 30 feet toward that enemy by the safest direct route without using any of your movement for the turn. This effect ends if the chosen enemy drops to 0 hit points or becomes unconscious.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Eagle Channel Divinity: Sight of the Eagle</name>
+				<text>As a bonus action, you can take on the eyesight of the eagle, using your Channel Divinity. For 1 minute, you have advantage on Wisdom (Perception) checks related to sight, can see up to ten times as far away as normal, and have darkvision.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Oath of the Eagle: Aura of Speed</name>
+				<text>Beginning at 7th level, you can use the Dash action as a bonus action, and when any creature you are friendly to starts its turn within 10 feet of you, for that turn the creature can also use the Dash action as a bonus action.</text>
+				<text>	At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Oath of the Eagle: Divine Splendor</name>
+				<text>Starting at 15th level, you are always under the effects of the Eagle’s Splendor effect of the enhance ability spell.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Ally of Eagles</name>
+				<text>Also beginning at 15th level, if you cast the find steed spell, you can choose the form of a giant eagle for the steed that you summon.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature optional="YES">
+				<name>Oath of the Eagle: Superior Predator</name>
+				<text>At 20th level, you can use your action to become one with the divine spirit of the eagle. For 1 hour, you gain the following bene ts:</text>
+				<text>• Feathered eagle wings sprout from your back and grant you a flying speed of 60 feet.</text>
+				<text>• You can see invisible creatures that are within 60 feet of you.</text>
+				<text>• When you fly at least 30 feet in a straight line immediately before making a melee attack, you have advantage on that attack roll.</text>
+				<text>Once you use this feature, you can’t use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Paladin (Eagle)">
+		<index name="Feather Fall" />
+		<index name="Jump" />
+		<index name="Gust of Wind" />
+		<index name="Levitate" />
+		<index name="Fly" />
+		<index name="Wind Wall" />
+		<index name="Dominate Monster" />
+		<index name="Freedom of Movement" />
+		<index name="Cone of Cold" />
+		<index name="Wall of Force" />
+	</spellList>
+</compendium>

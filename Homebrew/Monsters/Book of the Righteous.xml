@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<monster>
+		<name>Hanumanis</name>
+		<size>M</size>
+		<type>celestial, Book of the Righteous</type>
+		<alignment>chaotic good</alignment>
+		<ac>19</ac>
+		<hp>44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>20</dex>
+		<con>12</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>13</cha>
+		<save>Dex +8, Wis +4</save>
+		<skill>Acrobatics +8, Perception +4</skill>
+		<resist>radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>14</passive>
+		<languages>all</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Celestial Weapon</name>
+			<text>The hanumanis’s weapon attacks are magical. The hanumanis treats all weapons as if they had the finesse property. When a hanumanis hits with any weapon, the weapon deals an extra 2d8 radiant damage (included in the attack).</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The hanumanis’s spellcasting ability is Intelligence (spell save DC 13). The hanumanis can innately cast the following spells, requiring only verbal components.</text>
+			<text>3/day: hideous laughter</text>
+			<text>1/day: dimension door, invisibility</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The hanumanis makes two staff attacks.</text>
+		</action>
+		<action>
+			<name>Staff</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target(s). Hit: 9 (1d8 + 5) bludgeoning damage plus 9 (2d8) radiant damage.</text>
+			<attack>Staff|8|1d8+5+2d8</attack>
+		</action>
+		<action>
+			<name>Change Shape</name>
+			<text> e hanumanis magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the hanumanis’s choice) In a new form, the hanumanis retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.</text>
+		</action>
+		<reaction>
+			<name>Spring Away</name>
+			<text>The hanumanis makes an attack with its staff and moves up to half its speed when a creature it can see misses it.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Pooka</name>
+		<size>M</size>
+		<type>celestial, Book of the Righteous</type>
+		<alignment>chaotic good</alignment>
+		<ac>17</ac>
+		<hp>27 (6d8)</hp>
+		<speed>30 ft.</speed>
+		<str>8</str>
+		<dex>22</dex>
+		<con>10</con>
+		<int>13</int>
+		<wis>16</wis>
+		<cha>14</cha>
+		<save>Dex +9</save>
+		<skill>Acrobatics, +9, Medicine +6, Stealth +9</skill>
+		<resist>cold, fire, and radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>13</passive>
+		<languages>all</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The pooka’s spellcasting ability is Wisdom (spell save DC 14). THe pooka can innately cast the following spells, requiring only verbal components.</text>
+			<text>At-will: detect evil and good</text>
+			<text>3/day: cure wounds (as 4th level), detect thoughts, invisibility, lesser restoration</text>
+			<text>1/day: dimension door, remove curse</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d4 + 6) piercing damage.</text>
+			<attack>Bite|9|1d4+6</attack>
+		</action>
+		<reaction>
+			<name>Bestow Luck</name>
+			<text>The pooka grants advantage to one attack roll, ability check, or saving throw made by a creature within 60 feet of it. The pooka must be able to see the creature.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Handmaid of Zheenkeef</name>
+		<size>M</size>
+		<type>aberration, Book of the Righteous</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>17</ac>
+		<hp>105 (14d8 + 42)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>16</str>
+		<dex>20</dex>
+		<con>17</con>
+		<int>11</int>
+		<wis>24</wis>
+		<cha>22</cha>
+		<skill>Deception +10, Perception +11</skill>
+		<resist>acid, cold, fire, lightning, and poison; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>21</passive>
+		<languages>all</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The handmaid’s spellcasting ability is Wisdom (spell save DC 19). The handmaid can innately cast the following spells, requiring only verbal components.</text>
+			<text>3/day: confusion, dimension door, dominate person, greater invisibility, hideous laughter, polymorph</text>
+			<text>1/day: dominate monster, mislead, plane shift, teleport</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The handmaid has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Touch of Chaos</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 55 (1d100) damage. Roll a d12 to determine the damage type: 1, acid; 2, bludgeoning; 3, cold; 4, fire; 5, force; 6, lightning; 7, necrotic; 8, piercing; 9, poison; 10, radiant; 11, slashing; 12, thunder. Creatures with the incorporeal movement trait are immune to this attack.</text>
+			<attack>Touch of Chaos|9|1d100</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ix</name>
+		<size>M</size>
+		<type>celestial, Book of the Righteous</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>21</ac>
+		<hp>120 (16d8 + 48)</hp>
+		<speed>40 ft.</speed>
+		<str>13</str>
+		<dex>24</dex>
+		<con>17</con>
+		<int>25</int>
+		<wis>16</wis>
+		<cha>22</cha>
+		<save>Dex +11, Int +11</save>
+		<skill>Acrobatics +11, Perception +7, Stealth +11</skill>
+		<resist>radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<conditionImmune>charmed, exhaustion, frightened</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>17</passive>
+		<languages>all</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Ix’s spellcasting ability is Intelligence (spell save DC 19). Ix can innately cast the following spells, requiring only verbal components.</text>
+			<text>3/day: dimension door and greater invisibility</text>
+			<text>1/day: plane shift and power word stun</text>
+		</trait>
+		<trait>
+			<name>Fortune’s Blessings</name>
+			<text>Ix is blessed with good luck and has advantage on all saving throws. As well, all creatures have disadvantage on attack rolls against him.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Ix has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Ix is a 16th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 19, +11 to hit with spell attacks). He has the following wizard spells prepared.</text>
+			<text>Cantrips (at-will): dancing lights, friends, mage hand, minor illusion, prestidigitation, shocking grasp</text>
+			<text>1st-level (4 slots): charm person, color spray, silent image</text>
+			<text>2nd-level (3 slots): blur, hold person, mirror image</text>
+			<text>3rd-level (3 slots): fear, hypnotic pattern</text>
+			<text>4th-level (3 slots): confusion, phantasmal killer</text>
+			<text>5th-level (2 slots): dominate person</text>
+			<text>6th-level (1 slot): programmed illusion</text>
+			<text>7th-level (1 slot): mirage arcana</text>
+			<text>8th-level (1 slot): antipathy/sympathy</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Ix makes two claw attacks and one bite attack.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 9 (1d4 + 7) slashing damage. If the target is a creature other than a construct or undead, it must succeed on a DC 19 Intelligence saving throw or become cursed for 24 hours. While cursed, the target makes Intelligence attack rolls, checks, and saving throws with disadvantage for 24 hours. If the target is already cursed this way, it takes an extra 2d6 psychic damage.</text>
+			<attack>Claws|11|1d4+7</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 9 (1d4 + 7) piercing damage.</text>
+			<attack>Bite|11|1d4+7</attack>
+		</action>
+		<action>
+			<name>Change Shape</name>
+			<text>Ix magically polymorphs into a humanoid that has a challenge rating equal to or less than his own, or back into his true form. He reverts to his true form if he dies. Any equipment he is wearing or carrying is absorbed or borne by the new form (Ix’s choice). In a new form, Ix retains his game statistics and ability to speak, but his AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and he gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that he lacks.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Lammasu</name>
+		<size>L</size>
+		<type>monstrosity, Book of the Righteous</type>
+		<alignment>lawful good</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>102 (12d10 + 36)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>23</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>16</int>
+		<wis>17</wis>
+		<cha>14</cha>
+		<save>Dex +3, Wis +6, Cha +5</save>
+		<senses>darkvision 120 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Celestial, Draconic</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>A lammasu’s spellcasting ability is Wisdom (spell save DC 14). A lammasu can innately cast the following spells, requiring only verbal components.</text>
+			<text>3/day: greater invisibility</text>
+			<text>1/day: dimension door</text>
+		</trait>
+		<trait>
+			<name>Pounce</name>
+			<text>If the lammasu moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn that target must succeed on a DC 17 Strength saving throw or be knocked prone. If the target is prone, the lammasu can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Ix makes two claw attacks and one bite attack.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 9 (1d4 + 7) slashing damage. If the target is a creature other than a construct or undead, it must succeed on a DC 19 Intelligence saving throw or become cursed for 24 hours. While cursed, the target makes Intelligence attack rolls, checks, and saving throws with disadvantage for 24 hours. If the target is already cursed this way, it takes an extra 2d6 psychic damage.</text>
+			<attack>Claws|11|1d4+7</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (1d12 + 6) piercing damage.</text>
+			<attack>Bite|9|1d12+6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Metteron</name>
+		<size>H</size>
+		<type>celestial, Book of the Righteous</type>
+		<alignment>lawful good</alignment>
+		<ac>21</ac>
+		<hp>312 (25d12 + 150)</hp>
+		<speed>50 ft., fly 150 ft.</speed>
+		<str>28</str>
+		<dex>10</dex>
+		<con>22</con>
+		<int>17</int>
+		<wis>20</wis>
+		<cha>18</cha>
+		<save>Dex +7, Wis +12</save>
+		<skill>Insight +12, Perception +12</skill>
+		<resist>acid, fire, lightning, radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, petrified</conditionImmune>
+		<senses>truesight 120 ft.</senses>
+		<passive>23</passive>
+		<languages>all, telepathy 120 ft.</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Divine Awareness</name>
+			<text>Metteron knows if he hears a lie.</text>
+		</trait>
+		<trait>
+			<name>Divine Claws and Teeth</name>
+			<text>Metteron’s weapon attacks are magical. When Metteron hits with his claws or teeth, the weapon deals an extra 8d8 radiant damage.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Metteron’s spellcasting ability is Wisdom (spell save DC 20). Metteron can innately cast the following spells, requiring only verbal components.</text>
+			<text>At will: detect evil and good</text>
+			<text>3/day: plane shift</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Metteron has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Pounce</name>
+			<text>If Metteron moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn that target must succeed on a DC 17 Strength saving throw or be knocked prone. If the target is prone, Metteron can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Metteron is a 20th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 20, +12 to hit with spell attacks). He has the following cleric spells prepared.</text>
+			<text>Cantrips (at-will): guidance, light, resistance, sacred flame, thaumaturgy</text>
+			<text>1st-level (4 slots): bless, healing word, sanctuary, shield of faith</text>
+			<text>2nd-level (3 slots): aid, enhance ability, prayer of healing</text>
+			<text>3rd-level (3 slots): beacon of hope, dispel magic, magic circle</text>
+			<text>4th-level (3 slots): banishment, death ward, freedom of movement</text>
+			<text>5th-level (3 slots): commune, dispel evil and good, mass cure wounds</text>
+			<text>6th-level (2 slots): blade barrier, heal, heroes’ feast</text>
+			<text>7th-level (2 slots): conjure celestial, divine word, fire storm</text>
+			<text>8th-level (1 slot): antimagic field, holy aura</text>
+			<text>9th-level (1 slot): gate</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Metteron makes two claw attacks</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (3d8 + 9) piercing damage plus 36 (8d8) radiant damage.</text>
+			<attack>Bite|16|3d8+9+8d8</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) slashing damage plus 36 (8d8) radiant damage.</text>
+			<attack>Claws|16|2d10+9+8d8</attack>
+		</action>
+		<action>
+			<name>Roar of Courage (recharge 6)</name>
+			<text>Metteron roars. Each creature Metteron chooses within a 150-foot radius becomes immune to the frightened condition and makes attack rolls with advantage. The effect lasts for 10 minutes.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Phoenix</name>
+		<size>G</size>
+		<type>monstrosity, Book of the Righteous</type>
+		<alignment>neutral good</alignment>
+		<ac>19 (natural)</ac>
+		<hp>370 (20d20 + 160)</hp>
+		<speed>60 ft., fly 200 ft.</speed>
+		<str>27</str>
+		<dex>13</dex>
+		<con>26</con>
+		<int>18</int>
+		<wis>20</wis>
+		<cha>22</cha>
+		<skill>Perception +11</skill>
+		<resist>radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>fire, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>21</passive>
+		<languages>all</languages>
+		<cr>18</cr>
+		<trait>
+			<name>Death Throes</name>
+			<text>When the phoenix dies, it explodes in a blinding flash of light, flames, and smoke. Each creature within 30 feet of it must make a DC 22 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in the area that aren’t being worn or carried. In addition, smoke and swirling embers fill the area of the explosion for 1 minute and cause the area to be heavily obscured. Any creature that ends its turn in the area or that enters it must make a DC 22 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<trait>
+			<name>Holy Senses</name>
+			<text> The phoenix is always under the effects of the detect evil and good and detect magic spells.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The phoenix’s spellcasting ability is Charisma (spell save DC 20). The phoenix can innately cast the following spells, requiring only verbal components.</text>
+			<text>3/day: color spray, dispel magic, wall of fire</text>
+			<text>1/day: fire storm, incendiary cloud, plane shift</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The phoenix has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The phoenix makes two attacks: one with its beak and one with its talons.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) piercing damage.</text>
+			<attack>Bite|15|2d8+8</attack>
+		</action>
+		<action>
+			<name>Talons</name>
+			<text>Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 15 (2d6 + 8) slashing damage, and the target is grappled (escape DC 22). Until the grapple ends, the target is restrained, and the phoenix can’t use its talons on another target.</text>
+			<attack>Talons|15|2d6+8</attack>
+		</action>
+		<action>
+			<name>Phoenix Blessing (4/day)</name>
+			<text>The phoenix touches another creature, which regains 38 (6d10 + 5) hit points. In addition, the phoenix removes any curse or disease affecting the target and removes the blinded, deafened, frightened, or poisoned conditions from it.</text>
+			<attack>Phoenix Blessing||6d10+5</attack>
+		</action>
+		<legendary>
+			<name>Shriek</name>
+			<text>Each creature within 30 feet of the phoenix must get a success on a DC 22 Wisdom saving throw or drop whatever it is holding and become frightened for 1 minute. While frightened by this effect, a creature must take the Dash action and move away from the phoenix by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn’t have line of sight to the phoenix, the creature can make a Wisdom saving throw and the effect ends for the creature. Once a creature saves against this effect, it becomes immune to the phoenix’s shriek for 24 hours.</text>
+		</legendary>
+		<legendary>
+			<name>Phoenix Dance (Costs 2 Actions)</name>
+			<text>The phoenix performs a complex dance and at the end of this time can choose up to two creatures it can see within 60 feet of it and divides the following effects between the targets.</text>
+		</legendary>
+		<legendary>
+			<name>Dispel</name>
+			<text>The target is affected as if by the dispel magic spell cast as a 6th-level spell.</text>
+		</legendary>
+		<legendary>
+			<name>Exile</name>
+			<text>The target must make a DC 20 Charisma saving throw. A celestial, elemental, fey, fiend, or undead that fails the save instantly returns to its home plane if it is not there already—fey go to the Feywild and undead go to the Shadowfell. A creature of any other type ceases to exist until the end of the phoenix’s next turn. When this e ect ends, the creature returns to the last space it occupied or an open space nearest to it.</text>
+		</legendary>
+		<legendary>
+			<name>Blinding Flare (Costs 3 Actions)</name>
+			<text>The phoenix targets one creature within 30 feet of it. If the target can see it, the target must get a success on a DC 22 Constitution saving throw or become blinded for 1 minute.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Raguel</name>
+		<size>H</size>
+		<type>celestial, Book of the Righteous</type>
+		<alignment>lawful good</alignment>
+		<ac>23 (natural armor)</ac>
+		<hp>957 (66d12 + 528)</hp>
+		<speed>50 ft., fly 150 ft.</speed>
+		<str>28</str>
+		<dex>18</dex>
+		<con>26</con>
+		<int>20</int>
+		<wis>30</wis>
+		<cha>30</cha>
+		<save>Int +13, Wis +18, Cha +18</save>
+		<skill>Acrobatics +12, Athletics +17, Perception +18</skill>
+		<resist>radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, frightened, petrified</conditionImmune>
+		<senses>truesight 240 ft.</senses>
+		<passive>28</passive>
+		<languages>all, telepathy 120 ft.</languages>
+		<cr>27</cr>
+		<trait>
+			<name>Angelic Weapons</name>
+			<text>Raguel’s weapon attacks are magical. When he hits with any weapon, the weapon deals an extra 6d12 radiant damage (included in the attack).</text>
+		</trait>
+		<trait>
+			<name>Divine Awareness</name>
+			<text>Raguel knows if he hears a lie.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Raguel’s spellcasting ability is Charisma (spell save DC 26). Raguel can innately cast the following spells, requiring only verbal components.</text>
+			<text>At will: detect evil and good, invisibility (self only)</text>
+			<text>3/day: blade barrier, dispel evil and good, earthquake, fire storm, resurrection</text>
+			<text>1/day: commune, control weather, power word blind, power word kill, power word stun</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Raguel has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Raguel makes two greatsword attacks.</text>
+		</action>
+		<action>
+			<name>Greatsword</name>
+			<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 30 (6d6 + 9) slashing damage plus 39 (6d12) radiant damage.</text>
+			<attack>Greatsword|17|6d6+9+6d12</attack>
+		</action>
+		<action>
+			<name>Slaying Longbow</name>
+			<text>Ranged Weapon Attack: +12 to hit, range 120/600 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 39 (6d12) radiant damage. If the target is a creature that has 120 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.</text>
+			<attack>Slaying Longbow|12|2d10+4+6d12</attack>
+		</action>
+		<action>
+			<name>Healing Touch (4/day)</name>
+			<text>Raguel touches another creature. The target magically regains 49 (8d10 + 5) hit points and is freed from any curse, disease, poison, blindness, or deafness.</text>
+		</action>
+		<legendary>
+			<name>Teleport</name>
+			<text>Raguel magically teleports, along with any equipment he wears or carries, up to 120 feet to an unoccupied space he can see.</text>
+		</legendary>
+		<legendary>
+			<name>Searing Burst (Costs 2 Actions)</name>
+			<text>Raguel emits magical, divine energy. Each creature of his choice in a 10-foot radius must make a DC 26 Dexterity saving throw, taking 22 (4d10) fire damage plus 22 (4d10) radiant damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Searing Burst||4d10+4d10</attack>
+		</legendary>
+		<legendary>
+			<name>Blinding Gaze (Costs 3 Actions)</name>
+			<text>Raguel targets one creature he can see within 30 feet of him. If the target can see him, the target must succeed on a DC 26 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.</text>
+		</legendary>
+		<legendary>
+			<name>Thunder of Heaven (Costs 3 Actions; Recharge 6)</name>
+			<text>Raguel unleashes the thunder of Heaven at a point he can see within any distance. A cacophonous roar  lls a 50-foot-radius sphere that spreads around corners. Each creature in the area must make a DC 26 Constitution saving throw, taking 90 (20d8) thunder damage and becoming stunned for 1d4 rounds and deafened for 1d6 minutes on a failed save, or just take half this damage on a successful one.</text>
+		</legendary>
+	</monster>
+</compendium>

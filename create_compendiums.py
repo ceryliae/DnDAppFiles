@@ -18,6 +18,7 @@ import os
 import re
 import argparse
 import copy
+from xml.etree.ElementTree import ParseError
 
 COMPENDIUM = 'Compendiums/{category} Compendium.xml'
 
@@ -28,8 +29,11 @@ class XMLCombiner(object):
 
     def __init__(self, filenames):
         assert len(filenames) > 0, 'No filenames!'
-        # TODO: clean up instance variables. sources was added to hold a reference to the filename for logging, files/roots are not strictly necessary but more descriptive than anonymous structure sources
-        self.sources = [[file[0], file[1], file[1].getroot()] for file in [[name, self.informed_parse(name)] for name in filenames]]
+        # TODO: clean up instance variables
+        # sources was added to hold a reference to the filename for logging
+        # files/roots are not strictly necessary but more descriptive than anonymous structure sources
+        self.sources = [[data[0], data[1], data[1].getroot()] for data in
+                        [[name, self.informed_parse(name)] for name in filenames]]
         self.files = [source[1] for source in self.sources]
         self.roots = [source[2] for source in self.sources]
         self.remove_excludes()
@@ -38,8 +42,9 @@ class XMLCombiner(object):
         """Parse source XML, logs filename on error"""
         try:
             return et.parse(filename)
-        except:
+        except ParseError as pe:
             print filename
+            print pe
             raise
 
     def remove_excludes(self):
@@ -54,7 +59,9 @@ class XMLCombiner(object):
     def remove_excludes_recursive(self, root):
         """Removes xml with excluded attributes (default [M, HB])
            this handles attributes on descendent nodes"""
-        if root.getchildren() is None: return
+        if root.getchildren() is None:
+            return
+
         for child in root.getchildren():
             if any(child.get(tag) for tag in args.excludes):
                 root.remove(child)
@@ -70,10 +77,10 @@ class XMLCombiner(object):
         self.compile_subs(items)
 
         # flatten out items for adding back into root
-        elements = [ element for categories in items.values() for element in categories.values()]
+        elements = [element for categories in items.values() for element in categories.values()]
         # for element in elements:
         #     print u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class'))
-        elements.sort(key=lambda element: u"{0}/{1}".format(element.tag, element.findtext('name') or element.get('class')))
+        elements.sort(key=lambda el: u"{0}/{1}".format(el.tag, el.findtext('name') or el.get('class')))
 
         # drop <subclass> elements etc, FC5 doesn't recognize them and will treat <feature>s in them as <feat>s
         self.roots[0][:] = [element for element in elements
@@ -81,11 +88,11 @@ class XMLCombiner(object):
         return self.files[0].write(output_path, encoding='UTF-8')
 
     def remove_duplicates(self):
-        """ Loads base elements into dictionaries, primarily so sub-classes can reference base-classes. Also removes and logs duplicates."""
-        items = {'race':{},
-        'class':{}, 'baseclass': {}, 'subclass':{},
-        'background':{}, 'feat':{}, 'item':{}, 'monster':{},
-        'spell':{}, 'spellList':{}}
+        """ Loads base elements into dictionaries, primarily so sub-classes can reference base-classes.
+        Also removes and logs duplicates."""
+        items = {'race': {}, 'class': {}, 'baseclass': {}, 'subclass': {},
+                 'background': {}, 'feat': {}, 'item': {}, 'monster': {},
+                 'spell': {}, 'spellList': {}}
         attribution = copy.deepcopy(items)
 
         for filename, f, r in self.sources:
@@ -100,7 +107,8 @@ class XMLCombiner(object):
                 else:
                     name = element.findtext('name')
                     if name in attribution[element.tag]:
-                        print 'Duplicate {0} named {1} [{2} => {3}]'.format(element.tag, name, attribution[element.tag][name], filename)
+                        print 'Duplicate {0} named {1} [{2} => {3}]'.format(element.tag, name,
+                                                                            attribution[element.tag][name], filename)
                     attribution[element.tag][name] = filename
                     items[element.tag][name] = element
 
@@ -119,13 +127,15 @@ class XMLCombiner(object):
     def compile_bases(self, items):
         # make <class> from <baseclass>
         for name, element in items['baseclass'].items():
-            if args.basetype_format == 'complete': # else 'none' to not include a full class
-                if name in items['class']: print 'Duplicate' # should be redundant
+            if args.basetype_format == 'complete':  # else 'none' to not include a full class
+                if name in items['class']:
+                    print 'Duplicate'  # should be redundant
                 complete_class = et.fromstring('<class name="{0}"></class>'.format(name))
                 complete_class.extend(list(element))
                 items['class'][name] = complete_class
 
-            if args.subtype_format == 'reference': # else usable or none. 'usable' doesn't need !Base and 'none' doesn't want it
+            # reference, usable, or none. 'usable' doesn't need !Base and 'none' doesn't want it
+            if args.subtype_format == 'reference':
                 base_name = '{0} !Base'.format(name)
                 reference_class = et.fromstring('<class name="{0}">\n\t\t<name>{0}</name>\n</class>'.format(base_name))
                 reference_class.extend(list(element))
@@ -134,19 +144,20 @@ class XMLCombiner(object):
 
     def compile_subs(self, items):
         # combine subclasses with classes
-        for name, element in items['subclass'].items():
+        for name, element in sorted(items['subclass'].iteritems()):
             base_name = element.get('baseclass')
-            if base_name not in items['baseclass']: print 'Missing baseclass {0} for {1}'.format(base_name, name)
+            if base_name not in items['baseclass']:
+                print 'Missing baseclass {0} for {1}'.format(base_name, name)
 
-            if args.basetype_format == 'complete': # else 'none' to not include a full class
+            if args.basetype_format == 'complete':  # else 'none' to not include a full class
                 complete_class = items['class'][base_name]
                 complete_class.extend(list(element))
                 complete_class.remove(complete_class.find('name[last()]'))
                 items['class'][base_name] = complete_class
 
-            if args.subtype_format != 'none': # useable or reference both want entries
+            if args.subtype_format != 'none':  # useable or reference both want entries
                 reference_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
-                if args.subtype_format == 'usable': # skip baseclass info for 'reference'
+                if args.subtype_format == 'usable':  # skip baseclass info for 'reference'
                     reference_class.extend(list(items['baseclass'][base_name]))
                 reference_class.extend(list(element))
                 items['class'][name] = reference_class
@@ -186,29 +197,29 @@ def create_category_compendiums():
     categories = ['Items', 'Character', 'Spells', 'Bestiary', 'Unearthed Arcana', 'Homebrew']
     output_paths = []
     for category in categories:
-        if (args.includes != ['*'] and (category not in args.includes)): continue
+        if args.includes != ['*'] and (category not in args.includes):
+            continue
 
         # filenames = glob('%s/*.xml' % category)
         filenames = []
 
-        if (category is 'Homebrew'): # populate base classes to allow for homebrew archetypes
+        if category is 'Homebrew':  # populate base classes to allow for homebrew archetypes
             for root, dirnames, fnames in os.walk('Character/Classes'):
                 for filename in [fname for fname in fnmatch.filter(fnames, '*.xml') if "(" not in fname]:
                     class_name = re.search('(.*)\.xml', filename).groups()[0]
                     if args.includes == ['*'] or args.includes == ['Homebrew'] or class_name in args.includes:
                         filenames.append(os.path.join(root, filename))
-        else:
-            for root, dirnames, fnames in os.walk(category):
-                for filename in fnmatch.filter(fnames, '*.xml'):
-                    filenames.append(os.path.join(root, filename))
+        for root, dirnames, fnames in os.walk(category):
+            for filename in fnmatch.filter(fnames, '*.xml'):
+                filenames.append(os.path.join(root, filename))
         output_path = COMPENDIUM.format(category=category)
 
         """build UA compendium, but exclude from Full unless included"""
-        if category == 'Unearthed Arcana' and 'Unearthed Arcana' not in args.includes:
-            continue
-        output_paths.append(output_path)
+        if category != 'Unearthed Arcana' or 'Unearthed Arcana' in args.includes:
+            output_paths.append(output_path)
         XMLCombiner(filenames).combine_templates(output_path)
     return output_paths
+
 
 def create_class_compendiums():
     classes = {}
@@ -223,7 +234,9 @@ def create_class_compendiums():
     for file in files:
         class_name, subclass_name = re.search(r"/([^/]+)/([^/]+)\.xml$", file).groups()
         if args.includes == ['*'] or (class_name in args.includes):
-            if class_name not in classes: classes[class_name] = []
+            if class_name not in classes:
+                classes[class_name] = []
+
             classes[class_name].append(file)
 
     # combine subclasses with baseclass to make <class> entries
@@ -232,6 +245,7 @@ def create_class_compendiums():
         output_paths.append(output_path)
         XMLCombiner(filenames).combine_templates(output_path)
     return output_paths
+
 
 def create_full_compendium():
     """Create the category compendiums and combine them into full compendium"""
@@ -257,6 +271,7 @@ def create_full_compendium():
         category = args.name
     full_path = COMPENDIUM.format(category=category)
     XMLCombiner(category_paths + class_paths).combine_templates(full_path)
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
