@@ -5,7 +5,7 @@
 		<name>Acererak</name>
 		<size>M</size>
 		<type>undead, Tomb of Annihilation</type>
-		<alignment>neutal evil</alignment>
+		<alignment>neutral evil</alignment>
 		<ac>21 (natural armor)</ac>
 		<hp>285 (30d8 + 150)</hp>
 		<speed>30 ft.</speed>
@@ -1335,6 +1335,350 @@
 			<name>Spring</name>
 			<text>The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage.</text>
 			<attack>Extra Dmg||2d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kamadan</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>67 (9d10 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>3</int>
+		<wis>14</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The kamadan has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<name>Pounce</name>
+			<text>If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks- one with its bite and one with its snakes-against it as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The kamadan makes two attacks: one with its bite or claw and one with its snakes.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Bite|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Claw|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Snakes</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or halfas much damage on a successful one.</text>
+			<attack>Snakes|5|1d6+3</attack>
+			<attack>Poison||6d6</attack>
+		</action>
+		<action>
+			<name>Sleep Breath (Recharges after a Short or Long Rest)</name>
+			<text>The kamadan exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Kobold Scale Sorcerer</name>
+		<size>S</size>
+		<type>humanoid (kobold), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>27 (5d6 + 10)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>9</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill>Arcana +2, Medicine +1</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The kobold is a 3rd·level spellcaster. Its spellcast- ing ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:</text>
+			<text>Cantrips (at will): fire bolt, mage hand, mending, poison spray</text>
+			<text>1st level (4 slots): charm person, chromatic orb, expeditious retreat</text>
+			<text>2nd level (2 slots): scorching ray</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
+		<spells>Fire Bolt, Mage Hand, Mending, Poison Spray, Charm Person, Chromatic Orb, Expeditious Retreat, Scorching Ray</spells>
+		<trait>
+			<name>Sorcery Points</name>
+			<text>The kobold has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:</text>
+			<text>Heightened Spell: When it casts a spell that forces a creature to make a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.</text>
+			<text>Subtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet ofthe creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kobold Inventor</name>
+		<size>S</size>
+		<type>humanoid (kobold), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>13 (3d6 + 3)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill>Perception +0</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet ofthe creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon AHack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Sling|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Weapon Invention</name>
+			<text> The kobold uses one ofthe following options (roll a d8 or choose one); the kobold can use each one no more than once per day:</text>
+			<text>1. Acid. The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 7 (2d6) acid damage.</text>
+			<text>2. Alchemist's Fire. The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 2 (1d4) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text>
+			<text>3. Basket of Centipedes. The kobold throws a small basket into a 5-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
+			<text>4. Green Slime Pot.The kobold throws a clay pot full ofgreen slime at the target, and It breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft. , one target. Hit: The target is covered in a patch ofgreen slime (see chapter S of the Dungeon Master's Guide). Miss; A patch of green slime covers a randomly determined S-foot-square section ofwall or floor within 5feet ofthe target.</text>
+			<text>5. Rot Grub Pot. The kobold throws a clay pot into a 5-foot- square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.</text>
+			<text>6. Scorpion on a Stick. The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach S ft., one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>7. Skunk in a Cage. The kobold releases a skunk into an unoccupied space with in 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest.</text>
+			<text>8. Wasp Nest in a Bag. The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end ofeach ofthe swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
+			<attack>Acid|4|2d6</attack>
+			<attack>Alchemist's Fire|4|1d4</attack>
+			<attack>Green Slime Pot|4|</attack>
+			<attack>Scorpion on a Stick|4|1+1d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Liara Portyr</name>
+		<size>M</size>
+		<type>humanoid (human), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>15 (studded leather, shield)</ac>
+		<hp>84 (13d8 + 26)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>15</con>
+		<int>14</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<save>Con +4, Wis +4</save>
+		<skill>Athletics +5, Deception +5, Insight +4, Intimidation +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common, Draconic, Dwarvish</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Brave</name>
+			<text>Liara has advantage on saving throws against being frightened.</text>
+		</trait>
+		<trait>
+			<name>Flaming Fury</name>
+			<text>Once per turn, when Liara hits a creature with a melee weapon, she can cause fire to magically erupt from her weapon and deal an extra 10 (3d6) fire damage to the target.</text>
+			<roll>3d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Liara makes three melee attacks.</text>
+		</action>
+		<action>
+			<name>Battleaxe</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands.</text>
+			<attack>Battleaxe (1H)|5|1d8+3</attack>
+			<attack>Battleaxe (2H)|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Heavy Crossbow</name>
+			<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</text>
+			<attack>Heavy Crossbow|3|1d10+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Mantrap</name>
+		<size>L</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>45 (7d10 + 7)</hp>
+		<speed>5 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+		<senses>tremorsense 30 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Attractive Pollen (1/Day)</name>
+			<text>When the mantrap detects any creatures nearby, it can use its reaction to release pollen out to a radius of 30 feet. Any beast or humanoid within the area must succeed on a DC 11 Wisdom saving throw or be forced to use all its movement on its turns to get as close to the mantrap as possible. An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the mantrap remains motionless, it is indistinguishable from an ordinary tropical plant.</text>
+		</trait>
+		<action>
+			<name>Engulf</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is blinded and restrained, has total cover from attacks and other effects outside the mantrap, and takes 14 (4d6) acid damage at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer restrained by it. A mantrap can engulf only one creature at a time.</text>
+			<attack>Engulf|4|</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Mwaxanaré</name>
+		<size>M</size>
+		<type>humanoid (human), Tomb of Annihilation</type>
+		<alignment>lawful neutral</alignment>
+		<ac>10</ac>
+		<hp>13 (3d8)</hp>
+		<speed>30 ft.</speed>
+		<str>6</str>
+		<dex>10</dex>
+		<con>11</con>
+		<int>13</int>
+		<wis>12</wis>
+		<cha>16</cha>
+		<save></save>
+		<skill>Deception +5, Nature +3, Persuasion +5, Religion +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Auran. Common, telepathy 30 ft.</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Mwaxanare is a 2nd-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:</text>
+			<text>Cantrips (at will): eldritch blast, mage hand</text>
+			<text>1st level (2 slots): charm person, protection from evil and good, unseen servant</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>2,0,0,0,0,0,0,0,0</slots>
+		<spells>Eldritch Blast, Mage Hand, Charm Person, Protection from Evil and Good, Unseen Servant</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+			<attack>Dagger|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Pterafolk</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>30 ft., fly 50 ft.</speed>
+		<str>15</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill>Perception +2, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Terror Dive</name>
+			<text>If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target with a melee weapon attack, the target is frightened until the end of its next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The pterafolk makes three attacks: one with its bite and two with its claws. Alternatively, it makes two melee attacks with its javelin.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.</text>
+			<attack>Bite|4|2d4+2</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Claw|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Javelin|4|2d6+2</attack>
 		</action>
 	</monster>
 </compendium>
