@@ -614,8 +614,332 @@
 		<cr>1/4</cr>
 		<action>
 			<name>Bite</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:9 (2d6 + 2) piercing damage.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</text>
 			<attack>Bite|4|2d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Dragonbait</name>
+		<size>M</size>
+		<type>humanoid (saurial), Tomb of Annihilation</type>
+		<alignment>lawful good</alignment>
+		<ac>17 (breastplate, shield)</ac>
+		<hp>120 (16d8 + 48)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>13</dex>
+		<con>17</con>
+		<int>14</int>
+		<wis>16</wis>
+		<cha>18</cha>
+		<save>Wis +6, Cha +7</save>
+		<skill>Athletics +5, Medicine +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Divine Health</name>
+			<text>Dragonbait is immune to disease</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance Aura</name>
+			<text>While holding his holy avenger, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on savingthrows against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Dragonbait makes two melee weapon attacks.</text>
+		</action>
+		<action>
+			<name>Holy Avenger (+3 longsword)</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage when used with two hands. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.</text>
+			<attack>Holy Avenger (1H)|8|1d8+5</attack>
+			<attack>Holy Avenger (2H)|8|1d10+5</attack>
+			<attack>Fiend/Undead Dmg||2d10</attack>
+		</action>
+		<action>
+			<name>Sense Alignment</name>
+			<text>Dragonbait chooses one creature he can see within 60 feet ofhim and determines its alignment,as long as the creature isn't hidden from divination magic by a spell or other magical effect.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Eblis</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Auran, Common</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The eblis's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: blur, hypnotic pattern, minor illusion</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells>Blur, Hypnotic Pattern, Minor Illusion</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The eblis attack twice with its beak</text>
+		</action>
+		<action>
+			<name>Beak</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5(1d4+3) piercing damage.</text>
+			<attack>Beak|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Firenewt Warrior</name>
+		<size>M</size>
+		<type>humanoid (firenewt), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>7</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Draconic, Ignan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The firenewt can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The firenewt makes two attacks with its scimitar</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+		<action>
+			<name>Spit Fire (Recharges after a Short or Long Rest)</name>
+			<text>The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Spit Fire||2d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Firenewt Warlock of Imix</name>
+		<size>M</size>
+		<type>humanoid (firenewt), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>10 (13 with mage armor)</ac>
+		<hp>33 (6d8 +6)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>11</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
+		<passive>10</passive>
+		<languages>Draconic, Ignan</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The firenewt can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The firenewt's innate spellcasting ability is Charisma. It can innately cast mage armor (self only) at will, requiring no material components.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text>Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation</text>
+			<text>1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>0,2,0,0,0,0,0,0,0</slots>
+		<spells>Mage Armor, Fire Bolt, Guidance, Light, Mage Hand, Prestidigitation, Burning Hands, Flaming Sphere, Hellish Rebuke, Scorching Ray</spells>
+		<trait>
+			<name>Imix's Blessing</name>
+			<text>When the firenewt reduces an enemy to 0 hit points, the firenewt gains 5 temporary hit points.</text>
+		</trait>
+		<action>
+			<name>Morningstar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+			<attack>Morningstar|3|1d8+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Flail Snail</name>
+		<size>L</size>
+		<type>elemental, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>52 (5d10 + 25)</hp>
+		<speed>10 ft.</speed>
+		<str>17</str>
+		<dex>5</dex>
+		<con>20</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Antimagic Shell</name>
+			<text>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:</text>
+			<text>1-2. If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, if has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting abilityofthe caster.</text>
+			<text>3-4. No additional effect.</text>
+			<text>5-6. The snail's shell comverts some of the spell's energy into a burst of destructive force. Each creature within 30 feet ofthe snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<trait>
+			<name>Flail Tentacles</name>
+			<text>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies Sd6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</text>
+			<roll>5d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The flail snail makes as many Flail Tentacle attacks as it has flail tentacles, all against the same target.</text>
+		</action>
+		<action>
+			<name>Flail Tentacle</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Flail Tentacle|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Scintillating Shell (Recharges after a Short or Long Rest)</name>
+			<text>The snail's shell emits dazzling, colored light until the endofthe snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends.</text>
+		</action>
+		<action>
+			<name>Shell Defense</name>
+			<text>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Flying Monkey</name>
+		<size>S</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>3 (1d6)</hp>
+		<speed>20 ft., climb 20 ft., fly 30 ft.</speed>
+		<str>8</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>5</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>0</cr>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The flying monkey has advantage on an attack roll against a creature if at least one ofthe monkey's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</text>
+			<attack>Bite|1|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Froghemoth</name>
+		<size>H</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>184 (16d12 + 80)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>23</str>
+		<dex>13</dex>
+		<con>20</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<save>Con +9, Wis +5</save>
+		<skill>Perception +9, Stealth +5</skill>
+		<resist>fire, lightning</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>19</passive>
+		<languages>—</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The froghemoth can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Shock Susceptibility</name>
+			<text>If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The froghemoth makes two attacks with its tentacles. It can also use its tongue or bite.</text>
+		</action>
+		<action>
+			<name>Tentacle</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles.</text>
+			<attack>Tentacle|10|3d8+6</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage, and the target is swallowed ifit is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.</text>
+			<text>	The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
+			<attack>Bite|10|3d10+6</attack>
+		</action>
+		<action>
+			<name>Tongue</name>
+			<text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
 		</action>
 	</monster>
 </compendium>
