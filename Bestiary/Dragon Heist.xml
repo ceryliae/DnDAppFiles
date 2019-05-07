@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!--Waterdeep: Dragon Heist-->
+	<monster>
+		<name>Ahmaergo</name>
+		<size>M</size>
+		<type>humanoid (dwarf), Dragon Heist</type>
+		<alignment>lawful evil</alignment>
+		<ac>18 (plate)</ac>
+		<hp>143 (22d8 + 44)</hp>
+		<speed>25 ft.</speed>
+		<str>20</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>15</int>
+		<wis>14</wis>
+		<cha>12</cha>
+		<save>Str +9, Con +6</save>
+		<skill>Athletics +9, Intimidation +5, Perception +6</skill>
+		<vulnerable></vulnerable>
+		<resist>poison</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>16</passive>
+		<languages>Common, Dwarvish, Undercommon</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Dwarven Resilience</name>
+			<text>Ahmaergo has advantage on saving throws against being poisoned.</text>
+		</trait>
+		<trait>
+			<name>Indomitable (2/Day)</name>
+			<text>Ahmaergo can reroll a saving throw that he fails. He must use the new roll.</text>
+		</trait>
+		<trait>
+			<name>Second Wind (Recharges after a Short or Long Rest)</name>
+			<text>As a bonus action, Ahmaergo can regain 20 hit points.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Ahmaergo makes three attacks with his greataxe.</text>
+		</action>
+		<action>
+			<name>Greataxe</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d12+5) slashing damage, plus 7(2d6) slashing damage if Ahmaergo has more than half his hit points remaining.</text>
+			<attack>Greataxe|9|1d12+5+2d6</attack>
+			<attack>Greataxe (under 1/2 hp)|9|1d12+5</attack>
+		</action>
+		<action>
+			<name>Heavy Crossbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 100/400ft., one target. Hit: 7 (1d10 + 2) piercing damage.</text>
+			<attack>Heavy Crossbow|6|1d10+2</attack>
+		</action>
+	</monster>
+</compendium>
