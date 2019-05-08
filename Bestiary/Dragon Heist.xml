@@ -53,4 +53,645 @@
 			<attack>Heavy Crossbow|6|1d10+2</attack>
 		</action>
 	</monster>
+	<monster>
+		<name>Ammalia Cassalanter</name>
+		<size>M</size>
+		<type>humanoid (human), Dragon Heist</type>
+		<alignment>lawful evil</alignment>
+		<ac>12 (15 with mage armor}</ac>
+		<hp>45 (10d8)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>17</int>
+		<wis>12</wis>
+		<cha>15</cha>
+		<save>Int +6, Wis +4</save>
+		<skill>Arcana +6, History +6, Insight +4, Persuasion +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Common , Draconic, Elvish, Infernal</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Ammalia is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). She has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): friends, mage hand, mending, message</text>
+			<text>1st level (4 slots): charm person, mage armor, magic missile</text>
+			<text>2nd level (3 slots): hold person, invisibility, suggestion</text>
+			<text>3rd level (3 slots): fireball, haste, tongues</text>
+			<text>4th level (3 slots): confusion, stoneskin</text>
+			<text>5th level (1 slot): hold monster</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
+		<spells>Friends, Mage Hand, Mending, Message, Charm Person, Mage Armor, Magic Missile, Hold Person, Invisibility, Suggestion, Fireball, Haste, Tongues, Confusion, Stoneskin, Hold Monster</spells>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands.</text>
+			<attack>Quarterstaff (1H)|2|1d6-1</attack>
+			<attack>Quarterstaff (2H)|2|1d8-1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Apprentice Wizard</name>
+		<size>M</size>
+		<type>humanoid (any race), Dragon Heist</type>
+		<alignment>any alignment</alignment>
+		<ac>10</ac>
+		<hp>9 )2d8)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>10</dex>
+		<con>10</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill>Arcana +4, History +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The apprentice is a 1st-level spellcaster. Its spell- casting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): fire bolt, mending, prestidigitation</text>
+			<text>1st level (2 slots): burning hands, disguise self, shield</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>2,0,0,0,0,0,0,0,0</slots>
+		<spells>Fire Bolt, Mending, Prestidigitation, Burning Hands, Disguise Self, Shield</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit , reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+			<attack>Dagger|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Bard</name>
+		<size>M</size>
+		<type>humanoid (any race), Dragon Heist</type>
+		<alignment>any alignment</alignment>
+		<ac>15 (chain shirt)</ac>
+		<hp>44 (8d8 + 8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save>Dex +4, Wis +3</save>
+		<skill>Acrobatics +4, Perception +5, Performance +6</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>any two languages</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell at- tacks). It has the following bard spells prepared:</text>
+			<text>Cantrips (at will): friends, mage hand, vicious mockery</text>
+			<text>1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave</text>
+			<text>2nd level (3 slots): invisibility, shatter</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
+		<spells>Friends, Mage Hand, Vicious Mockery, Charm Person, Healing Word, Heroism, Sleep, Thunderwave, Invisibility, Shatter</spells>
+		<trait>
+			<name>Song of Rest</name>
+			<text>The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.</text>
+		</trait>
+		<trait>
+			<name>Taunt (2/Day)</name>
+			<text>The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Barnibus Blastwind</name>
+		<size>M</size>
+		<type>humanoid (human), Dragon Heist</type>
+		<alignment>lawful good</alignment>
+		<ac>10 (13 with mage armor)</ac>
+		<hp>24 (7d8 - 7)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str>
+		<dex>10</dex>
+		<con>9</con>
+		<int>17</int>
+		<wis>15</wis>
+		<cha>11</cha>
+		<save>Int +5, Wis +4</save>
+		<skill>Arcana +5, Insight +6, Investigation +7, Perception +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Common, Draconic, Dwarvish, Halfling</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Barnibus carries a wand of magic detection.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Barnibus is a 7th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): blade ward, light, mage hand, message</text>
+			<text>1st level(4 slots): comprehend languages, identify, mage armor, shield</text>
+			<text>2nd level (3 slots): detect thoughts, suggestion</text>
+			<text>3rd level (3 slots): clairvoyance, sending</text>
+			<text>4th level (1 slot): locate creature, Otiluke's resilient sphere</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>4,3,3,1,0,0,0,0,0</slots>
+		<spells>Blade Ward, Light, Mage Hand, Message, Comprehend Languages, Identify, Mage Armor, Shield, Detect Thoughts, Suggestion, Clairvoyance, Sending, Locate Creature, Otiluke's Resilient Sphere</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+			<attack>Dagger|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Black Viper</name>
+		<size>M</size>
+		<type>humanoid (human), Dragon Heist</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>16 (studded leather)</ac>
+		<hp>84 (13d8 + 26)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +7, Int +3</save>
+		<skill>Acrobatics +7, Athletics +3, Perception +3, Sleight of Hand +7, Stealth +7</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>Common. thieves' cant</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Cunning Action</name>
+			<text>On each of her turns, the Black Viper can use a bonus action to take the Dash, Disengage, or Hide action.</text>
+		</trait>
+		<trait>
+			<name>Evasion</name>
+			<text>If the Black Viper is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage If she fails. She can't use this trait if she's incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sneak Attack (1/Turn)</name>
+			<text>The Black Viper deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Black Viper that isn't incapacitated and the Black Viper doesn't have disadvantage on the attack roll.</text>
+			<roll>4d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The Black Viper makes three attacks with her rapier.</text>
+		</action>
+		<action>
+			<name>Rapier</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Rapier|7|1d6+4</attack>
+		</action>
+		<action>
+			<name>Hand Crossbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Hand Crossbow|7|1d6+4</attack>
+		</action>
+		<reaction>
+			<name>Uncanny Dodge</name>
+			<text>The Black Viper halves the damage that she takes from an attack that hits her. She must be able to see the attacker.</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Griffon Cavalry Rider</name>
+		<size>M</size>
+		<type>humanoid (any race), Dragon Heist</type>
+		<alignment>any alignment</alignment>
+		<ac>17 (half plate)</ac>
+		<hp>58 (9d8 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Animal Handling +3, Athletics +4, Perception +3</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>2</cr>
+		<action>
+			<name>Lance</name>
+			<text>Melee Weapon Attack: +4 to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage, or 11 (1d12+5) piercing damage while mounted.</text>
+			<attack>Lance|4|1d12+2</attack>
+			<attack>Lance (mounted)|4|1d12+5</attack>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Light Crossbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Light Crossbow|4|1d8+2</attack>
+		</action>
+		<reaction>
+			<name>Feather Fall</name>
+			<text>The rider wears a magic ring with which is can cast the feather fall spell on itself as a reaction to falling. After the spell is cast, the ring becomes nonmagical</text>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Davil Starsong</name>
+		<size>M</size>
+		<type>humanoid (elf), Dragon Heist</type>
+		<alignment>neutral</alignment>
+		<ac>15 (chain shirt)</ac>
+		<hp>82 (1Sd8 + 15)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>16</int>
+		<wis>12</wis>
+		<cha>17</cha>
+		<save>Dex +5, Cha +6</save>
+		<skill>Arcana +6, History +6, Ins ight +4, Perception +4, Performance +6</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Draconic, Dwarvish, Elvish</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>Davil has advantage on saving throws against being charmed, and magic can't put him to sleep.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Davil is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). He has the following bard spells prepared:</text>
+			<text>Cantrips (at will): mage hand, mending, minor illusion, vicious mockery</text>
+			<text>1st level (4 slots): cure wounds, disguise self, sleep</text>
+			<text>2rid level (3 slots): crown of madness, invisibility, suggestion</text>
+			<text>3rd level (3 slots): nondetection, sending, tongues</text>
+			<text>4th level (3 slots): compulsion,freedom of movement, polymorph</text>
+			<text>5th level (2 slots): dominate person, greater restoration</text>
+			<text>6th level (1 slot): Otto's irresistible dance</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
+		<spells>Mage Hand, Mending, Minor Illusion, Vicious Mockery, Cure Wounds, Disguise Self, Sleep, Crown of Madness, Invisibility, Suggestion, Nondetection, Sending, Tongues, Compulsion, Freedom of Movement, Polymorph, Dominate Person, Greater Restoration, Otto's Irresistible Dance</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|5|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Istrid Horn</name>
+		<size>M</size>
+		<type>humanoid (dwarf), Dragon Heist</type>
+		<alignment>neutral evil</alignment>
+		<ac>18 (plate)</ac>
+		<hp>117 (18d8 + 36)</hp>
+		<speed>25 ft.</speed>
+		<str>12</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>17</wis>
+		<cha>13</cha>
+		<save>Con +S, Wis +6</save>
+		<skill>Intimidation +4, Religion +3</skill>
+		<vulnerable></vulnerable>
+		<resist>poison</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common, Dwarvish</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Dwarven Resilience</name>
+			<text>Istrid has advantage on saving throws against being poisoned.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Istrid is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the following cleric spells prepared:</text>
+			<text>Cantrips (at will): light, mending, sacred flame, spare the dying</text>
+			<text>1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith</text>
+			<text>2nd level (3 slots): lesser restoration, magic weapon, hold person, silence, spiritual weapon</text>
+			<text>3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk</text>
+			<text>4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin</text>
+			<text>5th level (1 slot): flame strike, mass cure wounds, hold monster</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
+		<spells>Light, Mending, Sacred Flame, Spare the Dying, Lesser Restoration, Magic Weapon, Hold Person, Silence, Spiritual Weapon, Beacon of Hope, Crusader's Mantle, Dispel Magic, Revivify, Spirit Guardians, Water Walk, Banishment, Freedom of Movement, Guardian of Faith, Stoneskin, Flame Strike, Mass Cure Wounds, Hold Monster</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>Istrid makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Maul</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) bludgeoning damage.</text>
+			<attack>Maul|4|2d6+1</attack>
+		</action>
+		<action>
+			<name>Treasure Sense (3/Day)</name>
+			<text>Istrid magically pinpoints precious metals and stones, such as coins and gems, within 60 feet of her.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Skeemo Weirdbottle</name>
+		<size>S</size>
+		<type>humanoid (gnome), Dragon Heist</type>
+		<alignment>neutral evil</alignment>
+		<ac>12 (15 with mage armor)</ac>
+		<hp>72 (16d6 + 16)</hp>
+		<speed>25 ft.</speed>
+		<str>9</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>17</int>
+		<wis>12</wis>
+		<cha>15</cha>
+		<save>Int +6, Wis +4</save>
+		<skill>Arcana +6, History+6, Perception +4, Performance +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, Common, Gnomish, Undercommon</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Gnome Cunning</name>
+			<text>Skeemo has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Skeemo is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): fire bolt, light, mage hand, prestidigitation</text>
+			<text>1st level (4 slots): detect magic, mage armor, magic missile, shield</text>
+			<text>2nd level (3 slots): misty step, suggestion</text>
+			<text>3rd level (3 slots): counterspell, fireball, fly</text>
+			<text>4th level (3 slots): greater invisibility, ice storm</text>
+			<text>5th level (1 slot): cone of cold</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>4,3,3,3,1,0,0,0,0</slots>
+		<spells>Fire Bolt, Light, Mage Hand, Prestidigitation, Detect Magic, Mage Armor, Magic Missile, Shield, Misty Step, Suggestion, Counterspell, Fireball, Fly, Greater Invisibility, Ice Storm, Cone of Cold</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach Sft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|5|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Tasklyn Yafeera</name>
+		<size>M</size>
+		<type>humanoid (human), Dragon Heist</type>
+		<alignment>neutral</alignment>
+		<ac>18 (plate)</ac>
+		<hp>149 (23d8 + 46)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>12</cha>
+		<save>Str +8, Con +6</save>
+		<skill>Athletics +8, Intimidation +5, Perception +6</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>16</passive>
+		<languages>Common</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Indomitable (2/Day)</name>
+			<text>Tashlyn can reroll a saving throw that she fails. She must use the new roll.</text>
+		</trait>
+		<trait>
+			<name>Second Wind (Recharges after a Short or Long Rest)</name>
+			<text>As a bonus action, Tashlyn can regain 20 hit points.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Tashlyn makes three attacks with her greatsword or her shortbow.</text>
+		</action>
+		<action>
+			<name>Greatsword</name>
+			<text>Melee Weapon Attack: +8 to hit, reach S ft., one target. Hit: 11 (2d6 + 4) slashing damage, plus 7 (2d6) slashing damage if Tashlyn has more than half her hit points remaining.</text>
+			<attack>Greatsword|8|2d6+4+2d6</attack>
+			<attack>Greatsword (under 1/2 hp)|8|2d6+4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit : 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if Tashlyn has more than half her hit points remaining.</text>
+			<attack>Shortbow|6|1d6+2+2d6</attack>
+			<attack>Shortbow (under 1/2 hp)|6|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ziraj the Hunter</name>
+		<size>M</size>
+		<type>humanoid (half-orc), Dragon Heist</type>
+		<alignment>neutral evil</alignment>
+		<ac>17 (+2 leather armor)</ac>
+		<hp>153 (18d8 + 72)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>18</dex>
+		<con>18</con>
+		<int>11</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save>Wis +5, Cha +5</save>
+		<skill>Athletics +7, Intimidation +5, Stealth +7, Survival +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Orc</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Ziraj is a 10th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He has the following paladin spells prepared:</text>
+			<text>1st level (4 slots): command, protection from evil and good, thunderous smite</text>
+			<text>2nd level (3 slots): branding smite, find steed</text>
+			<text>3rd level (2 slots): blinding smite, dispel magic</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+		<spells>Command, Protection from Evil and Good, Thunderous Smite, Branding Smite, Find Steed, Blinding Smite, Dispel Magic</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>Ziraj makes three attacks with his glaive or with his oversized longbow.</text>
+		</action>
+		<action>
+			<name>Glaive</name>
+			<text>Melee Weapon Attack: +7 to hit, reach S ft., one target. Hit: 9 (1d10 + 4) slashing damage.</text>
+			<attack>Glaive|7|1d10+4</attack>
+		</action>
+		<action>
+			<name>Oversized Longbow</name>
+			<text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Oversized Longbow|7|2d6+4</attack>
+		</action>
+		<action>
+			<name>Dreadful Aspect (Recharges after a Short or Long Rest)</name>
+			<text>Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a DC 13 Wisdom saving throw or be frightened of Ziraj for 1 minute. If a frightened enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Drow Gunslinger</name>
+		<size>M</size>
+		<type>humanoid (elf), Dragon Heist</type>
+		<alignment>any alignment</alignment>
+		<ac>18 (studded leather, shield)</ac>
+		<hp>84 (13d8 + 26)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save>Dex +6, Con +4, Wis +3</save>
+		<skill>Perception +3, Stealth +8</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>13</passive>
+		<languages>Elvish, Undercommon</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Fey Ancestry</name>
+			<text>The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.</text>
+		</trait>
+		<trait>
+			<name>Gunslinger</name>
+			<text>Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on the drow's ranged attack rolls with a pistol. In addition, the drow ignores half cover and three·quarters cover when making ranged attacks with a pistol.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text> The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:</text>
+			<text>At will: dancing lights</text>
+			<text>1/day each: darkness, faerie fire, levitate (self only)</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Dancing Lights, Darkness, Faerie Fire, Levitate</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The drow makes two shortsword attacks.</text>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Shortsword|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Poisonous Pistol</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 30/90 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 11 (2d10) poison damage.</text>
+			<attack>Poisonous Pistol|6|1d10+4+2d10</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Durnan</name>
+		<size>M</size>
+		<type>Humanoid (human), Dragon Heist</type>
+		<alignment>neutral</alignment>
+		<ac>16 (elven chain)</ac>
+		<hp>144 (17d8 + 68)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>15</dex>
+		<con>18</con>
+		<int>13</int>
+		<wis>12</wis>
+		<cha>10</cha>
+		<save>Str +8, Con +8</save>
+		<skill>Athletics +8, Perception +5</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>15</passive>
+		<languages>Common, Dwarvish</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Durnan wields a sword of sharpness (greatsword) called Grimvault. He wears boots of striding and springing, elven chain, and a ring of spell turning.</text>
+		</trait>
+		<trait>
+			<name>Indomitable (Recharges after a Long Rest)</name>
+			<text>Durnan can reroll a saving throw that he fails. He must use the new roll.</text>
+		</trait>
+		<trait>
+			<name>Spell Turning</name>
+			<text>While wearing his ring of spell turning, Durnan has advantage on saving throws against any spell that targets onlyhim (not in an area of effect). If Durnan rolls a 20 for the save and the spell is 7th level or lower, the spell has no effect on him and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Durnan makes four melee weapon attacks.</text>
+		</action>
+		<action>
+			<name>Grimvault</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. If the target is an object, the hit instead deals 16 slashing damage. If the target is a creature and Durnan rolls a 20 on the d20 for the attack roll, the target takes an extra 14 slashing damage, and Durnan rolls another d20. On a roll of 20, he lops off one of the target's limbs, or some other part of its body if it is limbless.</text>
+			<attack>Grimvault|8|2d6+4</attack>
+		</action>
+		<action>
+			<name>Double Crossbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, range 60/240 ft., one target. Hit: 13 (2d10 + 2) piercing damage.</text>
+			<attack>Double Crossbow|6|2d10+2</attack>
+		</action>
+	</monster>
 </compendium>
