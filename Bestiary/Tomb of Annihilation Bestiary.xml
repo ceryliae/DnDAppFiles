@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!--Tomb of Annihilation-->
+	<monster>
+		<name>Acererak</name>
+		<size>M</size>
+		<type>undead, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>21 (natural armor)</ac>
+		<hp>285 (30d8 + 150)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>16</dex>
+		<con>20</con>
+		<int>27</int>
+		<wis>21</wis>
+		<cha>20</cha>
+		<save>Con +12, Int +15, Wis +12</save>
+		<skill>Arcana +22, History +22, Insight +12, Perception +12, Religion +15</skill>
+		<resist>cold, lightning</resist>
+		<immune>necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks</immune>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, stunned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>truesight 120ft.</senses>
+		<passive>22</passive>
+		<languages>Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon</languages>
+		<cr>23</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Acererak carries the Staff of the Forgotten One (see appendix C). He wears a talisman of the sphere and has a sphere of annihilation under his control.</text>
+		</trait>
+		<trait>
+			<name>Legendary Resistance (3/Doy)</name>
+			<text>If Acererak fails a saving throw, he can choose to succeed instead.</text>
+		</trait>
+		<trait>
+			<name>Rejuvenation</name>
+			<text>Acererak's body turns to dust when he drops to 0 hit points, and his equipment is left behind. Acererak gains a new body after 1d10 days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spellsave DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): mage hand, ray of frost, shocking grasp</text>
+			<text>1st level (at will): ray of sickness, shield</text>
+			<text>2nd level (at will): arcane lock, knock</text>
+			<text>3rd level (at will): animate dead, counterspell</text>
+			<text>4th level (3 slots): blight, ice storm, phantasmal killer</text>
+			<text>5th level (3 slots): cloudkill, hold monster, wall of force</text>
+			<text>6th level (3 slots): chain lightning, circle of death, disintegrate</text>
+			<text>7th level (3 slots): finger of death, plane shift, teleport</text>
+			<text>8th level (2 slots): maze, mind blank</text>
+			<text>9th level (2 slots): power word kill, time stop</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance</name>
+			<text>Acererak has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>0,0,0,3,3,3,3,2,2</slots>
+		<spells>Mage Hand, Ray of Frost, Shocking Grasp, Ray of Sickness, Shield, Arcane Lock, Knock, Animate Dead, Counterspell, Blight, Ice Storm, Phantasmal Killer, Cloudkill, Hold Monster, Wall of Force, Chain Lightning, Circle of Death, Disintegrate, Finger of Death, Plane Shift, Teleport, Maze, Mind Blank, Power Word Kill, Time Stop</spells>
+		<action>
+			<name>Paralyzing Touch</name>
+			<text>Melee Spell Attack: +8 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<attack>Paralyzing Touch|8|3d6</attack>
+		</action>
+		<action>
+			<name>Staff(+3 Quarterstaff)</name>
+			<text>Melee Weapon Attack: +11 to hit , reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 10 (3d6) necrotic damage, or 8 (1d8 + 4) bludgeoning damage plus 10 (3d6) necrotic damage when used with two hands.</text>
+			<attack>Staff (1H)|11|1d6+3d6</attack>
+			<attack>Staff (2H)|11|1d8+3d6</attack>
+		</action>
+		<action>
+			<name>Invoke Curse</name>
+			<text>While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a DC 23 Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. Greater restoration, remove curse, or similar magic ends the curse on the target.</text>
+		</action>
+		<legendary>
+			<name>At-Will Spell</name>
+			<text>Acererak casts one of his at-will spells.</text>
+		</legendary>
+		<legendary>
+			<name>Melee Attack</name>
+			<text>Acererak uses Paralyzing Touch or makes one melee attack with his staff.</text>
+			<attack>Paralyzing Touch|8|3d6</attack>
+			<attack>Staff (1H)|11|1d6+3d6</attack>
+			<attack>Staff (2H)|11|1d8+3d6</attack>
+		</legendary>
+		<legendary>
+			<name>Frightening Gaze (Costs 2 Actions)</name>
+			<text>Acererak fixes his gaze on one creature ne can see within 10 feet of him. The target must succeed on a DC 20 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Acererak's gaze for the next 24 hours.</text>
+		</legendary>
+		<legendary>
+			<name>Talisman of the Sphere (Costs 2 Actions)</name>
+			<text>Acererak uses his talisman of the sphere to move the sphere of annihilation under his control up to 90 feet.</text>
+		</legendary>
+		<legendary>
+			<name>Disrupt Life (Costs 3 Actions)</name>
+			<text>Each creature within 20 feet of Acererak must make a DC 20 Constitution saving throw against this magic, taking 42 (12d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Disrupt Life||12d6</attack>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Albino Dwarf Warrior</name>
+		<size>M</size>
+		<type>humanoid (dwarf), Tomb of Annihilation</type>
+		<alignment>any alignment</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>30 (4d8 + 12)</hp>
+		<speed>25 ft.</speed>
+		<str>13</str>
+		<dex>13</dex>
+		<con>17</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill></skill>Perception +4, Stealth +3, Survival +4
+		<resist>poison</resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Dwarvish</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Dwarven Resilience</name>
+			<text>The dwarf has advantage on saving throws against poison.</text>
+		</trait>
+		<action>
+			<name>Handaxe</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Handaxe|3|1d6+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Aldani (Lobsterfolk)</name>
+		<size>M</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>lawful neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>49 (9d8 + 9)</hp>
+		<speed>20 ft., swim 30 ft.</speed>
+		<str>13</str>
+		<dex>8</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Perception +4, Survival +4</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The aldani can breathe air and water</text>
+			<roll></roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The aldani makes two attacks with its claws</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, and the target is grappled (escape DC 11). The aldani has two claws, each of which can grapple only one target.</text>
+			<attack>Claw|3|1d8+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Almiraj</name>
+		<size>S</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>3 (1d6)</hp>
+		<speed>50 ft.</speed>
+		<str>2</str>
+		<dex>16</dex>
+		<con>10</con>
+		<int>2</int>
+		<wis>14</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +5</skill>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 30 ft.</senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>0</cr>
+		<trait>
+			<name>Keen Senses</name>
+			<text>The almiraj has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		</trait>
+		<action>
+			<name>Horn</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Horn|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Artus Cimber</name>
+		<size>M</size>
+		<type>humanoid (human), Tomb of Annihilation</type>
+		<alignment>neutral good</alignment>
+		<ac>14 (studded leather)</ac>
+		<hp>82 (15d8 + 15)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>13</con>
+		<int>17</int>
+		<wis>16</wis>
+		<cha>18</cha>
+		<save>Dex +5, Cha +7</save>
+		<skill>Deception +7, History +9, Insight +6, Survival +9</skill>
+		<resist></resist>
+		<immune>cold (while wearing the Ring of Winter)</immune>
+		<conditionImmune></conditionImmune>
+		<vulnerable></vulnerable>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>Common, Draconic, Dwarvish, Goblin</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Artus wears the Ring of Winter. He and the ring can't be targeted by divination magic or perceived through magical scrying sensors. While attuned to and wearing the ring, Artus ceases to age and is immune to cold damage and the effects of extreme cold.</text>
+			<text>	Artus wields Bookmark, a +3 dagger with additional magical properties. As a bonus action, Artus can activate any one of the following properties while attuned to the dagger, provided he has the weapon drawn:</text>
+			<text>• Cause a blue gem set into the dagger's pommel to shed bright light in a 20-foot radius and dim light for an additional 20 feet, or make the gem go dark.</text>
+			<text>• Turn the dagger into a compass that, while resting on Artus's palm, points north.</text>
+			<text>• Cast dimension door from the dagger. Once this property is used, it can't be used again until the next dawn.</text>
+			<text>• Cast compulsion (save DC 15) from the dagger. The range of the spell increases to 90 feet, but the spell targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn.</text>
+		</trait>
+		<spells>Compulsion, Bigby's Hand, Cone of Cold, Flesh to Ice, Ice Storm, Otiluke's Freezing Sphere, Sleet Storm, Spike Growth, Wall of Ice</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>Artus makes three attacks with Bookmark or his longbow.</text>
+		</action>
+		<action>
+			<name>Bookmark (+3 Dagger)</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</text>
+			<attack>Bookmark|8|1d4+5</attack>
+		</action>
+		<action>
+			<name>Longbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:6 (1d8 + 2) piercing damage.</text>
+			<attack>Longbow|5|1d8+2</attack>
+		</action>
+		<action>
+			<name>Ring of Winter</name>
+			<text>The Ring of Winter has 12 charges and regains all its expended charges daily at dawn. While attuned to and wearing the ring, Artus can expend the necessary number of charges to activate one of the following properties:</text>
+			<text>• Artus can expend 1 charge and use the ring to lower the temperature In a 120-foot-radius sphere centered on a point he can see within 300 feet of him. The temperature in that area drops 20 degrees per minute, to a minimum of -30 degrees Fahrenheit. Frost and ice begin to form ol1 surfaces once the temperature drops below 32 degrees. This effect is permanent unless Artus uses the ring to end the effect as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.</text>
+			<text>• Artus can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: Bigby's hand (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), cone of cold (2 charges), flesh to ice (3 charges; as flesh to stone except that the target turns to solid ice with the density and durability of stone), ice storm (2 charges), Otiluke's freezing sphere (3 charges), sleet storm (1 charge), spike growth (1 charge; the spikes are made of ice), or wall of ice (2 charges).</text>
+			<text>• Artus can expend the necessary number of charges and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (Artus's choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: charmed, exhaustion, frightened, paralyzed, petrified, and poisoned. The ice creature obeys only its creator's commands. The ice object or creature appears in an unoccupied space within 60 feet of Artus. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 (1d10) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Assassin Vine</name>
+		<size>L</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>85 (10d10 + 30)</hp>
+		<speed>30 ft.</speed>
+		<str>18</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<resist>cold, fire</resist>
+		<immune></immune>
+		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>blindsight 30 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the assassin vine remains motionless, it is indistinguishable from a normal plant.</text>
+		</trait>
+		<action>
+			<name>Constrict</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 20 ft., one creature. Hit: The target takes 11 (2d6 + 4) bludgeoning damage, and It is grappled (escape DC 14). Until this grapple ends, the target is restrained, and it takes 21 (6d6) poison damage at the start of each of its turns. The vine can constrict only one target at a time.</text>
+			<attack>Constrict|6|2d6+4</attack>
+			<attack>Poison Damage||6d6</attack>
+		</action>
+		<action>
+			<name>Entangling Vines</name>
+			<text>The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Atropal</name>
+		<size>H</size>
+		<type>undead (titan), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>7</ac>
+		<hp>225 (18d12 + 108)</hp>
+		<speed>0 ft., fly 50 ft. (hover)</speed>
+		<str>19</str>
+		<dex>5</dex>
+		<con>22</con>
+		<int>25</int>
+		<wis>19</wis>
+		<cha>24</cha>
+		<save>Con +11, Wis +9</save>
+		<skill></skill>
+		<resist></resist>
+		<immune>cold, necrotic; bludgeoning, piercing, and slashing damage from nonmagical attacks</immune>
+		<conditionImmune>exhaustion, frightened, paralyzed, poisoned, prone</conditionImmune>
+		<vulnerable>radiant</vulnerable>
+		<senses>darkvision 120 ft., truesight 120 ft.</senses>
+		<passive>14</passive>
+		<languages>understands Celestial but utters only obscene nonsense</languages>
+		<cr>13</cr>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The atropal has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Negative Energy Aura</name>
+			<text>Creatures within 30 feet of the atropal can't regain hit points, and any creature that starts its turn within 30 feet of the atropal takes 10 (3d6) necrotic damage.</text>
+			<text>	If the atropal is struck by a vorpal sword, the wielder can cut the atropal's umbilical cord instead of dealing damage. If its umbilical cord is cut, the atropal loses this feature.</text>
+		</trait>
+		<trait>
+			<name>Turn Resistance Aura</name>
+			<text>The atropal and any other undead creature within 30 feet of it has advantage on saving throws against any effect that turns undead.</text>
+		</trait>
+		<action>
+			<name>Touch</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (3d6) necrotic damage.</text>
+			<attack>Touch|9|3d6</attack>
+		</action>
+		<action>
+			<name>Ray of Cold</name>
+			<text>Ranged Spell Attack:+12 to hit, range 120 ft., one target. Hit: 21 (6d6) cold damage.</text>
+			<attack>Ray of Cold|12|6d6</attack>
+		</action>
+		<action>
+			<name>Life Drain</name>
+			<text>The atropal targets one creature it can see within 120 feet of it. The target must succeed on a DC 19 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one. The atropal regains a number of hit points equal to half the amount of damage dealt.</text>
+			<attack>Life Drain||8d8</attack>
+		</action>
+		<action>
+			<name>Summon Wraith (Recharge 6)</name>
+			<text>The atropal summons a wraith, which materializes within 30 feet of it in an unoccupied space it can see. The wraith obeys its summoner's commands and can't be controlled by any other creature. The wraith vanishes when it drops to 0 hit points or when its summoner dies.</text>
+		</action>
+		<legendary>
+			<name>Touch</name>
+			<text>The atropal makes a touch attack</text>
+			<attack>Touch|9|3d6</attack>
+		</legendary>
+		<legendary>
+			<name>Ray of Cold (Costs 2 Actions)</name>
+			<text>The atropal uses its Ray of Cold.</text>
+			<attack>Ray of Cold|12|6d6</attack>
+		</legendary>
+		<legendary>
+			<name>Wail (Costs 3 Actions)</name>
+			<text>The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail must succeed on a DC 19 Constitution saving throw or gain 1 level of exhaustion.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Bodak</name>
+		<size>M</size>
+		<type>undead, Tomb of Annihilation</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>58 (9d8 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>12</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +6</skill>
+		<resist>cold, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>lightning, poison</immune>
+		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
+		<vulnerable></vulnerable>
+		<senses>darkvision 120 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, the languages it knew in life</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Aura of Annihilation</name>
+			<text>The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect.</text>
+			<roll></roll>
+		</trait>
+		<trait>
+			<name>Death Gaze</name>
+			<text>When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.</text>
+			<text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw.</text>
+			<roll>3d10</roll>
+		</trait>
+		<action>
+			<name>Fist</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage plus 9 (2d8) necrotic damage.</text>
+			<attack>Fist|5|1d4+2+2d8</attack>
+		</action>
+		<reaction>
+			<name>Withering Gaze</name>
+			<text>One creature that the bodak can see within 60 feet of it must make a DC 13 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Withering Gaze||4d10</attack>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Brontosaurus</name>
+		<size>G</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>1S (natural armor)</ac>
+		<hp>121 (9d20 + 27)</hp>
+		<speed>30 ft.</speed>
+		<str>21</str>
+		<dex>9</dex>
+		<con>17</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<save>Con +6</save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>5</cr>
+		<action>
+			<name>Stomp</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<attack>Stomp|8|5d8+5</attack>
+		</action>
+		<reaction>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8 + 5) bludgeoning damage.</text>
+			<attack>Tail|8|6d8+5</attack>
+		</reaction>
+	</monster>
+	<monster>
+		<name>Champion</name>
+		<size>M</size>
+		<type>humanoid (any race), Tomb of Annihilation</type>
+		<alignment>any alignment</alignment>
+		<ac>18 (plate)</ac>
+		<hp>143 (22d8 + 44)</hp>
+		<speed>30 ft.</speed>
+		<str>20</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>12</cha>
+		<save>Str +9, Con +6</save>
+		<skill>Athletics +9. Intimidation +5, Perception +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>16</passive>
+		<languages>any one language (usually Common)</languages>
+		<cr>9</cr>
+		<trait>
+			<name>Indomitable (2/day)</name>
+			<text>The champion rerolls a failed saving throw.</text>
+		</trait>
+		<trait>
+			<name>Second Wind (Recharges after a Short or Long Rest)</name>
+			<text>As a bonus action, the champion can regain 20 hit points.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The champion makes three attacks with its greatsword or its shortbow.</text>
+		</action>
+		<action>
+			<name>Greatsword</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining.</text>
+			<attack>Greatsword|9|2d6+5</attack>
+			<attack>Greatsword (1/2 hp)|9|2d6</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack:+6 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half its total hit points remaining.</text>
+			<attack>Shortbow|6|1d6+2+2d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Chwinga</name>
+		<size>T</size>
+		<type>elemental, Tomb of Annihilation</type>
+		<alignment>neutral</alignment>
+		<ac>15</ac>
+		<hp>5 (2d4)</hp>
+		<speed>20 ft., climb 20 ft., swim 20 ft.</speed>
+		<str>1</str>
+		<dex>20</dex>
+		<con>10</con>
+		<int>14</int>
+		<wis>16</wis>
+		<cha>16</cha>
+		<save></save>
+		<skill>Acrobatics +7, Perception +7, Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>17</passive>
+		<languages>—</languages>
+		<cr>0</cr>
+		<trait>
+			<name>Evasion</name>
+			<text>When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:</text>
+			<text>At will: druidcraft, guidance, pass without trace, resistance</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells>Druidcraft, Guidance, Pass without Trace, Resistance</spells>
+		<action>
+			<name>Magical Gift (1/Day)</name>
+			<text>The chwinga targets a humanoid it can see within S feet of it. The target gains a supernatural charm of the OM's choice. See chapter 7 of the Dungeon Master's Guide for more information on supernatural charms.</text>
+		</action>
+		<action>
+			<name>Natural Shelter</name>
+			<text>The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while Inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Deinonychus</name>
+		<size>M</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>26 (4d8 + 8)</hp>
+		<speed>40 ft.</speed>
+		<str>15</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>4</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Pounce</name>
+			<text>If the deinonychus moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn. that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the deinonychus can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The deinonychus makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Bite|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) slashing damage.</text>
+			<attack>Claw|4|1d8+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Dimetrodon</name>
+		<size>M</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>19 (3d8 + 6)</hp>
+		<speed>30 ft., swim 20 ft.</speed>
+		<str>14</str>
+		<dex>10</dex>
+		<con>15</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>—</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Bite|4|2d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Dragonbait</name>
+		<size>M</size>
+		<type>humanoid (saurial), Tomb of Annihilation</type>
+		<alignment>lawful good</alignment>
+		<ac>17 (breastplate, shield)</ac>
+		<hp>120 (16d8 + 48)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>13</dex>
+		<con>17</con>
+		<int>14</int>
+		<wis>16</wis>
+		<cha>18</cha>
+		<save>Wis +6, Cha +7</save>
+		<skill>Athletics +5, Medicine +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Divine Health</name>
+			<text>Dragonbait is immune to disease</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance Aura</name>
+			<text>While holding his holy avenger, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on savingthrows against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Dragonbait makes two melee weapon attacks.</text>
+		</action>
+		<action>
+			<name>Holy Avenger (+3 longsword)</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage when used with two hands. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage.</text>
+			<attack>Holy Avenger (1H)|8|1d8+5</attack>
+			<attack>Holy Avenger (2H)|8|1d10+5</attack>
+			<attack>Fiend/Undead Dmg||2d10</attack>
+		</action>
+		<action>
+			<name>Sense Alignment</name>
+			<text>Dragonbait chooses one creature he can see within 60 feet ofhim and determines its alignment,as long as the creature isn't hidden from divination magic by a spell or other magical effect.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Eblis</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>13</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>30 ft., fly 40 ft.</speed>
+		<str>11</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Auran, Common</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The eblis's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:</text>
+			<text>1/day each: blur, hypnotic pattern, minor illusion</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells>Blur, Hypnotic Pattern, Minor Illusion</spells>
+		<action>
+			<name>Multiattack</name>
+			<text>The eblis attack twice with its beak</text>
+		</action>
+		<action>
+			<name>Beak</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5(1d4+3) piercing damage.</text>
+			<attack>Beak|5|1d4+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Firenewt Warrior</name>
+		<size>M</size>
+		<type>humanoid (firenewt), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>16 (chain shirt, shield)</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>7</int>
+		<wis>11</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>Draconic, Ignan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The firenewt can breathe air and water.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The firenewt makes two attacks with its scimitar</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Scimitar|3|1d6+1</attack>
+		</action>
+		<action>
+			<name>Spit Fire (Recharges after a Short or Long Rest)</name>
+			<text>The firenewt spits fire at a creature within 10 feet of it. The creature must make a DC 11 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Spit Fire||2d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Firenewt Warlock of Imix</name>
+		<size>M</size>
+		<type>humanoid (firenewt), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>10 (13 with mage armor)</ac>
+		<hp>33 (6d8 +6)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>11</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>11</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
+		<passive>10</passive>
+		<languages>Draconic, Ignan</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The firenewt can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The firenewt's innate spellcasting ability is Charisma. It can innately cast mage armor (self only) at will, requiring no material components.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text>Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation</text>
+			<text>1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>0,2,0,0,0,0,0,0,0</slots>
+		<spells>Mage Armor, Fire Bolt, Guidance, Light, Mage Hand, Prestidigitation, Burning Hands, Flaming Sphere, Hellish Rebuke, Scorching Ray</spells>
+		<trait>
+			<name>Imix's Blessing</name>
+			<text>When the firenewt reduces an enemy to 0 hit points, the firenewt gains 5 temporary hit points.</text>
+		</trait>
+		<action>
+			<name>Morningstar</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</text>
+			<attack>Morningstar|3|1d8+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Flail Snail</name>
+		<size>L</size>
+		<type>elemental, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>16 (natural armor)</ac>
+		<hp>52 (5d10 + 25)</hp>
+		<speed>10 ft.</speed>
+		<str>17</str>
+		<dex>5</dex>
+		<con>20</con>
+		<int>3</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire, poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Antimagic Shell</name>
+			<text>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a d6:</text>
+			<text>1-2. If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, if has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting abilityofthe caster.</text>
+			<text>3-4. No additional effect.</text>
+			<text>5-6. The snail's shell comverts some of the spell's energy into a burst of destructive force. Each creature within 30 feet ofthe snail must make a DC 15 Constitution saving throw, taking 1d6 force damage per level of the spell on a failed save, or half as much damage on a successful one.</text>
+		</trait>
+		<trait>
+			<name>Flail Tentacles</name>
+			<text>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies Sd6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</text>
+			<roll>5d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The flail snail makes as many Flail Tentacle attacks as it has flail tentacles, all against the same target.</text>
+		</action>
+		<action>
+			<name>Flail Tentacle</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Flail Tentacle|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Scintillating Shell (Recharges after a Short or Long Rest)</name>
+			<text>The snail's shell emits dazzling, colored light until the endofthe snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC 15 Wisdom saving throw or be stunned until the light ends.</text>
+		</action>
+		<action>
+			<name>Shell Defense</name>
+			<text>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Flying Monkey</name>
+		<size>S</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>3 (1d6)</hp>
+		<speed>20 ft., climb 20 ft., fly 30 ft.</speed>
+		<str>8</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>5</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>0</cr>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The flying monkey has advantage on an attack roll against a creature if at least one ofthe monkey's allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.</text>
+			<attack>Bite|1|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Froghemoth</name>
+		<size>H</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>184 (16d12 + 80)</hp>
+		<speed>30 ft., swim 30 ft.</speed>
+		<str>23</str>
+		<dex>13</dex>
+		<con>20</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<save>Con +9, Wis +5</save>
+		<skill>Perception +9, Stealth +5</skill>
+		<resist>fire, lightning</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>19</passive>
+		<languages>—</languages>
+		<cr>10</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The froghemoth can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Shock Susceptibility</name>
+			<text>If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The froghemoth makes two attacks with its tentacles. It can also use its tongue or bite.</text>
+		</action>
+		<action>
+			<name>Tentacle</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles.</text>
+			<attack>Tentacle|10|3d8+6</attack>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage, and the target is swallowed ifit is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.</text>
+			<text>	The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</text>
+			<attack>Bite|10|3d10+6</attack>
+		</action>
+		<action>
+			<name>Tongue</name>
+			<text>The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Giant Four-Armed Gargoyle</name>
+		<size>L</size>
+		<type>elemental, Tomb of Annihilation</type>
+		<alignment>chaotic evil</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>147 (14d10 + 70)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>19</str>
+		<dex>11</dex>
+		<con>20</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>9</cha>
+		<save>Wis +4</save>
+		<skill>Perception +4</skill>
+		<resist>bludgeoning, piercing, and slashing damage from nonmagical attacks not made with adamantine weapons</resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>exhaustion, petrified, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Terran</languages>
+		<cr>10</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the gargoyle remains motionless, it is indistinguishable from an inanimate statue</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gargoyle makes five attacks: one with its bite and four with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Bite|8|2d6+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</text>
+			<attack>Claw|8|2d4+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Giant Snapping Turtle</name>
+		<size>L</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>17 (natural armor), 12 while prone</ac>
+		<hp>75 (10d10+20)</hp>
+		<speed>30 ft., swim 40 ft.</speed>
+		<str>19</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>2</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The turtle can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Stable</name>
+			<text>Whenever an effect knocks the turtle prone, it can make a DC 10 Constitution saving throw to avoid being knocked prone. A prone turtle is upside down. To stand up, it must succeed on a DC 10 Dexterity check on its turn and then use all its movement for that turn.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</text>
+			<attack>Bite|6|4d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Giant Strider</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>22 (3d10 + 6)</hp>
+		<speed>50 ft.</speed>
+		<str>18</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>4</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>fire</immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Fire Absorption</name>
+			<text>Whenever the giant strider is subjected to fire damage, it takes no damage and regains a number of hit points equal to half the fire damage dealt.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach Sft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>Bite|6|1d8+4</attack>
+		</action>
+		<action>
+			<name>Fire Burst (Recharge 5-6)</name>
+			<text>The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren't being worn or carried.</text>
+			<attack>Fire Burst||4d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Girallon</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>59 (7d10 + 21)</hp>
+		<speed>40 ft., climb 40 ft.</speed>
+		<str>18</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>5</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +S</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the girallon can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The girallon has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The girallon makes five attacks: one with its bite and four with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Bite|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+			<attack>Claw|6|1d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Grung</name>
+		<size>S</size>
+		<type>humanoid (grung), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>11 (2d6 + 4)</hp>
+		<speed>25 ft., climb 25 ft.</speed>
+		<str>7</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>10</cha>
+		<save>Dex +4</save>
+		<skill>Athletics +2, Perception +2, Stealth +4, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Grung</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The grung can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Standing Leap</name>
+			<text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Grung Elite Warrior</name>
+		<size>S</size>
+		<type>humanoid (grung), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>13</ac>
+		<hp>49 (9d6 + 18)</hp>
+		<speed>25 ft., climb 25 ft.</speed>
+		<str>7</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>12</cha>
+		<save>Dex +5</save>
+		<skill>Athletics +2, Perception +2, Stealth +5, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>posion</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Grung</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The grung can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Standing Leap</name>
+			<text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+		<action>
+			<name>Mesmerizing Chirr (Recharge 6)</name>
+			<text>The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a DC 12 Wisdom saving throw or be stunned until the end ofthe grung's next turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Grung Wilding</name>
+		<size>S</size>
+		<type>humanoid (grung), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>13 (16 with barkskin)</ac>
+		<hp>27 (5d6 + 10)</hp>
+		<speed>25 ft., climb 25 ft.</speed>
+		<str>7</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>10</int>
+		<wis>15</wis>
+		<cha>11</cha>
+		<save>Dex +5</save>
+		<skill>Athletics +2, Perception +4, Stealth +5, Survival +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Grung</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Amphibious</name>
+			<text>The grung can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Poisonous Skin</name>
+			<text>Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:</text>
+			<text>1st level (4 slots): cure wounds, jump</text>
+			<text>2nd level (3 slots): barkskin, spike growth</text>
+			<text>3rd level (2 slots): plant growth</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>4,3,2,0,0,0,0,0,0</slots>
+		<spells>Cure Wounds, Jump, Barkskin, Spike Growth, Plant Growth</spells>
+		<trait>
+			<name>Standing Leap</name>
+			<text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Dagger|5|1d4+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/ 320 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
+			<attack>Poison||2d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Hadrosaurus</name>
+		<size>L</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>40 ft.</speed>
+		<str>15</str>
+		<dex>10</dex>
+		<con>13</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>—</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.</text>
+			<attack>Tail|4|1d10+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Jaculi</name>
+		<size>L</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>16 (3d10)</hp>
+		<speed>30 ft., climb 20 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>11</con>
+		<int>2</int>
+		<wis>8</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill>Athletics +4, Perception +1, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Camouflage</name>
+			<text>The jaculi has advantage on Dexterity (Stealth) checks made to hide.</text>
+		</trait>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The jaculi has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit. reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Bite|4|2d6+2</attack>
+		</action>
+		<action>
+			<name>Spring</name>
+			<text>The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage.</text>
+			<attack>Extra Dmg||2d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kamadan</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>67 (9d10 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>3</int>
+		<wis>14</wis>
+		<cha>10</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The kamadan has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<name>Pounce</name>
+			<text>If the kamadan moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the kamadan can make two attacks- one with its bite and one with its snakes-against it as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The kamadan makes two attacks: one with its bite or claw and one with its snakes.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Bite|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Claw|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Snakes</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or halfas much damage on a successful one.</text>
+			<attack>Snakes|5|1d6+3</attack>
+			<attack>Poison||6d6</attack>
+		</action>
+		<action>
+			<name>Sleep Breath (Recharges after a Short or Long Rest)</name>
+			<text>The kamadan exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if it takes damage or someone uses an action to wake it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Kobold Scale Sorcerer</name>
+		<size>S</size>
+		<type>humanoid (kobold), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>27 (5d6 + 10)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>9</wis>
+		<cha>14</cha>
+		<save></save>
+		<skill>Arcana +2, Medicine +1</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The kobold is a 3rd·level spellcaster. Its spellcast- ing ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:</text>
+			<text>Cantrips (at will): fire bolt, mage hand, mending, poison spray</text>
+			<text>1st level (4 slots): charm person, chromatic orb, expeditious retreat</text>
+			<text>2nd level (2 slots): scorching ray</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,2,0,0,0,0,0,0,0</slots>
+		<spells>Fire Bolt, Mage Hand, Mending, Poison Spray, Charm Person, Chromatic Orb, Expeditious Retreat, Scorching Ray</spells>
+		<trait>
+			<name>Sorcery Points</name>
+			<text>The kobold has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:</text>
+			<text>Heightened Spell: When it casts a spell that forces a creature to make a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.</text>
+			<text>Subtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components.</text>
+		</trait>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet ofthe creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Kobold Inventor</name>
+		<size>S</size>
+		<type>humanoid (kobold), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>12</ac>
+		<hp>13 (3d6 + 3)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>8</int>
+		<wis>7</wis>
+		<cha>8</cha>
+		<save></save>
+		<skill>Perception +0</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Draconic</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Pack Tactics</name>
+			<text>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet ofthe creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Sensitivity</name>
+			<text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon AHack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Sling|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Weapon Invention</name>
+			<text> The kobold uses one ofthe following options (roll a d8 or choose one); the kobold can use each one no more than once per day:</text>
+			<text>1. Acid. The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 7 (2d6) acid damage.</text>
+			<text>2. Alchemist's Fire. The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 2 (1d4) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text>
+			<text>3. Basket of Centipedes. The kobold throws a small basket into a 5-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
+			<text>4. Green Slime Pot.The kobold throws a clay pot full ofgreen slime at the target, and It breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft. , one target. Hit: The target is covered in a patch ofgreen slime (see chapter S of the Dungeon Master's Guide). Miss; A patch of green slime covers a randomly determined S-foot-square section ofwall or floor within 5feet ofthe target.</text>
+			<text>5. Rot Grub Pot. The kobold throws a clay pot into a 5-foot- square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.</text>
+			<text>6. Scorpion on a Stick. The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach S ft., one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>7. Skunk in a Cage. The kobold releases a skunk into an unoccupied space with in 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest.</text>
+			<text>8. Wasp Nest in a Bag. The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end ofeach ofthe swarm's turns, there's a 50 percent chance that the swarm disperses.</text>
+			<attack>Acid|4|2d6</attack>
+			<attack>Alchemist's Fire|4|1d4</attack>
+			<attack>Green Slime Pot|4|</attack>
+			<attack>Scorpion on a Stick|4|1+1d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Liara Portyr</name>
+		<size>M</size>
+		<type>humanoid (human), Tomb of Annihilation</type>
+		<alignment>lawful evil</alignment>
+		<ac>15 (studded leather, shield)</ac>
+		<hp>84 (13d8 + 26)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>12</dex>
+		<con>15</con>
+		<int>14</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<save>Con +4, Wis +4</save>
+		<skill>Athletics +5, Deception +5, Insight +4, Intimidation +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common, Draconic, Dwarvish</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Brave</name>
+			<text>Liara has advantage on saving throws against being frightened.</text>
+		</trait>
+		<trait>
+			<name>Flaming Fury</name>
+			<text>Once per turn, when Liara hits a creature with a melee weapon, she can cause fire to magically erupt from her weapon and deal an extra 10 (3d6) fire damage to the target.</text>
+			<roll>3d6</roll>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Liara makes three melee attacks.</text>
+		</action>
+		<action>
+			<name>Battleaxe</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands.</text>
+			<attack>Battleaxe (1H)|5|1d8+3</attack>
+			<attack>Battleaxe (2H)|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Heavy Crossbow</name>
+			<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</text>
+			<attack>Heavy Crossbow|3|1d10+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Mantrap</name>
+		<size>L</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>45 (7d10 + 7)</hp>
+		<speed>5 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+		<senses>tremorsense 30 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Attractive Pollen (1/Day)</name>
+			<text>When the mantrap detects any creatures nearby, it can use its reaction to release pollen out to a radius of 30 feet. Any beast or humanoid within the area must succeed on a DC 11 Wisdom saving throw or be forced to use all its movement on its turns to get as close to the mantrap as possible. An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the mantrap remains motionless, it is indistinguishable from an ordinary tropical plant.</text>
+		</trait>
+		<action>
+			<name>Engulf</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is blinded and restrained, has total cover from attacks and other effects outside the mantrap, and takes 14 (4d6) acid damage at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer restrained by it. A mantrap can engulf only one creature at a time.</text>
+			<attack>Engulf|4|</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Mwaxanaré</name>
+		<size>M</size>
+		<type>humanoid (human), Tomb of Annihilation</type>
+		<alignment>lawful neutral</alignment>
+		<ac>10</ac>
+		<hp>13 (3d8)</hp>
+		<speed>30 ft.</speed>
+		<str>6</str>
+		<dex>10</dex>
+		<con>11</con>
+		<int>13</int>
+		<wis>12</wis>
+		<cha>16</cha>
+		<save></save>
+		<skill>Deception +5, Nature +3, Persuasion +5, Religion +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>Auran. Common, telepathy 30 ft.</languages>
+		<cr>1/8</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Mwaxanare is a 2nd-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:</text>
+			<text>Cantrips (at will): eldritch blast, mage hand</text>
+			<text>1st level (2 slots): charm person, protection from evil and good, unseen servant</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>2,0,0,0,0,0,0,0,0</slots>
+		<spells>Eldritch Blast, Mage Hand, Charm Person, Protection from Evil and Good, Unseen Servant</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+			<attack>Dagger|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Pterafolk</name>
+		<size>L</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>30 ft., fly 50 ft.</speed>
+		<str>15</str>
+		<dex>13</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>11</cha>
+		<save></save>
+		<skill>Perception +2, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Terror Dive</name>
+			<text>If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target with a melee weapon attack, the target is frightened until the end of its next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The pterafolk makes three attacks: one with its bite and two with its claws. Alternatively, it makes two melee attacks with its javelin.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.</text>
+			<attack>Bite|4|2d4+2</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Claw|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Javelin</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</text>
+			<attack>Javelin|4|2d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Quetzalcoatlus</name>
+		<size>H</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>30 (4d12 + 4)</hp>
+		<speed>10 ft., fly 80 ft.</speed>
+		<str>15</str>
+		<dex>13</dex>
+		<con>13</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>—</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Dive Attack</name>
+			<text>If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.</text>
+			<roll>3d6</roll>
+		</trait>
+		<trait>
+			<name>Flyby</name>
+			<text>The quetzalcoatlus doesn't provoke an opportunity attack when it flies out of an enemy's reach.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6 + 2) piercing damage.</text>
+			<attack>Bite|4|3d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ras Nsi</name>
+		<size>M</size>
+		<type>monstrosity (shapechanger, yuan-ti), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>15 (bracers of defense)</ac>
+		<hp>127 (17d8 + 51) reduced to 107; subtract 1 for each day that passes during the adventure</hp>
+		<speed>30 ft.</speed>
+		<str>17</str>
+		<dex>16</dex>
+		<con>17</con>
+		<int>18</int>
+		<wis>18</wis>
+		<cha>21</cha>
+		<save>Con +6, Wis +7</save>
+		<skill>Deception +8, Persuasion +8, Religion +7, Stealth +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, Common, Draconic</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Special Equipment</name>
+			<text>Ras Nsi wears bracers of defense, wields a flame tongue longsword, and carries a sending stone matched to one carried by the guide Salida (see chapter 1).</text>
+		</trait>
+		<trait>
+			<name>Shapechanger</name>
+			<text>Ras Nsi can use his action to polymorph into a Medium snake or back into his yuan-ti form. His statistics are the same in each form. Any equipment he is wearing or carrying isn't transformed. He doesn't change form if he dies .</text>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>Ras Nsi's innate spellcasting ability is Charisma (spell save DC 16). He can innately cast the following spells, requiring no material components:</text>
+			<text>At will: animal friendship (snakes only)</text>
+			<text>3/day: suggestion</text>
+		</trait>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Ras Nsi is an 11th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). Ras Nsi has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): chill touch.fire bolt, mage hand, mending, poison spray</text>
+			<text>1st level (4 slots): expeditious retreat.false life, magic missile, shield</text>
+			<text>2nd level (3 slots): blindness/deafness, hold person, misty step</text>
+			<text>3rd level (3 slots): animate dead, counterspell, fireball</text>
+			<text>4th level (3 slots): blight, polymorph</text>
+			<text>5th level (2 slots): contact other plane, geas</text>
+			<text>6th level (1 slot): create undead</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>4,3,3,3,2,1,0,0,0</slots>
+		<spells>Animal Friendship, Suggestion, Chill Touch, Fire Bolt, Mage Hand, Mending, Poison Spray, Expeditious Retreat, False Life, Magic Missile, Shield, Blindness/Deafness, Hold Person, Misty Step, Animate Dead, Counterspell, Fireball, Blight, Polymorph, Contact Other Plane, Geas, Create Undead</spells>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>Ras Nsi has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>Ras Nsi makes three melee attacks, but can use Constrict only once.</text>
+		</action>
+		<action>
+			<name>Bite (Snake Form Only)</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.</text>
+			<attack>Bite|6|1d4+3+2d6</attack>
+		</action>
+		<action>
+			<name>Constrict</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and Ras Nsi can't constrict another target.</text>
+			<attack>Constrict|6|2d6+3</attack>
+		</action>
+		<action>
+			<name>Flame Tongue Longsword (Yuan-ti Form Only)</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands, plus 7 (2d6) fire damage.</text>
+			<attack>Flame Tongue Longsword (1H)|6|1d8+3+2d6</attack>
+			<attack>Flame Tongue Longsword (2H)|6|1d10+3+2d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Stegosaurus</name>
+		<size>H</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>76 (8d12 + 24)</hp>
+		<speed>40 ft.</speed>
+		<str>20</str>
+		<dex>9</dex>
+		<con>17</con>
+		<int>2</int>
+		<wis>11</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 26 (6d6 + 5) piercing damage.</text>
+			<attack>Tail|7|6d6+5</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Stone Juggernaut</name>
+		<size>L</size>
+		<type>construct, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>157 (15d10 + 75)</hp>
+		<speed>50 ft. (in one direction chosen at the start of its turn)</speed>
+		<str>22</str>
+		<dex>1</dex>
+		<con>21</con>
+		<int>2</int>
+		<wis>11</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with adamantine weapons</immune>
+		<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone</conditionImmune>
+		<senses>blindsight 120 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>12</cr>
+		<trait>
+			<name>Devastating Roll</name>
+			<text>The juggernaut can move through the space of a prone creature. A creature whose space the juggernaut enters for the first time on a turn must make a DC 17 Dexterity saving throw, taking 55 (10d10) bludgeoning damage on a failed save, or half as much damage on a successful one.</text>
+			<roll>10d10</roll>
+		</trait>
+		<trait>
+			<name>Immutable Form</name>
+			<text>The juggernaut is immune to any spell or effect that would alter its form.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>As long as it has 1 hit point left, the juggernaut magically regains all its hit points daily at dawn. The juggernaut is destroyed and doesn't regenerate if it drops to 0 hit points.</text>
+		</trait>
+		<trait>
+			<name>Siege Monster</name>
+			<text>The juggernaut deals double damage to objects and structures.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 25 (3d12 + 6) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.</text>
+			<attack>Slam|10|3d12+6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Su-Monster</name>
+		<size>M</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>chaotic evil</alignment>
+		<ac>12</ac>
+		<hp>27 (5d8 + 5)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>14</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>9</int>
+		<wis>13</wis>
+		<cha>9</cha>
+		<save></save>
+		<skill>Athletics +6, Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The su-monster makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Bite|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, or 12 (4d4 + 2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.</text>
+			<attack>Claws|4|2d4+2</attack>
+		</action>
+		<action>
+			<name>Psychic Crush (Recharge 5-6)</name>
+			<text>The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itselfon a success.</text>
+			<attack>Psychic Crush (Recharge 5-6)||5d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Tabaxi Hunter</name>
+		<size>M</size>
+		<type>humanoid (tabaxi), Tomb of Annihilation</type>
+		<alignment>chaotic good</alignment>
+		<ac>14 (leather armor)</ac>
+		<hp>40 (9d8)</hp>
+		<speed>30 ft., climb 20 ft.</speed>
+		<str>10</str>
+		<dex>17</dex>
+		<con>11</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>15</cha>
+		<save></save>
+		<skill>Athletics +2, Perception +4, Stealth +5, Survival +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common plus any one language</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Feline Agility</name>
+			<text>When the tabaxi moves on its turn in combat, it can double its speed until the end ofthe turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The tabaxi makes two attacks with its claws, its shortsword, or its shortbow.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</text>
+			<attack>Claws|+2|1d4</attack>
+		</action>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Shortsword|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Shortbow|5|1d6+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Tabaxi Minstrel</name>
+		<size>M</size>
+		<type>humanoid (tabaxi), Tomb of Annihilation</type>
+		<alignment>chaotic good</alignment>
+		<ac>12</ac>
+		<hp>22 (5d8)</hp>
+		<speed>30 ft., climb 20 ft.</speed>
+		<str>10</str>
+		<dex>15</dex>
+		<con>11</con>
+		<int>14</int>
+		<wis>12</wis>
+		<cha>16</cha>
+		<save></save>
+		<skill>Perception +3, Performance +7, Persuasion +5, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Common plus any two languages</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Feline Agility</name>
+			<text>When the tabaxi moves on its turn in combat, it can double its speed until the end ofthe turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns.</text>
+		</trait>
+		<trait>
+			<name>Inspire (1/Day)</name>
+			<text>While taking a short rest, the tabaxi can spend 1 minute singing, playing an instrument, telling a story, or reciting a poem to soothe and inspire creatures other than itself. Up to five creatures ofthe tabaxi's choice that can see and hear its performance gain 8 temporary hit points at the end ofthe tabaxi's short rest.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The tabaxi makes two claws attacks or two dart attacks.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</text>
+			<attack>Claws|2|1d4</attack>
+		</action>
+		<action>
+			<name>Dart</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 20/ 60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dart|4|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Thorny</name>
+		<size>M</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>27 (5d8 + 5)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>12</dex>
+		<con>13</con>
+		<int>2</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +3</skill>
+		<resist>lightning, piercing</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>1</cr>
+		<trait>
+			<name>Plant Camouflage</name>
+			<text>The thorny has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The thorny regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the thorny's next turn. The thorny dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<trait>
+			<name>Thorny Body</name>
+			<text>At the start of its turn, the thorny deals 2 (1d4) piercing damage to any creature grappling it.</text>
+			<roll>1d4</roll>
+		</trait>
+	</monster>
+	<monster>
+		<name>Tri-Flower Frond</name>
+		<size>M</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>11 (2d8+ 2)</hp>
+		<speed>5 ft.</speed>
+		<str>1</str>
+		<dex>10</dex>
+		<con>12</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>1</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The tri-flower frond uses its orange blossom, then its yellow blossom, and then its red blossom.</text>
+		</action>
+		<action>
+			<name>Orange Blossom</name>
+			<text>The tri-flower frond chooses one creature it can see within 5 feet of it. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 hour. While poisoned in this way, the target is unconscious. At the end of each minute, the poisoned target can repeat the saving throw, ending the effect on itself on a success.</text>
+		</action>
+		<action>
+			<name>Yellow Blossom</name>
+			<text>The tri-flower frond chooses one creature it can see within 5 feet of it. The target must succeed on a DC 11 Dexterity saving throw, or it is covered with corrosive sap and takes 5 acid damage at the start ofeach of its turns. Dousing the target with water reduces the acid damage by 1 point per pint or flask ofwater used.</text>
+		</action>
+		<action>
+			<name>Red Blossom</name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target takes 5 (2d4) poison damage at the start of each of its turns. The red blossom can grapple only one target at a time. Another creature within reach of the tri-flower frond can use its action to end the grapple on the target.</text>
+			<attack>Red Blossom|2|1d4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Vegepygmy</name>
+		<size>S</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>neutral</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>9 (2d6 + 2)</hp>
+		<speed>30 ft.</speed>
+		<str>7</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>7</cha>
+		<save></save>
+		<skill>Perception +2, Stealth +4</skill>
+		<resist>lightning, piercing</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Vegepygmy</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Plant Camouflage</name>
+			<text>The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The vegepygmy regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Claws|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Sling</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Sling|4|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Vegepygmy Chief</name>
+		<size>S</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>neutral</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>33 (6d6 + 12)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>9</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +4</skill>
+		<resist>lightning, piercing</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages>Vegepygmy</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Plant Camouflage</name>
+			<text>The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The vegepygmy regains S hit points at the start of its turn. Ifit takes cold, fire, or necrotic damage, this trait doesn't function at the start ofthe vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The vegepygmy makes two attacks with its claws or two melee attacks with its spear.</text>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Claws|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+			<attack>Spear (1H)|4|1d6+2</attack>
+			<attack>Spear (2H)|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Spores (1/Day)</name>
+			<text>A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itselfon a success</text>
+			<attack>Spores (1/Day)||2d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Velociraptor</name>
+		<size>T</size>
+		<type>beast, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>10 (3d4 + 3)</hp>
+		<speed>30 ft.</speed>
+		<str>6</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>4</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>1/4</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The velociraptor makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Atlack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Bite|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claws|4|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Volothamp "Volo" Geddarm</name>
+		<size>M</size>
+		<type>humanoid (human), Tomb of Annihilation</type>
+		<alignment>chaotic good</alignment>
+		<ac>11</ac>
+		<hp>31 (7d8)</hp>
+		<speed>30 ft.</speed>
+		<str>9</str>
+		<dex>12</dex>
+		<con>10</con>
+		<int>15</int>
+		<wis>11</wis>
+		<cha>16</cha>
+		<save>Con +2, Wis +2</save>
+		<skill>Animal Handling +4, Arcana +4, Deception +5, History +4, Insight +2, Investigation +4, Perception +2, Performance +7, Persuasion +7, Sleight of Hand +3, Survival +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages>Common, Dwarvish, Elvish</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Volo is a lst·level spellcaster. His spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). He has the following wizard spells prepared:</text>
+			<text>Cantrips (at will): friends, mending, prestidigitation</text>
+			<text>1st level (2 slots): comprehend languages, detect magic, disguise self</text>
+		</trait>
+		<spellAbility>Intelligence</spellAbility>
+		<slots>2,0,0,0,0,0,0,0,0</slots>
+		<spells>Friends, Mending, Prestidigitation, Comprehend Languages, Detect Magic, Disguise Self</spells>
+		<action>
+			<name>Dagger</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage.</text>
+			<attack>Dagger|3|1d4+!</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Xandala</name>
+		<size>M</size>
+		<type>humanoid (half-elf), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>71 (11d8 + 22)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>18</int>
+		<wis>16</wis>
+		<cha>18</cha>
+		<save>Int +7, Wis +6</save>
+		<skill>Arcana +7, Deception +10, History+7, Insight +6, Survival +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>Common, Draconic, Dwarvish, Elvish, Halfling</languages>
+		<cr>7</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Xandala is a 9th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Xandala has the following sorcerer spells prepared:</text>
+			<text>Cantrips (at will): acid splash, fire bolt, light, mage hand, ray of frost</text>
+			<text>lst level (4 slots): chromatic orb, featherfall, shield</text>
+			<text>2nd level (4 slots): invisibility, misty step</text>
+			<text>3rd level (3 slots): fireball, fly</text>
+			<text>4th level (3 slots): ice storm, polymorph</text>
+			<text>5th level (1 slot): dominate person</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>4,4,3,3,1,0,0,0,0</slots>
+		<spells>Acid Splash, Fire Bolt, Light, Mage Hand, Ray of Frost, Chromatic Orb, Featherfall, Shield, Invisibility, Misty Step, Fireball, Fly, Ice Storm, Polymorph, Dominate Person</spells>
+		<trait>
+			<name>Quickened Spell (3/Day)</name>
+			<text>When she casts a spell that has a casting time of 1 action, Xandala changes the casting time to 1 bonus action for that casting.</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoningdamage, or 4(1d8) bludgeoning damage when used with two hands.</text>
+			<attack>Quarterstaff (1H)|3|1d6</attack>
+			<attack>Quarterstaff (2H)|3|1d8</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Yellow Musk Creeper</name>
+		<size>M</size>
+		<type>plant, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>6</ac>
+		<hp>60 (11d8 + 11)</hp>
+		<speed>5 ft., climb 5 ft.</speed>
+		<str>12</str>
+		<dex>3</dex>
+		<con>12</con>
+		<int>1</int>
+		<wis>10</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>10</passive>
+		<languages>—</languages>
+		<cr>2</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While the creeper remains motionless, it is Indistinguishable from an ordinary flowering vine.</text>
+		</trait>
+		<trait>
+			<name>Regeneration</name>
+			<text>The creeper regains 10 hit points at the start of its turn. If the creeper takes fire, necrotic, or radiant damage, this trait doesn't function at the start ofits next turn. The creeper dies only if it starts its turn with 0 hit points and doesn't regenerate.</text>
+		</trait>
+		<action>
+			<name>Touch</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 13 (3d8) psychic damage. If the target is a humanoid that drops to 0 hit points as a result of this damage, it dies and is implanted with a yellow musk creeper bulb. Unless the bulb is destroyed, the corpse animates as a yellow musk zombie after being dead for 24 hours. The bulb is destroyed if the creature is raised from the dead before it can transform into a yellow musk zombie, or ifthe corpse is targeted by a remove curse spell or similar magic before it animates.</text>
+			<attack>Touch|3|3d8</attack>
+		</action>
+		<action>
+			<name>Yellow Musk (3/Day)</name>
+			<text>The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target mustsucceed ona DC 11 Wisdom saving throw or be charmed by the creeper for 1 minute. A creature charmed in this way does nothing on its turn except move as close as it can to the creeper. A creature charmed by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Yellow Musk Zombie</name>
+		<size>M</size>
+		<type>undead, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>9</ac>
+		<hp>33 (6d8 + 6)</hp>
+		<speed>20 ft.</speed>
+		<str>13</str>
+		<dex>9</dex>
+		<con>12</con>
+		<int>1</int>
+		<wis>6</wis>
+		<cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune>charmed, exhaustion</conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>1/4</cr>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is fire or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Slam</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) bludgeoning damage.</text>
+			<attack>Slam|3|1d8+1</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Yuan-Ti Broodguard</name>
+		<size>M</size>
+		<type>humanoid (yuan-ti), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>45 (7d8 + 14)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>6</int>
+		<wis>11</wis>
+		<cha>4</cha>
+		<save>Str +4, Dex +4, Wis +2</save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Abyssal, Common, Draconic</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Mental Resistance</name>
+			<text>The broodguard has advantage on saving throws against being charmed, and magic can't paralyze it.</text>
+		</trait>
+		<trait>
+			<name>Reckless</name>
+			<text>At the start ofits turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The broodguard makes three attacks: one with its bite and two with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Bite|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Claws|4|1d6+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Yuan-Ti Nightmare Speaker</name>
+		<size>M</size>
+		<type>monstrosity (shapechanger, yuan-ti), Tomb of Annihilation</type>
+		<alignment>neutral evil</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>71 (13d8 + 13)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>14</int>
+		<wis>12</wis>
+		<cha>16</cha>
+		<save>Wis +3, Cha +5</save>
+		<skill>Deception +S, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 120 ft. (penetrates magical darkness)</senses>
+		<passive>11</passive>
+		<languages>Abyssal, Common, Draconic</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form.</text>
+		</trait>
+		<trait>
+			<name>Death Fangs (2/Day)</name>
+			<text>The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) necrotic damage to the target.</text>
+			<roll>3d10</roll>
+		</trait>
+		<trait>
+			<name>Innate Spellcasting (Yuan-ti Form Only)</name>
+			<text>The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:</text>
+			<text>At will: animal friendship (snakes only)</text>
+			<text>3/day: suggestion</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The yuan-ti has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Spellcasting (Yuan-ti Form Only)</name>
+			<text>The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</text>
+			<text>Cantrip (at will): chill touch, eldritch blast (range 300 ft., +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation</text>
+			<text>1st- 3rd level (2 3rd-level slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>0,0,2,0,0,0,0,0,0</slots>
+		<spells>Animal Friendship, Suggestion, Chill Touch, Eldritch Blast, Mage Hand, Message, Poison Spray, Prestidigitation, Arms of Hadar, Darkness, Fear, Hex, Hold Person, Hunger of Hadar, Witch Bolt</spells>
+		<action>
+			<name>Multiattack (Yuan-ti Form Only)</name>
+			<text>The yuan-ti makes one constrict attack and one scimitar attack.</text>
+		</action>
+		<action>
+			<name>Constrict</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Untilthis grapple ends, the target is restrained, and the yuan-ti can't constrict another target.</text>
+			<attack>Constrict|5|2d6+3</attack>
+		</action>
+		<action>
+			<name>Scimitar (Yuan-ti Form Only)</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Scimitar (Yuan-ti Form Only)|5|1d6+3</attack>
+		</action>
+		<action>
+			<name>Invoke Nightmare (Recharges after a Short or Long Rest)</name>
+			<text>The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Zindar</name>
+		<size>M</size>
+		<type>humanoid (half-dragon), Tomb of Annihilation</type>
+		<alignment>lawful good</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>110 (17d8 + 34)</hp>
+		<speed>30 ft.</speed>
+		<str>14</str>
+		<dex>10</dex>
+		<con>14</con>
+		<int>16</int>
+		<wis>15</wis>
+		<cha>18</cha>
+		<save>Con +5, Wis +5</save>
+		<skill>Arcana +6, History +9, Insight +5, Investigation +9</skill>
+		<resist>fire</resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Draconic, Dwarvish, Primordial</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>Zindar is a 14th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Zindar knows the following sorcerer spells:</text>
+			<text>Cantrips (at will): fire bolt, friends, light, mage hand, mending, message</text>
+			<text>1st level (6 slots): magic missile, shield, sleep</text>
+			<text>2nd level (4 slots): detect thoughts, knock</text>
+			<text>3rd level (3 slots): clairvoyance, tongues</text>
+			<text>4th level (3 slots): dominate beast, stoneskin</text>
+			<text>5th level (3 slots): hold monster, telekinesis</text>
+			<text>6th level (1 slot): true seeing</text>
+			<text>7th level (1 slot): fire storm</text>
+		</trait>
+		<spellAbility>Charisma</spellAbility>
+		<slots>6,4,3,3,3,1,1,0,0</slots>
+		<spells>Fire Bolt, Friends, Light, Mage Hand, Mending, Message, Magic Missile, Shield, Sleep, Detect Thoughts, Knock, Clairvoyance, Tongues, Dominate Beast, Stoneskin, Hold Monster, Telekinesis, True Seeing, Fire Storm</spells>
+		<trait>
+			<name>Dragon Wings</name>
+			<text>As a bonus action on his turn, Zindar can sprout a pair of dragon wings from his back, gaining a flying speed of 30 feet until he dismisses them as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Quarterstaff</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with two hands.</text>
+			<attack>Quarterstaff (1H)|5|1d6+2</attack>
+			<attack>Quarterstaff (2H)|5|1d8+2</attack>
+		</action>
+		<action>
+			<name>Breath Weapon (Recharge 5-6)</name>
+			<text>Zindar uses one of the following options:</text>
+			<text>Fire Breath. Zindar exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Weakening Breath. Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. Acreature can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</text>
+			<attack>Fire Breath||4d10</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Ankylosaurus Zombie</name>
+		<size>H</size>
+		<type>undead, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>68 (8d12 + 16)</hp>
+		<speed>20 ft.</speed>
+		<str>19</str>
+		<dex>9</dex>
+		<con>15</con>
+		<int>2</int>
+		<wis>6</wis>
+		<cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<attack>Tail|6|4d6+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Girallon Zombie</name>
+		<size>L</size>
+		<type>undead, Tomb of Annihilation</type>
+		<alignment>chaotic evil</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>59 (7d10 + 21)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>18</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>3</int>
+		<wis>7</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages>—</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Aggressive</name>
+			<text>As a bonus action, the zombie can move up to its speed toward a hostile creature that it can see.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The zombie makes five attacks: one with its bite and four with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</text>
+			<attack>Bite|6|1d6+4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.</text>
+			<attack>Claw|6|1d4+4</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Tyrannosaurus Zombie</name>
+		<size>H</size>
+		<type>undead, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>136 (13d12 + 52)</hp>
+		<speed>40 ft.</speed>
+		<str>25</str>
+		<dex>6</dex>
+		<con>19</con>
+		<int>1</int>
+		<wis>3</wis>
+		<cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>6</passive>
+		<languages>—</languages>
+		<cr>8</cr>
+		<trait>
+			<name>Disgorge Zombie</name>
+			<text>As a bonus action, the tyrannosaurus zombie can disgorge a normal zombie, which appears in an unoccupied space within 10 feet of it. The disgorged zombie acts on its own initiative count. After a zombie is disgorged, roll a d6. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, 1d4 normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count.</text>
+		</trait>
+		<trait>
+			<name>Undead Fortitude</name>
+			<text>If damage reduces the tyrannosaurus zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The tyrannosaurus zombie makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained and the tyrannosaurus zombie can't bite another target or disgorge zombies.</text>
+			<attack>Bite|10|4d12+7</attack>
+		</action>
+		<action>
+			<name>Tail</name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.</text>
+			<attack>Tail|10|3d8+7</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Zorbo</name>
+		<size>S</size>
+		<type>monstrosity, Tomb of Annihilation</type>
+		<alignment>unaligned</alignment>
+		<ac>10 (see Natural Armor feature)</ac>
+		<hp>27 (6d6 + 6)</hp>
+		<speed>30 ft., climb 30 ft.</speed>
+		<str>13</str>
+		<dex>11</dex>
+		<con>13</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>7</cha>
+		<save></save>
+		<skill>Athletics +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages>—</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The zorbo has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Natural Armor</name>
+			<text>The zorbo magically absorbs the natural strength of its surroundings, adjusting its Armor Class based on the material it is standing or climbing on: AC 15 for wood or bone, AC 17 for earth or stone, or AC 19 for metal. If the zorbo isn't in contact with any ofthese substances, its AC is 10.</text>
+		</trait>
+		<action>
+			<name>Destructive Claws</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage, and if the target is a creature wearing armor, carrying a shield, or in possession of a magic item that improves its AC, it must make a DC 11 Dexterity saving throw. On a failed save, one such item worn or carried by the creature (the target's choice) magically deteriorates, taking a permanent and cumulative -1 penalty to the AC it offers, and the zorbo gains a +1 bonus to AC until the start of its next turn. Armor reduced to an AC of 10 or a shield or magic item that drops to a 0 AC increase is destroyed.</text>
+			<attack>Destructive Claws|3|2d6+1</attack>
+		</action>
+	</monster>
+</compendium>
