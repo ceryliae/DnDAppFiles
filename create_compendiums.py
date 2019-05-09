@@ -158,7 +158,9 @@ class XMLCombiner(object):
             if args.subtype_format != 'none':  # useable or reference both want entries
                 reference_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
                 if args.subtype_format == 'usable':  # skip baseclass info for 'reference'
-                    reference_class.extend(list(items['baseclass'][base_name]))
+                    base_class = copy.deepcopy(items['baseclass'][base_name])
+                    base_class.remove(base_class.find('name'))
+                    reference_class.extend(list(base_class))
                 reference_class.extend(list(element))
                 items['class'][name] = reference_class
 
