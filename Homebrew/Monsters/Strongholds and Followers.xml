@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+<!--Strongholds and Followers-->
+<monster>
+	<name>White Tusk Orc</name>
+	<size>M</size>
+	<type>humanoid (orc), Strongholds and Followers</type>
+	<alignment>chaotic evil</alignment>
+	<ac>14 (studded leather)</ac>
+	<hp>30 (4d8 + 12)</hp>
+	<speed>30 ft.</speed>
+	<str>16</str>
+	<dex>12</dex>
+	<con>16</con>
+	<int>9</int>
+	<wis>11</wis>
+	<cha>10</cha>
+	<save>Dex +2</save>
+	<skill>Intimidation +2</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>10</passive>
+	<languages>Orc</languages>
+	<cr>1</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Minion: Savage Horde</name>
+		<text>After moving at least 20 feet in a straight line toward a creature, the next attack the orc makes against that creature scores a critical hit on a roll of 18–20.</text>
+	</trait>
+	<action>
+		<name>Battleaxe</name>
+		<text>Melee Weapon Attack: +5 to hit,reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands.</text>
+		<attack>Battleaxe (1H)|5|2d8+3</attack>
+		<attack>Battleaxe (2H)|5|2d8+3</attack>
+	</action>
+	<action>
+		<name>Javelin</name>
+		<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</text>
+		<attack>Javelin|5|2d6+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>White Tusk Juggernaut</name>
+	<size>L</size>
+	<type>humanoid (orc), Strongholds and Followers</type>
+	<alignment>chaotic evil</alignment>
+	<ac>20 (plate, shield)</ac>
+	<hp>95 (10d10 + 40)</hp>
+	<speed>25 ft.</speed>
+	<str>19</str>
+	<dex>8</dex>
+	<con>19</con>
+	<int>7</int>
+	<wis>12</wis>
+	<cha>8</cha>
+	<save>Str +6, Wis +3</save>
+	<skill>Athletics +7, Intimidation +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>11</passive>
+	<languages>Orc</languages>
+	<cr>4</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Minion: Savage Horde</name>
+		<text>After moving at least 20 feet in a straight line toward a creature, the next attack the orc makes against that creature scores a critical hit on a roll of 18–20.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The White Tusk juggernaut makes one tusk attack and one longsword attack.</text>
+	</action>
+	<action>
+		<name>Tusk</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+		<attack>Tusk|6|2d6+4</attack>
+	</action>
+	<action>
+		<name>Longsword</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
+		<attack>Longsword|6|2d8+4</attack>
+	</action>
+	<reaction>
+		<name>Horde Protector</name>
+		<text>When a creature within 5 feet of the orc is attacked by a creature the orc can see and the orc is wielding a shield, the orc can impose disadvantage on that attack roll.</text>
+	</reaction>
+</monster>
+<monster>
+	<name>White Tusk Bloodrager</name>
+	<size>M</size>
+	<type>humanoid (orc), Strongholds and Followers</type>
+	<alignment>chaotic evil</alignment>
+	<ac>16 (breastplate)</ac>
+	<hp>60 (8d8 + 24)</hp>
+	<speed>30 ft.</speed>
+	<str>18</str>
+	<dex>15</dex>
+	<con>16</con>
+	<int>11</int>
+	<wis>12</wis>
+	<cha>9</cha>
+	<save>Dex +4</save>
+	<skill>Athletics +5, Perception +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>13</passive>
+	<languages>Orc</languages>
+	<cr>4</cr>
+	<trait>
+		<name>Cold Fury (Recharges after a Short or Long Rest)</name>
+		<text>As a bonus action, the orc can enter a cold fury for 1 minute. While in a fury, its melee weapon attacks deal an extra 3 (1d6) damage.</text>
+		<text>	Also, if the orc is reduced to 0 hit points while in a cold fury, unless it was dealt with a critical hit, the orc makes a Constitution saving throw with a DC of 5 plus the damage taken. On a success, the orc instead drops to 1 hit point and its fury ends.</text>
+		<roll>1d6</roll>
+	</trait>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Minion: Savage Horde</name>
+		<text>After moving at least 20 feet in a straight line toward a creature, the next attack the orc makes against that creature scores a critical hit on a roll of 18–20.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The White Tusk Bloodrager makes three falchion attacks.</text>
+	</action>
+	<action>
+		<name>Falchion</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.</text>
+		<attack>Falchion|6|2d4+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>White Tusk Warspeaker</name>
+	<size>M</size>
+	<type>humanoid (orc), Strongholds and Followers</type>
+	<alignment>chaotic evil</alignment>
+	<ac>14 (chain mail scraps)</ac>
+	<hp>65 (10d8 + 20)</hp>
+	<speed>30 ft.</speed>
+	<str>16</str>
+	<dex>8</dex>
+	<con>15</con>
+	<int>10</int>
+	<wis>16</wis>
+	<cha>12</cha>
+	<save>Wis +5</save>
+	<skill>Persuasion +3, Religion +4</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>13</passive>
+	<languages>Orc</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Minion: Savage Horde</name>
+		<text>After moving at least 20 feet in a straight line toward a creature, the next attack the orc makes against that creature scores a critical hit on a roll of 18–20.</text>
+	</trait>
+	<trait>
+		<name>Spellcasting</name>
+		<text>The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The orc has the following cleric spells prepared:</text>
+		<text>Cantrips (at will): resistance, sacred flame, thaumaturgy</text>
+		<text>1st level (4 slots): cure wounds, guiding bolt, inflict wounds</text>
+		<text>2nd level (3 slots): blindness/deafness, spiritual weapon (greataxe)</text>
+		<text>3rd level (2 slots): bestow curse, spirit guardians</text>
+	</trait>
+	<spellAbility>Wisdom</spellAbility>
+	<slots>4,3,2,0,0,0,0,0,0</slots>
+	<spells>Resistance, Sacred Flame, Thaumaturgy, Cure Wounds, Guiding Bolt, Inflict Wounds, Blindness/Deafness, Spiritual Weapon, Bestow Curse, Spirit Guardians</spells>
+	<action>
+		<name>Multiattack</name>
+		<text>The White Tusk warspeaker makes a goading lash attack and two spiked club attacks.</text>
+	</action>
+	<action>
+		<name>Goading Lash</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one allied target. Hit: 5 (1d4 + 3) slashing damage. The next melee weapon attack the target makes before the end of its next turn has advantage and deals an extra 10 (3d6) damage.</text>
+		<attack>Goading Lash|5|1d4+3</attack>
+	</action>
+	<action>
+		<name>Spiked Club</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</text>
+		<attack>Spiked Club|5|2d6+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>White Tusk Shaman</name>
+	<size>M</size>
+	<type>humanoid (orc, shapechanger), Strongholds and Followers</type>
+	<alignment>chaotic neutral</alignment>
+	<ac>14 (hide armor)</ac>
+	<hp>52 (8d8 + 16)</hp>
+	<speed>30 ft.</speed>
+	<str>17</str>
+	<dex>15</dex>
+	<con>14</con>
+	<int>9</int>
+	<wis>16</wis>
+	<cha>8</cha>
+	<save>Dex +4, Wis +5</save>
+	<skill>Perception +5, Survival +5</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>18</passive>
+	<languages>Orc, Primordial</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Minion: Savage Horde</name>
+		<text>After moving at least 20 feet in a straight line toward a creature, the next attack the orc makes against that creature scores a critical hit on a roll of 18–20.</text>
+	</trait>
+	<trait>
+		<name>Spirit-Bonded Body (Recharges after a Short or Long Rest)</name>
+		<text>As a bonus action, the orc can transform into a dire wolf for up to 4 hours. The orc can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The orc reverts to its true form when its dire wolf form is reduced to 0 hit points. If this damage would cause its dire wolf form to drop below 0 hit points, the excess damage is done to its true form.</text>
+		<text>	The orc also reverts to its true form if it dies or falls unconscious. The orc can revert to its true form as a bonus action on its turn. When it reverts in this way, it returns to the number of hit points it had before it transformed.</text>
+	</trait>
+	<trait>
+		<name>Spirit-Bonded Mind</name>
+		<text>The orc can cast speak with animals at will, but can only communicate with wolves.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The White Tusk Shaman makes two blood-searing spear attacks.</text>
+	</action>
+	<action>
+		<name>Blood-Searing Spear</name>
+		<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage. This magical poison only functions when the spear is wielded by an orc shaman.</text>
+		<attack>Blood-Searing Spear|5|1d6+3+2d6</attack>
+	</action>
+</monster>
+<monster>
+	<name>Oregg Steeltwister</name>
+	<size>M</size>
+	<type>humanoid (orc), Strongholds and Followers</type>
+	<alignment>neutral evil</alignment>
+	<ac>16 (chain mail)</ac>
+	<hp>82 (11d8 + 33)</hp>
+	<speed>30 ft.</speed>
+	<str>15</str>
+	<dex>12</dex>
+	<con>16</con>
+	<int>9</int>
+	<wis>11</wis>
+	<cha>18</cha>
+	<save>Str +5, Wis +3</save>
+	<skill>Arcana +5, Athletics +5</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>10</passive>
+	<languages>Orc, Common</languages>
+	<cr>5</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Rune-Tattooed</name>
+		<text>Whenever Oregg casts a spell of 1st level or higher, he gains a number of temporary hit points equal to Xd10, where X is the level of the spell.</text>
+	</trait>
+	<trait>
+		<name>Spellcasting</name>
+		<text>Oregg Steeltwister is a 5th-level spellcaster. His spellcasting ability modifier is Charisma (spell save DC 15, +7 to hit with spell attacks). He has the following sorcerer spells prepared:</text>
+		<text>Cantrips (at will): firebolt, message, poison spray, true strike</text>
+		<text>1st level (4 slots): magic missile, shield</text>
+		<text>2nd level (3 slots): heat metal</text>
+		<text>3rd level (2 slots): fly, fireball</text>
+	</trait>
+	<spellAbility>Charisma</spellAbility>
+	<slots>4,3,2,0,0,0,0,0,0</slots>
+	<spells>Firebolt, Message, Poison Spray, True Strike, Magic Missile, Shield, Heat Metal, Fly, Fireball</spells>
+	<action>
+		<name>Multiattack</name>
+		<text>Oregg makes two longsword attacks and can cast a cantrip as a bonus action.</text>
+	</action>
+	<action>
+		<name>Longsword</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) slashing damage.</text>
+		<attack>Longsword|5|1d10+2</attack>
+	</action>
+	<action>
+		<name>Firebolt</name>
+		<text>Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d10) fire damage.</text>
+		<attack>Firebolt|7|2d10</attack>
+	</action>
+	<action>
+		<name>Poison Spray</name>
+		<text>One creature within 10 feet of Oregg must make a successful DC 15 Constitution saving throw or take 13 (2d12) poison damage.</text>
+		<attack>Poison Spray||2d12</attack>
+	</action>
+</monster>
+<monster>
+	<name>Bonebreaker Dorokor</name>
+	<size>M</size>
+	<type>humanoid (orc), Strongholds and Followers</type>
+	<alignment>neutral evil</alignment>
+	<ac>19 (half plate of fire resistance, shield)</ac>
+	<hp>102 (12d8 + 48)</hp>
+	<speed>30 ft.</speed>
+	<str>19</str>
+	<dex>15</dex>
+	<con>18</con>
+	<int>12</int>
+	<wis>17</wis>
+	<cha>17</cha>
+	<save>Str +7, Dex +5, Wis +6</save>
+	<skill>Athletics +7, Intimidation +6, Persuasion +6</skill>
+	<vulnerable></vulnerable>
+	<resist>fire</resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>13</passive>
+	<languages>Common, Orc</languages>
+	<cr>6</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the orc can move up to its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Wielder of Wound</name>
+		<text>Bonebreaker Dorokor wields the magical greataxe Wound (page 144).</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Bonebreaker Dorokor makes three weapon attacks, or she makes two attacks and issues a War Cry if it is available.</text>
+	</action>
+	<action>
+		<name>Wound</name>
+		<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11(1d12 + 5) slashing damage plus 7 (2d6) necrotic damage. The target’s maximum hit points are decreased in equal amount to the necrotic damage dealt. The target’s hit point maximum does not return to normal until it finishes a long rest or its grievous wounds are soothed by a greater restoration spell.</text>
+		<attack>Wound|8|1d12+5+2d6</attack>
+	</action>
+	<action>
+		<name>Longbow</name>
+		<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+		<attack>Longbow|5|1d8+2</attack>
+	</action>
+	<action>
+		<name>War Cry (Recharge 4-6)</name>
+		<text>Dorokor screams an orcish war phrase, spurring her warriors on toward victory. Choose one of the following effects:</text>
+		<text>Rally: All of Dorokor’s minions within 30 feet that can hear her gain 22 (4d10) temporary hit points.</text>
+		<text>Focus: All of Dorokor’s minions within 30 feet that can hear her will have advantage on the next attack roll they make before the end of their next turn.</text>
+		<text>Charge: All of Dorokor’s minions within 30 feet that can hear her can move up to their speed as a reaction.</text>
+		<attack>War Cry||4d10</attack>
+	</action>
+	<reaction>
+		<name>Villain Ability: Warlord</name>
+		<text>As a reaction, when a minion dies, issue a command to your other minions. Those who can hear you gain a reaction they can use to immediately take another movement</text>
+	</reaction>
+</monster>
+<monster>
+	<name>Sir Pelliton</name>
+	<size>M</size>
+	<type>humanoid (human), Strongholds and Followers</type>
+	<alignment>chaotic evil</alignment>
+	<ac>20 (plate, shield)</ac>
+	<hp>76 (9d10 + 27)</hp>
+	<speed>30 ft.</speed>
+	<str>18</str>
+	<dex>8</dex>
+	<con>17</con>
+	<int>13</int>
+	<wis>15</wis>
+	<cha>18</cha>
+	<save>Dex +3, Int +5</save>
+	<skill>Animal Handling +6, Arcana +5, Intimidation +8</skill>
+	<vulnerable></vulnerable>
+	<resist>cold, fire, lightning, psychic</resist>
+	<immune></immune>
+	<conditionImmune>blinded, deafened</conditionImmune>
+	<senses></senses>
+	<passive>12</passive>
+	<languages>Common</languages>
+	<cr>5</cr>
+	<trait>
+		<name>Mounted Combatant</name>
+		<text>While mounted, Sir Pelliton has advantage on melee attack rolls against unmounted creatures that are smaller than his mount.</text>
+	</trait>
+	<trait>
+		<name>The Star Knight</name>
+		<text>Sir Pelliton has resistance to cold, fire, lightning, and psychic damage as a sign of his pact, and cannot be blinded or deafened. His hellish rebuke does 20 damage (no roll) to enemies who fail their save.</text>
+	</trait>
+	<trait>
+		<name>Innate Spellcasting</name>
+		<text>Sir Pelliton has gained the power to cast dark magic. All spells he casts with this feature are cast as if using a 5th-level spell slot, and he casts cantrips as if he were an 11th-level warlock. His spellcasting ability is Wisdom (DC 16, +8 to hit with spell attacks).</text>
+		<text>At will: acid splash, eldritch blast (3 beams), minor illusion, hellish rebuke</text>
+		<text>5/day: branding smite, black tentacles, counterspell, dimension door, hold person</text>
+		<text>1/day each: cone of cold, eyebite, mass suggestion</text>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells>Acid Splash, Eldritch Blast, Minor Illusion, Hellish Rebuke, Branding Smite, Black Tentacles, Counterspell, Dimension Door, Hold Person, Cone of Cold, Eyebite, Mass Suggestion</spells>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Sir Pelliton makes three melee attacks or makes two melee attacks and casts eldritch blast.</text>
+	</action>
+	<action>
+		<name>Frost Brand Longsword</name>
+		<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 3 (1d6) cold damage.</text>
+		<attack>Frost Brand Longsword|8|1d8+4+1d6</attack>
+	</action>
+	<action>
+		<name>Lance</name>
+		<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d12 + 4) piercing damage.</text>
+		<attack>Lance|8|1d12+4</attack>
+	</action>
+	<reaction>
+		<name>Villain Ability: Warlord</name>
+		<text>As a reaction, when a minion dies, issue a command to your other minions. Those who can hear you gain a reaction they can use to immediately take another movement.</text>
+	</reaction>
+</monster>
+<monster>
+	<name>Faldric the Archer</name>
+	<size>M</size>
+	<type>humanoid (human), Strongholds and Followers</type>
+	<alignment>neutral evil</alignment>
+	<ac>15 (studded leather)</ac>
+	<hp>44 (8d8 + 8)</hp>
+	<speed>30 ft.</speed>
+	<str>11</str>
+	<dex>16</dex>
+	<con>13</con>
+	<int>11</int>
+	<wis>14</wis>
+	<cha>13</cha>
+	<save>Dex +4 Wis +2</save>
+	<skill>Acrobatics +5, Perception +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive>13</passive>
+	<languages>Common</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Acute Sight</name>
+		<text>Faldric has advantage on Perception checks that rely on sight.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Faldric makes two attacks.</text>
+	</action>
+	<action>
+		<name>Longbow</name>
+		<text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+		<attack>Longbow|5|1d8+3</attack>
+	</action>
+	<action>
+		<name>Shortsword</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+		<attack>Shortsword|5|1d6+3</attack>
+	</action>
+	<reaction>
+		<name>Pelliton’s Archer</name>
+		<text>When a creature Faldric can see enters a space adjacent to Sir Pelliton, Faldric may use his reaction to make a longbow attack against that creature. If this attack is successful, the target is also knocked prone.</text>
+	</reaction>
+</monster>
+<monster>
+	<name>Pinna</name>
+	<size>M</size>
+	<type>humanoid (human), Strongholds and Followers</type>
+	<alignment>neutral good</alignment>
+	<ac>12</ac>
+	<hp>13 (3d6 + 0)</hp>
+	<speed>30 ft.</speed>
+	<str>6</str>
+	<dex>8</dex>
+	<con>11</con>
+	<int>16</int>
+	<wis>12</wis>
+	<cha>15</cha>
+	<save>Int +6, Wis +2</save>
+	<skill>Arcana +6</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive>11</passive>
+	<languages>Common</languages>
+	<cr>1</cr>
+	<trait>
+		<name>Spellcastin</name>
+		<text>Pinna is a 3rd-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). Pinna has the following wizard spells prepared:</text>
+		<text>Cantrips (at will): minor illusion, mage hand, dancing lights, fire bolt</text>
+		<text>1st level (4 slots): color spray, silent image, identify, magic missile</text>
+		<text>2nd level (2 slots): blur, web</text>
+	</trait>
+	<spellAbility>Intelligence</spellAbility>
+	<slots>4,2,0,0,0,0,0,0,0</slots>
+	<spells>Minor Illusion, Mage Hand, Dancing Lights, Fire Bolt, Color Spray, Silent Image, Identify, Magic Missile, Blur, Web</spells>
+	<action>
+		<name>Dagger</name>
+		<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4 + 0) piercing damage.</text>
+		<attack>Dagger|2|1d4+0</attack>
+	</action>
+</monster>
+</compendium>
