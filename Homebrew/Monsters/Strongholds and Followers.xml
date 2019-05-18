@@ -6096,7 +6096,7 @@
 	<name>The Phoenix</name>
 	<size>H</size>
 	<type>celestial, Strongholds and Followers</type>
-	<alignment>chaotic good</alignment>
+	<alignment>good</alignment>
 	<ac>21 (natural armor)</ac>
 	<hp>243 (18d10 + 144)</hp>
 	<speed>30 ft., fly 3,450 ft. (hover)</speed>
@@ -6117,7 +6117,7 @@
 	<languages>all, telepathy 120 ft.</languages>
 	<cr>21</cr>
 	<trait>
-		<name>Born of FIre</name>
+		<name>Born of Fire</name>
 		<text>The phoenix radiates sunlight in a 60-foot radius, and dim light a further 180 feet.</text>
 	</trait>
 	<trait>
@@ -6152,6 +6152,49 @@
 		<text>The phoenix exhales a beam of brilliant, prismatic light in a line that is 10 feet wide and 1,000 feet long. Each creature in that line must make a DC 22 Dexterity saving throw, taking 45 (10d8) fire and 35 (10d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
 		<text>	In battle, this counts as a unit with Attack +17 and Power +15 and can affect every unit in a battle.</text>
 		<attack>Light of All Colors (Recharge 4-6)||10d8+10d6</attack>
+	</action>
+</monster>
+<monster>
+	<name>Machine Lieutenant</name>
+	<size>M</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>neutral</alignment>
+	<ac>20 (plate, shield)</ac>
+	<hp>60 (8d8 + 24)</hp>
+	<speed>40 ft.</speed>
+	<str>18</str>
+	<dex>13</dex>
+	<con>16</con>
+	<int>10</int>
+	<wis>10</wis>
+	<cha>10</cha>
+	<save></save>
+	<skill>Perception +4</skill>
+	<vulnerable></vulnerable>
+	<resist>bludgeoning, piercing, and slashing from nonmagical weapons that aren’t adamantine</resist>
+	<immune>force, necrotic, poison</immune>
+	<conditionImmune>blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned</conditionImmune>
+	<senses>blindsight 60 ft. (blind beyond)</senses>
+	<passive>14</passive>
+	<languages>understands the languages of its creator but can’t speak</languages>
+	<cr>4</cr>
+	<trait>
+		<name>Magic Resistance</name>
+		<text>The machine lieutenant has advantage on saving throws against spells and other magical effects.</text>
+	</trait>
+	<trait>
+		<name>Both Guard and Ward</name>
+		<text>While the lieutenant is within 5 feet of the attuned owner of the codex automata, any attack targeting the codex’s owner has a 50% chance to instead target the machine lieutenant.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The lieutenant makes two longsword attacks.</text>
+	</action>
+	<action>
+		<name>Longsword</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage or 9 (1d10 + 4) slashing damage if used with two hands.</text>
+		<attack>Longsword (1H)|6|1d8+4</attack>
+		<attack>Longsword (2H)|6|1d10+4</attack>
 	</action>
 </monster>
 </compendium>
