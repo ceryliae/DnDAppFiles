@@ -5782,4 +5782,314 @@
 		<attack>Bite|4|1d10+2</attack>
 	</action>
 </monster>
+<monster>
+	<name>Space</name>
+	<size>M</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>lawful</alignment>
+	<ac>16 (natural armor)</ac>
+	<hp>112 (15d8 + 45)</hp>
+	<speed>40 ft.</speed>
+	<str>16</str>
+	<dex>14</dex>
+	<con>16</con>
+	<int>13</int>
+	<wis>16</wis>
+	<cha>14</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+	<senses>truesight 60 ft</senses>
+	<passive>16</passive>
+	<languages>all those of the creature who summoned it</languages>
+	<cr>5</cr>
+	<trait>
+		<name>The Law of Motion</name>
+		<text>No enemies within 60 feet can gain the benefit of magical movement.</text>
+	</trait>
+	<trait>
+		<name>Chaos Vulnerability</name>
+		<text>The Inexorables have disadvantage on all saving throws against spells.</text>
+	</trait>
+	<trait>
+		<name>Inexorable</name>
+		<text>The Inexorables are immune to any effects that would slow them or deny them actions or movement.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Space makes three slam attacks</text>
+	</action>
+	<action>
+		<name>Slam</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage.</text>
+		<attack>Slam|6|2d8+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>Death</name>
+	<size>M</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>lawful</alignment>
+	<ac>17 (natural armor)</ac>
+	<hp>112 (15d8 + 45)</hp>
+	<speed>40 ft.</speed>
+	<str>16</str>
+	<dex>15</dex>
+	<con>16</con>
+	<int>13</int>
+	<wis>14</wis>
+	<cha>15</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+	<senses>truesight 60 ft</senses>
+	<passive>15</passive>
+	<languages>all those of the creature who summoned it</languages>
+	<cr>6</cr>
+	<trait>
+		<name>The Law of Death</name>
+		<text>At the start of each of Death’s turns, undead within 10 feet of it take 10 force damage.</text>
+	</trait>
+	<trait>
+		<name>Chaos Vulnerability</name>
+		<text>The Inexorables have disadvantage on all saving throws against spells.</text>
+	</trait>
+	<trait>
+		<name>Inexorable</name>
+		<text>The Inexorables are immune to any effects that would slow them or deny them actions or movement.</text>
+	</trait>
+	<trait>
+		<name>Innate Spellcasting</name>
+		<text>Death’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:</text>
+		<text>3/day: death ward</text>
+	</trait>
+	<spellAbility>Charisma</spellAbility>
+	<slots>0,0,0,0,0,0,0,0,0</slots>
+	<spells>death ward</spells>
+	<action>
+		<name>Multiattack</name>
+		<text>Death makes three slam attacks or makes one slam attack and one Death to Undeath attack.</text>
+	</action>
+	<action>
+		<name>Slam</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage.</text>
+		<attack>Slam|6|2d8+3</attack>
+	</action>
+	<action>
+		<name>Death to Undeath</name>
+		<text>Death points at an undead creature within 60 feet. The target must make a DC 13 Wisdom saving throw or take 33 (6d10) force damage. On a successful save, the target takes half that damage.</text>
+		<attack>Death to Undeath||6d10</attack>
+	</action>
+</monster>
+<monster>
+	<name>Change</name>
+	<size>M</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>lawful</alignment>
+	<ac>18 (natural armor)</ac>
+	<hp>120 (16d8 + 48)</hp>
+	<speed>40 ft.</speed>
+	<str>15</str>
+	<dex>17</dex>
+	<con>16</con>
+	<int>13</int>
+	<wis>12</wis>
+	<cha>10</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+	<senses>truesight 60 ft.</senses>
+	<passive>14</passive>
+	<languages>all those of the creature who summoned it</languages>
+	<cr>7</cr>
+	<trait>
+		<name>The Law of Change</name>
+		<text>Enemies with 10 feet cannot benefit from magical healing.</text>
+	</trait>
+	<trait>
+		<name>Chaos Vulnerability</name>
+		<text>The Inexorables have disadvantage on all saving throws against spells.</text>
+	</trait>
+	<trait>
+		<name>Inexorable</name>
+		<text>The Inexorables are immune to any effects that would slow them or deny them actions or movement.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Change makes three javelin attacks.</text>
+	</action>
+	<action>
+		<name>Javelin</name>
+		<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</text>
+		<attack>Javelin|5|2d8+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>Fate</name>
+	<size>M</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>lawful</alignment>
+	<ac>19 (natural armor)</ac>
+	<hp>136 (16d8 + 64)</hp>
+	<speed>40 ft., fly 30 ft. (hover)</speed>
+	<str>16</str>
+	<dex>12</dex>
+	<con>18</con>
+	<int>15</int>
+	<wis>14</wis>
+	<cha>10</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+	<senses>truesight 60 ft.</senses>
+	<passive>15</passive>
+	<languages>all those of the creature who summoned it</languages>
+	<cr>8</cr>
+	<trait>
+		<name>The Law of Fate</name>
+		<text>Fate does not make attack rolls, always using as 12 as its result (before applying bonuses) and cannot be affected by advantage or disadvantage. Fate does not roll damage, instead always taking the average result, though damage dice are listed so the average can be calculated.</text>
+	</trait>
+	<trait>
+		<name>Chaos Vulnerability</name>
+		<text>The Inexorables have disadvantage on all saving throws against spells</text>
+	</trait>
+	<trait>
+		<name>Inexorable</name>
+		<text>The Inexorables are immune to any effects that would slow them or deny them actions or movement.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Fate makes three slam attacks.</text>
+	</action>
+	<action>
+		<name>Slam</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage.</text>
+		<attack>Slam||12</attack>
+	</action>
+	<action>
+		<name>The Destiny Light (Recharge 5-6)</name>
+		<text>Fate fires a beam of Destiny Light at a target it can see within 60 feet. The target must make a DC 13 Constitution saving throw. On a failed save, it takes 36 (8d8) necrotic damage, and it only deals average damage and uses 10 for its attack rolls (before bonuses) for the next 10 minutes. On a successful save, it takes half as much damage, and its attack and damage rolls are not affected.</text>
+		<attack>The Destiny Light (Recharge 5-6)||36</attack>
+	</action>
+</monster>
+<monster>
+	<name>Time</name>
+	<size>L</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>lawful</alignment>
+	<ac>19 (natural armor)</ac>
+	<hp>161 (17d10 + 68)</hp>
+	<speed>40 ft.</speed>
+	<str>18</str>
+	<dex>20</dex>
+	<con>18</con>
+	<int>15</int>
+	<wis>11</wis>
+	<cha>10</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+	<senses>truesight 60 ft.</senses>
+	<passive>14</passive>
+	<languages>all those of the creature who summoned it</languages>
+	<cr>9</cr>
+	<trait>
+		<name>The Law of Time</name>
+		<text>Enemies within 15 feet cannot take bonus actions or reactions.</text>
+	</trait>
+	<trait>
+		<name>Chaos Vulnerability</name>
+		<text>The Inexorables have disadvantage on all saving throws against spells.</text>
+	</trait>
+	<trait>
+		<name>Inexorable</name>
+		<text>The Inexorables are immune to any effects that would slow them or deny them actions or movement.</text>
+	</trait>
+	<trait>
+		<name>Time Is Inexorable (Recharge 6)</name>
+		<text>At the end of the round, after all creatures have acted, Time takes another turn.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Time makes three slam attacks.</text>
+	</action>
+	<action>
+		<name>Slam</name>
+		<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage.</text>
+		<attack>Slam|8|2d10+5</attack>
+	</action>
+	<action>
+		<name>Haste (Recharge 5-6)</name>
+		<text>Until the end of its next turn, Time magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action.</text>
+	</action>
+</monster>
+<monster>
+	<name>Nature</name>
+	<size>L</size>
+	<type>construct, Strongholds and Followers</type>
+	<alignment>lawful</alignment>
+	<ac>20 (natural armor)</ac>
+	<hp>190 (20d10 + 80)</hp>
+	<speed>40 ft.</speed>
+	<str>20</str>
+	<dex>11</dex>
+	<con>18</con>
+	<int>15</int>
+	<wis>18</wis>
+	<cha>20</cha>
+	<save>Str +9, Dex +4, Con +8, Wis +8, Cha +9</save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune>charmed, exhaustion, frightened, paralyzed, petrified, poisoned</conditionImmune>
+	<senses>truesight 60 ft.</senses>
+	<passive>14</passive>
+	<languages>all those of the creature who summoned it</languages>
+	<cr>10</cr>
+	<trait>
+		<name>The Law of Nature</name>
+		<text>Allies within 20 feet have advantage on all saving throws.</text>
+	</trait>
+	<trait>
+		<name>Inexorable</name>
+		<text>The Inexorables are immune to any effects that would slow them or deny them actions or movement.</text>
+	</trait>
+	<trait>
+		<name>Innate Spellcasting</name>
+		<text>Nature’s innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:</text>
+		<text>3/day: banishment, counterspell</text>
+	</trait>
+	<spellAbility>Charisma</spellAbility>
+	<slots>0,0,0,0,0,0,0,0,0</slots>
+	<spells>Banishment, Counterspell</spells>
+	<trait>
+		<name>By Will Alone</name>
+		<text>As a reaction to missing an attack, Nature makes a DC 15 Wisdom saving throw. On a successful save, the original attack is successful.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>Nature makes two slam attacks or makes one slam attack and casts banishment.</text>
+	</action>
+	<action>
+		<name>Slam</name>
+		<text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 18 (4d8) force damage.</text>
+		<attack>Slam|9|2d6+5+4d8</attack>
+	</action>
+</monster>
 </compendium>
