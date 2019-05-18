@@ -11,13 +11,14 @@ You can review optional parameters (such separating subclasses into separate 'cl
     $ python create_compendiums.py -h
 
 """
-from xml.etree import ElementTree as et
-from glob import glob
+import argparse
+import copy
 import fnmatch
 import os
 import re
-import argparse
-import copy
+
+from glob import glob
+from xml.etree import ElementTree as et
 from xml.etree.ElementTree import ParseError
 
 COMPENDIUM = 'Compendiums/{category} Compendium.xml'
