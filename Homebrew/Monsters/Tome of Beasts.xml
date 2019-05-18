@@ -707,8 +707,57 @@
 			<attack>Talons|8|2d6+5</attack>
 		</action>
 	</monster>
-	<monster><name>Angler Worm</name><size>H</size><type>monstrosity,tome of Beasts</type><alignment>unaligned</alignment><ac>14 (natural armor)</ac><hp>133 (14d12 + 42)</hp><speed>20 ft., climb 20 ft.</speed><str>14</str><dex>5</dex><con>16</con><int>3</int><wis>14</wis><cha>1</cha><immune>poison</immune><conditionImmune>blinded, charmed, deafened, poisoned, prone</conditionImmune><senses>tremorsense 60 ft.</senses><passive>12</passive><languages>-</languages>&gt;
-		<cr>4</cr><trait><name>Spider Climb</name><text>The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.</text></trait><trait><name>Keen Touch</name><text>The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.</text></trait><trait><name>Transparent Trap</name><text>A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence.</text></trait><action><name>Multiattack</name><text>An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils.once it has coiled around one creature it stops coil attacks against others.</text></action><action><name>Bite</name><text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.</text><attack>Bite|4|2d6 + 2+1d6</attack></action><action><name>Coils</name><text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.</text><attack>Coils|4|3d8</attack></action><action><name>Ethereal Lure (Recharge 4-6)</name><text>The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible.</text></action></monster>
+	<monster>
+		<name>Angler Worm</name>
+		<size>H</size>
+		<type>monstrosity,tome of Beasts</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>133 (14d12 + 42)</hp>
+		<speed>20 ft., climb 20 ft.</speed>
+		<str>14</str>
+		<dex>5</dex>
+		<con>16</con>
+		<int>3</int>
+		<wis>14</wis>
+		<cha>1</cha>
+		<immune>poison</immune>
+		<conditionImmune>blinded, charmed, deafened, poisoned, prone</conditionImmune>
+		<senses>tremorsense 60 ft.</senses>
+		<passive>12</passive>
+		<languages>-</languages>
+		<cr>4</cr>
+		<trait>
+			<name>Spider Climb</name>
+			<text>The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.</text>
+		</trait>
+		<trait>
+			<name>Keen Touch</name>
+			<text>The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.</text>
+		</trait>
+		<trait>
+			<name>Transparent Trap</name>
+			<text>A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils.once it has coiled around one creature it stops coil attacks against others.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.</text>
+			<attack>Bite|4|2d6 + 2+1d6</attack>
+		</action>
+		<action>
+			<name>Coils</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.</text>
+			<attack>Coils|4|3d8</attack>
+		</action>
+		<action>
+			<name>Ethereal Lure (Recharge 4-6)</name>
+			<text>The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible.</text>
+		</action>
+	</monster>
 	<monster>
 		<name>Giant Ant</name>
 		<size>L</size>
@@ -6985,7 +7034,56 @@
 			<text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 4 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text>
 		</reaction>
 	</monster>
-	<monster><name>Void Dragon Wyrmling</name><size>M</size><type>dragon,tome of Beasts</type><alignment>chaotic neutral</alignment><ac>17 (natural armor)</ac><hp>45 (6d8 + 18)</hp><speed>30 ft., fly 60 ft. (hover)</speed><str>16</str><dex>10</dex><con>17</con><int>12</int><wis>9</wis><cha>17</cha><save>Dex +4, Con +5, Wis +1, Cha +5</save><skill> Perception +3, Stealth +2</skill><immune>cold</immune><senses/><passive>13</passive><languages> Common, Draconic, Void Speech</languages><cr>2</cr><trait><name>Chill of the Void</name><text>Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.</text></trait><trait><name>Void Dweller</name><text>As ancient void dragon.</text></trait><action><name>Bite</name><text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text><attack>Bite|5|1d10 + 3+1d6</attack></action><action><name>Breath Weapons (Recharge 5-6)</name><text>The dragon uses one of the following breath weapons:</text></action><action><name>Gravitic Breath</name><text>The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text></action><action><name>Stellar Flare Breath</name><text>The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.</text></action><reaction><name>Void Twist</name><text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text></reaction>&gt;
+	<monster>
+		<name>Void Dragon Wyrmling</name>
+		<size>M</size>
+		<type>dragon,tome of Beasts</type>
+		<alignment>chaotic neutral</alignment>
+		<ac>17 (natural armor)</ac>
+		<hp>45 (6d8 + 18)</hp>
+		<speed>30 ft., fly 60 ft. (hover)</speed>
+		<str>16</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>12</int>
+		<wis>9</wis>
+		<cha>17</cha>
+		<save>Dex +4, Con +5, Wis +1, Cha +5</save>
+		<skill> Perception +3, Stealth +2</skill>
+		<immune>cold</immune>
+		<senses/>
+		<passive>13</passive>
+		<languages> Common, Draconic, Void Speech</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Chill of the Void</name>
+			<text>Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.</text>
+		</trait>
+		<trait>
+			<name>Void Dweller</name>
+			<text>As ancient void dragon.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</text>
+			<attack>Bite|5|1d10 + 3+1d6</attack>
+		</action>
+		<action>
+			<name>Breath Weapons (Recharge 5-6)</name>
+			<text>The dragon uses one of the following breath weapons:</text>
+		</action>
+		<action>
+			<name>Gravitic Breath</name>
+			<text>The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.</text>
+		</action>
+		<action>
+			<name>Stellar Flare Breath</name>
+			<text>The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
+		</action>
+		<reaction>
+			<name>Void Twist</name>
+			<text>When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.</text>
+		</reaction>
 	</monster>
 	<monster>
 		<name>Ancient Wind Dragon</name>
