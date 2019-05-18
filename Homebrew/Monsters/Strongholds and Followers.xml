@@ -6092,4 +6092,66 @@
 		<attack>Slam|9|2d6+5+4d8</attack>
 	</action>
 </monster>
+<monster>
+	<name>The Phoenix</name>
+	<size>H</size>
+	<type>celestial, Strongholds and Followers</type>
+	<alignment>chaotic good</alignment>
+	<ac>21 (natural armor)</ac>
+	<hp>243 (18d10 + 144)</hp>
+	<speed>30 ft., fly 3,450 ft. (hover)</speed>
+	<str>25</str>
+	<dex>22</dex>
+	<con>26</con>
+	<int>25</int>
+	<wis>25</wis>
+	<cha>29</cha>
+	<save>Int +14, Wis +14, Cha +16</save>
+	<skill>Perception +14</skill>
+	<vulnerable></vulnerable>
+	<resist>radiant; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+	<immune>necrotic, poison</immune>
+	<conditionImmune>charmed, exhaustion, frightened, poisoned</conditionImmune>
+	<senses>truesight 120 ft.</senses>
+	<passive>24</passive>
+	<languages>all, telepathy 120 ft.</languages>
+	<cr>21</cr>
+	<trait>
+		<name>Born of FIre</name>
+		<text>The phoenix radiates sunlight in a 60-foot radius, and dim light a further 180 feet.</text>
+	</trait>
+	<trait>
+		<name>Magic Resistance</name>
+		<text>The phoenix has advantage on saving throws against magic and other magical effects.</text>
+	</trait>
+	<trait>
+		<name>The Fire is Alive</name>
+		<text>The phoenix regenerates 3d12 hit points at the start of each round.</text>
+		<roll>3d12</roll>
+	</trait>
+	<trait>
+		<name>Dazzling Plumage</name>
+		<text>The Phoenix’s feathers cycle through every color in the rainbow. Evil creatures who begin their turn within 60 feet of the Defender of All the Earth and who do not explicitly avert their gaze must succeed on a DC 15 Wisdom saving throw or be charmed until the end of their next turn. Charmed targets are stunned. If the target’s saving throw is successful, the target is immune to the phoenix’s Dazzling Plumage for the next 24 hours.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The phoenix makes two claw attacks and one bite attack.</text>
+	</action>
+	<action>
+		<name>Claw</name>
+		<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) necrotic damage.</text>
+		<attack>Claw|14|4d8+7</attack>
+	</action>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 9 (2d8) fire damage.</text>
+		<attack>Bite|14|2d10+7</attack>
+	</action>
+	<action>
+		<name>Light of All Colors (Recharge 4-6)</name>
+		<text>The phoenix exhales a beam of brilliant, prismatic light in a line that is 10 feet wide and 1,000 feet long. Each creature in that line must make a DC 22 Dexterity saving throw, taking 45 (10d8) fire and 35 (10d6) radiant damage on a failed save, or half as much damage on a successful one.</text>
+		<text>	In battle, this counts as a unit with Attack +17 and Power +15 and can affect every unit in a battle.</text>
+		<attack>Light of All Colors (Recharge 4-6)||10d8+10d6</attack>
+	</action>
+</monster>
 </compendium>
