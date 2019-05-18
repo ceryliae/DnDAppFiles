@@ -6197,4 +6197,63 @@
 		<attack>Longsword (2H)|6|1d10+4</attack>
 	</action>
 </monster>
+<monster>
+	<name>Lady Czorgan</name>
+	<size>M</size>
+	<type>undead, Strongholds and Followers</type>
+	<alignment>chaotic evil</alignment>
+	<ac>18 (plate)</ac>
+	<hp>97 (13d8 + 39)</hp>
+	<speed>30 ft.</speed>
+	<str>18</str>
+	<dex>10</dex>
+	<con>16</con>
+	<int>10</int>
+	<wis>13</wis>
+	<cha>16</cha>
+	<save>Dex +5, Wis +6, Cha +7</save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune>necrotic, poison</immune>
+	<conditionImmune>exhaustion, frightened, poisoned</conditionImmune>
+	<senses>darkvision 120 ft.</senses>
+	<passive>11</passive>
+	<languages>Abyssal, Common</languages>
+	<cr>12</cr>
+	<trait>
+		<name>Magic Resistance</name>
+		<text>Lady Czorgan has advantage on saving throws against spells and other magical effects.</text>
+	</trait>
+	<trait>
+		<name>Unholy Aura</name>
+		<text>Unless Lady Czorgan is incapacitated, she and undead creatures of her choice within 30 feet have advantage on saving throws against features that turn undead.</text>
+	</trait>
+	<trait>
+		<name>Spellcasting</name>
+		<text>Lady Czorgan is a 13th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 15, +8 to hit with spell attacks). She has the following spells prepared:</text>
+		<text>1st level (4 slots): command, hunter’s mark, inflict wounds</text>
+		<text>2nd level (3 slots): hold person, magic weapon</text>
+		<text>3rd level (3 slots): dispel magic, vampiric touch</text>
+		<text>4th level (1 slot): banishment, blight</text>
+	</trait>
+	<spellAbility>Charisma</spellAbility>
+	<slots>4,3,3,1,0,0,0,0,0</slots>
+	<spells>command, hunter’s mark, inflict wounds, hold person, magic weapon, dispel magic, vampiric touch, banishment, blight</spells>
+	<action>
+		<name>Multiattack</name>
+		<text>Lady Czorgan makes two longsword attacks.</text>
+	</action>
+	<action>
+		<name>Longsword</name>
+		<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 10 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) necrotic damage.</text>
+		<attack>Longsword (1H)|8|1d8+4</attack>
+		<attack>Longsword (2H)|8|1d10+4</attack>
+	</action>
+	<action>
+		<name>Decaying Ground (1/Day)</name>
+		<text>Lady Czorgan points at a location she can see and corruption explodes from the ground within 60 feet of her. Each creature in a 20-foot-radius sphere centered on that point must make a DC 15 Constitution saving throw. The corrupted ground spreads around corners. A creature takes 52 (15d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+		<attack>Decaying Ground||15d6</attack>
+	</action>
+</monster>
 </compendium>
