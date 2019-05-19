@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Sorcerer" HB="HB">
+		<name>Sorcerer (Runechild)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Sorcerous Origin: Runechild</name>
+				<text>The weave and flow of magic is mysterious and feared by many across Exandria. Many study the nature of the arcane in hopes of learning to harness it, while sorcerers carry innate talent to sculpt and wield the errant strands of power that shape the world. Some sorcerers occasionally find their body itself becomes a conduit for such energies, their flesh collecting and storing remnants of their magic in the form of natural runes. These anomalies are known in erudite circles as runechildren.</text>
+				<text>	The talents of a runechild are rare indeed, and many are sought after for study by mages and scholars alike, driven by a prevalent belief that the secrets within their body can help understand many mysteries of the arcane. Others seek to enslave them, using their bodies as tortured spell batteries for their own diabolic pursuits. Their subjugation all throughout the Age of Arcanum has driven the few that exist this day into hiding their essence – a task that is not easy, given the revealing nature of their gifts.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Runechild: Essence Runes</name>
+				<text>At 1st level, your body has begun to express your innate magical energies as natural runes that hide beneath your skin. You begin with 1 Essence Rune, and gain an additional rune whenever you gain a level in this class. Runes can manifest anywhere on your body, though the first usually manifests on the forehead. They remain invisible when inert.</text>
+				<text>	At the end of a turn where you spent any number of sorcery points for any of your class features, an equal number of essence runes glow with stored energy, becoming charged runes. If you expend a charged rune to use one of your Runechild features, it returns to being an inert essence rune.</text>
+				<text>	As a bonus action, you may spend any number of sorcery points to convert an equal number of essence runes into charged runes. If you have no sorcery points and no charged runes, you can convert a single essence rune into a charged rune as an action.</text>
+				<text>	If you have 5 or more charged runes, you emit bright light in a 5 foot radius and dim light for an additional 5 feet. Any charged runes revert to inert essence runes after you complete a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Runechild: Glyphs of Aegis</name>
+				<text>Beginning at 1st level, you can release the stored arcane power within your runes to absorb or deflect threatening attacks against you. Whenever you take damage from an attack, hazard, or spell, you can use a reaction to expend any number of charged runes, rolling 1d6 per charged rune. You subtract the total rolled from the damage inflicted by the attack, hazard, or spell.</text>
+				<text>	At 6th level, you can use an action to expend a charged rune, temporarily transferring a Glyph of Aegis to a creature you touch. A creature can only hold a single glyph, and it lasts for 1 hour, or until the creature is damaged by an attack, hazard, or spell. The next time that creature takes damage from any of those sources, roll 1d6 and subtract the number rolled from the damage roll. The glyph is then lost.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Runechild: Sigilic augmentation</name>
+				<text>Upon reaching 6th level, you can channel your runes to temporarily bolster your physical capabilities. You can expend a charged rune as a bonus action to enhance either your Strength, Dexterity, or Constitution, granting you advantage on ability checks with the chosen ability score until the start of your next turn. You can choose to maintain this benefit additional rounds by expending a charged rune at the start of each of your following turns.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Manifest Inscriptions</name>
+				<text>At 6th level, you can reveal hidden glyphs and enchantments that surround you. As an action, you can expend a charged rune to cause any hidden magical marks, runes, wards, or glyphs within 15 feet of you to reveal themselves with a glow for 1 round. This glow is considered dim light for a 5 foot radius around the mark or glyph.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Runechild: Runic Torrent</name>
+				<text>Upon reaching 14th level, you can channel your stored runic energy to instill your spells with overwhelming arcane power, bypassing even the staunchest defenses. Whenever you cast a spell, you can expend a number of charged runes equal to the spell’s level to allow it to ignore any resistance or immunity to the spell’s damage type the targets may have.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Runechild: Arcane Exemplar Form</name>
+				<text>Beginning at 18th level, you can use a bonus action and expend 6 or more charged runes to temporarily become a being of pure magical energy. This new form lasts for 3 rounds plus 1 round for each charged rune expended over 6. While you are in your exemplar form, you gain the following benefits:</text>
+				<text>	• You have a flying speed of 40 feet.</text>
+				<text>	• Your spell save DC is increased by 2.</text>
+				<text>	• You have resistance to damage from spells.</text>
+				<text>	• When you cast a spell of 1st level or higher, you regain hit points equal to the spell’s level.</text>
+				<text>	When your Arcane Exemplar form ends, you can’t move or take actions until after your next turn, as your body recovers from the transformation. Once you use this feature, you must finish a long rest before you can use it again.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>
