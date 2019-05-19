@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<baseclass name="Mist Walker" HB="HB">
+		<name>Mist Walker</name>
+		<hd>10</hd>
+		<proficiency>Dexterity, Intelligence</proficiency>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: Light Armor, Shields</text>
+				<text>Weapons: Simple Weapons, Short Swords, Scimitars, Rapiers</text>
+				<text>Tools: Poisoner’s Kit</text>
+				<text>Skills: Choose three from Acrobatics, Deception, History, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, and Stealth.</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
+				<text/>
+				<text>• (a) a rapier or (b) a shortsword</text>
+				<text>• (a) Shield or (b) a shortsword</text>
+				<text>• (a) an Explorers Pack or (b) a Dungeoneers Pack</text>
+				<text>• Leather Armor, two Daggers, and Poisoner’s Kit</text>
+				<text/>
+				<text>Alternatively, you may start with 5d4 x 10 gp and purchase starting items of your choice.</text>
+			</feature>
+			<feature>
+				<name>Credits!</name>
+				<text>This class designed by Cody Lewis (Taking 20) is available on drivethrurpg.com</text>
+			</feature>
+			<feature>
+				<name>Mist Walk</name>
+				<text>Beginning at 1st level, you gain the ability to Mist Walk, allowing you to teleport short distances. As part of your movement, you may teleport to another empty space you can see within your Mist Walk distance as shown in the Mist Walk column of the Mist Walker table. The distance you can Mist Walk increases as you gain levels in the class. Using Mist Walk does not provoke attacks of opportunity.</text>
+				<text>	You may choose instead to break up your movement by moving up to half your movement speed and using your Mist Walk ability for up to half your current Mist Walk Distance. You may take these forms of movement in any order, and you may still take additional actions between these movements as normal. You can only Mist Walk once per turn as part of your movement (this excludes shroud abilities). You may not combine your Mist Walk ability with a Dash action.</text>
+				<text>	Upon reaching 5th level in this class, you can additionally teleport up to half of your Mist Walk Distance if you have used your Mist Walk ability as part of your move action this turn, or your full Mist Walk Distance if you have not, as a Bonus Action.</text>
+			</feature>
+			<feature>
+				<name>Unarmored Defense</name>
+				<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. You can use a shield and still gain this benefit.</text>
+				<special>Unarmored Defense: Intelligence</special>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Fighting Style</name>
+				<text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</text>
+			</feature>
+			<feature option="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<special>Fighting Style: Dueling</special>
+			</feature>
+			<feature option="YES">
+				<name>Fighting Style: Two-Weapon Fighting</name>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				<special>Fighting Style: Two-Weapon Fighting</special>
+			</feature>
+			<feature>
+				<name>Shroud</name>
+				<text>Beginning at 2nd level, you tap further into the secrets of mist, giving you access to manifest and manipulate it as a tangible force, called the shroud.</text>
+				<text />
+				<text>Shroud Points</text>
+				<text>You have 2 shroud points and you gain additional shroud points as you level, as represented by the Shroud Points column of the Mist Walker table. Shroud points are spent to activate your shroud abilities. You regain all expended shroud points whenever you complete a long rest.</text>
+				<text>	Some of your Shroud Abilities require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows:</text>
+				<text>	Shroud Ability save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
+			</feature>
+			<feature>
+				<name>Shroud Abilities</name>
+				<text>When reaching 2nd level in this class you gain access to the following Shroud Abilities.</text>
+				<text />
+				<text>Cloaking Mist (Shroud Ability)</text>
+				<text>As an action, you may spend 1 shroud point to create a 30-foot-radius sphere of dark mist centered on yourself. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</text>
+				<text />
+				<text>Veiled Shield (Shroud Ability)</text>
+				<text>As a reaction, whenever another creature hits you with a melee attack, you may spend 1 shroud point to add a +2 bonus to your AC for that attack, potentially causing the attack to miss you. This bonus increases to +3 when you reach level 10th in this class, and to a +4 when you reach level 20 in this class.</text>
+				<text />
+				<text>Jaunt (Shroud Ability)</text>
+				<text>As a reaction, you may spend 1 shroud point to Mist Walk up to half your Mist Walk Distance to another unoccupied space, whenever you take damage. This does not provoke an attack of opportunity.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Methodical Strikes</name>
+				<text>Beginning at 3rd level you can feel the Mist guiding your attacks. Whenever you Mist Walk, you gain a +1 bonus to your next melee attack before the end of the turn. This bonus increases to a +2 at 11th level and +3 at 18th level.</text>
+			</feature>
+			<feature>
+				<name>Conviction</name>
+				<text>At 3rd level, you choose a Conviction to follow to best understand how to use the ebb and flow of the Mist to aid you. Choose Conviction of the Blade, Conviction of the Mind, or Conviction of the Shroud, all are detailed at the end of the class description. The conviction you choose grants you features at 3rd level and again at 7th, 11th, and at 15th.</text>
+			</feature>
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1, As normal, you can't increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Expansive Mind</name>
+				<text>Starting at 6th level, whenever you make an ability check using Intelligence, after you see the roll, but before the outcome is determined, you may roll an additional d20 and take the highest result.</text>
+				<text>	Once you’ve used this ability you cannot use it again until you complete a short rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature>
+				<name>Misty Escape</name>
+				<text>Beginning at 7th level, your instinctive connection to the Mist allows you escape from the danger of certain area effects, such as a Red Dragon’s Fiery-breath or a Fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, if you succeed on the saving throw you may use your reaction to Mist Walk to the nearest unoccupied square, up to half your Mist Walk distance, and instead you take no damage.</text>
+			</feature>
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Tactical Precision</name>
+				<text>Starting at 9th level you can add your Intelligence modifier to the damage of your weapon attacks.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Honed Mind</name>
+				<text>Beginning at 10th level, your keen mind has become a valuable asset to keep you safe. Whenever you make either a Wisdom or Charisma saving throw, you may choose to add your Intelligence modifier to your saving throw. You can do this a number of times per day equal to half your Intelligence modifier.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Misty Vision</name>
+				<text>At 13th level, fighting in heavily obscured areas no longer troubles you. You gain blindsight up to 15 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Misty Form</name>
+				<text>Starting at 17th level, you move so fluidly through the Mist, it is difficult for your foes to track you. When you use Mist Walk as part of a move action, you may then cast Mirror Image as a bonus action without requiring spell components. These duplicates move with you as normal, even when using Mist Walk. You may use this ability a number of times per day equal to your Intelligence modifier.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Greater Mist Walk</name>
+				<text>Starting at 18th level, as an action, you may use the Teleport spell as though you have cast it, without requiring spell components. If you target only yourself, you regain use of this ability after a long rest. If you target two or more creatures, you regain use of this ability after 1d6 days.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Mist Clone</name>
+				<text>At 20th level, you can shape the Mist around you to form a tangible duplicate of yourself to aid you in combat. As an action, choose an unoccupied space within your Mist Walk Distance. A clone of yourself appears in that square and is physically identical to you in appearance, including carried equipment— with the exception that all carried equipment on the clone has no magical properties. This ability lasts for 1 minute and cannot be used again until you finish a long rest.</text>
+				<text>	The clone’s ability scores, hit points, proficiency bonus and AC are identical to your stats at the moment of activating this ability, excluding any additional magic bonus(es) you might have had active— with the exception that the damage it deals is magical for the purpose overcoming resistance and immunity to nonmagical attacks and damage.</text>
+				<text>	In addition it uses your Intelligence modifier for all attack and damage rolls, and any attacks that the clone makes use only the base damage for the weapon it is wielding, regardless if the weapon(s) you were wielding had additional magical properties when activating this ability.</text>
+				<text>	For example, if you were wielding a magic +2 shortsword when activating this ability, the clone’s shortsword would be identical to yours in appearance, but deal 1d6 magic damage.</text>
+				<text>	If the clone is required to make a saving throw, roll a d20 and add your Intelligence modifier to determine whether it succeeds or fails.</text>
+				<text>	As the clone is formed through your deep connection to the Mist, it can fight alongside you without requiring actions to issue it commands. Acting on your turn, you may have the duplicate take the following actions, in addition to its move action:</text>
+				<text>• The clone can take the attack action, including an extra attack, and can take a bonus action to attack if you were wielding two weapons when you created the duplicate.</text>
+				<text>• The clone can interact with an object.</text>
+				<text>• The clone can Mist Walk up to half of your Mist Walk distance as part of an action.</text>
+				<text>• The clone can take the Help action</text>
+				<text>	The clone cannot speak or take any additional actions, reaction, or bonus actions other than the ones listed above, except actions taken in attempt to free itself from a spell or condition— like escaping a grapple or trying to break free from a Web spell.</text>
+				<text>	If the clone’s hit points drop to 0 or if a spell or effect would cause it to no longer be on the same plane of existence as you, it is destroyed. It is also immune to being charmed, frightened, petrified, poisoned and paralyzed.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+</compendium>
