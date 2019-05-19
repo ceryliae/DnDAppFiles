@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compendium version="5">
+<subclass baseclass="Mist Walker" HB="HB">
+	<name>Mist Walker (Blade)</name>
+	<autolevel level="3">
+		<feature optional="YES">
+			<name>Conviction of the Blade</name>
+			<text>Some Mist Walkers believe that the Mist is a tool to gain an advantage over their foes in combat. It allows them to strike hard at a specific target to confuse their enemies. By cutting the head off of the snake for an enemy force, the remaining opponents often become panicked and disorganized, making them much easier to deal with. Thus by focusing their time to master the blade, they can truly become deadly warriors on the battlefield.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Conviction of the Blade: Additional Shroud Ability</name>
+			<text>Forceful Jaunt (Shroud Ability)</text>
+			<text>As bonus action, you may spend 3 Shroud Points to choose one medium-sized or smaller creature you can see within 5 feet of you. The target must succeed on a Dexterity saving throw or it is teleported through the Mist to another empty square you can see within half your current Mist Walk Distance, that you choose.</text>
+			<text>	When the target appears at the chosen space, any creatures within 5 feet may use their reaction to make a single attack against the target. If the target succeeds it’s saving throw, nothing happens.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Conviction of the Blade: Violent Jaunt</name>
+			<text>Beginning at 3rd level whenever you score a critical hit on a medium-sized or smaller creature, you may immediately use Forceful Jaunt without expending any Shroud points.</text>
+			<text>	The target still attempts a saving throw.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<feature optional="YES">
+			<name>Conviction of the Blade: Mist Imbued Weapons</name>
+			<text>Starting at 7th level, your weapons and ammunition become become shrouded in a thin veil of mist when wielded. Your attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="11">
+		<feature optional="YES">
+			<name>Conviction of the Blade: Misty Mark</name>
+			<text>At 11th Level, as an action you make a single attack. If successful, you mark the target with mist only you can see. If the target moves more than 150 feet from you the mark disappears. Whenever you hit a target that has been marked this way, you deal an additional 1d10 force damage.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="15">
+		<feature optional="YES">
+			<name>Conviction of the Blade: Devastating Assault</name>
+			<text>Starting at 15th level, you can make a calculated strike against a foe in an attempt to exploit their defenses. As a bonus action you can make an Intelligence (Investigation) check of DC 15 to study one creature you can see within 50 feet of you. You make this check at disadvantage if the creature is an Aberration or a Construct. This check only determines any openings in the target’s defense and does not yield any additional information like resistances the creature may have. This effect ends at the end of combat.</text>
+			<text>	The next time you successfully hit the target with a weapon attack, you deal an additional 12d10 force damage. Once you have successfully triggered the additional force damage, you may not use this ability again until you finish a short rest.</text>
+		</feature>
+	</autolevel>
+</subclass>
+</compendium>

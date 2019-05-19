@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<baseclass name="Blood Hunter">
+		<name>Blood Hunter</name>
+		<hd>10</hd>
+		<proficiency>Strength, Wisdom</proficiency>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: light armor, medium armor</text>
+				<text>Weapons: simple weapons, martial weapons</text>
+				<text>Tools: alchemist's supplies</text>
+				<text>Skills: Choose two from Athletics, Acrobatics, Arcana, Insight, Investigation, and Survival</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
+				<text/>
+				<text>• (a) a martial weapon or (b) two simple weapons</text>
+				<text>• (a) a light crossbow and 20 bolts or (b) hand crossbow and 20 bolts</text>
+				<text>• (a) studded leather armor or (b) scale mail armor</text>
+				<text>• an explorer's pack</text>
+				<text/>
+				<text>Alternatively, you may start with 4d4 x 10 gp and purchase starting items of your choice.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Credits!</name>
+				<text>This class and all Orders, including Order of the Lycan, designed by Matthew Mercer and are available on dmsguild.com</text>
+			</feature>
+			<feature>
+				<name>Hunter's Bane</name>
+				<text>Beginning at 1st level you have survived the imbibing of the Hunter's Bane, a poisonous alchemical concoction that alters your life's blood, forever binding you to the darkness and hoping your senses against it.</text>
+				<text/>
+				<text>	You have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creature types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</text>
+				<text/>
+				<text>	Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check.</text>
+			</feature>
+			<feature>
+				<name>Crimson Rite</name>
+				<text>At 1st level, you learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.</text>
+				<text>	As a bonus action, you imbue a single weapon with the elemental energy of a known rite for up to 8 hours. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.</text>
+				<text>	When a crimson rite is activated, it reduces your maximum hit points a number equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.</text>
+				<text>	Crimson rite can be used on multiple weapon, costing additional hit point loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a separate weapon for the purposes of this feature. A rite can be allowed to fade at any time (no action required).</text>
+				<text>	You gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Crimson Rite: Primal Rites</name>
+				<text>Choose from the following:</text>
+				<text>  • Rite of the Flame. Your rite damage is fire type.</text>
+				<text>  • Rite of the Frozen. Your rite damage is cold type.</text>
+				<text>  • Rite of the Storm. Your rite damage is lightning type.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Crimson Rite: Esoteric Rites</name>
+				<text>  • Rite of the Roar. Your rite damage is thunder type.</text>
+				<text>  • Rite of the Oracle. Your rite damage is psychic type.</text>
+				<text>  • Rite of the Dead. Your rite damage is necrotic type.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Fighting Style</name>
+				<text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</text>
+			</feature>
+			<feature option="YES">
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<special>Fighting Style: Archery</special>
+			</feature>
+			<feature option="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<special>Fighting Style: Dueling</special>
+			</feature>
+			<feature option="YES">
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a non-rite damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+			</feature>
+			<feature option="YES">
+				<name>Fighting Style: Two-Weapon Fighting</name>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				<special>Fighting Style: Two-Weapon Fighting</special>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Blood Hunter Order</name>
+				<text>At 3rd level, you commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, Order of the Profane Soul, or Order of the Lycan. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.</text>
+				<text>	There are a handful of secretive orders of blood hunters that guard their cryptic techniques and blasphemous rituals. One must adhere to one of these orders to even be granted access to the Hunter's Bane rite that starts their journey, and only once they've proven their ability will the secrets of the order begin to be revealed. Some even wait a few years before they are sure they want to continue down this cursed path. Either or, it's within these small, enigmatic sects that the real power of a blood hunter is learned.</text>
+			</feature>
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1, As normal, you can't increase an ability score above 20 using this feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature>
+				<name>Crimson Rite Damage Increase</name>
+				<text>At 5th level, your Crimson Rite damage die increases to 1d6.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Blood Maledict</name>
+				<text>At 6th level, you gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain two (2) blood curses of your choice, detailed in the "blood curses" section below. You learn one (1) additional blood curse of your choice at 9th, 13th, 17th level.</text>
+				<text>	When you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to AMPLIFY the curse by suffering damage equal to your crimson rite damage die. An amplified curse gains an additional effect, noted in the curses description. Creatures that do not have blood in their bodies are immune to blood curses (DM's discretion).</text>
+				<text>	You can use this feature twice. You regain expended uses when you finish a short or long rest. Beginning at 11th, you can use your Blood Maledict three times between rests, and at 17th, you can use it four times between rests.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of Binding</name>
+				<text>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the beginning of your next turn.</text>
+				<text>	AMPLIFY: This curse becomes ongoing, and can affect a creature no more than two sizes larger than you. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of the Eyeless</name>
+				<text>When an enemy with eyes within 30 feet makes a weapon attack against you, you can use your reaction to impose disadvantage on the attack.</text>
+				<text>	AMPLIFY: The triggering attack can be targeting a creature other than yourself.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of the Fallen Puppet</name>
+				<text>The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.</text>
+				<text>	AMPLIFY: You grant a bonus to the attack roll and damage roll of the cursed creature's attack equal to your Wisdom modifier (minimum of 1).</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of the Fending Rite</name>
+				<text>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equal to your Wisdom Modifier (minimum of 1). This curse is invoked before the saving throw is rolled.</text>
+				<text>	AMPLIFY: You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of the Marked</name>
+				<text>As a bonus action, you can mark an enemy within 30 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.</text>
+				<text>	AMPLIFY: You cause the marked target to also lose resistance to your rite damage type until the beginning of your next turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of Mutual Suffering</name>
+				<text>As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.</text>
+				<text>	AMPLIFY: This curse instead deals damage equal to the damage you suffered, and it ignores necrotic resistance.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of Purgation</name>
+				<text>As a bonus action, you can manipulate the vitality of a creature within 30 feet to expunge a corruption in their blood. The target creature can immediately make a swing throw against a poisoned condition afflicting it.</text>
+				<text>	AMPLIFY: Your target can instead immediately make a saving throw against one other condition afflicting it. This condition can be blinded, deafened, or paralyzed.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Blood Curse: Blood Curse of Spell Sunder</name>
+				<text>When an enemy casts a spell within 30 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.</text>
+				<text>	AMPLIFY: You make a Wisdom ability check. The DC equals 10 + the spell's level. On a success, the creature's spell misses you automatically.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="8">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Grim Psychometry</name>
+				<text>When you reach 9th level, you can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make a Wisdom ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints toward a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details.</text>
+			</feature>
+			<feature>
+				<name>Blood Curses Increase</name>
+				<text>At level 9, you now know 3 blood curses</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Dark Velocity</name>
+				<text>Upon reaching 10th level, you beckon the surrounding shadows to grant you unnatural swiftness on the battlefield. While in dim light or darkness, your speed increases by 10 feet, and attacks of opportunity made against you have disadvantage.</text>
+			</feature>
+			<feature>
+				<name>Crimson Rite Damage Increase</name>
+				<text>At level 10, your Crimson Rite damage die increases to 1d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="12">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Blood Curses Increase</name>
+				<text>At level 13, you now know 4 blood curses</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature>
+				<name>Hardened Soul</name>
+				<text>When you reach 14th level, you can no longer become frightened, and you have advantage on saving throws against magical charm effects.</text>
+			</feature>
+			<feature>
+				<name>Crimson Rite Damage Increase</name>
+				<text>At level 14, your Crimson Rite damage die increases to 1d10.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="16">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Blood Curses Increase</name>
+				<text>At level 17, you now know 4 blood curses</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+		<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="19">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feature>
+			<feature>
+				<name>Crimson Rite Damage Increase</name>
+				<text>At level 19, your Crimson Rite damage die increases to 1d12.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Sanguine Mastery</name>
+				<text>Upon becoming 20th level, your crimson rite is perfected, no longer requiring visceral sacrifice. When you have an active crimson rite, you no longer reduce your maximum hit points and you take no damage when amplifying blood curses. In addition, when you are below one fourth of your current maximum hit points and conscious, all your crimson rite damage dice are maximized.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+</compendium>

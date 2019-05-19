@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compendium version="5">
+<subclass baseclass="Mist Walker" HB="HB">
+	<name>Mist Walker (Shroud)</name>
+	<autolevel level="3">
+		<feature optional="YES">
+			<name>Conviction of the Shroud</name>
+			<text>Some Mist Walkers delve so deeply into their studies of the Mist, that they learn to manifest its raw energy with added effects. These Mist Walkers manipulate the mist to their advantage and push the boundaries of its true capabilities. As much scholars as warriors, these Mist Walkers frequently become obsessed with unraveling the Mist’s secrets and often feel a call to explore the ruins of lost civilizations and ancient tombs in search of unlocking its mystery.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Conviction of the Shroud: Additional Shroud Ability</name>
+			<text>Starting at 3rd level, you gain the following additional Shroud Ability:</text>
+			<text>Soothing Mist (Shroud Ability)</text>
+			<text>As an action you can spend 3 Shroud Points to cause a cooling mist to surround you and your allies. Choose a number of creatures within 10 feet of you. They gain a number of hit points equal to your Intelligence modifier.</text>
+			<text>	This number increases to twice your Intelligence modifier when you reach 9th level, and three times your Intelligence modifier at 15th level.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Conviction of the Shroud: Vanishing Step</name>
+			<text>At 3rd level, whenever you Mist Walk as part of your movement, you may immediately attempt to hide as a bonus action.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Conviction of the Shroud: Vital Transference</name>
+			<text>Beginning at 3rd level you have learned to tap into the more mystic forces of the Mist to aid your allies at the cost of your own life essence. As an action you may touch one creature and transfer part of your life force to them. Roll 1d6 and add your Intelligence modifier, the target creature regains hit points equal to the total. You then take 1d6 necrotic damage, this damage may not be prevented in any way. If the necrotic damage would reduce your hit points to 0, you drop to 1 hit point instead and your target receives no healing benefit from this ability.</text>
+			<text>	The amount of life force you can transfer to your allies with this ability increases as you level. When reaching 7th level, you may choose to roll 2d6 for both rolls instead of 1d6, at 11th level you may choose to roll up to 3d6 for each roll, at 15th level you may choose to roll up to 4d6 for both rolls, and at 19th level you may choose to roll up to 5d6 for each roll. You still add the Intelligence modifier to the amount of hit points the target gains if you decide to add additional dice this way.</text>
+			<text>	You may use this ability a number of times per day equal to twice your Intelligence modifier.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="7">
+		<feature optional="YES">
+			<name>Conviction of the Shroud: Toxic Mist</name>
+			<text>At 7th level, as an action you can exude a wave of poisonous green mist around you. You create a 30 foot sphere of mist centered on your space that lasts for 1 minute.</text>
+			<text>	Each creature that is completely within the mist at the start of its turn must make a Constitution saving throw or become unable to breathe, while coughing and gasping uncontrollably. A creature affected in this way is incapacitated and suffocating. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.</text>
+			<text>	A moderate wind (at least 10 miles per hour) disperses the mist after 3 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.</text>
+			<text>	You may use this ability a number of times per day equal to twice your Intelligence modifier.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="11">
+		<feature optional="YES">
+			<name>Conviction of the Shroud: Vampiric Transference</name>
+			<text>Beginning at 11th level, as an action you can manifest a brief wave of necrotic mist around you. You create a 30 foot sphere of mist centered on your space that lasts for 1 round.</text>
+			<text>	Choose any number of creatures within the affected area. Those creature must succeed a Constitution saving throw or have their life force ripped from them. Each target takes 4d6 necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<text>	Then, any number of creatures within the mist may ain hit points equal to the total damage dealt by this ability. The total number of hit points gained this way, must be divided among the new targets, in a manner of your choosing.</text>
+			<text>	You may use this ability a number of times per day equal to your Intelligence modifier.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="15">
+		<feature optional="YES">
+			<name>Conviction of the Shroud: Dauntless Mist</name>
+			<text>Starting at 15th level, you can harness the raw power of the Mist to bolster you and your allies. As an action choose a number of creatures equal to your Intelligence modifier within your Mist Walk Distance. Those creatures become sheathed in a dark purple mist. Whenever one of those creatures starts their turn within half your Mist Walk Distance from you, that creature gains a +2 bonus to their AC, and additional 1d4 temporary hit points, and they cannot be magically slowed. This effect lasts for 1 minute.</text>
+			<text>	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+		</feature>
+	</autolevel>
+</subclass>
+</compendium>
