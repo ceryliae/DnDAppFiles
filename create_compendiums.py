@@ -145,15 +145,23 @@ class XMLCombiner(object):
     def compile_subs(self, items):
         # combine subclasses with classes
         for name, element in sorted(items['subclass'].iteritems()):
-            base_name = element.get('baseclass')
-            if base_name not in items['baseclass']:
-                print 'Missing baseclass {0} for {1}'.format(base_name, name)
-
             if args.basetype_format == 'complete':  # else 'none' to not include a full class
-                complete_class = items['class'][base_name]
-                complete_class.extend(list(element))
-                complete_class.remove(complete_class.find('name[last()]'))
-                items['class'][base_name] = complete_class
+                base_name = element.get('baseclass')
+
+                # distribute archetypes over various "forms" of a class, e.g., ranger and ranger revised
+                # this will cause a lot of missing base class items for the sub_type usable flag,
+                # but everything seems to generate correctly anyway
+
+                for c_name in items['class']:
+                    if base_name not in c_name:
+                        continue
+                    if c_name not in items['baseclass']:
+                        print 'Missing baseclass {0} for {1}'.format(c_name, name)
+
+                    complete_class = items['class'][c_name]
+                    complete_class.extend(list(element))
+                    complete_class.remove(complete_class.find('name[last()]'))
+                    items['class'][c_name] = complete_class
 
             if args.subtype_format != 'none':  # useable or reference both want entries
                 reference_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
