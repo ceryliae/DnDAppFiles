@@ -254,7 +254,7 @@ def create_class_compendiums():
     files = glob('Character/Classes/*/*.xml')
 
     if (args.includes == ['*'] and 'HB' not in args.excludes) or 'Homebrew' in args.includes:
-        files += glob('Homebrew/Archetypes/*/*.xml')
+        files += glob('Homebrew/Classes/*/*.xml')
 
     # Group source xml files into base class
     for file in files:
