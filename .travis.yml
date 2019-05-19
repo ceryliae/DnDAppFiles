@@ -5,6 +5,8 @@ script:
     - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
     - git fetch
     - git diff --name-only --diff-filter=AM origin/${TRAVIS_BRANCH} HEAD | grep ".xml" | xargs -d '\n' xmllint --noout
+    - python create_compendiums.py
     - python create_compendiums.py --excludes
+    - python create_compendiums.py --excludes --subtype-format usable
 before_install:
       - sudo apt-get install -y libxml2-utils
