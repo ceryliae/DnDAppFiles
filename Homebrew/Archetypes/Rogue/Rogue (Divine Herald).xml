@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5">
-	<subclass baseclass="Rogue" HB="HB">
+<compendium version="5" HB="HB">
+	<subclass baseclass="Rogue">
 		<name>Rogue (Divine Herald)</name>
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="3">
@@ -108,4 +108,5 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<borrowSpells fromClass="Cleric" class="Rogue (Divine Herald)" />
 </compendium>

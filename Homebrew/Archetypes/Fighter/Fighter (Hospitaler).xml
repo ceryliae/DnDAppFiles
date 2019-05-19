@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<compendium version="5">
+<compendium version="5" HB="HB">
 	<subclass baseclass="Fighter">
 		<name>Fighter (Hospitaler)</name>
 		<spellAbility>Wisdom</spellAbility>
@@ -103,4 +103,5 @@
 			</feature>
 		</autolevel>
 	</subclass>
+	<borrowSpells fromClass="Cleric" class="Fighter (Hospitaler)" />
 </compendium>
