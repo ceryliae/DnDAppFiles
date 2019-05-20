@@ -28,7 +28,7 @@
 			<feature optional="YES">
 				<name>Gunslinger: Ammunition</name>
 				<text>All firearms require ammunition to make an attack, and due to their rare nature, ammunition may be near impossible to find or purchase. However, if materials are gathered, you can craft ammunition yourself using your Tinker's Tools at half the cost. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed below next to the price.</text>
-				<text />
+				<text/>
 				<text>Name           Cost       Ammo        Damage           Weight    Range        Properties</text>
 				<text>Palm Pistol    50g        2g (20)     1d8 piercing     1 lb.     (40/160)     Light, reload 1, misfire 1</text>
 				<text>Pistol         150g       4g (20)     1d10 piercing    3 lb.     (60/240)     Reload 4, misfire 1</text>
@@ -50,7 +50,7 @@
 				<text>You gain a number of grit points equal to your Wisdom modifier (minimum of 1). You regain 1 expended grit point each time you roll a 20 on the d20 roll for an attack with a firearm, or deal a killing blow with a firearm to a creature of significant threat (DM's discretion). You regain all expended grit points after a short or long rest.</text>
 				<text/>
 				<text>Saving Throws. Some of your trick shots require your targets to make a saving throw to resist the trick shot's effects. The saving throw DC is calculated as follows:</text>
-					<text>	Trick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier</text>
+				<text>	Trick Shot save DC = 8 + your proficiency bonus + your Dexterity modifier</text>
 			</feature>
 		</autolevel>
 		<autolevel level="7">
@@ -81,7 +81,6 @@
 				<text>Upon reaching 18th level, whenever you score a critical hit on an attack with a firearm, the target additionally suffers half of the damage from the attack at the end of its next turn.</text>
 			</feature>
 		</autolevel>
-
 		<!--Trick shots-->
 		<autolevel level="3">
 			<feature optional="YES">
@@ -192,8 +191,6 @@
 			</feature>
 			<feature optional="YES">
 				<name>Trick Shot: Dazing Shot</name>
-
-
 				<text>When you make a firearm attack against a creature, you can expend one grit point to attempt to dizzy your opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of their next turn.</text>
 			</feature>
 			<feature optional="YES">
@@ -256,7 +253,6 @@
 			</feature>
 		</autolevel>
 	</subclass>
-
 	<!--trick shot spells-->
 	<spell PS="PS">
 		<name>Bullying Shot</name>
