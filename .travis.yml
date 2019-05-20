@@ -4,7 +4,7 @@ python:
 script:
     - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
     - git fetch
-    - git diff --name-only --diff-filter=AM origin/${TRAVIS_BRANCH} HEAD | grep ".xml" | xargs -d '\n' xmllint --noout
+    - git diff --name-only --diff-filter=AM origin/${TRAVIS_BRANCH} HEAD | grep ".xml" | grep -v "Templates.xml" | xargs -d '\n' xmllint --noout
     - python create_compendiums.py
     - python create_compendiums.py --excludes
     - python create_compendiums.py --excludes --subtype-format usable
