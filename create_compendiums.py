@@ -92,7 +92,7 @@ class XMLCombiner(object):
         Also removes and logs duplicates."""
         items = {'race': {}, 'class': {}, 'baseclass': {}, 'subclass': {},
                  'background': {}, 'feat': {}, 'item': {}, 'monster': {},
-                 'spell': {}, 'spellList': {}, 'borrowSpells': {}}
+                 'spell': {}, 'spellList': {}, 'borrowSpells': {}, 'container': {}}
         attribution = copy.deepcopy(items)
 
         for filename, f, r in self.sources:
