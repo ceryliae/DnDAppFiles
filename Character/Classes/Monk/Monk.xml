@@ -3,7 +3,12 @@
 	<baseclass>
 		<name>Monk</name>
 		<hd>8</hd>
-		<proficiency>Strength, Dexterity</proficiency>
+		<proficiency>Strength, Dexterity, Acrobatics, Athletics, History, Insight, Religion, Stealth</proficiency>
+		<numSkills>2</numSkills>
+		<armor>none</armor>
+<weapons>simple weapons, shortswords</weapons>
+<tools>any one type of artisan's tools or any one musical instrument of your choice</tools>
+<wealth>5d4</wealth>
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<feature>
@@ -84,12 +89,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 			<feature>
 				<name>Slow Fall</name>
 				<text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</text>
@@ -131,12 +131,7 @@
 				<text>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="9">
 			<feature>
@@ -162,12 +157,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="13">
 			<feature>
@@ -194,12 +184,7 @@
 				<text>At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -220,12 +205,7 @@
 				<modifier category="bonus">speed +5</modifier>
 			</feature>
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>

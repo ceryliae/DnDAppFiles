@@ -3,7 +3,12 @@
 	<baseclass>
 		<name>Paladin</name>
 		<hd>10</hd>
-		<proficiency>Wisdom, Charisma</proficiency>
+		<proficiency>Wisdom, Charisma, Athletics, Insight, Intimidation, Medicine, Persuasion, Religion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, heavy armor, shields</armor>
+<weapons>simple weapons, martial weapons</weapons>
+<tools>none</tools>
+<wealth>5d4x10</wealth>
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>0,0,0,0,0,0</slots>
@@ -166,12 +171,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -189,12 +189,7 @@
 		<autolevel level="7">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="10">
 			<feature>
@@ -209,12 +204,7 @@
 				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="14">
 			<feature>
@@ -226,12 +216,7 @@
 		<autolevel level="15">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="18">
 			<feature>
@@ -239,12 +224,7 @@
 				<text>At 18th level, the range of your Aura of Protection increases to 30 feet.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<!-- Archetype features -->

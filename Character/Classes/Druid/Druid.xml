@@ -3,7 +3,12 @@
 	<baseclass>
 		<name>Druid</name>
 		<hd>8</hd>
-		<proficiency>Intelligence, Wisdom</proficiency>
+		<proficiency>Intelligence, Wisdom, Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</armor>
+<weapons>clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</weapons>
+<tools>herbalism kit</tools>
+<wealth>2d4x10</wealth>
 		<spellAbility>Wisdom</spellAbility>
 		<autolevel level="1">
 			<slots>2,2,0,0,0,0,0,0,0,0</slots>
@@ -141,42 +146,22 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="6">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="10">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="14">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="18">
 			<feature>
@@ -188,12 +173,7 @@
 				<text>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>

@@ -3,7 +3,12 @@
 	<baseclass>
 		<name>Barbarian</name>
 		<hd>12</hd>
-		<proficiency>Strength, Constitution</proficiency>
+		<proficiency>Strength, Constitution, Animal Handling, Athletics, Intimidation, Nature, Perception, Survival</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, shields</armor>
+<weapons>simple weapons, martial weapons</weapons>
+<tools>none</tools>
+<wealth>2d4x10</wealth>
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -65,12 +70,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -97,12 +97,7 @@
 				<text>	Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="9">
 			<feature>
@@ -125,12 +120,7 @@
 				<text>	Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 			<feature>
 				<name>Increased Rages</name>
 				<text>You may now rage 5 times before a long rest</text>
@@ -151,12 +141,7 @@
 				<text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 			<feature>
 				<name>Increased Rage Damage</name>
 				<text>You now have a +4 bonus to melee damage rolls while raging.</text>
@@ -178,12 +163,7 @@
 				<text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>

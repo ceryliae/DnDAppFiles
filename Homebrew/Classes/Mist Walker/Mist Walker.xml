@@ -3,7 +3,12 @@
 	<baseclass name="Mist Walker" HB="HB">
 		<name>Mist Walker</name>
 		<hd>10</hd>
-		<proficiency>Dexterity, Intelligence</proficiency>
+		<proficiency>Dexterity, Intelligence, Acrobatics, Deception, History, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth</proficiency>
+		<numSkills>3</numSkills>
+		<armor>Light Armor, Shields</armor>
+<weapons>Simple Weapons, Short Swords, Scimitars, Rapiers</weapons>
+<tools>Poisoner's Kit</tools>
+<wealth>5d4x10</wealth>
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -89,11 +94,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1, As normal, you can't increase an ability score above 20 using this feature.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -115,6 +116,8 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
 		<autolevel level="9">
 			<feature>
 				<name>Tactical Precision</name>
@@ -130,6 +133,8 @@
 		<autolevel level="11">
 			<!-- Archetype features -->
 		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
 		<autolevel level="13">
 			<feature>
 				<name>Misty Vision</name>
@@ -138,6 +143,8 @@
 		</autolevel>
 		<autolevel level="15">
 			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -150,6 +157,8 @@
 				<name>Greater Mist Walk</name>
 				<text>Starting at 18th level, as an action, you may use the Teleport spell as though you have cast it, without requiring spell components. If you target only yourself, you regain use of this ability after a long rest. If you target two or more creatures, you regain use of this ability after 1d6 days.</text>
 			</feature>
+		</autolevel>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>
