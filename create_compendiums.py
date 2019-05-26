@@ -80,7 +80,7 @@ class XMLCombiner(object):
         # flatten out items for adding back into root
         elements = [element for categories in items.values() for element in categories.values()]
         # for element in elements:
-        #     print u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class'))
+        #     print(u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class')))
         elements.sort(key=lambda el: "{0}/{1}".format(el.tag, el.findtext('name') or el.get('class')))
 
         # drop <subclass> elements etc, FC5 doesn't recognize them and will treat <feature>s in them as <feat>s
@@ -162,10 +162,6 @@ class XMLCombiner(object):
     def compile_subs(self, items):
         # combine subclasses with classes
         for name, element in sorted(items['subclass'].items()):
-            base_name = element.get('baseclass')
-            if base_name not in items['baseclass']:
-                print('Missing baseclass {0} for {1}'.format(base_name, name))
-
             if args.basetype_format == 'complete':  # else 'none' to not include a full class
                 base_name = element.get('baseclass')
 
@@ -177,7 +173,7 @@ class XMLCombiner(object):
                     if base_name not in c_name:
                         continue
                     if c_name not in items['baseclass']:
-                        print 'Missing baseclass {0} for {1}'.format(c_name, name)
+                        print('Missing baseclass {0} for {1}'.format(c_name, name))
 
                     complete_class = items['class'][c_name]
                     complete_class.extend(list(element))
