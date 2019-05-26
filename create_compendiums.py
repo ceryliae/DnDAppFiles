@@ -93,7 +93,7 @@ class XMLCombiner(object):
         Also removes and logs duplicates."""
         items = {'race': {}, 'class': {}, 'baseclass': {}, 'subclass': {},
                  'background': {}, 'feat': {}, 'item': {}, 'monster': {},
-                 'spell': {}, 'spellList': {}}
+                 'spell': {}, 'spellList': {}, 'borrowSpells': {}, 'container': {}}
         attribution = copy.deepcopy(items)
 
         for filename, f, r in self.sources:
@@ -104,7 +104,13 @@ class XMLCombiner(object):
                         items[element.tag][name] = element
                     else:
                         items[element.tag][name].extend(list(element))
-
+                elif element.tag == 'borrowSpells':
+                    name = element.get('fromClass')
+                    item = items[element.tag]
+                    if name not in item:
+                        item[name] = element
+                    else:
+                        item[name].set('class', item[name].get('class')+","+element.get('class'))
                 else:
                     name = element.findtext('name')
                     if name in attribution[element.tag]:
@@ -123,6 +129,16 @@ class XMLCombiner(object):
                         class_list.append(class_name)
                         class_element.text = ', '.join(class_list)
 
+        # resolve borrowed spells
+        for ref_class, borrow_classes in items['borrowSpells'].items():
+            for name in items['spell']:
+                class_element = items['spell'][name].find('classes')
+                class_list = [foo.strip() for foo in class_element.text.split(',')]
+                if ref_class in class_list:
+                    for borrow_class in [b.strip() for b in borrow_classes.get('class').split(',')]:
+                        if borrow_class not in class_list:
+                            class_list.append(borrow_class)
+                            class_element.text = ', '.join(class_list)
         return items
 
     def compile_bases(self, items):
@@ -151,15 +167,29 @@ class XMLCombiner(object):
                 print('Missing baseclass {0} for {1}'.format(base_name, name))
 
             if args.basetype_format == 'complete':  # else 'none' to not include a full class
-                complete_class = items['class'][base_name]
-                complete_class.extend(list(element))
-                complete_class.remove(complete_class.find('name[last()]'))
-                items['class'][base_name] = complete_class
+                base_name = element.get('baseclass')
+
+                # distribute archetypes over various "forms" of a class, e.g., ranger and ranger revised
+                # this will cause a lot of missing base class items for the sub_type usable flag,
+                # but everything seems to generate correctly anyway
+
+                for c_name in items['class']:
+                    if base_name not in c_name:
+                        continue
+                    if c_name not in items['baseclass']:
+                        print 'Missing baseclass {0} for {1}'.format(c_name, name)
+
+                    complete_class = items['class'][c_name]
+                    complete_class.extend(list(element))
+                    complete_class.remove(complete_class.find('name[last()]'))
+                    items['class'][c_name] = complete_class
 
             if args.subtype_format != 'none':  # useable or reference both want entries
                 reference_class = et.fromstring('<class name="{0}">\n\t</class>'.format(name))
                 if args.subtype_format == 'usable':  # skip baseclass info for 'reference'
-                    reference_class.extend(list(items['baseclass'][base_name]))
+                    base_class = copy.deepcopy(items['baseclass'][base_name])
+                    base_class.remove(base_class.find('name'))
+                    reference_class.extend(list(base_class))
                 reference_class.extend(list(element))
                 items['class'][name] = reference_class
 
@@ -229,7 +259,7 @@ def create_class_compendiums():
     files = glob('Character/Classes/*/*.xml')
 
     if (args.includes == ['*'] and 'HB' not in args.excludes) or 'Homebrew' in args.includes:
-        files += glob('Homebrew/Archetypes/*/*.xml')
+        files += glob('Homebrew/Classes/*/*.xml')
 
     # Group source xml files into base class
     for file in files:

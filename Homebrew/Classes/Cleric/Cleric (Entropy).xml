@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Entropy)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Entropy</name>
+				<text>Heretics preach of a void at the center of the universe that dying gods created to devour the Weave. The necrotic energy it emits is called "Entropy": a potent force that clerics can harness to shield themselves from magic and annihilate arcane casters. The chained god Tharizdun claims this domain, while in Chessenta, a giant sphere of annihilation is worshipped as an aspect of Entropy itself. Cultists who wield the power go by many names: thaumatoclasts, entropomancers, or entropists.</text>
+				<text/>
+				<text>Entropy Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text/>
+				<text>1st - detect magic, inflict wounds</text>
+				<text/>
+				<text>3rd - gentle repose, spiritual weapon</text>
+				<text/>
+				<text>5th - dispel magic, protection from energy</text>
+				<text/>
+				<text>7th - blight, death ward</text>
+				<text/>
+				<text>9th - circle of power, hallow</text>
+			</feature>
+			<feature optional="YES">
+				<name>Entropy Domain: Sanctity of Body</name>
+				<text>When you choose this domain at 1st level, you perform a ritual to anchor your soul to the Material Plane. You have advantage on death saving throws.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Entropy Domain Channel Divinity: Arcane Disruption</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to disrupt the flow of magic in your vicinity.</text>
+				<text>	As an action, you conjure an aura of disruptive energy that radiates from you in a 15-foot radius. The aura lasts until the end of your next turn, and moves with you, centered on you. While inside the aura, any creature that attempts to cast a spell must first succeed on a Constitution saving throw. If they fail the save, their spell fails to cast and the spell slot is wasted.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Entropy Domain: Entropic Retaliation</name>
+				<text>At 6th level, you can use your Channel Divinity to drain a caster's magical power. When you succeed on a saving throw against a spell or successfully disrupt a spell using Arcane Disruption, you can force the caster to make a Constitution saving throw against your spell save DC. On a failure, the caster loses an additional spell slot of the same level. If they possess no more slots of that level, they instead gain a level of exhaustion.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Entropy Domain: Potent Spell Casting</name>
+				<text>At 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Entropy Domain: Emissary of Entropy</name>
+				<text>At 17th level, you have advantage on saving throws against spells. In addition, when you succeed on a saving throw against a spell, you gain 5 temporary hit points for each slot level of the spell.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>

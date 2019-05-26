@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Madness)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Madness</name>
+				<text>The gods of madness might be frightening, inscrutable beings lurking at the frayed edges of reality or they might simply be hedonistic gods who urge their followers to seek excess in all things and delight in the chaos and insanity that often results. Gods of madness might be worshiped in secret by strange cults seeking forbidden power, but they could be beloved deities who bring gaiety and joy to the lives of ordinary people. Their clerics are sometimes dangerous figures, working to tear down propriety and disrupt the status quo. They can be erratic and capricious, acting with enigmatic motives and a desire to expand—or sunder—the minds of people they meet.</text>
+				<text/>
+				<text>Madness Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text/>
+				<text>1st - dissonant whispers, hideous laughter</text>
+				<text/>
+				<text>3rd - crown of madness, suggestion</text>
+				<text/>
+				<text>5th - fear, hypnotic pattern</text>
+				<text/>
+				<text>7th - confusion, phantasmal killer</text>
+				<text/>
+				<text>9th - dominate person, modify memory</text>
+			</feature>
+			<feature optional="YES">
+				<name>Madness Domain: Blessing of Madness</name>
+				<text>Starting at 1st level when you choose this domain, your mind becomes unhinged, flooded with strange thoughts and ideas. You gain periodic bursts of frightening clarity, which are fueled by special dice called madness dice, which are d6s. You have a number of madness dice equal to 1 + half your level (minimum 2 dice). You can expend a madness die and add the number rolled to one ability check, attack roll, or saving throw you make. When you do so, you have disadvantage on all ability checks, attack rolls, and saving throws until the end of your next turn.</text>
+				<text>	You regain all expended madness dice when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Madness Domain Channel Divinity: Afflict Madness</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to flood your foe with erratic thoughts.</text>
+				<text>	As an action, you present your holy symbol and invoke the name of your deity. One creature of your choice you can see within 60 feet must succeed on a Wisdom saving throw or become insane until the end of your next turn. Constructs are immune to this effect. While insane, the creature cannot use actions, bonus actions, or reactions, though it can still move on its turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Madness Domain: Flood of Madness</name>
+				<text>Beginning at 6th level, you can use your Channel Divinity to amplify your own madness.</text>
+				<text>	When you would expend a madness die, you can use a bonus action to turn your madness die into a d12. If the ability check, attack roll, or saving throw succeeds, you do not have the usual disadvantage on ability checks, attack rolls, and saving throws from expending a madness die.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Madness Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Madness Domain: Infectious Madness</name>
+				<text>At 17th level, you can no longer be charmed or frightened. In addition, whenever you expend a madness die, you can also bestow a madness die to one creature you can see within 60 feet of you.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Madness)">
+		<index name="Dissonant Whispers"/>
+		<index name="Hideous Laughter"/>
+		<index name="Crown of Madness"/>
+		<index name="Suggestion"/>
+		<index name="Fear"/>
+		<index name="Hypnotic Pattern"/>
+		<index name="Confusion"/>
+		<index name="Phantasmal Killer"/>
+		<index name="Dominate Person"/>
+		<index name="Modify Memory"/>
+	</spellList>
+</compendium>

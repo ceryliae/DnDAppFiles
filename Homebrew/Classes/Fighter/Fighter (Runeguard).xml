@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Fighter" HB="HB">
+		<name>Fighter (Runeguard)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Martial Archetype: Runeguard</name>
+				<text>The runeguard seeks the magical power within ancient languages, and to hasten the speed of their blade and strengthen of their armor by imbuing them with the power of these runes.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Runeguard: Master Runes</name>
+				<text>When you choose this archetype at 3rd level, you learn five master runes; Ild (fire), Kalt (frost), Ond (spirit), Stein (Stone), and Vind (wind). While these names are known to you as the basis for empowering your equipment, their application continues to require diligent study, constant trial, and repeated error to evoke the unique properties from each variant invocation.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Runeguard: Runecraft</name>
+				<text>At 3rd level, you learn augmentations that utilize the master runes to enhance your martial prowess. Their effects are based on how you invoke them, generating defensive properties to thwart your foes' advance or deal decisive blows.</text>
+				<text>	Ritual Crafting. Each runic combination must be inscribed and empowered into your equipment over the course of 8 hours, which can be done during a long rest. Each piece of equipment must be within your reach throughout the ritual, at the conclusion of which, you infuse a part of your being into the runes, causing them to glow slightly with your own spiritual essence.</text>
+				<text>	The rune's power fades if it moves more than 100 feet away from you and can't be used by anyone other than you.</text>
+				<text>	Runic Augmentations. You learn three runic augmentations of your choice, which are detailed under "Runic Augmentations" below. Each augmentation is specific to its master rune; for instance, if you learn the Sokn augmentation of the Ild master rune, you don't gain the ability to use the Sokn augmentation with other master runes unless you also learn that specific combination.</text>
+				<text>	Once you activate one of your runic augmentations, you must finish a short or long rest before you can use it again.</text>
+				<text>	You learn two additional augmentations at 7th, 10th, 15th, and 18th level. Each time you learn new augmentations, you can choose to replace one you already know with a different one.</text>
+				<text>	Augmentation Activation. During your turn, you can activate a single runic augmentation by focusing on the rune's power. You can activate one of these augmentations on your turn using your bonus action to empower your attacks (Sokn), your reaction to entrench your defenses (Vard) or skillfully enhance another ability (Hagr) with your action.</text>
+				<text>	Activating a rune requires concentration, which lasts a number of rounds equal to your proficiency bonus + your Constitution modifier (minimum of 3). While you concentrate on a rune, you can cast spells but you can't concentrate on a rune and a spell at the same time. You gain the ability to concentrate on two runes at once at 10th level.</text>
+				<text>	Saving Throws. Some of your runic augmentations require your target to make a saving throw to resist the effects. The saving throw DC is calculated as follows:</text>
+				<text>	Runic save DC = 8 + proficiency bonus + your Constitution modifier</text>
+			</feature>
+			<feature optional="YES">
+				<name>Runeguard: Runic Augmentations</name>
+				<text>Below are the runic augmentations for each of the five master runes. In the ancient tongues, the augmentation can be said before or after the rune.</text>
+				<text/>
+				<text>Sokn</text>
+				<text>Attack Augmentation</text>
+				<text>You can activate a rune with the Sokn augmentation as a bonus action. A rune's power only affects the weapon it is inscribed on.</text>
+				<text>Ild. Once per turn, when you hit a creature with a weapon attack, you ignite the target. At the start of each of the burning creature's turns, it takes 1d4 fire damage for each time you've burned it, and it can then make a Constitution saving throw, ending the effect of all such burns on itself on a success. Alternatively, the burned creature, or a creature within 5 feet of it, can use an action to make a Wisdom (Medicine) check against your runic save DC, ending the effect of all burns on it on a success.</text>
+				<text>Kalt. When you hit a creature with a weapon attack, it can't take reactions until the start of its next turn.</text>
+				<text>Ond. Once per turn, when you hit a creature with a weapon attack, you deal an additional 1d4 necrotic damage and you recover hit points equal to the necrotic damage dealt.</text>
+				<text>Stein. When you hit a Large or smaller creature with a weapon attack, it must make a Strength saving throw, falling prone on a failed save.</text>
+				<text>Vind. When a creature hits you with a melee attack, you can use your reaction to make a melee weapon attack against that creature.</text>
+				<text/>
+				<text>Vard</text>
+				<text>Defense Augmentation</text>
+				<text>You can activate a rune with the Vard augmentation as a reaction. A rune's power can only be used while wearing the armor or holding the shield it is inscribed on.</text>
+				<text>Ild. When you are hit by a melee attack, the attacker takes fire damage equal to your proficiency bonus.</text>
+				<text>Kalt. When you are hit by a melee attack, the damage you take from the attack is reduced an amount equal to your proficiency bonus.</text>
+				<text>Ond. You gain a bonus to saving throws made to resist being frightened equal to your Constitution modifier.</text>
+				<text>Stein. You have advantage on saving throws made to resist being moved against your will.</text>
+				<text>Vind. Ranged attacks made against you have disadvantage as wind whips around you.</text>
+				<text/>
+				<text>Hagr</text>
+				<text>Ability Augmentation</text>
+				<text>You can activate a rune with the Hagr augmentation as an action. This rune must be inscribed on your body to be activated.</text>
+				<text>Ild. You can add your Constitution modifier to your Strength (Athletics) and Dexterity (Acrobatics) ability checks.</text>
+				<text>Kalt. You ignore difficult terrain and can walk safely across still or gently moving water.</text>
+				<text>Ond. When you receive healing from any source, you also gain temporary hit points equal to 5 + your proficiency bonus.</text>
+				<text>Stein. You have advantage on death saving throws and Constitution saving throws made to maintain concentration.</text>
+				<text>Vind. Your movement speed increases by a number of feet equal to 5 times your Constitution modifier (minimum 5 feet).</text>
+				<text/>
+				<text>Tal</text>
+				<text>Reckoning</text>
+				<text>Once you gain the Sentinel's Reckoning feature at 10th level, you can activate a rune with the Tal command word as an action. This rune manifests in the air around you when activated.</text>
+				<text>Ild. Each creature within a 5-foot-radius of you must make a Dexterity saving throw, taking fire damage equal to 2d6 × the number of runes you have active on a failed save, or half as much damage on a successful one.</text>
+				<text>Kalt. An eruption of magical frost blasts from you in a radius equal to 10 feet × the number of runes you have active. All creatures of your choice within the area must succeed on a Strength saving throw or be restrained for a number of rounds equal to the number of active runes. At the end of each of their turns, they can repeat the saving throw to break free.</text>
+				<text>Ond. Life spirits swirl about you in a 5-foot-radius. All creatures of your choice within that radius regain hit points equal to 1d6 × the number of runes you have active.</text>
+				<text>Stein. You release your runic power in an arc before you, creating a cone of difficult terrain as jagged earth erupts equal to 5 feet × the number of runes you have active. When a creature enters this area for the first time on a turn or starts its turn there, it takes 2d4 slashing damage.</text>
+				<text>Vind. A furious cyclone whips up a strong wind around you. All creatures within a 10-foot-radius must succeed a Strength saving throw or take 1d10 bludgeoning damage, be pushed a number of feet equal to 5 × the number of runes you have active (minimum of 5 feet), and fall prone. On a success, a creature takes half as much damage and isn't knocked prone.</text>
+				<text/>
+			</feature>
+			<feature optional="YES">
+				<name>Runeguard: Runescript</name>
+				<text>At 3rd level, you gain proficiency in the Arcana and Religion skills. Additionally, you double your proficiency bonus when making Intelligence checks that involve identifying magical writing, such as arcane sigils or divine text.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Runeguard: Eyes of the Arcanist</name>
+				<text>Starting at 7th level, if you spend at least 1 minute observing the flow of magic in the immediate area, you can detect familiar patterns in the weave. The DM tells you the general location of magic writing used in rite or ritual within 60 feet of you, whether active or dormant, and you know the type (arcane, divine, or otherwise) of any script you sense but not its exact purpose or power. You can use this feature a number of times a day equal to your proficiency bonus.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Runeguard: Sentinel's Reckoning</name>
+				<text>Beginning at 10th level, you can unleash the energy of your runes to devastating effect by shouting the command word Tal as an action (see "Tal" under Runic Augmentations). Choose one Tal effect from the runes you have active, and all active augmentations go dormant until you finish a short or long rest. You can still use other augmentations you have yet to activate. Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				<text>	Starting at 15th level, you can use this feature twice before a rest, but only once per turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Runeguard: Runic Mastery</name>
+				<text>At 18th level, you can have three runes activate and you no longer need to concentrate on your runic augmentations.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>

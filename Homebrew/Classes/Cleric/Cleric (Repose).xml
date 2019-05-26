@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Repose)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Repose</name>
+				<text>For some cultures, death is a thing to be feared, and as such, those cultures' gods of death are often figures of foreboding and evil. For others, death is merely a transition, and the gods of death are shepherds of souls, carrying them on to the next realm. For clerics of this latter kind of death god, the Repose domain represents the gifts of these gods, focusing on ensuring that malign forces do not interrupt the natural cycle of life and death. Clerics with the Repose domain also gain mastery over many things that are a part of death, such as stillness, unawareness, and nonexistence. More than anything, clerics of the Repose domain excel at seeking out the abomination that is the undead, and correcting the  aw that their existence has introduced into the natural order.</text>
+				<text/>
+				<text>Repose Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text/>
+				<text>1st - false life, sleep</text>
+				<text/>
+				<text>3rd - gentle repose, hold person</text>
+				<text/>
+				<text>5th - glyph of warding, speak with dead</text>
+				<text/>
+				<text>7th - banishment, death ward</text>
+				<text/>
+				<text>9th - raise dead, hold monster</text>
+			</feature>
+			<feature optional="YES">
+				<name>Repose Domain: Power of the Grave</name>
+				<text>When you choose this domain at 1st level, you learn two necromancy cantrips chosen from any class's spell list.</text>
+			</feature>
+			<feature>
+				<name>Repose Domain: Barring Death's Door</name>
+				<text>Also starting at 1st level, creatures that you are friendly to that are within 60 feet of you have advantage on death saving throws.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Repose Domain Channel Divinity: Sense Undead</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to sense undead creatures and seek them out unerringly using your divine senses.</text>
+				<text>	As an action, you present your holy symbol and speak the mystic words, granting yourself a sense of unlife nearby. For the next minute, you know the direction of the nearest undead creature within 60 feet of you, but not its distance from you. You can sense the presence and direction of undead that are ethereal, invisible, disguised, or hidden, as well as those in plain sight. The effect ends if you become unconscious.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Repose Domain: Restore the Nature Order</name>
+				<text>Beginning at 6th level, your cleric level is treated as being 6 higher than it actually is for the purposes of the Destroy Undead cleric feature.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Repose Domain: Powerful Spellcasting</name>
+				<text>Beginning at 8th level, when you deal damage with any cleric cantrip, add your Wisdom modifier to the damage.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Repose Domain: Sanctity of Death</name>
+				<text>Starting at 17th level, when a creature within 60 feet of you dies, for 1 day the creature's body cannot be reanimated as, or transformed into, an undead creature. Additionally, spells and monsters cannot create undead creatures within 60 feet of you.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Repose)">
+		<index name="False Life"/>
+		<index name="Sleep"/>
+		<index name="Gentle Repose"/>
+		<index name="Hold Person"/>
+		<index name="Glyph of Warding"/>
+		<index name="Speak with Dead"/>
+		<index name="Banishment"/>
+		<index name="Death Ward"/>
+		<index name="Raise Dead"/>
+		<index name="Hold Monster"/>
+	</spellList>
+</compendium>

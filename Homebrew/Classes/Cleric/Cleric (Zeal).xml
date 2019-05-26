@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<subclass baseclass="Cleric" source="PS:A">
+		<name>Cleric (Hazoret Zeal)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Zeal</name>
+				<text>The God-Pharaoh expects those he welcomes into the afterlife to desire it above all other pleasures and achievements, and for them to show their dedication, passion, and fervor through their actions. Hazoret is charged with cultivating this zeal in the initiates who come under her care, and she has undertaken the task with appropriate enthusiasm. She recognizes, however, that the best way to teach zeal is by demonstrating it.</text>
+				<text/>
+				<text>Zeal Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text/>
+				<text>1st - searing smite, thunderous smite</text>
+				<text/>
+				<text>3rd - magic weapon, shatter</text>
+				<text/>
+				<text>5th - haste, fireball</text>
+				<text/>
+				<text>7th - fire shield (warm shield only), freedom of movement</text>
+				<text/>
+				<text>9th - destructive wave, flame strike</text>
+			</feature>
+			<feature optional="YES">
+				<name>Zeal Domain: Bonus Proficiencies</name>
+				<text>At 1st level, you gain proficiency with martial weapons and heavy armor.</text>
+			</feature>
+			<feature>
+				<name>Zeal Domain: Priest of Zeal</name>
+				<text>From 1st level, Hazoret delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.</text>
+				<text>	You can use this feature a num-ber of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Zeal Domain Channel Divinity: Consuming Fervor</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to channel your zeal into unchecked ferocity.</text>
+				<text>	When you roll fire or thunder damage, you can use your Channel Divinity to deal maximum damage instead of rolling.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Zeal Domain: Resounding Strike</name>
+				<text>At 6th level, when you deal thunder damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Zeal Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Zeal Domain: Blaze of Glory</name>
+				<text>Starting at 17th level, you can delay death for an instant to perform a final heroic act.</text>
+				<text>	When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra 5d10  re damage and an extra 5d10 damage of the weapon's type. You then fall unconscious and begin making death saving throws as normal, or you die if the damage you took would have killed you outright.</text>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Zeal)">
+		<index name="Searing Smite"/>
+		<index name="Thunderous Smite"/>
+		<index name="Magic Weapon"/>
+		<index name="Shatter"/>
+		<index name="Haste"/>
+		<index name="Fireball"/>
+		<index name="Fire Shield"/>
+		<index name="Freedom of Movement"/>
+		<index name="Destructive Wave"/>
+		<index name="Flame Strike"/>
+	</spellList>
+</compendium>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Air)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Air</name>
+				<text>The wind and the sky are the province of the Air domain. The powers of this domain are granted by gods who claim the boundless skies as their dominion, and for many worshipers of these gods the Air domain serves as the more placid counterpart to the raging Tempest domain. While the wind does sometimes surge into a gusting gale, the domain of Air also represents the tranquil calm of a still night, or the soothing breeze that sends ripples across the pond. It is the wind that lifts birds to soaring heights, and in every swooping eagle clerics of the Air domain see the hands of their gods at work.</text>
+				<text/>
+				<text>Air Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text/>
+				<text>1st - feather fall, fog cloud</text>
+				<text/>
+				<text>3rd - gust of wind, hold person</text>
+				<text/>
+				<text>5th - fly, wind wall</text>
+				<text/>
+				<text>7th - conjure minor elementals, freedom of movement</text>
+				<text/>
+				<text>9th - conjure elemental, hold monster</text>
+			</feature>
+			<feature optional="YES">
+				<name>Air Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain the fist of air cantrip if you don't already know it.</text>
+			</feature>
+			<feature>
+				<name>Air Domain: Reed in the Wind</name>
+				<text>Also starting at 1st level, you can surrender your motion to the divine winds, flowing out of the way of incoming harm. When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you, provided you are not restrained or prone.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Air Domain Channel Divinity: Eye of the Storm</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to create a swirling vortex of air that encircles you, yet leaves you unruffled at the center of the tornado.</text>
+				<text>	As an action, you present your holy symbol, and you become surrounded by swirling air that lasts for 1 minute. During that time, you become immune to inhaled poisons and any spells whose effects can be dispersed by a strong wind.</text>
+				<text>	Additionally, the vortex has a number of charges of divine power equal to your Wisdom modifier (minimum one charge). When you or a creature that you can see within 30 feet of you is attacked by a creature that you can see with a ranged weapon, you can expend 1 of these charges as a reaction to impose disadvantage on the attack roll, using a gust of wind to bat the weapon aside. Alternatively, when you cast fist of air, you can expend 1 of these charges to add 1d6 to the damage dealt by the cantrip.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Air Domain: One With the Wind</name>
+				<text>Beginning at 6th level, you can use your action to cast gaseous form, targeting only yourself. When affected by gaseous form, your flying speed is equal to your normal base speed and you can talk. Once you use this feature, you cannot use it again until you complete a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Air Domain: Powerful Spellcasting</name>
+				<text>Beginning at 8th level, when you deal damage with any cleric cantrip, add your Wisdom modifier to the damage.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Air Domain: Reed in the Storm</name>
+				<text>Starting at 17th level, when you use your Reed in the Wind feature, instead of halving the attack's damage, you take no damage from that attack.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Air)">
+		<index name="Fist of Air"/>
+		<index name="Feather Fall"/>
+		<index name="Fog Cloud"/>
+		<index name="Gust of Wind"/>
+		<index name="Hold Person"/>
+		<index name="Fly"/>
+		<index name="Wind Wall"/>
+		<index name="Conjure Minor Elementals"/>
+		<index name="Freedom of Movement"/>
+		<index name="Conjure Elemental"/>
+		<index name="Hold Monster"/>
+	</spellList>
+</compendium>

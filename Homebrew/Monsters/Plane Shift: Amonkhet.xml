@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<!--Plane Shift: Amonkhet-->
+	<monster>
+		<name>Criosphinx</name>
+		<size>L</size>
+		<type>monstrosity, Plane Shift: Amonkhet</type>
+		<alignment>neutral</alignment>
+		<ac>18 (natural armor)</ac>
+		<hp>228 (24d10 + 96)</hp>
+		<speed>30 ft., fly 60 ft.</speed>
+		<str>18</str>
+		<dex>15</dex>
+		<con>18</con>
+		<int>16</int>
+		<wis>16</wis>
+		<cha>16</cha>
+		<skill>Arcana +8, History +8, Perception +8, Religion +8</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>psychic</immune>
+		<conditionImmune>charmed, frightened</conditionImmune>
+		<senses>truesight 120 ft.</senses>
+		<passive>18</passive>
+		<languages>understands Common, Sphinx</languages>
+		<cr>13</cr>
+		<trait>
+			<name>Inscrutable</name>
+			<text>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage.</text>
+		</trait>
+		<trait>
+			<name>Magic Weapons</name>
+			<text>The sphinx's weapon attacks are magical.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The sphinx makes a ram attack and two claw attacks.</text>
+		</action>
+		<action>
+			<name>Ram</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) bludgeoning damage.</text>
+			<attack>Ram|9|3d8 + 4</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
+			<attack>Claw|9|2d8+4</attack>
+		</action>
+		<legendary>
+			<name>Ram Attack</name>
+			<text>The sphinx makes one ram attack.</text>
+			<attack>Ram|9|3d8 + 4</attack>
+		</legendary>
+		<legendary>
+			<name>Teleport (Costs 2 Actions)</name>
+			<text>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</text>
+		</legendary>
+	</monster>
+	<monster>
+		<name>Manticore, Heart-Piercer</name>
+		<size>L</size>
+		<type>monstrosity, Plane Shift: Amonkhet</type>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>136 (16d10 + 48)</hp>
+		<speed>50 ft.</speed>
+		<str>19</str>
+		<dex>14</dex>
+		<con>16</con>
+		<int>5</int>
+		<wis>12</wis>
+		<cha>6</cha>
+		<skill>Perception +4</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>—</languages>
+		<cr>5</cr>
+		<action>
+			<name>Multiattack</name>
+			<text>The manticore makes two attacks, one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Bite|7|2d6 + 4</attack>
+		</action>
+		<action>
+			<name>Claws</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</text>
+			<attack>Claws|7|2d8+4</attack>
+		</action>
+		<action>
+			<name>Stinger</name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage. The target must make a DC 14 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Stinger|7|2d6 + 4</attack>
+			<attack>Poison||7d6</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Serpopard</name>
+		<size>L</size>
+		<type>beast, Plane Shift: Amonkhet</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>52 (7d10 + 14)</hp>
+		<speed>40 ft.</speed>
+		<str>18</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>3</int>
+		<wis>12</wis>
+		<cha>8</cha>
+		<skill>Perception +3, Stealth +6</skill>
+		<passive>13</passive>
+		<languages>—</languages>
+		<cr>3</cr>
+		<trait>
+			<name>Keen Smell</name>
+			<text>The serpopard has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<name>Pounce</name>
+			<text>If the serpopard moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the serpopard can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Bite|6|1d10+4</attack>
+			<attack>Poison||3d6</attack>
+		</action>
+	</monster>
+</compendium>
