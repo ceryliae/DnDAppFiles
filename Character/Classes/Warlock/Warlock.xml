@@ -3,7 +3,12 @@
 	<baseclass>
 		<name>Warlock</name>
 		<hd>8</hd>
-		<proficiency>Wisdom, Charisma</proficiency>
+		<proficiency>Wisdom, Charisma, Arcana, Deception, History, Intimidation, Investigation, Nature, Religion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor</armor>
+<weapons>simple weapons</weapons>
+<tools>none</tools>
+<wealth>4d4x10</wealth>
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>2,1,0,0,0,0,0,0,0,0</slots>
@@ -143,12 +148,7 @@
 				<text>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. The cantrips do not need to be from the same spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. Any cantrip you cast with this feature is considered a warlock cantrip for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -165,12 +165,7 @@
 				<text>You learn an additional eldritch invocation</text>
 			</feature>
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="9">
 			<feature>
@@ -189,12 +184,7 @@
 				<text>	At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 			<feature>
 				<name>Eldritch Invocation</name>
 				<text>You learn an additional eldritch invocation</text>
@@ -221,12 +211,7 @@
 				<text>	You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -241,12 +226,7 @@
 				<text>You learn an additional eldritch invocation</text>
 			</feature>
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>

@@ -3,7 +3,12 @@
 	<baseclass>
 		<name>Sorcerer</name>
 		<hd>6</hd>
-		<proficiency>Constitution, Charisma</proficiency>
+		<proficiency>Constitution, Charisma, Arcana, Deception, Insight, Intimidation, Persuasion, Religion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>none</armor>
+<weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
+<tools>none</tools>
+<wealth>3d4x10</wealth>
 		<spellAbility>Charisma</spellAbility>
 		<autolevel level="1">
 			<slots>4,2,0,0,0,0,0,0,0,0</slots>
@@ -177,22 +182,12 @@
 				<text>When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="6">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="10">
 			<feature>
@@ -234,22 +229,12 @@
 				<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="14">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -294,12 +279,7 @@
 		<autolevel level="18">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>

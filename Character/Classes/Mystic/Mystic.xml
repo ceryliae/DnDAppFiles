@@ -3,7 +3,12 @@
 	<baseclass UA="The Mystic Class">
 		<name>Mystic (UA)</name>
 		<hd>8</hd>
-		<proficiency>Intelligence, Wisdom</proficiency>
+		<proficiency>Intelligence, Wisdom, Arcana, History, Insight, Medicine, Nature, Perception, Religion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor</armor>
+<weapons>simple weapons</weapons>
+<tools>none</tools>
+<wealth>5d4x10</wealth>
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>1,1,4,2,0,0,0,0,0,0</slots>
@@ -334,12 +339,7 @@
 				<text>Starting at 3rd level, when a creature's resistance reduces the damage dealt by a psionic discipline of yours, you can spend 1 psi point to cause that use of the discipline to ignore the creature's resistance. You can't spend this point if doing so would increase the discipline's cost above your psi limit.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 			<feature>
 				<name>Strength of Mind</name>
 				<text>Even the simplest psionic technique requires a deep understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with threats.</text>
@@ -384,12 +384,7 @@
 				<text>	Whenever you gain a level in this class, you can replace one of the chosen wizard spells with a different wizard spell of 1st through 3rd level.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 			<feature>
 				<name>Potent Psionics (Order of the Awakened)</name>
 				<text>At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. When you reach 14th level, this extra damage increases to 2d8.</text>
@@ -411,12 +406,7 @@
 				<text>	You have one use of this feature, and you regain any expended use of it with a long rest.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="13">
 			<feature>
@@ -461,12 +451,7 @@
 				<text> You gain one additional use of the PsionicMastery feature at 13th, 15th, and 17th level.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -474,12 +459,7 @@
 				<text>You gain one additional use of the PsionicMastery feature at 13th, 15th, and 17th level.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="20">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM uses the optional Feats, you can instead take a feat.</text>
-			</feature>
+		<autolevel level="20" scoreImprovement="YES">
 			<feature>
 				<name>Psionic Body</name>
 				<text>At 20th level, your mastery of psionic power causes your mind to transcend the body. Your physical form is infused with psionic energy. You gain the following benefits:</text>

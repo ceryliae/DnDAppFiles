@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>4076</uid>
+		<name>Human Barbarian</name>
+		<race>
+			<name>Human</name>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>2</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>3</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>4</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>1</value>
+			</mod>
+		</race>
+		<class>
+			<id>3908</id>
+			<name>Barbarian</name>
+			<level>3</level>
+			<hd>4</hd>
+			<hdCurrent>3</hdCurrent>
+			<proficiency>2</proficiency>
+			<proficiency>111</proficiency>
+			<proficiency>107</proficiency>
+			<proficiency>0</proficiency>
+			<armor>Light armor, medium armor, shields</armor>
+			<weapons>Simple weapons, martial weapons</weapons>
+			<tools>Drum</tools>
+			<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) a greataxe or (b) any martial melee weapon
+• (a) two handaxes or (b) any simple weapon
+• An explorer's pack, and four javelins
+
+Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
+			</feat>
+			<feat>
+				<name>Rage</name>
+				<text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+	While raging, you gain the following benefits if you aren't wearing heavy armor:
+
+• You have advantage on Strength checks and Strength saving throws.
+• When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.
+• You have resistance to bludgeoning, piercing, and slashing damage.
+
+If you are able to cast spells, you can't cast them or concentrate on them while raging.
+	Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+	Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+			</feat>
+			<feat>
+				<name>Unarmored Defense</name>
+				<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+				<special>6</special>
+			</feat>
+			<feat>
+				<name>Danger Sense</name>
+				<text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+			</feat>
+			<feat>
+				<name>Reckless Attack</name>
+				<text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+			</feat>
+			<feat>
+				<name>Increased Rages</name>
+				<text>You may now rage 3 times before a long rest.</text>
+			</feat>
+			<feat>
+				<name>Primal Path</name>
+				<text>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Primal Path: Path of the Berserker</name>
+				<text>For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Path of the Berserker: Frenzy</name>
+				<text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) a greataxe or (b) any martial melee weapon
+• (a) two handaxes or (b) any simple weapon
+• An explorer's pack, and four javelins
+
+Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Rage</name>
+					<text>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+	While raging, you gain the following benefits if you aren't wearing heavy armor:
+
+• You have advantage on Strength checks and Strength saving throws.
+• When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.
+• You have resistance to bludgeoning, piercing, and slashing damage.
+
+If you are able to cast spells, you can't cast them or concentrate on them while raging.
+	Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+	Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again.  You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</text>
+				</feat>
+				<feat>
+					<name>Unarmored Defense</name>
+					<text>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</text>
+					<special>6</special>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Danger Sense</name>
+					<text>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</text>
+				</feat>
+				<feat>
+					<name>Reckless Attack</name>
+					<text>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Increased Rages</name>
+					<text>You may now rage 3 times before a long rest.</text>
+				</feat>
+				<feat>
+					<name>Primal Path</name>
+					<text>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Berserker or the Path of the Totem Warrior, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Primal Path: Path of the Berserker</name>
+					<text>For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Path of the Berserker: Frenzy</name>
+					<text>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				</feat>
+				<feat>
+					<name>Fast Movement</name>
+					<text>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</text>
+					<mod>
+						<type>13</type>
+						<value>10</value>
+					</mod>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Increased Rages</name>
+					<text>You may now rage 4 times before a long rest.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Path of the Berserker: Mindless Rage</name>
+					<text>Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Feral Instinct</name>
+					<text>By 7th level, your instincts are so honed that you have advantage on initiative rolls.
+	Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Brutal Critical (1 die)</name>
+					<text>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.
+	This increases to two additional dice at 13th level and three additional dice at 17th level.</text>
+				</feat>
+				<feat>
+					<name>Increased Rage Damage</name>
+					<text>You now have a +3 bonus to melee damage rolls while raging.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Path of the Berserker: Intimidating Presence</name>
+					<text>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+	If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Relentless Rage</name>
+					<text>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
+	Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+				</feat>
+				<feat>
+					<name>Increased Rages</name>
+					<text>You may now rage 5 times before a long rest</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Brutal Critical (2 dice)</name>
+					<text>You now roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Path of the Berserker: Retaliation</name>
+					<text>Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Persistent Rage</name>
+					<text>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+				</feat>
+				<feat>
+					<name>Increased Rage Damage</name>
+					<text>You now have a +4 bonus to melee damage rolls while raging.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Brutal Critical (3 dice)</name>
+					<text>You now roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack.</text>
+				</feat>
+				<feat>
+					<name>Increased Rages</name>
+					<text>You may now rage 6 times before a long rest</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable Might</name>
+					<text>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Primal Champion</name>
+					<text>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</text>
+					<mod>
+						<category>1</category>
+						<value>4</value>
+					</mod>
+					<mod>
+						<category>1</category>
+						<type>2</type>
+						<value>4</value>
+					</mod>
+				</feat>
+				<feat>
+					<name>Unlimited Rages</name>
+					<text>At 20th level, there is no limit to the number of times you may rage.</text>
+				</feat>
+			</autolevel>
+		</class>
+		<background>
+			<id>3950</id>
+			<name>Outlander</name>
+			<align>Chaotic good</align>
+			<personality>You place no stock in refined manners or wealth</personality>
+			<ideals>Life is in constant change, and you must change with it to survive</ideals>
+			<bonds>You take the despoiling of the wilderness and sacred sites as a personal insult</bonds>
+			<flaws>There's no room for caution in a life lived to the fullest</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Athletics, Survival</text>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>One type of musical instrument</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>One of your choice</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Wanderer</name>
+				<text>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</text>
+			</feat>
+			<proficiency>117</proficiency>
+			<proficiency>103</proficiency>
+		</background>
+		<xp>900</xp>
+		<unarmed>1</unarmed>
+		<abilities>15,13,14,8,12,10,</abilities>
+		<hpMax>32</hpMax>
+		<hpCurrent>32</hpCurrent>
+		<item>
+			<name>Greatsword</name>
+			<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.
+
+Two-Handed: This weapon requires two hands to use.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>3</slot>
+			<value>50.0</value>
+			<weight>6.0</weight>
+			<damage1H>2d6</damage1H>
+			<damageType>3</damageType>
+			<weaponProperty>260</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Handaxe</name>
+			<text>Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<quantity>2</quantity>
+			<value>5.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>3</damageType>
+			<weaponProperty>136</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Javelin</name>
+			<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<quantity>3</quantity>
+			<value>2.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>128</weaponProperty>
+			<weaponRange>30</weaponRange>
+			<weaponLongRange>120</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Mess Kit</name>
+			<text>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.
+
+Source: Player's Handbook, page 152</text>
+			<value>2.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Tinderbox</name>
+			<text>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Torch</name>
+			<text>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.
+
+Source: Player's Handbook, page 153</text>
+			<quantity>5</quantity>
+			<value>1.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Traveler's Clothes</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>2.0</value>
+			<weight>4.0</weight>
+		</item>
+		<item>
+			<name>Waterskin</name>
+			<text>A waterskin can hold up to 4 pints of liquid.
+
+Source: Player's Handbook, page 153</text>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<name>Backpack</name>
+			<text>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.
+
+Source: Player's Handbook, page 153</text>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<name>Bedroll</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>1.0</value>
+			<weight>7.0</weight>
+		</item>
+		<item>
+			<name>Drum</name>
+			<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.
+
+A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.
+
+Each type of musical instrument requires a separate proficiency.
+
+Source: Player's Handbook, page 154</text>
+			<value>6.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Healer's Kit</name>
+			<text>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.
+
+Source: Player's Handbook, page 151</text>
+			<value>5.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Bearskin cloak</name>
+		</item>
+		<item>
+			<name>Potion of Healing</name>
+			<text>Rarity: Common
+You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.
+
+Source: Dungeon Master's Guide, page 187</text>
+			<type>12</type>
+			<weight>0.5</weight>
+			<magic>1</magic>
+			<roll>2d4+2</roll>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>15</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Dwarvish, Giant</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Emerald Enclave, wilderness survivalists who preserve the natural order while rooting out unnatural threats</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>"The wild is in my blood."
+Hailing from the northern lands, you are a stranger to civilization. Yet you travel wherever need guides you, fighting those who would despoil the wilderness. You have a faces encroaching evil from monsters to greedy humans. You take what you need, and feed the ground with the blood of such enemies.</text>
+		</note>
+	</character>
+</pc>
