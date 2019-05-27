@@ -3,7 +3,12 @@
 	<baseclass name="Blood Hunter">
 		<name>Blood Hunter</name>
 		<hd>10</hd>
-		<proficiency>Strength, Wisdom</proficiency>
+		<proficiency>Strength, Wisdom, Athletics, Acrobatics, Arcana, Insight, Investigation, Survival</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor</armor>
+<weapons>simple weapons, martial weapons</weapons>
+<tools>alchemist's supplies</tools>
+<wealth>4d4x10</wealth>
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -93,11 +98,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1, As normal, you can't increase an ability score above 20 using this feature.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -160,12 +161,7 @@
 		<autolevel level="7">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="9">
 			<feature>
@@ -190,12 +186,7 @@
 		<autolevel level="11">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="13">
 			<feature>
@@ -216,12 +207,7 @@
 		<autolevel level="15">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<feature>
@@ -232,12 +218,7 @@
 		<autolevel level="18">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="19">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="19" scoreImprovement="YES">
 			<feature>
 				<name>Crimson Rite Damage Increase</name>
 				<text>At level 19, your Crimson Rite damage die increases to 1d12.</text>
