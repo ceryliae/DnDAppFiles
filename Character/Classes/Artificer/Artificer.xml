@@ -3,7 +3,11 @@
 	<baseclass>
 		<name>Artificer</name>
 		<hd>8</hd>
-		<proficiency>Constitution, Intelligence</proficiency>
+		<proficiency>Constitution, Intelligence, Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand</proficiency>
+		<numSkills>3</numSkills>
+<armor>light armor, medium armor</armor>
+<weapons>simple weapons</weapons>
+<tools>thieves' tools + 2 other of your choice</tools>
 		<spellAbility>Intelligence</spellAbility>
 		<autolevel level="1">
 			<slots>0,0,0,0,0,0</slots>
@@ -147,13 +151,7 @@
 			</feature>
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="4">
-			<feature optional="YES">
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text/>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 			<feature>
 				<name>Infuse Magic</name>
 				<text>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell's effect's occur. Instead, the spell transfers into that item for later use if the item doesn't already contain a spell from this feature.</text>
@@ -195,12 +193,7 @@
 				<text>If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="8">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="8" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="9">
 			<!-- Archetype features -->
@@ -218,12 +211,7 @@
 				<text>10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward's handy haversack</text>
 			</feature>
 		</autolevel>
-		<autolevel level="12">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="12" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="14">
 			<!-- Archetype features -->
@@ -246,22 +234,12 @@
 				<text>15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing</text>
 			</feature>
 		</autolevel>
-		<autolevel level="16">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="16" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="17">
 			<!-- Archetype features -->
 		</autolevel>
-		<autolevel level="18">
-			<feature>
-				<name>Ability Score Improvement  </name>
-				<text>When you reach 18th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-				<text>	If your DM allows the use of feats, you may instead take a feat.</text>
-			</feature>
+		<autolevel level="18" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>

@@ -3,7 +3,11 @@
 	<baseclass name="Lingering Soul" HB="HB">
 		<name>Lingering Soul</name>
 		<hd>6</hd>
-		<proficiency>Constitution</proficiency>
+		<proficiency>Constitution, History, Investigation, Insight, Intimidation, Perception, Religion, Sleight of Hand, Stealth</proficiency>
+		<numSkills>3</numSkills>
+		<armor>None</armor>
+<weapons>None</weapons>
+<tools>None</tools>
 		<autolevel level="1">
 			<feature>
 				<name>Starting Proficiencies</name>
@@ -22,7 +26,7 @@
 				<text>• a trinket (rolled on the Trinkets table, PHB pg. 160)</text>
 				<text/>
 				<text>Taking over a dead character</text>
-				<text>If a deceased player character returns as a Lingering SOul, they lose all previous class levels and abilities, instead returning with a number of levels in Lingering Soul equal to one less than their previous character level. They retain any languages they knew in life, as well as racial benefits and abilities, but lose all previous skill proficiencies, saving throw proficiencies, feats, and Ability SCore improvements gained via class levels.</text>
+				<text>If a deceased player character returns as a Lingering Soul, they lose all previous class levels and abilities, instead returning with a number of levels in Lingering Soul equal to one less than their previous character level. They retain any languages they knew in life, as well as racial benefits and abilities, but lose all previous skill proficiencies, saving throw proficiencies, feats, and Ability Score improvements gained via class levels.</text>
 			</feature>
 			<feature>
 				<name>Spirit Binding</name>
@@ -75,11 +79,7 @@
 				<text>	Some items and artifacts cannot be consumed in this way (DM's discretion).</text>
 			</feature>
 		</autolevel>
-		<autolevel level="4">
-			<feature>
-				<name>Ability Score Improvement</name>
-				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
-			</feature>
+		<autolevel level="4" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="5">
 			<feature>
@@ -101,6 +101,8 @@
 				<text>	When you would receive half of the damage a possessed creature suffers from an attack, you can use your reaction to reduce it to a quarter of the damage suffered.</text>
 			</feature>
 		</autolevel>
+				<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
 		<autolevel level="9">
 			<feature>
 				<name>Xenoglossia</name>
@@ -119,6 +121,8 @@
 		<autolevel level="11">
 			<!-- Archetype features -->
 		</autolevel>
+				<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
 		<autolevel level="13">
 			<feature>
 				<name>Piercing Chill</name>
@@ -136,6 +140,8 @@
 		<autolevel level="15">
 			<!-- Archetype features -->
 		</autolevel>
+				<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
 		<autolevel level="17">
 			<feature>
 				<name>Eternal Spirit</name>
@@ -150,6 +156,8 @@
 				<text>At 18th level, you have gained the ability to completely control a host. While possessing a living host, you can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time. you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</text>
 				<text>	Each time the host takes damage during a turn where you are controlling it this way, it makes a new Charisma saving throw against your possession. If the saving throw succeeds, the possession ends.</text>
 			</feature>
+		</autolevel>
+				<autolevel level="19" scoreImprovement="YES">
 		</autolevel>
 		<autolevel level="20">
 			<feature>
