@@ -81,7 +81,7 @@ class XMLCombiner(object):
         elements = [element for categories in items.values() for element in categories.values()]
         # for element in elements:
         #     print(u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class')))
-        elements.sort(key=lambda el: "{0}/{1}".format(el.tag, el.findtext('name') or el.get('class')))
+        elements.sort(key=lambda element: (element.tag, element.findtext('name') or element.get('class')))
 
         # drop <subclass> elements etc, FC5 doesn't recognize them and will treat <feature>s in them as <feat>s
         self.roots[0][:] = [element for element in elements
