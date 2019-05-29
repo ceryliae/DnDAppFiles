@@ -11,13 +11,14 @@ You can review optional parameters (such separating subclasses into separate 'cl
     $ python create_compendiums.py -h
 
 """
-from xml.etree import ElementTree as et
-from glob import glob
+import argparse
+import copy
 import fnmatch
 import os
 import re
-import argparse
-import copy
+
+from glob import glob
+from xml.etree import ElementTree as et
 from xml.etree.ElementTree import ParseError
 
 COMPENDIUM = 'Compendiums/{category} Compendium.xml'
@@ -43,8 +44,8 @@ class XMLCombiner(object):
         try:
             return et.parse(filename)
         except ParseError as pe:
-            print filename
-            print pe
+            print(filename)
+            print(pe)
             raise
 
     def remove_excludes(self):
@@ -70,7 +71,7 @@ class XMLCombiner(object):
 
     def combine_templates(self, output_path):
         """ Finds Base/Sub class nodes and combines into a Class Compendium"""
-        print "Compiling to {0}".format(output_path)
+        print("Compiling to {0}".format(output_path))
 
         items = self.remove_duplicates()
         self.compile_bases(items)
@@ -79,8 +80,8 @@ class XMLCombiner(object):
         # flatten out items for adding back into root
         elements = [element for categories in items.values() for element in categories.values()]
         # for element in elements:
-        #     print u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class'))
-        elements.sort(key=lambda el: u"{0}/{1}".format(el.tag, el.findtext('name') or el.get('class')))
+        #     print(u"|{0}/{1}|".format(element.tag, element.findtext('name') or element.get('class')))
+        elements.sort(key=lambda element: (element.tag, element.findtext('name') or element.get('class')))
 
         # drop <subclass> elements etc, FC5 doesn't recognize them and will treat <feature>s in them as <feat>s
         self.roots[0][:] = [element for element in elements
@@ -113,8 +114,8 @@ class XMLCombiner(object):
                 else:
                     name = element.findtext('name')
                     if name in attribution[element.tag]:
-                        print 'Duplicate {0} named {1} [{2} => {3}]'.format(element.tag, name,
-                                                                            attribution[element.tag][name], filename)
+                        print('Duplicate {0} named {1} [{2} => {3}]'.format(element.tag, name,
+                                                                            attribution[element.tag][name], filename))
                     attribution[element.tag][name] = filename
                     items[element.tag][name] = element
 
@@ -145,7 +146,7 @@ class XMLCombiner(object):
         for name, element in items['baseclass'].items():
             if args.basetype_format == 'complete':  # else 'none' to not include a full class
                 if name in items['class']:
-                    print 'Duplicate'  # should be redundant
+                    print('Duplicate')  # should be redundant
                 complete_class = et.fromstring('<class name="{0}"></class>'.format(name))
                 complete_class.extend(list(element))
                 items['class'][name] = complete_class
@@ -160,7 +161,7 @@ class XMLCombiner(object):
 
     def compile_subs(self, items):
         # combine subclasses with classes
-        for name, element in sorted(items['subclass'].iteritems()):
+        for name, element in sorted(items['subclass'].items()):
             if args.basetype_format == 'complete':  # else 'none' to not include a full class
                 base_name = element.get('baseclass')
 
@@ -172,7 +173,7 @@ class XMLCombiner(object):
                     if base_name not in c_name:
                         continue
                     if c_name not in items['baseclass']:
-                        print 'Missing baseclass {0} for {1}'.format(c_name, name)
+                        print('Missing baseclass {0} for {1}'.format(c_name, name))
 
                     complete_class = items['class'][c_name]
                     complete_class.extend(list(element))
@@ -196,7 +197,7 @@ class XMLCombiner(object):
         :param output_path: filepath in with the result will be stored.
 
         """
-        print "Compiling to {0}".format(output_path)
+        print("Compiling to {0}".format(output_path))
         items = []
         for r in self.roots:
             for element in r:
@@ -208,7 +209,7 @@ class XMLCombiner(object):
         elements = [item[-1] for i, item in enumerate(items)
                     if not i or item[0] != items[i-1][0]]
 
-        print 'Removed {0} duplicate(s) from {1}'.format((len(items) - len(elements)), output_path)
+        print('Removed {0} duplicate(s) from {1}'.format((len(items) - len(elements)), output_path))
 
         self.roots[0][:] = elements
         return self.files[0].write(output_path, encoding='UTF-8')
@@ -240,7 +241,7 @@ def create_category_compendiums():
                 filenames.append(os.path.join(root, filename))
         output_path = COMPENDIUM.format(category=category)
 
-        """build UA compendium, but exclude from Full unless included"""
+        # Build UA compendium, but exclude from Full unless included
         if category != 'Unearthed Arcana' or 'Unearthed Arcana' in args.includes:
             output_paths.append(output_path)
         XMLCombiner(filenames).combine_templates(output_path)
@@ -277,14 +278,14 @@ def create_full_compendium():
     """Create the category compendiums and combine them into full compendium"""
 
     # create the Compendiums directory if it doesn't already exist
-    print "Making sure compendiums directory exists..."
+    print("Making sure compendiums directory exists...")
 
     if not os.path.exists("Compendiums"):
-        print "Making Compendiums directory"
+        print("Making Compendiums directory")
         try:
             os.makedirs("Compendiums")
         except OSError:
-            print "Error making Compendiums directory"
+            print("Error making Compendiums directory")
             return
 
     class_paths = create_class_compendiums()
@@ -353,7 +354,7 @@ name for the final combined Compendium, defaults to Full or Limited if using --i
 
     args = parser.parse_args()
 
-    print "Arguments: {0}".format(vars(args))
+    print("Arguments: {0}".format(vars(args)))
 
     # includes will override excludes if homebrew is in both
     if 'HB' in args.excludes and 'Homebrew' in args.includes:
