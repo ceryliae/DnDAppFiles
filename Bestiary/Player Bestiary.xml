@@ -671,7 +671,7 @@
 		<cr>4</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: </text>
+			<text>The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:</text>
 			<text/>
 			<text>At will: detect evil and good, detect magic, detect thoughts</text>
 			<text>3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</text>
@@ -853,7 +853,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components: </text>
+			<text>The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:</text>
 			<text/>
 			<text>At will: druidcraft</text>
 			<text>3/day each: entangle, goodberry</text>
@@ -911,8 +911,9 @@
 			<text>When the mephit dies, it explodes in a burst of dust. Each creature within 5 ft. of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.</text>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (1/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: sleep</text>
 		</trait>
 		<action>
 			<name>Claws</name>
@@ -1319,12 +1320,12 @@
 		</trait>
 		<action>
 			<name>Slam</name>
-			<text>Melee Weapon Attack: +8 to hit, reach 5 ft ., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.</text>
 			<attack>Slam|8|2d6+5</attack>
 		</action>
 		<action>
 			<name>Animate Boulders (1/Day)</name>
-			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell) .</text>
+			<text>The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell).</text>
 		</action>
 	</monster>
 	<monster>
@@ -2397,7 +2398,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components: </text>
+			<text>The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:</text>
 			<text/>
 			<text>At will: dancing lights, minor illusion, vicious mockery</text>
 		</trait>
@@ -2412,14 +2413,13 @@
 		</trait>
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
-			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
-			<text/>
-			<text>• 1st level (4 slots): identify, ray of sickness</text>
-			<text>• 2nd level (3 slots): hold person, locate object</text>
-			<text>• 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
-			<text>• 4th level (3 slots): phantasmal killer, polymorph</text>
-			<text>• 5th level (2 slots): contact other plane, scrying</text>
-			<text>• 6th level (1 slot): eye bite</text>
+			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:</text>
+			<text>1st level (4 slots): identify, ray of sickness</text>
+			<text>2nd level (3 slots): hold person, locate object</text>
+			<text>3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
+			<text>4th level (3 slots): phantasmal killer, polymorph</text>
+			<text>5th level (2 slots): contact other plane, scrying</text>
+			<text>6th level (1 slot): eyebite</text>
 			<text/>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
@@ -2562,8 +2562,9 @@
 			<text>While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.</text>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (1/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: fog cloud</text>
 		</trait>
 		<action>
 			<name>Claws</name>
@@ -2620,7 +2621,7 @@
 		</trait>
 		<action>
 			<name>Sting (Bite in Beast Form)</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft ., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Sting/Bite|5|1d4+3</attack>
 		</action>
 		<action>
@@ -2834,12 +2835,13 @@
 			<text>While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.</text>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (1/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: heat metal</text>
 		</trait>
 		<action>
 			<name>Claws</name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft ., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.</text>
 			<attack>Claws|3|1d4+1+1d4</attack>
 		</action>
 		<action>
@@ -3211,7 +3213,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component: </text>
+			<text>The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component:</text>
 			<text/>
 			<text>At will: druidcraft</text>
 			<text>1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep</text>
@@ -3427,7 +3429,7 @@
 		<cr>1</cr>
 		<trait>
 			<name>Shapechanger</name>
-			<text>The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form . Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed . It reverts to its true form if it dies.</text>
+			<text>The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -3439,7 +3441,7 @@
 		</trait>
 		<action>
 			<name>Claw (Bite in Beast Form)</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft ., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 			<attack>Claw/Bite|4|1d4+3</attack>
 		</action>
 		<action>
@@ -3798,14 +3800,13 @@
 		</trait>
 		<trait>
 			<name>Shared Spellcasting (Coven Only)</name>
-			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: </text>
-			<text/>
-			<text>• 1st level (4 slots): identify, ray of sickness</text>
-			<text>• 2nd level (3 slots): hold person, locate object</text>
-			<text>• 3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
-			<text>• 4th level (3 slots): phantasmal killer, polymorph</text>
-			<text>• 5th level (2 slots): contact other plane, scrying</text>
-			<text>• 6th level (1 slot): eye bite</text>
+			<text>While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:</text>
+			<text>1st level (4 slots): identify, ray of sickness</text>
+			<text>2nd level (3 slots): hold person, locate object</text>
+			<text>3rd level (3 slots): bestow curse, counterspell, lightning bolt</text>
+			<text>4th level (3 slots): phantasmal killer, polymorph</text>
+			<text>5th level (2 slots): contact other plane, scrying</text>
+			<text>6th level (1 slot): eyebite</text>
 			<text/>
 			<text>For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.</text>
 		</trait>
@@ -3908,8 +3909,9 @@
 			<text>When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute.</text>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (1/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast dancing lights, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: dancing lights</text>
 		</trait>
 		<action>
 			<name>Claws</name>
@@ -3918,7 +3920,7 @@
 		</action>
 		<action>
 			<name>Cinder Breath (Recharge 6)</name>
-			<text>The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the mephit's next turn .</text>
+			<text>The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the mephit's next turn.</text>
 		</action>
 		<action>
 			<name>Variant: Summon Mephits (1/Day)</name>
@@ -4025,8 +4027,9 @@
 			<attack>Death Burst||1d8</attack>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (1/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: blur</text>
 		</trait>
 		<action>
 			<name>Claws</name>
@@ -4162,7 +4165,7 @@
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
-			<text>The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components: </text>
+			<text>The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:</text>
 			<text/>
 			<text>At will: detect evil and good, druidcraft, pass without trace</text>
 			<text>1/day each: calm emotions, dispel evil and good, entangle</text>
@@ -4181,12 +4184,12 @@
 		</action>
 		<action>
 			<name>Hooves</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
 			<attack>Hooves|7|2d6+4</attack>
 		</action>
 		<action>
 			<name>Horn</name>
-			<text>Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
 			<attack>Horn|7|1d8+4</attack>
 		</action>
 		<action>

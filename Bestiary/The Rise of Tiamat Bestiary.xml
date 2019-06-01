@@ -335,8 +335,9 @@
 			<text>When Tiamat drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Nine Hells, and she is unable to take physical form for a time.</text>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (3/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>Tiamat can innately cast divine word (spell save DC 26). Her spellcasting ability is Charisma.</text>
+			<text>3/day: divine word</text>
 		</trait>
 		<trait>
 			<name>Legendary Resistance (5/Day)</name>
@@ -408,6 +409,7 @@
 			<text>Tiamat breathes an icy blast in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one.</text>
 			<attack>Cold Breath||16d8</attack>
 		</legendary>
-		<spells>divine word</spells>
+		<spellAbility>Charisma</spellAbility>
+		<spells>Divine Word</spells>
 	</monster>
 </compendium>

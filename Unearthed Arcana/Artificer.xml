@@ -167,7 +167,7 @@
 				<text>Spellcasting Ability</text>
 				<text>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</text>
 				<text>Spellcasting Focus</text>
-				<text>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, "Equipment," in the Player's Handbook for various arcane focus options.</text>
+				<text>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, "Equipment", in the Player's Handbook for various arcane focus options.</text>
 			</feature>
 			<feature optional="YES">
 				<name>Alchemist: Additional Alchemical Formula</name>
@@ -1400,7 +1400,7 @@
 		<text>If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.</text>
 		<text>If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table, determine it randomly, or create an effect.</text>
 		<text/>
-		<text>d100 — Effect: </text>
+		<text>d100 — Effect:</text>
 		<text>01 — 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take Sd6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour.</text>
 		<text>2-10 — A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (DM's choice) 30 feet into the air for 1d12 rounds.</text>
 		<text>11-20 — A treant sprouts (see the Monster Manual for statistics). There's a 50 percent chance that the treant is chaotic evil and attacks.</text>
@@ -1561,13 +1561,15 @@
 	<item>
 		<name>Gloves of Missile Snaring</name>
 		<type>W</type>
+		<magic>1</magic>
+		<rarity>Uncommon</rarity>
 		<text>Rarity: Uncommon</text>
 		<text>Requires Attunement</text>
 		<text/>
-		<text>These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 +your Dexterity modifier. provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.</text>
+		<text>These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.</text>
 		<text/>
 		<text>Source: Dungeon Master's Guide, page 172</text>
-		<roll>1d10+%2</roll>
+		<roll>1d10+DEX</roll>
 	</item>
 	<item>
 		<name>Gloves of Swimming and Climbing</name>

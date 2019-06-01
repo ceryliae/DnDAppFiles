@@ -30,15 +30,15 @@
 			<proficiency></proficiency>
 			<special></special>
 			<modifier></modifier>
-			<text>Armor: </text>
+			<text>Armor:</text>
 			<text /><!--this is a line break in the text block-->
-			<text>Weapons: </text>
+			<text>Weapons:</text>
 			<text />
-			<text>Tools: </text>
+			<text>Tools:</text>
 			<text />
-			<text>Saving Throws: </text>
+			<text>Saving Throws:</text>
 			<text />
-			<text>Skills: </text>
+			<text>Skills:</text>
 		</feature>
 		<feature>
 			<name>Starting Equipment</name>
@@ -47,11 +47,11 @@
 			<modifier></modifier>
 			<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
 			<text />
-			<text>• </text>
+			<text>•</text>
 			<text />
-			<text>• </text>
+			<text>•</text>
 			<text />
-			<text>• </text>
+			<text>•</text>
 		</feature>
 		<feature>
 			<name></name>
@@ -61,11 +61,11 @@
 			<text></text>
 		</feature>
 		<feature>
-		  <!-- A nested feature-in-a-feature gets loaded as a 'feat' -->
-		  <feature>
-			<name></name>
-			<text></text>
-		  </feature>
+			<!-- A nested feature-in-a-feature gets loaded as a 'feat' -->
+			<feature>
+				<name></name>
+				<text></text>
+			</feature>
 		</feature>
 	</autolevel>
 	<autolevel level="2">
@@ -386,9 +386,11 @@
 		<name>Steam Mephit</name>
 		<size>1</size>
 		<type>elemental</type>
-		<alignment>neutral evil</alignment>	<hpMax>21</hpMax>
+		<alignment>neutral evil</alignment>
+		<hpMax>21</hpMax>
 		<hpCurrent>1</hpCurrent>
-		<speed>30 ft., fly 30 ft.</speed>	<abilities>5,11,10,11,10,12,</abilities>
+		<speed>30 ft., fly 30 ft.</speed>
+		<abilities>5,11,10,11,10,12,</abilities>
 		<immune>fire, poison</immune> <!-- serialization has literal \n\t -->
 		<conditionImmune>poisoned</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -407,8 +409,9 @@
 			</attack>
 		</trait>
 		<trait>
-			<name>Innate Spellcasting (1/Day)</name>
+			<name>Innate Spellcasting</name>
 			<text>The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.</text>
+			<text>1/day: blur</text>
 		</trait>
 		<action>
 			<name>Claws</name>
