@@ -37,7 +37,7 @@ def find_spells(homebrew=False, verbose=False):
         for spell_name in root.findall('./spell/name'):
             spell_names.append(spell_name.text)
 
-    # Checks
+    # Check for duplicate spell names (case insensitively)
     if len(spell_names) != len(set(spell_name.casefold() for spell_name in spell_names)):
         print('Duplicate spells were found!')
 
@@ -47,9 +47,11 @@ def find_spells(homebrew=False, verbose=False):
 def fix_bestiary_spells(homebrew=False, verbose=False, dry_run=False):
     spell_names = find_spells(homebrew=homebrew, verbose=verbose)
 
-    bestiary_sources = glob('Bestiary/*.xml')
+    # Do not fix official monsters when including homebrew spells
     if homebrew:
-        bestiary_sources += glob('Homebrew/Monsters/*.xml')
+        bestiary_sources = glob('Homebrew/Monsters/*.xml')
+    else:
+        bestiary_sources = glob('Bestiary/*.xml')
 
     if verbose:
         # List files which will be fixed
@@ -61,7 +63,7 @@ def fix_bestiary_spells(homebrew=False, verbose=False, dry_run=False):
         original_content = bestiary_content
         for spell_name in spell_names:
             bestiary_content = re.sub(
-                r'(<spells(>|.*, )){spell_name}((, .*|<)/spells>)'.format(spell_name=spell_name),
+                r'(<spells(>|.+, )){spell_name}((, .+|<)/spells>)'.format(spell_name=spell_name),
                 r'\1{spell_name}\3'.format(spell_name=spell_name),
                 bestiary_content,
                 flags=re.IGNORECASE
@@ -86,13 +88,50 @@ def fix_bestiary_spells(homebrew=False, verbose=False, dry_run=False):
         print('Dry run, did not write results back to files')
 
 
+def find_unmatched_spells(homebrew=False, verbose=False):
+    spell_names = find_spells(homebrew=homebrew, verbose=verbose)
+
+    # Do not check official monsters when including homebrew spells
+    if homebrew:
+        bestiary_sources = glob('Homebrew/Monsters/*.xml')
+    else:
+        bestiary_sources = glob('Bestiary/*.xml')
+
+    unmatched_spells = set()
+    for bestiary_source in bestiary_sources:
+        root = et.parse(bestiary_source)
+
+        for monster_spells_block in root.findall('./monster/spells'):
+            if monster_spells_block.text is not None:
+                monster_spells = monster_spells_block.text.split(', ')
+            else:
+                continue
+
+            # Check for duplicate spells
+            if len(monster_spells) != len(set(monster_spell.casefold() for monster_spell in monster_spells)):
+                print('Monster with duplicate spells was found:')
+                print(monster_spells_block.text)
+
+            monster_spells = set(monster_spells)
+            unmatched_spells.update(monster_spells.difference(spell_names))
+
+    if unmatched_spells:
+        print('Found monster spell(s) not in the spell lists:\n  {}'.format('\n  '.join(unmatched_spells)))
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='Fix spells in Bestiaries using the spell sources.',
     )
-    parser.add_argument('--homebrew', action='store_true', help='Include homebrew spells and bestiary')
     parser.add_argument('--verbose', action='store_true', help='Be more verbose while processing')
     parser.add_argument('--dry-run', action='store_true', help='Do not write fixed content back to files')
     args = parser.parse_args()
 
-    fix_bestiary_spells(homebrew=args.homebrew, verbose=args.verbose, dry_run=args.dry_run)
+    # Fix official monsters using official spell lists
+    fix_bestiary_spells(homebrew=False, verbose=args.verbose, dry_run=args.dry_run)
+    # Now fix homebrew monsters using both official and homebrew spell lists
+    fix_bestiary_spells(homebrew=True, verbose=args.verbose, dry_run=args.dry_run)
+
+    # Verify that no monster has a spell which is not in the spell lists
+    find_unmatched_spells(homebrew=False, verbose=args.verbose)
+    find_unmatched_spells(homebrew=True, verbose=args.verbose)
