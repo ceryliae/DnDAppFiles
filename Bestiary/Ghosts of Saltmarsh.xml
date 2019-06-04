@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!--Ghosts of Saltmarsh-->
+<monster>
+	<name>Amphisbaena</name>
+	<size>M</size>
+	<type>monstrosity</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>unaligned</alignment>
+	<ac>14</ac>
+	<hp>11 (2d8 + 2)</hp>
+	<speed>30 ft., swim 30 ft.</speed>
+	<str>14</str>
+	<dex>18</dex>
+	<con>12</con>
+	<int>3</int>
+	<wis>10</wis>
+	<cha>3</cha>
+	<save></save>
+	<skill>Perception +2</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>blindsight 10 ft.</senses>
+	<passive>12</passive>
+	<languages>—</languages>
+	<cr>1/2</cr>
+	<trait>
+		<name>Two Heads</name>
+		<text>The amphisbaena has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The amphisbaena makes two bite attacks.</text>
+	</action>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 3 (1d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+		<attack>Bite|6|1d4+4</attack>
+		<attack>Poison||1d6</attack>
+	</action>
+</monster>
+<monster>
+	<name>Assassin Vine</name>
+	<size>L</size>
+	<type>plant</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>unaligned</alignment>
+	<ac>13 (natural armor)</ac>
+	<hp>85 (10d10 + 30)</hp>
+	<speed>5 ft., climb 5 ft.</speed>
+	<str>18</str>
+	<dex>10</dex>
+	<con>16</con>
+	<int>1</int>
+	<wis>10</wis>
+	<cha>1</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist>cold, fire</resist>
+	<immune></immune>
+	<conditionImmune>blinded, deafened, exhaustion, prone</conditionImmune>
+	<senses>blindsight 30 ft.</senses>
+	<passive>10</passive>
+	<languages>—</languages>
+	<cr>3</cr>
+	<trait>
+		<name>False Appearance</name>
+		<text>While the assassin vine remains motionless, it is indistinguishable from a normal plant.</text>
+	</trait>
+	<action>
+		<name>Constrict</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 20 ft., one creature. Hit: The target takes 11 (2d6 + 4) bludgeoning damage, and it is grappled (escape DC 14). Until this grapple ends, the target is restrained, and it takes 21 (6d6) poison damage at the start of each of its turns. The vine can constrict only one target at a time.</text>
+		<attack>Constrict|6|2d6+4</attack>
+		<attack>Poison||6d6</attack>
+	</action>
+	<action>
+		<name>Entangling Vines</name>
+		<text>The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.</text>
+	</action>
+</monster>
+	<monster>
+		<name>Bard</name>
+		<size>M</size>
+		<type>humanoid (any race)</type>
+		<description>Source: Ghosts of Saltmarsh</description>
+		<alignment>any alignment</alignment>
+		<ac>15 (chain shirt)</ac>
+		<hp>44 (8d8+8)</hp>
+		<speed>30 ft.</speed>
+		<str>11</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<save>Dex +4, Wis +3</save>
+		<skill>Acrobatics +4, Perception +5, Performance +6</skill>
+		<resist />
+		<vulnerable />
+		<immune />
+		<conditionImmune />
+		<senses />
+		<passive>15</passive>
+		<languages>any two languages</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Spellcasting</name>
+			<text>The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:</text>
+			<text>Cantrips (at will): friends, mage hand, vicious mockery</text>
+			<text>1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave</text>
+			<text>2nd level (3 slots): invisibility, shatter</text>
+		</trait>
+		<trait>
+			<name>Song of Rest</name>
+			<text>The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.</text>
+		</trait>
+		<trait>
+			<name>Taunt (2/day)</name>
+			<text>The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.</text>
+		</trait>
+		<action>
+			<name>Shortsword</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Shortbow</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage.</text>
+			<attack>Shortbow|4|1d6+2</attack>
+		</action>
+		<spells>friends, mage hand, vicious mockery, charm person, healing word, heroism, sleep, thunderwave, invisibility, shatter</spells>
+		<slots>4,3,0,0,0,0,0,0,0</slots>
+	</monster>
+	<monster>
+		<name>Bodak</name>
+		<size>M</size>
+		<type>undead</type>
+		<description>Source: Volo's Guide to Monsters</description>
+		<alignment>chaotic evil</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>58 (9d8+18)</hp>
+		<speed>30 ft.</speed>
+		<str>15</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>7</int>
+		<wis>12</wis>
+		<cha>12</cha>
+		<save />
+		<skill>Perception +4, Stealth +6</skill>
+		<resist>cold, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<vulnerable />
+		<immune>lightning, poison</immune>
+		<conditionImmune>charmed, frightened, poisoned</conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>14</passive>
+		<languages>Abyssal, the languages it knew in life</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Aura of Annihilation</name>
+			<text>The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect.</text>
+		</trait>
+		<trait>
+			<name>Death Gaze</name>
+			<text>When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.</text>
+			<text>	Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so. it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw.</text>
+		</trait>
+		<trait>
+			<name>Sunlight Hypersensitivity</name>
+			<text>The bodak takes 5 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</text>
+		</trait>
+		<action>
+			<name>Fist</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage plus 9 (2d8) necrotic damage.</text>
+			<attack>Fist|5|1d4+2+2d8</attack>
+			<attack />
+		</action>
+		<action>
+			<name>Withering Gaze</name>
+			<text>One creature that the bodak can see within 60 feet of it must make a DC 13 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Withering Gaze||4d10</attack>
+		</action>
+		<spells />
+	</monster>
+<monster>
+	<name>BUllywug Croaker</name>
+	<size>M</size>
+	<type>humanoid (bullywug)</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>neutral evil</alignment>
+	<ac>15 (hide armor, shield)</ac>
+	<hp>33 (6d8 + 6)</hp>
+	<speed>20 ft., swim 40 ft.</speed>
+	<str>14</str>
+	<dex>12</dex>
+	<con>12</con>
+	<int>7</int>
+	<wis>15</wis>
+	<cha>10</cha>
+	<save>Con +3</save>
+	<skill>Perception +4, Stealth +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive>14</passive>
+	<languages>Bullywug</languages>
+	<cr>2</cr>
+	<trait>
+		<name>Amphibious</name>
+		<text>The croaker can breathe air and water.</text>
+	</trait>
+	<trait>
+		<name>Speak with Frogs and Toads</name>
+		<text>The croaker can communicate simple concepts to frogs and toads when it speaks in Bullywug.</text>
+	</trait>
+	<trait>
+		<name>Standing Leap</name>
+		<text>The croaker's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</text>
+	</trait>
+	<trait>
+		<name>Swamp Camouflage</name>
+		<text>The croaker has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</text>
+	</trait>
+	<action>
+		<name>Spear</name>
+		<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</text>
+		<attack>Spear (1H)|4|1d6+2</attack>
+		<attack>Spear (2H)|4|1d8+2</attack>
+	</action>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+		<attack>Bite|4|1d6+2</attack>
+	</action>
+	<action>
+		<name>Glaaar-pat (3/Day)</name>
+		<text>The croaker sings a song of marshy doom. Each chosen creature within 30 feet of the croaker that can hear the song must make a DC 12 Wisdom saving throw. taking 9 (2d8) psychic damage on a failed save. or half as much damage on a successful one. A creature that fails this saving throw also has disadvantage on Constitution saving throws until the end of its next turn.</text>
+		<attack>Psychic Damage||2d8</attack>
+	</action>
+	<action>
+		<name>Rooooo-glog (1/Day)</name>
+		<text>The croaker sings an ode to an elder froghemoth. Each bullywug within 30 feet of the croaker that can hear the song gains 10 temporary hit points.</text>
+	</action>
+</monster>
+<monster>
+	<name>Bullywug Royal</name>
+	<size>M</size>
+	<type>humanoid (bullywug)</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>neutral evil</alignment>
+	<ac>15 (hide armor, shield)</ac>
+	<hp>52 (8d8 + 16)</hp>
+	<speed>20 ft., swim 40 ft.</speed>
+	<str>16</str>
+	<dex>12</dex>
+	<con>14</con>
+	<int>10</int>
+	<wis>11</wis>
+	<cha>14</cha>
+	<save>Str +5, Dex +3</save>
+	<skill>Athletics +5, Intimidation +4, Stealth +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses></senses>
+	<passive>10</passive>
+	<languages>Bullywug</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Amphibious</name>
+		<text>The royal can breathe air and water.</text>
+	</trait>
+	<trait>
+		<name>Brute</name>
+		<text>A melee weapon deals one extra die of its damage when the royal hits with it (included in the attack).</text>
+	</trait>
+	<trait>
+		<name>Frog Rider</name>
+		<text>The royal has advantage on melee attacks made while riding a frog mount.</text>
+	</trait>
+	<trait>
+		<name>Speak with Frogs and Toads</name>
+		<text>The royal can communicate simple concepts to frogs and toads when it speaks in Bullywug.</text>
+	</trait>
+	<trait>
+		<name>Standing Leap</name>
+		<text>The royal's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</text>
+	</trait>
+	<trait>
+		<name>Swamp Camouflage</name>
+		<text>The royal has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The royal makes two attacks: one with its royal spear and one with its bite.</text>
+	</action>
+	<action>
+		<name>Royal Spear</name>
+		<text>Melee or Ranged Weapon Attack: +5 to hit, reach 10ft. or range 20/60 ft., one target. Hit: 10 (2d6+ 3) piercing damage, or 12 (2d8 + 3) piercing damage if used with two hands to make a melee attack. If the target is a Medium or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+		<attack>Royal Spear (1H)|5|2d6+3</attack>
+		<attack>Royal Spear (2H)|5|2d8+3</attack>
+	</action>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+		<attack>Bite|5|1d6+3</attack>
+	</action>
+	<action>
+		<name>Croaked Degree (1/Day)</name>
+		<text>The royal makes a loud pronouncement. Each bullywug within 60 feet of the royal that can hear the pronouncement has advantage on its next attack roll.</text>
+	</action>
+</monster>
+<monster>
+	<name>Deep Scion</name>
+	<size>M</size>
+	<type>humanoid (shapechanger)</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>neutral evil</alignment>
+	<ac>11</ac>
+	<hp>67 (9d8 + 27)</hp>
+	<speed>30 ft. (20 ft. and swim 40 ft. in hybrid form)</speed>
+	<str>18</str>
+	<dex>13</dex>
+	<con>16</con>
+	<int>10</int>
+	<wis>12</wis>
+	<cha>14</cha>
+	<save>Wis +3, Cha +4</save>
+	<skill>Deception +6, Insight +3, Sleight of Hand +3, Stealth +3</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune></immune>
+	<conditionImmune></conditionImmune>
+	<senses>darkvision 120 ft.</senses>
+	<passive>11</passive>
+	<languages>Aquan, Common, thieves' cant</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Shapechanger</name>
+		<text>The deep scion can use its action to polymorph into a humanoid-piscine hybrid form, or back into its true form. Its statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. The deep scion reverts to its true form if it dies.</text>
+	</trait>
+	<trait>
+		<name>Amphibious (Hybrid Form Only)</name>
+		<text>The deep scion can breathe air and water.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>In humanoid form, the deep scion makes two melee attacks. In hybrid form, the deep scion makes three attacks: one with its bite and two with its claws.</text>
+	</action>
+	<action>
+		<name>Battleaxe (Humanoid Form Only)</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage 1f used with two hands.</text>
+		<attack>Battleaxe (1H)|6|1d8+4</attack>
+		<attack>Battleaxe (2H)|6|1d10+4</attack>
+	</action>
+	<action>
+		<name>Bite (Hybrid Form Only)</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) piercing damage.</text>
+		<attack>Bite|6|1d4+4</attack>
+	</action>
+	<action>
+		<name>Claw (Hybrid Form Only)</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</text>
+		<attack>Claw|6|1d6+4</attack>
+	</action>
+	<action>
+		<name>Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)</name>
+		<text>The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw or be stunned until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are 1n the same body of water.</text>
+	</action>
+</monster>
+</compendium>
