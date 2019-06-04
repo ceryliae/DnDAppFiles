@@ -374,4 +374,239 @@
 		<text>The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw or be stunned until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are 1n the same body of water.</text>
 	</action>
 </monster>
+<monster>
+	<name>Drowned Ascetic</name>
+	<size>M</size>
+	<type>undead</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>chaotic evil</alignment>
+	<ac>13</ac>
+	<hp>75 (10d8 + 30)</hp>
+	<speed>30 ft.</speed>
+	<str>12</str>
+	<dex>16</dex>
+	<con>16</con>
+	<int>3</int>
+	<wis>9</wis>
+	<cha>5</cha>
+	<save>Dex +5</save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>9</passive>
+	<languages>understands the languages it knew in life but can't speak</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Bottom Treader</name>
+		<text>The drowned ascetic cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
+	</trait>
+	<trait>
+		<name>Bound Together</name>
+		<text>The drowned ascetic shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+	</trait>
+	<trait>
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the drowned ascetic to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success. the drowned ascetic drops to 1 hit point instead.</text>
+	</trait>
+	<trait>
+		<name>Bluerot</name>
+		<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+		<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+		<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+		<roll>4d8</roll>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The drowned ascetic makes three unarmed strikes.</text>
+	</action>
+	<action>
+		<name>Unarmed Strike</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the" Bluerot" sidebar).</text>
+		<attack>Unarmed Strike|5|1d8+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>Drowned Assassin</name>
+	<size>M</size>
+	<type>undead</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>chaotic evil</alignment>
+	<ac>14 (leather armor)</ac>
+	<hp>67 (9d8 + 27)</hp>
+	<speed>30 ft.</speed>
+	<str>15</str>
+	<dex>16</dex>
+	<con>16</con>
+	<int>9</int>
+	<wis>9</wis>
+	<cha>16</cha>
+	<save>Dex +5, Con +5</save>
+	<skill>Intimidation +5, Stealth +5</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>9</passive>
+	<languages>understands the languages it knew in life but can't speak</languages>
+	<cr>4</cr>
+	<trait>
+		<name>Bottom Treader</name>
+		<text>The drowned assassin cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
+	</trait>
+	<trait>
+		<name>Bound Together</name>
+		<text>The drowned assassin shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+	</trait>
+	<trait>
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the drowned assassin to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned assassin drops to 1 hit point instead.</text>
+	</trait>
+		<trait>
+		<name>Bluerot</name>
+		<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+		<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+		<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+		<roll>4d8</roll>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The drowned assassin makes two hand crossbow attacks or two dagger attacks. It can then take the Dash, Disengage, or Hide action.</text>
+	</action>
+	<action>
+		<name>Hand Crossbow</name>
+		<text>Ranged Weapon Attack: +5 to hit , range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+		<attack>Hand Crossbow|5|1d6+3+1d6</attack>
+	</action>
+	<action>
+		<name>Dagger</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 9 (2d8)poison damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+		<attack>Dagger|5|1d4+3+2d8</attack>
+	</action>
+	<action>
+		<name>Reveal (1/Day)</name>
+		<text>The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a DC 13 Wisdom saving throw or be frightened until the end of its next turn.</text>
+	</action>
+</monster>
+<monster>
+	<name>Drowned Blade</name>
+	<size>M</size>
+	<type>undead</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>chaotic evil</alignment>
+	<ac>10 (leather armor)</ac>
+	<hp>45 (6d8 + 18)</hp>
+	<speed>30 ft.</speed>
+	<str>16</str>
+	<dex>8</dex>
+	<con>16</con>
+	<int>3</int>
+	<wis>9</wis>
+	<cha>5</cha>
+	<save></save>
+	<skill></skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>9</passive>
+	<languages>understands the languages 1t knew in life but can't speak</languages>
+	<cr>2</cr>
+	<trait>
+		<name>Bottom Treader</name>
+		<text>The drowned blade cannot swim, and it sinks to the bottom of any body of water. It takes no penalties to its movement or attacks underwater. It is immune to the effects of being underwater at a depth greater than 100 feet.</text>
+	</trait>
+	<trait>
+		<name>Bound Together</name>
+		<text>The drowned blade shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+	</trait>
+	<trait>
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned blade drops to 1 hit point instead.</text>
+	</trait>
+<trait>
+		<name>Bluerot</name>
+		<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+		<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+		<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+		<roll>4d8</roll>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The drowned blade makes two rusted longsword attacks</text>
+	</action>
+	<action>
+		<name>Rusted Longsword</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the "Bluerot" sidebar).</text>
+		<attack>Rusted Longsword|5|1d8+3</attack>
+	</action>
+</monster>
+<monster>
+	<name>Drowned Master</name>
+	<size>M</size>
+	<type>undead</type>
+	<description>Source: Ghosts of Saltmarsh</description>
+	<alignment>chaotic evil</alignment>
+	<ac>14 (natural armor)</ac>
+	<hp>157 (21d8 + 63)</hp>
+	<speed>30 ft.</speed>
+	<str>17</str>
+	<dex>12</dex>
+	<con>16</con>
+	<int>9</int>
+	<wis>14</wis>
+	<cha>12</cha>
+	<save>Con +7, Wis +6</save>
+	<skill>Perception +10</skill>
+	<vulnerable></vulnerable>
+	<resist></resist>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60 ft.</senses>
+	<passive>20</passive>
+	<languages>understands the languages it knew in life but can't speak</languages>
+	<cr>9</cr>
+<trait>
+		<name>Bound Together</name>
+		<text>The drowned blade shares its mind with every other drowned one within 1 mile of it, and can communicate its thoughts and observations to them instantaneously and without limitation.</text>
+	</trait>
+	<trait>
+		<name>Cold Aura</name>
+		<text>At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 (1d10) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 (1d10) cold damage.</text>
+	</trait>
+	<trait>
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the drowned blade to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the drowned blade drops to 1 hit point instead.</text>
+	</trait>
+<trait>
+		<name>Bluerot</name>
+		<text>This disease target humanoids. While afflicted with bluerot, a victim grows grotesque blue boils on their face and back. This disease is carried by undead (including the drowned ones in Tammeraut's Fate), and victims most often acquire it through wounds caused by infected creatures.</text>
+		<text>	The disease's boils manifest in 1d4 hours, causing the victim's Constitution and Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed by a fever and tingling in the extremities. An infected creature is vulnerable to radiant damage and gains the ability to breathe underwater.</text>
+		<text>	At the end of each long rest, an infected creature makes a DC 12 Constitution saving throw. On a success, the victim regains 1 point of Constitution and 1 point of Charisma lost to the disease. If the infected creature regains all the points lost to the disease, it is cured. Other effects that raise the victim's ability scores do not cure the disease. On a failed saving throw, the victim takes 18 (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit points by this damage cannot regain hit points until the disease is cured, though it can be stabilized as normal.</text>
+		<roll>4d8</roll>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The drowned master makes two attacks: one with its greatsword and one with its Life-Draining Tentacle.</text>
+	</action>
+	<action>
+		<name>Greatsword</name>
+		<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 14 (4d6) cold damage, and the target must succeed on a DC 12 Constitution saving throw or contract bluerot (see the" Bluerot" sidebar).</text>
+		<attack>Greatsword|7|2d6+3+4d6</attack>
+	</action>
+	<action>
+		<name>Life-Draining Tentacle</name>
+		<text>Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0. This reduction lasts until the target finishes a long rest. On a failed save, the target also contracts bluerot (see the "Bluerot" sidebar).</text>
+		<attack>Life-Draining Tentacle|7|2d6+3</attack>
+	</action>
+	<action>
+		<name>Necrotic Ink (Recharge 5-6)</name>
+		<text>The drowned master discharges foul ink in front of itself in a 30-foot cone. Each creature caught in the ink must make a DC 15 Constitution saving throw, taking 27 (6d8) necrotic damage on a failed save or half as much damage on a successful one. A creature that fails this saving throw 1s blinded until the end of its next turn and contracts bluerot (see the "Bluerot" sidebar).</text>
+		<attack>Necrotic Ink (Recharge 5-6)||6d8</attack>
+	</action>
+</monster>
 </compendium>
