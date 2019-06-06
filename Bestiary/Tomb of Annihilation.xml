@@ -99,7 +99,23 @@
 			<attack>Disrupt Life||12d6</attack>
 		</legendary>
 	</monster>
-	<monster><name>Albino Dwarf Warrior</name><size>M</size><type>humanoid (dwarf)</type><description>Source: Tomb of Annihilation</description><alignment>any alignment</alignment><ac>13 (hide armor)</ac><hp>30 (4d8 + 12)</hp><speed>25 ft.</speed><str>13</str><dex>13</dex><con>17</con><int>12</int><wis>14</wis><cha>11</cha><save/><skill/>
+	<monster>
+		<name>Albino Dwarf Warrior</name>
+		<size>M</size>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Tomb of Annihilation</description>
+		<alignment>any alignment</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>30 (4d8 + 12)</hp>
+		<speed>25 ft.</speed>
+		<str>13</str>
+		<dex>13</dex>
+		<con>17</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>11</cha>
+		<save/>
+		<skill/>
 Perception +4, Stealth +3, Survival +4
 		<resist>poison</resist>
 		<immune/>
@@ -109,8 +125,15 @@ Perception +4, Stealth +3, Survival +4
 		<passive>14</passive>
 		<languages>Common, Dwarvish</languages>
 		<cr>1/4</cr>
-		<trait><name>Dwarven Resilience</name><text>The dwarf has advantage on saving throws against poison.</text></trait>
-		<action><name>Handaxe</name><text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text><attack>Handaxe|3|1d6+1</attack></action>
+		<trait>
+			<name>Dwarven Resilience</name>
+			<text>The dwarf has advantage on saving throws against poison.</text>
+		</trait>
+		<action>
+			<name>Handaxe</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Handaxe|3|1d6+1</attack>
+		</action>
 	</monster>
 	<monster>
 		<name>Aldani (Lobsterfolk)</name>
