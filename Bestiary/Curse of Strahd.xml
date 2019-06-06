@@ -3,7 +3,8 @@
 	<monster>
 		<name>Baba Lysaga</name>
 		<size>M</size>
-		<type>humanoid (human, shapechanger), curse of strahd</type>
+		<type>humanoid (human, shapechanger)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>120 (16d8+48)</hp>
@@ -39,7 +40,7 @@
 			<text>1st level (4 slots): detect magic, magic missile, sleep, witch bolt</text>
 			<text>2nd level (3 slots): crown of madness, enlarge/reduce, misty step</text>
 			<text>3rd level (3 slots): dispel magic, fireball, lightning bolt</text>
-			<text>4th level (3 slots): blight, Everard's black tentacles, polymorph</text>
+			<text>4th level (3 slots): blight, Evard's black tentacles, polymorph</text>
 			<text>5th level (2 slots): cloudkill, geas, scrying</text>
 			<text>6th level (1 slot): programmed illusion, true seeing</text>
 			<text>7th level (1 slot): finger of death, mirage arcane</text>
@@ -59,13 +60,14 @@
 			<name>Summon Swarms of Insects (Recharges after a Short or Long Rest)</name>
 			<text>Baba Lysaga summons 1d4 swarms of insects. A summoned swarm appears in an unoccupied space within 60 feet of Baba Lysaga and acts as her ally. It remains until it dies or until Baba Lysaga dismisses it as an action.</text>
 		</action>
-		<spells>acid splash, fire bolt, light, mage hand, prestidigitation, detect magic, magic missile, sleep, witch bolt, crown of madness, enlarge/reduce, misty step, dispel magic, fireball, lightning bolt, blight, Everard's black tentacles, polymorph, cloudkill, geas, scrying, programmed illusion, true seeing, finger of death, mirage arcane, power word stun</spells>
+		<spells>Acid Splash, Fire Bolt, Light, Mage Hand, Prestidigitation, Detect Magic, Magic Missile, Sleep, Witch Bolt, Crown of Madness, Enlarge/Reduce, Misty Step, Dispel Magic, Fireball, Lightning Bolt, Blight, Evard's Black Tentacles, Polymorph, Cloudkill, Geas, Scrying, Programmed Illusion, True Seeing, Finger of Death, Mirage Arcane, Power Word Stun</spells>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
 	</monster>
 	<monster>
 		<name>Baba Lysaga's Creeping Hut</name>
 		<size>G</size>
-		<type>construct, curse of strahd</type>
+		<type>construct</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>unaligned</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>263 (17d10+85)</hp>
@@ -118,7 +120,8 @@
 	<monster>
 		<name>Broom of Animated Attack</name>
 		<size>S</size>
-		<type>construct, curse of strahd</type>
+		<type>construct</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>17 (5d6)</hp>
@@ -170,7 +173,8 @@
 	<monster>
 		<name>Barovian Witch</name>
 		<size>M</size>
-		<type>humanoid (human), curse of strahd</type>
+		<type>humanoid (human)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>chaotic evil</alignment>
 		<ac>10</ac>
 		<hp>16 (3d8+3)</hp>
@@ -208,13 +212,14 @@
 			<text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.</text>
 			<attack>Dagger|2|1d4</attack>
 		</action>
-		<spells>mage hand, prestidigitation, ray of frost, ray of sickness, sleep, Tasha's hideous laughter, alter self, invisibility</spells>
+		<spells>Mage Hand, Prestidigitation, Ray of Frost, Ray of Sickness, Sleep, Tasha's Hideous Laughter, Alter Self, Invisibility</spells>
 		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Ezmerelda d'Avenir</name>
 		<size>M</size>
-		<type>humanoid (human), curse of strahd</type>
+		<type>humanoid (human)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>chaotic good</alignment>
 		<ac>17 (studded leather armor +1)</ac>
 		<hp>82 (11d8+33)</hp>
@@ -275,13 +280,14 @@
 			<name>Evil Eye (Recharges after a Short or Long Rest)</name>
 			<text>Ezmerelda targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 14), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Ezmerelda is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</text>
 		</action>
-		<spells>fire bolt, light, mage hand, prestidigitation, protection from evil and good, magic missile, shield, darkvision, knock, mirror image, clairvoyance, lightning bolt, magic circle, greater invisibility</spells>
+		<spells>Fire Bolt, Light, Mage Hand, Prestidigitation, Protection from Evil and Good, Magic Missile, Shield, Darkvision, Knock, Mirror Image, Clairvoyance, Lightning Bolt, Magic Circle, Greater Invisibility</spells>
 		<slots>4,3,3,1,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Guardian Portrait</name>
 		<size>M</size>
-		<type>construct, curse of strahd</type>
+		<type>construct</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>unaligned</alignment>
 		<ac>5 (natural armor)</ac>
 		<hp>22 (5d8)</hp>
@@ -320,12 +326,13 @@
 			<name>False Appearance</name>
 			<text>While the figure in the portrait remains motionless, it is indistinguishable from a normal painting.</text>
 		</trait>
-		<spells>counterspell, crown of madness, hypnotic pattern, telekinesis</spells>
+		<spells>Counterspell, Crown of Madness, Hypnotic Pattern, Telekinesis</spells>
 	</monster>
 	<monster>
 		<name>Izek Strazni</name>
 		<size>M</size>
-		<type>humanoid (human), curse of strahd</type>
+		<type>humanoid (human)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>neutral evil</alignment>
 		<ac>14 (studded leather armor)</ac>
 		<hp>112 (15d8+45)</hp>
@@ -370,7 +377,8 @@
 	<monster>
 		<name>Madam Eva</name>
 		<size>M</size>
-		<type>humanoid (human), curse of strahd</type>
+		<type>humanoid (human)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>10</ac>
 		<hp>88 (16d8+16)</hp>
@@ -398,7 +406,7 @@
 			<text>1st level (4 slots): bane, command, detect evil and good, protection from evil and good</text>
 			<text>2nd level (3 slots): lesser restoration, protection from poison, spiritual weapon</text>
 			<text>3rd level (3 slots): create food and water, speak with dead, spirit guardians</text>
-			<text>4th level (3 slots): divination, freedom of movement, guardians of faith</text>
+			<text>4th level (3 slots): divination, freedom of movement, guardian of faith</text>
 			<text>5th level (2 slots): greater restoration, raise dead</text>
 			<text>6th level (1 slot): find the path, harm, true seeing</text>
 			<text>7th level (1 slot): fire storm, regenerate</text>
@@ -417,13 +425,14 @@
 			<name>Evil Eye (Recharges after a Short or Long Rest)</name>
 			<text>Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 17), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Madam Eva is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</text>
 		</action>
-		<spells>light, mending, sacred flame, thaumaturgy, bane, command, detect evil and good, protection from evil and good, lesser restoration, protection from poison, spiritual weapon, create food and water, speak with dead, spirit guardians, divination, freedom of movement, guardians of faith, greater restoration, raise dead, find the path, harm, true seeing, fire storm, regenerate, earthquake</spells>
+		<spells>Light, Mending, Sacred Flame, Thaumaturgy, Bane, Command, Detect Evil and Good, Protection from Evil and Good, Lesser Restoration, Protection from Poison, Spiritual Weapon, Create Food and Water, Speak with Dead, Spirit Guardians, Divination, Freedom of Movement, Guardian of Faith, Greater Restoration, Raise Dead, Find the Path, Harm, True Seeing, Fire Storm, Regenerate, Earthquake</spells>
 		<slots>4,3,3,3,2,1,1,1,0</slots>
 	</monster>
 	<monster>
 		<name>Mongrelfolk</name>
 		<size>M</size>
-		<type>humanoid (mongrelfolk), curse of strahd</type>
+		<type>humanoid (mongrelfolk)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>any alignment</alignment>
 		<ac>11 (natural armor)</ac>
 		<hp>26 (4d8+8)</hp>
@@ -490,7 +499,8 @@
 	<monster>
 		<name>Phantom Warrior</name>
 		<size>M</size>
-		<type>undead, curse of strahd</type>
+		<type>undead</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>any alignment</alignment>
 		<ac>16</ac>
 		<hp>45 (6d8+18)</hp>
@@ -541,7 +551,8 @@
 	<monster>
 		<name>Pidlwick II</name>
 		<size>S</size>
-		<type>construct, curse of strahd</type>
+		<type>construct</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>neutral evil</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>10 (3d6)</hp>
@@ -581,7 +592,8 @@
 	<monster>
 		<name>Rahadin</name>
 		<size>M</size>
-		<type>humanoid (elf), curse of strahd</type>
+		<type>humanoid (elf)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>lawful evil</alignment>
 		<ac>18 (studded leather)</ac>
 		<hp>135 (18d8+54)</hp>
@@ -635,12 +647,13 @@
 			<text>Ranged Weapon Attack: +10 to hit, range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage plus 5 (2d4) poison damage.</text>
 			<attack>Poisoned Dart|10|1d4+6+2d4</attack>
 		</action>
-		<spells>misty step, phantom steed, magic weapon, nondetection</spells>
+		<spells>Misty Step, Phantom Steed, Magic Weapon, Nondetection</spells>
 	</monster>
 	<monster>
 		<name>Rictavio</name>
 		<size>M</size>
-		<type>humanoid (human), curse of strahd</type>
+		<type>humanoid (human)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>lawful good</alignment>
 		<ac>12 (leather armor)</ac>
 		<hp>77 (14d8+14)</hp>
@@ -688,13 +701,14 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage (wooden cane) or piercing damage (silvered sword).</text>
 			<attack>Sword Cane|4|1d6+1</attack>
 		</action>
-		<spells>guidance, light, mending, thaumaturgy, cure wounds, detect evil and good, protection from evil and good, sanctuary, augury, lesser restoration, protection from poison, magic circle, remove curse, speak with dead, death ward, freedom of movement, dispel evil and good</spells>
+		<spells>Guidance, Light, Mending, Thaumaturgy, Cure Wounds, Detect Evil and Good, Protection from Evil and Good, Sanctuary, Augury, Lesser Restoration, Protection from Poison, Magic Circle, Remove Curse, Speak with Dead, Death Ward, Freedom of Movement, Dispel Evil and Good</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Strahd's Animated Armor</name>
 		<size>M</size>
-		<type>construct, curse of strahd</type>
+		<type>construct</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>lawful evil</alignment>
 		<ac>21 (natural armor)</ac>
 		<hp>112 (15d8+45)</hp>
@@ -747,7 +761,8 @@
 	<monster>
 		<name>Strahd von Zarovich</name>
 		<size>M</size>
-		<type>undead (shapechanger), curse of strahd</type>
+		<type>undead (shapechanger)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>lawful evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>144 (17d8+68)</hp>
@@ -848,13 +863,14 @@
 			<name>Bite (Costs 2 Actions)</name>
 			<text>Strahd makes one bite attack.</text>
 		</legendary>
-		<spells>mage hand, prestidigitation, ray of frost, comprehend languages, fog cloud, sleep, detect thoughts, gust of wind, mirror image, animate dead, fireball, nondetection, blight, greater invisibility, polymorph, animate objects, scrying</spells>
+		<spells>Mage Hand, Prestidigitation, Ray of Frost, Comprehend Languages, Fog Cloud, Sleep, Detect Thoughts, Gust of Wind, Mirror Image, Animate Dead, Fireball, Nondetection, Blight, Greater Invisibility, Polymorph, Animate Objects, Scrying</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Strahd Zombie</name>
 		<size>M</size>
-		<type>undead, curse of strahd</type>
+		<type>undead</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>unaligned</alignment>
 		<ac>8</ac>
 		<hp>30 (4d8+12)</hp>
@@ -910,7 +926,8 @@
 	<monster>
 		<name>Tree Blight</name>
 		<size>H</size>
-		<type>plant, curse of strahd</type>
+		<type>plant</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>149 (13d12+65)</hp>
@@ -963,7 +980,8 @@
 	<monster>
 		<name>Vladimir Horngaard</name>
 		<size>M</size>
-		<type>undead, curse of strahd</type>
+		<type>undead</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>lawful evil</alignment>
 		<ac>17 (half plate)</ac>
 		<hp>192 (16d8+64)</hp>
@@ -1023,7 +1041,8 @@
 	<monster>
 		<name>Wereraven</name>
 		<size>M</size>
-		<type>humanoid (human, shapechanger), curse of strahd</type>
+		<type>humanoid (human, shapechanger)</type>
+		<description>Source: Curse of Strahd</description>
 		<alignment>lawful good</alignment>
 		<ac>12</ac>
 		<hp>31 (7d8)</hp>

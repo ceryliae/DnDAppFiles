@@ -4,7 +4,8 @@
 	<monster>
 		<name>White Tusk Orc</name>
 		<size>M</size>
-		<type>humanoid (orc), Strongholds and Followers</type>
+		<type>humanoid (orc)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>14 (studded leather)</ac>
 		<hp>30 (4d8 + 12)</hp>
@@ -48,7 +49,8 @@
 	<monster>
 		<name>White Tusk Juggernaut</name>
 		<size>L</size>
-		<type>humanoid (orc), Strongholds and Followers</type>
+		<type>humanoid (orc)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>95 (10d10 + 40)</hp>
@@ -99,7 +101,8 @@
 	<monster>
 		<name>White Tusk Bloodrager</name>
 		<size>M</size>
-		<type>humanoid (orc), Strongholds and Followers</type>
+		<type>humanoid (orc)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>16 (breastplate)</ac>
 		<hp>60 (8d8 + 24)</hp>
@@ -147,7 +150,8 @@
 	<monster>
 		<name>White Tusk Warspeaker</name>
 		<size>M</size>
-		<type>humanoid (orc), Strongholds and Followers</type>
+		<type>humanoid (orc)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>14 (chain mail scraps)</ac>
 		<hp>65 (10d8 + 20)</hp>
@@ -205,7 +209,8 @@
 	<monster>
 		<name>White Tusk Shaman</name>
 		<size>M</size>
-		<type>humanoid (orc, shapechanger), Strongholds and Followers</type>
+		<type>humanoid (orc, shapechanger)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>14 (hide armor)</ac>
 		<hp>52 (8d8 + 16)</hp>
@@ -256,7 +261,8 @@
 	<monster>
 		<name>Oregg Steeltwister</name>
 		<size>M</size>
-		<type>humanoid (orc), Strongholds and Followers</type>
+		<type>humanoid (orc)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral evil</alignment>
 		<ac>16 (chain mail)</ac>
 		<hp>82 (11d8 + 33)</hp>
@@ -288,14 +294,14 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Oregg Steeltwister is a 5th-level spellcaster. His spellcasting ability modifier is Charisma (spell save DC 15, +7 to hit with spell attacks). He has the following sorcerer spells prepared:</text>
-			<text>Cantrips (at will): firebolt, message, poison spray, true strike</text>
+			<text>Cantrips (at will): fire bolt, message, poison spray, true strike</text>
 			<text>1st level (4 slots): magic missile, shield</text>
 			<text>2nd level (3 slots): heat metal</text>
 			<text>3rd level (2 slots): fly, fireball</text>
 		</trait>
 		<spellAbility>Charisma</spellAbility>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
-		<spells>Firebolt, Message, Poison Spray, True Strike, Magic Missile, Shield, Heat Metal, Fly, Fireball</spells>
+		<spells>Fire Bolt, Message, Poison Spray, True Strike, Magic Missile, Shield, Heat Metal, Fly, Fireball</spells>
 		<action>
 			<name>Multiattack</name>
 			<text>Oregg makes two longsword attacks and can cast a cantrip as a bonus action.</text>
@@ -319,7 +325,8 @@
 	<monster>
 		<name>Bonebreaker Dorokor</name>
 		<size>M</size>
-		<type>humanoid (orc), Strongholds and Followers</type>
+		<type>humanoid (orc)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral evil</alignment>
 		<ac>19 (half plate of fire resistance, shield)</ac>
 		<hp>102 (12d8 + 48)</hp>
@@ -378,7 +385,8 @@
 	<monster>
 		<name>Sir Pelliton</name>
 		<size>M</size>
-		<type>humanoid (human), Strongholds and Followers</type>
+		<type>humanoid (human)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>76 (9d10 + 27)</hp>
@@ -411,12 +419,12 @@
 			<name>Innate Spellcasting</name>
 			<text>Sir Pelliton has gained the power to cast dark magic. All spells he casts with this feature are cast as if using a 5th-level spell slot, and he casts cantrips as if he were an 11th-level warlock. His spellcasting ability is Wisdom (DC 16, +8 to hit with spell attacks).</text>
 			<text>At will: acid splash, eldritch blast (3 beams), minor illusion, hellish rebuke</text>
-			<text>5/day: branding smite, black tentacles, counterspell, dimension door, hold person</text>
+			<text>5/day: branding smite, Evard's black tentacles, counterspell, dimension door, hold person</text>
 			<text>1/day each: cone of cold, eyebite, mass suggestion</text>
 		</trait>
 		<spellAbility>Wisdom</spellAbility>
 		<slots>0,0,0,0,0,0,0,0,0</slots>
-		<spells>Acid Splash, Eldritch Blast, Minor Illusion, Hellish Rebuke, Branding Smite, Black Tentacles, Counterspell, Dimension Door, Hold Person, Cone of Cold, Eyebite, Mass Suggestion</spells>
+		<spells>Acid Splash, Eldritch Blast, Minor Illusion, Hellish Rebuke, Branding Smite, Evard's Black Tentacles, Counterspell, Dimension Door, Hold Person, Cone of Cold, Eyebite, Mass Suggestion</spells>
 		<action>
 			<name>Multiattack</name>
 			<text>Sir Pelliton makes three melee attacks or makes two melee attacks and casts eldritch blast.</text>
@@ -439,7 +447,8 @@
 	<monster>
 		<name>Faldric the Archer</name>
 		<size>M</size>
-		<type>humanoid (human), Strongholds and Followers</type>
+		<type>humanoid (human)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral evil</alignment>
 		<ac>15 (studded leather)</ac>
 		<hp>44 (8d8 + 8)</hp>
@@ -486,7 +495,8 @@
 	<monster>
 		<name>Pinna</name>
 		<size>M</size>
-		<type>humanoid (human), Strongholds and Followers</type>
+		<type>humanoid (human)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral good</alignment>
 		<ac>12</ac>
 		<hp>13 (3d6 + 0)</hp>
@@ -526,7 +536,8 @@
 	<monster>
 		<name>Lesser Marilith</name>
 		<size>M</size>
-		<type>fiend (demon), Strongholds and Followers</type>
+		<type>fiend (demon)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>97 (13d8 + 39)</hp>
@@ -577,7 +588,8 @@
 	<monster>
 		<name>Lesser Balor</name>
 		<size>L</size>
-		<type>field (demon), Strongholds and Followers</type>
+		<type>fiend (demon)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>123 (13d10 + 52)</hp>
@@ -634,7 +646,8 @@
 	<monster>
 		<name>Lesser Erinyes</name>
 		<size>M</size>
-		<type>fiend (devil), Strongholds and Followers</type>
+		<type>fiend (devil)</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful evil</alignment>
 		<ac>18 (plate)</ac>
 		<hp>67 (9d8 + 27)</hp>
@@ -686,7 +699,8 @@
 	<monster>
 		<name>Princip</name>
 		<size>M</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>82 (11d8 + 33)</hp>
@@ -745,7 +759,8 @@
 	<monster>
 		<name>Authority</name>
 		<size>M</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>19 (natural armor)</ac>
 		<hp>97 (13d8 + 39)</hp>
@@ -792,7 +807,8 @@
 	<monster>
 		<name>Virtue</name>
 		<size>M</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>97 (13d8 + 39)</hp>
@@ -845,7 +861,8 @@
 	<monster>
 		<name>Domininion</name>
 		<size>L</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>133 (14d10 + 56)</hp>
@@ -891,7 +908,8 @@
 	<monster>
 		<name>Throne</name>
 		<size>L</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>127 (15d10 + 45)</hp>
@@ -938,7 +956,8 @@
 	<monster>
 		<name>Searph</name>
 		<size>L</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>189 (18d10 + 90)</hp>
@@ -1003,7 +1022,8 @@
 	<monster>
 		<name>Baron Malgas</name>
 		<size>M</size>
-		<type>aberration, Strongholds and Followers</type>
+		<type>aberration</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>71 (11d8 + 22)</hp>
@@ -1054,7 +1074,8 @@
 	<monster>
 		<name>Korsoth Vatikan</name>
 		<size>M</size>
-		<type>aberration, Strongholds and Followers</type>
+		<type>aberration</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>16 (studded leather)</ac>
 		<hp>78 (12d8 + 24)</hp>
@@ -1105,7 +1126,8 @@
 	<monster>
 		<name>The Queen of Bones</name>
 		<size>M</size>
-		<type>aberration, Strongholds and Followers</type>
+		<type>aberration</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>71 (13d8 + 13)</hp>
@@ -1165,7 +1187,8 @@
 	<monster>
 		<name>Lord Rall</name>
 		<size>M</size>
-		<type>aberration, Strongholds and Followers</type>
+		<type>aberration</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>12 (15 with mage armor)</ac>
 		<hp>91 (14d8 + 28)</hp>
@@ -1205,12 +1228,12 @@
 			<text>1st level (4 slots): mage armor, magic missile, sleep</text>
 			<text>2nd level (3 slots): ray of enfeeblement, mirror image</text>
 			<text>3rd level (3 slots): lightning bolt, haste</text>
-			<text>4th level (3 slots): black tentacles, blight</text>
+			<text>4th level (3 slots): Evard's black tentacles, blight</text>
 			<text>5th level (2 slots): cloudkill</text>
 		</trait>
 		<spellAbility>Intelligence</spellAbility>
 		<slots>4,3,3,3,2,0,0,0,0</slots>
-		<spells>Mage Hand, Minor Illusion, Ray of Frost, Mage Armor, Magic Missile, Sleep, Ray of Enfeeblement, Mirror Image, Lightning Bolt, Haste, Black Tentacles, Blight, Cloudkill</spells>
+		<spells>Mage Hand, Minor Illusion, Ray of Frost, Mage Armor, Magic Missile, Sleep, Ray of Enfeeblement, Mirror Image, Lightning Bolt, Haste, Evard's Black Tentacles, Blight, Cloudkill</spells>
 		<action>
 			<name>Multiattack</name>
 			<text>Lord Rall makes two melee attacks with the Staff of Changing.</text>
@@ -1233,7 +1256,8 @@
 	<monster>
 		<name>Uursovk</name>
 		<size>L</size>
-		<type>aberration, Strongholds and Followers</type>
+		<type>aberration</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>157 (15d10 + 75)</hp>
@@ -1292,7 +1316,8 @@
 	<monster>
 		<name>Maladar Dictum</name>
 		<size>H</size>
-		<type>aberration, Strongholds and Followers</type>
+		<type>aberration</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>210 (20d12 + 80)</hp>
@@ -1354,7 +1379,8 @@
 	<monster>
 		<name>Mantis Knight</name>
 		<size>M</size>
-		<type>fey, Strongholds and Followers</type>
+		<type>fey</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>71 (11d8 + 22)</hp>
@@ -1411,7 +1437,8 @@
 	<monster>
 		<name>Monarchon</name>
 		<size>M</size>
-		<type>fey, Strongholds and Followers</type>
+		<type>fey</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>110 (13d10 + 39)</hp>
@@ -1474,7 +1501,8 @@
 	<monster>
 		<name>Orchid Count</name>
 		<size>M</size>
-		<type>fey, Strongholds and Followers</type>
+		<type>fey</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>16 (studded leather)</ac>
 		<hp>97 (13d8 + 39)</hp>
@@ -1552,7 +1580,8 @@
 	<monster>
 		<name>Oleanader Dragon</name>
 		<size>L</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>119 (14d10 + 42)</hp>
@@ -1603,7 +1632,8 @@
 	<monster>
 		<name>Ash Marshal</name>
 		<size>M</size>
-		<type>fey, Strongholds and Followers</type>
+		<type>fey</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>157 (15d10 + 75)</hp>
@@ -1668,7 +1698,8 @@
 	<monster>
 		<name>Sidereal Vizier</name>
 		<size>M</size>
-		<type>fey, Strongholds and Followers</type>
+		<type>fey</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic</alignment>
 		<ac>17 (natural armor, 19 with mage armor)</ac>
 		<hp>152 (18d10 + 53)</hp>
@@ -1733,7 +1764,8 @@
 	<monster>
 		<name>Fire Mote</name>
 		<size>S</size>
-		<type>elemental, Strongholds and Followers</type>
+		<type>elemental</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>49 (11d6 + 11)</hp>
@@ -1775,7 +1807,8 @@
 	<monster>
 		<name>Source of Earth</name>
 		<size>M</size>
-		<type>elemental, Strongholds and Followers</type>
+		<type>elemental</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>124 (13d8 + 65)</hp>
@@ -1817,7 +1850,8 @@
 	<monster>
 		<name>Pillar of Water</name>
 		<size>L</size>
-		<type>elemental, Strongholds and Followers</type>
+		<type>elemental</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>149 (13d10 + 78)</hp>
@@ -1857,7 +1891,8 @@
 	<monster>
 		<name>Knight of Air</name>
 		<size>M</size>
-		<type>elemental, Strongholds and Followers</type>
+		<type>elemental</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>77 (14d8 + 14)</hp>
@@ -1892,7 +1927,8 @@
 	<monster>
 		<name>Storm Magistrate</name>
 		<size>L</size>
-		<type>elemental, Strongholds and Followers</type>
+		<type>elemental</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>157 (15d10 + 75)</hp>
@@ -1935,7 +1971,8 @@
 	<monster>
 		<name>High Templar of Dust</name>
 		<size>L</size>
-		<type>elemental, Strongholds and Followers</type>
+		<type>elemental</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>189 (18d10 + 90)</hp>
@@ -1989,7 +2026,8 @@
 	<monster>
 		<name>Ancient Emerald Dragon</name>
 		<size>G</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>252 (24d20 + 0)</hp>
@@ -2200,7 +2238,8 @@
 	<monster>
 		<name>Adult Emerald Dragon</name>
 		<size>H</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>20 (natural armor)</ac>
 		<hp>127 (17d12 + 17)</hp>
@@ -2400,7 +2439,8 @@
 	<monster>
 		<name>Young Emerald Dragon</name>
 		<size>L</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>91 (14d10 + 14)</hp>
@@ -2578,7 +2618,8 @@
 	<monster>
 		<name>Emerald Wyrmling</name>
 		<size>M</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>31 (7d8 + 0)</hp>
@@ -2748,7 +2789,8 @@
 	<monster>
 		<name>Ancient Ruby Dragon</name>
 		<size>G</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful neutral</alignment>
 		<ac>23 (natural armor)</ac>
 		<hp>299 (26d20 + 26)</hp>
@@ -2959,7 +3001,8 @@
 	<monster>
 		<name>Adult Ruby Dragon</name>
 		<size>H</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful neutral</alignment>
 		<ac>20 (natural armor)</ac>
 		<hp>135 (18d12 + 18)</hp>
@@ -3159,7 +3202,8 @@
 	<monster>
 		<name>Young Ruby Dragon</name>
 		<size>L</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful neutral</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>104 (16d10 + 16)</hp>
@@ -3337,7 +3381,8 @@
 	<monster>
 		<name>Ruby Wyrmling</name>
 		<size>M</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>49 (9d8 + 9)</hp>
@@ -3506,7 +3551,8 @@
 	<monster>
 		<name>Ancient Sapphire Dragon</name>
 		<size>G</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>23 (natural armor)</ac>
 		<hp>350 (28d20 + 56)</hp>
@@ -3717,7 +3763,8 @@
 	<monster>
 		<name>Adult Sapphie Dragon</name>
 		<size>H</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>21 (natural armor)</ac>
 		<hp>161 (19d12 + 38)</hp>
@@ -3917,7 +3964,8 @@
 	<monster>
 		<name>Young Sapphire Dragon</name>
 		<size>L</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>19 (natural armor)</ac>
 		<hp>127 (17d10 + 34)</hp>
@@ -4095,7 +4143,8 @@
 	<monster>
 		<name>Sapphire Wyrmling</name>
 		<size>M</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>55 (10d8 + 10)</hp>
@@ -4264,7 +4313,8 @@
 	<monster>
 		<name>Ancient Topaz Dragon</name>
 		<size>G</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral good</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>231 (22d20 + 0)</hp>
@@ -4475,7 +4525,8 @@
 	<monster>
 		<name>Adult Topaz Dragon</name>
 		<size>H</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral good</alignment>
 		<ac>19 (natural armor)</ac>
 		<hp>104 (16d12 + 0)</hp>
@@ -4675,7 +4726,8 @@
 	<monster>
 		<name>Young Topaz Dragon</name>
 		<size>L</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral good</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>71 (13d10 + 0)</hp>
@@ -4853,7 +4905,8 @@
 	<monster>
 		<name>Topaz Wyrmling</name>
 		<size>M</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral good</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>27 (6d8 + 0)</hp>
@@ -5022,7 +5075,8 @@
 	<monster>
 		<name>Ancient Amethyst Dragon</name>
 		<size>G</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral evil</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>276 (24d20 + 24)</hp>
@@ -5234,7 +5288,8 @@
 	<monster>
 		<name>Adult Amethyst Dragon</name>
 		<size>H</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral evil</alignment>
 		<ac>20 (natural armor)</ac>
 		<hp>135 (18d12 + 18)</hp>
@@ -5435,7 +5490,8 @@
 	<monster>
 		<name>Young Amethyst Dragon</name>
 		<size>L</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral evil</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>97 (15d10 + 15)</hp>
@@ -5614,7 +5670,8 @@
 	<monster>
 		<name>Amethyst Wyrmling</name>
 		<size>M</size>
-		<type>dragon, Strongholds and Followers</type>
+		<type>dragon</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic neutral</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>36 (8d8 + 0)</hp>
@@ -5784,7 +5841,8 @@
 	<monster>
 		<name>Space</name>
 		<size>M</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>112 (15d8 + 45)</hp>
@@ -5830,7 +5888,8 @@
 	<monster>
 		<name>Death</name>
 		<size>M</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>112 (15d8 + 45)</hp>
@@ -5889,7 +5948,8 @@
 	<monster>
 		<name>Change</name>
 		<size>M</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>120 (16d8 + 48)</hp>
@@ -5935,7 +5995,8 @@
 	<monster>
 		<name>Fate</name>
 		<size>M</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful</alignment>
 		<ac>19 (natural armor)</ac>
 		<hp>136 (16d8 + 64)</hp>
@@ -5986,7 +6047,8 @@
 	<monster>
 		<name>Time</name>
 		<size>L</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful</alignment>
 		<ac>19 (natural armor)</ac>
 		<hp>161 (17d10 + 68)</hp>
@@ -6040,7 +6102,8 @@
 	<monster>
 		<name>Nature</name>
 		<size>L</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>lawful</alignment>
 		<ac>20 (natural armor)</ac>
 		<hp>190 (20d10 + 80)</hp>
@@ -6094,7 +6157,8 @@
 	<monster>
 		<name>The Phoenix</name>
 		<size>H</size>
-		<type>celestial, Strongholds and Followers</type>
+		<type>celestial</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>good</alignment>
 		<ac>21 (natural armor)</ac>
 		<hp>243 (18d10 + 144)</hp>
@@ -6156,7 +6220,8 @@
 	<monster>
 		<name>Machine Lieutenant</name>
 		<size>M</size>
-		<type>construct, Strongholds and Followers</type>
+		<type>construct</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>neutral</alignment>
 		<ac>20 (plate, shield)</ac>
 		<hp>60 (8d8 + 24)</hp>
@@ -6199,7 +6264,8 @@
 	<monster>
 		<name>Lady Czorgan</name>
 		<size>M</size>
-		<type>undead, Strongholds and Followers</type>
+		<type>undead</type>
+		<description>Source: Strongholds and Followers</description>
 		<alignment>chaotic evil</alignment>
 		<ac>18 (plate)</ac>
 		<hp>97 (13d8 + 39)</hp>
