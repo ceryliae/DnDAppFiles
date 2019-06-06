@@ -38,7 +38,7 @@ def find_spells(homebrew=False, verbose=False):
             spell_names.append(spell_name.text)
 
     # Check for duplicate spell names (case insensitively)
-    if len(spell_names) != len(set(spell_name.casefold() for spell_name in spell_names)):
+    if len(spell_names) != len(set(spell_name.lower() for spell_name in spell_names)):
         print('Duplicate spells were found!')
 
     return set(spell_names)
@@ -62,22 +62,13 @@ def fix_bestiary_spells(homebrew=False, verbose=False, dry_run=False):
             bestiary_content = bestiary_file.read()
         original_content = bestiary_content
         for spell_name in spell_names:
-            bestiary_content = re.sub(
-                r'(<spells(>|.+, )){spell_name}((, .+|<)/spells>)'.format(spell_name=spell_name),
-                r'\1{spell_name}\3'.format(spell_name=spell_name),
-                bestiary_content,
-                flags=re.IGNORECASE
-            )
+            bestiary_content = re.sub(r'(<spells(>|.+, )){spell_name}((, .+|<)/spells>)'.format(spell_name=spell_name),
+                r'\1{spell_name}\3'.format(spell_name=spell_name), bestiary_content,flags=re.IGNORECASE)
 
         if verbose:
             # Show diff for each fixed file
             diff = ''.join(unified_diff(
-                original_content.splitlines(keepends=True),
-                bestiary_content.splitlines(keepends=True),
-                fromfile=bestiary_source,
-                tofile='fixed',
-                n=0
-            ))
+                original_content.splitlines(keepends=True), bestiary_content.splitlines(keepends=True), fromfile=bestiary_source, tofile='fixed', n=0))
             if diff:
                 print(diff)
 
@@ -108,7 +99,7 @@ def find_unmatched_spells(homebrew=False, verbose=False):
                 continue
 
             # Check for duplicate spells
-            if len(monster_spells) != len(set(monster_spell.casefold() for monster_spell in monster_spells)):
+            if len(monster_spells) != len(set(monster_spell.lower() for monster_spell in monster_spells)):
                 print('Monster with duplicate spells was found:')
                 print(monster_spells_block.text)
 
@@ -120,9 +111,7 @@ def find_unmatched_spells(homebrew=False, verbose=False):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description='Fix spells in Bestiaries using the spell sources.',
-    )
+    parser = argparse.ArgumentParser(description='Fix spells in Bestiaries using the spell sources.',)
     parser.add_argument('--verbose', action='store_true', help='Be more verbose while processing')
     parser.add_argument('--dry-run', action='store_true', help='Do not write fixed content back to files')
     args = parser.parse_args()
