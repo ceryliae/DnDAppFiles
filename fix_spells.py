@@ -38,7 +38,7 @@ def find_spells(homebrew=False, verbose=False):
             spell_names.append(spell_name.text)
 
     # Check for duplicate spell names (case insensitively)
-    if len(spell_names) != len(set(spell_name.lower() for spell_name in spell_names)):
+    if len(spell_names) != len(set(spell_name.casefold() for spell_name in spell_names)):
         print('Duplicate spells were found!')
 
     return set(spell_names)
@@ -99,7 +99,7 @@ def find_unmatched_spells(homebrew=False, verbose=False):
                 continue
 
             # Check for duplicate spells
-            if len(monster_spells) != len(set(monster_spell.lower() for monster_spell in monster_spells)):
+            if len(monster_spells) != len(set(monster_spell.casefold() for monster_spell in monster_spells)):
                 print('Monster with duplicate spells was found:')
                 print(monster_spells_block.text)
 
