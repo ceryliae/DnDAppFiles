@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<!--Dragon of Icespire Peak-->
+	<monster>
+		<name>Anchorite of Talos</name>
+		<size>M</size>
+		<type>humanoid</type>
+		<description>Source: Dragon of Icespire Peak</description>
+		<alignment>neutral evil</alignment>
+		<ac>13 (hide armor)</ac>
+		<hp>58 (9d8 + 18)</hp>
+		<speed>30 ft.</speed>
+		<str>16</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>15</wis>
+		<cha>12</cha>
+		<save></save>
+		<skill>Nature +1, Stealth +3, Survival +4</skill>
+		<vulnerable></vulnerable>
+		<resist></resist>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Orc</languages>
+		<cr>3</cr>
+		<trait><name>Innate Spellcasting</name>
+		<text>The anchorite's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:</text>
+		<text>1/day each: augury, bless, lightning bolt (8d6 damage), revivify</text>
+		<text>3/day: thunderwave (2d8) damage</text>
+		</trait>
+		<spellAbility>Wisdom</spellAbility>
+		<slots>0,0,0,0,0,0,0,0,0</slots>
+		<spells>Augury, Bless, Lightning Bolt, Revivify, Thunderwave</spells>
+		<trait>
+			<name>Shapechanger</name>
+			<text>The anchorite can use its action to polymorph into a boar or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</text>
+		</trait>
+		<action>
+			<name>Clawed Gauntlet (Humanoid Form Only)</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage</text>
+			<attack>Clawed Gauntlet|5|1d4+3</attack>
+		</action>
+		<action>
+			<name>Tusk (Boar Form Only)</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.</text>
+			<attack>Tusk|5|1d6+3</attack>
+		</action>
+	</monster>
+	</compendium>
