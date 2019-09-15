@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Mystic (UA)" UA="The Mystic Class">
+		<name>Mystic (Wu Jen)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Mystic Order: Order of the Wu Jen (UA)</name>
+				<text>The Order of the Wu Jen features some of the most devoted mystics. These mystics seek to lock themselves away from the world, denying the limits of the physical world and replacing it with a reality that they create for themselves. Known as wu jens, these mystics cast their minds into the world, seize control of its fundamental principles, and rebuild it.</text>
+				<text>	In practical terms, wu jens excel at controlling the forces of the natural world. They can hurl objects with their minds, control the four elements, and alter reality to fit their desires.</text>
+				<text/>
+				<text>Bonus Disciplines</text>
+				<text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Wu Jen disciplines.</text>
+				<text/>
+				<text>Hermit's Study</text>
+				<text>At 1st level, you gain proficiency with two of the following skills of your choice: Animal Handling, Arcana, History, Insight, Medicine, Nature, Perception, Religion, or Survival.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Order of the Wu Jen: Elemental Attunement</name>
+				<text>Starting at 3rd level, when a creature's resistance reduces the damage dealt by a psionic discipline of yours, you can spend 1 psi point to cause that use of the discipline to ignore the creature's resistance. You can't spend this point if doing so would increase the discipline's cost above your psi limit.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Order of the Wu Jen: Arcane Dabbler</name>
+				<text>At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of 1st through 3rd level.</text>
+				<text>	As a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below.</text>
+				<text>Spell Slot Level	  -	   Psi Cost</text>
+				<text>			 1st	  -		   2</text>
+				<text>			 2nd	  -		   3</text>
+				<text>			 3rd	  -		   5</text>
+				<text>			 4th	  -		   6</text>
+				<text>			 5th	  -		   7</text>
+				<text/>
+				<text>	The spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.</text>
+				<text>	Whenever you gain a level in this class, you can replace one of the chosen wizard spells with a different wizard spell of 1st through 3rd level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Order of the Wu Jen: Elemental Mastery</name>
+				<text>Starting at 14th level, if you have resistance to a type of damage, you can spend 2 psi points as a reaction when you take damage of that type to ignore that damage; you gain immunity to that damage type until the end of your next turn.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spell>
+		<name>Mastery of Air (Wu Jen)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Self</range>
+		<text>You become one with the power of elemental air.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you take no falling damage, and you ignore difficult terrain when walking.</text>
+		<text>Wind Step (1–7 psi):</text>
+		<text>As part of your move on your turn, you can fly up to 20 feet for each psi point spent. If you end this flight in the air, you fall unless something else holds you aloft.</text>
+		<text>Wind Stream (1–7 psi):</text>
+		<text>As an action, you create a line of focused air that is 30 feet long and 5 feet wide. Each creature in that area must make a Strength saving throw, taking 1d8 bludgeoning damage per psi point spent and being knocked prone on a failed save, or half as much damage on a successful one.</text>
+		<text>Cloak of Air (3 psi Conc 10m):</text>
+		<text>As a bonus action, you seize control of the air around you to create a protective veil. Until your concentration ends, attack rolls against you have disadvantage, and when a creature you can see misses you with a melee attack, you can use your reaction to force the creature to repeat the attack roll against itself.</text>
+		<text>Wind Form (5 psi Conc 10m):</text>
+		<text>As a bonus action, you gain a flying speed of 60 feet, which lasts until your concentration ends.</text>
+		<text>Misty Form(6 psi Conc 1m):</text>
+		<text> As an action, your body becomes like a misty cloud until your concentration ends. In this form, you gain resistance to bludgeoning, piercing, and slashing damage, and you can't take actions other than the Dash action. You can pass through openings that are no more than 1 inch wide without squeezing.</text>
+		<text>Animate Air (7 psi Conc 1h):</text>
+		<text>As an action, you cause an air elemental to appear in an unoccupied space you can see within 120 feet of you. The elemental lasts until your concentration ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. See the Monster Manual for its stat block.</text>
+	</spell>
+	<spell>
+		<name>Mastery of Fire (Wu Jen)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Self</range>
+		<text>You align your mind with the energy of elemental fire.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain resistance to fire damage, and you gain a +2 bonus to rolls for fire damage.</text>
+		<text>Combustion (1–7 psi Conc 1m):</text>
+		<text>As an action, choose one creature or object you can see within 120 feet of you. The target must make a Constitution save. On a failed save, the target takes 1d10 fire damage per psi point spent, and it catches on fire, taking 1d6 fire damage at the end of each of its turns until your concentration ends or until it or a creature adjacent to it extinguishes the flames with an action. On a successful save, the target takes half as much damage and doesn't catch on fire.</text>
+		<text>Rolling Flame (3 psi Conc 1m):</text>
+		<text>As an action, you create fire in a 20-foot-by-20-foot cube within 5 feet of you. The fire lasts until your concentration ends. Any creature in that area when you use this ability and any creature that ends its turn there takes 5 fire damage.</text>
+		<text>Detonation (5 psi):</text>
+		<text>As an action, you create a fiery explosion at a point you can see within 120 feet of you. Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw, taking 7d6 fire damage and being knocked prone on a failed save, or half as much damage on a successful one.</text>
+		<text>Fire Form (5 psi Conc 1m):</text>
+		<text>As a bonus action, you become wreathed in flames until your concentration ends. Any creature that end its turn within 5 feet of you takes 3d6 fire damage.</text>
+		<text>Animate Fire (7 psi Conc 1h):</text>
+		<text>As an action, you cause a fire elemental to appear in an unoccupied space you can see within 120 feet of you. The elemental lasts until your concentration ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. See the Monster Manual for its stat block.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>1d6</roll>
+		<roll>7d6</roll>
+		<roll>3d6</roll>
+	</spell>
+	<spell>
+		<name>Mastery of Force (Wu Jen)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Varies</range>
+		<text>As a student of psionic power, you perceive the potential energy that flows through all things. You reach out with your mind, transforming the potential into the actual. Objects and creatures move at your command.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Strength checks.</text>
+		<text>Push (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make a Strength saving throw. On a failed save, it takes 1d8 force damage per psi point spent and is pushed up to 5 feet per point spent in a straight line away from you. On a successful save, it takes half as much damage.</text>
+		<text>Move (2–7 psi):</text>
+		<text>Choose one object you can see within 60 feet of you that isn't being worn or carried by another creature and that isn't secured in place. It can't be larger than 20 feet on a side, and its maximum weight depends on the psi points spent on this ability, as shown below.</text>
+		<text>As an action, you move the object up to 60 feet, and you must keep the object within sight during this movement. If the object ends this movement in the air, it falls. If the object would fall on a creature, the creature must succeed on a DC 10 Dexterity saving throw or take damage as listed on the table below.</text>
+		<text/>
+		<text>Psi Spent - Maximum Weight - Bludgeoning Dmg</text>
+		<text>   2	  -	  25 lbs.   -	  2d4</text>
+		<text>   3	  -	  50 lbs.   -	  4d6</text>
+		<text>   4	  -	  250 lbs.  -	  6d6</text>
+		<text>   5	  -	  500 lbs.  -	  7d6</text>
+		<text>   6	  -	  1000 lbs. -	  8d6</text>
+		<text>Inertial Armor (2 psi):</text>
+		<text>As an action, you sheathe yourself in an intangible field of magical force. For 8 hours, your base AC is 14 + your Dexterity modifier, and you gain resistance to force damage. This effect ends if you are wearing or don armor.</text>
+		<text>Telekinetic Barrier (3 psi Conc 10m):</text>
+		<text>As an action, you create a transparent wall of telekinetic energy, at least one portion of which must be within 60 feet of you. The wall is 40 feet long, 10 feet high, and 1 inch thick. The wall lasts until your concentration ends. Each 10-foot section of the wall has an AC of 10 and 10 hit points.</text>
+		<text>Grasp (3 psi Conc 1m):</text>
+		<text>You attempt to grasp a creature in telekinetic energy and hold it captive. As an action, choose one creature you can see within 60 feet of you. The target must succeed on a Strength saving throw or be grappled by you until your concentration ends or until the target leaves your reach, which is 60 feet for this grapple.</text>
+		<text>The grappled target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your psionic ability plus your proficiency bonus. When a target attempts to escape in this way, you can spend psi points to boost your check, abiding by your psi limit. You gain a +1 bonus per psi point spent.</text>
+		<text>While a target is grappled in this manner, you create one of the following effects as an action:</text>
+		<text>Crush (1–7 psi):</text>
+		<text>The target takes 1d6 bludgeoning damage per psi point spent.</text>
+		<text>Move (1–7 psi):</text>
+		<text>You move the target up to 5 feet per psi point spent. You can move it in the air and hold it there. It falls if the grapple ends.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>2d4</roll>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+	</spell>
+	<spell>
+		<name>Mastery of Ice (Wu Jen)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Self</range>
+		<text>You master the power of ice, shaping it to meet you demands.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have resistance to cold damage.</text>
+		<text>Ice Spike (1–7 psi):</text>
+		<text>As an action, you hurl a mote of ice at one creature you can see within 120 feet of you. The target must make a Dexterity saving throw. On a failed save, the target takes 1d8 cold damage per psi point spent and has its speed halved until the start of your next turn. On a successful save, the target takes half as much damage.</text>
+		<text>Ice Sheet (2 psi):</text>
+		<text>As an action, choose a point on the ground you can see within 60 feet of you. The ground in a 20-foot radius centered on that point becomes covered in ice for 10 minutes. It is difficult terrain, and any creature that moves more than 10 feet on it must succeed on a Dexterity saving throw or fall prone. If the surface is sloped, a creature that falls prone in the area immediately slides to the bottom of the slope.</text>
+		<text>Frozen Sanctuary (3 psi):</text>
+		<text>As a bonus action, you sheathe yourself with icy resilience. You gain 20 temporary hit points.</text>
+		<text>Frozen Rain (5 psi Conc 1m):</text>
+		<text>As an action, choose a point you can see within 120 feet of you. The air in a 20-foot-radius sphere centered on that point becomes deathly cold and saturated with moisture. Each creature in that area must make a Constitution saving throw. On a failed save, a target takes 6d6 cold damage, and its speed is reduced to 0 until your concentration ends. On a successful save, a target takes half as much damage.</text>
+		<text>	As an action, a target that has its speed reduced can end the effect early if it succeeds on a Strength (Athletics) check with a DC equal to this effect's save DC.</text>
+		<text>	You can increase this effect's damage by 1d6 per each additional psi point spent on it.</text>
+		<text>Ice Barrier (6 psi Conc 10m):</text>
+		<text>As an action, you create a wall of ice, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your concentration ends. Each 10-foot section of the wall has AC 12 and 30 hit points. A creature that damages the wall with a melee attack takes cold damage equal to the damage the creature dealt to the wall.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+	</spell>
+	<spell>
+		<name>Mastery of Light and Darkness (Wu Jen)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Varies</range>
+		<text>You claim dominion over light and darkness with your mind.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, natural and magical darkness within 30 feet of you has no effect on your vision.</text>
+		<text>Ice Spike (1–7 psi):</text>
+		<text>As an action, you hurl a mote of ice at one creature you can see within 120 feet of you. The target must make a Dexterity saving throw. On a failed save, the target takes 1d8 cold damage per psi point spent and has its speed halved until the start of your next turn. On a successful save, the target takes half as much damage.</text>
+		<text>Darkness (1–7 psi):</text>
+		<text>As an action, you create an area of magical darkness, which foils darkvision. Choose a spot you can see within 60 feet of you. Magical darkness radiates from that point in a sphere with a 10-foot radius per psi point spent on this ability. The light produced by spells of 2nd level or less is suppressed in this area.</text>
+		<text>Light (2 psi Conc 1m):</text>
+		<text>As an action, an object you touch radiates light in a 20-foot radius and dim light for an additional 20 feet. The light lasts until your concentration ends. Alternatively, a creature you touch radiates light in the same manner if it fails a Dexterity saving throw. While lit in this manner, it can't hide, and attack rolls against it gain advantage.</text>
+		<text>Shadow Beasts (3 psi Conc 1m):</text>
+		<text>As an action, you cause two shadows to appear in unoccupied spaces you can see within 60 feet of you. The shadows last until your concentration ends, and they obey your verbal commands. In combat, roll for their initiative, and choose their behavior during their turns. When this effect ends, the shadows disappear. See the Monster Manual for their stat block.</text>
+		<text>	As an action, a target that has its speed reduced can end the effect early if it succeeds on a Strength (Athletics) check with a DC equal to this effect's save DC.</text>
+		<text>	You can increase this effect's damage by 1d6 per each additional psi point spent on it.</text>
+		<text>Radiant Beam (5 psi Conc 1m):</text>
+		<text>As an action, you project a beam of light at one creature you can see within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, it takes 6d6 radiant damage and is blinded until your concentration ends. On a successful save, it takes half as much damage. A blinded target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<text>	You can increase this effect's damage by 1d6 per each additional psi point spent on it.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+	</spell>
+	<spell>
+		<name>Mastery of Water (Wu Jen)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Varies</range>
+		<text>Your mind becomes one with elemental water, attuning your thoughts to its ebb and flow.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have a swimming speed equal to your walking speed, and you can breathe underwater.</text>
+		<text>Desiccate (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make a Constitution saving throw, taking 1d10 necrotic damage per psi point spent on this ability, or half as much damage on a successful one.</text>
+		<text>Watery Grasp (2 psi):</text>
+		<text>As an action, you unleash a wave that surges forth and then retreats to you like the rising tide. You create a wave in a 20-foot-by-20-foot square. At least some portion of the square's border must be within 5 feet of you. Any creature in that square must make a Strength saving throw. On a failed save, a target takes 2d6 bludgeoning damage, is knocked prone, and is pulled up to 10 feet closer to you. On a successful save, a target takes half as much damage. You can increase this ability's damage by 1d6 per additional psi point spent on it.</text>
+		<text>Water Whip (3 psi):</text>
+		<text>As an action, you unleash a jet of water in a line that is 60 feet long and 5 feet wide. Each creature in the line must make a Strength saving throw, taking 3d6 bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, you can move each target that fails its saving throw to any unoccupied space touching the line. You can increase this ability's damage by 1d6 per additional psi point spent on it.</text>
+		<text>Water Breathing (5 psi):</text>
+		<text>As an action, you grant yourself and up to ten willing creatures you can see within 60 feet of you the ability to breathe underwater for the next 24 hours.</text>
+		<text>Water Sphere (6 psi; Conc, 1m):</text>
+		<text>As an action, you cause a sphere of water to form around a creature. Choose one creature you can see within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, it becomes trapped in the sphere of water until your concentration ends. While the target is trapped, its speed is halved, it suffers disadvantage on attack rolls, and it can't see anything more than 10 feet away from it. However, attack rolls against it also suffer disadvantage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful one.</text>
+		<text>Animate Water (7 psi; Conc, 1h):</text>
+		<text>As an action, you cause a water elemental to appear in an unoccupied space you can see within 120 feet of you. The elemental lasts until your concentration ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. See the Monster Manual for its stat block.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+	</spell>
+	<spell>
+		<name>Mastery of Weather (Wu Jen)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Varies</range>
+		<text>Your mind reaches into the sky, reshaping the stuff of storms to serve your needs.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have resistance to lightning and thunder damage.</text>
+		<text>Cloud Steps (1–7 psi Conc 10m):</text>
+		<text>As an action, you conjure forth clouds to create a solid, translucent staircase that lasts until your concentration ends. The stairs form a spiral that fills a 10-foot-by-10-foot area and reaches upward 20 feet per psi point spent.</text>
+		<text>Hungry Lightning (1–7 psi):</text>
+		<text>As an action, you lash out at one creature you can see within 60 feet of you with tendrils of lightning. The target must make a Dexterity saving throw, with disadvantage if it's wearing heavy armor. The target takes 1d8 lightning damage per psi point spent on a failed save, or half as much damage on a successful one.</text>
+		<text>Wall of Clouds (2 psi Conc 10m):</text>
+		<text>As an action, you create a wall of clouds, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your concentration ends. Creatures can pass through it without hindrance, but the wall blocks vision.</text>
+		<text>Whirlwind (2 psi):</text>
+		<text>As an action, choose a point you can see within 60 feet of you. Winds howl in a 20-foot-radius sphere centered on that point. Each creature in the sphere must succeed on a Strength saving throw or take 1d6 bludgeoning damage and be moved to an unoccupied space of your choice in the sphere. Any loose object in the sphere is moved to an unoccupied space of your choice within it if the object weighs no more than 100 pounds.</text>
+		<text>Wall of Thunder (6 psi Conc 10m):</text>
+		<text>As an action, you create a wall of thunder, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your concentration ends. Every foot moved through the wall costs 1 extra foot of movement. When a creature moves into the wall's space for the first time on a turn or starts its turn there, that creature must succeed on a Strength saving throw, or it takes 6d6 thunder damage, is pushed in a straight line up to 30 feet away from the wall, and is knocked prone.</text>
+		<text>Thunder Clap (7 psi):</text>
+		<text>As an action, choose a point you can see within 60 feet of you. Thunder energy erupts in a 20-foot-radius sphere centered on that point. Each creature in that area must make Constitution saving throw. On a failed save, a target takes 8d6 thunder damage, and it is stunned until the end of your next turn. On a successful save, a target takes half as much damage.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>1d6</roll>
+		<roll>6d6</roll>
+		<roll>8d6</roll>
+	</spell>
+	<spell>
+		<name>Mastery of Wood and Earth (Wu Jen)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Wu Jen) (UA)</classes>
+		<range>Varies</range>
+		<text>You attune your mind to seize control of wood and earth.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have a +1 bonus to AC.</text>
+		<text>Animate Weapon (1–7 psi):</text>
+		<text>As an action, your mind seizes control of a one-handed melee weapon you're holding. The weapon flies toward one creature you can see within 30 feet of you and makes a one-handed melee weapon attack against it, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra 1d10 force damage per psi point spent on this ability. The weapon returns to your grasp after it attacks.</text>
+		<text>Warp Weapon (2 psi):</text>
+		<text>As an action, choose one nonmagical weapon held by one creature you can see within 60 feet of you. That creature must succeed on a Strength saving throw, or the chosen weapon can't be used to attack until the end of your next turn.</text>
+		<text>Warp Armor (3 psi):</text>
+		<text>As an action, choose a nonmagical suit of armor worn by one creature you can see within 60 feet of you. That creature must succeed on a Constitution saving throw, or the creature's AC becomes 10 + its Dexterity modifier until the end of your next turn.</text>
+		<text>Wall of Wood (3 psi Conc 1h):</text>
+		<text>As an action, you create a wall of wood at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your concentration ends. Each 5-foot wide section of the wall has AC 12 and 100 hit points. Breaking one section creates a 5-foot by 5-foot hole in it, but the wall otherwise remains intact.</text>
+		<text>Armored Form (6 psi Conc 1m):</text>
+		<text>As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage, which lasts until your concentration ends.</text>
+		<text>Animate Earth (7 psi Conc 1h):</text>
+		<text>As an action, you cause an earth elemental to appear in an unoccupied space you can see within 120 feet of you. The elemental lasts until your concentration ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. See the Monster Manual for its stat block.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+	</spell>
+</compendium>
