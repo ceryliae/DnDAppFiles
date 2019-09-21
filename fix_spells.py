@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Fix spells in Bestiary based on spells in Spells
 
 Run this file from the root directory (the place where this file resides)
