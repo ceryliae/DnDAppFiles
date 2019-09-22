@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Create compendiums by combining the XML
 
 Run this file from the root directory (the place where this file resides)
