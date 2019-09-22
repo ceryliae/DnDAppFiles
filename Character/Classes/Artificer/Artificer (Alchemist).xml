@@ -1,263 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5" UA="Artificer">
-	<subclass baseclass="Artificer">
+	<subclass baseclass="Artificer (UA)">
 		<name>Artificer (Alchemist)</name>
-		<autolevel level="1">
-			<feature optional="YES">
-				<name>Artificer Specialist: Alchemist</name>
-				<text>An alchemist is an expert at combining exotic reagents to produce a variety of materials, from healing draughts that can mend a wound in moments to clinging goo that slows creatures down.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemist: Alchemist's Satchel</name>
-				<text>At 1st level, you craft an Alchemist's Satchel, a bag of reagents that you use to create a variety of concoctions. The bag and its contents are both magical, and this magic allows you to pull out exactly the right materials you need for your Alchemical Formula options, described below. After you use one of those options, the bag reclaims the materials.</text>
-				<text>If you lose this satchel, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of leather, glass, and other raw materials.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemist: Alchemical Formula</name>
-				<text>At 1st level, you learn three Alchemical Formula options: Alchemical Fire, Alchemical Acid, and one other option of your choice. You learn an additional formula of your choice at 3rd, 9th, 14th, and 17th levels.</text>
-				<text>	To use any of these options, your Alchemist's Satchel must be within reach.</text>
-				<text>	If an Alchemical Formula option requires a saving throw, the DC is 8 + your proficiency bonus + your Intelligence modifier.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Alchemical Fire</name>
-				<text>As an action, you can reach into your Alchemist's Satchel, pull out a vial of volatile liquid, and hurl the vial at a creature, object, or surface within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). On impact, the vial detonates in a 5-foot radius. Any creature in that area must succeed on a Dexterity saving throw or take 1d6 fire damage.</text>
-				<text>This formula's damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 10th level (4d6), 13th level (5d6), 16th level (6d6), and 19th level (7d6).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Alchemical Acid</name>
-				<text>Alchemical Acid. As an action, you can reach into your Alchemist's Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized.</text>
-				<text>	This formula's damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Healing Draught</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</text>
-				<text>	This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Smoke Stick</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Swift Step Draught</name>
-				<text>Swift Step Draught. As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Tanglefoot Bag</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn).</text>
-				<text>	The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Thunderstone</name>
-				<text>Thunderstone. As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
-			</feature>
-		</autolevel>
 		<autolevel level="3">
 			<feature optional="YES">
-				<name>Alchemical Formula - Healing Draught</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</text>
+				<name>Artificer Specialist: Alchemist (UA)</name>
+				<text>An Alchemist is an expert at combining exotic reagents to produce mystical effects. Among artificers, members of this subclass are the greatest healers, as well as the ones most adept at wielding dangerous chemicals.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Tools of the Trade</name>
+				<text>By the time you adopt this specialty at 3rd level, you're deeply familiar with employing its tools.</text>
+				<text>	Proficiencies. You gain proficiency with alchemist's supplies and the herbalism kit, assuming you don't already have them. You also gain alchemist's supplies and an herbalism kit for free—the result of tinkering you've done as you've prepared for this specialization.</text>
+				<text>	Crafting. If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Alchemist Spells</name>
+				<text>Starting at 3rd level, you always have certain spells prepared after you reach particular levelsin this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</text>
 				<text/>
-				<text>This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
+				<text>Alchemist Spells</text>
+				<text>Artificer Level    Spell</text>
+				<text>3rd                purify food and drink, ray of sickness</text>
+				<text>5th                Melf's acid arrow, web</text>
+				<text>9th                create food and water, stinking cloud</text>
+				<text>13th               blight, death ward</text>
+				<text>17th               cloudkill, raise dead</text>
 			</feature>
 			<feature optional="YES">
-				<name>Alchemical Formula - Smoke Stick</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula - Swift Step Draught</name>
-				<text>Swift Step Draught. As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula - Tanglefoot Bag</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn).</text>
-				<text/>
-				<text>The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula - Thunderstone</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+				<name>Alchemist: Alchemical Homunculus</name>
+				<text>At 3rd level, you learn ancient methods for magically creating a special homunculus that is formed by alchemical substances.</text>
+				<text>Whenever you finish a long rest and your alchemist's supplies are with you, you can form this homunculus in an unoccupied space within 5 feet of you. If you already have a homunculus from this feature, the first one immediately dies.</text>
+				<text>The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Alchemical Homunculus stat block. You determine the homunculus's appearance, which includes wings and bits of alchemical equipment. Some alchemists prefer mechanical-looking birds, whereas others like winged vials or miniature cauldrons.</text>
+				<text>In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the Dash, Disengage, or Help action.</text>
+				<text>If the mending spell is cast on it, it regains 2d6hit points. If it has died within the last hour, you can use your alchemist's supplies as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its hit points restored.</text>
 			</feature>
 		</autolevel>
-		<autolevel level="9">
+		<autolevel level="6">
 			<feature optional="YES">
-				<name>Alchemical Formula: Healing Draught</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</text>
-				<text>This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Smoke Stick</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Swift Step Draught</name>
-				<text>Swift Step Draught. As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Tanglefoot Bag</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn).</text>
-				<text>The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula: Thunderstone</name>
-				<text>Thunderstone. As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+				<name>Alchemist: Alchemical Mastery</name>
+				<text>At 6th level, your command of magical chemicals  has become masterful, enhancing the healing  and damage you create through them. When you  cast a spell using your alchemist's supplies as the  spellcasting focus, you gain a bonus to one roll of  the spell. That roll must restore hit points or be a  damage roll that deals acid or poison damage,  and the bonus equals your Intelligence modifier  (minimum of +1).</text>
+				<text>	In addition, you can cast lesser restoration without expending a spell slot, provided you use  alchemist's supplies as the spellcasting focus.  You can do so a number of times per day equal to  your Intelligence modifier (minimum of once).</text>
 			</feature>
 		</autolevel>
 		<autolevel level="14">
 			<feature optional="YES">
-				<name>Alchemical Formula 6 Healing Draught</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</text>
-				<text>This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 6 Smoke Stick</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 6 Swift Step Draught</name>
-				<text>Swift Step Draught. As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 6 Tanglefoot Bag</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn).</text>
-				<text>The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 6 Thunderstone</name>
-				<text>Thunderstone. As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
-			</feature>
-		</autolevel>
-		<autolevel level="17">
-			<feature optional="YES">
-				<name>Alchemical Formula 7 Healing Draught</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula.</text>
-				<text>This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 7 Smoke Stick</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 7 Swift Step Draught</name>
-				<text>Swift Step Draught. As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 7 Tanglefoot Bag</name>
-				<text>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn).</text>
-				<text>The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</text>
-			</feature>
-			<feature optional="YES">
-				<name>Alchemical Formula 7 Thunderstone</name>
-				<text>Thunderstone. As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
+				<name>Alchemist: Chemical Savant</name>
+				<text>By 14th level, you have been exposed to so many chemicals and unlocked their secrets that they pose little risk to you, and you can use them to quickly end certain ailments. You gain resistance to acid damage and poison damage, and you are now immune to the poisoned condition.</text>
+				<text>	In addition, you can cast greater restoration once without expending a spell slot and withoutproviding the material component, provided you use alchemist's supplies as the spellcasting focus.You regain the ability to do so when you finish a long rest.</text>
 			</feature>
 		</autolevel>
 	</subclass>
-	<item>
-		<name>Alchemist's Satchel (Alchemist Item)</name>
-		<type>G</type>
-		<weight>1</weight>
-		<text>An Alchemist's Satchel is a magical bag of reagents that allows an Alchemist to create and use Alchemical Formulae.</text>
-	</item>
-	<spell PS="PS">
-		<name>Alchemical Fire</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<duration>Instantaneous</duration>
-		<range>30 feet</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As an action, you can reach into your Alchemist's Satchel, pull out a vial of volatile liquid, and hurl the vial at a creature, object, or surface within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). On impact, the vial detonates in a 5-foot radius. Any creature in that area must succeed on a Dexterity saving throw or take 1d6 fire damage. This formula's damage increases by 1d6 when you reach certain levels in this class: 4th level (2d6), 7th level (3d6), 10th level (4d6), 13th level (5d6), 16th level (6d6), and 19th level (7d6).</text>
-		<roll>1d6</roll>
-		<roll>2d6</roll>
-		<roll>3d6</roll>
-		<roll>4d6</roll>
-		<roll>5d6</roll>
-		<roll>6d6</roll>
-		<roll>7d6</roll>
-	</spell>
-	<spell PS="PS">
-		<name>Alchemical Acid</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<duration>Instantaneous</duration>
-		<range>30 feet</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As an action, you can reach into your Alchemist's Satchel, pull out a vial of acid, and hurl the vial at a creature or object within 30 feet of you (the vial and its contents disappear if you don't hurl the vial by the end of the current turn). The vial shatters on impact. A creature must succeed on a Dexterity saving throw or take 1d6 acid damage. An object automatically takes that damage, and the damage is maximized. This formula's damage increases by 1d6 when you reach certain levels in this class: 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).</text>
-		<roll>1d6</roll>
-		<roll>2d6</roll>
-		<roll>3d6</roll>
-		<roll>4d6</roll>
-		<roll>5d6</roll>
-		<roll>6d6</roll>
-		<roll>7d6</roll>
-		<roll>8d6</roll>
-		<roll>9d6</roll>
-		<roll>10d6</roll>
-	</spell>
-	<spell PS="PS">
-		<name>Healing Draught</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<duration>Up to 1 hour</duration>
-		<range>Self</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As an action, you can reach into your Alchemist's Satchel and pull out a vial of healing liquid. A creature can drink it as an action to regain 1d8 hit points. The vial then disappears. Once a creature regains hit points from this alchemical formula, the creature can't do so again until it finishes a long rest. If not used, the vial and its contents disappear after 1 hour. While the vial exists, you can't use this formula. This formula's healing increases by 1d8 when you reach certain levels in this class: 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).</text>
-		<roll>1d8</roll>
-		<roll>2d8</roll>
-		<roll>3d8</roll>
-		<roll>4d8</roll>
-		<roll>5d8</roll>
-		<roll>6d8</roll>
-		<roll>7d8</roll>
-		<roll>8d8</roll>
-		<roll>9d8</roll>
-		<roll>10d8</roll>
-	</spell>
-	<spell PS="PS">
-		<name>Smoke Stick</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<duration>1 minute</duration>
-		<range>30 feet</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including darkvision. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute.</text>
-	</spell>
-	<spell PS="PS">
-		<name>Swift Step Draught</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 bonus action</time>
-		<duration>Up to 1 minute</duration>
-		<range>Self</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As a bonus action, you can reach into your Alchemist's Satchel and pull out a vial filled with a bubbling, brown liquid. As an action, a creature can drink it. Doing so increases the creature's speed by 20 feet for 1 minute, and the vial disappears. If not used, the vial and its contents disappear after 1 minute. After using this formula, you can't do so again for 1 minute.</text>
-	</spell>
-	<spell PS="PS">
-		<name>Tanglefoot Bag</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<duration>1 minute</duration>
-		<range>30 feet</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As an action, you can reach into your Alchemist's Satchel and pull out a bag filled with writhing, sticky black tar and hurl it at a point on the ground within 30 feet of you (the bag and its contents disappear if you don't hurl the bag by the end of the current turn). The bag bursts on impact and covers the ground in a 5- foot radius with sticky goo. That area becomes difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this formula, you can't do so again for 1 minute.</text>
-	</spell>
-	<spell PS="PS">
-		<name>Thunderstone</name>
-		<level>0</level>
-		<school>T</school>
-		<time>1 action</time>
-		<duration>Instantaneous</duration>
-		<range>30 feet</range>
-		<components>M (Alchemist's Satchel)</components>
-		<classes>Artificer (Alchemist)</classes>
-		<text>As an action, you can reach into your Alchemist's Satchel and pull out a crystalline shard and hurl it at a creature, object, or surface within 30 feet of you (the shard disappears if you don't hurl it by the end of the current turn). The shard shatters on impact with a blast of concussive energy. Each creature within 10 feet of the point of impact must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.</text>
-	</spell>
+	<spellList class="Artificer (Alchemist)">
+		<index name="Purify Food and Drink"/>
+		<index name="Ray of Sickness"/>
+		<index name="Melf's Acid Arrow"/>
+		<index name="Web"/>
+		<index name="Create Food and Water"/>
+		<index name="Stinking Cloud"/>
+		<index name="Blight"/>
+		<index name="Death Ward"/>
+		<index name="Cloudkill"/>
+		<index name="Raise Dead"/>
+	</spellList>
+	<monster>
+		<name>Alchemical Homunculus</name>
+		<size>T</size>
+		<type>construct</type>
+		<description>Source: Unearthed Arcana: Artificer Revisited</description>
+		<alignment>Neutral</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>equal to five times your level in this class + your Intelligence modifier</hp>
+		<speed>20 ft., fly 30 ft.</speed>
+		<str>4</str>
+		<dex>15</dex>
+		<con>11</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<skill>Perception +4, Stealth +4</skill>
+		<immune>acid, poison</immune>
+		<conditionImmune>charmed, exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>understands the languages you speak</languages>
+		<trait>
+			<name>Might of the Master</name>
+			<text>The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill bonuses and the bonuses to hit and damage of its Acidic Spittle.</text>
+		</trait>
+		<action>
+			<name>Acidic Spittle</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 30 ft., one target you can see. Hit: 1d6 + 2 acid damage.</text>
+			<attack>Acidic Spittle|1|1d6+2</attack>
+		</action>
+		<action>
+			<name>Alchemical Salve (3/Day)</name>
+			<text>The homunculus produces a salve and touches one creature you designate. The target receives one of the following magical benefits of your choice:</text>
+			<text>Buoyancy. The target gains a flying speed of 10 feet for 10 minutes.</text>
+			<text>Inspiration. The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1).</text>
+			<text>Resilience. The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier.</text>
+			<attack>Resilience||2d6</attack>
+		</action>
+	</monster>
 </compendium>

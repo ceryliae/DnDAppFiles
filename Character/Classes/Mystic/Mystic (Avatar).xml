@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Mystic (UA)" UA="The Mystic Class">
+		<name>Mystic (Avatar)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Mystic Order: Order of the Avatar (UA)</name>
+				<text>Mystics of the Order of the Avatar delve into the world of emotion, mastering their inner life to such an extent that they can manipulate and amplify the emotions of others with the same ease that an artist shapes clay. Known as Avatars, these mystics vary from tyrants to inspiring leaders who are loved by their followers.</text>
+				<text>	Avatars can bring out extreme emotions in the people around them. For their allies, they can lend hope, ferocity, and courage, transforming a fighting band into a deadly, unified force. For their enemies, they bring fear, disgust, and trepidation that can make even the most hardened veteran act like a shaky rookie.</text>
+				<text/>
+				<text>Bonus Disciplines</text>
+				<text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Avatar disciplines.</text>
+				<text/>
+				<text>Armor Training</text>
+				<text>At 1st level, you gain proficiency with medium armor and shields.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Order of the Avatar: Avatar of Battle</name>
+				<text>Starting at 3rd level, you project an inspiring aura. While you aren't incapacitated, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Order of the Avatar: Avatar of Healing</name>
+				<text>Beginning at 6th level, you project an aura of resilience. While you aren't incapacitated, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Order of the Avatar: Avatar of Speed</name>
+				<text>Starting at 14th level, you project an aura of speed. While you aren't incapacitated, any ally within 30 feet of you who can see you can take the Dash action as a bonus action.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spell>
+		<name>Crown of Despair (Avatar)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<range>Varies</range>
+		<duration>Varies base on mode</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<text>You have learned to harvest seeds of despair in a creature's psyche, wracking it with self-doubt and inaction.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Charisma (Intimidation) checks.</text>
+		<text>Crowned in Sorrow (1–7 psi):</text>
+		<text>As an action, one creature you can see within 60 feet of you must make a Charisma saving throw. On a failed save, it takes 1d8 psychic damage per psi point spent, and it can't take reactions until the start of its next turn. On a successful save, it takes half as much damage.</text>
+		<text>Call to Inaction (2 psi Conc 10 min):</text>
+		<text>If you spend 1 minute conversing with a creature, you can attempt to seed it with overwhelming ennui. At the end of the minute, you can use an action to force the creature to make a Wisdom saving throw. The save automatically succeeds if the target is immune to being charmed. On a failed save, it sits and is incapacitated until your concentration ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage. On a successful save, the creature is unaffected and has no inkling of your attempt to bend its will.</text>
+		<text>Visions of Despair (3 psi):</text>
+		<text>As an action, you force one creature you can see within 60 feet of you to make a Charisma saving throw. On a failed save, it takes 3d6 psychic damage, and its speed is reduced to 0 until the end of its next turn. On a successful save, it takes half as much damage. You can increase the damage by 1d6 per additional psi point spent on it.</text>
+		<text>Dolorous Mind (5 psi Conc 1m):</text>
+		<text>As an action, you choose one creature you can see within 60 feet of you. It must succeed on a Charisma saving throw, or it is incapacitated and has a speed of 0 until your concentration ends. It can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+	</spell>
+	<spell>
+		<name>Crown of Disgust (Avatar)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<range>60 feet</range>
+		<duration>Varies base on mode</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>60 feet</range>
+		<text>You cause a creature to be flooded with emotions of disgust.</text>
+		<text>Psychic Focus:</text>
+		<text>While you are focused on this discipline, the area in a 5-foot radius around you is difficult terrain for any enemy that isn't immune to being frightened.</text>
+		<text>Eye of Horror (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make a Charisma saving throw. On a failed save, it takes 1d6 psychic damage per psi point spent and can't move closer to you until the end of its next turn. On a successful save, it takes half as much damage.</text>
+		<text>Wall of Repulsion (3 psi Conc 10m):</text>
+		<text>As an action, you create an invisible, insubstantial wall of energy within 60 feet of you that is up to 30 feet long, 10 feet high, and 1 foot thick. The wall lasts until your concentration ends. Any creature attempting to move through it must make a Wisdom saving throw. On a failed save, a creature can't move through the wall until the start of its next turn. On a successful save, the creature can pass through it. A creature must make this save whenever it attempts to pass through the wall, whether willingly or unwillingly.</text>
+		<text>Visions of Disgust (5 psi Conc 1m):</text>
+		<text>You cause a creature to regard all other beings as horrid, alien entities. As an action, choose one creature you can see within 60 feet of you. The target must make a Wisdom saving throw. On a failed save, it takes 5d6 psychic damage, and until your concentration ends, it takes 1d6 psychic damage per creature within 5 feet of it at the end of each of its turns. On a successful save, the target takes only half the initial damage and suffers none of the other effects.</text>
+		<text>World of Horror (7 psi Conc 1m):</text>
+		<text>As an action, choose up to six creatures within 60 feet of you. Each target must make a Charisma saving throw. On a failed save, a target takes 8d6 psychic damage, and it is frightened until your concentration ends. On a successful save, a target takes half as much damage.</text>
+		<text>	While frightened by this effect, a target's speed is reduced to 0, and the target can use its action, and any bonus action it might have, only to make melee attacks. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>8d6</roll>
+	</spell>
+	<spell>
+		<name>Crown of Rage (Avatar)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>1 creature you can see within 60 feet of you</range>
+		<duration>Varies</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>1 creature within 60 feet you can see</range>
+		<text>You place a mote of pure fury within a creature's mind, causing its bloodlust to overcome its senses and for it to act as you wish it to.</text>
+		<text>Psychic Focus:</text>
+		<text>While you are focused on this discipline, any enemy within 5 feet of you that makes a melee attack roll against creatures other than you does so with disadvantage.</text>
+		<text>Primal Fury (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must succeed on a Charisma saving throw or take 1d6 psychic damage per psi point spent on this ability and immediately use its reaction to move its speed in a straight line toward its nearest enemy. The save automatically succeeds if the target is immune to being charmed.</text>
+		<text>Fighting Words (2 psi Conc 10):</text>
+		<text> If you spend 1 minute conversing with a creature, you can attempt to leave a simmering violence in its mind. At the end of the minute, you can use an action to force the creature to make a Wisdom saving throw to resist feeling violent urges against one creature you describe to it or name. The save automatically succeeds if the target is immune to being charmed. On a failed save, the target attacks the chosen creature if it sees that creature before your concentration ends, using weapons or spells against a creature it was already hostile toward or unarmed strikes against an ally or a creature it was neutral toward. Once the fight starts, it continues to attack for 5 rounds before this effect ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage from any creature other than the one it has been incited against. On a successful save, the creature is unaffected and has no inkling of your attempt to bend its will.</text>
+		<text>Mindless Courage (2 psi):</text>
+		<text>You cause a creature's bloodlust to overcome its sense of preservation. As a bonus action, choose one creature you can see within 60 feet of you. The target must succeed on a Wisdom saving throw or, until the end of your next turn, it can't willingly move unless its movement brings it closer to its nearest enemy that it can see. The save automatically succeeds if the target is immune to being charmed.</text>
+		<text>Punishing Fury (5 psi Conc 1m):</text>
+		<text>You cause a creature's rage to grow so hot that it attacks without heeding its own safety. As a bonus action, choose one creature you can see within 60 feet of you. The target must succeed on a Wisdom saving throw or, until your concentration ends, any creature within 5 feet of it can use a reaction to make a melee attack against it whenever the target makes a melee attack. The save automatically succeeds if the target is immune to being charmed.</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+	</spell>
+	<spell>
+		<name>Mantle of Command (Avatar)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>Varies</range>
+		<text>You exert an aura of trust and authority, enhancing the coordination among your allies.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, when you end your turn and didn't move during it, you can use your reaction to allow one ally you can see within 30 feet of you to move up to half their speed, following a path of your choice. To move in this way, the ally mustn't be incapacitated.</text>
+		<text>Coordinated Movement (2 psi):</text>
+		<text>As a bonus action, choose up to five allies you can see within 60 feet of you. Each of those allies can use their reaction to move up to half their speed, following a path of your choice.</text>
+		<text>Commander's Sight (2 psi Conc 1r):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. Until the start of your next turn, your allies have advantage on attack rolls against that target.</text>
+		<text>Command to Strike (3 psi):</text>
+		<text>As an action, choose one ally you can see within 60 feet of you. That ally can use their reaction to immediately take the Attack action. You choose the targets.</text>
+		<text>Strategic Mind (5 psi Conc 1m):</text>
+		<text>As an action, you exert an aura of trust and command that unites your allies into a cohesive unit. Until your concentration ends, any ally within 60 feet of you on their turn can, as a bonus action, take the Dash or Disengage action or roll a d4 and add the number rolled to each attack roll they make that turn.</text>
+		<text>Overwhelming Attack (7 psi):</text>
+		<text>As an action, choose up to five allies you can see within 60 feet of you. Each of those allies can use their reaction to take the Attack action. You choose the targets of the attacks.</text>
+	</spell>
+	<spell>
+		<name>Mantle of Courage (Avatar)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>Varies</range>
+		<text>You focus your mind on courage, radiating confidence and bravado to your allies.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you and allies within 10 feet of you who can see you have advantage on saving throws against being frightened.</text>
+		<text>Incite Courage (2 psi):</text>
+		<text>As a bonus action, choose up to six creatures you can see within 60 feet of you. If any of those creatures is frightened, that condition ends on that creature.</text>
+		<text>Aura of Victory (1–7 psi Conc 10m):</text>
+		<text>As a bonus action, you project psionic energy until your concentration ends. The energy fortifies you and your allies when your enemies are felled; whenever an enemy you can see is reduced to 0 hit points, you and each of your allies within 30 feet of you gain temporary hit points equal to double the psi points spent to activate this effect.</text>
+		<text>Pillar of Confidence (6 psi Conc 1r):</text>
+		<text>As an action, you and up to five creatures you can see within 60 feet of you each gain one extra action to use on your individual turns. The action goes away if not used before the end of your next turn. the action can be used only to make one weapon attack or to take the Dash or Disengage action.</text>
+	</spell>
+	<spell>
+		<name>Mantle of Fear (Avatar)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>Varies</range>
+		<text>You tap into a well of primal fear and turn yourself into a beacon of terror to your enemies.</text>
+		<text>Psychic Focus:</text>
+		<text> While focused on this discipline, you have advantage on Charisma (Intimidation) checks.</text>
+		<text>Incite Courage (2 psi):</text>
+		<text>As a bonus action, choose up to six creatures you can see within 60 feet of you. If any of those creatures is frightened, that condition ends on that creature.</text>
+		<text>Incite Fear (2 psi Conc 1m):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must succeed on a Wisdom saving throw or become frightened of you until your concentration ends. Whenever the frightened target ends its turn in a location where it can't see you, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		<text>Unsettling Aura (3 psi Conc 1h):</text>
+		<text>As a bonus action, you cloak yourself in unsettling psychic energy. Until your concentration ends, any enemy within 60 feet of you that can see you must spend 1 extra foot of movement for every foot it moves toward you. A creature ignores this effect if immune to being frightened.</text>
+		<text>Incite Panic (5 psi Conc 1m):</text>
+		<text>As an action, choose up to eight creatures you can see within 90 feet of you that can see you. At the start of each of a target's turns before your concentration ends, the target must make a Wisdom saving throw. On a failed save, the target is frightened until the start of its next turn, and you roll a die. If you roll an odd number, the frightened target moves half its speed in a random direction and takes no action on that turn, other than to scream in terror. If you roll an even number, the frightened target makes one melee attack against a random target within its reach. If there is no such target, it moves half its speed in a random direction and takes no action on that turn. This effect ends on a target if it succeeds on three saving throws against it.</text>
+	</spell>
+	<spell>
+		<name>Mantle of Fury (Avatar)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>Varies</range>
+		<text>You allow the primal fury lurking deep within your mind to burst forth, catching you and your allies in an implacable bloodthirst.</text>
+		<text>Psychic Focus:</text>
+		<text> While focused on this discipline in combat, you and any ally who starts their turn within 10 feet of you gains a 5-foot increase to their walking speed during that turn.</text>
+		<text>Incite Fury (2 psi Conc 1m):</text>
+		<text>As a bonus action, choose up to six creatures you can see within 60 feet of you. If any of those creatures is frightened, that condition ends on that creature.</text>
+		<text>Incite Fear (2 psi Conc 1m):</text>
+		<text>As a bonus action, choose up to three allies you can see within 60 feet of you (you can choose yourself in place of one of the allies). Until your concentration ends, each target can roll a d4 when rolling damage for a melee weapon attack and add the number rolled to the damage roll.</text>
+		<text>Mindless Charge (2 psi):</text>
+		<text>As a bonus action, choose up to three creatures you can see within 60 feet of you. Each target can immediately use its reaction to move up to its speed in a straight line toward its nearest enemy.</text>
+		<text>Aura of Bloodletting (3 psi Conc 1m):</text>
+		<text>As a bonus action, you unleash an aura of rage. Until your concentration ends, you and any creature within 60 feet of you has advantage on melee attack rolls.</text>
+		<text>Overwhelming Fury (5 psi Conc 1m):</text>
+		<text>As an action, you flood rage into one creature you can see within 60 feet of you. The target must succeed on a Charisma saving throw, or it can use its actions only to make melee attacks until your concentration ends. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+	</spell>
+	<spell>
+		<name>Mantle of Joy (Avatar)</name>
+		<level>1</level>
+		<time>1 Bonus Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Avatar) (UA)</classes>
+		<range>Varies</range>
+		<text>You tap into the joy within you, radiating it outward in soothing, psychic energy that brings hope and comfort to creatures around you.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Charisma (Persuasion) checks.</text>
+		<text>Soothing Presence (1–7 psi):</text>
+		<text>As a bonus action, choose up to three creatures you can see within 60 feet of you. Each target gains 3 temporary hit points per psi point spent on this effect.</text>
+		<text>Comforting Aura (2 psi Conc 1m):</text>
+		<text>As a bonus action, choose up to three allies you can see (you can choose yourself in place of one of the allies). Until your concentration ends, each target can roll a d4 when making a saving throw and add the number rolled to the total.</text>
+		<text>Aura of Jubilation (3 psi Conc 1m):</text>
+		<text>As a bonus action, you radiate a distracting mirth until your concentration ends. Each creature within 60 feet of you that can see you suffers disadvantage on any checks using the Perception and Investigation skills.</text>
+		<text>Aura of Bloodletting (3 psi Conc 1m):</text>
+		<text>As a bonus action, you unleash an aura of rage. Until your concentration ends, you and any creature within 60 feet of you has advantage on melee attack rolls.</text>
+		<text>Beacon of Recovery (5 psi):</text>
+		<text>As a bonus action, you and up to five allies you can see within 60 feet of you can immediately make saving throws against every effect they're suffering that allows a save at the start or end of their turns.</text>
+	</spell>
+</compendium>
