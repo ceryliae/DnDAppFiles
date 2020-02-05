@@ -1,9 +1,15 @@
-# DnDAppFiles
+# DnDAppFiles - Renewed
 
-Files for the GM5 and Fight Club apps from Lion's Den
+The original intent of this was to import DnD data in to GM5 and FightClub.
 
-Please do NOT use these files unless you know what you are doing. The files here are a work in progress, and are not guaranteed to work properly when imported.
+I've found many other uses for these files outside of those apps.
 
-If you would like files for import in your app, please go to www.tinyurl.com/DnDAppFiles to request an invite to a shared Dropbox folder.
+My primary use has been importing the comendiums into Microsoft OneNote and Trello.
 
-We are not affiliated with Leo or Lion's Den in any way.
+Other uses:
+
+- **Google Docs** - gm sheets
+- **Microsoft Word** - make printable cards
+- **PDF Building** - make full page pdf documents
+- **Mardown** - use for general markdown for websites
+- **Wiki Pages** - import in to wiki page

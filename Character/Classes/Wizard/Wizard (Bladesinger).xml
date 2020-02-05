@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Wizard">
+		<name>Wizard (Bladesinger)</name>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Arcane Tradition: Bladesinger</name>
+				<text>Bladesingers are elves who bravely defend their people and lands. They are elf wizards who master a school of sword fighting grounded in a tradition of arcane magic. In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Bladesinger: Restriction: Elves Only</name>
+				<text>Only elves and half-elves can choose the bladesinger arcane tradition. In the world of Faerûn, elves closely guard the secrets of bladesinging.</text>
+				<text>	Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of bladesingers in the Forgotten Realms, but it might not apply to your DM's setting or your DM's version of the Realms.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Bladesinger: Training in War and Song (Bladesinging)</name>
+				<text>When you adopt this tradition at 2nd level, you gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.</text>
+				<text>	You also gain proficiency in the Performance skill if you don't already have it.</text>
+				<proficiency>Performance</proficiency>
+			</feature>
+			<feature optional="YES">
+				<name>Bladesinger: Bladesong</name>
+				<text>Starting at 2nd level, you can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.</text>
+				<text>	You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).</text>
+				<text>	While your bladesong is active, you gain the following benefits:</text>
+				<text/>
+				<text>- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).</text>
+				<text>- Your walking speed increases by 10 feet.</text>
+				<text>- You have advantage on Dexterity (Acrobatics) checks.</text>
+				<text>- You gain a bonus to any Constitution saving throws you make to maintain concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).</text>
+				<text/>
+				<text>	You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Bladesinger: Extra Attack</name>
+				<text>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Bladesinger: Song of Defense</name>
+				<text>Beginning at 10th level, you can direct your magic to absorb damage while your bladesong is active. When you take damage, you can use your reaction to expend one spell slot and reduce that damage to you by an amount equal to five times the spell's slot level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Bladesinger: Song of Victory</name>
+				<text>Starting at 14th level, you add your Intelligence modifier (minimum of +1) to the damage of your melee weapon attacks while your Bladesong is active.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Life)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Life</name>
+				<text>The Life domain focuses on the vibrant positive energy - one of the fundamental forces of the universe -  that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).</text>
+				<text/>
+				<text>Life Domain Spells: At each indicated cleric level, you add the listed spells to your spells prepared.</text>
+				<text/>
+				<text>1st - bless, cure wounds</text>
+				<text/>
+				<text>3rd - lesser restoration, spiritual weapon</text>
+				<text/>
+				<text>5th - beacon of hope, revivify</text>
+				<text/>
+				<text>7th - death ward, guardian of faith</text>
+				<text/>
+				<text>9th - mass cure wounds, raise dead</text>
+			</feature>
+			<feature optional="YES">
+				<name>Life Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Life Domain: Disciple of Life</name>
+				<text>Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Life Domain Channel Divinity: Preserve Life</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.</text>
+				<text>	As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Life Domain: Blessed Healer</name>
+				<text>Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Life Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Life Domain: Supreme Healing</name>
+				<text>Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Life)">
+		<index name="Beacon of Hope"/>
+		<index name="Bless"/>
+		<index name="Cure Wounds"/>
+		<index name="Death Ward"/>
+		<index name="Guardian of Faith"/>
+		<index name="Lesser Restoration"/>
+		<index name="Mass Cure Wounds"/>
+		<index name="Raise Dead"/>
+		<index name="Revivify"/>
+		<index name="Spiritual Weapon"/>
+	</spellList>
+</compendium>

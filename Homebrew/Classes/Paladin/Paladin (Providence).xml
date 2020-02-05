@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Paladin" HB="HB">
+		<name>Paladin (Providence)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Providence</name>
+				<text>Paladins who take the Oath of Providence believe they are the hand of destiny, striking down enemies beyond redemption. They believe in their hearts that some creatures, often those who commit atrocities, are fated to die in battle. These paladins are the executioners. Their oath gives them the power to bend destiny in their favor and send foes to their final fate.</text>
+				<text/>
+				<text>Tenets of the Providence</text>
+				<text/>
+				<text>The tenets of the Oath of Providence are written in stone on the tombs of paladins undertaking this path.</text>
+				<text>	Embrace Destiny. When bad luck comes your way, understand it was meant to be and search for the opportunity fate has given you within your loss.</text>
+				<text>	Deliver Enemies to Fate. Those who become your enemies aren't long for this world. They must die by your hand.</text>
+				<text>	Accept that which Cannot Change. Fate is a force more powerful than the gods. Accept that there are situations in which you're powerless and take power over that you can influence.</text>
+				<text>	Strength in Numbers. Together with your allies, you have the power to influence fate. Destiny smiles upon those who embrace it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Providence: Oath Spells</name>
+				<text>You gain oath spells at the paladin levels listed.</text>
+				<text/>
+				<text>3rd - bless, divine favor</text>
+				<text/>
+				<text>5th - aid, augury</text>
+				<text/>
+				<text>9th - bestow curse, clairvoyance</text>
+				<text/>
+				<text>13th - death ward, divination</text>
+				<text/>
+				<text>17th - commune, legend lore</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Providence Channel Divinity: Predestination.</name>
+				<text>You can use your Channel Divinity to invoke the divine to smile upon your allies. When one creature within 60 feet of you that you can see makes a saving throw, you can use your reaction to grant the creature advantage on the save, using your Channel Divinity. If the effect allows the creature to take only half damage on a successful save, the creature instead takes no damage on a successful save, and only half as much damage one a failed one.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Providence Channel Divinity: Kiss of Calamity.</name>
+				<text>As an action, your Channel Divinity can be used to besiege your enemies with bad luck. Each unfriendly creature that can see or hear you within 30 feet of you must make a Charisma saving throw, gaining disadvantage on all saving throws for 1 minute on a failure. You must be conscious for this feature to have effect.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Oath of the Providence: Favor the Bold</name>
+				<text>Beginning at 7th level, your good fortune guides your hand. Once per turn when you miss with an attack, you can choose to hit instead. When you use this feature, the creature takes extra radiant damage equal to your Charisma modifier (minimum of 1). You can use this feature a number of times equal to your Charisma modifier (a minimum of once).</text>
+				<text>	You regain any expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Oath of the Providence: Gift of Foresight</name>
+				<text>Starting at 15th level, your faith grants you a prophetic glimpse into the future. When you finish a short or long rest, roll one d20 and record the number rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with your prophetic roll. You must choose to do so before the roll, and you can use roll in this way only once.</text>
+				<text>	When you finish a short or long rest, you lose any unused prophetic roll.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature optional="YES">
+				<name>Oath of the Providence: Hand of Fate</name>
+				<text>At 20th level, you become an agent of destiny, heavily influencing the outcome of the events around you. For 1 minute, an argent glow shines dim light from you in 30-foot radius. Whenever an enemy creature starts its turn in your glow, it has disadvantage on attacks and saving throws, while you and friendly creatures have advantage on attack rolls and saving throws. As the glow fades away, you regain all expended uses of Channel Divinity, Favor the Bold, and your Gift of Foresight features.</text>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Paladin (Providence)">
+		<index name="Bless"/>
+		<index name="Divine Favor"/>
+		<index name="Aid"/>
+		<index name="Augury"/>
+		<index name="Bestow Curse"/>
+		<index name="Clairvoyance"/>
+		<index name="Death Ward"/>
+		<index name="Divination"/>
+		<index name="Commune"/>
+		<index name="Legend Lore"/>
+	</spellList>
+</compendium>

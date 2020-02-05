@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Artificer">
+	<subclass baseclass="Artificer (UA)">
+		<name>Artificer (Alchemist)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Artificer Specialist: Alchemist (UA)</name>
+				<text>An Alchemist is an expert at combining exotic reagents to produce mystical effects. Among artificers, members of this subclass are the greatest healers, as well as the ones most adept at wielding dangerous chemicals.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Tools of the Trade</name>
+				<text>By the time you adopt this specialty at 3rd level, you're deeply familiar with employing its tools.</text>
+				<text>	Proficiencies. You gain proficiency with alchemist's supplies and the herbalism kit, assuming you don't already have them. You also gain alchemist's supplies and an herbalism kit for free—the result of tinkering you've done as you've prepared for this specialization.</text>
+				<text>	Crafting. If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Alchemist Spells</name>
+				<text>Starting at 3rd level, you always have certain spells prepared after you reach particular levelsin this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</text>
+				<text/>
+				<text>Alchemist Spells</text>
+				<text>Artificer Level    Spell</text>
+				<text>3rd                purify food and drink, ray of sickness</text>
+				<text>5th                Melf's acid arrow, web</text>
+				<text>9th                create food and water, stinking cloud</text>
+				<text>13th               blight, death ward</text>
+				<text>17th               cloudkill, raise dead</text>
+			</feature>
+			<feature optional="YES">
+				<name>Alchemist: Alchemical Homunculus</name>
+				<text>At 3rd level, you learn ancient methods for magically creating a special homunculus that is formed by alchemical substances.</text>
+				<text>Whenever you finish a long rest and your alchemist's supplies are with you, you can form this homunculus in an unoccupied space within 5 feet of you. If you already have a homunculus from this feature, the first one immediately dies.</text>
+				<text>The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Alchemical Homunculus stat block. You determine the homunculus's appearance, which includes wings and bits of alchemical equipment. Some alchemists prefer mechanical-looking birds, whereas others like winged vials or miniature cauldrons.</text>
+				<text>In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the Dash, Disengage, or Help action.</text>
+				<text>If the mending spell is cast on it, it regains 2d6hit points. If it has died within the last hour, you can use your alchemist's supplies as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its hit points restored.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Alchemist: Alchemical Mastery</name>
+				<text>At 6th level, your command of magical chemicals  has become masterful, enhancing the healing  and damage you create through them. When you  cast a spell using your alchemist's supplies as the  spellcasting focus, you gain a bonus to one roll of  the spell. That roll must restore hit points or be a  damage roll that deals acid or poison damage,  and the bonus equals your Intelligence modifier  (minimum of +1).</text>
+				<text>	In addition, you can cast lesser restoration without expending a spell slot, provided you use  alchemist's supplies as the spellcasting focus.  You can do so a number of times per day equal to  your Intelligence modifier (minimum of once).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Alchemist: Chemical Savant</name>
+				<text>By 14th level, you have been exposed to so many chemicals and unlocked their secrets that they pose little risk to you, and you can use them to quickly end certain ailments. You gain resistance to acid damage and poison damage, and you are now immune to the poisoned condition.</text>
+				<text>	In addition, you can cast greater restoration once without expending a spell slot and withoutproviding the material component, provided you use alchemist's supplies as the spellcasting focus.You regain the ability to do so when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Artificer (Alchemist)">
+		<index name="Purify Food and Drink"/>
+		<index name="Ray of Sickness"/>
+		<index name="Melf's Acid Arrow"/>
+		<index name="Web"/>
+		<index name="Create Food and Water"/>
+		<index name="Stinking Cloud"/>
+		<index name="Blight"/>
+		<index name="Death Ward"/>
+		<index name="Cloudkill"/>
+		<index name="Raise Dead"/>
+	</spellList>
+	<monster>
+		<name>Alchemical Homunculus</name>
+		<size>T</size>
+		<type>construct</type>
+		<description>Source: Unearthed Arcana: Artificer Revisited</description>
+		<alignment>Neutral</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>equal to five times your level in this class + your Intelligence modifier</hp>
+		<speed>20 ft., fly 30 ft.</speed>
+		<str>4</str>
+		<dex>15</dex>
+		<con>11</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>7</cha>
+		<skill>Perception +4, Stealth +4</skill>
+		<immune>acid, poison</immune>
+		<conditionImmune>charmed, exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>understands the languages you speak</languages>
+		<trait>
+			<name>Might of the Master</name>
+			<text>The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus's skill bonuses and the bonuses to hit and damage of its Acidic Spittle.</text>
+		</trait>
+		<action>
+			<name>Acidic Spittle</name>
+			<text>Ranged Weapon Attack: +4 to hit, range 30 ft., one target you can see. Hit: 1d6 + 2 acid damage.</text>
+			<attack>Acidic Spittle|1|1d6+2</attack>
+		</action>
+		<action>
+			<name>Alchemical Salve (3/Day)</name>
+			<text>The homunculus produces a salve and touches one creature you designate. The target receives one of the following magical benefits of your choice:</text>
+			<text>Buoyancy. The target gains a flying speed of 10 feet for 10 minutes.</text>
+			<text>Inspiration. The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1).</text>
+			<text>Resilience. The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier.</text>
+			<attack>Resilience||2d6</attack>
+		</action>
+	</monster>
+</compendium>

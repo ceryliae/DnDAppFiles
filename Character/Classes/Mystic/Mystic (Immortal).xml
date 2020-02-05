@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Mystic (UA)" UA="The Mystic Class">
+		<name>Mystic (Immortal)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Mystic Order: Order of the Immortal (UA)</name>
+				<text>The Order of the Immortal uses psionic energy to augment and modify the physical form. Followers of this order are known as Immortals. They use psionic energy to modify their bodies, strengthening them against attack and turning themselves into living weapons.</text>
+				<text>	Their mastery of the physical form grants them their name, for Immortals are notoriously difficult to kill.</text>
+				<text/>
+				<text>Bonus Disciplines</text>
+				<text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Immortal disciplines.</text>
+				<text/>
+				<text>Immortal Durability</text>
+				<text>Starting at 1st level, your hit point maximum increases by 1 per mystic level.</text>
+				<text>	  In addition, while you aren't wearing armor or wielding a shield, your base AC equals 10 + your Dexterity modifier + your Constitution modifier.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Order of the Immortal: Psionic Resilience</name>
+				<text>Starting at 3rd level, your psionic energy grants you extraordinary fortitude. At the start of each of your turns, you gain temporary hit points equal to your Intelligence modifier (minimum of 0) if you have at least 1 hit point.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Order of the Immortal: Surge of Health</name>
+				<text>Starting at 6th level, you can draw on your psychic focus to escape death's grasp. As a reaction when you take damage, you can halve that damage against you. Your psychic focus immediately ends if it's active, and you can't use it until you finish a short or long rest.</text>
+				<text>	You can't use this feature if you can't use your psychic focus.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Order of the Immortal: Immortal Will</name>
+				<text>Starting at 14th level, you can draw on your reserves of psionic power to survive beyond death. At the end of your turn while at 0 hit points, you can spend 5 psi points to immediately regain a number of hit points equal to your mystic level + your Constitution modifier.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spell>
+		<name>Adaptive Body (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Varies</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You can alter your body to match your surroundings, allowing you to withstand punishing environments. With greater psi energy, you can extend this protection to others.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you don't need to eat, breathe, or sleep. To gain the benefits of a long rest, you can spend 8 hours engaged in light activity, rather than sleeping during any of it.</text>
+		<text>Environmental Adaptation (2 psi):</text>
+		<text>As an action, you or a creature you touch ignores the effects of extreme heat or cold (but not cold or fire damage) for the next hour.</text>
+		<text>Adaptive Shield (3 psi):</text>
+		<text>When you take acid, cold, fire, lightning, or thunder damage, you can use your reaction to gain resistance to damage of that type—including the triggering damage— until the end of your next turn.</text>
+		<text>Energy Adaptation (5 psi Conc 1h):</text>
+		<text>As an action, you can touch one creature and give it resistance to acid, cold, fire, lightning, or thunder damage (your choice), which lasts until your concentration ends.</text>
+		<text>Energy Immunity (7 psi Conc 1h):</text>
+		<text>As an action, you can touch one creature and give it immunity to acid, cold, fire, lightning, or thunder damage (your choice), which lasts until your concentration ends.</text>
+	</spell>
+	<spell>
+		<name>Aura Sight (Awakened)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Varies</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You refocus your sight to see the energy that surrounds all creatures. You perceive auras, energy signatures that can reveal key elements of a creature's nature.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Wisdom (Insight) checks.</text>
+		<text>Assess Foe (2 psi):</text>
+		<text>As a bonus action, you analyze the aura of one creature you see. You learn its current hit point total and all its immunities, resistances, and vulnerabilities.</text>
+		<text>Read Moods (2 psi):</text>
+		<text>As a bonus action, you learn a one-word summary of the emotional state of up to six creatures you can see, such as happy, confused, afraid, or violent.</text>
+		<text>View Aura (3 psi Conc 1h):</text>
+		<text>As an action, you study one creature's aura. Until your concentration ends, while you can see the target, you learn if it's under the effect of any magical or psionic effects, its current hit point total, and its basic emotional state. While this effect lasts, you have advantage on Wisdom (Insight) and Charisma checks you make against it.</text>
+		<text>Perceive the Unseen (5 points, Conc 1m):</text>
+		<text>As a bonus action, you gain the ability to see auras even of invisible or hidden creatures. Until your concentration ends, you can see all creatures, including hidden and invisible ones, regardless of lighting conditions.</text>
+	</spell>
+	<spell>
+		<name>Bestial Form (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Varies</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You transform your body, gaining traits of different beasts.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Wisdom (Animal Handling) checks.</text>
+		<text>Bestial Claws (1–7 psi):</text>
+		<text>You manifest long claws for an instant and make a melee weapon attack against one creature within 5 feet of you. On a hit, this attack deals 1d10 slashing damage per psi point spent.</text>
+		<text>Bestial Transformation:</text>
+		<text>As a bonus action, you alter your physical form to gain different characteristics. When you use this ability, you can choose one or more of the following effects. Each effect has its own psi point cost. Add them together to determine the total cost. This transformation lasts for 1 hour, until you die, or until you end it as a bonus action.</text>
+		<text>  Amphibious (2 psi):</text>
+		<text>	  You gain gills; you can breathe air and water.</text>
+		<text>  Climbing (2 psi):</text>
+		<text>	  You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed.</text>
+		<text>  Flight (5 psi):</text>
+		<text>	  Wings sprout from your back. You gain a flying speed equal to your walking speed.</text>
+		<text>  Keen Senses (2 psi):</text>
+		<text>	  Your eyes and ears become more sensitive. You gain advantage on Wisdom (Perception) checks.</text>
+		<text>  Perfect Senses (3 psi):</text>
+		<text>	  You gain a keen sense of smell and an instinct to detect prey. You can see invisible creatures and objects within 10 feet of you, even if you are blinded.</text>
+		<text>  Swimming (2 psi):</text>
+		<text>	  You gain fins and webbing between your fingers and toes; you gain a swimming speed equal to your walking speed.</text>
+		<text>  Tough Hide (2 psi):</text>
+		<text>	  Your skin becomes as tough as leather; you gain a +2 bonus to AC.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+	</spell>
+	<spell>
+		<name>Brute Force (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You augment your natural strength with psionic energy, granting you the ability to achieve incredible feats of might.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Strength (Athletics) checks.</text>
+		<text>Brute Strike (1–7 psi):</text>
+		<text>As a bonus action, you gain a bonus to your next damage roll against a target you hit with a melee attack during the current turn. The bonus equals +1d6 per psi point spent, and the bonus damage is the same type as the attack. If the attack has more than one damage type, you choose which one to use for the bonus damage.</text>
+		<text>Knock Back (1–7 psi):</text>
+		<text>When you hit a target with a melee attack, you can activate this ability as a reaction. The target must succeed on a Strength saving throw or be knocked 10 feet away from you per psi point spent. The target moves in a straight line. If it hits an object, this movement immediately ends and the target takes 1d6 bludgeoning damage per psi point spent.</text>
+		<text>Mighty Leap (1–7 psi):</text>
+		<text>As part of your movement, you jump in any direction up to 20 feet per psi point spent.</text>
+		<text>Feat of Strength (2 psi):</text>
+		<text>As a bonus action, you gain a +5 bonus to Strength checks until the end of your next turn.</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+	</spell>
+	<spell>
+		<name>Celerity (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. The world seems to slow down while you continue to move as normal.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, your walking speed increases by 10 feet.</text>
+		<text>Rapid Step (1–7 psi):</text>
+		<text> As a bonus action, you increase your walking speed by 10 feet per psi point spent until the end of the current turn. If you have a climbing or swimming speed, this increase applies to that speed as well.</text>
+		<text>Agile Defense (2 psi):</text>
+		<text>As a bonus action, you take the Dodge action.</text>
+		<text>Blur of Motion (2 psi):</text>
+		<text>As an action, you cause yourself to be invisible during any of your movement during the current turn.</text>
+		<text>Surge of Speed (2 points):</text>
+		<text>As a bonus action, you gain two benefits until the end of the current turn: you don't provoke opportunity attacks, and you have a climbing speed equal to your walking speed.</text>
+		<text>Surge of Action (5 points):</text>
+		<text>As a bonus action, you can Dash or make one weapon attack.</text>
+	</spell>
+	<spell>
+		<name>Corrosive Metabolism (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Varies</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>Your control over your body allows you to deliver acid or poison attacks.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have resistance to acid and poison damage.</text>
+		<text>Corrosive Touch (1–7 psi):</text>
+		<text>As an action, you deliver a touch of acid to one creature within your reach. The target must make a Dexterity saving throw, taking 1d10 acid damage per psi point spent on a failed save, or half as much damage on a successful one.</text>
+		<text>Venom Strike (1–7 psi):</text>
+		<text>As an action, you create a poison spray that targets one creature you can see within 30 feet of you. The target must make a Constitution saving throw. On a failed save, it takes 1d6 poison damage per psi point spent and is poisoned until the end of your next turn. On a successful save, the target takes half as much damage and isn't poisoned.</text>
+		<text>Acid Spray (2 psi):</text>
+		<text>As a reaction when you take piercing or slashing damage, you cause acid to spray from your wound; each creature within 5 feet of you takes 2d6 acid damage.</text>
+		<text>Breath of the Black Dragon (5 psi):</text>
+		<text>You exhale a wave of acid in a 60-foot line that is 5 feet wide. Each creature in the line must make a Constitution saving throw, taking 6d6 acid damage on a failed save, or half as much on a successful one. You can increase the damage by 1d6 per additional psi point spent on it.</text>
+		<text>Breath of the Green Dragon (7 psi):</text>
+		<text>You exhale a cloud of poison in a 90-foot cone. Each creature in the line must make a Constitution saving throw, taking 10d6 poison damage on a failed save, or half as much damage on a successful one.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+		<roll>5d6</roll>
+		<roll>6d6</roll>
+		<roll>7d6</roll>
+		<roll>10d6</roll>
+	</spell>
+	<spell>
+		<name>Diminution (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Varies</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You manipulate the matter that composes your body, drastically reducing your size without surrendering any of your might.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Dexterity (Stealth) checks.</text>
+		<text>Miniature Form (2 psi Conc 10m):</text>
+		<text>As a bonus action, you become Tiny until your concentration ends. While this size, you gain a +5 bonus to Dexterity (Stealth) checks and can move through gaps up to 6 inches across without squeezing.</text>
+		<text>Toppling Shift (2 psi):</text>
+		<text> As a bonus action, you shift to an incredibly small size and then suddenly return to normal, sending an opponent flying backward. Choose one creature you can see within 5 feet of you. It must succeed on a Strength saving throw or be knocked prone.</text>
+		<text>Sudden Shift  (5 psi):</text>
+		<text>As a reaction when you are hit by an attack, you shift down to minute size to avoid the attack. The attack misses, and you move up to 5 feet without provoking opportunity attacks before returning to normal size.</text>
+		<text>Microscopic Form (7 psi Conc 10m):</text>
+		<text>As a bonus action, you become smaller than Tiny until your concentration ends. While this size, you gain a +10 bonus to Dexterity (Stealth) checks and a +5 bonus to AC, you can move through gaps up to 1 inch across without squeezing, and you can't make weapon attacks.</text>
+	</spell>
+	<spell>
+		<name>Giant Growth (Immortal)</name>
+		<level>1</level>
+		<time>1 Bonus Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<range>Self</range>
+		<text>You infuse yourself with psionic energy to grow to tremendous size, bolstering your strength and durability.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, your reach increases by 5 feet.</text>
+		<text>Ogre Form (2 psi Conc 1m):</text>
+		<text>As a bonus action, you gain 10 temporary hit points. In addition, until your concentration ends, your melee weapon attacks deal an extra 1d4 bludgeoning damage on a hit, and your reach increases by 5 feet. If you're smaller than Large, you also become Large for the duration.</text>
+		<text>Giant Form (7 psi Conc 1m):</text>
+		<text>As a bonus action, you gain 30 temporary hit points. In addition, until your concentration ends, your melee weapon attacks deal an extra 2d6 bludgeoning damage on a hit, and your reach increases by 10 feet. If you're smaller than Huge, you also become Huge for the duration.</text>
+		<roll>2d6</roll>
+	</spell>
+	<spell>
+		<name>Iron Durability (Immortal)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<range>Self</range>
+		<duration>Varies based on mode</duration>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<range>Self</range>
+		<text>You transform your body to become a living metal, allowing you to shrug off attacks that would cripple weaker creatures.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain a +1 bonus to AC.</text>
+		<text>Iron Hide (1-7 points):</text>
+		<text>As a reaction when you are hit by an attack, you gain a +1 bonus to AC for each psi point you spend on this ability. The bonus lasts until the end of your next turn. This bonus applies against the triggering attack.</text>
+		<text>Steel Hide (2 psi):</text>
+		<text>As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage until the end of your next turn.</text>
+		<text>Iron Resistance (7 psi Conc 1h):</text>
+		<text>As an action, you gain resistance to bludgeoning, piercing, or slashing damage (your choice), which lasts until your concentration ends.</text>
+	</spell>
+	<spell>
+		<name>Psionic Weapon (Immortal)</name>
+		<level>1</level>
+		<time>1 Bonus Action</time>
+		<duration>Varies</duration>
+		<range>Self</range>
+		<classes>Mystic (Immotal) (UA)</classes>
+		<text>You have learned how to channel psionic energy into your attacks, lending them devastating power.</text>
+		<text>Psychic Focus:</text>
+		<text>Whenever you focus on this discipline, choose one weapon you're holding or your unarmed strike. When you attack with it while focused on this discipline, its damage is psychic and magical, rather than its normal damage type. Until you reach 6th level as a mystic, you don't add your Strength or Dexterity modifier to the psychic attack's damage rolls.</text>
+		<text>Ethereal Weapon (1 psi):</text>
+		<text>As a bonus action, you temporarily transform one weapon you're holding or your unarmed strike into pure psionic energy. The next attack you make with it before the end of your turn ignores the target's armor, requiring no attack roll. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit.</text>
+		<text>Lethal Strike (1-7 psi):</text>
+		<text>As a bonus action, you imbue a weapon you're holding or your unarmed strike with psychic energy. The next time you hit with it before the end of your turn, it deals an extra 1d10 psychic damage per psi point spent.</text>
+		<text>Augmented Weapon (5 psi Conc 10m):</text>
+		<text>As a bonus action, touch one simple or martial weapon. Until your concentration ends, that weapon becomes a magic weapon with a +3 bonus to its attack and damage rolls.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+	</spell>
+</compendium>

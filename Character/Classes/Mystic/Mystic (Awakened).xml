@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Mystic (UA)" UA="The Mystic Class">
+		<name>Mystic (Awakened)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Mystic Order: Order of the Awakened (UA)</name>
+				<text>Mystics dedicated to the Order of the Awakened seek to unlock the full potential of the mind. By transcending the physical, the Awakened hope to attain a perfect state of being — focused on pure intellect and mental energy.</text>
+				<text>	The Awakened are skilled at bending minds and unleashing devastating psychic attacks, and are able to read the secrets of the world through psionic energy. Awakened mystics who take to adventuring excel at unraveling mysteries, solving puzzles, and defeating monsters by turning them into unwilling pawns.</text>
+				<text/>
+				<text>Bonus Disciplines</text>
+				<text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Awakened disciplines.</text>
+				<text/>
+				<text>Awakened Talent</text>
+				<text>At 1st level, you gain proficiency with two of the following skills of your choice: Animal Handling, Deception, Insight, Intimidation, Investigation, Perception, and Persuasion.</text>
+				<text/>
+				<text>Mind Mastery</text>
+				<text>At 1st level, you gain the mind meld and thought spear psionic talents (these are in addition to the talents you gain in the Mystic table). If you already have either one, you can pick any other talent to replace it.</text>
+				<text/>
+				<text>Awakened Expertise</text>
+				<text>Mystics dedicated to the Order of the Awakened seek to unlock the full potential of the mind. By transcending the physical, the Awakened hope to attain a state of being focused on pure intellect and mental energy.</text>
+				<text/>
+				<text>The Awakened are skilled at bending minds and unleashing devastating psionic attacks, and they can read the secrets of the world through psionic energy. Awakened mystics who take to adventuring excel at unraveling mysteries, solving puzzles, and defeating monsters by turning them into unwilling pawns.</text>
+				<text>	In addition, choose one skill you are proficient in. Your proficiency bonus is doubled for any ability check you make that uses that skill.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Order of the Awakened: Psionic Investigation</name>
+				<text>Starting at 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes (as if concentrating on a psionic discipline), you learn a few basic facts about it. You gain a mental image from the object's point of view, showing the last creature to hold the object within the past 24 hours.</text>
+				<text>	You also learn of any events that have occurred within 20 feet of the object within the past hour. The events you perceive unfold from the object's perspective. You see and hear such events as if you were there, but can't use other senses.</text>
+				<text>	Additionally, you can embed an intangible psionic sensor within the object. For the next 24 hours, you can use an action to learn the object's location relative to you (its distance and direction) and to look at the object's surroundings from its point of view as if you were there. This perception lasts until the start of your next turn.</text>
+				<text>Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Order of the Awakened: Psionic Surge</name>
+				<text>Starting at 6th level, you can overload your psychic focus to batter down an opponent's defenses. You can impose disadvantage on a target's saving throw against a discipline or talent you use, but at the cost of using your psychic focus. Your psychic focus immediately ends if it's active, and you can't use it until you finish a short or long rest.</text>
+				<text>	You can't use this feature if you can't use your psychic focus.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature>
+				<name>Order of the Awakened: Potent Psionics</name>
+				<text>At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. When you reach 14th level, this extra damage increases to 2d8.</text>
+				<text>	In addition, you add your Intelligence modifier to any damage roll you make for a psionic talent.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Order of the Awakened: Spectral Form</name>
+				<text>At 14th level, you gain the ability to become a ghostly figure of psionic energy. As an action, you can transform into a transparent, ghostly version of yourself. While in this form, you have resistance to all damage, move at half speed, and can pass through objects and creatures while moving but can't willingly end your movement in their spaces. The form lasts for 10 minutes or until you use an action to end it.</text>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spell>
+		<name>Intellect Fortress (Awakened)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Self</range>
+		<text>You forge an indomitable wall of psionic energy around your mind—one that allows you to launch counterattacks against your opponents.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain resistance to psychic damage.</text>
+		<text>Psychic Backlash (2 psi):</text>
+		<text>As a reaction, you can impose disadvantage on an attack roll against you if you can see the attacker. If the attack still hits you, the attacker takes 2d10 psychic damage.</text>
+		<text>Psychic Parry (1-7 psi):</text>
+		<text>As a reaction when you make an Intelligence, a Wisdom, or a Charisma saving throw, you gain a +1 bonus to that saving throw for each psi point you spend on this ability. You can use this ability after rolling the die but before suffering the results.</text>
+		<text>Psychic Redoubt (5 psi Conc 10m):</text>
+		<text>As an action, you create a field of protective psychic energy. Choose any number of creatures within 30 feet of you. Until your concentration ends, each target has resistance to psychic damage and advantage on Intelligence, Wisdom, and Charisma saving throws.</text>
+		<roll>2d10</roll>
+	</spell>
+	<spell>
+		<name>Mantle of Awe (Awakened)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<range>Self</range>
+		<duration>Varies</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Varies</range>
+		<text>You learn to use psionic energy to manipulate others with a subtle combination of psi and your own, natural charm.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain a bonus to Charisma checks. The bonus equals half your Intelligence modifier (minimum of +1).</text>
+		<text>Charming Presence (1-7 points):</text>
+		<text>As an action, you exert an aura of sympathetic power. Roll 2d8 per psi point spent on this ability; the total is how many hit points worth of creatures this option can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximums, ignoring incapacitated creatures, creatures immune to being charmed, and creatures engaged in combat.</text>
+		<text>	Starting with the creature that has the lowest hit point maximum, each creature affected by this option is charmed by you for 10 minutes, regarding you as a friendly acquaintance. Subtract each creature's hit point maximum from the total before moving on to the next creature. A creature's hit point maximum must be equal to or less than the remaining total for that creature to be affected.</text>
+		<text>Center of Attention (2 psi Conc 1m):</text>
+		<text>As an action, you exert an aura of power that grabs a creature's attention. Choose one creature you can see within 60 feet of you. It must make a Charisma saving throw. On a failed save, the creature is so thoroughly distracted by you that all other creatures are invisible to it until your concentration ends. This effect ends if the creature can no longer see or hear you or if it takes damage.</text>
+		<text>Invoke Awe (7 psi Conc 10):</text>
+		<text>As an action, you exert an aura that inspires awe in others. Choose up to 5 creatures you can see within 60 feet of you. Each target must succeed on an Intelligence saving throw or be charmed by you until your concentration ends. While charmed, the target obeys all your verbal commands to the best of its ability and without doing anything obviously self-destructive. The charmed target will attack only creatures that it has seen attack you since it was charmed or that it was already hostile toward. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.</text>
+		<roll>2d8</roll>
+		<roll>4d8</roll>
+		<roll>6d8</roll>
+		<roll>8d8</roll>
+		<roll>10d8</roll>
+		<roll>12d8</roll>
+		<roll>14d8</roll>
+	</spell>
+	<spell>
+		<name>Precognition (Awakened)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Varies</range>
+		<text>By analyzing information around you, from subtle hints to seemingly disconnected facts, you learn to weave a string of probabilities in an instant that gives you extraordinary insights.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on initiative rolls.</text>
+		<text>Precognitive Hunch (2 psi Conc 1m):</text>
+		<text>As a bonus action, you open yourself to receive momentary insights that improve your odds of success; until your concentration ends, whenever you make an attack roll, a saving throw, or an ability check, you roll a d4 and add it to the total.</text>
+		<text>Danger Sense (5 psi Conc 8h):</text>
+		<text>As an action, you create a psychic model of reality in your mind and set it to show you a few seconds into the future. Until your concentration ends, you can't be surprised, attack rolls against you can't gain advantage, and you gain a +10 bonus to initiative.</text>
+		<text>Victory Before Battle (7 psi):</text>
+		<text>When you roll initiative, you can use this ability to grant yourself and up to five creatures of your choice within 60 feet of you a +10 bonus to initiative.</text>
+	</spell>
+	<spell>
+		<name>Psionic Restoration (Awakened)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Varies</range>
+		<text>You wield psionic energy to cure wounds and restore health to yourself and others.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you can use a bonus action to touch a living creature that has 0 hit points and automatically stabilize it.</text>
+		<text>Mend Wounds (1-7 psi):</text>
+		<text>As an action, you can spend psi points to restore hit points to one creature you touch. The creature regains 1d8 hit points per psi point spent.</text>
+		<text>Restore Health (3 psi):</text>
+		<text>As an action, you touch one creature and remove one of the following conditions from it: blinded, deafened, paralyzed, or poisoned. Alternatively, you remove one disease from the creature.</text>
+		<text>Restore Life (5 psi):</text>
+		<text>As an action, you touch one creature that has died within the last minute. The creature returns to life with 1 hit point. This ability can't return to life a creature that has died of old age, nor can it restore a creature missing any vital body parts.</text>
+		<text>Restore Vigor (7 psi):</text>
+		<text>As an action, you can touch one creature and choose one of the following: remove any reductions to one of its ability scores, remove one effect that reduces its hit point maximum, or reduce its exhaustion level by one.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+	</spell>
+	<spell>
+		<name>Psychic Assault (Awakened)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Instantaneous</duration>
+		<range>Self</range>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<text>You wield your mind like a weapon, unleashing salvos of psionic energy.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain a +2 bonus to damage rolls with psionic talents that deal psychic damage.</text>
+		<text>Psionic Blast (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target takes 1d8 psychic damage per psi point spent on this ability.</text>
+		<text>Ego Whip (3 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, the creature takes 3d8 psychic damage, and it is filled with self-doubt, leaving it able to use its action on its next turn only to take the Dodge, Disengage, or Hide action. On a successful saving throw, it takes half as much damage.</text>
+		<text>Id Insinuation (5 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, the creature takes 5d8 psychic damage, and it goes into a fury, as its id runs rampant. On its next turn, it can use its action only to take the Dodge or Attack action. On a successful save, it takes half as much damage.</text>
+		<text>Psychic Blast (6 psi):</text>
+		<text>As an action, you unleash devastating psychic energy in a 60-foot cone. Each creature in that area must make an Intelligence saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one. You can increase the damage by 2d8 if you spend 1 more psi point on this ability.</text>
+		<text>Psychic Crush (7 psi):</text>
+		<text> As an action, you create a 20-foot cube of psychic energy within 120 feet of you. Each creature in that area must make an Intelligence saving throw. On a failed save, a target takes 8d8 psychic damage and is stunned until the end of your next turn. On a successful save, a target takes half as much damage.</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+		<roll>5d8</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+	</spell>
+	<spell>
+		<name>Psychic Disruption (Awakened)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Varies</range>
+		<text>You create psychic static that disrupts other creatures' ability to think clearly.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Charisma (Deception) checks.</text>
+		<text>Distracting Haze (1–7 psi Conc 1m):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, it takes 1d10 psychic damage per psi point spent and can't see anything more than 10 feet from it until your concentration ends. On a successful save, it takes half as much damage.</text>
+		<text>Daze (3 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, the target is incapacitated until the end of your next turn or until it takes any damage.</text>
+		<text>Mind Storm (5 psi):</text>
+		<text>As an action, choose a point you can see within 60 feet of you. Each creature in a 20-foot-radius sphere centered on that point must make a Wisdom saving throw. On a failed save, a target takes 6d8 psychic damage and suffers disadvantage on all saving throws until the end of your next turn. On a successful save, a creature takes half as much damage. You can increase the damage by 1d6 per additional psi point spent on this ability.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+		<roll>6d8</roll>
+		<roll>7d8</roll>
+		<roll>8d8</roll>
+	</spell>
+	<spell>
+		<name>Psychic Inquisition (Awakened)</name>
+		<level>1</level>
+		<time>Varies</time>
+		<duration>Varies</duration>
+		<range>Varies</range>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<text>You reach into a creature's mind to uncover information or plant ideas within it.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you know when a creature communicating with you via telepathy is lying.</text>
+		<text>Hammer of Inquisition (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes 1d10 psychic damage per psi point spent and suffers disadvantage on its next Wisdom saving throw before the end of your next turn. On a successful save, it takes half as much damage.</text>
+		<text>Forceful Query (2 psi):</text>
+		<text>As an action, you ask a question of one creature that can see and hear you within 30 feet of you. The question must be phrased so that it can be answered with a yes or no, otherwise this ability fails. The target must succeed on a Wisdom saving throw, or it replies with a truthful answer. A creature is immune to this ability if it is immune to being charmed.</text>
+		<text>Ransack Mind (5 psi Conc 1h):</text>
+		<text>While you concentrate on this ability, you probe one creature's mind. The creature must remain within 30 feet of you, and you must be able to see it. If you reach the ability's full duration, the target must make three Intelligence saving throws, and you learn information from it based on the number of saving throws it fails.</text>
+		<text>	With one failed saving throw, you learn its key memories from the past 12 hours.</text>
+		<text>	With two failed saving throws, you learn its key memories from the past 24 hours.</text>
+		<text>	With three failed saving throws, you learn its key memories from the past 48 hours.</text>
+		<text>Phantom Idea (6 psi Conc 1h):</text>
+		<text>While you concentrate on this ability, you probe one creature's mind. The creature must remain within 30 feet of you, and you must be able to see it. If you reach the ability's full duration, the target must make three Intelligence saving throws, and you plant a memory or an idea in it, which lasts for a number of hours based on the number of saving throws it fails. You choose whether the idea or memory is trivial (such as "I had porridge for breakfast" or "Ale is the worst") or personality-defining ("I failed to save my village from orc marauders and am therefore a coward" or "Magic is a scourge, so I renounce it").</text>
+		<text>	With one failed saving throw, the idea or memory lasts for the next 4 hours. With two failed saving throws, it lasts for 24 hours. With three failed saving throws, it lasts for 48 hours.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+	</spell>
+	<spell>
+		<name>Psychic Phantoms (Awakened)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Varies</range>
+		<text>Your power reaches into a creature's mind and causes it false perceptions.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you have advantage on Charisma (Deception) checks.</text>
+		<text>Distracting Figment (1–7 psi):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes 1d10 psychic damage per psi point spent and thinks it perceives a threatening creature just out of its sight; until the end of your next turn, it can't use reactions, and melee attack rolls against it have advantage. On a successful save, it takes half as much damage.</text>
+		<text>Phantom Foe (3 psi Conc 1m):</text>
+		<text>As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it perceives a horrid creature adjacent to it until your concentration ends. During this time, the target can't take reactions, and it takes 1d8 psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase the damage by 1d8 for each additional psi point spent on the ability.</text>
+		<text>Phantom Betrayal (5 psi Conc 1m):</text>
+		<text>As an action, you plant delusional paranoia in a creature's mind. Choose one creature you can see within 60 feet of you. The target must succeed on an Intelligence saving throw, or until your concentration ends, it must target its allies with attacks and other damaging effects. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature is immune to this ability if it is immune to being charmed.</text>
+		<text>Phantom Riches (7 psi Conc 1m):</text>
+		<text>As an action, you plant the phantom of a greatly desired object in a creature's mind. Choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, you gain partial control over the target's behavior until your concentration ends; the target moves as you wish on each of its turns, as it thinks it pursues the phantom object it desires. If it hasn't taken damage since its last turn, it can use its action only to admire the object you created in its perception. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+		<roll>5d10</roll>
+		<roll>6d10</roll>
+		<roll>7d10</roll>
+	</spell>
+	<spell>
+		<name>Telepathic Contact (Awakened)</name>
+		<level>1</level>
+		<time>1 Action</time>
+		<duration>Varies</duration>
+		<classes>Mystic (Awakened) (UA)</classes>
+		<range>Varies</range>
+		<text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own.</text>
+		<text>Psychic Focus:</text>
+		<text>While focused on this discipline, you gain the ability to use your Telepathy class feature with up to six creatures at once. If you don't have that feature from the mystic class, you instead gain it while focused on this discipline.</text>
+		<text>Exacting Query (2 psi):</text>
+		<text>As an action, you target one creature you can communicate with via telepathy. The target must make an Intelligence saving throw. On a failed save, the target truthfully answers one question you ask it via telepathy. On a successful save, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being charmed.</text>
+		<text>Occluded Mind (2 psi):</text>
+		<text>As an action, you target one creature you can communicate with via telepathy. The target must make an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes that you communicate to it via telepathy. The statement can be up to ten words long, and it must describe you or a creature or an object the target can see. On a successful save, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being charmed.</text>
+		<text>Broken Will (5 psi):</text>
+		<text>As an action, you target one creature you can communicate with via telepathy. The target must make an Intelligence saving throw. On a failed save, you choose the target's movement and action on its next turn. On a successful save, the target is unaffected, and you can't use this ability on it again until you finish a long rest. A creature is immune to this ability if it is immune to being charmed.</text>
+		<text>Psychic Grip (6 psi Conc 1m):</text>
+		<text>As an action, you target one creature you can see within 60 feet of you. The target must succeed on an Intelligence saving throw, or it is paralyzed until your concentration ends. At the end of each of its turns, it can repeat the saving throw. On a success, this effect ends. On a failure, you can use your reaction to force the target to move up to half its speed, even though it's paralyzed.</text>
+		<text>Psychic Domination (7 psi Conc 1m):</text>
+		<text>As an action, you target one creature you can see within 60 feet of you. The target must succeed on an Intelligence saving throw, or you choose the creature's actions and movement on its turns until your concentration ends. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success. A creature is immune to this ability if it is immune to being charmed.</text>
+	</spell>
+</compendium>

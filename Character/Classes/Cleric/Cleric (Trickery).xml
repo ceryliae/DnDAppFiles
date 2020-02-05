@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Trickery)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Trickery</name>
+				<text>Gods of trickery - such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki - are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.</text>
+				<text/>
+				<text>Trickery Domain Spells: At each indicated cleric level, you add the listed spells to your spells prepared.</text>
+				<text/>
+				<text>1st - charm person, disguise self</text>
+				<text/>
+				<text>3rd - mirror image, pass without trace</text>
+				<text/>
+				<text>5th - blink, dispel magic</text>
+				<text/>
+				<text>7th - dimension door, polymorph</text>
+				<text/>
+				<text>9th - dominate person, modify memory</text>
+			</feature>
+			<feature optional="YES">
+				<name>Trickery Domain: Blessing of the Trickster</name>
+				<text>Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Trickery Domain Channel Divinity: Invoke Duplicity</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.</text>
+				<text>	As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.</text>
+				<text>	For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Trickery Domain Channel Divinity: Cloak of Shadows</name>
+				<text>Starting at 6th level, you can use your Channel Divinity to vanish.</text>
+				<text>	As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Trickery Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Trickery Domain: Improved Duplicity</name>
+				<text>At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Trickery)">
+		<index name="Blink"/>
+		<index name="Charm Person"/>
+		<index name="Dimension Door"/>
+		<index name="Disguise Self"/>
+		<index name="Dispel Magic"/>
+		<index name="Dominate Person"/>
+		<index name="Mirror Image"/>
+		<index name="Modify Memory"/>
+		<index name="Pass Without Trace"/>
+		<index name="Polymorph"/>
+	</spellList>
+</compendium>

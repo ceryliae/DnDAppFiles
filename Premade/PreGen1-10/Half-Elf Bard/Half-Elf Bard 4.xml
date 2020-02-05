@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>3974</uid>
+		<name>Half-Elf Bard</name>
+		<race>
+			<source>1</source>
+			<name>Half-Elf</name>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common, Elvish, and one extra language of your choice.</text>
+			</feat>
+			<feat>
+				<name>Darkvision</name>
+				<text>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			</feat>
+			<feat>
+				<name>Skill Versatility</name>
+				<text>You gain proficiency in two skills of your choice.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>2</value>
+			</mod>
+		</race>
+		<class>
+			<source>1</source>
+			<id>3910</id>
+			<name>Bard</name>
+			<level>4</level>
+			<hd>2</hd>
+			<hdCurrent>4</hdCurrent>
+			<wealth>5d4x10</wealth>
+			<proficiency>113</proficiency>
+			<proficiency>104</proficiency>
+			<proficiency>1</proficiency>
+			<proficiency>115</proficiency>
+			<proficiency>5</proficiency>
+			<proficiency>105</proficiency>
+			<proficiency>103</proficiency>
+			<proficiency>111</proficiency>
+			<proficiency>102</proficiency>
+			<proficiency>106</proficiency>
+			<numClassSkills>3</numClassSkills>
+			<armor>Light armor</armor>
+			<weapons>Simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons>
+			<tools>Disguise kit, drum, flute, lute, Shawn</tools>
+			<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>3,4,3,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Bardic Inspiration</name>
+				<text>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+    Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+    You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+    Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a dl2 at 15th level.</text>
+			</feat>
+			<feat>
+				<name>Jack of All Trades</name>
+				<text>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</text>
+				<special>3</special>
+			</feat>
+			<feat>
+				<name>Song of Rest</name>
+				<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.
+    The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d 10 at 13th level, and to 1d12 at 17th level.</text>
+			</feat>
+			<feat>
+				<name>Bard College</name>
+				<text>At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore or the College of Valor, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>College of Lore: Cutting Words</name>
+				<text>Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.</text>
+			</feat>
+			<feat>
+				<name>Expertise</name>
+				<text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+    At 10th level, you can choose another two skill proficiencies to gain this benefit.</text>
+				<mod>
+					<category>4</category>
+					<type>4</type>
+				</mod>
+				<mod>
+					<category>4</category>
+					<type>6</type>
+				</mod>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>2</value>
+			</mod>
+			<autolevel>
+				<slots>2,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Bardic Inspiration</name>
+					<text>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+    Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+    You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+    Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a dl2 at 15th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Jack of All Trades</name>
+					<text>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</text>
+					<special>3</special>
+				</feat>
+				<feat>
+					<name>Song of Rest</name>
+					<text>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.
+    The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d 10 at 13th level, and to 1d12 at 17th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Bard College</name>
+					<text>At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore or the College of Valor, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th and 14th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>College of Lore: Cutting Words</name>
+					<text>Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.</text>
+				</feat>
+				<feat>
+					<name>Expertise</name>
+					<text>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+    At 10th level, you can choose another two skill proficiencies to gain this benefit.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Font of Inspiration</name>
+					<text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Countercharm</name>
+					<text>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>College of Lore: Additional Magical Secrets</name>
+					<text>At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>3,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>3,4,3,3,2,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>3,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>4,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<name>Magical Secrets</name>
+					<text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
+    The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.
+    You learn two additional spells from any class at 14th level and again at 18th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>4,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>4,4,3,3,3,2,1,1,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>4,4,3,3,3,2,1,1,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>College of Lore: Peerless Skill</name>
+					<text>Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roil the die for the ability check, but before the DM tells you whether you succeed or fail.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>4,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>4,4,3,3,3,2,1,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>4,4,3,3,3,3,1,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,3,3,3,2,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>4,4,3,3,3,3,2,2,1,1,</slots>
+				<feat>
+					<name>Superior Inspiration</name>
+					<text>At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>5</spellAbility>
+			<spell>
+				<name>Minor Illusion</name>
+				<school>6</school>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<s>1</s>
+				<m>1</m>
+				<materials>a bit of fleece</materials>
+				<duration>1 minute</duration>
+				<text>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.
+
+If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.
+
+If you create an image of an object - such as a chair, muddy footprints, or a small chest - it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
+
+If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Crown of Madness</name>
+				<school>4</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.
+
+The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.
+
+On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Vicious Mockery</name>
+				<school>4</school>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>Instantaneous</duration>
+				<text>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (thought it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
+
+This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4) and 17th level (4d4).</text>
+				<roll>1d4</roll>
+				<roll>2d4</roll>
+				<roll>3d4</roll>
+				<roll>4d4</roll>
+				<sclass>Bard</sclass>
+			</spell>
+			<spell>
+				<name>Faerie Fire</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
+
+Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</text>
+				<sclass>Bard</sclass>
+				<sclass>Druid</sclass>
+			</spell>
+			<spell>
+				<name>Charm Person</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 hour</duration>
+				<text>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</text>
+				<sclass>Bard</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Comprehend Languages</name>
+				<school>3</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a pinch of soot and salt</materials>
+				<duration>1 hour</duration>
+				<text>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text.
+
+This spell doesn't decode secret messages in a text or glyph, such as an arcane sigil, that isn't part of a written language.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Enhance Ability</name>
+				<school>8</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>fur or a feather from a beast</materials>
+				<duration>Concentration, up to 1 hour</duration>
+				<text>You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects - the target gains the effect until the spell ends.
+
+Bear's Endurance: The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.
+
+Bull's Strength: The target has advantage on Strength checks, and his or her carrying capacity doubles.
+
+Cat's Grace: The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.
+
+Eagle's Splendor: The target has advantage on Charisma checks.
+
+Fox's Cunning: The target has advantage on Intelligence checks.
+
+Owl's Wisdom: The target has advantage on Wisdom checks.
+
+At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Sorcerer</sclass>
+			</spell>
+			<spell>
+				<name>Healing Word</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>Instantaneous</duration>
+				<text>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</text>
+				<roll>1d4+%0</roll>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+			</spell>
+			<spell>
+				<name>Mending</name>
+				<school>8</school>
+				<time>1 minute</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>two lodestones</materials>
+				<duration>Instantaneous</duration>
+				<text>This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn clack, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
+
+This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</text>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Invisibility</name>
+				<school>6</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>an eyelash encased in gum arabic</materials>
+				<duration>Concentration, up to 1 hour</duration>
+				<text>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.
+
+At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</class>
+		<background>
+			<id>3938</id>
+			<name>Entertainer</name>
+			<align>Neutral good</align>
+			<personality>You change your mood or mind as quickly as you change key in a song</personality>
+			<ideals>When you perform, you make the world better than it was</ideals>
+			<bonds>You will do anything to prove yourself superior to your hated rival</bonds>
+			<flaws>You're a sucker for a pretty face</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Acrobatics, Performance</text>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>Disguise kit, one type of musical instrument</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a belt pouch containing 15 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: By Popular Demand</name>
+				<text>You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.</text>
+			</feat>
+			<proficiency>100</proficiency>
+			<proficiency>112</proficiency>
+		</background>
+		<xp>2700</xp>
+		<unarmed>1</unarmed>
+		<abilities>8,16,14,12,10,14,</abilities>
+		<hpMax>31</hpMax>
+		<hpCurrent>31</hpCurrent>
+		<item>
+			<name>Studded Leather Armor</name>
+			<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
+
+Source: Player's Handbook, page 144</text>
+			<type>1</type>
+			<slot>5</slot>
+			<value>45.0</value>
+			<weight>13.0</weight>
+			<ac>12</ac>
+		</item>
+		<item>
+			<name>Rapier</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<value>25.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d8</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>2</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Hand Crossbow</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Source: Player's Handbook, page 149</text>
+			<type>6</type>
+			<value>75.0</value>
+			<weight>3.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>25</weaponProperty>
+			<weaponRange>30</weaponRange>
+			<weaponLongRange>120</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Crossbow Bolts</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Source: Player's Handbook, page 150</text>
+			<type>7</type>
+			<quantity>20</quantity>
+			<value>5.0</value>
+			<weight>0.075</weight>
+		</item>
+		<item>
+			<name>Shawm</name>
+			<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.
+
+A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.
+
+Each type of musical instrument requires a separate proficiency.
+
+Source: Player's Handbook, page 154</text>
+			<value>2.0</value>
+			<weight>1.0</weight>
+		</item>
+		<container>
+			<label>Entertainer's Pack</label>
+			<name>Backpack</name>
+			<value>40.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Bedroll</name>
+				<weight>7.0</weight>
+			</item>
+			<item>
+				<name>Clothes, costume</name>
+				<quantity>2</quantity>
+				<weight>4.0</weight>
+			</item>
+			<item>
+				<name>Candle</name>
+				<quantity>5</quantity>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>5</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Disguise kit</name>
+				<text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</text>
+				<weight>3.0</weight>
+			</item>
+		</container>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>12</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Elvish, Halfling</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>"It seems I struck a chord. Ha! I love that one."
+
+The life of a vagabond is the only life you're ever known, and your various talents have rarely failed to provide you a warm bed and a hot supper. But mere survival is not enough anymore. You have discovered the hidden magic of words and music, and it is time for you to weave yourself into the stories told in hushed tones over steaming drinks inspiring in their listeners.</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Harper's, a clandestine organization who work against tyranny through the sharing of information and lore.</text>
+		</note>
+	</character>
+</pc>

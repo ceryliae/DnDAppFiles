@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<!--Tal'dorei Campaign Setting-->
+	<feat name="Cruel">
+		<name>Cruel</name>
+		<text>The challenges and struggles you've faced throughout your life have left you ruthless in combat, relishing in the pain you inflict.</text>
+		<text>• You have a number of cruelty points equal to your proficiency modifier. Once per turn, whenever you deal damage to a creature with an attack, you can spend one cruelty point to deal an additional 1d6 damage of the attack damage type to that creature.</text>
+		<text>• You can also spend one cruelty point when you score a critical hit against a creature to regain 1d6 hit points.</text>
+		<text>• While making a Charisma (Intimidation) check that involves inflicting pain, you can spend one cruelty point to gain advantage on the roll.</text>
+		<text>• You regain your expended cruelty points when you finish a long rest.</text>
+	</feat>
+	<feat name="Dual-Focused">
+		<name>Dual-Focused</name>
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<text>Countless hours have been spent training your mind to maintain focus on concurrent incantations, taxing as the process may be.</text>
+		<text>• If you attempt to cast a spell that requires concentration while already concentrating on an existing spell, you can maintain concentration on both spells simultaneously.</text>
+		<text>• If you take damage during this time, you must make a concentration check for each spell individually.</text>
+		<text>• At the end of each turn where you have two spells you are concentrating on, you must make a Constitution saving throw (DC equals 8 + both spells' levels combined). On a success, you maintain concentration on both spells. On a failure, you lose concentration on both spells.</text>
+	</feat>
+	<feat name="Flash Recall">
+		<name>Flash Recall</name>
+		<prerequisite>The ability to prepare spells, and cast at least one spell</prerequisite>
+		<text>You've developed the ability to instantly recall an unprepared spell in moments of sudden necessity. As an action, you can instantly prepare a spell from your available class spell list (or spellbook, if you prepare spells from one) that you did not have prepared. This spell choice must be of a level for which you have spell slots. You then lose preparation of a different spell of your choice of equal or higher spell level.</text>
+		<text>	If you are multiclassed, you can only Flash Recall spells from a class that prepares spells. Once you use this ability, you must finish a short or long rest before you can use it again.</text>
+	</feat>
+	<feat name="Gambler">
+		<name>Gambler</name>
+		<text>Spending countless hours winning and losing coin in ale-stained taverns has forged you into a consummate gambler and chance-seeking addict. You gain the following benefits and features:</text>
+		<text>• Increase your Charisma score by 1, to a maximum of 20.</text>
+		<text>• You gain proficiency with two types of gaming sets of your choice.</text>
+		<text>• You have advantage on Charisma (Deception) checks to bluff opponents in games of chance, and Charisma (Persuasion) checks to convince others to join you for a game.</text>
+		<text>• You have a reputation as a card shark in some circles. Some folks may avoid playing you for this reason, while other higher-stakes gamblers may seek you out specifically.</text>
+		<text>• When you take the Carousing downtime action, you may reroll your result once, but must keep the results of the second roll.</text>
+		<modifier category="ability score">charisma +1</modifier>
+	</feat>
+	<feat name="Mending Affinity">
+		<name>Mending Affinity</name>
+		<text>Your body has begun to adapt extremely well to healing itself through extraordinary means, gifting you the following benefits:</text>
+		<text>• Increase your Constitution score by 1, to a maximum of 20.</text>
+		<text>• When a creature uses a healer's kit to stabilize you when you are dying, you also regain hit points equal to your proficiency modifier.</text>
+		<text>• Whenever you regain hit points as a result of a spell, potion, or class ability, you regain additional hit points equal to your proficiency modifier.</text>
+		<modifier category="ability score">constitution +1</modifier>
+	</feat>
+	<feat name="Mystic Conflux">
+		<name>Mystic Conflux</name>
+		<text>Through your repeated exposure to the natural flow of arcane magic throughout Exandria, you've adapted to attune with additional enchantments, though the process can be physically taxing. You gain the following benefits:</text>
+		<text>• You have advantage on Intelligence (Arcana) checks when investigating the nature of a magical object or device.</text>
+		<text>• You can now be attuned to a maximum of four magical items, rather than the normal limit of three. Other attunement limitations still apply.</text>
+	</feat>
+	<feat name="Rapid Drinker">
+		<name>Rapid Drinker</name>
+		<text>Through a lifestyle of hard, competitive drinking, you've learned how to quaff drinks at an incredibly accelerated pace. You gain the following benefits:</text>
+		<text>• You can drink a potion as a Bonus action, instead of as an action.</text>
+		<text>• You have advantage on any saving throws triggered by ingesting an alcoholic or dangerous substance.</text>
+	</feat>
+	<feat name="Spelldriver">
+		<name>Spelldriver</name>
+		<prerequisite>Character level 8th or higher</prerequisite>
+		<text>Through intense focus, training, and dedication, you've harnessed the techniques of rapid spellcasting. You are no longer limited to only one non-cantrip spell per turn. However, should you cast two or more spells in a single turn, only one of them can be of 3rd level or higher.</text>
+	</feat>
+	<feat name="Thrown Arms Master">
+		<name>Thrown Arms Master</name>
+		<text>You've honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits:</text>
+		<text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</text>
+		<text>• Simple and martial melee weapons without the thrown property can be treated as if they have the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30.</text>
+		<text>• Weapons that naturally have the thrown property increase their range by +20/+40.</text>
+		<text>• When you miss with a thrown weapon attack using a light weapon, the weapon immediately boomerangs back into your grasp.</text>
+	</feat>
+	<feat name="Journeyman Conductor">
+		<name>Journeyman Conductor</name>
+		<text>You have spent some time in the bardic teachings of the maestro, granting you minor command over the music of combat. You gain the following benefits:</text>
+		<text>• You learn 2 conducting techniques of your choice from among those available to the College of the Maestro in the bard class. If a technique you use requires your target to make a saving throw to resist the technique's effects, the saving throw DC equals 8 + proficiency bonus + you Charisma Modifier.</text>
+		<text>• If you already have Bardic Inspiration dice, you gain one more; otherwise you have one Bardic Inspiration die, which is a d6. This die can be given to others as a bonus action (per the bard feature, Bardic Inspiration), or can be used to fuel your technique. A Bardic Inspiration die is expended when you use it. You regain this expended bardic inspiration die when you finish a short or long rest.</text>
+	</feat>
+</compendium>

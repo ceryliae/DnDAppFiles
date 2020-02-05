@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Light)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Light</name>
+				<text>Gods of light - including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty - promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.</text>
+				<text/>
+				<text>Light Domain Spells: At each indicated cleric level, you add the listed spells to your spells prepared.</text>
+				<text/>
+				<text>1st - burning hands, faerie fire</text>
+				<text/>
+				<text>3rd - flaming sphere, scorching ray</text>
+				<text/>
+				<text>5th - daylight, fireball</text>
+				<text/>
+				<text>7th - guardian of faith, wall of fire</text>
+				<text/>
+				<text>9th - flame strike, scrying</text>
+			</feature>
+			<feature optional="YES">
+				<name>Light Domain: Bonus Cantrip</name>
+				<text>When you choose this domain at 1st level, you gain the light cantrip if you don't already know it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Light Domain: Warding Flare</name>
+				<text>Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Light Domain Channel Divinity: Radiance of the Dawn</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.</text>
+				<text>	As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Light Domain: Improved Flare</name>
+				<text>Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Light Domain: Potent Spellcasting</name>
+				<text>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Light Domain: Corona of Light</name>
+				<text>Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Light)">
+		<index name="Burning Hands"/>
+		<index name="Daylight"/>
+		<index name="Faerie Fire"/>
+		<index name="Fireball"/>
+		<index name="Flame Strike"/>
+		<index name="Flaming Sphere"/>
+		<index name="Guardian of Faith"/>
+		<index name="Scorching Ray"/>
+		<index name="Scrying"/>
+		<index name="Wall of Fire"/>
+	</spellList>
+</compendium>

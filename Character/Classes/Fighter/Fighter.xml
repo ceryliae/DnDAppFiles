@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<baseclass>
+		<name>Fighter</name>
+		<hd>10</hd>
+		<proficiency>Strength, Constitution, Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, heavy armor, shields</armor>
+		<weapons>simple weapons, martial weapons</weapons>
+		<tools>none</tools>
+		<wealth>5d4x10</wealth>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				</text>
+				<text>Armor: light armor, medium armor, heavy armor, shields</text>
+				<text>Weapons: simple weapons, martial weapons</text>
+				<text>Tools: none</text>
+				<text>Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.</text>
+				<text/>
+				<text>• (a) chain mail or (b) leather, longbow, and 20 arrows</text>
+				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>• (a) a light crossbow and 20 bolts or (b) two handaxes</text>
+				<text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
+				<text/>
+				<text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Fighting Style</name>
+				<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<special>Fighting Style: Archery</special>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Defense</name>
+				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+				<special>Fighting Style: Defense</special>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<special>Fighting Style: Dueling</special>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+				</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Protection</name>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Two-Weapon Fighting</name>
+				<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				<special>Fighting Style: Two-Weapon Fighting</special>
+			</feature>
+			<feature>
+				<name>Second Wind</name>
+				<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</text>
+				<text>	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Action Surge</name>
+				<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</text>
+				<text>	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Martial Archetype</name>
+				<text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				<text>	The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="7">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Indomitable</name>
+				<text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.</text>
+				<text>	You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Extra Attack (2)</name>
+				<text>At 11th level, you can attack three times whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Indomitable (two uses)</name>
+				<text>At 13th level, you can use Indomitable twice between long rests.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="15">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Action Surge (two uses)</name>
+				<text>At 17th level, you can use Action Surge twice before a rest, but only once on the same turn.</text>
+			</feature>
+			<feature>
+				<name>Indomitable (three uses)</name>
+				<text>At 17th level, you can use Indomitable three times between long rests.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Extra Attack (3)</name>
+				<text>At 20th level, you can attack four times whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<!--Unearthed Arcana-->
+		<!-- Fighting Styles are currently 'feature's rather than 'spells' and FightClub5 won't merge 'class' entries -->
+		<autolevel level="1" UA="UA">
+			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter (UA)</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+				<text/>
+				<text>This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.
+				</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Mariner (UA)</name>
+				<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
+				<text/>
+				<text>This fighting style is from Unearthed Arcana: Waterborne Adventures, and as such may not be allowed in your game. Consult your DM before selecting this option.
+				</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter (UA)</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
+				<text/>
+				<text>This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+</compendium>

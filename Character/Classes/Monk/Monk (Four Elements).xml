@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Monk">
+		<name>Monk (Four Elements)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Monastic Tradition: Way of the Four Elements</name>
+				<text>You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.</text>
+				<text/>
+				<text>Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of the Four Elements: Disciple of the Elements</name>
+				<text>You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.</text>
+				<text/>
+				<text>You know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.</text>
+				<text/>
+				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
+				<text/>
+				<text>Casting Elemental Spells. Some elemental disciplines allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.</text>
+				<text/>
+				<text>Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).</text>
+				<text/>
+				<text>The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level. At 5th level, you may spend up to 3 ki points; this increases to 4 ki points at 9th level, 5 at 13th level, and 6 at 17th level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Way of the Four Elements: Extra Elemental Discipline</name>
+				<text>You learn one additional elemental discipline of your choice. You should know 2 elemental disciplines, as well as Elemental Attunement.</text>
+				<text/>
+				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Way of the Four Elements: Extra Elemental Discipline</name>
+				<text>You learn one additional elemental discipline of your choice. You should know 3 elemental disciplines, as well as Elemental Attunement.</text>
+				<text/>
+				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Way of the Four Elements: Extra Elemental Discipline</name>
+				<text>You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.</text>
+				<text/>
+				<text>Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<!--Elemental Monk Spells-->
+	<spell>
+		<name>Breath of Winter (17th level required)</name>
+		<level>4</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>Self (60-foot cone)</range>
+		<components>6 Ki Points - Cast Cone of Cold</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one.</text>
+		<text/>
+		<text>A creature killed by this spell becomes a frozen statue until it thaws.</text>
+		<text/>
+		<text>At Higher Levels. When you cast this spell using a spell slot of a higher level, the damage increases by 1d8 for each slot level.</text>
+	</spell>
+	<spell>
+		<name>Clench of the North Wind (6th level required)</name>
+		<level>2</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>60 feet</range>
+		<components>3 Ki Points - Cast Hold Person</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</text>
+		<text/>
+		<text>At Higher Levels. When you cast this spell using a higher spell slot, you can target an additional humanoid for each slot of a higher level. The humanoids must be within 30 feet of each other when you target them.</text>
+	</spell>
+	<spell>
+		<name>Elemental Attunement</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>Self (60-foot cone)</range>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>You can use your action to briefly control elemental forces nearby, causing one of the following effects of your choice.</text>
+		<text/>
+		<text>• Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of mist, or a gentle rumbling of stone.</text>
+		<text/>
+		<text>• Instantaneously light or snuff out a candle, a torch, or a small campfire.</text>
+		<text/>
+		<text>• Chill or warm up to 1 pound of nonliving material for up to 1 hour.</text>
+		<text/>
+		<text>• Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute.</text>
+	</spell>
+	<spell>
+		<name>Eternal Mountain Defense (11th level required)</name>
+		<level>3</level>
+		<school>A</school>
+		<time>1 Action</time>
+		<range>Only on Self</range>
+		<components>5 Ki Points - Cast stoneskin</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.</text>
+	</spell>
+	<spell>
+		<name>Fangs of the Fire Snake</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Attack Action</time>
+		<range>Only on Self</range>
+		<components>1 Ki Point + 1 ki on hit (optional)</components>
+		<duration>Rest of turn</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d1O fire damage.</text>
+	</spell>
+	<spell>
+		<name>Fist of Four Thunders</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>Self (15-foot cube)</range>
+		<components>2 Ki Points</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</text>
+	</spell>
+	<spell>
+		<name>Fist of Unbroken Air</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>30-feet</range>
+		<components>2 Ki Points + 1 ki per boost</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone.</text>
+	</spell>
+	<spell>
+		<name>Flames of the Phoenix (11th level required)</name>
+		<level>3</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>150 feet</range>
+		<components>4 Ki Points - cast fireball</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.</text>
+	</spell>
+	<spell>
+		<name>Gong of the Summit (6th level required)</name>
+		<level>2</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>60 feet</range>
+		<components>3 Ki Points - cast shatter</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</text>
+		<text/>
+		<text>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area. At Higher Levels. When you cast this spell using a spell slot of or higher, the damage increases by 1d8 for each slot level.</text>
+	</spell>
+	<spell>
+		<name>Mist Stance (11th level required)</name>
+		<level>3</level>
+		<school>T</school>
+		<time>1 Action</time>
+		<range>self only</range>
+		<components>4 Ki Points - cast gaseous form (on self)</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.</text>
+		<text/>
+		<text>While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.</text>
+		<text/>
+		<text>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.</text>
+	</spell>
+	<spell>
+		<name>Ride the Wind (11th level required)</name>
+		<level>3</level>
+		<school>T</school>
+		<time>1 Action</time>
+		<range>self only</range>
+		<components>4 Ki Points - cast fly (on self)</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>You gain a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</text>
+	</spell>
+	<spell>
+		<name>River of Hungry Flame (17th level required)</name>
+		<level>4</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>120 feet</range>
+		<components>5 Ki Points - cast wall of fire</components>
+		<duration>Concentration, up to 1 minute</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot think, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot think. The wall is opaque and lasts for the duration.</text>
+		<text/>
+		<text>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.</text>
+		<text/>
+		<text>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</text>
+		<text/>
+		<text>At Higher Levels, when you cast this spell, the damage increases by 1d8 for each slot increased.</text>
+	</spell>
+	<spell>
+		<name>Rush of the Gale Spirits</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>Self (60-foot line)</range>
+		<components>2 Ki Points - cast gust of wind</components>
+		<duration>Concentration, up to 1 minute</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</text>
+		<text/>
+		<text>Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</text>
+		<text/>
+		<text>The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</text>
+		<text/>
+		<text>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</text>
+	</spell>
+	<spell>
+		<name>Shape the Flowing River</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>30 foot side within 120 feet of you</range>
+		<components>1 Ki Point</components>
+		<duration>special</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high, raise or lower the square's elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can't shape the ice to trap or injure a creature in the area.</text>
+	</spell>
+	<spell>
+		<name>Sweeping Cinder Strike</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Action</time>
+		<range>Self (15-foot cone)</range>
+		<components>2 Ki Points - cast burning hands</components>
+		<duration>Instantaneous</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</text>
+		<text/>
+		<text>The fire ignites any flammable objects in the area that aren't being worn or carried.</text>
+		<text/>
+		<text>When you cast this spell using a higher spell slot, the damage increases by 1d6 for each additional spell slot.</text>
+	</spell>
+	<spell>
+		<name>Water Whip</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 Bonus Action</time>
+		<range>30 feet</range>
+		<components>2 Ki Points + 1 per extra damage (optional)</components>
+		<duration>1 turn</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d1O bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it prone.</text>
+	</spell>
+	<spell>
+		<name>Wave of Rolling Earth (17th level required)</name>
+		<level>4</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<range>120 feet</range>
+		<components>6 Ki Points - cast wall of stone</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Monk (Way of the Four Elements)</classes>
+		<text>A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.</text>
+		<text/>
+		<text>If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.</text>
+		<text/>
+		<text>The wall can have any shape you desire, though it can't occupy the same space as a creature or object. the wall doesn't need to be vertical or resting on any firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus you can use this spell to bridge a chasm or create a ramp.</text>
+		<text/>
+		<text>If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create crenellations, battlements, and so on.</text>
+		<text/>
+		<text>The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 hit points per inch of thickness. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion.</text>
+		<text/>
+		<text>If you maintain your concentration on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.</text>
+	</spell>
+</compendium>

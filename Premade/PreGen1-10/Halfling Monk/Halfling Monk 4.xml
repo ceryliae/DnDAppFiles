@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>4066</uid>
+		<name>Halfling Monk</name>
+		<race>
+			<id>4010</id>
+			<name>Halfling (Stout)</name>
+			<size>1</size>
+			<speed>25</speed>
+			<feat>
+				<name>Lucky</name>
+				<text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
+			</feat>
+			<feat>
+				<name>Brave</name>
+				<text>You have advantage on saving throws against being frightened.</text>
+			</feat>
+			<feat>
+				<name>Halfling Nimbleness</name>
+				<text>You can move through the space of any creature that is of a size larger than yours.</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</text>
+			</feat>
+			<feat>
+				<name>Stout Resilience</name>
+				<text>You have advantage on saving throws against poison, and you have resistance against poison damage.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>2</type>
+				<value>1</value>
+			</mod>
+		</race>
+		<class>
+			<id>3914</id>
+			<name>Monk</name>
+			<level>4</level>
+			<hd>2</hd>
+			<hdCurrent>4</hdCurrent>
+			<proficiency>103</proficiency>
+			<proficiency>1</proficiency>
+			<proficiency>0</proficiency>
+			<proficiency>100</proficiency>
+			<armor>None</armor>
+			<weapons>Simple weapons, shortswords; Melee weapons of these types that lack the two-handed or heavy property are monk weapons for you</weapons>
+			<tools>Herbalism kit</tools>
+			<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: none
+Weapons: simple weapons, shortswords
+Tools: any one type of artisan's tools or any one musical instrument of your choice
+Skills: Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</text>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) a shortsword or (b) any simple weapon
+• (a) a dungeoneer's pack or (b) an explorer's pack
+• 10 darts
+
+Alternatively, you may start with 5d4 gp to buy your own equipment.</text>
+			</feat>
+			<feat>
+				<name>Unarmored Defense</name>
+				<text>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</text>
+				<special>8</special>
+			</feat>
+			<feat>
+				<name>Martial Arts</name>
+				<text>Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.
+	You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.
+
+• You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
+
+• You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon.
+
+• When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
+
+	Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama).</text>
+			</feat>
+			<feat>
+				<name>Ki</name>
+				<text>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.
+	You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.
+	When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.
+	Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows: Ki save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+			</feat>
+			<feat>
+				<name>Flurry of Blows</name>
+				<text>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</text>
+			</feat>
+			<feat>
+				<name>Patient Defense</name>
+				<text>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</text>
+			</feat>
+			<feat>
+				<name>Step of the Wind</name>
+				<text>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</text>
+			</feat>
+			<feat>
+				<name>Unarmored Movement</name>
+				<text>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.
+	At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</text>
+				<mod>
+					<type>13</type>
+					<value>10</value>
+				</mod>
+			</feat>
+			<feat>
+				<name>Monastic Tradition</name>
+				<text>When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, the Way of Shadow, or the Way of the Four Elements. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</text>
+			</feat>
+			<feat>
+				<name>Deflect Missiles</name>
+				<text>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d 10 + your Dexterity modifier + your monk level.
+	If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Monastic Tradition: Way of the Open Hand</name>
+				<text>Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Way of the Open Hand: Open Hand Technique</name>
+				<text>You can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target.
+
+• It must succeed on a Dexterity saving throw or be knocked prone.
+
+• It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.
+
+• It can't take reactions until the end of your next turn.</text>
+			</feat>
+			<feat>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feat>
+			<feat>
+				<name>Slow Fall</name>
+				<text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: none
+Weapons: simple weapons, shortswords
+Tools: any one type of artisan's tools or any one musical instrument of your choice
+Skills: Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) a shortsword or (b) any simple weapon
+• (a) a dungeoneer's pack or (b) an explorer's pack
+• 10 darts
+
+Alternatively, you may start with 5d4 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Unarmored Defense</name>
+					<text>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</text>
+					<special>8</special>
+				</feat>
+				<feat>
+					<name>Martial Arts</name>
+					<text>Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.
+	You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.
+
+• You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
+
+• You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon.
+
+• When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.
+
+	Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama).</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ki</name>
+					<text>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.
+	You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.
+	When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.
+	Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows: Ki save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				</feat>
+				<feat>
+					<name>Flurry of Blows</name>
+					<text>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</text>
+				</feat>
+				<feat>
+					<name>Patient Defense</name>
+					<text>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</text>
+				</feat>
+				<feat>
+					<name>Step of the Wind</name>
+					<text>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</text>
+				</feat>
+				<feat>
+					<name>Unarmored Movement</name>
+					<text>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.
+	At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</text>
+					<mod>
+						<type>13</type>
+						<value>10</value>
+					</mod>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Monastic Tradition</name>
+					<text>When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, the Way of Shadow, or the Way of the Four Elements. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</text>
+				</feat>
+				<feat>
+					<name>Deflect Missiles</name>
+					<text>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d 10 + your Dexterity modifier + your monk level.
+	If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Monastic Tradition: Way of the Open Hand</name>
+					<text>Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Way of the Open Hand: Open Hand Technique</name>
+					<text>You can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target.
+
+• It must succeed on a Dexterity saving throw or be knocked prone.
+
+• It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.
+
+• It can't take reactions until the end of your next turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+				<feat>
+					<name>Slow Fall</name>
+					<text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				</feat>
+				<feat>
+					<name>Stunning Strike</name>
+					<text>Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</text>
+				</feat>
+				<feat>
+					<name>Martial Arts (1d6)</name>
+					<text>You can now roll a d6 in the place of the normal damage of your unarmed strike or monk weapon.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ki-Empowered Strikes</name>
+					<text>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+				</feat>
+				<feat>
+					<name>Unarmed Movement (+ 15 ft.)</name>
+					<text>The bonus to your speed increases to 15 feet while you are not wearing armor or wielding a shield.</text>
+					<mod>
+						<type>13</type>
+						<value>5</value>
+					</mod>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Way of the Open Hand: Wholeness of Body</name>
+					<text>You gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Stillness of Mind</name>
+					<text>Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.</text>
+				</feat>
+				<feat>
+					<name>Evasion</name>
+					<text>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Unarmored Movement (Vertical Surfaces)</name>
+					<text>You gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Purity of Body</name>
+					<text>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</text>
+				</feat>
+				<feat>
+					<name>Unarmed Movement (+ 20 ft.)</name>
+					<text>The bonus to your speed increases to 20 feet while you are not wearing armor or wielding a shield.</text>
+					<mod>
+						<type>13</type>
+						<value>5</value>
+					</mod>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Martial Arts (1d8)</name>
+					<text>You can now roll a d8 in the place of the normal damage of your unarmed strike or monk weapon.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Way of the Open Palm: Tranquility</name>
+					<text>Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your Proficiency bonus.
+
+Sanctuary gives this effect: You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball.
+
+If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Tongue of the Sun and Moon</name>
+					<text>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Diamond Soul</name>
+					<text>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.
+	Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</text>
+					<proficiency>5</proficiency>
+					<proficiency>3</proficiency>
+					<proficiency>2</proficiency>
+					<proficiency>4</proficiency>
+				</feat>
+				<feat>
+					<name>Unarmed Movement (+ 25 ft.)</name>
+					<text>The bonus to your speed increases to 25 feet while you are not wearing armor or wielding a shield.</text>
+					<mod>
+						<type>13</type>
+						<value>5</value>
+					</mod>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Timeless Body</name>
+					<text>At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Martial Arts (1d10)</name>
+					<text>You can now roll a d10 in the place of the normal damage of your unarmed strike or monk weapon.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Way of the Open Palm: Quivering Palm</name>
+					<text>You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.
+
+You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Empty Body</name>
+					<text>Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.
+	Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you.</text>
+				</feat>
+				<feat>
+					<name>Unarmed Movement (+ 30 ft.)</name>
+					<text>The bonus to your speed increases to 30 feet while you are not wearing armor or wielding a shield.</text>
+					<mod>
+						<type>13</type>
+						<value>5</value>
+					</mod>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Perfect Soul</name>
+					<text>At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>4</spellAbility>
+		</class>
+		<background>
+			<name>Acolyte</name>
+			<align>Lawful good</align>
+			<personality>You can find common ground between the fiercest enemies, empathizing with them and always working toward peace.</personality>
+			<ideals>You always try to help those in need, no matter what the personal cost.</ideals>
+			<bonds>Everything you do is to protect the common folk.</bonds>
+			<flaws>You place too much trust in those who profess to share your faith.</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Insight, Religion</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>Two of your choice</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Shelter of the Faithful</name>
+				<text>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.
+
+You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</text>
+			</feat>
+			<proficiency>106</proficiency>
+			<proficiency>109</proficiency>
+		</background>
+		<xp>2700</xp>
+		<meleeAbility>1</meleeAbility>
+		<unarmed>1d4+%2</unarmed>
+		<abilities>8,16,13,10,15,12,</abilities>
+		<hpMax>31</hpMax>
+		<hpCurrent>31</hpCurrent>
+		<tracker>
+			<label>Ki</label>
+			<resetType>1</resetType>
+			<value>4</value>
+			<formula>4</formula>
+		</tracker>
+		<item>
+			<name>Shortsword</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<value>10.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>10</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Dart</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>6</type>
+			<quantity>8</quantity>
+			<value>5.0</value>
+			<weight>0.25</weight>
+			<damage1H>1d4</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>130</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Backpack</name>
+			<text>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.
+
+Source: Player's Handbook, page 153</text>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<name>Bedroll</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>1.0</value>
+			<weight>7.0</weight>
+		</item>
+		<item>
+			<name>Crystal (glows in moonlight)</name>
+		</item>
+		<item>
+			<name>Healer's Kit</name>
+			<text>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.
+
+Source: Player's Handbook, page 151</text>
+			<value>5.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Herbalism Kit</name>
+			<text>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.
+
+Source: Player's Handbook, page 154</text>
+			<value>5.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Holy Symbol (Redford wrapped around wrists and hands)</name>
+			<text>A holy symbol is a representation of a god or pantheon
+
+A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+
+Source: Player's Handbook, page 151</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Mess Kit</name>
+			<text>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.
+
+Source: Player's Handbook, page 152</text>
+			<value>2.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Monk's vestments</name>
+		</item>
+		<item>
+			<name>Common Clothes (Gray)</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>5.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Prayer beads</name>
+		</item>
+		<item>
+			<name>Rations (1 day)</name>
+			<text>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.
+
+Source: Player's Handbook, page 153</text>
+			<quantity>5</quantity>
+			<value>5.0</value>
+			<weight>2.0</weight>
+		</item>
+		<item>
+			<name>Soap</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>2.0</value>
+		</item>
+		<item>
+			<name>Tinderbox</name>
+			<text>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Torch</name>
+			<text>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.
+
+Source: Player's Handbook, page 153</text>
+			<quantity>3</quantity>
+			<value>1.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Waterskin</name>
+			<text>A waterskin can hold up to 4 pints of liquid.
+
+Source: Player's Handbook, page 153</text>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<name>Potion of Healing</name>
+			<text>Rarity: Common
+You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.
+
+Source: Dungeon Master's Guide, page 187</text>
+			<type>12</type>
+			<quantity>2</quantity>
+			<weight>0.5</weight>
+			<magic>1</magic>
+			<roll>2d4+2</roll>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Draconic, Halfling</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Order of the Gauntlet, seekers of justice who protect others from evildoers.</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>“Size of the body indicates nothing of the depth of the spirit.”
+Ascetic life tempered your endurance, and a doctrine of and helping others tempered your tolerance and compassion. Your kindness and understanding you give freely, but your beliefs reserve your wrath and martial arts expertise for the cruel and wicked, especially those who harm the innocent or weak. You wander the world as a righter of wrongs, and an example that the spirit transcends and conquers the material.</text>
+		</note>
+	</character>
+</pc>

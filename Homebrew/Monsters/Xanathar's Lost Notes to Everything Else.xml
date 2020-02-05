@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<!--Xanathar's Lost Notes to Everything Else-->
+	<monster>
+		<name>Dryad, Urban</name>
+		<size>M</size>
+		<type>fey</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>13</ac>
+		<hp>78 (12d8 + 24)</hp>
+		<speed>30 ft.</speed>
+		<str>10</str>
+		<dex>16</dex>
+		<con>15</con>
+		<int>14</int>
+		<wis>14</wis>
+		<cha>18</cha>
+		<skill>Perception +5, Stealth +7, Insight +5</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>15</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>5</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The urban dryad's innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: druidcraft</text>
+			<text>2/day each: earth tremor, goodberry, thorn whip</text>
+			<text>1/day each: calm emotions, earthbind, pass without trace</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While hidden or resting, an urban dryad is indistinguishable from a mass of ivy creepers.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The urban dryad has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The urban dryad can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The urban dryad makes two lash attacks.</text>
+		</action>
+		<action>
+			<name>Lash</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d6 + 1) slashing damage plus 11 (2d10) poison damage.</text>
+			<attack>Lash|6|2d6+1+2d10</attack>
+		</action>
+		<action>
+			<name>Hand Crossbow</name>
+			<text>Ranged Weapon Attack: +6 to hit, reach 5 ft., one target range 30/120. Hit: 4 (1d6 + 1) piercing damage plus 11 (2d10) poison damage.</text>
+			<attack>Hand Crossbow|6|1d6+1+2d10</attack>
+		</action>
+		<action>
+			<name>Shadow Walk</name>
+			<text>The urban dryad can step magically from one shadow within its reach and emerge from a second unoccupied shadow within 60 feet of the original shadow.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Urban Sproutling</name>
+		<size>S</size>
+		<type>fey</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>11</ac>
+		<hp>13 (3d6 + 3)</hp>
+		<speed>20 ft.</speed>
+		<str>12</str>
+		<dex>16</dex>
+		<con>13</con>
+		<int>6</int>
+		<wis>8</wis>
+		<cha>10</cha>
+		<skill>Acrobatics +5, Stealth +7</skill>
+		<conditionImmune>blinded, deafened</conditionImmune>
+		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+		<passive>12</passive>
+		<languages>Common, Sylvan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>False Appearance</name>
+			<text>While hidden or resting, the sproutling is indistinguishable from a common weed.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The sproutling has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The sproutling can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The urban sproutling makes one bite attack and one claw attack.</text>
+		</action>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d4 +2) piercing damage plus 3 (1d6) poison damage.</text>
+			<attack>Bite|3|1d4+2+1d6</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claw|3|1d4+2</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Dryad, Elder</name>
+		<size>S</size>
+		<type>fey</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>15</ac>
+		<hp>105 (14d6 + 56)</hp>
+		<speed>30 ft.</speed>
+		<str>13</str>
+		<dex>16</dex>
+		<con>18</con>
+		<int>14</int>
+		<wis>17</wis>
+		<cha>18</cha>
+		<skill>Perception +4, Stealth +5, Persuasion +7</skill>
+		<resist>bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>poison</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Elvish, Sylvan</languages>
+		<cr>6</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The urban dryad's innate spellcasting ability is Wisdom (spell save DC 14). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: commune with nature, meld into stone, sleep</text>
+			<text>3/day: spike growth</text>
+			<text>1/day: blight</text>
+		</trait>
+		<trait>
+			<name>False Appearance</name>
+			<text>While hidden or resting, the elder dryad is indistinguishable from a flowering azalea or another local shrub.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The elder dryad has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<trait>
+			<name>Speak with Beasts and Plants</name>
+			<text>The elder dryad can communicate with beasts and plants as if they shared a language.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The elder dryad makes three melee attacks.</text>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) slashing damage plus 11 (2d10) poison damage.</text>
+			<attack>Lash|6|1d6+3+2d10</attack>
+		</action>
+		<action>
+			<name>Entangling Roots</name>
+			<text>The elder dryad can animate roots in the ground in a 15-foot square within 30 feet of it. These roots turn the ground in that area into difficult terrain. A creature in that area when the effect begins must make a successful DC 15 Strength saving throw or be restrained by entangling roots. A creature restrained by the plants can use its action to make a DC 15 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the elder dryad dies or uses entangling roots again.</text>
+		</action>
+		<action>
+			<name>Shadow Walk</name>
+			<text>Once on its turn, the elder dryad can step magically from one shadow within its reach and emerge from a second unoccupied shadow within 60 feet of the original shadow.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gen, Air</name>
+		<size>T</size>
+		<type>elemental</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>12</ac>
+		<hp>7 (1d4+2)</hp>
+		<speed>0 ft., fly 60 ft.</speed>
+		<str>6</str>
+		<dex>15</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>14</wis>
+		<cha>17</cha>
+		<skill>Perception +4, Persuasion +5</skill>
+		<resist>lightning, bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<conditionImmune>prone</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Auran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: detect evil and good, gust</text>
+			<text>2/day each: fog cloud, plane shift (self only), tongues</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates into a warm breeze, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two melee or two ranged attacks</text>
+		</action>
+		<action>
+			<name>Dagger</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Dagger|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Thunderbolt</name>
+			<text>Ranged Weapon Attack: +4 to hit, reach 5 ft., one target range 30/120. Hit: 5 (1d6 + 2) lightning damage.</text>
+			<attack>Thunderbolt|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gen, Earth</name>
+		<size>T</size>
+		<type>elemental</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>13</ac>
+		<hp>10 (3d4+3)</hp>
+		<speed>30 ft., fly 40 ft. (hover)</speed>
+		<str>15</str>
+		<dex>11</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>13</wis>
+		<cha>14</cha>
+		<skill>Athletics +4, Insight +3</skill>
+		<immune>poison</immune>
+		<conditionImmune>poisones</conditionImmune>
+		<senses>darkvision 60 ft., tremorsense 30 ft.</senses>
+		<passive>11</passive>
+		<languages>Common, Terran</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: detect evil and good</text>
+			<text>2/day each: entangle, plane shift (self only)</text>
+			<text>1/day each: earth tremor, tongues</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates into crystalline powder, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two fist attacks.</text>
+		</action>
+		<action>
+			<name>Fist</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Fist|4|1d4+2</attack>
+		</action>
+		<action>
+			<name>Smash</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage and the target must succeed on a DC 12 Strength saving throw or be knocked prone.</text>
+			<attack>Smash|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gen, Fire</name>
+		<size>T</size>
+		<type>elemental</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>12</ac>
+		<hp>9 (2d4 + 4)</hp>
+		<speed>30 ft., fly 50 ft. (hover)</speed>
+		<str>12</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>15</int>
+		<wis>13</wis>
+		<cha>15</cha>
+		<skill>Athletics +3, Deception +4</skill>
+		<vulnerable>cold</vulnerable>
+		<resist>lightning, bludgeoning, piercing, and slashing from nonmagical attacks</resist>
+		<immune>fire</immune>
+		<conditionImmune>poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>12</passive>
+		<languages>Common, Ignan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: control flames, detect evil and good</text>
+			<text>2/day each: plane shift (self only)</text>
+			<text>1/day each: heat metal, tongues</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two melee attacks or two ranged attacks.</text>
+		</action>
+		<action>
+			<name>Scimitar</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) slashing damage.</text>
+			<attack>Scimitar|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Flame Dart</name>
+			<text>Ranged Weapon Attack: +4 to hit, reach 5 ft., one target range 30/120. Hit: 5 (1d6 + 2) fire damage.</text>
+			<attack>Flame Dart|4|1d6+2</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Gen, Water</name>
+		<size>T</size>
+		<type>elemental</type>
+		<description>Source: Xanathar's Lost Notes to Everything Else</description>
+		<alignment>neutral</alignment>
+		<ac>12</ac>
+		<hp>10 (3d4 + 3)</hp>
+		<speed>30 ft., swim 90 ft., fly 60 ft (hover)</speed>
+		<str>13</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>12</int>
+		<wis>14</wis>
+		<cha>16</cha>
+		<skill>Perception +4, Insight +4</skill>
+		<resist>acid, cold</resist>
+		<senses>blindsight 30 ft., darkvision 90 ft.</senses>
+		<passive>14</passive>
+		<languages>Common, Aquan</languages>
+		<cr>1/2</cr>
+		<trait>
+			<name>Innate Spellcasting</name>
+			<text>The gen's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:</text>
+			<text>At will: detect evil and good, frostbite, shape water</text>
+			<text>2/day each: plane shift (self only)</text>
+			<text>1/day each: tongues, water walk (self only)</text>
+		</trait>
+		<trait>
+			<name>Amphibious</name>
+			<text>The gen can breathe air and water.</text>
+		</trait>
+		<trait>
+			<name>Elemental Demise</name>
+			<text>If the gen dies, its body disintegrates into a burst of water and foam, leaving behind only equipment the gen was wearing or carrying.</text>
+		</trait>
+		<trait>
+			<name>Magic Resistance</name>
+			<text>The gen has advantage on saving throws against spells and other magical effects.</text>
+		</trait>
+		<action>
+			<name>Multiattack</name>
+			<text>The gen makes two melee attacks.</text>
+		</action>
+		<action>
+			<name>Spear</name>
+			<text>Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+			<attack>Scimitar|10|1d6+1</attack>
+		</action>
+		<action>
+			<name>Tidal Wave (Recharge 6)</name>
+			<text>The gen creates a rushing wave of water in a 15-foot cone. Each creature in that area must succeed on a DC 13 Dexterity saving throw, taking 5 (2d4) bludgeoning damage on a failed save, or half as much on a successful one. A creature that fails its save is also pushed up to 10 feet away and knocked prone.</text>
+			<attack>Tidal Wave||2d4</attack>
+		</action>
+		<action>
+			<name>Invisibility</name>
+			<text>The gen magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it.</text>
+		</action>
+	</monster>
+</compendium>

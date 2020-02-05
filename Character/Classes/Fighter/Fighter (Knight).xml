@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Fighter" UA="Fighter">
+		<name>Fighter (Knight)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Martial Archetype: Knight (UA)</name>
+				<text>The Knight is a colossus on the battlefield who can shrug off attacks and protect allies from harm. Knights fight from the saddle when they can, and in combat they are expected to seek out and lock down the mightiest of the enemy's forces. On adventures, they are the armored bulwark that strives to keep the rest of the party safe.</text>
+				<text/>
+				<text>This Martial Archetype is from Unearthed Arcana: Fighter Martial Archetypes, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Knight: Born to the Saddle</name>
+				<text>Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you aren't incapacitated and you fall less than 10 feet.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Knight: Implacable Mark</name>
+				<text>At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature can't be frightened.</text>
+				<text>	The marked target has disadvantage on any attack roll against a creature other than you or someone else who marked it.</text>
+				<text>	If a target marked by you is within 5 feet of you on its turn and it moves at least 1 foot or makes an attack that suffers disadvantage from this feature, you can make one melee weapon attack against it using your reaction. This attack roll has advantage, and if it hits, the attack's weapon deals extra damage to the target equal to your fighter level.</text>
+				<text>	You can make this special attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn. You can make this attack three times, and you regain all expended uses of it when you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Knight: Noble Cavalry</name>
+				<text>At 7th level, you gain proficiency in two of the following skills of your choice: Animal Handling, History, Insight, Persuasion, or Religion. Alternatively, you learn one language of your choice.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Knight: Hold the Line</name>
+				<text>At 10th level, you master the ability to harass and slow your enemies. As a reaction when a creature moves at least 1 foot within 5 feet of you, you can make one melee weapon attack against that creature. If you hit, the attack's weapon deals extra damage to the target equal to half your fighter level, and the target's speed is reduced to 0 until the end of this turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Knight: Rapid Strike</name>
+				<text>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Knight: Defender's Blade</name>
+				<text>At 18th level, you respond to danger with extraordinary vigilance. You can use your reaction for an opportunity attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn.</text>
+				<text>	In addition, you gain a +1 bonus to AC while wearing heavy armor.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>

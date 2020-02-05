@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Sorcerer and Warlock">
+	<subclass baseclass="Warlock">
+		<name>Warlock (The Lurker in the Deep)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Otherworldly Patron: The Lurker in the Deep (UA)</name>
+				<text>You made a pact with an entity that lurks somewhere deep in the ocean, or even on the Elemental Plane of Water, such as a mighty kraken, an ancient primordial, or a monstrous being from creation's earliest days. You serve as this creature's eyes and ears, watching the world beyond its domain and reporting your findings. You may have gained this pact as a member of a cult dedicated to the entity or after your patron saved your life when you nearly drowned at sea.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Expanded Spell List</name>
+				<text>The Lurker in the Deep lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</text>
+				<text>Lurker Expanded Spells</text>
+				<text>Spell Level    Spells</text>
+				<text>1st            create or destroy water, thunderwave</text>
+				<text>2nd            gust of wind, silence</text>
+				<text>3rd            lightning bolt, sleet storm</text>
+				<text>4th            control water, Evard's black tentacles</text>
+				<text>5th            commune with nature, cone of cold</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Grasp of the Deep</name>
+				<text>At 1st level, you gain the ability to magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.</text>
+				<text>	When you create the tentacle, you can make a melee spell attack against a creature within 10 feet of it. On a hit, the target takes 1d8 cold or lightning damage (your choice when it takes the damage) and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage dealt by the tentacle increases to 2d8.</text>
+				<text>	As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack.</text>
+				<text>	You can summon the tentacle a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Scion of the Deep</name>
+				<text>At 1st level, your patron accepts you into its inner court of servitors. You can telepathically communicate with any aberration, beast, elemental, or monstrosity that has an innate swimming speed, while it is within 120 feet of you. The creature can understand you and can respond telepathically. </text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Fathomless Soul</name>
+				<text>At 6th level, your patron grants you greater abilities. You gain the following benefits:</text>
+				<text>• You can breathe both air and water.</text>
+				<text>• You gain a swimming speed equal to your walking speed.</text>
+				<text>• You gain resistance to cold damage.</text>
+			</feature>
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Guardian Grasp</name>
+				<text>At 6th level, the tentacle you create with Grasp of the Deep can defend you and others. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to the chosen creature by half. After doing so, the tentacle vanishes.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Devouring Maw</name>
+				<text>Starting at 10th level, you can magically draw forth a manifestation of your patron's insatiable hunger. As an action, choose a point you can see within 60 feet of you. For 1 minute, a translucent maw manifests in a 10-foot radius centered on that point. Each creature in that area when the maw appears must succeed on a Strength saving throw against your spell save DC or be restrained. Any creature that starts its turn in the maw's area takes 3d6 cold or lightning damage (your choice when it takes the damage). As an action, a restrained creature can repeat the saving throw, ending the restraint on a success. At the start of your turn, if there is a creature in the maw's area, you gain temporary hit points equal to your warlock level.</text>
+				<text>	Once you use this feature, you can't do so again until you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>The Lurker in the Deep: Unleash the Depths</name>
+				<text>Starting at 14th level, you gain the ability to call upon your patron for aid. As an action, you choose a point within 30 feet of you where your patron tears through reality, manifesting a measure of its thalassic grandeur. Choose one of the following effects to issue from this manifestation point. Once you use either effect, you can't use this feature again until you finish a long rest.</text>
+				<text>	Transport. You and up to five willing creatures of your choice that you can see within 30 feet of the manifestation point are grasped by spectral tentacles and yanked through your patron's realm. The tentacles teleport you and the chosen creatures to a point of your choice within 100 miles that you have visited within the past 24 hours. The tentacles then vanish.</text>
+				<text>	Fury. You can direct a barrage of spectral tentacles to issue forth and strike up to five creatures you can see within 30 feet of the manifestation point. Each target must make a Dexterity saving throw against your spell save DC. On a failed save, the creature takes 6d10 cold or lightning damage (your choice) and is knocked prone. On a successful save, it takes half as much damage and is not knocked prone. The tentacles then vanish.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spell>
+		<name>Mind Sliver</name>
+		<level>0</level>
+		<school>E</school>
+		<time>1 action</time>
+		<range>60 feet</range>
+		<components>V</components>
+		<duration>1 round</duration>
+		<classes>Sorcerer, Warlock, Wizard</classes>
+		<text>You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes 1d6 psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a d4 and subtract the number rolled from the save.</text>
+		<text/>
+		<text>This spell's damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spellList class="Warlock (Lurker)">
+		<index name="Create or Destroy Water"/>
+		<index name="Thunderwave"/>
+		<index name="Gust of Wind"/>
+		<index name="Silence"/>
+		<index name="Lightning Bolt"/>
+		<index name="Sleet Storm"/>
+		<index name="Control Water"/>
+		<index name="Evard's Black Tentacles"/>
+		<index name="Commune with Nature"/>
+		<index name="Cone of Cold"/>
+	</spellList>
+</compendium>

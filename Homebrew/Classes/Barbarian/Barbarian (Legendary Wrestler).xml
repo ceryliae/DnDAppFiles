@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Barbarian" HB="HB">
+		<name>Barbarian (Legendary Wrestler)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Primal Path: Path of the Legendary Wrestler</name>
+				<text>There is no training that can prepare anyone to become a legend. Some start by taking wrestling lessons, others make it up as they go along. No matter what, through whatever means, they will reproduce their heroes' legendary feats.</text>
+				<text>	With magnificent combination of strength and techniques gained through unbearable hardship, you can turn your enemies into your playthings. Dominate them on the battleground, keep them at disadvantage and let your allies finish them off.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Path of the Legendary Wrestler: Wrestling Techniques</name>
+				<text>When you choose this archetype at 3rd level, you can use your bonus action to grapple.</text>
+				<text>	Additionally, you can use your Attack action to make an unarmed strike to wrestle a creature you are grappling, slamming it for d6 bludgeoning damage. The affected creature will fall prone and be released from the grapple. However, you can choose to maintain your grapple by willingly falling prone together with it and release other creatures you are grappling. Failed attack rolls do not release creatures from your grapple.</text>
+				<text>	Grappled enemy does not need to be standing for you to wrestle it, but you can force a prone creature to stand up with an Attack action or bonus action.</text>
+				<text>	The damage dice for your slam increases when you reach level 5 (d8), level 11 (d10) and level 17 (d12).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Path of the Legendary Wrestler: Legendary Skills</name>
+				<text>Your knowledge in the arts of grappling allows you to grapple creatures up to two sizes larger than yourself instead of just one.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Vigorous Encouragement</name>
+				<text>You can use your action to say an encouraging phrase that's at least seven words long to a friendly creature that's within 30 feet of you. The creature being encouraged has advantage on all attack rolls it makes as well as ability checks using Strength, Constitution, Charisma and Dexterity (Acrobatics). The effect lasts for a number of rounds equal to your Charisma modifier + 1 round (minimum of 1 round), finishing at the start of your turn.</text>
+				<text>	The effect will end early whenever the creature takes damage. However, a friendly creature (Player Characters or NPCs) can use its reaction to say encouraging phrases that's at least seven words long to prevent the effect from ending this way.</text>
+				<text>	You can't use this feature again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature optional="YES">
+				<name>Path of the Legendary Wrestler: Domain Superiority: Air</name>
+				<text>At 10th level, you gain one of the terrain superiority features of your choice below.</text>
+				<text>Air Superiority – You have advantage on skill checks to climb terrains, mount creatures over one size larger than you, and to hold onto them. You also have advantage on all Strength and Dexterity ability checks while you are over 10 feet above ground and not grabbing or standing on anything.</text>
+				<text>	You can use your reaction to cause a flying creature you are grappling to fall.</text>
+				<text>	While being grappled by you, falling creatures receive 1d6 of fall damage for every 5 feet fallen instead of 10 feet. Your fall damage calculation remains unchanged. If the creature is released from grapple during the fall, subsequent fall damage dice calculation will revert to normal fall calculation.</text>
+				<text>	Fall damage is calculated separately from slams. Slamming creatures does not contribute to the fall distance and fall damage does not get benefit from critical hits.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Path of the Legendary Wrestler: Domain Superiority: Land</name>
+				<text>At 10th level, you gain one of the terrain superiority features of your choice below.</text>
+				<text>Land Superiority – You can move with grappled creatures without movement penalty.</text>
+				<text>	When you shove a creature you are grappling, you can force it to move up to 5 feet away from you, or 10 feet away if you have moved for 10 feet towards the direction before shoving the creature. Creatures shoved this way can be melee attacked with advantage by another willing creature you choose using its reaction.</text>
+				<text>	Attempts to shove the grappled creature using this feature will release the grapple whether you succeed or not.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Path of the Legendary Wrestler: Mighty Throwdown</name>
+				<text>Your enormous strength and wrestling skill has breached mortal bounds, allowing you to hurl enormous creatures and objects a great distance away. To perform Mighty Throwdown, you need the use of two free hands or one if you're already grappling the creature you're about to throw with one hand. Then, follow the two steps detailed further below.</text>
+				<text>	Creatures hurled or hurled at by you can make Dexterity saving throw against your hurl difficulty challenge (DC) which is calculated as follows:</text>
+				<text>	Throw save DC = 8 + your proficiency + your Strength modifier.</text>
+				<text>Mighty Throwdown is broken into the following two steps:</text>
+				<text>1. Throw: While raging, you can use your Attack action to throw a creature you are grappling or a solid heavy object up to two sizes larger than you. It will travel to a target space up to 30 feet away from you in a straight line, or 60 feet away if you have moved 10 feet towards the direction just before doing so. A creature that's about to be thrown by you can make a Dexterity Saving Throw against your Hurl Save DC. On successful save, the creature is released from grapple and the process ends.</text>
+				<text>2. Down: As the thrown creature or object moves in a straight line, any creature caught along its path will be pushed along the trajectory until the thrown creature or object reaches its target point. If there's no space for them to occupy at where they will be pushed to, then they will be moved to the nearest unoccupied space.</text>
+				<text>	All creatures, thrown or caught in the path take 7d8 bludgeoning damage and fall prone. Those caught along its path can make Dexterity Saving throw, succeeding will prevent them from getting pushed along, fall prone, and they take only half as much damage. (The thrown creature uses the Dexterity saving throw from step 1, no creature should make two saving throws).</text>
+				<text>	You can do Mighty Throwdown safely once after every long rest. After that, you gain one level of exhaustion every time you successfully perform it. Mighty throwdown is considered to be successful if you successfully complete step 1 (Throw).</text>
+				<text>	You do not need to grapple an object to throw it. But, DMs might veto what objects can be thrown if they want to simulate a sense of realism.</text>
+				<text>	At higher levels, the damage dealt by this feature is increases by 1d8 for every 2 levels in Barbarian you take above level 14.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+</compendium>

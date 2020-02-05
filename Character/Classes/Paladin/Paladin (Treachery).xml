@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Paladin">
+	<subclass baseclass="Paladin">
+		<name>Paladin (Treachery)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of Treachery (UA)</name>
+				<text>The Oath of Treachery is the path followed by paladins who have forsworn other oaths or who care only for their own power and survival. Commonly known as blackguards, these profane warriors are faithful only to themselves. Anyone desperate enough to follow one of these paladins does so because, while deceitful, these paladins command great power. Those who follow them without falling prey to their treachery hope to indulge in wanton violence and accumulate great treasure.</text>
+				<text>	Many of these paladins pay homage to demon lords, especially Grazz't and Orcus. Even the Lords of Hell are loath to ally with these champions of chaos, but sometimes Baalzebul and Glasya find a kindred spirit in a blackguard's penchant for double dealing and treachery.</text>
+				<text/>
+				<text>Fallen Paladins:</text>
+				<text>	The Oath of Treachery is an option for the paladin who has strayed from another Sacred Oath or who has rejected the traditional paladin life. This option exists alongside the Oathbreaker in the Dungeon Master's Guide. DMs are free to use either option to model villainous or fallen paladins.</text>
+				<text>	If you switch to this oath from another one, replace all of the previous oath's features with the features of this one, and if you renounce this oath, replace its features with the features of the new one.</text>
+				<text/>
+				<text>Tenets of Treachery:</text>
+				<text>	A paladin who embraces the Oath of Treachery owes allegiance to no one. There are no tenets of this oath, for it lacks any substance. Those who are unfortunate enough to have close contact with blackguards have observed that a blackguard's overwhelming concern is power and safety, especially if both can be obtained at the expense of others.</text>
+				<text/>
+				<text>Oath Spells:</text>
+				<text>	You gain oath spells at the paladin levels listed.</text>
+				<text>3rd - charm person, expeditious retreat</text>
+				<text>5th - invisibility, mirror image</text>
+				<text>9th - gaseous form, haste</text>
+				<text>13th - confusion, greater invisibility</text>
+				<text>17th - dominate person, passwall</text>
+				<text/>
+				<text>This Sacred Oath is from Unearthed Arcana: Paladin Sacred Oaths, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of Treachery Channel Divinity: Conjure Duplicate (Oath of Treachery)</name>
+				<text>As an action, you create a visual illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space of your choice that you can see within 30 feet of you. The illusion looks exactly like you; it is silent; it is your size, is insubstantial, and doesn't occupy its space; and it is unaffected by attacks and damage. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but the illusion must remain within 120 feet of you.</text>
+				<text>	For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of Treachery Channel Divinity: Poison Strike (Oath of Treachery)</name>
+				<text>You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals 2d10 + your paladin level, or 20 + your paladin level if you had advantage on the attack roll.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Oath of Treachery: Aura of Treachery (Oath of Treachery)</name>
+				<text>Starting at 7th level, you emanate an aura of discord, which gives you the following benefits.</text>
+				<text/>
+				<text>Cull the Herd:</text>
+				<text>	You have advantage on melee attack rolls against any creature that has one or more of its allies within 5 feet of it.</text>
+				<text/>
+				<text>Treacherous Strike:</text>
+				<text>	If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being charmed.</text>
+				<text>	You can use this ability three times. You regain expended uses of it when you finish a short or long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Oath of Treachery: Blackguard's Escape (Oath of Treachery)</name>
+				<text>At 15th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature optional="YES">
+				<name>Oath of Treachery: Icon of Deceit (Oath of Treachery)</name>
+				<text>At 20th level, you gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:</text>
+				<text/>
+				<text>• You are invisible.</text>
+				<text/>
+				<text>• If a creature damages you on its turn, it must succeed on a Wisdom saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren't incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed.</text>
+				<text/>
+				<text>• If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your paladin level.</text>
+				<text/>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Paladin (Treachery)">
+		<index name="Charm Person"/>
+		<index name="Expeditious Retreat"/>
+		<index name="Invisibility"/>
+		<index name="Mirror Image"/>
+		<index name="Gaseous Form"/>
+		<index name="Haste"/>
+		<index name="Confusion"/>
+		<index name="Greater Invisibility"/>
+		<index name="Dominate Person"/>
+		<index name="Passwall"/>
+	</spellList>
+</compendium>

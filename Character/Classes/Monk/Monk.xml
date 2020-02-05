@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<baseclass>
+		<name>Monk</name>
+		<hd>8</hd>
+		<proficiency>Strength, Dexterity, Acrobatics, Athletics, History, Insight, Religion, Stealth</proficiency>
+		<numSkills>2</numSkills>
+		<armor>none</armor>
+		<weapons>simple weapons, shortswords</weapons>
+		<tools>any one type of artisan's tools or any one musical instrument of your choice</tools>
+		<wealth>5d4</wealth>
+		<spellAbility>Wisdom</spellAbility>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: none</text>
+				<text>Weapons: simple weapons, shortswords</text>
+				<text>Tools: any one type of artisan's tools or any one musical instrument of your choice</text>
+				<text>Skills: Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.</text>
+				<text/>
+				<text>• (a) a shortsword or (b) any simple weapon</text>
+				<text>• (a) a dungeoneer's pack or (b) an explorer's pack</text>
+				<text>• 10 darts</text>
+				<text/>
+				<text>Alternatively, you may start with 5d4 gp to buy your own equipment.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Unarmored Defense</name>
+				<text>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</text>
+				<special>Unarmored Defense: Wisdom</special>
+			</feature>
+			<feature>
+				<name>Martial Arts</name>
+				<text>Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.</text>
+				<text>	You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.</text>
+				<text/>
+				<text>• You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.</text>
+				<text/>
+				<text>• You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon.</text>
+				<text/>
+				<text>• When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.</text>
+				<text/>
+				<text>	Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Ki</name>
+				<text>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.</text>
+				<text>	You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.</text>
+				<text>	When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.</text>
+				<text>	Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows: Ki save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+			</feature>
+			<feature>
+				<name>Flurry of Blows</name>
+				<text>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</text>
+			</feature>
+			<feature>
+				<name>Patient Defense</name>
+				<text>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</text>
+			</feature>
+			<feature>
+				<name>Step of the Wind</name>
+				<text>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</text>
+			</feature>
+			<feature>
+				<name>Unarmored Movement</name>
+				<text>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.</text>
+				<text>	At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</text>
+				<modifier category="bonus">speed +10</modifier>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Monastic Tradition</name>
+				<text>When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, the Way of Shadow, or the Way of the Four Elements. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</text>
+			</feature>
+			<feature>
+				<name>Deflect Missiles</name>
+				<text>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d 10 + your Dexterity modifier + your monk level.</text>
+				<text>	If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Slow Fall</name>
+				<text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+			<feature>
+				<name>Stunning Strike</name>
+				<text>Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</text>
+			</feature>
+			<feature>
+				<name>Martial Arts (1d6)</name>
+				<text>You can now roll a d6 in the place of the normal damage of your unarmed strike or monk weapon.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Ki-Empowered Strikes</name>
+				<text>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+			</feature>
+			<feature>
+				<name>Unarmed Movement (+ 15 ft.)</name>
+				<text>The bonus to your speed increases to 15 feet while you are not wearing armor or wielding a shield.</text>
+				<modifier category="bonus">speed +5</modifier>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="7">
+			<feature>
+				<name>Stillness of Mind</name>
+				<text>Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.</text>
+			</feature>
+			<feature>
+				<name>Evasion</name>
+				<text>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="9">
+			<feature>
+				<name>Unarmored Movement (Vertical Surfaces)</name>
+				<text>You gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Purity of Body</name>
+				<text>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</text>
+			</feature>
+			<feature>
+				<name>Unarmed Movement (+ 20 ft.)</name>
+				<text>The bonus to your speed increases to 20 feet while you are not wearing armor or wielding a shield.</text>
+				<modifier category="bonus">speed +5</modifier>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Martial Arts (1d8)</name>
+				<text>You can now roll a d8 in the place of the normal damage of your unarmed strike or monk weapon.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Tongue of the Sun and Moon</name>
+				<text>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature>
+				<name>Diamond Soul</name>
+				<text>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.</text>
+				<text>	Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</text>
+				<proficiency>constitution, intelligence, wisdom, charisma</proficiency>
+			</feature>
+			<feature>
+				<name>Unarmed Movement (+ 25 ft.)</name>
+				<text>The bonus to your speed increases to 25 feet while you are not wearing armor or wielding a shield.</text>
+				<modifier category="bonus">speed +5</modifier>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature>
+				<name>Timeless Body</name>
+				<text>At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Martial Arts (1d10)</name>
+				<text>You can now roll a d10 in the place of the normal damage of your unarmed strike or monk weapon.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Empty Body</name>
+				<text>Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.</text>
+				<text>	Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you.</text>
+			</feature>
+			<feature>
+				<name>Unarmed Movement (+ 30 ft.)</name>
+				<text>The bonus to your speed increases to 30 feet while you are not wearing armor or wielding a shield.</text>
+				<modifier category="bonus">speed +5</modifier>
+			</feature>
+		</autolevel>
+		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Perfect Soul</name>
+				<text>At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+</compendium>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Updated 2018/07/30 (rootwo62) -->
+<Compendium version='0.5' versionBoBH="1.8" authorBoBH='Nathan Haslè' BoBHDownload='https://www.reddit.com/r/UnearthedArcana/comments/80i3p6/book_of_beautiful_horrors_update_18_170_pages_of/'>
+<monster>
+		<name>Botchling</name>
+		<size>S</size>
+		<type>undead, BoBH</type>
+		<alignment>neutral evil</alignment>
+		<ac>12</ac>
+		<hp>40 (9d6 + 9)</hp>
+		<speed>15 ft.</speed>
+		<str>5</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>6</int>
+		<wis>12</wis>
+		<cha>5</cha>
+		<skill>Stealth +6</skill>
+		<passive>11</passive>
+		<senses>darkvision 60ft.</senses>
+		<resist>cold, necrotic</resist>
+		<conditionImmunities>exhaustion, prone</conditionImmunities>
+		<languages>-</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Deathly Echoes</name>
+			<text>After the botchling uses its Wail, there is a 50 percent chance that it will summon 1d3 specters or one shade. A summoned creature materializes within 30 feet of the botchling in an unoccupied space. The creature acts as an ally of the botchling. The creature vanishes when it drops to 0 hit points.</text>
+		</trait>
+		<trait>
+			<name>Feverish Hunger</name>
+			<text>As a bonus action, the botchling can target one creature it can see within 5 feet of it that is unconscious. The target must succeed on a DC 16 Constitution saving throw against this magic or gain 1 level of exhaustion.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 13 (3d8) necrotic damage. The botchling regains a number of hit points equal to the amount of necrotic damage dealt. If the target is a humanoid, it must succeed on a DC 16 Constitution saving throw or fall unconscious for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it.</text>
+		</action>
+		<action>
+			<name>Wail (Recharges 4-6)</name>
+			<text>The botchling lets out a horrific wail. Any creature within 60 feet of the botchling that can hear the wail must succeed on a DC 16 Constitution saving throw or be stunned until the end of the botchling's next turn.</text>
+		</action>
+	</monster>
+	<monster>
+		<name>Lubberkin</name>
+		<size>S</size>
+		<type>undead, BoBH</type>
+		<alignment>neutral good</alignment>
+		<ac>12</ac>
+		<hp>40 (9d6 + 9)</hp>
+		<speed>0 ft., fly 40 ft. (hover)</speed>
+		<str>1</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>6</int>
+		<wis>16</wis>
+		<cha>5</cha>
+		<passive>13</passive>
+		<senses>darkvision 60ft.</senses>
+		<resist>acid, cold, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<conditionImmunities>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmunities>
+		<languages>-</languages>
+		<cr>2</cr>
+		<trait>
+			<name>Ephemeral</name>
+			<text>The lubberkin can’t wear or carry anything.</text>
+		</trait>
+		<trait>
+			<name>Glow</name>
+			<text>The lubberkin sheds bright light in a 5-to 20- foot radius and dim light for an additional number of feet equal to the chosen radius. The lubberkin can alter the radius as a bonus action. While inside the radius of bright light, a friendly creature gains a +3 bonus to its saving throws.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The lubberkin can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<trait>
+			<name>Kin Awareness</name>
+			<text>The lubberkin knows the distance to and direction of any creature part of its family, even if the creature and the lubberkin are on different planes of existence. If a creature that is part of the family dies, the lubberkin knows.</text>
+		</trait>
+		<action>
+			<name>Glowing Touch</name>
+			<text>Melee Spell Attack: +5 to hit, reach 5ft., one creature. Hit: 20 (5d6 + 3) radiant damage and the next attack roll made against this target before the end of the lubberkin's next turn has advantage, thanks to the mystical dim light glittering on the target until then.</text>
+			<attack>Glowing Touch|20|5d6+3</attack>
+		</action>
+	</monster>
+	<monster>
+		<name>Myling</name>
+		<size>S</size>
+		<type>undead, BoBH</type>
+		<alignment>chaotic evil</alignment>
+		<ac>13</ac>
+		<hp>40 (9d6+9)</hp>
+		<speed>0 ft., fly 40 ft. (hover)</speed>
+		<str>1</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>8</wis>
+		<cha>16</cha>
+		<skills>Deception +5, Stealth +7</skills>
+		<passive>9</passive>
+		<senses>darkvision 60 ft.</senses>
+		<resist>acid, cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
+		<immune>necrotic, poison</immune>
+		<conditionImmune>charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionImmune>
+		<languages>telepathy 120 ft.</languages>
+		<cr>2</cr>
+		<enviornment>Any</enviornment>
+		<action>
+			<name>Corrupting Touch</name>
+			<text>Melee Spell Attack: +5 to hit, reach 5ft., one creature. Hit: 17 (4d6 + 3) necrotic damage.</text>
+		</action>
+		<action>
+			<name>Influence</name>
+			<text>The myling targets one humanoid it can see within 30 feet of it. The target must succeed on a DC 16 Wisdom saving throw against this magic or be charmed by the myling. The charmed target regards the myling as a trusted friend to be heeded and protected. Although the target isn't under the myling's control, it takes the myling's requests or actions in the most favorable way it can. Each time the myling or the myling's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the myling is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.</text>
+		</action>
+		<action>
+			<name>Possession (Recharge 5-6)</name>
+			<text>One child humanoid that the myling can see within 5 feet of it must succeed on a DC 16 Charisma saving throw or be possessed by the myling; the myling then disappears, and the target is incapacitated and loses control of its body.</text>
+			<text>The myling now controls the body but doesn't deprive the target of awareness. The myling can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence,</text>
+			<text>Wisdom, Charisma, and immunity to being charmed. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.</text>
+			<text>The possession lasts until the body drops to 0 hit points, the myling ends it as a bonus action, or the myling is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the myling reappears in an unoccupied space within 5 feet of the body. The target is immune to this myling's Possession for 24 hours after succeeding on the saving throw or after the possession ends.</text>
+		</action>
+		<trait>
+			<name>Ephemeral</name>
+			<text>The myling can’t wear or carry anything.</text>
+		</trait>
+		<trait>
+			<name>Incorporeal Movement</name>
+			<text>The myling can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</text>
+		</trait>
+		<trait>
+			<name>Invisibility</name>
+			<text>The myling is invisible. Humanoid children can see the myling.</text>
+		</trait>
+	</monster>
+<monster>
+	<name>Bloated Zombie</name>
+	<size>M</size>
+	<type>undead, Book of Beautiful Horrors</type>
+	<alignment>neutral evil</alignment>
+	<ac>10</ac>
+	<hp>53 (7d8+21)</hp>
+	<speed>30</speed>
+	<str>16</str><dex>10</dex><con>16</con><int>3</int><wis>10</wis><cha>6</cha>
+	<save></save>
+	<skill></skill>
+	<resist></resist>
+	<vulnerable></vulnerable>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60ft.</senses>
+	<passive>10</passive>
+	<languages>understands the languages it knew in life but can't speak</languages>
+	<cr>3</cr>
+	<trait>
+		<name>Death Burst</name>
+		<text>When the zombie is destroyed, it explodes in a burst of acid and guts. Each creature within 10 feet of it must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage plus 7 (2d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+	</trait>
+	<trait>	
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+	</trait>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +5 to hit, reach 5ft., one target. Hit: 7 (1d6 + 3) piercing damage plus 7 (2d6) acid damage.</text>
+		<attack>Bite|5|1d6+3+2d6</attack>
+	</action>
+	<action>	
+		<name>Spew Bile (recharge 5-6)</name>
+		<text>The zombie spews bile in 15-foot line. Each creature in that line must make a DC 12 Constitution saving throw, taking 10 (3d6) acid damage plus 10 (3d6) necrotic damage on a failed save, or half as much damage on a successful one.</text>
+		<attack>Spew Bile|0|3d6+3d6</attack>
+	</action>
+</monster>
+
+<monster>
+	<name>Feral Zombie</name>
+	<size>M</size>
+	<type>undead, Book of Beautiful Horrors</type>
+	<alignment>neutral evil</alignment>
+	<ac>12</ac>
+	<hp>22 (3d8+9)</hp>
+	<speed>30</speed>
+	<str>12</str><dex>14</dex><con>16</con><int>3</int><wis>7</wis><cha>6</cha>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60ft.</senses>
+	<passive>8</passive>
+	<languages>understands the languages it knew in life but can't speak</languages>
+	<cr>1/2</cr>
+	<trait>
+		<name>Aggressive</name>
+		<text>As a bonus action, the zombie can move up to half its speed toward a hostile creature it can see.</text>
+	</trait>
+	<trait>
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+	</trait>
+	<action>
+		<name>Ravage</name>
+		<text>Melee Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+		<attack>Ravage|4|1d6+2</attack>
+	</action>
+</monster>
+<monster>
+	<name>Horde of Zombies</name>
+	<size>H</size>
+	<type>swarm of medium undead, Book of Beautiful Horrors</type>
+	<alignment>neutral evil</alignment>
+	<ac>8</ac>
+	<hp>66 (12d6+24)</hp>
+	<speed>30</speed>
+	<str>18</str><dex>6</dex><con>14</con><int>5</int><wis>8</wis><cha>4</cha>
+	<resist>bludgeoning, piercing, slashing</resist>
+	<vulnerable></vulnerable>
+	<immune>poison</immune>
+	<conditionImmune>poisoned, charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionImmune>
+	<senses>darkvision 60ft.</senses>
+	<passive>9</passive>
+	<languages>understands the langauges it knew in life but can't speak</languages>
+	<cr>1/2</cr>
+	<trait>
+		<name>Plagued</name>
+		<text>When the swarm hits with an attack, it deals an extra 10 (3d6) necrotic damage (included in the attack).</text>
+	</trait>
+	<trait>
+		<name>Swarm</name>
+		<text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium humanoid. The swarm can't regain hit points or gain temporary hit points.</text>
+	</trait>
+	<trait>	
+		<name>Undead Swarm Fortitude</name>
+		<text>The swarm fights at full strength until it is completely destroyed.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The zombie makes two unarmed strike attacks and one bite attack.</text>
+	</action>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) necrotic damage.</text>
+		<attack>Bite|7|2d8+4</attack>
+	</action>
+	<action>
+		<name>Gnaw and Claw</name>
+		<text>Melee Weapon Attack: +6 to hit, reach 0ft., one target in the swarm’s space. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage, and the target must succeed a DC 12 Constitution saving throw or become poisoned until the end of their next turn.</text>
+		<attack>Gnaw and Claw|6|1d6+4+3d6</attack>
+	</action>
+	<action>
+		<name>Pull Under</name>
+		<text>The horde attempts to envelope a creature within its space. The target must succeed on a DC 12 Strength saving throw or be knocked prone and considered grappled (escape DC 12) as they are pinned to the ground under a  sea of zombies. This ability can only be used if the horde is above half of its maximum hit points.</text>
+	</action>
+</monster>
+<monster>
+	<name>Ravenous Zombie</name>
+	<size>M</size>
+	<type>undead, Book of Beautiful Horrors</type>
+	<alignment>neutral evil</alignment>
+	<ac>12</ac>
+	<hp>85 (10d8+40)</hp>
+	<speed>30</speed>
+	<str>18</str><dex>14</dex><con>18</con><int>5</int><wis>14</wis><cha>8</cha>
+	<save>Con +7</save>
+	<skill>Perception +5, Stealth +5</skill>
+	<immune>poison</immune>
+	<conditionImmune>poisoned</conditionImmune>
+	<senses>darkvision 60ft.</senses>
+	<passive>15</passive>
+	<languages>understands the langauges it knew in life but can't speak</languages>
+	<cr>5</cr>
+	<trait>
+		<name>Blood Frenzy</name>
+		<text>The zombie has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+	</trait>
+	<trait>
+		<name>Hearld of Decay</name>
+		<text>All food and liquid within 60 feet of the zombie spoils instantly. Rations turn bad, meat rots, bread becomes stale and water becomes unsafe to drink. Small nonmagical plants wither and die, while trees become sick and start to rot. Perishables protected by air-sealed containers are unaffected.</text>
+	</trait>
+	<trait>
+		<name>Undead Fortitude</name>
+		<text>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</text>
+	</trait>
+	<trait>
+		<name>Voracious Aura</name>
+		<text>Any living creature that starts its turn within 20 feet of the zombie or enters the affected area for the first time on a turn must succeed a DC 14 Constitution saving throw. On a failed save, the target's hit point maximum is reduced by 7 (2d6), and the zombie regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</text>
+	</trait>
+	<action>
+		<name>Multiattack</name>
+		<text>The zombie makes two unarmed strike attacks and one bite attack.</text>
+	</action>
+	<action>
+		<name>Bite</name>
+		<text>Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) necrotic damage.</text>
+		<attack>Bite|7|2d8+4+2d6</attack>
+	</action>
+	<action>
+		<name>Unarmed Strike</name>
+		<text>Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage. Instead of dealing damage, the zombie can grapple the target (escape DC 14).</text>
+		<attack>Unarmed Strike|7|1d6+4</attack>
+	</action>
+	<action>
+		<name>Devour</name>
+		<text>Melee Weapon Attack: +7 to hit, reach 5ft., one creature that is grappled by the zombie, incapacitated or restrained. Hit: 22 (4d8 + 4) piercing damage. A creature taking damage from the attack suffers from a Lingering Injury (See p.272 of the Dungeon Master's Guide).</text>
+		<attack>Devour|7|4d8+4</attack>
+	</action>
+</monster>
+</Compendium>
