@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<baseclass>
+		<name>Paladin</name>
+		<hd>10</hd>
+		<proficiency>Wisdom, Charisma, Athletics, Insight, Intimidation, Medicine, Persuasion, Religion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, heavy armor, shields</armor>
+		<weapons>simple weapons, martial weapons</weapons>
+		<tools>none</tools>
+		<wealth>5d4x10</wealth>
+		<spellAbility>Charisma</spellAbility>
+		<autolevel level="1">
+			<slots>0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>0,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>0,3,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>0,3,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>0,4,2,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>0,4,2,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>0,4,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>0,4,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>0,4,3,2,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>0,4,3,2,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>0,4,3,3,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>0,4,3,3,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>0,4,3,3,1,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>0,4,3,3,1,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>0,4,3,3,2,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>0,4,3,3,2,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>0,4,3,3,3,1</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>0,4,3,3,3,1</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>0,4,3,3,3,2</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>0,4,3,3,3,2</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: light armor, medium armor, heavy armor, shields</text>
+				<text>Weapons: simple weapons, martial weapons</text>
+				<text>Tools: none</text>
+				<text>Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.</text>
+				<text/>
+				<text>• (a) a martial weapon and a shield or (b) two martial weapons</text>
+				<text>• (a) five javelins or (b) any simple melee weapon</text>
+				<text>• (a) a priest's pack or (b) an explorer's pack</text>
+				<text>• Chain mail and a holy symbol</text>
+				<text/>
+				<text>Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Divine Sense</name>
+				<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</text>
+				<text>	You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+			</feature>
+			<feature>
+				<name>Lay on Hands</name>
+				<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</text>
+				<text>	As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</text>
+				<text>	Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</text>
+				<text>	This feature has no effect on undead and constructs.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Divine Smite</name>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Close Quarters Shooter</name>
+				<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Defense</name>
+				<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+				<special>Fighting Style: Defense</special>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<special>Fighting Style: Dueling</special>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Mariner</name>
+				<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Protection</name>
+				<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Fighting Style: Tunnel Fighter</name>
+				<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
+			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</text>
+				<text/>
+				<text>Preparing and Casting Spells</text>
+				<text>The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>	For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
+				<text>	You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</text>
+				<text/>
+				<text>Spellcasting Ability</text>
+				<text>Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + your Charisma modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + your Charisma modifier</text>
+				<text/>
+				<text>Spellcasting Focus</text>
+				<text>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Divine Health</name>
+				<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+			</feature>
+			<feature>
+				<name>Sacred Oath</name>
+				<text>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, the Oath of the Crown, or the Oath of Vengeance, all detailed at the end of the class description.</text>
+				<text>	Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature>
+				<name>Aura of Protection</name>
+				<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</text>
+				<text>	At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Aura of Courage</name>
+				<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</text>
+				<text>	At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Improved Divine Smite</name>
+				<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="14">
+			<feature>
+				<name>Cleansing Touch</name>
+				<text>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.</text>
+				<text>	You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Aura of Protection Improvement</name>
+				<text>At 18th level, the range of your Aura of Protection increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<!-- Archetype features -->
+		</autolevel>
+	</baseclass>
+</compendium>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Grave)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Grave</name>
+				<text>Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse's workings. To resist death, or to desecrate the dead's rest, is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. These deities teach their followers to respect the dead and pay them due homage. Followers of these deities seek to put restless spirits to rest, destroy the undead wherever they find them, and ease the suffering of dying creatures. Their magic also allows them to stave off a creature's death, though they refuse to use such magic to extend a creature's lifespan beyond its mortal limits.</text>
+				<text/>
+				<text>Grave Domain Spells</text>
+				<text>1st - bane, false life</text>
+				<text>3rd - gentle repose, ray of enfeeblement</text>
+				<text>5th - revivify, vampiric touch</text>
+				<text>7th - blight, death ward</text>
+				<text>9th - antilife shell, raise dead</text>
+			</feature>
+			<feature optional="YES">
+				<name>Grave Domain: Circle of Mortality</name>
+				<text>At 1st level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.</text>
+				<text>	In addition, you learn the Spare the Dying cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Grave Domain: Eyes of the Grave</name>
+				<text>At 1st level, you gain the ability to occasionally sense the presence of the undead, whose existence is an insult to the natural cycle of life. As an action, you can open your awareness to magically detect undead. Until the end of your next turn, you know the location of any undead within 60 feet of you that isn't behind total cover and that isn't protected from divination magic. This sense doesn't tell you anything about a creature's capabilities or identity.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Grave Domain Channel Divinity: Path to the Grave</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to mark another creature's life force for termination.</text>
+				<text>	As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Grave Domain: Sentinel at Death's Door</name>
+				<text>At 6th level, you gain the ability to impede death's progress. As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Grave Domain: Potent Spellcasting</name>
+				<text>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Grave Domain: Keeper of Souls</name>
+				<text>At 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 30 feet of you, you or one ally of your choice that is within 30 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't incapacitated. Once you use it, you can't do so again until the start of your next turn.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Grave)">
+		<index name="Spare the Dying"/>
+		<index name="Bane"/>
+		<index name="False Life"/>
+		<index name="Gentle Repose"/>
+		<index name="Ray of Enfeeblement"/>
+		<index name="Revivify"/>
+		<index name="Vampiric Touch"/>
+		<index name="Blight"/>
+		<index name="Death Ward"/>
+		<index name="Antilife Shell"/>
+		<index name="Raise Dead"/>
+	</spellList>
+</compendium>

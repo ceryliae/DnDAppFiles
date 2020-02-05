@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>3975</uid>
+		<name>Half-Orc Paladin</name>
+		<race>
+			<source>1</source>
+			<name>Half-Orc</name>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.</text>
+			</feat>
+			<feat>
+				<name>Darkvision</name>
+				<text>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Menacing</name>
+				<text>You gain proficiency in the Intimidation skill.</text>
+				<proficiency>107</proficiency>
+			</feat>
+			<feat>
+				<name>Relentless Endurance</name>
+				<text>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</text>
+			</feat>
+			<feat>
+				<name>Savage Attacks</name>
+				<text>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>2</type>
+				<value>1</value>
+			</mod>
+		</race>
+		<class>
+			<source>1</source>
+			<id>3911</id>
+			<name>Paladin</name>
+			<level>4</level>
+			<hd>3</hd>
+			<hdCurrent>4</hdCurrent>
+			<wealth>5d4x10</wealth>
+			<proficiency>4</proficiency>
+			<proficiency>114</proficiency>
+			<proficiency>101</proficiency>
+			<proficiency>5</proficiency>
+			<proficiency>111</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>All armor, shields</armor>
+			<weapons>Simple weapons, martial weapons</weapons>
+			<tools>Flute</tools>
+			<slots>0,3,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,3,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Divine Sense</name>
+				<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
+    You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+			</feat>
+			<feat>
+				<name>Lay on Hands</name>
+				<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.
+    As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+    Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.
+    This feature has no effect on undead and constructs.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Fighting Style: Great Weapon Fighting</name>
+				<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+			</feat>
+			<feat>
+				<name>Divine Smite</name>
+				<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+			</feat>
+			<feat>
+				<name>Divine Health</name>
+				<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+			</feat>
+			<feat>
+				<name>Sacred Oath</name>
+				<text>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, the Oath of the Crown, or the Oath of Vengeance, all detailed at the end of the c1ass description.
+	Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Sacred Oath: Oath of Vengeance</name>
+				<text>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins - sometimes called avengers or dark knights - their own purity is not as important as delivering justice.
+
+Tenets of Vengeance: The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.
+	Fight the Greater Evil. Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil.
+	No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.
+	By Any Means Necessary. My qualms can't get in the way of exterminating my foes.
+	Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Oath of Vengeance Channel Divinity: Abjure Enemy</name>
+				<text>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+	On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.
+	On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Oath of Vengeance Channel Divinity: Vow of Enmity</name>
+				<text>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Oath of Vengeance: Oath Spells</name>
+				<text>You gain oath spells at the paladin levels listed.
+
+3rd - bane, hunter's mark
+
+5th - hold person, misty step
+
+9th - haste, protection from energy
+
+13th - banishment, dimension door
+
+17th - hold monster, scrying</text>
+			</feat>
+			<feat>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Divine Sense</name>
+					<text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
+    You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</text>
+				</feat>
+				<feat>
+					<name>Lay on Hands</name>
+					<text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.
+    As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+    Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.
+    This feature has no effect on undead and constructs.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+					<special>1</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+					<special>2</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Great Weapon Fighting</name>
+					<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Protection</name>
+					<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+				</feat>
+				<feat>
+					<name>Divine Smite</name>
+					<text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>0,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Divine Health</name>
+					<text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Oath of Devotion: Tenets of Devotion</name>
+					<text>Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.
+    Honesty. Don't lie or cheat. Let your word be your promise.
+    Courage. Never fear to act, though caution is wise.
+    Compassion. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
+    Honor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
+    Duty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Oath of Devotion Channel Divinity: Sacred Weapon</name>
+					<text>As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
+    You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Oath of Devotion Channel Divinity: Turn the Unholy</name>
+					<text>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,3,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>0,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>0,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Aura of Protection</name>
+					<text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.
+    At 18th level, the range of this aura increases to 30 feet.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>0,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Oath of Devotion: Aura of Devotion</name>
+					<text>Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.
+    At 18th level, the range of this aura increases to 30 feet.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>0,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>0,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Aura of Courage</name>
+					<text>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.
+    At 18th level, the range of this aura increases to 30 feet.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>0,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Improved Divine Smite</name>
+					<text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,4,3,3,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>0,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>0,4,3,3,1,0,0,0,0,0,</slots>
+				<feat>
+					<name>Cleansing Touch</name>
+					<text>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.
+    You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>0,4,3,3,2,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Oath of Devotion: Purity of Spirit</name>
+					<text>Beginning at 15th level, you are always under the effects of a protection from evil and good spell.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,4,3,3,2,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>0,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>0,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>0,4,3,3,3,2,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>0,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Oath of Devotion: Holy Nimbus</name>
+					<text>At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.
+    Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
+    In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.
+    Once you use this feature, you can't use it again until you finish a long rest.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>5</spellAbility>
+			<spell>
+				<name>Hunter's Mark</name>
+				<school>3</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>90 feet</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 hour</duration>
+				<text>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
+
+At Higher Levels: When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.</text>
+				<prepared>1</prepared>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Detect Magic</name>
+				<school>3</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.
+
+The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Detect Poison and Disease</name>
+				<school>3</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a yew leaf</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.
+
+The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Ceremony</name>
+				<school>1</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 hour</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>25 gp worth of powdered silver, which the spell consumes</materials>
+				<duration>Instantaneous </duration>
+				<text>You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.
+
+Atonement. You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment
+
+Bless Water. You touch one vial of water and cause it to become holy water.
+
+Coming of Age. You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this rite only once.
+
+Dedication. You touch one humanoid who wishes to be dedicated to your god's service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this rite only once.
+
+Funeral Rite. You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a wish spell.
+
+Wedding. You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed.
+
+This spell can be found in Xanathar's Guide to Everything</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Shield of Faith</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a small parchment with a bit of holy text written on it</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Command</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>1 round</duration>
+				<text>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.
+
+Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.
+
+Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.
+
+Drop: The target drops whatever it is holding and then ends its turn.
+
+Flee: The target spends its turn moving away from you by the fastest available means.
+
+Grovel: The target falls prone and then ends its turn.
+
+Halt: The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Compelled Duel</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you, if it succeeds on this saving throw, this spell doesn't restrict the target's movement for that turn.
+
+The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.</text>
+				<prepared>1</prepared>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Divine Favor</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit.</text>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Bless</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a sprinkling of holy water</materials>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<prepared>1</prepared>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Protection from Evil and Good</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>holy water or powdered silver and iron, which the spell consumes</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>Until the spell ends, one willing creature you touch is protected against certain types of creatures - aberrations, celestials, elementals, fey, fiends, and undead.
+
+The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Bane</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a drop of blood</materials>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<prepared>1</prepared>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+			</spell>
+			<spell>
+				<name>Cure Wounds</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</text>
+				<roll>1d8+%0</roll>
+				<sclass>Artificer</sclass>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Heroism</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<prepared>1</prepared>
+				<sclass>Bard</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Detect Evil and Good</name>
+				<school>3</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Heroism</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<sclass>Bard</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Purify Food and Drink</name>
+				<school>8</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 action</time>
+				<range>10 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.</text>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Thunderous Smite</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>Self</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>The first time you hit with a melee weapon attack during this spell's duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.</text>
+				<roll>2d6</roll>
+				<prepared>1</prepared>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Wrathful Smite</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.</text>
+				<prepared>1</prepared>
+				<sclass>Paladin</sclass>
+			</spell>
+			<spell>
+				<name>Searing Smite</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>Self</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spell ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot above the 1st.</text>
+				<roll>1d6</roll>
+				<sclass>Paladin</sclass>
+			</spell>
+			<filter>1</filter>
+		</class>
+		<background>
+			<id>3950</id>
+			<name>Outlander</name>
+			<align>Chaotic good</align>
+			<personality>You feel far more comfortable around animals than people</personality>
+			<ideals>You are driven to earn glory in battle</ideals>
+			<bonds>You have sworn to bring terrible wrath on evildoers</bonds>
+			<flaws>Violence is your answer to almost any challenge</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Athletics, Survival</text>
+				<proficiency>103</proficiency>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>One type of musical instrument</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>One of your choice</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Wanderer</name>
+				<text>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</text>
+			</feat>
+			<proficiency>117</proficiency>
+			<proficiency>103</proficiency>
+		</background>
+		<xp>2700</xp>
+		<unarmed>1</unarmed>
+		<abilities>15,10,13,8,12,16,</abilities>
+		<hpMax>36</hpMax>
+		<hpCurrent>36</hpCurrent>
+		<item>
+			<name>Halberd</name>
+			<text>Reach: This weapon adds 5 feet to your reach when you attack with it.
+
+Two-Handed: This weapon requires two hands to use.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>3</slot>
+			<value>20.0</value>
+			<weight>6.0</weight>
+			<damage1H>1d10</damage1H>
+			<damageType>3</damageType>
+			<weaponProperty>292</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Spear</name>
+			<text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<value>1.0</value>
+			<weight>3.0</weight>
+			<damage1H>1d6</damage1H>
+			<damage2H>1d8</damage2H>
+			<damageType>2</damageType>
+			<weaponProperty>640</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Maul</name>
+			<text>Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.
+
+Two-Handed: This weapon requires two hands to use.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<value>10.0</value>
+			<weight>10.0</weight>
+			<damage1H>2d6</damage1H>
+			<damageType>1</damageType>
+			<weaponProperty>260</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Quarterstaff</name>
+			<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<value>2.0</value>
+			<weight>4.0</weight>
+			<damage1H>1d6</damage1H>
+			<damage2H>1d8</damage2H>
+			<damageType>1</damageType>
+			<weaponProperty>512</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Chain mail</name>
+			<type>3</type>
+			<slot>5</slot>
+			<value>75.0</value>
+			<weight>55.0</weight>
+			<ac>16</ac>
+			<strength>13</strength>
+			<stealth>1</stealth>
+		</item>
+		<item>
+			<name>Flute crafted from an orc's shinbone</name>
+		</item>
+		<item>
+			<name>Holy Symbol (Amulet)</name>
+			<text>A holy symbol is a representation of a god or pantheon
+
+A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+
+Source: Player's Handbook, page 151</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Traveler's Clothes</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>2.0</value>
+			<weight>4.0</weight>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Chunk of meat</name>
+			<quantity>5</quantity>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>10</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<container>
+			<label>Explorer's Pack</label>
+			<name>Backpack</name>
+			<value>10.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Bedroll</name>
+				<weight>7.0</weight>
+			</item>
+			<item>
+				<name>Mess kit</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Tinderbox</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Torch</name>
+				<quantity>10</quantity>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>10</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Rope, hempen (50 feet)</name>
+				<weight>10.0</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Giant, Orc</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>"I might not be lovely to look upon, but glory blazes in my eyes and in my blade."
+
+Fury and resentment lie always just below the surface of your gleaming armor. For each wrong done you, you have sworn vengeance against those who would bring misery to the helpless.
+	You are used to traveling on your own meting out punishment on your term wherever you find injustice. But recently you discovered other much like yourself, wanderers who fight monsters and defeat evildoers. True, they seem to be in it mostly for the money, but you welcome the companionship-for however long it lasts.</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Order of the Gauntlet, an organization dedicated to smiling evil wherever it lurks and without hesitation.</text>
+		</note>
+		<monster>
+			<src>1</src>
+			<name>Mastiff</name>
+			<type>beast</type>
+			<alignment>unaligned</alignment>
+			<ac>12</ac>
+			<abilities>13,14,12,3,12,7,</abilities>
+			<hpMax>5</hpMax>
+			<hpCurrent>5</hpCurrent>
+			<hd>1d8</hd>
+			<speed>40 ft.</speed>
+			<skill>
+				<id>11</id>
+				<modifier>3</modifier>
+			</skill>
+			<passive>13</passive>
+			<cr>-2</cr>
+			<environment>1064</environment>
+			<trait>
+				<name>Keen Hearing and Smell</name>
+				<text>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+			</trait>
+			<action>
+				<name>Bite</name>
+				<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+				<attack>
+					<name>Bite</name>
+					<attackBonus>3</attackBonus>
+					<damage>1d6+1</damage>
+				</attack>
+			</action>
+		</monster>
+	</character>
+</pc>

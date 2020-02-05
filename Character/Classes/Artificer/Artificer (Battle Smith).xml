@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Artificer">
+	<subclass baseclass="Artificer (UA)">
+		<name>Artificer (Battle Smith)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Artificer Specialist: Battle Smith (UA)</name>
+				<text>Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both materiel and personnel. To aid in their work, Battle Smiths are usually accompanied by an iron defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and an iron defender.</text>
+				<text>	Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Battle Smith: Tools of the Trade</name>
+				<text>By the time you adopt this specialty at 3rd level, you're deeply familiar with employing its tools.</text>
+				<text>	Proficiencies. You gain proficiency with leatherworker's tools and smith's tools, assuming you don't already have them. You also gain leatherworker's tools and smith's tools for free—the result of tinkering you've done as you've prepared for this specialization.</text>
+				<text>	Crafting. If you craft a magic item in the armor category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Battle Smith: Battle Smith Spells</name>
+				<text>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</text>
+				<text/>
+				<text>Battle Smith Spells</text>
+				<text>Artificer Level    Spell</text>
+				<text>3rd                heroism, searing smite</text>
+				<text>5th                branding smite, warding bond</text>
+				<text>9th                aura of vitality, blinding smite</text>
+				<text>13th               aura of purity, staggering smite</text>
+				<text>17th               banishing smite, mass cure wounds</text>
+			</feature>
+			<feature optional="YES">
+				<name>Battle Smith: Battle Ready</name>
+				<text>When you reach 3rd level, your combat training and your experiments with magic and have paid off in two ways:</text>
+				<text>• You gain proficiency with martial weapons.</text>
+				<text>• When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Battle Smith: Iron Defender</name>
+				<text>By 3rd level, the tinkering in your free time has borne you a faithful companion, an iron defender. This metallic creature resembles a hound, a cougar, a bear, or another four-legged creature of your choice. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the iron defender stat block.</text>
+				<text>	In combat, the iron defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, or Help action.</text>
+				<text>	If the mending spell is cast on it, it regains 2d6hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The iron defender returns to life after 1 minute with all its hit points restored.</text>
+				<text>	At the end of a long rest, you can create a new iron defender if you have your smith's tools with you. If you already have an iron defender from this feature, the first one immediately perishes.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Battle Smith: Arcane Jolt</name>
+				<text>At 6th level, you learn new ways to channel arcane energy through your weapon attacks and your iron defender.</text>
+				<text>	First, your iron defender's bite attack is now considered magical for the purposes of bypassing resistances and immunities, thanks to enhancements you've made to the creature in your free time.</text>
+				<text>	Second, when you or your iron defender hits a target with a magic weapon attack, you can channel magical energy through the strike to create one of the following effects:</text>
+				<text>• The target takes an extra 2d4 force damage.</text>
+				<text>• Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d4 hit points to it.</text>
+				<text>You can channel this magical energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses of this feature when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Battle Smith: Improved Defender</name>
+				<text>At 14th level, your Arcane Jolt and iron defender become more powerful:</text>
+				<text>• The extra damage and the healing of your Arcane Jolt both increase to 4d4.</text>
+				<text>• Whenever your iron defender uses its Defensive Pounce, the attacker takes force damage equal to 1d4 + your Intelligence modifier.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Artificer (Battle Smith)">
+		<index name="Heroism"/>
+		<index name="Searing Smite"/>
+		<index name="Branding Smite"/>
+		<index name="Warding Bond"/>
+		<index name="Aura of Vitality"/>
+		<index name="Blinding Smite"/>
+		<index name="Aura of Purity"/>
+		<index name="Staggering Smite"/>
+		<index name="Banishing Smite"/>
+		<index name="Mass Cure Wounds"/>
+	</spellList>
+	<monster>
+		<name>Iron Defender</name>
+		<size>M</size>
+		<type>construct</type>
+		<description>Source: Unearthed Arcana: Artificer Revisited</description>
+		<alignment>Neutral</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>	equal to five times your level in this class + your Intelligence modifier + the iron defender's Constitution modifier</hp>
+		<speed>40 ft.</speed>
+		<str>14</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>6</cha>
+		<skill>Perception +4</skill>
+		<immune>poison</immune>
+		<conditionImmune>charmed, exhaustion, poisoned</conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>understands the languages you speak</languages>
+		<trait>
+			<name>Might of the Master</name>
+			<text>The following numbers increase by 1 when your proficiency bonus increases by 1: the iron defender's skill bonuses, the bonuses to hit and damage of its bite, and the number of hit points restored by its Repair action.</text>
+		</trait>
+		<trait>
+			<name>Vigilant</name>
+			<text>The iron defender can't be surprised.</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 piercing damage.</text>
+			<attack>Bite|4|1d8+2</attack>
+		</action>
+		<action>
+			<name>Repair (3/Day)</name>
+			<text>The magical mechanisms inside the iron defender restore 2d8 + 2 hit points to itself or to one construct or object within 5 feet of it.</text>
+			<attack>Repair||2d8+2</attack>
+		</action>
+		<reaction>
+			<name>Defensive Pounce</name>
+			<text>The iron defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the iron defender.</text>
+		</reaction>
+	</monster>
+</compendium>

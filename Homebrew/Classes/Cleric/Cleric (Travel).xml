@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Travel)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Travel</name>
+				<text>The great civilizations of the world are scattered far and wide from one another, and it is the greatest gift of the gods of travel to connect those civilizations with safe journeys. Gods who bestow the gifts of the Travel domain upon their clergy concern themselves not just with making haste, but also with finding shelter, leaving no trail, and letting no obstacle stand in the way of the journey. While the blessings of the Travel domain certainly allow its clerics to make long, arduous journeys safer and shorter, the gods of travel also help their followers move quicker in the heat of combat. When a traveler is waylaid by highwaymen, the clerics of the Travel domain not only protect the devout traveler, but also give them the ability to flee more easily, or get into a position to turn the tables on their assailants.</text>
+				<text/>
+				<text>Travel Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.</text>
+				<text/>
+				<text>1st - expeditious retreat, longstrider</text>
+				<text/>
+				<text>3rd - pass without trace, rope trick</text>
+				<text/>
+				<text>5th - tiny hut, water walk</text>
+				<text/>
+				<text>7th - dimension door, freedom of movement</text>
+				<text/>
+				<text>9th - teleportation circle, tree stride</text>
+			</feature>
+			<feature optional="YES">
+				<name>Travel Domain: Shift</name>
+				<text>Starting when you choose this domain at 1st level, as a bonus action you can move up to 10 feet. This movement does not provoke opportunity attacks.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Travel Domain: Far Strider</name>
+				<text>Also starting at 1st level, you and up to 6 companions, along with one mount for each companion, do not su er levels of exhaustion for traveling for more than 8 hours each day. Additionally, while doing nothing but traveling, you, your companions, and your mounts do not need to sleep, and you can travel at a fast pace without taking a penalty to passive Wisdom (Perception) checks because of that speed.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Travel Domain Channel Divinity: Provident Fleetness</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to allow your companions to swiftly move into a place of safety (or dash to the front lines of battle) before your enemies have a chance to react.</text>
+				<text>	As an action, you present your holy symbol, and invoke the divine power of your god of travel to allow any creature you choose that you can see and is within 30 feet of you to use its reaction to move up to its speed, plus an additional 30 feet, if it is free to do so. Additionally, this movement does not provoke opportunity attacks.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Travel Domain: Vanishing Step</name>
+				<text>Beginning at 6th level, you can use your Channel Divinity to move so quickly that your enemies barely have time to register that you are gone.</text>
+				<text>	When a creature misses you with a melee attack, you can use your Channel Divinity as a reaction to teleport up to 30 feet away to an unoccupied space that you can see. If you teleport to a space that is within 5 feet of the creature that missed you with the melee attack, as a part of your reaction you can make a melee attack against that creature with advantage on the attack roll.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Travel Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage to the target. The extra damage is of the same type normally dealt by the weapon. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Travel Domain: Untouchable Stride</name>
+				<text>Starting at 17th level, you do not provoke opportunity attacks by moving.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Travel)">
+		<index name="Expeditious Retreat"/>
+		<index name="Longstrider"/>
+		<index name="Pass without Trace"/>
+		<index name="Rope Trick"/>
+		<index name="Tiny Hut"/>
+		<index name="Water Walk"/>
+		<index name="Dimension Door"/>
+		<index name="Freedom of Movement"/>
+		<index name="Teleportation Circle"/>
+		<index name="Tree Stride"/>
+	</spellList>
+</compendium>

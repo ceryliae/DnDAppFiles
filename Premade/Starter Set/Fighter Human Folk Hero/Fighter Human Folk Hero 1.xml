@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>3705</uid>
+		<name>Fighter Human Folk Hero</name>
+		<race>
+			<source>1</source>
+			<name>Human</name>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>2</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>3</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>4</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>1</value>
+			</mod>
+		</race>
+		<class>
+			<source>1</source>
+			<id>3697</id>
+			<name>Fighter</name>
+			<hd>3</hd>
+			<wealth>5d4x10</wealth>
+			<proficiency>2</proficiency>
+			<proficiency>105</proficiency>
+			<proficiency>111</proficiency>
+			<proficiency>0</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>All armor, shields</armor>
+			<weapons>Simple weapons, martial weapons</weapons>
+			<tools>None</tools>
+			<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<optional>1</optional>
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				<special>0</special>
+			</feat>
+			<feat>
+				<name>Second Wind</name>
+				<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+    Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Archery</name>
+					<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+					<special>0</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+					<special>1</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+					<special>2</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Great Weapon Fighting</name>
+					<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Protection</name>
+					<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. </text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Two-Weapon Fighting</name>
+					<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+					<special>2</special>
+				</feat>
+				<feat>
+					<name>Second Wind</name>
+					<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+    Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge</name>
+					<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+    Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Champion: Improved Critical</name>
+					<text>Your weapon attacks score a critical hit on a roll of 19 or 20.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+    The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Champion: Remarkable Athlete</name>
+					<text>You can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
+    In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable</name>
+					<text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.
+    You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Champion: Additional Fighting Style</name>
+					<text>You can choose a second option from the Fighting Style class feature.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Champion: Superior Critical</name>
+					<text>Your weapon attacks score a critical hit on a roll of 18-20.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Champion: Survivor</name>
+					<text>You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<spellAbility>4</spellAbility>
+		</class>
+		<background>
+			<name>Folk Hero</name>
+			<align>Lawful Good</align>
+			<personality>When I set my mind to something, I follow through. Also, I use long words in an attempt to sounds smarter.</personality>
+			<ideals>Sincerity. It's no good pretending to be something I'm not.</ideals>
+			<bonds>One day, Thundertree will be a prosperous town again. A statue of me will stand in the town square.</bonds>
+			<flaws>I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Animal Handling, Survival</text>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>One type of artisan's tools, vehicles (land)</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A set of artisan's tools (one of your choice), a shovel, an iron pot, a set of common clothes, and a belt pouch containing 10 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Rustic Hospitality</name>
+				<text>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</text>
+			</feat>
+			<proficiency>101</proficiency>
+			<proficiency>117</proficiency>
+		</background>
+		<unarmed>1</unarmed>
+		<abilities>13,15,14,10,12,8,</abilities>
+		<hpMax>12</hpMax>
+		<hpCurrent>12</hpCurrent>
+		<item>
+			<source>1</source>
+			<name>Leather Armor</name>
+			<type>1</type>
+			<slot>5</slot>
+			<value>10.0</value>
+			<weight>10.0</weight>
+			<ac>11</ac>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Longbow</name>
+			<type>6</type>
+			<slot>3</slot>
+			<value>50.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d8</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>1285</weaponProperty>
+			<weaponRange>150</weaponRange>
+			<weaponLongRange>600</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Arrows</name>
+			<type>7</type>
+			<quantity>20</quantity>
+			<value>0.05</value>
+			<weight>0.05</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Greatsword</name>
+			<type>5</type>
+			<value>50.0</value>
+			<weight>6.0</weight>
+			<damage1H>2d6</damage1H>
+			<damageType>3</damageType>
+			<weaponProperty>1284</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Backpack</name>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Bedroll</name>
+			<value>1.0</value>
+			<weight>7.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Mess kit</name>
+			<text>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</text>
+			<value>0.2</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Tinderbox</name>
+			<text>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.</text>
+			<value>0.5</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Torch</name>
+			<text>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</text>
+			<quantity>10</quantity>
+			<value>0.01</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Rations (1 day)</name>
+			<text>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</text>
+			<quantity>10</quantity>
+			<value>0.5</value>
+			<weight>2.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Waterskin</name>
+			<value>0.2</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Hempen rope (50 feet)</name>
+			<text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text>
+			<value>1.0</value>
+			<weight>10.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Carpenter's tools</name>
+			<value>7.0</value>
+			<weight>6.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Shovel</name>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Iron pot</name>
+			<value>2.0</value>
+			<weight>10.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Common clothes</name>
+			<value>0.5</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section).</text>
+			<value>0.5</value>
+			<weight>1.0</weight>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>10</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Human</name>
+			<text>Humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. But they are the innovators, the achievers, and the pioneers of the world, the most adaptable and ambitious people among the common races.
+	When humans settle somewhere, they stay. They build cities to last for the ages and great kingdoms that can persist for centuries. They live fully in the present—making them well suited to the adventuring life—but also plan for the future, striving to leave a lasting legacy.
+	Human culture varies by region. In the Forgotten Realms, the clothing, architecture, cuisine, music, and literature in the northwestern lands of Neverwinter are different from their counterparts in distant Turmish or Impiltur to the east. Human physical characteristics vary according to the ancient migrations of the earliest humans, so that the humans of Neverwinter have every possible variation of coloration and features.
+
+Having so much more variety than other cultures, humans have no truly typical names. Some human parents give their children names from other languages, such as Dwarvish or Elvish (pronounced more or less correctly). Traditional names among different human cultures vary widely. You might be Haseid (Calishite), Kerri (Chondathan), Kosef (Damaran), Amafrey (Illuskan), So-Kehur (Mulan), Madislak (Rashemi), Mei (Shou), or Salazar (Turami).</text>
+		</note>
+		<note>
+			<name>Fighter</name>
+			<text>Fighters are the most diverse class of characters in the worlds of Dungeons &amp; Dragons. Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face.</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>Your parents lived in the prosperous village of Thundertree, east of the city of Neverwinter and at the edge of the Neverwinter Wood. But when nearby Mount Hotenow erupted thirty years ago, your parents fled, carrying you in your infancy. Your family drifted from village to village around the region, finding work as servants or laborers where they could.
+	You've spent the last few years in Neverwinter as a porter and laborer at the city's bustling docks. But it's clear to you and everyone around you that you are destined for much more. You stood up to an abusive ship captain once, so other dockworkers look up to you. Someday, you'll come into your own. You'll be a hero.
+
+	Personal Goal: Drive Off the Dragon. The ruins of Thundertree call to you. Your family and their friends once lived in prosperity there, and now they're reduced to menial labor. The ruins are haunted by ash zombies, and rumor has it a dragon has made its lair in the Old Tower, but those are problems a hero can solve. Slay the dragon, or drive it off, and you'll prove—to yourself and everyone else—you're a real hero, destined for greatness.
+
+	Alignment: Lawful Good. A hero stands up to evil and never lets bullies have their way. A hero fights for law and order, so that everyone can live in prosperity and happiness. A hero slays monsters, clears ruins, and protects the innocent. You strive to be such a hero.</text>
+		</note>
+		<note>
+			<name>Languages</name>
+			<text>Common, Elvish</text>
+		</note>
+	</character>
+</pc>

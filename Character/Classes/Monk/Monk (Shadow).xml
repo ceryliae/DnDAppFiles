@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Monk">
+		<name>Monk (Shadow)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Monastic Tradition: Way of Shadow</name>
+				<text>Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Way of Shadow: Shadow Arts</name>
+				<text>You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast darkness, darkvision, pass without trace, or silence, without providing material components. Additionally, you gain the minor illusion cantrip if you don't already know it.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Way of Shadow: Shadow Step</name>
+				<text>You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Way of Shadow: Cloak of Shadows</name>
+				<text>You have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Way of Shadow: Opportunist</name>
+				<text>At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<!--Shadow Monk Spells-->
+	<spell>
+		<name>Darkness (Monk)</name>
+		<level>1</level>
+		<school>EV</school>
+		<time>1 action</time>
+		<range>60 feet</range>
+		<components>2 Ki Points</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.</text>
+		<text/>
+		<text>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</text>
+		<text/>
+		<text>If any of this spell's area overlaps with an area of light created by a spell of or lower, the spell that created the light is dispelled.</text>
+	</spell>
+	<spell>
+		<name>Darkvision (Monk)</name>
+		<level>1</level>
+		<school>T</school>
+		<time>1 action</time>
+		<range>Touch</range>
+		<components>2 Ki Points</components>
+		<duration>8 hours</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.</text>
+	</spell>
+	<spell>
+		<name>Pass without Trace (Monk)</name>
+		<level>1</level>
+		<school>A</school>
+		<time>1 action</time>
+		<range>Self</range>
+		<components>2 Ki Points</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.</text>
+	</spell>
+	<spell>
+		<name>Silence (Monk)</name>
+		<level>1</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>120 feet</range>
+		<components>2 Ki Points</components>
+		<duration>Concentration, up to 10 minutes</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</text>
+	</spell>
+	<spell>
+		<name>Minor Illusion (Monk)</name>
+		<level>0</level>
+		<school>I</school>
+		<time>1 action</time>
+		<range>30 feet</range>
+		<components>S, M</components>
+		<duration>1 Minute</duration>
+		<classes>Monk (Way of Shadow)</classes>
+		<text>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</text>
+		<text/>
+		<text>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</text>
+		<text/>
+		<text>If you create an image of an object, such as a chair, muddy footprints, or a small chest. It must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</text>
+		<text/>
+		<text>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</text>
+	</spell>
+</compendium>

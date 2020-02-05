@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>4083</uid>
+		<name>Wood Elf Ranger</name>
+		<race>
+			<name>Elf (Wood)</name>
+			<speed>35</speed>
+			<feat>
+				<name>Darkvision</name>
+				<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Keen Senses</name>
+				<text>You have proficiency in the Perception skill.</text>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			</feat>
+			<feat>
+				<name>Trance</name>
+				<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+			</feat>
+			<feat>
+				<name>Elf Weapon Training</name>
+				<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+			</feat>
+			<feat>
+				<name>Fleet of Foot</name>
+				<text>Your base walking speed increases to 35 feet.</text>
+			</feat>
+			<feat>
+				<name>Mask of the Wild</name>
+				<text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>4</type>
+				<value>1</value>
+			</mod>
+			<proficiency>111</proficiency>
+		</race>
+		<class>
+			<id>3912</id>
+			<name>Ranger</name>
+			<level>6</level>
+			<hd>3</hd>
+			<hdCurrent>6</hdCurrent>
+			<proficiency>110</proficiency>
+			<proficiency>116</proficiency>
+			<proficiency>1</proficiency>
+			<proficiency>0</proficiency>
+			<proficiency>106</proficiency>
+			<armor>Light, medium</armor>
+			<weapons>Simple weapons, martial weapons</weapons>
+			<tools>Flute</tools>
+			<slots>0,4,2,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,4,2,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</text>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) scale mail or (b) leather armor
+• (a) two shortswords or (b) two simple melee weapons
+• (a) a dungeoneer's pack or (b) an explorer's pack
+• A longbow and a quiver of 20 arrows
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+			</feat>
+			<feat>
+				<name>Favored Enemy</name>
+				<text>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
+	Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.
+	You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+	When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.
+	You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</text>
+			</feat>
+			<feat>
+				<name>Natural Explorer</name>
+				<text>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.
+	While traveling for an hour or more in your favored terrain, you gain the following benefits:
+
+• Difficult terrain doesn't slow your group's travel.
+• Your group can't become lost except by magical means.
+• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
+• If you are traveling alone, you can move stealthily at a normal pace.
+• When you forage, you find twice as much food as you normally would.
+• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
+
+	You choose additional favored terrain types at 6th and 10th level.</text>
+			</feat>
+			<feat>
+				<name>Spellcasting</name>
+				<text>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the ranger spell list. 
+
+Spell Slots
+The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot. 
+
+Spells Known of 1st Level and Higher
+You know two 1st-level spells of your choice from the ranger spell list.
+	You learn an additional ranger spell of your choice at each odd numbered level thereafter. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.
+	Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots. 
+
+Spellcasting Ability
+Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
+	Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+			</feat>
+			<feat>
+				<name>Fighting Style</name>
+				<text>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options: Archery, Defense, Dueling, Mariner, or Two-Weapon Fighting. You can't take a Fighting Style option more than once, even if you later get to choose again.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Fighting Style: Archery</name>
+				<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+			</feat>
+			<feat>
+				<name>Ranger Archetype</name>
+				<text>At 3rd level, you choose an archetype that you strive to emulate: Beast Master, Deep Stalker, or Hunter. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
+			</feat>
+			<feat>
+				<name>Primeval Awareness</name>
+				<text>Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Ranger Conclave: Hunter</name>
+				<text>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Hunter: Hunter's Prey</name>
+				<text>At 3rd level, you gain one of the following features of your choice: Colossus Slayer, Giant Killer, or Horde Breaker.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Hunter's Prey: Colossus Slayer</name>
+				<text>Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.</text>
+			</feat>
+			<feat>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feat>
+			<feat>
+				<name>Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feat>
+			<feat>
+				<name>Additional Favored Terrains</name>
+				<text>You gain an additional favored terrain.</text>
+			</feat>
+			<feat>
+				<name>Additional Favored Enemy</name>
+				<text>You choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) scale mail or (b) leather armor
+• (a) two shortswords or (b) two simple melee weapons
+• (a) a dungeoneer's pack or (b) an explorer's pack
+• A longbow and a quiver of 20 arrows
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Favored Enemy</name>
+					<text>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
+	Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.
+	You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+	When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.
+	You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</text>
+				</feat>
+				<feat>
+					<name>Natural Explorer</name>
+					<text>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.
+	While traveling for an hour or more in your favored terrain, you gain the following benefits:
+
+• Difficult terrain doesn't slow your group's travel.
+• Your group can't become lost except by magical means.
+• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
+• If you are traveling alone, you can move stealthily at a normal pace.
+• When you forage, you find twice as much food as you normally would.
+• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
+
+	You choose additional favored terrain types at 6th and 10th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Spellcasting</name>
+					<text>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the ranger spell list. 
+
+Spell Slots
+The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot. 
+
+Spells Known of 1st Level and Higher
+You know two 1st-level spells of your choice from the ranger spell list.
+	You learn an additional ranger spell of your choice at each odd numbered level thereafter. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.
+	Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots. 
+
+Spellcasting Ability
+Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
+	Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+				</feat>
+				<feat>
+					<name>Fighting Style</name>
+					<text>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options: Archery, Defense, Dueling, Mariner, or Two-Weapon Fighting. You can't take a Fighting Style option more than once, even if you later get to choose again.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Archery</name>
+					<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Two-Weapon Fighting</name>
+					<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Close Quarters Shooter</name>
+					<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.
+
+This Fighting Style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Mariner</name>
+					<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
+
+This Fighting Style is from Unearthed Arcana: Watborne Adventures, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Tunnel Fighter</name>
+					<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>0,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ranger Archetype</name>
+					<text>At 3rd level, you choose an archetype that you strive to emulate: Beast Master, Deep Stalker, or Hunter. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.</text>
+				</feat>
+				<feat>
+					<name>Primeval Awareness</name>
+					<text>Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Ranger Conclave: Hunter</name>
+					<text>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter: Hunter's Prey</name>
+					<text>At 3rd level, you gain one of the following features of your choice: Colossus Slayer, Giant Killer, or Horde Breaker.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter's Prey: Colossus Slayer</name>
+					<text>Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter's Prey: Giant Killer</name>
+					<text>When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter's Prey: Horde Breaker</name>
+					<text>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<slots>0,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>0,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>0,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Additional Favored Terrains</name>
+					<text>You gain an additional favored terrain.</text>
+				</feat>
+				<feat>
+					<name>Additional Favored Enemy</name>
+					<text>You choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>0,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter: Defensive Tactics</name>
+					<text>At 7th level, you gain one of the following features of your choice: Escape the Horde, Multiattack Defense, or Steel Will.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Defensive Tactics: Escape the Horde</name>
+					<text>Opportunity attacks against you are made with disadvantage.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Defensive Tactics: Multiattack Defense</name>
+					<text>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Defensive Tactics: Steel Will</name>
+					<text>You have advantage on saving throws against being frightened.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<slots>0,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+				<feat>
+					<name>Land's Stride</name>
+					<text>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+	In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>0,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>0,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Hide in Plain Sight</name>
+					<text>Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
+	Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</text>
+				</feat>
+				<feat>
+					<name>Additional Favored Terrains</name>
+					<text>You gain an additional favored terrain.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>0,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter: Multiattack</name>
+					<text>At 11th level, you gain one of the following features of your choice: Volley or Whirlwind Attack.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Multiattack: Volley</name>
+					<text>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target. </text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Multiattack: Whirlwind Attack</name>
+					<text>You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<slots>0,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>0,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>0,4,3,3,1,0,0,0,0,0,</slots>
+				<feat>
+					<name>Vanish</name>
+					<text>Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.</text>
+				</feat>
+				<feat>
+					<name>Additional Favored Enemy</name>
+					<text>You choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>0,4,3,3,2,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Hunter: Superior Hunter's Defense</name>
+					<text>At 15th level, you gain one of the following features of your choice: Evasion, Stand Against the Tide, or Uncanny Dodge.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Superior Hunter's Defense: Evasion</name>
+					<text>You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Superior Hunter's Defense: Stand Against the Tide</name>
+					<text>When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice. </text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Superior Hunter's Defense: Uncanny Dodge</name>
+					<text>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<slots>0,4,3,3,2,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>0,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>0,4,3,3,3,1,0,0,0,0,</slots>
+				<feat>
+					<name>Feral Senses</name>
+					<text>At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<slots>0,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>0,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<name>Foe Slayer</name>
+					<text>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>4</spellAbility>
+			<spell>
+				<name>Goodberry</name>
+				<school>8</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a sprig of mistletoe</materials>
+				<duration>Instantaneous</duration>
+				<text>Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.
+
+The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.</text>
+				<sclass>Druid</sclass>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Longstrider</name>
+				<school>8</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a pinch of dirt</materials>
+				<duration>1 hour</duration>
+				<text>You touch a creature. The target's speed increases by 10 feet until the spell ends.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Bard</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Ranger</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Hunter's Mark</name>
+				<school>3</school>
+				<level>1</level>
+				<time>1 bonus action</time>
+				<range>90 feet</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 hour</duration>
+				<text>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
+
+At Higher Levels: When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.</text>
+				<sclass>Ranger</sclass>
+			</spell>
+			<spell>
+				<name>Pass Without Trace</name>
+				<school>1</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>ashes from a burned leaf of mistletoe and a sprig of spruce</materials>
+				<duration>Concentration, up to 1 hour</duration>
+				<text>A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.</text>
+				<sclass>Druid</sclass>
+				<sclass>Ranger</sclass>
+			</spell>
+		</class>
+		<background>
+			<id>3950</id>
+			<name>Outlander</name>
+			<align>Chaotic good</align>
+			<personality>I once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to.</personality>
+			<ideals>Life is like the seasons, in constant change, and we must change with it.</ideals>
+			<bonds>I am the last of my tribe, and it is up to me to ensure their names enter legend.</bonds>
+			<flaws>There's no room for caution in a life lived to the fullest</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Athletics, Survival</text>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>One type of musical instrument</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>One of your choice</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Wanderer</name>
+				<text>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</text>
+			</feat>
+			<proficiency>117</proficiency>
+			<proficiency>103</proficiency>
+		</background>
+		<xp>14000</xp>
+		<unarmed>1</unarmed>
+		<abilities>12,16,13,10,15,8,</abilities>
+		<hpMax>46</hpMax>
+		<hpCurrent>46</hpCurrent>
+		<item>
+			<name>Studded Leather Armor</name>
+			<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
+
+Source: Player's Handbook, page 144</text>
+			<type>1</type>
+			<slot>5</slot>
+			<value>45.0</value>
+			<weight>13.0</weight>
+			<ac>12</ac>
+		</item>
+		<item>
+			<name>Silvered Shortsword</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<value>10.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>10</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Longbow</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.
+
+Heavy: Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Two-Handed: This weapon requires two hands to use.
+
+Source: Player's Handbook, page 149</text>
+			<type>6</type>
+			<value>50.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d8</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>261</weaponProperty>
+			<weaponRange>150</weaponRange>
+			<weaponLongRange>600</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Arrows</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Source: Player's Handbook, page 150</text>
+			<type>7</type>
+			<quantity>60</quantity>
+			<value>5.0</value>
+			<weight>0.05</weight>
+		</item>
+		<item>
+			<name>Hunting Trap</name>
+			<text>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.
+
+Source: Player's Handbook, page 152</text>
+			<value>5.0</value>
+			<weight>25.0</weight>
+		</item>
+		<item>
+			<name>Gold (gp)</name>
+			<type>15</type>
+			<quantity>5</quantity>
+			<value>1.0</value>
+			<weight>0.02</weight>
+		</item>
+		<item>
+			<name>Flute</name>
+			<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.
+
+A bard can use a musical instrument as a spellcasting focus, substituting it for any material component that does not list a cost.
+
+Each type of musical instrument requires a separate proficiency.
+
+Source: Player's Handbook, page 154</text>
+			<value>2.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Silvered Arrows</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Source: Player's Handbook, page 150</text>
+			<type>7</type>
+			<quantity>30</quantity>
+			<value>5.0</value>
+			<weight>0.05</weight>
+		</item>
+		<item>
+			<name>Potion of Healing</name>
+			<text>Rarity: Common
+You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.
+
+Source: Dungeon Master's Guide, page 187</text>
+			<type>12</type>
+			<quantity>2</quantity>
+			<weight>0.5</weight>
+			<magic>1</magic>
+			<roll>2d4+2</roll>
+		</item>
+		<container>
+			<label>Explorer's Pack</label>
+			<name>Backpack</name>
+			<value>10.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Bedroll</name>
+				<weight>7.0</weight>
+			</item>
+			<item>
+				<name>Mess kit</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Tinderbox</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Torch</name>
+				<quantity>10</quantity>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>10</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Rope, hempen (50 feet)</name>
+				<weight>10.0</weight>
+			</item>
+		</container>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>150</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Elvish, Draconic, Orc, giant</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Emerald Enclave, a group dedicated to maintaining the delicate balance between nature and civilization.</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>"Once I choose my prey, I never lose the trail or miss my mark. The hunt is all"
+The last remaining member of your tribe, you are the epitome of the rugged individualist. You know better than to ascribe qualities such as mercy or bounty to the forests of your youth. There are a thousand ways to die in the wilderness, and you have survived through muscle, wits, and will.</text>
+		</note>
+		<note>
+			<name>Favored</name>
+			<text>Enemy: Dragons, giants
+Terrain: Forest, Underdark</text>
+		</note>
+		<monster>
+			<src>1</src>
+			<name>Mastiff</name>
+			<type>beast</type>
+			<alignment>unaligned</alignment>
+			<ac>12</ac>
+			<abilities>13,14,12,3,12,7,</abilities>
+			<hpMax>5</hpMax>
+			<hpCurrent>5</hpCurrent>
+			<hd>1d8</hd>
+			<speed>40 ft.</speed>
+			<skill>
+				<id>11</id>
+				<modifier>3</modifier>
+			</skill>
+			<passive>13</passive>
+			<cr>-2</cr>
+			<environment>1064</environment>
+			<trait>
+				<name>Keen Hearing and Smell</name>
+				<text>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+			</trait>
+			<action>
+				<name>Bite</name>
+				<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+				<attack>
+					<name>Bite</name>
+					<attackBonus>3</attackBonus>
+					<damage>1d6+1</damage>
+				</attack>
+			</action>
+		</monster>
+	</character>
+</pc>

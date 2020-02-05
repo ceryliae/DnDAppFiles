@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<baseclass UA="The Mystic Class">
+		<name>Mystic (UA)</name>
+		<hd>8</hd>
+		<proficiency>Intelligence, Wisdom, Arcana, History, Insight, Medicine, Nature, Perception, Religion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor</armor>
+		<weapons>simple weapons</weapons>
+		<tools>none</tools>
+		<wealth>5d4x10</wealth>
+		<spellAbility>Intelligence</spellAbility>
+		<autolevel level="1">
+			<slots>1,1,4,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>1,1,6,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>2,2,14,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>2,3,17,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>2,3,27,5,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>2,3,32,5,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>2,4,38,6,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>2,4,44,6,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>2,5,57,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>3,5,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>3,5,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>3,6,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>3,6,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>3,6,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>3,7,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>3,7,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>4,7,64,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>4,8,71,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>4,8,71,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>4,8,71,7,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: light armor</text>
+				<text>Weapons: simple weapons</text>
+				<text>Tools: none</text>
+				<text>Skills: Choose two skills from Arcana, History, Insight, Medicine, Nature, Perception, and Religion</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.</text>
+				<text/>
+				<text>• (a) a spear or (b) a mace</text>
+				<text>• (a) leather armor or (b) studded leather armor</text>
+				<text>• (a) a light crossbow and 20 bolts or (b) any simple weapon</text>
+				<text>• (a) a scholar's pack or (b) an explorer's pack</text>
+				<text>Alternatively, you may start with 5d4 x 10 gold and choose your own equipment.</text>
+			</feature>
+			<feature>
+				<name>Important Notes</name>
+				<text>The material here is presented for playtesting and to spark your imagination.</text>
+				<text>	These game mechanics are in draft form, usable in your campaign but not refined by design iterations or full game development and editing.</text>
+				<text>	They aren't officially part of the game and aren't permitted in DnD Adventurers League events</text>
+				<text>	Also, spell slots are organized as such: Cantrips = Number of Talents, Level 1 Slots = Number of Disciplines, Level 2 Slots = Psi Points, Level 3 Slots = Psi Limit</text>
+			</feature>
+			<feature>
+				<name>Psionics</name>
+				<text>As a student of psionics, you can master and use psionic talents and disciplines, the rules for which appear at the end of this document. Psionics is a special form of magic use, distinct from spellcasting.</text>
+			</feature>
+			<feature>
+				<name>Psionic Talents</name>
+				<text>A psionic talent is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice. You learn additional talents of your choice at higher levels.  The Talents Known column of the Mystic table shows the total number of talents you know at each level; when that number goes up for you, choose a new talent.</text>
+			</feature>
+			<feature>
+				<name>Psionic Disciplines</name>
+				<text>A psionic discipline is a rigid set of mental exercises that allows a mystic to manifest psionic power. A mystic masters only a few disciplines at a time.</text>
+				<text>	At 1st level, you know one psionic discipline of your choice. The Disciplines Known column of the Mystic table shows the total number of disciplines you know at each level; when that number goes up for you, choose a new discipline.</text>
+				<text>	In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.</text>
+			</feature>
+			<feature>
+				<name>Psi Points</name>
+				<text>You have an internal reservoir of energy that can be devoted to psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.</text>
+				<text>	The number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum.</text>
+			</feature>
+			<feature>
+				<name>Psi Limit</name>
+				<text>Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have.</text>
+			</feature>
+			<feature>
+				<name>Psionic Chart</name>
+				<text>	Level - Psi Points - Psi Limit</text>
+				<text>	1st - 4 - 2</text>
+				<text>	2nd - 6 - 2</text>
+				<text>	3rd - 14 - 3</text>
+				<text>	4th - 17 - 3</text>
+				<text>	5th - 27 - 5</text>
+				<text>	6th - 32 - 5</text>
+				<text>	7th - 38 - 6</text>
+				<text>	8th - 44 - 6</text>
+				<text>	9th - 57 - 7</text>
+				<text>   10th - 64 - 7</text>
+				<text>   11st - 64 - 7</text>
+				<text>   12nd - 64 - 7</text>
+				<text>   13rd - 64 - 7</text>
+				<text>   14th - 64 - 7</text>
+				<text>   15th - 64 - 7</text>
+				<text>   16th - 64 - 7</text>
+				<text>   17th - 64 - 7</text>
+				<text>   18th - 71 - 7</text>
+				<text>   19th - 71 - 7</text>
+				<text>   20th - 71 - 7</text>
+			</feature>
+			<feature>
+				<name>Talent / Discipline Chart</name>
+				<text>	Level - Talents - Disciplines</text>
+				<text>	1st - 1 - 1</text>
+				<text>	2nd - 1 - 1</text>
+				<text>	3rd - 2 - 2</text>
+				<text>	4th - 2 - 2</text>
+				<text>	5th - 2 - 3</text>
+				<text>	6th - 2 - 3</text>
+				<text>	7th - 2 - 4</text>
+				<text>	8th - 2 - 4</text>
+				<text>	9th - 2 - 5</text>
+				<text>   10th - 3 - 5</text>
+				<text>   11st - 3 - 5</text>
+				<text>   12nd - 3 - 6</text>
+				<text>   13rd - 3 - 6</text>
+				<text>   14th - 3 - 6</text>
+				<text>   15th - 3 - 7</text>
+				<text>   16th - 3 - 7</text>
+				<text>   17th - 4 - 7</text>
+				<text>   18th - 4 - 8</text>
+				<text>   19th - 4 - 8</text>
+				<text>   20th - 4 - 8</text>
+			</feature>
+			<feature>
+				<name>Psychic Focus</name>
+				<text>You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit.</text>
+				<text>	You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines.</text>
+			</feature>
+			<feature>
+				<name>Psionic Ability</name>
+				<text>Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.</text>
+				<text>	Discipline save DC = 8 + your proficiency bonus + your Intelligence modifier</text>
+				<text>	Discipline attack modifier = your proficiency bonus + your Intelligence modifier</text>
+			</feature>
+			<feature>
+				<name>Using Disciplines</name>
+				<text>Each psionic discipline has several ways you can use it, all contained in its description. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.</text>
+				<text>	The following sections go into more detail on using a discipline. Psionic disciplines are magical and function similarly to spells.</text>
+				<text/>
+				<text>Psychic Focus</text>
+				<text>The Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.</text>
+				<text/>
+				<text>Effect Options and Psi Points</text>
+				<text>A discipline provides different options for how to use it with your psi points. Each effect option has a name, and the psi point cost of that option appears in parentheses after its name. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.</text>
+				<text>	Some options show a range of psi points, rather than a specific cost. To use that option, you must spend a number of points within that point range, still abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline; you can't decide to spend additional points once you see the discipline in action.</text>
+				<text>	Each option notes specific information about its effect, including any action required to use it and its range.</text>
+				<text/>
+				<text>Components</text>
+				<text>Disciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials. The power of psionics comes from the mind.</text>
+				<text/>
+				<text>Duration</text>
+				<text>	An option in a discipline specifies how long its effect lasts. Instantaneous: If no duration is specified, the effect of an option is instantaneous. Concentration: Some options require concentration to maintain their effects. This requirement is noted with "Conc" after the option's psi point cost. The "Conc" notation is followed by the maximum duration of the concentration. For example, if an option says "Conc 1m", you can concentrate on its effect for up to 1 minute, if an option says "Conc 1h", you can concentrate on its effect for up to 1 hour, and finally if an option says "Conc 1r", you can concentrate on its effect for up to 1 round.</text>
+				<text>	Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, "Spellcasting", in the Player's Handbook for how concentration works.</text>
+				<text/>
+				<text>Targets and Areas of Effect</text>
+				<text>Psionic disciplines use the same rules as spells for determining targets and areas of effect. See chapter 10, "Spellcasting", of the Player's Handbook.</text>
+				<text/>
+				<text>Saving Throws and Attack Rolls</text>
+				<text>If a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability.</text>
+				<text>Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.</text>
+				<text/>
+				<text>Combining Psionic Effects</text>
+				<text>The effects of different psionic disciplines add together while the durations of those disciplines overlap. Likewise, different options from a single psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if that option is used multiple times. Instead, the most potent effect — usually dependent on how many psi points were used to create the effect — applies while the durations of the effects overlap.</text>
+				<text>	Psionics and magic are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule (see "Psionics and Magic" earlier, as well as "Combining Magical Effects" in chapter 10, "Spellcasting", of the Player's Handbook).</text>
+			</feature>
+			<feature>
+				<name>Mystic Order</name>
+				<text>At 1st level, you choose a Mystic Order: the Order of the Avatar, the Order of the Awakened, the Order of the Immortal, the Order of the Nomad, the Order of the Soul Knife, or the Order of the Wu Jen, each of which is detailed at the end of the class description. Each order specializes in a specific approach to psionics.</text>
+				<text>Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 14th level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Mystical Recovery</name>
+				<text>Starting at 2nd level, you can draw vigor from the psi energy you use to power your psionic disciplines.</text>
+				<text>	Immediately after you spend psi points on a psionic discipline, you can take a bonus action to regain hit points equal to the number of psi points you spent.</text>
+			</feature>
+			<feature>
+				<name>Telepathy</name>
+				<text>At 2nd level, your mind awakens to the ability to communicate via telepathy. You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don't need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Strength of Mind</name>
+				<text>Even the simplest psionic technique requires a deep understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with threats.</text>
+				<text>	Starting at 4th level, you can replace your proficiency in Wisdom saving throws whenever you finish a short or long rest. To do so, choose Strength, Dexterity, Constitution, or Charisma. You gain proficiency in saves using that ability, instead of Wisdom. This change lasts until you finish your next short or long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>Consumptive Power</name>
+				<text>At 10th level, you gain the ability to sacrifice your physical durability in exchange for psionic power. When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can't be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.</text>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature>
+				<name>Psionic Mastery</name>
+				<text>Beginning at 11th level, your mastery of psionic energy allows you to push your mind beyond its normal limits. As an action, you gain 9 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also spend your normal psi points on these disciplines; you can spend only the special points gained from this feature. When you finish a long rest, you lose any of these special points that you haven't spent.</text>
+				<text>	If more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn't use these special points, the disciplines end that you're concentrating on.</text>
+				<text>	You have one use of this feature, and you regain any expended use of it with a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="13">
+			<feature>
+				<name>Psionic Mastery : Gain 1 Use</name>
+				<text>You gain one additional use of the PsionicMastery feature at 13th, 15th, and 17th level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="15">
+			<feature>
+				<name>Psionic Mastery PSI Pool increase</name>
+				<text>At 15th level, the pool of psi points you gain from the Psionic Mastery feature increases to 11.</text>
+			</feature>
+			<feature>
+				<name>Psionic Mastery : Gain 1 Use</name>
+				<text> You gain one additional use of the PsionicMastery feature at 13th, 15th, and 17th level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="17">
+			<feature>
+				<name>Psionic Mastery : Gain 1 Use</name>
+				<text>You gain one additional use of the PsionicMastery feature at 13th, 15th, and 17th level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20" scoreImprovement="YES">
+			<feature>
+				<name>Psionic Body</name>
+				<text>At 20th level, your mastery of psionic power causes your mind to transcend the body. Your physical form is infused with psionic energy. You gain the following benefits:</text>
+				<text>	  *You gain resistance to bludgeoning, piercing, and slashing damage.</text>
+				<text>	  *You no longer age.</text>
+				<text>	  *You are immune to disease, poison damage, and the poisoned condition.</text>
+				<text>	  *If you die, roll a d20. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall unconscious. You and your gear disappear. You appear at a spot of your choice 1d3 days later on the plane of existence where you died, having gained the benefits of one long rest.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+	<!--Mystic (UA) Spells-->
+	<spell>
+		<name>Beacon (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Bonus Action</time>
+		<range>Self (20-foot radius)</range>
+		<duration>1 hour</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, you cause bright light to radiate from your body in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. The light lasts for 1 hour, and you can extinguish it earlier as a bonus action.</text>
+	</spell>
+	<spell>
+		<name>Blade Meld (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Bonus Action</time>
+		<range>Self</range>
+		<duration>1 Minute</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, a one-handed melee weapon you hold becomes one with your hand. For the next minute, you can't let go of the weapon nor can it be forced from your grasp.</text>
+	</spell>
+	<spell>
+		<name>Blind Spot (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 120 feet you can see</range>
+		<duration>1 Round</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you erase your image from the mind of one creature you can see within 120 feet of you; the target must succeed on a Wisdom saving throw, or you are invisible to it until the end of your next turn.</text>
+	</spell>
+	<spell>
+		<name>Delusion (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 60 feet you can see</range>
+		<duration>up to 1 minute</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you plant a false belief in the mind of one creature that you can see within 60 feet of you. You can create a sound or an image. Only the target of this talent perceives the sound or image you create.</text>
+		<text>	If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a creature's roar, a musical instrument, or any other sound you pick. It lasts for 1 minute.</text>
+		<text>	If you create an object, it must fit within a 5- foot cube and can't move or be reflective. The image can't create any effect that influences a sense other than sight. The image lasts for 1 minute, and it disappears if the creature touches it.</text>
+	</spell>
+	<spell>
+		<name>Energy Beam (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 90 feet you can see</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 1d8 acid, cold, fire, lightning, or thunder damage (your choice).</text>
+		<text>	The talent's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+		<roll>1d8</roll>
+		<roll>2d8</roll>
+		<roll>3d8</roll>
+		<roll>4d8</roll>
+	</spell>
+	<spell>
+		<name>Light Step (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Bonus Action</time>
+		<range>Self</range>
+		<duration>1 turn</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, you alter your density and weight to improve your mobility. For the rest of your turn, your walking speed increases by 10 feet, and the first time you stand up this turn, you do so without expending any of your movement if your speed is greater than 0.</text>
+	</spell>
+	<spell>
+		<name>Mind Meld (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Bonus Action</time>
+		<range>1 willing creature within 120 feet you can see</range>
+		<duration>1 Turn</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an Intelligence of at least 2, otherwise this talent fails and the action is wasted.</text>
+		<text>	This communication can occur until the end of the current turn. You don't need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target's choice, gaining perfect recall of one thing it saw or did.</text>
+	</spell>
+	<spell>
+		<name>Mind Slam (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 60 feet you can see</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone.</text>
+		<text>	The talent's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+	</spell>
+	<spell>
+		<name>Mind Thrust (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 120 feet you can see</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 1d10 psychic damage.</text>
+		<text>	The talent's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
+		<roll>1d10</roll>
+		<roll>2d10</roll>
+		<roll>3d10</roll>
+		<roll>4d10</roll>
+	</spell>
+	<spell>
+		<name>Mystic Charm (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 120 feet you can see</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you beguile one humanoid you can see within 120 feet of you. The target must succeed on a Charisma saving throw or be charmed by you until the end of your next turn.</text>
+	</spell>
+	<spell>
+		<name>Mystic Hand (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 object within 30 feet</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>You can use your action to manipulate or move one object within 30 feet of you. The object can't weigh more than 10 pounds, and you can't affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction.</text>
+		<text>	This talent allows you to open an unlocked door, pour out a beer stein, and so on.</text>
+		<text>	The object falls to the ground at the end of your turn if you leave it suspended in midair.</text>
+	</spell>
+	<spell>
+		<name>Psychic Hammer (Psionic Talent)</name>
+		<level>0</level>
+		<time>1 Action</time>
+		<range>1 creature within 120 feet you can see</range>
+		<duration>Instantaneous</duration>
+		<classes>Mystic (UA)</classes>
+		<text>As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can't lift the target off the ground unless it is already airborne or underwater.</text>
+		<text>	The talent's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
+		<roll>1d6</roll>
+		<roll>2d6</roll>
+		<roll>3d6</roll>
+		<roll>4d6</roll>
+	</spell>
+</compendium>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<baseclass>
+		<name>Druid</name>
+		<hd>8</hd>
+		<proficiency>Intelligence, Wisdom, Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</armor>
+		<weapons>clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</weapons>
+		<tools>herbalism kit</tools>
+		<wealth>2d4x10</wealth>
+		<spellAbility>Wisdom</spellAbility>
+		<autolevel level="1">
+			<slots>2,2,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>2,3,0,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>2,4,2,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>3,4,3,0,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>3,4,3,2,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>3,4,3,3,0,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>3,4,3,3,1,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>3,4,3,3,2,0,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>3,4,3,3,3,1,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>4,4,3,3,3,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>4,4,3,3,3,2,1,0,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>4,4,3,3,3,2,1,0,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>4,4,3,3,3,2,1,1,0,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>4,4,3,3,3,2,1,1,0,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>4,4,3,3,3,2,1,1,1,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>4,4,3,3,3,2,1,1,1,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>4,4,3,3,3,2,1,1,1,1</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>4,4,3,3,3,3,1,1,1,1</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>4,4,3,3,3,3,2,1,1,1</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>4,4,3,3,3,3,2,2,1,1</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text>Armor: light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</text>
+				<text>Weapons: clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</text>
+				<text>Tools: herbalism kit</text>
+				<text>Skills: Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.</text>
+				<text/>
+				<text>• (a) a wooden shield or (b) any simple weapon</text>
+				<text>• (a) a scimitar or (b) any simple melee weapon</text>
+				<text>• Leather armor, an explorer's pack, and a druidic focus</text>
+				<text/>
+				<text>Alternatively, you may start with 2d4 x 10 gp to buy your own equipment.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Druidic</name>
+				<text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</text>
+			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 for the general rules of spellcasting and chapter 11 for the druid spell list.</text>
+				<text/>
+				<text>Cantrips</text>
+				<text>At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.</text>
+				<text/>
+				<text>Preparing and Casting Spells</text>
+				<text>The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>	For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level ar 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
+				<text>	You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</text>
+				<text/>
+				<text>Spellcasting Ability</text>
+				<text>Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+				<text/>
+				<text>Ritual Casting</text>
+				<text>You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.</text>
+				<text/>
+				<text>Spellcasting Focus</text>
+				<text>You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Wild Shape</name>
+				<text>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</text>
+				<text>	Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.</text>
+				<text/>
+				<text>Beast Shapes</text>
+				<text>Level  Max. CR   Limitations                    Example</text>
+				<text>2nd    1/4       No flying or swimming speed    Wolf</text>
+				<text>4th    1/2       No flying speed                Crocodile</text>
+				<text>8th    1         —                              Giant eagle</text>
+				<text/>
+				<text>	You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.</text>
+				<text>	While you are transformed, the following rules apply:</text>
+				<text>• Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.</text>
+				<text>• When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.</text>
+				<text>• You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.</text>
+				<text>• You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.</text>
+				<text>• You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.</text>
+			</feature>
+			<feature>
+				<name>Druid Circle</name>
+				<text>At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="6">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="10">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="14">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Timeless Body</name>
+				<text>Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</text>
+			</feature>
+			<feature>
+				<name>Beast Spells</name>
+				<text>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Archdruid</name>
+				<text>At 20th level, you can use your Wild Shape an unlimited number of times.</text>
+				<text>	Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.</text>
+			</feature>
+		</autolevel>
+		<!--Unearthed Arcana-->
+		<autolevel level="2" UA="Druid">
+			<feature optional="YES">
+				<name>Optional Rule: Wild Shape Forms</name>
+				<text>Known Beast Shapes:</text>
+				<text>	When you gain the Wild Shape feature at 2nd level, you are deeply familiar with three beasts of your choice and can transform into them.</text>
+				<text>	To choose the three beast shapes, you first need to determine whether your druid grew up in a temperate or a tropical region, consulting with your DM. Then refer to the Common Beast Shapes table that corresponds to the region you selected. That table lists the beasts you can choose from, based on your druid level. The table presents the animals that a druid is most likely to have seen as a novice, to have learned about through mystic research, or to have a special affinity with.</text>
+				<text>	Each time you gain a druid level later, you can choose one more beast shape from the same table you used at 2nd level.</text>
+				<text/>
+				<text>Gaining Beast Shapes:</text>
+				<text>	In addition to the beast shapes you gain for free when you level up, you can acquire new shapes on your adventures. Do you see a dinosaur, a saber-toothed tiger, a giant eagle, or some other exotic critter that you want to turn into? This rule gives you a method for learning how to do so. It requires you to abide by the limitations in the Wild Shape feature (see the Beast Shapes table in the Player's Handbook, page 66).</text>
+				<text>	When you see a beast whose shape you'd like to learn, you have two options:</text>
+				<text/>
+				<text>Observation:</text>
+				<text>	You learn the beast's shape after observing its behavior for at least 1 hour and succeeding on an Intelligence (Nature) check with a DC equal to 10 + the beast's challenge rating. For this observation period, your vantage point—whether physical or magical— must be within 150 feet of the beast. If you previously spent at least 1 hour reading a scholarly work about the creature, you have advantage on the check.</text>
+				<text/>
+				<text>Interaction:</text>
+				<text>	You learn the beast's shape after interacting with it peacefully for 10 minutes and succeeding on a Wisdom (Animal Handling) check with a DC equal to 10 + the beast's challenge rating. For this interaction period, you must be within 15 feet of the beast, and if you spend at least a minute petting it, you have advantage on the check.</text>
+				<text/>
+				<text>	Either of these options can be assisted by magic. For example, divination magic can be used to provide safe observation of a dangerous animal, and a spell like animal friendship can lay the groundwork for peaceful interaction.</text>
+				<text/>
+				<text>This optional rule is from Unearthed Arcana: Druid Circles and Wild Shape, and as such may not be used in your game. Consult your DM about this rule.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+</compendium>

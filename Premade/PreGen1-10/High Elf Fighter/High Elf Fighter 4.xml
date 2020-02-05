@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>4072</uid>
+		<name>High Elf Fighter</name>
+		<race>
+			<name>Elf (High)</name>
+			<feat>
+				<name>Darkvision</name>
+				<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Keen Senses</name>
+				<text>You have proficiency in the Perception skill.</text>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			</feat>
+			<feat>
+				<name>Trance</name>
+				<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+			</feat>
+			<feat>
+				<name>Elf Weapon Training</name>
+				<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+			</feat>
+			<feat>
+				<name>Cantrip</name>
+				<text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>3</type>
+				<value>1</value>
+			</mod>
+			<proficiency>111</proficiency>
+			<spellAbility>3</spellAbility>
+			<spell>
+				<name>True Strike</name>
+				<school>3</school>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<s>1</s>
+				<duration>Concentration, up to 1 round</duration>
+				<text>You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</race>
+		<class>
+			<id>3919</id>
+			<name>Fighter</name>
+			<level>4</level>
+			<hd>3</hd>
+			<hdCurrent>4</hdCurrent>
+			<proficiency>0</proficiency>
+			<proficiency>103</proficiency>
+			<proficiency>2</proficiency>
+			<proficiency>117</proficiency>
+			<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>2,3,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
+				</text>
+			</feat>
+			<feat>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.
+
+• (a) chain mail or (b) leather, longbow, and 20 arrows
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) a light crossbow and 20 bolts or (b) two handaxes
+• (a) a dungeoneer's pack or (b) an explorer's pack
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+			</feat>
+			<feat>
+				<name>Fighting Style</name>
+				<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Fighting Style: Dueling</name>
+				<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+				<special>2</special>
+			</feat>
+			<feat>
+				<name>Second Wind</name>
+				<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+			</feat>
+			<feat>
+				<name>Action Surge</name>
+				<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+			</feat>
+			<feat>
+				<name>Martial Archetype</name>
+				<text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Martial Archetype: Eldritch Knight</name>
+				<text>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Eldritch Knight: Spellcasting</name>
+				<text>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.
+
+Cantrips
+You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.
+
+Spell Slots
+The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	For example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.
+
+Spells Known of 1st-Level and Higher
+You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.
+	The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
+	The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+	Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
+
+Spellcasting Ability
+Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+	Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Eldritch Knight: Weapon Bond</name>
+				<text>At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
+	Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
+	You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</text>
+			</feat>
+			<feat>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+				
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
+				</text>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You start with the following items, plus anything provided by your background.
+
+• (a) chain mail or (b) leather, longbow, and 20 arrows
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) a light crossbow and 20 bolts or (b) two handaxes
+• (a) a dungeoneer's pack or (b) an explorer's pack
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Fighting Style</name>
+					<text>You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Archery</name>
+					<text>You gain a +2 bonus to attack rolls you make with ranged weapons.</text>
+					<special>0</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Defense</name>
+					<text>While you are wearing armor, you gain a +1 bonus to AC.</text>
+					<special>1</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Dueling</name>
+					<text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text>
+					<special>2</special>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Great Weapon Fighting</name>
+					<text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+				</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Protection</name>
+					<text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Two-Weapon Fighting</name>
+					<text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</text>
+					<special>2</special>
+				</feat>
+				<feat>
+					<name>Second Wind</name>
+					<text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+	Once you use this feature, you must finish a short or long rest before you can use it again.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Close Quarters Shooter (UA)</name>
+					<text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.
+
+This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.
+				</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Mariner (UA)</name>
+					<text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
+
+This fighting style is from Unearthed Arcana: Waterborne Adventures, and as such may not be allowed in your game. Consult your DM before selecting this option.
+				</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Fighting Style: Tunnel Fighter (UA)</name>
+					<text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.
+
+This fighting style is from Unearthed Arcana: Light, Dark, Underdark!, and as such may not be allowed in your game. Consult your DM before selecting this option.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge</name>
+					<text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+	Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Martial Archetype</name>
+					<text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Martial Archetype: Eldritch Knight</name>
+					<text>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: Spellcasting</name>
+					<text>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.
+
+Cantrips
+You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.
+
+Spell Slots
+The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	For example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.
+
+Spells Known of 1st-Level and Higher
+You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.
+	The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
+	The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+	Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
+
+Spellcasting Ability
+Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+	Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: Weapon Bond</name>
+					<text>At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
+	Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
+	You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack</name>
+					<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+	The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 6th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. 
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: War Magic</name>
+					<text>Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable</name>
+					<text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.
+	You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: Additional Cantrip</name>
+					<text>You learn an additional wizard cantrip of your choice at 10th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: Eldritch Strike</name>
+					<text>At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack (2)</name>
+					<text>At 11th level, you can attack three times whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Indomitable (two uses)</name>
+					<text>At 13th level, you can use Indomitable twice between long rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 14th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. 
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: Arcane Charge</name>
+					<text>At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+				
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Action Surge (two uses)</name>
+					<text>At 17th level, you can use Action Surge twice before a rest, but only once on the same turn.</text>
+				</feat>
+				<feat>
+					<name>Indomitable (three uses)</name>
+					<text>At 17th level, you can use Indomitable three times between long rests.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Eldritch Knight: Improved War Magic</name>
+					<text>Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,1,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,3,3,1,0,0,0,0,0,</slots>
+				<feat>
+					<name>Extra Attack (3)</name>
+					<text>At 20th level, you can attack four times whenever you take the Attack action on your turn.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>3</spellAbility>
+			<spell>
+				<name>Fire Bolt</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.
+
+This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</text>
+				<roll>1d20+%0+%8</roll>
+				<roll>1d10</roll>
+				<roll>2d10</roll>
+				<roll>3d10</roll>
+				<roll>4d10</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Shocking Grasp</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
+
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+				<roll>1d20+%4+%8</roll>
+				<roll>1d8</roll>
+				<roll>2d8</roll>
+				<roll>3d8</roll>
+				<roll>4d8</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Shield</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 round</duration>
+				<text>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Magic Missile</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4+1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st.</text>
+				<roll>1d4+1</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Blade Ward</name>
+				<school>1</school>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 round</duration>
+				<text>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Thunderwave</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self (15-foot cube)</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.
+
+In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
+				<roll>2d8</roll>
+				<sclass>Bard</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</class>
+		<background>
+			<id>3923</id>
+			<name>Sage</name>
+			<align>Lawful neutral</align>
+			<personality>You use polysyllabic words that convey the impression of great erudition.</personality>
+			<ideals>The path to power and self-improvement is through knowledge.</ideals>
+			<bonds>Your life's work is the Tome of Battle, a treatise related to your theories on combat.</bonds>
+			<flaws>You speak without really thinking through your words, invariably insulting others.</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Arcana, History</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>Two of your choice</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Researcher</name>
+				<text>When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature, Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.</text>
+			</feat>
+			<proficiency>105</proficiency>
+			<proficiency>102</proficiency>
+		</background>
+		<xp>2700</xp>
+		<unarmed>1</unarmed>
+		<abilities>10,16,13,15,12,8,</abilities>
+		<hpMax>32</hpMax>
+		<hpCurrent>32</hpCurrent>
+		<item>
+			<name>Rapier</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<value>25.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d8</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>2</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Dart</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>6</type>
+			<quantity>20</quantity>
+			<value>5.0</value>
+			<weight>0.25</weight>
+			<damage1H>1d4</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>130</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Shield</name>
+			<text>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
+
+Source: Player's Handbook, page 144</text>
+			<type>4</type>
+			<slot>4</slot>
+			<value>10.0</value>
+			<weight>6.0</weight>
+			<ac>2</ac>
+		</item>
+		<item>
+			<name>Fishing Tackle</name>
+			<text>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.
+
+Source: Player's Handbook, page 151</text>
+			<value>1.0</value>
+			<weight>4.0</weight>
+		</item>
+		<item>
+			<name>Book on fighting techniques</name>
+		</item>
+		<item>
+			<name>Spellbook</name>
+			<text>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.
+
+Source: Player's Handbook, page 153</text>
+			<value>50.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Studded Leather Armor</name>
+			<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
+
+Source: Player's Handbook, page 144</text>
+			<type>1</type>
+			<slot>5</slot>
+			<value>45.0</value>
+			<weight>13.0</weight>
+			<ac>12</ac>
+		</item>
+		<container>
+			<label>Scholar's Pack</label>
+			<name>Backpack</name>
+			<value>40.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Book of lore</name>
+			</item>
+			<item>
+				<name>Ink (1 ounce bottle)</name>
+			</item>
+			<item>
+				<name>Ink pen</name>
+			</item>
+			<item>
+				<name>Parchment (one sheet)</name>
+				<quantity>10</quantity>
+			</item>
+			<item>
+				<name>Bag of sand</name>
+			</item>
+			<item>
+				<name>Small knife</name>
+			</item>
+		</container>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>8</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>39</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Dwarvish, Draconic, Elvish, Halfling</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>“I apologize for cutting off your fascinating diatribe with my blade in your belly. Small talk was never my strong suit.”
+You have spent decades studying the art of combat, refining your skills with relentless vigor. Cunning and patient, your mind plays out each attack and counter before you strike for maximum effect. Though your magical repertoire is extremely limited, the spells you have chosen enhance your already prodigious ability.</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Lord's Alliance, a group of allied political powers concerned with mutual security and prosperity.</text>
+		</note>
+	</character>
+</pc>

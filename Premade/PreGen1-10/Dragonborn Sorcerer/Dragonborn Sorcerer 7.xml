@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>3966</uid>
+		<name>Dragonborn Sorcerer</name>
+		<race>
+			<name>Dragonborn (Silver)</name>
+			<feat>
+				<name>Draconic Ancestry</name>
+				<text>You are descended from a Silver dragon and get a breath weapon and damage resistance from this legacy.
+Dragon: Silver
+Damage Type: Cold
+Breath Weapon: 15 ft. cone (Con. save)</text>
+			</feat>
+			<feat>
+				<name>Breath Weapon</name>
+				<text>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+
+When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+
+After you use your breath weapon, you can't use it again until you complete a short or long rest.</text>
+			</feat>
+			<feat>
+				<name>Damage Resistance</name>
+				<text>You have resistance to the damage type associated with your draconic ancestry.</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>1</value>
+			</mod>
+		</race>
+		<class>
+			<source>1</source>
+			<id>3913</id>
+			<name>Sorcerer</name>
+			<level>7</level>
+			<hdCurrent>7</hdCurrent>
+			<wealth>3d4x10</wealth>
+			<proficiency>102</proficiency>
+			<proficiency>2</proficiency>
+			<proficiency>5</proficiency>
+			<proficiency>107</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>None</armor>
+			<weapons>Daggers, darts, slings, quarterstaffs, light crossbows</weapons>
+			<tools>Drum</tools>
+			<slots>5,4,3,3,1,0,0,0,0,0,</slots>
+			<slotsCurrent>5,4,3,3,1,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Sorcerous Origin</name>
+				<text>Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.
+    Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Draconic Bloodline: Dragon Ancestor</name>
+				<text>At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.
+    You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Draconic Bloodline: Draconic Resilience</name>
+				<text>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.
+    Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</text>
+				<mod>
+					<type>10</type>
+					<value>3</value>
+				</mod>
+			</feat>
+			<feat>
+				<name>Sorcery Points</name>
+				<text>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</text>
+			</feat>
+			<feat>
+				<name>Flexible Casting</name>
+				<text>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
+    Creating Spell Slots. You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+
+Creating Spell Slots
+Spell Slot Level:Sorcery Point Cost
+1st: 2
+2nd: 3
+3rd: 5
+4th: 6
+5th: 7
+
+    Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points  equal to the slot's level.</text>
+			</feat>
+			<feat>
+				<name>Metamagic</name>
+				<text>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
+    You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Metamagic: Distant Spell</name>
+				<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+    When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Metamagic: Empowered Spell</name>
+				<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+    You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Draconic Bloodline: Elemental Affinity</name>
+				<text>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage.
+    At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>1</value>
+			</mod>
+			<autolevel>
+				<slots>4,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Sorcerous Origin</name>
+					<text>Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.
+    Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Draconic Bloodline: Dragon Ancestor</name>
+					<text>At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.
+    You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Draconic Bloodline: Draconic Resilience</name>
+					<text>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.
+    Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</text>
+					<mod/>
+					<mod>
+						<type>10</type>
+						<value>3</value>
+					</mod>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>4,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Sorcery Points</name>
+					<text>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</text>
+				</feat>
+				<feat>
+					<name>Flexible Casting</name>
+					<text>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
+    Creating Spell Slots. You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+
+Creating Spell Slots
+Spell Slot Level:Sorcery Point Cost
+1st: 2
+2nd: 3
+3rd: 5
+4th: 6
+5th: 7
+
+    Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points  equal to the slot's level.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>4,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Metamagic</name>
+					<text>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
+    You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Careful Spell</name>
+					<text>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell. </text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Distant Spell</name>
+					<text>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+    When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Empowered Spell</name>
+					<text>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+    You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Extended Spell</name>
+					<text>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Heightened Spell</name>
+					<text>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Quickened Spell</name>
+					<text>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Subtle Spell</name>
+					<text>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Metamagic: Twinned Spell</name>
+					<text>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>5,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>5,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Draconic Bloodline: Elemental Affinity</name>
+					<text>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage.
+    At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>5,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,2,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>5,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>6,4,3,3,3,2,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>6,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>6,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>6,4,3,3,3,2,1,1,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>6,4,3,3,3,2,1,1,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Draconic Bloodline: Dragon Wings</name>
+					<text>At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.
+    You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>6,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>6,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>6,4,3,3,3,2,1,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>6,4,3,3,3,3,1,1,1,1,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Draconic Bloodline: Draconic Presence</name>
+					<text>Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>6,4,3,3,3,3,2,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>6,4,3,3,3,3,2,2,1,1,</slots>
+				<feat>
+					<name>Sorcerous Restoration</name>
+					<text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>5</spellAbility>
+			<spell>
+				<name>Haste</name>
+				<school>8</school>
+				<level>3</level>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a shaving of licorice root</materials>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+
+When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Scorching Ray</name>
+				<school>5</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.
+
+Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.
+
+At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</text>
+				<roll>1d20+%0+%8</roll>
+				<roll>2d6</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Magic Missile</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4+1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st.</text>
+				<roll>1d4+1</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Blade Ward</name>
+				<school>1</school>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 round</duration>
+				<text>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Chromatic Orb</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>90 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a diamond worth at least 50 gp</materials>
+				<duration>Instantaneous</duration>
+				<text>You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</text>
+				<roll>1d20+%0+%8</roll>
+				<roll>3d8</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Blur</name>
+				<school>6</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Shocking Grasp</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
+
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+				<roll>1d20+%0+%8</roll>
+				<roll>1d8</roll>
+				<roll>2d8</roll>
+				<roll>3d8</roll>
+				<roll>4d8</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>True Strike</name>
+				<school>3</school>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<s>1</s>
+				<duration>Concentration, up to 1 round</duration>
+				<text>You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Fly</name>
+				<school>8</school>
+				<level>3</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a wing feather from any bird</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.
+
+At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</text>
+				<sclass>Artificer</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Ray of Frost</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
+
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+				<roll>1d20+%0+%8</roll>
+				<roll>1d8</roll>
+				<roll>2d8</roll>
+				<roll>3d8</roll>
+				<roll>4d8</roll>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Ice Storm</name>
+				<school>5</school>
+				<level>4</level>
+				<time>1 action</time>
+				<range>300 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a pinch of dust and a few drops of water</materials>
+				<duration>Instantaneous</duration>
+				<text>A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.
+
+Hailstones turn the storm's area of effect into difficult terrain until the end of your next turn.
+
+At Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.</text>
+				<roll>2d8+4d6</roll>
+				<sclass>Druid</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Mage Hand</name>
+				<school>2</school>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 minute</duration>
+				<text>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.
+
+You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.
+
+The hand can't attack, activate magical items, or carry more than 10 pounds.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Shield</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 round</duration>
+				<text>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</class>
+		<background>
+			<id>3950</id>
+			<name>Outlander</name>
+			<align>Neutral good</align>
+			<personality>You once ran 25 miles to warn your clan of an approaching threat, and you'd do the same again</personality>
+			<ideals>To dishonor yourslef is to dishonor the clan</ideals>
+			<bonds>Your clan is the most important thing to you,meven when they are far from you</bonds>
+			<flaws>It is nature's way that the strong survive and the weak perish</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Athletics, Survival</text>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>One type of musical instrument</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>One of your choice</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp</text>
+			</feat>
+			<feat>
+				<name>Feature: Wanderer</name>
+				<text>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</text>
+			</feat>
+			<proficiency>117</proficiency>
+			<proficiency>103</proficiency>
+		</background>
+		<xp>23000</xp>
+		<unarmed>1</unarmed>
+		<abilities>8,13,14,10,12,15,</abilities>
+		<hpMax>51</hpMax>
+		<hpCurrent>51</hpCurrent>
+		<attack>
+			<name>Breath weapon</name>
+			<damage>3d6+%6</damage>
+		</attack>
+		<item>
+			<name>Quarterstaff</name>
+			<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<value>2.0</value>
+			<weight>4.0</weight>
+			<damage1H>1d6</damage1H>
+			<damage2H>1d8</damage2H>
+			<damageType>1</damageType>
+			<weaponProperty>512</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Dagger</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<quantity>2</quantity>
+			<value>2.0</value>
+			<weight>1.0</weight>
+			<damage1H>1d4</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>138</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Dart</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>6</type>
+			<quantity>20</quantity>
+			<value>5.0</value>
+			<weight>0.25</weight>
+			<damage1H>1d4</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>130</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Hunting Trap</name>
+			<text>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.
+
+Source: Player's Handbook, page 152</text>
+			<value>5.0</value>
+			<weight>25.0</weight>
+		</item>
+		<item>
+			<name>Drum crafted from a bear's skull</name>
+		</item>
+		<item>
+			<name>Component Pouch</name>
+			<text>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).
+
+Source: Player's Handbook, page 151</text>
+			<value>25.0</value>
+			<weight>2.0</weight>
+		</item>
+		<item>
+			<name>Traveler's Clothes</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>2.0</value>
+			<weight>4.0</weight>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>50 GP - Diamond</name>
+			<text>A transparent blue-white, canary, pink, brown, or blue gemstone worth 50 gp.
+
+Source: Dungeon Master's Guide, page 134</text>
+			<type>15</type>
+			<value>50.0</value>
+		</item>
+		<item>
+			<name>Potion of Healing</name>
+			<text>Rarity: Common
+You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.
+
+Source: Dungeon Master's Guide, page 187</text>
+			<type>12</type>
+			<quantity>2</quantity>
+			<weight>0.5</weight>
+			<magic>1</magic>
+			<roll>2d4+2</roll>
+		</item>
+		<item>
+			<name>Acid (vial)</name>
+			<text>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.
+
+Source: Player's Handbook, page 148</text>
+			<quantity>2</quantity>
+			<value>25.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Manacles</name>
+			<text>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.
+
+Source: Player's Handbook, page 152</text>
+			<value>2.0</value>
+			<weight>6.0</weight>
+		</item>
+		<item>
+			<name>Caltrops (20)</name>
+			<text>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.
+
+Source: Player's Handbook, page 151</text>
+			<quantity>2</quantity>
+			<value>1.0</value>
+			<weight>2.0</weight>
+		</item>
+		<item>
+			<name>Wand of the War Mage, +1</name>
+			<text>Rarity: Uncommon
+Requires Attunement by a Spellcaster
+
+While you are holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.
+
+Source: Dungeon Master's Guide, page 212</text>
+			<type>10</type>
+			<slot>1</slot>
+			<weight>1.0</weight>
+			<magic>1</magic>
+			<mod>
+				<type>7</type>
+				<value>1</value>
+			</mod>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>10</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<container>
+			<label>Explorer's Pack</label>
+			<name>Backpack</name>
+			<value>10.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<item>
+				<name>Bedroll</name>
+				<weight>7.0</weight>
+			</item>
+			<item>
+				<name>Mess kit</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Tinderbox</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Torch</name>
+				<quantity>10</quantity>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>10</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Rope, hempen (50 feet)</name>
+				<weight>10.0</weight>
+			</item>
+		</container>
+		<note>
+			<name>Languages</name>
+			<text>Common, Draconic, Sylvan</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Emerald Enclave, defenders of the wild lands</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>"Do you hear that? It is the roaring in my blood."
+
+You are a ferocious wanderer of the untrodden ways, a survivor who constantly tests yourself against the dangers of the wild-and conquers.
+    Despite your self-sufficiency, but tire of a life alone. Your clan is far, but these companions are the closest thing to a tribe. As long as they can prove themselves worthy of your companion, you will travel with them.</text>
+		</note>
+	</character>
+</pc>

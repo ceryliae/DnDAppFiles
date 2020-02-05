@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Artificer">
+	<baseclass>
+		<name>Artificer (UA)</name>
+		<hd>8</hd>
+		<proficiency>Constitution, Intelligence, Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</proficiency>
+		<numSkills>2</numSkills>
+		<armor>light armor, medium armor, shields</armor>
+		<weapons>simple weapons, hand crossbows, heavy crossbows</weapons>
+		<tools>Thieves' tools, tinker's tools, one type of artisan's tools of your choice</tools>
+		<wealth>5d4x10</wealth>
+		<spellAbility>Intelligence</spellAbility>
+		<autolevel level="1">
+			<slots>2,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="2">
+			<slots>2,2,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="3">
+			<slots>2,3,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots>2,3,0,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots>2,4,2,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots>2,4,2,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots>2,4,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots>2,4,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots>2,4,3,2,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots>3,4,3,2,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots>3,4,3,3,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots>3,4,3,3,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots>3,4,3,3,1,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots>4,4,3,3,1,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots>4,4,3,3,2,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots>4,4,3,3,2,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots>4,4,3,3,3,1</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots>4,4,3,3,3,1</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots>4,4,3,3,3,2</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots>4,4,3,3,3,2</slots>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Starting Proficiencies</name>
+				<text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+				<text/>
+				<text>Armor: light armor, medium armor, shields</text>
+				<text>Weapons: simple weapons, hand crossbows, heavy crossbows</text>
+				<text>Tools: Thieves' tools, tinker's tools, one type of artisan's tools of your choice</text>
+				<text>Skills: Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</text>
+			</feature>
+			<feature>
+				<name>Starting Equipment</name>
+				<text>You start with the following items, plus anything provided by your background.</text>
+				<text/>
+				<text>• any two simple weapons</text>
+				<text>• a light crossbow and 20 bolts</text>
+				<text>• (a) studded leather armor or (b) scale mail</text>
+				<text>• Thieves' tools and dungeoneer's pack</text>
+				<text/>
+			</feature>
+		</autolevel>
+		<autolevel level="1">
+			<feature>
+				<name>Magical Tinkering</name>
+				<text>At 1st level, you learn how to invest a spark of magic in objects that would otherwise be mundane. To use this ability, you must have thieves' tools, tinker's tools, or other artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:</text>
+				<text>• The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</text>
+				<text>• Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.</text>
+				<text>• The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.</text>
+				<text>• A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.</text>
+				<text>The chosen property lasts indefinitely. As an action, you can touch the object and end the property early.</text>
+				<text>	You can give the magic of this feature to multiple objects, touching one object each time you use the feature, and a single object can bear only one of the properties at a time. The maximum number of objects you can affect with the feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies.</text>
+			</feature>
+			<feature>
+				<name>Spellcasting</name>
+				<text>You have studied the workings of magic, how to channel it through objects, and how to awaken it within them. As a result, you have gained a limited ability to cast spells. To observers, you don't appear to be casting spells in a conventional way; you look as if you're producing wonders through various items.</text>
+				<text/>
+				<text>Tools Required</text>
+				<text>You produce your artificer spell effects through your tools. You must have a spellcasting focus—specifically thieves' tools or some kind of artisan's tool—in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way. See chapter 5, “Equipment,” in the Player's Handbookfor descriptions of these tools.</text>
+				<text>	After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus.</text>
+				<text/>
+				<text>Cantrips</text>
+				<text>At 1st level, you know two cantrips of your choice from the artificer spell list below. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.</text>
+				<text>	When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list.</text>
+				<text/>
+				<text>Preparing and Casting Spells</text>
+				<text>The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>	You prepare the list of artificer spells that are available for you to cast, choosing from the artificer spell list. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</text>
+				<text>	For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</text>
+				<text>	You can change your list of prepared spells when you finish a long rest. Preparing a new list of artificer spells requires time spent in tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list.</text>
+				<text/>
+				<text>Spellcasting Ability</text>
+				<text>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.</text>
+				<text>	Spell save DC = 8 + your proficiency bonus + yourIntelligence modifier</text>
+				<text>	Spell attack modifier = your proficiency bonus + yourIntelligence modifier</text>
+				<text/>
+				<text>Ritual Casting</text>
+				<text>You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature>
+				<name>Infuse Item</name>
+				<text>At 2nd level, you gain the ability to imbue mundane items with certain magical infusions. The magic items you create with this feature are effectively prototypes of permanent items.</text>
+				<text/>
+				<text>Infusions Known</text>
+				<text>When you gain this feature, pick three artificer infusions to learn, choosing from the “Artificer Infusions” section at the end of the class's description. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.</text>
+				<text>Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one.</text>
+				<text/>
+				<text>Infusing an Item</text>
+				<text>Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item.An infusion works on only certain kinds of objects, as specified in the infusion's description.If the item requires attunement, you can attune yourself to it the instant you infuse the item, or you can forgo attunement so that someone else can attune to the item. If you decide to attune to the item later, you must do so using the normalprocess for attunement (see “Attunement” in the Dungeon Master's Guide, page 136).</text>
+				<text>Your infusion remains in an item indefinitely, but when you die, the infusion vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day). The infusion also vanishes if you give up your knowledge of the infusion for another one.</text>
+				<text>You can infuse more than one nonmagicalobject at the end of a long rest; the maximum number of objects appears in the Infused Items column of the Artificer table. You must touch each of the objects, and each of your infusions can be in only one object at a time. If you try to exceed your maximum number of infusions, the oldest infusion immediately ends, and then the new infusion applies.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Wand</name>
+				<text>Item: A wand (requires attunement)</text>
+				<text/>
+				<text>While holding this wand, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Weapon</name>
+				<text>Item: A simple or martial weapon</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Repeating Shot</name>
+				<text>Item: A simple or martial weapon with the ammunition property (requires attunement)</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.</text>
+				<text>	The weapon requires no ammunition; it magically produces one piece of ammunition each time you make a ranged attack with it, unless you manually load it. The ammunition produced by the weapon vanishes the instant after the it hits or misses a target.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Replicate Magic Item</name>
+				<text/>
+				<text>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a differentmagic item that you can make with it, picking from the Replicable Magic Items tables below. If a table has a level in its title, you must be of at least that level in this class to choose an item from the table.</text>
+				<text>	In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</text>
+				<text/>
+				<text>Replicable Magic Items</text>
+				<text>Magic Item                 Attunement</text>
+				<text>Alchemy jug                No</text>
+				<text>Bag of holding             No</text>
+				<text>Cap of water breathing     No</text>
+				<text>Cloak of the manta ray     No</text>
+				<text>Goggles of night           No</text>
+				<text>Lantern of revealing       No</text>
+				<text>Rope of climbing           No</text>
+				<text>Sending stones             No</text>
+				<text>Wand of magic detection    No</text>
+				<text>Wand of secrets            No</text>
+				<text/>
+				<text>Replicable Magic Items (12th-Level Artificer)</text>
+				<text>Magic Item                          Attunement</text>
+				<text>Boots of elvenkind                  No</text>
+				<text>Boots of striding and springing     Yes</text>
+				<text>Boots of the winterlands            Yes</text>
+				<text>Bracers of archery                  Yes</text>
+				<text>Brooch of shielding                 Yes</text>
+				<text>Cloak of elvenkind                  Yes</text>
+				<text>Cloak of protection                 Yes</text>
+				<text>Eyes of charming                    Yes</text>
+				<text>Eyes of the eagle                   Yes</text>
+				<text>Gauntlets of ogre power             Yes</text>
+				<text>Gloves of missile snaring           Yes</text>
+				<text>Gloves of swimming and climbing     Yes</text>
+				<text>Gloves of thievery                  No</text>
+				<text>Hat of disguise                     Yes</text>
+				<text>Headband of intellect               Yes</text>
+				<text>Helm of telepathy                   Yes</text>
+				<text>Medallion of thoughts               Yes</text>
+				<text>Periapt of wound closure            Yes</text>
+				<text>Pipes of haunting                   No</text>
+				<text>Pipes of the sewers                 Yes</text>
+				<text>Quiver of Ehlonna                   No</text>
+				<text>Ring of jumping                     Yes</text>
+				<text>Ring of mind shielding              Yes</text>
+				<text>Ring of water walking               No</text>
+				<text>Slippers of spider climbing         Yes</text>
+				<text>Winged boots                        Yes</text>
+				<text/>
+				<text>Replicable Magic Items (16th-Level Artificer)</text>
+				<text>Item                           Attunement</text>
+				<text>Amulet of health               Yes</text>
+				<text>Belt of hill giant strength    Yes</text>
+				<text>Boots of levitation            Yes</text>
+				<text>Boots of speed                 Yes</text>
+				<text>Bracers of defense             Yes</text>
+				<text>Cloak of the bat               Yes</text>
+				<text>Dimensional shackles           No</text>
+				<text>Gem of seeing                  Yes</text>
+				<text>Horn of blasting               No</text>
+				<text>Ring of free action            Yes</text>
+				<text>Ring of protection             Yes</text>
+				<text>Ring of the ram                Yes</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Returning Weapon</name>
+				<text>Item: A simple or martial weapon with the thrown property</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="3">
+			<feature>
+				<name>Artificer Specialist</name>
+				<text>At 3rd level, you choose the type of specialist you are: Alchemist, Archivist, Artillerist, or Battle Smith, each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level and again at 6th and 14th level.</text>
+			</feature>
+			<feature>
+				<name>Tool Expertise</name>
+				<text>Starting at 3rd level, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</text>
+			</feature>
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="4" scoreImprovement="YES">
+			<feature optional="YES">
+				<name>Artificer Infusion: Boot of Winding Path</name>
+				<text>Prerequisite: 4th level</text>
+				<text>Item: A pair of boots (requires attunement)</text>
+				<text/>
+				<text>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Many-Handed Pouch</name>
+				<text>Prerequisite: 4th level</text>
+				<text>Item: 2–5 pouches</text>
+				<text/>
+				<text>The infused pouches all share one interdimensional space of the same capacity as a single pouch. Thus, reaching into any of the pouches allows access to the same storage space.A pouch operates as long as it is within 100 miles of another one of the pouches; the pouch is otherwise empty and won't accept any contents.</text>
+				<text>	If this infusion ends, the items stored in the shared space move into one of the pouches, determined at random. The rest of the pouchesbecome empty.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="4" IL="IL">
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Defense</name>
+				<text>Item: A suit of armor or a shield</text>
+				<text/>
+				<text>A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Wand</name>
+				<text>Item: A wand (requires attunement)</text>
+				<text/>
+				<text>While holding this wand, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Weapon</name>
+				<text>Item: A simple or martial weapon</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Repeating Shot</name>
+				<text>Item: A simple or martial weapon with the ammunition property (requires attunement)</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.</text>
+				<text>	The weapon requires no ammunition; it magically produces one piece of ammunition each time you make a ranged attack with it, unless you manually load it. The ammunition produced by the weapon vanishes the instant after the it hits or misses a target.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Replicate Magic Item</name>
+				<text/>
+				<text>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a differentmagic item that you can make with it, picking from the Replicable Magic Items tables below. If a table has a level in its title, you must be of at least that level in this class to choose an item from the table.</text>
+				<text>	In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</text>
+				<text/>
+				<text>Replicable Magic Items</text>
+				<text>Magic Item                 Attunement</text>
+				<text>Alchemy jug                No</text>
+				<text>Bag of holding             No</text>
+				<text>Cap of water breathing     No</text>
+				<text>Cloak of the manta ray     No</text>
+				<text>Goggles of night           No</text>
+				<text>Lantern of revealing       No</text>
+				<text>Rope of climbing           No</text>
+				<text>Sending stones             No</text>
+				<text>Wand of magic detection    No</text>
+				<text>Wand of secrets            No</text>
+				<text/>
+				<text>Replicable Magic Items (12th-Level Artificer)</text>
+				<text>Magic Item                          Attunement</text>
+				<text>Boots of elvenkind                  No</text>
+				<text>Boots of striding and springing     Yes</text>
+				<text>Boots of the winterlands            Yes</text>
+				<text>Bracers of archery                  Yes</text>
+				<text>Brooch of shielding                 Yes</text>
+				<text>Cloak of elvenkind                  Yes</text>
+				<text>Cloak of protection                 Yes</text>
+				<text>Eyes of charming                    Yes</text>
+				<text>Eyes of the eagle                   Yes</text>
+				<text>Gauntlets of ogre power             Yes</text>
+				<text>Gloves of missile snaring           Yes</text>
+				<text>Gloves of swimming and climbing     Yes</text>
+				<text>Gloves of thievery                  No</text>
+				<text>Hat of disguise                     Yes</text>
+				<text>Headband of intellect               Yes</text>
+				<text>Helm of telepathy                   Yes</text>
+				<text>Medallion of thoughts               Yes</text>
+				<text>Periapt of wound closure            Yes</text>
+				<text>Pipes of haunting                   No</text>
+				<text>Pipes of the sewers                 Yes</text>
+				<text>Quiver of Ehlonna                   No</text>
+				<text>Ring of jumping                     Yes</text>
+				<text>Ring of mind shielding              Yes</text>
+				<text>Ring of water walking               No</text>
+				<text>Slippers of spider climbing         Yes</text>
+				<text>Winged boots                        Yes</text>
+				<text/>
+				<text>Replicable Magic Items (16th-Level Artificer)</text>
+				<text>Item                           Attunement</text>
+				<text>Amulet of health               Yes</text>
+				<text>Belt of hill giant strength    Yes</text>
+				<text>Boots of levitation            Yes</text>
+				<text>Boots of speed                 Yes</text>
+				<text>Bracers of defense             Yes</text>
+				<text>Cloak of the bat               Yes</text>
+				<text>Dimensional shackles           No</text>
+				<text>Gem of seeing                  Yes</text>
+				<text>Horn of blasting               No</text>
+				<text>Ring of free action            Yes</text>
+				<text>Ring of protection             Yes</text>
+				<text>Ring of the ram                Yes</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Returning Weapon</name>
+				<text>Item: A simple or martial weapon with the thrown property</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature>
+				<name>Arcane Armament</name>
+				<text>Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn, but one of the attacks must be made with a magic weapon, the magic of which you use to propel the attack.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="8" scoreImprovement="YES">
+			<feature optional="YES">
+				<name>Artificer Infusion: Radiant Weapon</name>
+				<text>Prerequisite: 8th level</text>
+				<text>Item: A simple or martial weapon (requires attunement)</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</text>
+				<text>	As a reaction immediately after being hit by a melee attack, the wielder can cause the attackerto be blinded until the end of the attacker's next turn, unless the attacker succeeds on aConstitution saving throw against your spell save DC. Once used, this reaction can't be used again until the wielder finishes a short or long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Repulsion Shield</name>
+				<text>Prerequisite: 8th level</text>
+				<text>Item: A shield (requires attunement)</text>
+				<text/>
+				<text>A creature gains a +1 bonus to Armor Class while wielding this shield. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to push the attacker up to 15 feet away. Once used, this reaction can't be used again until the wielder finishes a short or long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Resistant Armor</name>
+				<text>Prerequisite: 8th level</text>
+				<text>Item: A suit of armor (requires attunement)</text>
+				<text/>
+				<text>While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8" IL="IL">
+			<feature optional="YES">
+				<name>Artificer Infusion: Boot of Winding Path</name>
+				<text>Prerequisite: 4th level</text>
+				<text>Item: A pair of boots (requires attunement)</text>
+				<text/>
+				<text>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Defense</name>
+				<text>Item: A suit of armor or a shield</text>
+				<text/>
+				<text>A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Wand</name>
+				<text>Item: A wand (requires attunement)</text>
+				<text/>
+				<text>While holding this wand, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Enhanced Weapon</name>
+				<text>Item: A simple or martial weapon</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</text>
+				<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Many-Handed Pouch</name>
+				<text>Prerequisite: 4th level</text>
+				<text>Item: 2–5 pouches</text>
+				<text/>
+				<text>The infused pouches all share one interdimensional space of the same capacity as a single pouch. Thus, reaching into any of the pouches allows access to the same storage space.A pouch operates as long as it is within 100 miles of another one of the pouches; the pouch is otherwise empty and won't accept any contents.</text>
+				<text>	If this infusion ends, the items stored in the shared space move into one of the pouches, determined at random. The rest of the pouchesbecome empty.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Repeating Shot</name>
+				<text>Item: A simple or martial weapon with the ammunition property (requires attunement)</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.</text>
+				<text>	The weapon requires no ammunition; it magically produces one piece of ammunition each time you make a ranged attack with it, unless you manually load it. The ammunition produced by the weapon vanishes the instant after the it hits or misses a target.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Replicate Magic Item</name>
+				<text/>
+				<text>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a differentmagic item that you can make with it, picking from the Replicable Magic Items tables below. If a table has a level in its title, you must be of at least that level in this class to choose an item from the table.</text>
+				<text>	In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</text>
+				<text/>
+				<text>Replicable Magic Items</text>
+				<text>Magic Item                 Attunement</text>
+				<text>Alchemy jug                No</text>
+				<text>Bag of holding             No</text>
+				<text>Cap of water breathing     No</text>
+				<text>Cloak of the manta ray     No</text>
+				<text>Goggles of night           No</text>
+				<text>Lantern of revealing       No</text>
+				<text>Rope of climbing           No</text>
+				<text>Sending stones             No</text>
+				<text>Wand of magic detection    No</text>
+				<text>Wand of secrets            No</text>
+				<text/>
+				<text>Replicable Magic Items (12th-Level Artificer)</text>
+				<text>Magic Item                          Attunement</text>
+				<text>Boots of elvenkind                  No</text>
+				<text>Boots of striding and springing     Yes</text>
+				<text>Boots of the winterlands            Yes</text>
+				<text>Bracers of archery                  Yes</text>
+				<text>Brooch of shielding                 Yes</text>
+				<text>Cloak of elvenkind                  Yes</text>
+				<text>Cloak of protection                 Yes</text>
+				<text>Eyes of charming                    Yes</text>
+				<text>Eyes of the eagle                   Yes</text>
+				<text>Gauntlets of ogre power             Yes</text>
+				<text>Gloves of missile snaring           Yes</text>
+				<text>Gloves of swimming and climbing     Yes</text>
+				<text>Gloves of thievery                  No</text>
+				<text>Hat of disguise                     Yes</text>
+				<text>Headband of intellect               Yes</text>
+				<text>Helm of telepathy                   Yes</text>
+				<text>Medallion of thoughts               Yes</text>
+				<text>Periapt of wound closure            Yes</text>
+				<text>Pipes of haunting                   No</text>
+				<text>Pipes of the sewers                 Yes</text>
+				<text>Quiver of Ehlonna                   No</text>
+				<text>Ring of jumping                     Yes</text>
+				<text>Ring of mind shielding              Yes</text>
+				<text>Ring of water walking               No</text>
+				<text>Slippers of spider climbing         Yes</text>
+				<text>Winged boots                        Yes</text>
+				<text/>
+				<text>Replicable Magic Items (16th-Level Artificer)</text>
+				<text>Item                           Attunement</text>
+				<text>Amulet of health               Yes</text>
+				<text>Belt of hill giant strength    Yes</text>
+				<text>Boots of levitation            Yes</text>
+				<text>Boots of speed                 Yes</text>
+				<text>Bracers of defense             Yes</text>
+				<text>Cloak of the bat               Yes</text>
+				<text>Dimensional shackles           No</text>
+				<text>Gem of seeing                  Yes</text>
+				<text>Horn of blasting               No</text>
+				<text>Ring of free action            Yes</text>
+				<text>Ring of protection             Yes</text>
+				<text>Ring of the ram                Yes</text>
+			</feature>
+			<feature optional="YES">
+				<name>Artificer Infusion: Returning Weapon</name>
+				<text>Item: A simple or martial weapon with the thrown property</text>
+				<text/>
+				<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="10">
+			<feature>
+				<name>The Right Cantrip for the Job</name>
+				<text>At 10th level, you gain the ability to make sure you have the right magical tool for a job. Whenever you finish a short or long rest, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list</text>
+			</feature>
+		</autolevel>
+		<autolevel level="12" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="14">
+			<!-- Archetype features -->
+		</autolevel>
+		<autolevel level="16" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="18">
+			<feature>
+				<name>Spell-Storing Item</name>
+				<text>When you reach 18th level, you learn how tostore a spell in an object for repeated use. Whenever you finish a long rest, you can touch one simple or martial weapon or an item that you can use as a spellcasting focus and store a spell in it, choosing one 1st- or 2nd-level spell from the artificer spell list that requires 1 action to cast (you don't need to have the spellprepared). With the object in hand, a creature can take an action to produce the spell's effectfrom it, using your spellcasting ability modifier</text>
+				<text>	The spell stays in the object until it has been used a number of times equal to twice yourIntelligence modifier (minimum of twice) or until you use this feature again.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="19" scoreImprovement="YES">
+		</autolevel>
+		<autolevel level="20">
+			<feature>
+				<name>Soul of Artifice</name>
+				<text>At 20th level, your understanding of magic items is unmatched, allowing you to mingle your soul with items linked to you. You can attune to up to six magic items at once. In addition, you gain a +1 bonus to all saving throws per magic item you are currently attuned to.</text>
+			</feature>
+		</autolevel>
+	</baseclass>
+	<spell>
+		<name>Arcane Weapon</name>
+		<level>1</level>
+		<school>T</school>
+		<time>1 bonus action</time>
+		<range>Self</range>
+		<components>V, S</components>
+		<duration>Concentration, up to 1 hour</duration>
+		<classes>Artificer</classes>
+		<text>You channel arcane energy into one simple or martial weapon you're holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. Until the spell ends, you deal an extra 1d6 damage of the chosen type to any target you hit with the weapon. If the weapon isn't magical, it becomes a magic weapon for the spell's duration.</text>
+		<text>	As a bonus action, you can change the damage type, choosing from the options above.</text>
+		<text>	At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can maintain your concentration on the spell for up to 8 hours.</text>
+	</spell>
+	<spellList class="Artificer">
+		<index name="Acid Splash"/>
+		<index name="Create Bonfire"/>
+		<index name="Dancing Lights"/>
+		<index name="Fire Bolt"/>
+		<index name="Frostbite"/>
+		<index name="Guidance"/>
+		<index name="Light"/>
+		<index name="Mage Hand"/>
+		<index name="Magic Stone"/>
+		<index name="Mending"/>
+		<index name="Message"/>
+		<index name="Poison Spray"/>
+		<index name="Prestidigitation"/>
+		<index name="Ray of Frost"/>
+		<index name="Resistance"/>
+		<index name="Shocking Grasp"/>
+		<index name="Spare the Dying"/>
+		<index name="Thorn Whip"/>
+		<index name="Thunderclap"/>
+		<index name="Absorb Elements"/>
+		<index name="Alarm"/>
+		<index name="Arcane Weapon"/>
+		<index name="Catapult"/>
+		<index name="Cure Wounds"/>
+		<index name="Detect Magic"/>
+		<index name="Disguise Self"/>
+		<index name="Expeditious Retreat"/>
+		<index name="Faerie Fire"/>
+		<index name="False Life"/>
+		<index name="Feather Fall"/>
+		<index name="Grease"/>
+		<index name="Identify"/>
+		<index name="Jump"/>
+		<index name="Longstrider"/>
+		<index name="Sanctuary"/>
+		<index name="Snare"/>
+		<index name="Aid"/>
+		<index name="Alter Self"/>
+		<index name="Arcane Lock"/>
+		<index name="Blur"/>
+		<index name="Continual Flame"/>
+		<index name="Darkvision"/>
+		<index name="Enhance Ability"/>
+		<index name="Enlarge/Reduce"/>
+		<index name="Heat Metal"/>
+		<index name="Invisibility"/>
+		<index name="Lesser Restoration"/>
+		<index name="Levitate"/>
+		<index name="Magic Mouth"/>
+		<index name="Magic Weapon"/>
+		<index name="Protection from Poison"/>
+		<index name="Pyrotechnics"/>
+		<index name="Rope Trick"/>
+		<index name="See Invisibility"/>
+		<index name="Skywrite"/>
+		<index name="Spider Climb"/>
+		<index name="Blink"/>
+		<index name="Catnap"/>
+		<index name="Dispel Magic"/>
+		<index name="Elemental Weapon"/>
+		<index name="Flame Arrows"/>
+		<index name="Fly"/>
+		<index name="Gaseous Form"/>
+		<index name="Glyph of Warding"/>
+		<index name="Haste"/>
+		<index name="Protection from Energy"/>
+		<index name="Revivify"/>
+		<index name="Tiny Servant"/>
+		<index name="Water Breathing"/>
+		<index name="Water Walk"/>
+		<index name="Arcane Eye"/>
+		<index name="Elemental Bane"/>
+		<index name="Fabricate"/>
+		<index name="Freedom of Movement"/>
+		<index name="Leomund's Secret Chest"/>
+		<index name="Mordenkainen's Faithful Hound"/>
+		<index name="Mordenkainen's Private Sanctum"/>
+		<index name="Otiluke's Resilient Sphere"/>
+		<index name="Stone Shape"/>
+		<index name="Stoneskin"/>
+		<index name="Vitriolic Sphere"/>
+		<index name="Animate Objects"/>
+		<index name="Bigby's Hand"/>
+		<index name="Creation"/>
+		<index name="Greater Restoration"/>
+		<index name="Skill Empowerment"/>
+		<index name="Transmute Rock"/>
+		<index name="Wall of Stone"/>
+	</spellList>
+	<!-- Artificer Infusions -->
+	<spell PS="PS">
+		<name>Artificer Infusion: Boot of Winding Path</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Prerequisite: 4th level</text>
+		<text>Item: A pair of boots (requires attunement)</text>
+		<text/>
+		<text>While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Enhanced Defense</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Item: A suit of armor or a shield</text>
+		<text/>
+		<text>A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.</text>
+		<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Enhanced Wand</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Item: A wand (requires attunement)</text>
+		<text/>
+		<text>While holding this wand, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.</text>
+		<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Enhanced Weapon</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Item: A simple or martial weapon</text>
+		<text/>
+		<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</text>
+		<text>	The bonus increases to +2 when you reach 12th level in this class.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Many-Handed Pouch</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Prerequisite: 4th level</text>
+		<text>Item: 2–5 pouches</text>
+		<text/>
+		<text>The infused pouches all share one interdimensional space of the same capacity as a single pouch. Thus, reaching into any of the pouches allows access to the same storage space.A pouch operates as long as it is within 100 miles of another one of the pouches; the pouch is otherwise empty and won't accept any contents.</text>
+		<text>	If this infusion ends, the items stored in the shared space move into one of the pouches, determined at random. The rest of the pouchesbecome empty.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Radiant Weapon</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Prerequisite: 8th level</text>
+		<text>Item: A simple or martial weapon (requires attunement)</text>
+		<text/>
+		<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.</text>
+		<text>	As a reaction immediately after being hit by a melee attack, the wielder can cause the attackerto be blinded until the end of the attacker's next turn, unless the attacker succeeds on aConstitution saving throw against your spell save DC. Once used, this reaction can't be used again until the wielder finishes a short or long rest.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Repeating Shot</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Item: A simple or martial weapon with the ammunition property (requires attunement)</text>
+		<text/>
+		<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.</text>
+		<text>	The weapon requires no ammunition; it magically produces one piece of ammunition each time you make a ranged attack with it, unless you manually load it. The ammunition produced by the weapon vanishes the instant after the it hits or misses a target.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Replicate Magic Item</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text/>
+		<text>Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a differentmagic item that you can make with it, picking from the Replicable Magic Items tables below. If a table has a level in its title, you must be of at least that level in this class to choose an item from the table.</text>
+		<text>	In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.</text>
+		<text/>
+		<text>Replicable Magic Items</text>
+		<text>Magic Item                 Attunement</text>
+		<text>Alchemy jug                No</text>
+		<text>Bag of holding             No</text>
+		<text>Cap of water breathing     No</text>
+		<text>Cloak of the manta ray     No</text>
+		<text>Goggles of night           No</text>
+		<text>Lantern of revealing       No</text>
+		<text>Rope of climbing           No</text>
+		<text>Sending stones             No</text>
+		<text>Wand of magic detection    No</text>
+		<text>Wand of secrets            No</text>
+		<text/>
+		<text>Replicable Magic Items (12th-Level Artificer)</text>
+		<text>Magic Item                          Attunement</text>
+		<text>Boots of elvenkind                  No</text>
+		<text>Boots of striding and springing     Yes</text>
+		<text>Boots of the winterlands            Yes</text>
+		<text>Bracers of archery                  Yes</text>
+		<text>Brooch of shielding                 Yes</text>
+		<text>Cloak of elvenkind                  Yes</text>
+		<text>Cloak of protection                 Yes</text>
+		<text>Eyes of charming                    Yes</text>
+		<text>Eyes of the eagle                   Yes</text>
+		<text>Gauntlets of ogre power             Yes</text>
+		<text>Gloves of missile snaring           Yes</text>
+		<text>Gloves of swimming and climbing     Yes</text>
+		<text>Gloves of thievery                  No</text>
+		<text>Hat of disguise                     Yes</text>
+		<text>Headband of intellect               Yes</text>
+		<text>Helm of telepathy                   Yes</text>
+		<text>Medallion of thoughts               Yes</text>
+		<text>Periapt of wound closure            Yes</text>
+		<text>Pipes of haunting                   No</text>
+		<text>Pipes of the sewers                 Yes</text>
+		<text>Quiver of Ehlonna                   No</text>
+		<text>Ring of jumping                     Yes</text>
+		<text>Ring of mind shielding              Yes</text>
+		<text>Ring of water walking               No</text>
+		<text>Slippers of spider climbing         Yes</text>
+		<text>Winged boots                        Yes</text>
+		<text/>
+		<text>Replicable Magic Items (16th-Level Artificer)</text>
+		<text>Item                           Attunement</text>
+		<text>Amulet of health               Yes</text>
+		<text>Belt of hill giant strength    Yes</text>
+		<text>Boots of levitation            Yes</text>
+		<text>Boots of speed                 Yes</text>
+		<text>Bracers of defense             Yes</text>
+		<text>Cloak of the bat               Yes</text>
+		<text>Dimensional shackles           No</text>
+		<text>Gem of seeing                  Yes</text>
+		<text>Horn of blasting               No</text>
+		<text>Ring of free action            Yes</text>
+		<text>Ring of protection             Yes</text>
+		<text>Ring of the ram                Yes</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Repulsion Shield</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Prerequisite: 8th level</text>
+		<text>Item: A shield (requires attunement)</text>
+		<text/>
+		<text>A creature gains a +1 bonus to Armor Class while wielding this shield. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to push the attacker up to 15 feet away. Once used, this reaction can't be used again until the wielder finishes a short or long rest.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Resistant Armor</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Prerequisite: 8th level</text>
+		<text>Item: A suit of armor (requires attunement)</text>
+		<text/>
+		<text>While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.</text>
+	</spell>
+	<spell PS="PS">
+		<name>Artificer Infusion: Returning Weapon</name>
+		<classes>Artificer Infusion</classes>
+		<level>1</level>
+		<text>Item: A simple or martial weapon with the thrown property</text>
+		<text/>
+		<text>This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</text>
+	</spell>
+</compendium>

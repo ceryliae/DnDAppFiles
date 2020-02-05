@@ -3,7 +3,8 @@
 	<monster>
 		<name>Derro</name>
 		<size>S</size>
-		<type>humanoid (derro), out of the abyss</type>
+		<type>humanoid (derro)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>13 (leather armor)</ac>
 		<hp>13 (3d6+3)</hp>
@@ -34,18 +35,19 @@
 		<action>
 			<name>Hooked Shortspear</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone.</text>
-			<attack>|2|1d4-1</attack>
+			<attack>Hooked Shortspear|2|1d4-1</attack>
 		</action>
 		<action>
 			<name>Light Repeating Crossbow</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Light Repeating Crossbow|4|1d8+2</attack>
 		</action>
 	</monster>
 	<monster>
 		<name>Derro Savant</name>
 		<size>S</size>
-		<type>humanoid (derro), out of the abyss</type>
+		<type>humanoid (derro)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>13 (leather armor)</ac>
 		<hp>49 (11d6+11)</hp>
@@ -76,7 +78,6 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:</text>
-			<text />
 			<text>Cantrips (at will): acid splash, light, mage hand, message, ray of frost</text>
 			<text>1st level (4 slots): burning hands, chromatic orb, sleep</text>
 			<text>2nd level (3 slots): invisibility, spider climb</text>
@@ -85,20 +86,21 @@
 		<action>
 			<name>Hooked Shortspear</name>
 			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone.</text>
-			<attack>|2|1d4-1</attack>
+			<attack>Hooked Shortspear|2|1d4-1</attack>
 		</action>
 		<action>
 			<name>Light Repeating Crossbow</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Light Repeating Crossbow|4|1d8+2</attack>
 		</action>
-		<spells>acid splash, light, mage hand, message, ray of frost, burning hands, chromatic orb, sleep, invisibility, spider climb, blink, lightning bolt</spells>
+		<spells>Acid Splash, Light, Mage Hand, Message, Ray of Frost, Burning Hands, Chromatic Orb, Sleep, Invisibility, Spider Climb, Blink, Lightning Bolt</spells>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Ixitxachitl</name>
 		<size>S</size>
-		<type>aberration, out of the abyss</type>
+		<type>aberration</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>18 (4d6+4)</hp>
@@ -116,19 +118,20 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<reaction>
 			<name>Barbed Tail</name>
 			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
-			<attack>|5|1d8+3</attack>
+			<attack>Barbed Tail|5|1d8+3</attack>
 		</reaction>
 	</monster>
 	<monster>
 		<name>Ixitxachitl Cleric</name>
 		<size>S</size>
-		<type>aberration, out of the abyss</type>
+		<type>aberration</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>18 (4d6+4)</hp>
@@ -146,7 +149,6 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:</text>
-			<text />
 			<text>Cantrips (at will): guidance, thaumaturgy</text>
 			<text>1st level (4 slots): charm person, create or destroy water</text>
 			<text>2nd level (3 slots): hold person, silence</text>
@@ -155,21 +157,22 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
-			<attack>|3|1d6+1</attack>
+			<attack>Bite|3|1d6+1</attack>
 		</action>
 		<reaction>
 			<name>Barbed Tail</name>
 			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
-			<attack>|5|1d8+3</attack>
+			<attack>Barbed Tail|5|1d8+3</attack>
 		</reaction>
-		<spells>guidance, thaumaturgy, charm person, create or destroy water, hold person, silence, dispel magic, tongues</spells>
+		<spells>Guidance, Thaumaturgy, Charm Person, Create or Destroy Water, Hold Person, Silence, Dispel Magic, Tongues</spells>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Vampiric Ixitxachitl</name>
 		<size>M</size>
-		<type>aberration, out of the abyss</type>
+		<type>aberration</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>44 (8d8+8)</hp>
@@ -187,19 +190,20 @@
 		<action>
 			<name>Vampiric Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Vampiric Bite|4|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Barbed Tail</name>
 			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
-			<attack>|6|1d10+4</attack>
+			<attack>Barbed Tail|6|1d10+4</attack>
 		</reaction>
 	</monster>
 	<monster>
 		<name>Vampiric Ixitxachitl Cleric</name>
 		<size>M</size>
-		<type>aberration, out of the abyss</type>
+		<type>aberration</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>44 (8d8+8)</hp>
@@ -217,7 +221,6 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:</text>
-			<text />
 			<text>Cantrips (at will): guidance, thaumaturgy</text>
 			<text>1st level (4 slots): charm person, create or destroy water</text>
 			<text>2nd level (3 slots): hold person, silence</text>
@@ -226,21 +229,22 @@
 		<action>
 			<name>Vampiric Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
-			<attack>|4|1d8+2</attack>
+			<attack>Vampiric Bite|4|1d8+2</attack>
 		</action>
 		<reaction>
 			<name>Barbed Tail</name>
 			<text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.</text>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</text>
-			<attack>|6|1d10+4</attack>
+			<attack>Barbed Tail|6|1d10+4</attack>
 		</reaction>
-		<spells>guidance, thaumaturgy, charm person, create or destroy water, hold person, silence, dispel magic, tongues</spells>
+		<spells>Guidance, Thaumaturgy, Charm Person, Create or Destroy Water, Hold Person, Silence, Dispel Magic, Tongues</spells>
 		<slots>4,3,2,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Duergar Darkhaft</name>
 		<size>M</size>
-		<type>humanoid (dwarf), out of the abyss</type>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>lawful evil</alignment>
 		<ac>16 (scale mail, shield)</ac>
 		<hp>26 (4d8+4)</hp>
@@ -259,7 +263,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The darkhaft's innate spellcasting ability is Intelligence (spell save DC 10) it can innately cast the following spells, requiring no components:</text>
-			<text />
+			<text/>
 			<text>At will: friends, mage hand</text>
 			<text>1/day each: disguise self, sleep</text>
 		</trait>
@@ -289,14 +293,15 @@
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
-			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.</text>
 		</action>
-		<spells>friends, mage hand, disguise self, sleep</spells>
+		<spells>Friends, Mage Hand, Disguise Self, Sleep</spells>
 	</monster>
 	<monster>
 		<name>Duergar Kavalrachni</name>
 		<size>M</size>
-		<type>humanoid (dwarf), out of the abyss</type>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>lawful evil</alignment>
 		<ac>16 (scale mail, shield)</ac>
 		<hp>26 (4d8+4)</hp>
@@ -318,7 +323,7 @@
 		</trait>
 		<trait>
 			<name>Cavalry Training</name>
-			<text>When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make a melee attack agains the same target as a reaction.</text>
+			<text>When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make a melee attack against the same target as a reaction.</text>
 		</trait>
 		<trait>
 			<name>Duergar Resilience</name>
@@ -347,17 +352,18 @@
 		<action>
 			<name>Heavy Crossbow</name>
 			<text>Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.</text>
-			<attack>|4|1d10</attack>
+			<attack>Heavy Crossbow|4|1d10</attack>
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
-			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.</text>
 		</action>
 	</monster>
 	<monster>
 		<name>Duergar Keeper of the Flame</name>
 		<size>M</size>
-		<type>humanoid (dwarf), out of the abyss</type>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>lawful evil</alignment>
 		<ac>16 (scale mail, shield)</ac>
 		<hp>26 (4d8+4)</hp>
@@ -376,14 +382,13 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:</text>
-			<text />
+			<text/>
 			<text>At will: friends, message</text>
 			<text>1/day: command</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:</text>
-			<text />
 			<text>Cantrips (at will): guidance, mending, sacred flame</text>
 			<text>1st level (4 slots): bane, inflict wounds, shield of faith</text>
 			<text>2nd level (2 slots): enhance ability, spiritual weapon</text>
@@ -414,15 +419,16 @@
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
-			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.</text>
 		</action>
-		<spells>friends, message, command, guidance, mending, sacred flame, bane, inflict wounds, shield of faith, enhance ability, spiritual weapon</spells>
+		<spells>Friends, Message, Command, Guidance, Mending, Sacred Flame, Bane, Inflict Wounds, Shield of Faith, Enhance Ability, Spiritual Weapon</spells>
 		<slots>4,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Duergar Soulblade</name>
 		<size>M</size>
-		<type>humanoid (dwarf), out of the abyss</type>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>lawful evil</alignment>
 		<ac>14 (leather armor)</ac>
 		<hp>18 (4d8)</hp>
@@ -449,7 +455,7 @@
 		<trait>
 			<name>Innate Spellcasting (Psionics)</name>
 			<text>The duergar's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no components:</text>
-			<text />
+			<text/>
 			<text>At will: blade ward, true strike</text>
 			<text>1/day each: jump, hunter's mark</text>
 		</trait>
@@ -463,20 +469,21 @@
 		</action>
 		<action>
 			<name>Soulblade</name>
-			<text>Melee Weapon Attackk: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.</text>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.</text>
 			<attack>Soulblade|5|1d6+3</attack>
 			<attack>Enlarged|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
-			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.</text>
 		</action>
-		<spells>blade ward, true strike, jump, hunter's mark</spells>
+		<spells>Blade Ward, True Strike, Jump, Hunter's Mark</spells>
 	</monster>
 	<monster>
 		<name>Duergar Stone Guard</name>
 		<size>M</size>
-		<type>humanoid (dwarf), out of the abyss</type>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>lawful evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>39 (6d8+12)</hp>
@@ -518,13 +525,14 @@
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
-			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.</text>
 		</action>
 	</monster>
 	<monster>
 		<name>Duergar Xarron</name>
 		<size>M</size>
-		<type>humanoid (dwarf), out of the abyss</type>
+		<type>humanoid (dwarf)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>lawful evil</alignment>
 		<ac>18 (platemail)</ac>
 		<hp>26 (4d8+8)</hp>
@@ -564,13 +572,14 @@
 		</action>
 		<action>
 			<name>Invisibility (Recharges after a Short or Long Rest)</name>
-			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .</text>
+			<text>The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.</text>
 		</action>
 	</monster>
 	<monster>
 		<name>Chuul Spore Servant</name>
 		<size>L</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>16 (natural armor)</ac>
 		<hp>93 (11d10+33)</hp>
@@ -600,7 +609,8 @@
 	<monster>
 		<name>Drow Spore Servant</name>
 		<size>M</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>15 (chain shirt)</ac>
 		<hp>13 (3d8)</hp>
@@ -625,7 +635,8 @@
 	<monster>
 		<name>Duergar Spore Servant</name>
 		<size>M</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>16 (scale armor, shield)</ac>
 		<hp>26 (4d8+8)</hp>
@@ -651,7 +662,8 @@
 	<monster>
 		<name>Hook Horror Spore Servant</name>
 		<size>M</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>75 (10d10+10)</hp>
@@ -681,7 +693,8 @@
 	<monster>
 		<name>Troglodyte Champion of Laogzed</name>
 		<size>M</size>
-		<type>humanoid (troglodyte), out of the abyss</type>
+		<type>humanoid (troglodyte)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>59 (7d8+28)</hp>
@@ -699,11 +712,11 @@
 		<cr>3</cr>
 		<trait>
 			<name>Chameleon Skin</name>
-			<text>The troglodyte has aadvantage on Dexterity (Stealth) checks made to hide.</text>
+			<text>The troglodyte has advantage on Dexterity (Stealth) checks made to hide.</text>
 		</trait>
 		<trait>
 			<name>Stench</name>
-			<text>Any creature other than a ttroglodyte that starts its turn within 5 feet of the troglodyte must succeed on a DC 14 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all ttroglodytes for 1 hour.</text>
+			<text>Any creature other than a troglodyte that starts its turn within 5 feet of the troglodyte must succeed on a DC 14 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.</text>
 		</trait>
 		<trait>
 			<name>Sunlight Sensitivity</name>
@@ -716,28 +729,29 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</text>
-			<attack>|6|1d4+4</attack>
+			<attack>Bite|6|1d4+4</attack>
 		</action>
 		<action>
 			<name>Claw</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.</text>
-			<attack>|6|1d4+4</attack>
+			<attack>Claw|6|1d4+4</attack>
 		</action>
 		<action>
 			<name>Greatclub</name>
 			<text>Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</text>
-			<attack>|6|1d8+4</attack>
+			<attack>Greatclub|6|1d8+4</attack>
 		</action>
 		<action>
 			<name>Acid Spray (Recharge 6)</name>
 			<text>The troglodyte spits acid in a line 15 feet long and 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>||3d6</attack>
+			<attack>Acid Spray||3d6</attack>
 		</action>
 	</monster>
 	<monster>
 		<name>Awakened Zurkhwood</name>
 		<size>H</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>59 (7d12+14)</hp>
@@ -765,13 +779,14 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.</text>
-			<attack>|6|3d6+4</attack>
+			<attack>Slam|6|3d6+4</attack>
 		</action>
 	</monster>
 	<monster>
 		<name>Bridesmaid of Zuggtmoy</name>
 		<size>M</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>22 (5d8)</hp>
@@ -802,7 +817,8 @@
 	<monster>
 		<name>Chamberlain of Zuggtmoy</name>
 		<size>L</size>
-		<type>plant, out of the abyss</type>
+		<type>plant</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>13 (natural armor)</ac>
 		<hp>45 (6d10+12)</hp>
@@ -837,17 +853,18 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.</text>
-			<attack>|5|2d6+3</attack>
+			<attack>Slam|5|2d6+3</attack>
 		</action>
 		<action>
 			<name>Infestation Spores (1/Day)</name>
-			<text>The chanberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<text>The chamberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
 		</action>
 	</monster>
 	<monster>
 		<name>Female Steeder</name>
 		<size>L</size>
-		<type>beast, out of the abyss</type>
+		<type>beast</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
 		<hp>30 (4d10+8)</hp>
@@ -874,19 +891,20 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>|5|1d8+3</attack>
-			<attack>||2d8</attack>
+			<attack>Bite|5|1d8+3</attack>
+			<attack>Acid||2d8</attack>
 		</action>
 		<action>
 			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
-			<attack>|5|</attack>
+			<attack>Sticky Leg|5|</attack>
 		</action>
 	</monster>
 	<monster>
 		<name>Male Steeder</name>
 		<size>M</size>
-		<type>beast, out of the abyss</type>
+		<type>beast</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>unaligned</alignment>
 		<ac>12 (natural armor)</ac>
 		<hp>13 (2d8+4)</hp>
@@ -913,19 +931,20 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>|4|1d8+2</attack>
-			<attack>||1d8</attack>
+			<attack>Bite|4|1d8+2</attack>
+			<attack>Acid||1d8</attack>
 		</action>
 		<action>
 			<name>Sticky Leg (Recharges when the Steeder Has No Creatures Grappled</name>
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)</text>
-			<attack>|4|</attack>
+			<attack>Sticky Leg|4|</attack>
 		</action>
 	</monster>
 	<monster>
 		<name>Droki</name>
 		<size>S</size>
-		<type>humanoid (derro), out of the abyss</type>
+		<type>humanoid (derro)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (studded leather)</ac>
 		<hp>31 (7d6+7)</hp>
@@ -952,14 +971,14 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Droki's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: minor illusion</text>
 			<text>1/day each: darkness, fear, shatter</text>
 		</trait>
 		<trait>
 			<name>Sneak Attack (1/Turn)</name>
 			<text>Droki deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage ont he attack roll, or when the target is within 5 feet of an ally of Droki that isn't incapacitated and Droki doesn't have disadvantage on the attack roll.</text>
-			<attack>||2d6</attack>
+			<attack>Sticky Leg||2d6</attack>
 		</trait>
 		<trait>
 			<name>Magic Resistance</name>
@@ -975,20 +994,21 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) piercing damage. The sword is coated with serpent venom that wears off after the first hit. A target subjected to the venom must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>|5|1d6+3</attack>
-			<attack>||3d6</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. The sword is coated with serpent venom that wears off after the first hit. A target subjected to the venom must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Sticky Leg|5|1d6+3</attack>
+			<attack>Poison||3d6</attack>
 		</action>
 		<reaction>
 			<name>Parry</name>
 			<text>Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon.</text>
 		</reaction>
-		<spells>minor illusion, darkness, fear, shatter</spells>
+		<spells>Minor Illusion, Darkness, Fear, Shatter</spells>
 	</monster>
 	<monster>
 		<name>Grisha</name>
 		<size>M</size>
-		<type>humanoid (Damaran human), out of the abyss</type>
+		<type>humanoid (damaran human)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>18 (chain mail, shield)</ac>
 		<hp>33 (6d8+6)</hp>
@@ -1007,11 +1027,10 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:</text>
-			<text />
 			<text>Cantrips (at will): guidance, light, sacred flame, thaumaturgy</text>
 			<text>1st level (4 slots): cure wounds, divine favor, inflict wounds, protection from good, shield of faith</text>
 			<text>2nd level (3 slots): continual flame, hold person, magic weapon, spiritual weapon</text>
-			<text>3rd level (3 slots): bestow curse, dispel magic, spirit guardian</text>
+			<text>3rd level (3 slots): bestow curse, dispel magic, spirit guardians</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1019,16 +1038,17 @@
 		</action>
 		<action>
 			<name>+1 Flail</name>
-			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage</text>
-			<attack>|5|1d8+3</attack>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage</text>
+			<attack>+1 Flail|5|1d8+3</attack>
 		</action>
-		<spells>guidance, light, sacred flame, thaumaturgy, cure wounds, divine favor, inflict wounds, protection from evil and good, shield of faith, continual flame, hold person, magic weapon, spiritual weapon, bestow curse, dispel magic, spirit guardian</spells>
+		<spells>Guidance, Light, Sacred Flame, Thaumaturgy, Cure Wounds, Divine Favor, Inflict Wounds, Protection from Evil and Good, Shield of Faith, Continual Flame, Hold Person, Magic Weapon, Spiritual Weapon, Bestow Curse, Dispel Magic, Spirit Guardians</spells>
 		<slots>4,3,3,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Narrak</name>
 		<size>S</size>
-		<type>humanoid (derro), out of the abyss</type>
+		<type>humanoid (derro)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>12 (15 to mage armor)</ac>
 		<hp>40 (9d6+9)</hp>
@@ -1055,7 +1075,6 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:			</text>
-			<text />
 			<text>Cantrips (at will): eldritch blast, friends, poison spray</text>
 			<text>1st level: armor of Agathys, charm person, hex</text>
 			<text>2nd level: hold person, ray of enfeeblement, spider climb</text>
@@ -1070,20 +1089,21 @@
 		</action>
 		<action>
 			<name>Shortsword</name>
-			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.</text>
-			<attack>|4|1d6+2</attack>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Shortsword|4|1d6+2</attack>
 		</action>
 		<reaction>
 			<name>One with Shadows</name>
 			<text>While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.</text>
 		</reaction>
-		<spells>eldritch blast, friends, poison spray, armor of agathys, charm person, hex, hold person, ray of enfeeblement, spider climb</spells>
+		<spells>Eldritch Blast, Friends, Poison Spray, Armor of Agathys, Charm Person, Hex, Hold Person, Ray of Enfeeblement, Spider Climb</spells>
 		<slots>0,2,0,0,0,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>The Pudding King</name>
 		<size>S</size>
-		<type>humanoid (gnome, shapechanger), out of the abyss</type>
+		<type>humanoid (gnome, shapechanger)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>13 (16 with mage armor)</ac>
 		<hp>49 (9d6+18)</hp>
@@ -1113,7 +1133,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: nondetection (self only)</text>
 			<text>1/day each: blindness/deafness, blur, disguise self</text>
 		</trait>
@@ -1124,7 +1144,6 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:</text>
-			<text />
 			<text>Cantrips (at will): acid splash, light, mage hand, poison spray, prestidigitation</text>
 			<text>1st level (4 slots): false life, mage armor, ray of sickness, shield</text>
 			<text>2nd level (3 slots): crown of madness, misty step</text>
@@ -1135,7 +1154,7 @@
 		<action>
 			<name>War Pick</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit 4 (1d8) piercing damage.</text>
-			<attack>|3|1d8</attack>
+			<attack>War Pick|3|1d8</attack>
 		</action>
 		<action>
 			<name>Change Shape</name>
@@ -1145,13 +1164,14 @@
 			<name>Create Green Slime (Recharges after a Long Rest)</name>
 			<text>The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.</text>
 		</action>
-		<spells>acid splash, light, mage hand, poison spray, prestidigitation, false life, mage armor, ray of sickness, shield, crown of madness, misty step, gaseous form, stinking cloud, blight, confusion, cloudkill</spells>
+		<spells>Acid Splash, Light, Mage Hand, Poison Spray, Prestidigitation, False Life, Mage Armor, Ray of Sickness, Shield, Crown of Madness, Misty Step, Gaseous Form, Stinking Cloud, Blight, Confusion, Cloudkill</spells>
 		<slots>4,3,3,3,1,0,0,0,0</slots>
 	</monster>
 	<monster>
 		<name>Yestabrod</name>
 		<size>L</size>
-		<type>monstrosity, out of the abyss</type>
+		<type>monstrosity</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (natural armor)</ac>
 		<hp>75 (10d10+20)</hp>
@@ -1175,15 +1195,15 @@
 		<action>
 			<name>Slam</name>
 			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.</text>
-			<attack>|3|3d4+1+3d4</attack>
+			<attack>Slam|3|3d4+1+3d4</attack>
 		</action>
 		<action>
 			<name>Caustic Spores (1/Day)</name>
-			<text>Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw ortake 1d6 acid damage at the start of each of Yestbrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success.</text>
+			<text>Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a DC 12 Dexterity saving throw or take 1d6 acid damage at the start of each of Yestbrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success.</text>
 		</action>
 		<action>
 			<name>Infestation Spores (1/Day)</name>
-			<text>Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfecte, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
+			<text>Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 12 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the "Myconids" entry in the Monster Manual).</text>
 		</action>
 		<legendary>
 			<name/>
@@ -1192,18 +1212,19 @@
 		<legendary>
 			<name>Corpse Burst</name>
 			<text>Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod. Creatures within 10 feet of the corpse must succeed on a DC 12 Dexterity saving throw or take 7 (2d6) acid damage.</text>
-			<attack>||2d6</attack>
+			<attack>Corpse Burst||2d6</attack>
 		</legendary>
 		<legendary>
 			<name>Foul Absorption</name>
 			<text>Yestabrod absorbs putrescence from a corpse within 5 feet of it, regaining 1d8 + 2 hit points</text>
-			<attack>||1d8+2</attack>
+			<attack>Foul Absorption||1d8+2</attack>
 		</legendary>
 	</monster>
 	<monster>
 		<name>Baphomet</name>
 		<size>H</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>333 (23d12+184)</hp>
@@ -1226,12 +1247,12 @@
 		<trait>
 			<name>Charge</name>
 			<text>If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 22 (4d10) piercing damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked prone.</text>
-			<attack>||4d10</attack>
+			<attack>Charge||4d10</attack>
 		</trait>
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: detect magic</text>
 			<text>3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone</text>
 			<text>1/day each: teleport</text>
@@ -1263,17 +1284,17 @@
 		<action>
 			<name>Heartcleaver</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage</text>
-			<attack>|17|4d6+10</attack>
+			<attack>Heartcleaver|17|4d6+10</attack>
 		</action>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 19 (2d8+10) piercing damage.</text>
-			<attack>|17|2d8+10</attack>
+			<attack>Bite|17|2d8+10</attack>
 		</action>
 		<action>
 			<name>Gore</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) piercing damage.</text>
-			<attack>|17|2d10+10</attack>
+			<attack>Gore|17|2d10+10</attack>
 		</action>
 		<action>
 			<name>Frightful Presence</name>
@@ -1287,19 +1308,20 @@
 		<legendary>
 			<name>Heartcleaver attack</name>
 			<text>Baphomet makes a melee attack with Heartcleaver.</text>
-			<attack>|17|4d6+10</attack>
+			<attack>Heartcleaver attack|17|4d6+10</attack>
 		</legendary>
 		<legendary>
 			<name>Charge (Costs 2 actions)</name>
 			<text>Baphomet moves up to his speed, then makes a gore attack.</text>
-			<attack>|17|2d10+10</attack>
+			<attack>Charge|17|2d10+10</attack>
 		</legendary>
-		<spells>detect magic, dispel magic, dominate beast, hunter's mark, maze, wall of stone, teleport</spells>
+		<spells>Detect Magic, Dispel Magic, Dominate Beast, Hunter's Mark, Maze, Wall of Stone, Teleport</spells>
 	</monster>
 	<monster>
 		<name>Demogorgon</name>
 		<size>H</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>496 (34d12+272)</hp>
@@ -1322,7 +1344,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: detect magic, major image</text>
 			<text>3/day each: dispel magic, fear, telekinesis</text>
 			<text>1/day each: feeblemind, project image</text>
@@ -1341,7 +1363,7 @@
 		</trait>
 		<trait>
 			<name>Two Heads</name>
-			<text>Demogorgon has advantage on saving throws against being blinded, defened, stunned, and knocked unconscious.</text>
+			<text>Demogorgon has advantage on saving throws against being blinded, deafened, stunned, and knocked unconscious.</text>
 		</trait>
 		<action>
 			<name>Multiattack</name>
@@ -1350,7 +1372,7 @@
 		<action>
 			<name>Tentacle</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</text>
-			<attack>|17|4d12+9</attack>
+			<attack>Tentacle|17|4d12+9</attack>
 		</action>
 		<action>
 			<name>Gaze</name>
@@ -1362,23 +1384,24 @@
 		</action>
 		<legendary>
 			<name/>
-			<text>Demogorgon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Demogorgon regains spent legendary actions at the start of his turn.</text>
+			<text>Demogorgon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Demogorgon regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage plus 22 (4d10) necrotic damage.</text>
-			<attack>|17|4d10+9+4d10</attack>
+			<attack>Tail|17|4d10+9+4d10</attack>
 		</legendary>
 		<legendary>
 			<name>Maddening Gaze</name>
 			<text>Demogorgon uses his Gaze action, and must choose either the Beguiling Gaze or the Insanity Gaze effect.</text>
 		</legendary>
-		<spells>detect magic, major image, dispel magic, fear, telekinesis, feeblemind, project image</spells>
+		<spells>Detect Magic, Major Image, Dispel Magic, Fear, Telekinesis, Feeblemind, Project Image</spells>
 	</monster>
 	<monster>
 		<name>Fraz-Urb'luu</name>
 		<size>L</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>350 (28d10+196)</hp>
@@ -1401,8 +1424,8 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:</text>
-			<text />
-			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force</text>
+			<text/>
+			<text>At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasmal force</text>
 			<text>3/day each: confusion, dream, mislead, programmed illusion, seeming</text>
 			<text>1/day each: mirage arcane, modify memory, project image</text>
 		</trait>
@@ -1429,32 +1452,33 @@
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) piercing damage.</text>
-			<attack>|16|4d6+9</attack>
+			<attack>Bite|16|4d6+9</attack>
 		</action>
 		<action>
 			<name>Fist</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) bludgeoning damage.</text>
-			<attack>|16|4d8+9</attack>
+			<attack>Fist|16|4d8+9</attack>
 		</action>
 		<legendary>
 			<name/>
-			<text>Fraz-Urb'luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Fraz-Urb'luu regains spent legendary actions at the start of his turn.</text>
+			<text>Fraz-Urb'luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Fraz-Urb'luu regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb'luu can grapple only one creature with his tail at a time.</text>
-			<attack>|16|4d10+9</attack>
+			<attack>Tail|16|4d10+9</attack>
 		</legendary>
 		<legendary>
 			<name>Phantasmal Killer (Costs 2 Actions)</name>
 			<text>Fraz-Urb'luu casts phantasmal killer, no concentration required.</text>
 		</legendary>
-		<spells>alter self, detect magic, dispel magic, phantasamal force, confusion, dream, mislead, programmed illusion, seeming, mirage arcane, modify memory, project image</spells>
+		<spells>Alter Self, Detect Magic, Dispel Magic, Phantasmal Force, Confusion, Dream, Mislead, Programmed Illusion, Seeming, Mirage Arcane, Modify Memory, Project Image</spells>
 	</monster>
 	<monster>
 		<name>Graz'zt</name>
 		<size>L</size>
-		<type>fiend (demon, shapechanger), out of the abyss</type>
+		<type>fiend (demon, shapechanger)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>20 (natural armor)</ac>
 		<hp>378 (36d10+180)</hp>
@@ -1481,7 +1505,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers</text>
 			<text>3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport</text>
 			<text>1/day each: dominate monster, greater invisibility</text>
@@ -1505,7 +1529,7 @@
 		<action>
 			<name>Wave of Sorrow (Greatsword)</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target, Hit; 20 (4d6 + 6) slashing damage plus 14 (4d6) acid damage.</text>
-			<attack>|13|4d6+6+4d6</attack>
+			<attack>Wave of Sorrow|13|4d6+6+4d6</attack>
 		</action>
 		<action>
 			<name>Teleport</name>
@@ -1513,7 +1537,7 @@
 		</action>
 		<legendary>
 			<name/>
-			<text>Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Graz'zt regains spent legendary actions at the start of his turn.</text>
+			<text>Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Graz'zt regains spent legendary actions at the start of his turn.</text>
 		</legendary>
 		<legendary>
 			<name>Attack</name>
@@ -1531,12 +1555,13 @@
 			<name>Teleport</name>
 			<text>Graz'zt uses his Teleport action.</text>
 		</legendary>
-		<spells>charm person, crown of madness, detect magic, dispel magic, dissonant whispers, counterspell, darkness, dominate person, sanctuary, telekinesis, teleport, dominate monster, greater invisibility</spells>
+		<spells>Charm Person, Crown of Madness, Detect Magic, Dispel Magic, Dissonant Whispers, Counterspell, Darkness, Dominate Person, Sanctuary, Telekinesis, Teleport, Dominate Monster, Greater Invisibility</spells>
 	</monster>
 	<monster>
 		<name>Juiblex</name>
 		<size>H</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>350 (28d12+168)</hp>
@@ -1563,7 +1588,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: acid splash (17th level), detect magic</text>
 			<text>3/day each: blight, contagion, gaseous form</text>
 		</trait>
@@ -1594,12 +1619,12 @@
 		<action>
 			<name>Acid Lash</name>
 			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) acid damage. Any creature killed by this attack is drawn into Juiblex's body, and the corpse is obliterated after 1 minute.</text>
-			<attack>|14|4d6+7</attack>
+			<attack>Acid Lash|14|4d6+7</attack>
 		</action>
 		<action>
 			<name>Eject Slime (Recharge 5—6)</name>
 			<text>Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 (10d10) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent -1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent -1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to -5, the object is destroyed.</text>
-			<attack>||10d10</attack>
+			<attack>Eject Slime||10d10</attack>
 		</action>
 		<legendary>
 			<name/>
@@ -1616,14 +1641,15 @@
 		<legendary>
 			<name>Corrupting Touch (Costs 2 Actions)</name>
 			<text>Melee Weapon Attack: +14 to hit, reach 10 ft., one creature. Hit: 21 (4d6+ 7) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is poisoned, and any creature, other than an ooze, is poisoned while Within 10 of the target.</text>
-			<attack>|14|4d6+7</attack>
+			<attack>Corrupting Touch|14|4d6+7</attack>
 		</legendary>
-		<spells>acid splash, detect magic, blight, contagion, gaseous form</spells>
+		<spells>Acid Splash, Detect Magic, Blight, Contagion, Gaseous Form</spells>
 	</monster>
 	<monster>
 		<name>Orcus</name>
 		<size>H</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>17 (natural armor)</ac>
 		<hp>405 (30d12+210)</hp>
@@ -1651,7 +1677,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: chill touch (17th level), detect magic</text>
 			<text>3/day each: create undead, dispel magic</text>
 			<text>1/day: time stop</text>
@@ -1679,12 +1705,12 @@
 		<action>
 			<name>Wand of Orcus</name>
 			<text>Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) bludgeoning damage plus 13 (2d12) necrotic damage.</text>
-			<attack>|19|3d8+8+2d12</attack>
+			<attack>Wand of Orcus|19|3d8+8+2d12</attack>
 		</action>
 		<action>
 			<name>Tail</name>
 			<text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage plus 18 (4d8) poison damage.</text>
-			<attack>|17|3d8+8+4d8</attack>
+			<attack>Tail|17|3d8+8+4d8</attack>
 		</action>
 		<legendary>
 			<name/>
@@ -1702,12 +1728,13 @@
 			<name>Creeping Death (Costs 2 Actions)</name>
 			<text>Orcus chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of Orcus's next turn. Creatures in that area are vulnerable to necrotic damage.</text>
 		</legendary>
-		<spells>chill touch, detect magic, create undead, dispel magic, time stop</spells>
+		<spells>Chill Touch, Detect Magic, Create Undead, Dispel Magic, Time Stop</spells>
 	</monster>
 	<monster>
 		<name>Yeenoghu</name>
 		<size>H</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>22 (natural armor)</ac>
 		<hp>348 (24d12+192)</hp>
@@ -1730,7 +1757,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: detect magic, spiritual weapon (8th-level spell, 4d8 + 2 force damage on a hit, appears as a flail)</text>
 			<text>3/day each: dispel magic, fear, invisibility</text>
 			<text>1/day: teleport</text>
@@ -1761,12 +1788,12 @@
 		<action>
 			<name>Flail</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (2d12 + 9) bludgeoning damage.</text>
-			<attack>|16|2d12+9</attack>
+			<attack>Flail|16|2d12+9</attack>
 		</action>
 		<action>
 			<name>Bite</name>
 			<text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) piercing damage.</text>
-			<attack>|16|4d10+9</attack>
+			<attack>Bite|16|4d10+9</attack>
 		</action>
 		<legendary>
 			<name/>
@@ -1784,12 +1811,13 @@
 			<name>Savage (Costs 2 Actions)</name>
 			<text>Yeenoghu makes a bite attack against each creature within 10 feet of him.</text>
 		</legendary>
-		<spells>detect magic, spiritual weapon, dispel magic, fear, invisibility, teleport</spells>
+		<spells>Detect Magic, Spiritual Weapon, Dispel Magic, Fear, Invisibility, Teleport</spells>
 	</monster>
 	<monster>
 		<name>Zuggtmoy</name>
 		<size>L</size>
-		<type>fiend (demon), out of the abyss</type>
+		<type>fiend (demon)</type>
+		<description>Source: Out of the Abyss</description>
 		<alignment>chaotic evil</alignment>
 		<ac>18 (natural armor)</ac>
 		<hp>304 (32d10+128)</hp>
@@ -1812,7 +1840,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:</text>
-			<text />
+			<text/>
 			<text>At will: detect magic, locate animals or plants, ray of sickness</text>
 			<text>3/day each: dispel magic, ensnaring strike, entangle, plant growth</text>
 			<text>1/day: etherealness, teleport</text>
@@ -1836,7 +1864,7 @@
 		<action>
 			<name>Pseudopod</name>
 			<text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 9 (2d8) poison damage.</text>
-			<attack>|13|2d8+6+2d8</attack>
+			<attack>Pseudopod|13|2d8+6+2d8</attack>
 		</action>
 		<action>
 			<name>Infestation Spores (3/Day)</name>
@@ -1858,6 +1886,35 @@
 			<name>Exert Will</name>
 			<text>One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates.</text>
 		</legendary>
-		<spells>detect magic, locate animals or plants, ray of sickness, dispel magic, ensnaring strike, entangle, plant growth, etherealness, teleport</spells>
+		<spells>Detect Magic, Locate Animals or Plants, Ray of Sickness, Dispel Magic, Ensnaring Strike, Entangle, Plant Growth, Etherealness, Teleport</spells>
+	</monster>
+	<monster>
+		<name>Giant Rocktopus</name>
+		<size>L</size>
+		<type>beast</type>
+		<description>Source: Out of the Abyss</description>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>52 (8d10+8)</hp>
+		<speed>20 ft., climb 10 ft.</speed>
+		<str>17</str>
+		<dex>13</dex>
+		<con>13</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>4</cha>
+		<skill>Perception +4, Stealth +5</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<cr>1</cr>
+		<trait>
+			<name>Camouflage</name>
+			<text>The octopus has advantage on Dexterity (Stealth) checks.</text>
+		</trait>
+		<action>
+			<name>Tentacles</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</text>
+			<attack>Tentacles|5|2d6+3</attack>
+		</action>
 	</monster>
 </compendium>

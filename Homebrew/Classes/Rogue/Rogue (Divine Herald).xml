@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" HB="HB">
+	<subclass baseclass="Rogue">
+		<name>Rogue (Divine Herald)</name>
+		<spellAbility>Wisdom</spellAbility>
+		<autolevel level="3">
+			<slots optional="YES">3,2,0,0,0</slots>
+		</autolevel>
+		<autolevel level="4">
+			<slots optional="YES">3,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="5">
+			<slots optional="YES">3,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="6">
+			<slots optional="YES">3,3,0,0,0</slots>
+		</autolevel>
+		<autolevel level="7">
+			<slots optional="YES">3,4,2,0,0</slots>
+		</autolevel>
+		<autolevel level="8">
+			<slots optional="YES">3,4,2,0,0</slots>
+		</autolevel>
+		<autolevel level="9">
+			<slots optional="YES">3,4,2,0,0</slots>
+		</autolevel>
+		<autolevel level="10">
+			<slots optional="YES">4,4,3,0,0</slots>
+		</autolevel>
+		<autolevel level="11">
+			<slots optional="YES">4,4,3,0,0</slots>
+		</autolevel>
+		<autolevel level="12">
+			<slots optional="YES">4,4,3,0,0</slots>
+		</autolevel>
+		<autolevel level="13">
+			<slots optional="YES">4,4,3,2,0</slots>
+		</autolevel>
+		<autolevel level="14">
+			<slots optional="YES">4,4,3,2,0</slots>
+		</autolevel>
+		<autolevel level="15">
+			<slots optional="YES">4,4,3,2,0</slots>
+		</autolevel>
+		<autolevel level="16">
+			<slots optional="YES">4,4,3,3,0</slots>
+		</autolevel>
+		<autolevel level="17">
+			<slots optional="YES">4,4,3,3,0</slots>
+		</autolevel>
+		<autolevel level="18">
+			<slots optional="YES">4,4,3,3,0</slots>
+		</autolevel>
+		<autolevel level="19">
+			<slots optional="YES">4,4,3,3,1</slots>
+		</autolevel>
+		<autolevel level="20">
+			<slots optional="YES">4,4,3,3,1</slots>
+		</autolevel>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Roguish Archetype: Divine Herald</name>
+				<text>Your strict upbringing has made you an unwavering and swift agent of divine retribution. You don't simply exist to serve the priests of your order, you have a higher purpose and calling, to alleviate the world of false prophets and heretics.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Divine Herald: Spellcasting</name>
+				<text>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the cleric spell list.</text>
+				<text>Cantrips. You learn three cantrips of your choice from the cleric sell list. You learn another cleric cantrip of your choice at 10th level.</text>
+				<text>Spell Slots. The Divine Herald Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</text>
+				<text>For example, if you know the 1st-level spell cure wounds and you have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</text>
+				<text>Spells Known of 1st-Level and Higher. You know three 1st-level cleric spells of your choice.</text>
+				<text>The Spells Known column of the Divine Herald Spellcasting table shows when you learn more cleric spells of 1st level or higher. The spells must be of a level for which you have spell slots. Casting the spell doesn't remove it from your list of known spells.</text>
+				<text>Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. The new spell must be of a level for which you have spell slots.</text>
+				<text>Spellcasting Ability. Wisdom is your spellcasting ability for your cleric spells, since you learn your spells through dedicated study and memorization. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</text>
+				<text>Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</text>
+				<text>Spell attack modifier = your proficiency bonus + your Wisdom modifier</text>
+			</feature>
+			<feature optional="YES">
+				<name>Divine Herald: Harbinger of Faith</name>
+				<text>Starting at 3rd level, your Sneak Attack deals radiant damage instead of dealing the damage of the same type as your weapon. If you follow an evil god, it deals necrotic damage instead.</text>
+				<text>	Additionally, when you hit a creature with a weapon attack on your turn, you can instill doubt in your target, causing it to question its convictions. The target must make a successful Wisdom saving throw or suffer disadvantage on the next attack it makes within 1 minute. You can use this feature an amount of times equal to your Wisdom modifier (minimum of 1). You regain all uses after a long rest.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Dogma Votary</name>
+				<text>At 3rd level, your studies have given you a wide knowledge of religion and its impact on life. Whenever you make an Intelligence (History or Religion) check to recall information about the gods or their worshipers, you are considered proficient in these skills and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="9">
+			<feature optional="YES">
+				<name>Divine Herald: Guise of the Believer</name>
+				<text>Starting at 9th level, your time spent among the zealous gives you impeccable insight into their mannerisms, speech patterns, and venerable demeanor, even outside of your religious affiliation.</text>
+				<text>	When posing as a member of a religious organization, your identity is unquestioned by the masses. You have advantage on Charisma (Deception) checks you make against a discerning creature to expose your guise.</text>
+				<text>	Additionally, you can instill further doubt in your target, granting them disadvantage in the contest with your posturing. Once you have used this feature, you must finish a short or long rest before you can use it again.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="13">
+			<feature optional="YES">
+				<name>Divine Herald: Crosier of Penance</name>
+				<text>At 13th level, your fire of your faith makes you difficult to extinguish. When you are reduced to 0 hit points and don't die outright, you can make a DC 10 Wisdom saving throw. If you succeed, you can immediately roll any number of Hit Dice and regain hit points equal to the result.</text>
+				<text>	After the saving throw succeeds, you can't cast a spell or use this feature again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Divine Herald: Last Rites</name>
+				<text>At 17th level, when you hit a creature that is below its hit point maximum, you can use your Sneak Attack feature on that creature, even if you are at disadvantage.</text>
+				<text>	This damage increases by 1d6 if the target is undead, fiend, or celestial.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<borrowSpells fromClass="Cleric" class="Rogue (Divine Herald)"/>
+</compendium>

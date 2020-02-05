@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Cleric">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Protection)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Protection (UA)</name>
+				<text>The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods' faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind. Deities who grant this domain include Helm, Ilmater, Torm, Tyr, Heironeous, St. Cuthbert, Paladine, Dol Dorn, the Silver Flame, Bahamut, Yondalla, Athena, and Odin.</text>
+				<text>Protection Domain Spells</text>
+				<text>1st - compelled duel, protection from evil and good</text>
+				<text>3rd - aid, protection from poison</text>
+				<text>5th - protection from energy, slow</text>
+				<text>7th - guardian of faith, Otiluke's resilient sphere</text>
+				<text>9th - antilife shell, wall of force</text>
+				<text/>
+				<text>This Divine Domain is from Unearthed Arcana: Cleric Divine Domains, and as such may not be allowed in your game. Consult your DM before choosing this option.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Protection Domain: Bonus Proficiency</name>
+				<text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Protection Domain: Shield of the Faithful</name>
+				<text>Starting at 1st level, you gain the ability to hinder attacks intended for others. When a creature attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. To do so, you must be able to see both the attacker and the target. You interpose an arm, a shield, or some other part of yourself to try to throw the attack off target.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Protection Domain Channel Divinity: Radiant Defense</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to cloak your allies in radiant armor.</text>
+				<text>	As an action, you channel blessed energy into an ally that you can see within 30 feet of you. The first time that ally is hit by an attack within the next minute, the attacker takes radiant damage equal to 2d10 + your cleric level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Protection Domain: Blessed Healer</name>
+				<text>Beginning at 6th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell's level.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Protection Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Protection Domain: Indomitable Defense</name>
+				<text>At 17th level, you gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing. Whenever you finish a short or long rest, you can change the damage types you chose.</text>
+				<text>	As an action, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until the end of your next short or long rest or until you transfer it back to yourself as a bonus action.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Protection)">
+		<index name="Compelled Duel"/>
+		<index name="Protection from Evil and Good"/>
+		<index name="Aid"/>
+		<index name="Protection from Poison"/>
+		<index name="Protection from Energy"/>
+		<index name="Slow"/>
+		<index name="Guardian of Faith"/>
+		<index name="Otiluke's Resilient Sphere"/>
+		<index name="Antilife Shell"/>
+		<index name="Wall of Force"/>
+	</spellList>
+</compendium>

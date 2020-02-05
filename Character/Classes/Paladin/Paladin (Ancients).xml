@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Paladin">
+		<name>Paladin (Ancients)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Sacred Oath: Oath of the Ancients</name>
+				<text>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world.</text>
+				<text/>
+				<text>Tenets of the Ancients</text>
+				<text/>
+				<text>The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.</text>
+				<text>	Kindle the Light. Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.</text>
+				<text>	Shelter the Light. Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.</text>
+				<text>	Preserve Your Own Light. Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.</text>
+				<text>	Be the Light. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Ancients Channel Divinity: Nature's Wrath</name>
+				<text>You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Ancients Channel Divinity: Turn the Faithless</name>
+				<text>You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</text>
+				<text>	A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</text>
+				<text>	If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Oath of the Ancients: Oath Spells</name>
+				<text>You gain oath spells at the paladin levels listed.</text>
+				<text/>
+				<text>3rd - ensnaring strike, speak with animals</text>
+				<text/>
+				<text>5th - moonbeam, misty step</text>
+				<text/>
+				<text>9th - plant growth, protection from energy</text>
+				<text/>
+				<text>13th - ice storm, stoneskin</text>
+				<text/>
+				<text>17th - commune with nature, tree stride</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Oath of the Ancients: Aura of Warding</name>
+				<text>Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.</text>
+				<text>	At 18th level, the range of this aura increases to 30 feet.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Oath of the Ancients: Undying Sentinel</name>
+				<text>Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.</text>
+				<text>	Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="20">
+			<feature optional="YES">
+				<name>Oath of the Ancients: Elder Champion</name>
+				<text>At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or mosslike, or you might sprout antlers or a lion-like mane.</text>
+				<text>	Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:</text>
+				<text/>
+				<text>• At the start of each of your turns, you regain 10 hit points.</text>
+				<text>• Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.</text>
+				<text>• Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.</text>
+				<text/>
+				<text>	Once you use this feature, you can't use it again until you finish a long rest.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Paladin (Ancients)">
+		<index name="Commune with Nature"/>
+		<index name="Ensnaring Strike"/>
+		<index name="Ice Storm"/>
+		<index name="Misty Step"/>
+		<index name="Moonbeam"/>
+		<index name="Plant Growth"/>
+		<index name="Protection from Energy"/>
+		<index name="Speak with Animals"/>
+		<index name="Stoneskin"/>
+		<index name="Tree Stride"/>
+	</spellList>
+</compendium>

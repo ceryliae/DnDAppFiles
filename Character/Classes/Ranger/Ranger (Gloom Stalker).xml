@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Ranger">
+		<name>Ranger (Gloom Stalker)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Ranger Conclave: Gloom Stalker</name>
+				<text>Gloom stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a gloom stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gloom Stalker: Gloom Stalker Magic</name>
+				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</text>
+				<text/>
+				<text>3rd-disguise self</text>
+				<text>5th-rope trick</text>
+				<text>9th-fear</text>
+				<text>13th-greater invisibility</text>
+				<text>17th-seeming</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gloom Stalker: Dread Ambusher</name>
+				<text>At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.</text>
+				<text>	At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon's damage type.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Gloom Stalker: Umbral Sight</name>
+				<text>At 3rd level, you gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.</text>
+				<text>	You are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature optional="YES">
+				<name>Gloom Stalker: Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Gloom Stalker: Iron Mind</name>
+				<text>By 7th level, you have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</text>
+				<proficiency>Wisdom</proficiency>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Gloom Stalker: Stalker's Flurry</name>
+				<text>At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Gloom Stalker: Shadowy Dodge</name>
+				<text>Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Ranger (Gloom Stalker)">
+		<index name="Disguise Self"/>
+		<index name="Rope Trick"/>
+		<index name="Fear"/>
+		<index name="Greater Invisibility"/>
+		<index name="Seeming"/>
+	</spellList>
+</compendium>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+	<subclass baseclass="Cleric">
+		<name>Cleric (Tempest)</name>
+		<autolevel level="1">
+			<feature optional="YES">
+				<name>Divine Domain: Tempest</name>
+				<text>Gods whose portfolios include the Tempest domain - including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor - govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.</text>
+				<text/>
+				<text>Tempest Domain Spells: At each indicated cleric level, you add the listed spells to your spells prepared.</text>
+				<text/>
+				<text>1st - fog cloud, thunderwave</text>
+				<text/>
+				<text>3rd - gust of wind, shatter</text>
+				<text/>
+				<text>5th - call lightning, sleet storm</text>
+				<text/>
+				<text>7th - control water, ice storm</text>
+				<text/>
+				<text>9th - destructive wave, insect plague</text>
+			</feature>
+			<feature optional="YES">
+				<name>Tempest Domain: Bonus Proficiencies</name>
+				<text>At 1st level, you gain proficiency with martial weapons and heavy armor.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Tempest Domain: Wrath of the Storm</name>
+				<text>Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.</text>
+				<text>	You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="2">
+			<feature optional="YES">
+				<name>Tempest Domain Channel Divinity: Destructive Wrath</name>
+				<text>Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.</text>
+				<text>	When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Tempest Domain: Thunderbolt Strike</name>
+				<text>At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="8">
+			<feature optional="YES">
+				<name>Tempest Domain: Divine Strike</name>
+				<text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="17">
+			<feature optional="YES">
+				<name>Tempest Domain: Stormborn</name>
+				<text>At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Cleric (Tempest)">
+		<index name="Call Lightning"/>
+		<index name="Control Water"/>
+		<index name="Destructive Wave"/>
+		<index name="Fog Cloud"/>
+		<index name="Gust of Wind"/>
+		<index name="Ice Storm"/>
+		<index name="Insect Plague"/>
+		<index name="Shatter"/>
+		<index name="Sleet Storm"/>
+		<index name="Thunderwave"/>
+	</spellList>
+</compendium>

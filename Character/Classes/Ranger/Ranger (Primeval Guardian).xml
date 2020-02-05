@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Ranger &amp; Rogue">
+	<subclass baseclass="Ranger">
+		<name>Ranger (Primeval Guardian)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Ranger Conclave: Primeval Guardian (UA)</name>
+				<text>Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.</text>
+				<text>	These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Primeval Guardian: Guardian Magic</name>
+				<text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.</text>
+				<text/>
+				<text>3rd-entangle</text>
+				<text>5th-enhance ability</text>
+				<text>9th-conjure animals</text>
+				<text>13th-giant insect</text>
+				<text>17th-insect plague</text>
+			</feature>
+			<feature optional="YES">
+				<name>Primeval Guardian: Guardian Soul</name>
+				<text>Starting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. As a bonus action, you assume this guardian form, which lasts until you end it as a bonus action or until you are incapacitated.</text>
+				<text>	You undergo the following changes while in your guardian form:</text>
+				<text/>
+				<text>• Your size becomes Large, unless you were larger.</text>
+				<text/>
+				<text>• Any speed you have becomes 5 feet, unless the speed was lower.</text>
+				<text/>
+				<text>• Your reach increases by 5 feet.</text>
+				<text/>
+				<text>• You gain a number of temporary hit points at the start of each of your turns. The number equals half your ranger level. When the form ends, you lose any temporary hit points you have from it.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Primeval Guardian: Piercing Thorns</name>
+				<text>At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional 1d6 piercing damage to one creature you hit with a weapon attack.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="5">
+			<feature optional="YES">
+				<name>Primeval Guardian: Extra Attack</name>
+				<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Primeval Guardian: Ancient Fortitude</name>
+				<text>At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Primeval Guardian: Rooted Defense</name>
+				<text>At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is difficult terrain for your enemies.</text>
+			</feature>
+		</autolevel>
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Primeval Guardian: Guardian Aura</name>
+				<text>Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Ranger (Primeval Guardian)">
+		<index name="Entangle"/>
+		<index name="Enhance Ability"/>
+		<index name="Conjure Animals"/>
+		<index name="Giant Insect"/>
+		<index name="Insect Plague"/>
+	</spellList>
+</compendium>

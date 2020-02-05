@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>3969</uid>
+		<name>Drow Rogue</name>
+		<race>
+			<name>Elf (Drow)</name>
+			<feat>
+				<name>Superior Darkvision</name>
+				<text>Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Keen Senses</name>
+				<text>You have proficiency in the Perception skill.</text>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			</feat>
+			<feat>
+				<name>Trance</name>
+				<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+			</feat>
+			<feat>
+				<name>Sunlight Sensitivity</name>
+				<text>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</text>
+			</feat>
+			<feat>
+				<name>Drow Magic</name>
+				<text>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</text>
+			</feat>
+			<feat>
+				<name>Drow Weapon Training</name>
+				<text>You have proficiency with rapiers, shortswords, and hand crossbows.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>1</value>
+			</mod>
+			<proficiency>111</proficiency>
+			<spellAbility>5</spellAbility>
+			<spell>
+				<name>Faerie Fire</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
+
+Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</text>
+				<prepared>1</prepared>
+				<sclass>Bard</sclass>
+				<sclass>Cleric (Light)</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Warlock (Archfey)</sclass>
+			</spell>
+			<spell>
+				<name>Darkness</name>
+				<school>5</school>
+				<level>2</level>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<m>1</m>
+				<materials>bat fur and a drop of pitch or piece of coal</materials>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.
+
+If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
+
+If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</text>
+				<prepared>1</prepared>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<name>Dancing Lights</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<duration>Concentration, up to 1 minute</duration>
+				<text>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.
+
+As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</race>
+		<class>
+			<source>1</source>
+			<id>3916</id>
+			<name>Rogue</name>
+			<level>9</level>
+			<hd>2</hd>
+			<hdCurrent>9</hdCurrent>
+			<wealth>4d4x10</wealth>
+			<proficiency>113</proficiency>
+			<proficiency>108</proficiency>
+			<proficiency>116</proficiency>
+			<proficiency>106</proficiency>
+			<proficiency>3</proficiency>
+			<proficiency>1</proficiency>
+			<numClassSkills>4</numClassSkills>
+			<armor>Light armor</armor>
+			<weapons>Simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons>
+			<tools>Thieves' tools, disguise kit, poisoner's tool</tools>
+			<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Expertise</name>
+				<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
+				<mod>
+					<category>4</category>
+					<type>11</type>
+				</mod>
+				<mod>
+					<category>4</category>
+					<type>16</type>
+				</mod>
+				<mod>
+					<category>4</category>
+					<type>4</type>
+				</mod>
+			</feat>
+			<feat>
+				<name>Sneak Attack</name>
+				<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
+			</feat>
+			<feat>
+				<name>Thieves' Cant</name>
+				<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+			</feat>
+			<feat>
+				<name>Cunning Action</name>
+				<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</text>
+			</feat>
+			<feat>
+				<name>Roguish Archetype</name>
+				<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Roguish Archetype: Assassin</name>
+				<text>You focus your training on the grim art of the death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
+
+Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Assassin: Assassinate</name>
+				<text>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Assassin: Bonus Proficiencies</name>
+				<text>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</text>
+			</feat>
+			<feat>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feat>
+			<feat>
+				<name>Uncanny Dodge</name>
+				<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
+			</feat>
+			<feat>
+				<name>Evasion</name>
+				<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+			</feat>
+			<feat>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM allows the use of feats, you may instead take a feat.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Assassin: Infiltration Expertise</name>
+				<text>Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.
+	Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</text>
+			</feat>
+			<autolevel>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Expertise</name>
+					<text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+    At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</text>
+				</feat>
+				<feat>
+					<name>Sneak Attack</name>
+					<text>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+    You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+    The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</text>
+				</feat>
+				<feat>
+					<name>Thieves' Cant</name>
+					<text>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+    In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>0,0,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Cunning Action</name>
+					<text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can b e used only to take the Dash, Disengage, or Hide action.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Roguish Archetype</name>
+					<text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Thief: Fast Hands</name>
+					<text>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Thief: Second-Story Work</name>
+					<text>Starting at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.
+    In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,3,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Uncanny Dodge</name>
+					<text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,3,0,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Evasion</name>
+					<text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,2,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>3,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Thief: Supreme Sneak</name>
+					<text>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Reliable Talent</name>
+					<text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Thief: Use Magic Device</name>
+					<text>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Blindsense</name>
+					<text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,2,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Slippery Mind</name>
+					<text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,3,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Thief: Thief's Reflexes</name>
+					<text>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Elusive</name>
+					<text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,3,1,0,0,0,0,0,</slots>
+				<feat>
+					<name>Stroke of Luck</name>
+					<text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
+    Once you use this feature, you can't use it again until you finish a short or long rest.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>3</spellAbility>
+		</class>
+		<background>
+			<id>3960</id>
+			<name>Charlatan</name>
+			<align>Neutral</align>
+			<personality>You lie about almost everything, even when there's no good reason to.</personality>
+			<ideals>You are a free spirit-no one tells you what to do</ideals>
+			<bonds>You owe everything to your mentor - a master drow assassin who sees your defection as a personal affront.</bonds>
+			<flaws>You're convinced that no one could ever fool you the way you fool others.</flaws>
+			<feat>
+				<name>Skill Proficiencies</name>
+				<text>Deception, Sleight of Hand</text>
+			</feat>
+			<feat>
+				<name>Tool Proficiencies</name>
+				<text>Disguise Kit, Forgery Kit</text>
+			</feat>
+			<feat>
+				<name>Equipment</name>
+				<text>A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp.</text>
+			</feat>
+			<feat>
+				<name>Feature: False Identity</name>
+				<text>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</text>
+			</feat>
+			<proficiency>104</proficiency>
+			<proficiency>115</proficiency>
+		</background>
+		<xp>48000</xp>
+		<unarmed>1</unarmed>
+		<abilities>8,16,10,13,12,17,</abilities>
+		<hpMax>48</hpMax>
+		<hpCurrent>48</hpCurrent>
+		<attack>
+			<name>Sneak Attack</name>
+			<damage>5d6</damage>
+		</attack>
+		<item>
+			<name>Shortsword</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<value>10.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>10</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Dagger</name>
+			<text>Finesse: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player's Handbook, page 149</text>
+			<type>5</type>
+			<slot>4</slot>
+			<value>2.0</value>
+			<weight>1.0</weight>
+			<damage1H>1d4</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>138</weaponProperty>
+			<weaponRange>20</weaponRange>
+			<weaponLongRange>60</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Hand Crossbow</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.
+
+Light: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.
+
+Loading: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Source: Player's Handbook, page 149</text>
+			<type>6</type>
+			<value>75.0</value>
+			<weight>3.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>25</weaponProperty>
+			<weaponRange>30</weaponRange>
+			<weaponLongRange>120</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Crossbow Bolts</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+
+Source: Player's Handbook, page 150</text>
+			<type>7</type>
+			<quantity>20</quantity>
+			<value>5.0</value>
+			<weight>0.075</weight>
+		</item>
+		<item>
+			<name>Studded Leather Armor</name>
+			<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
+
+Source: Player's Handbook, page 144</text>
+			<type>1</type>
+			<slot>5</slot>
+			<value>45.0</value>
+			<weight>13.0</weight>
+			<ac>12</ac>
+		</item>
+		<item>
+			<name>Thieves' Tools</name>
+			<text>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.
+
+Source: Player's Handbook, page 154</text>
+			<value>25.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Disguise Kit</name>
+			<text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.
+
+Source: Player's Handbook, page 154</text>
+			<value>25.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Signet Ring of a minor drow noble (false identity)</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>5.0</value>
+		</item>
+		<item>
+			<name>Dark common clothes with hood</name>
+		</item>
+		<item>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.
+
+Source: Player's Handbook, page 153</text>
+			<value>5.0</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Disguise Kit</name>
+			<text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.
+
+Source: Player's Handbook, page 154</text>
+			<value>25.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<name>Poisoner's Kit</name>
+			<text>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.
+
+Source: Player's Handbook, page 154</text>
+			<value>50.0</value>
+			<weight>2.0</weight>
+		</item>
+		<item>
+			<name>Potion of Healing</name>
+			<text>Rarity: Common
+You regain 2d4 + 2 hit points when you drink this potion.	The potion's red liquid glimmers when agitated.
+
+Source: Dungeon Master's Guide, page 187</text>
+			<type>12</type>
+			<quantity>2</quantity>
+			<weight>0.5</weight>
+			<magic>1</magic>
+			<roll>2d4+2</roll>
+		</item>
+		<item>
+			<name>Helm of Telepathy</name>
+			<text>Rarity: Uncommon
+Requires Attunement
+
+While wearing this helm, you can use an action to cast the detect thoughts spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply	—	using a bonus action to do so	—	while your focus on it continues.
+While focusing on a creature with detect thoughts, you can use an action to cast the suggestion spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn.
+
+Source: Dungeon Master's Guide, page 174</text>
+			<type>14</type>
+			<magic>1</magic>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Poison, basic (vial)</name>
+			<text>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</text>
+			<quantity>2</quantity>
+			<value>100.0</value>
+		</item>
+		<item>
+			<name>Fine Clothes</name>
+			<text>Source: Player's Handbook, page 150</text>
+			<value>15.0</value>
+			<weight>6.0</weight>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<expanded>0</expanded>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>15</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<container>
+			<label>Dungeoneer's Pack</label>
+			<name>Backpack</name>
+			<value>12.0</value>
+			<weight>5.0</weight>
+			<carried>1</carried>
+			<expanded>0</expanded>
+			<item>
+				<name>Crowbar</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Hammer</name>
+				<weight>3.0</weight>
+			</item>
+			<item>
+				<name>Piton</name>
+				<quantity>10</quantity>
+				<weight>0.25</weight>
+			</item>
+			<item>
+				<name>Torch</name>
+				<quantity>10</quantity>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Tinderbox</name>
+				<weight>1.0</weight>
+			</item>
+			<item>
+				<name>Rations (1 day)</name>
+				<quantity>10</quantity>
+				<weight>2.0</weight>
+			</item>
+			<item>
+				<name>Waterskin</name>
+				<weight>5.0</weight>
+			</item>
+			<item>
+				<name>Rope, hempen (50 feet)</name>
+				<weight>10.0</weight>
+			</item>
+		</container>
+		<note>
+			<name>Background</name>
+			<text>"I am in the business of removing obstacles."
+
+Without divine or arcane magical ability, your options in the cutthroat world of drow society were limited. You either became an expert in death, or you died young.
+	After honing you murderous arts in the Underdark, you made your escape from the city of your birth to strike out on your own. Your reputation as a nigh-invisible killer strikes fear into those who would wrong you. But those who respect you earn your ready support.</text>
+		</note>
+		<note>
+			<name>Languages</name>
+			<text>Common, Elvish, Undercommon, thieves' cant</text>
+		</note>
+		<note>
+			<name>Two weapon fighting</name>
+			<text>When you take the Attack action with a shortsword in one hand, you can use a bonus attack with a dagger in the other hand. You don't add your ability modifier to the damage of the bonus attack.</text>
+		</note>
+		<note>
+			<name>Faction</name>
+			<text>You are a member of the Zhentarim, an organization of well-trained mercenaries, savvy rogue, and crafty warlocks who seek to expand their influence and power.</text>
+		</note>
+	</character>
+</pc>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" UA="Artificer">
+	<subclass baseclass="Artificer (UA)">
+		<name>Artificer (Archivist)</name>
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Artificer Specialist: Archivist (UA)</name>
+				<text>What are the best ways to store vast amounts of information? That question has occupied chroniclers and librarians for centuries. Scrolls and books were the finest information-storing methods for a long time, but the first Archivists imagined something greater: storing information in a real or an artificial mind. What library could match a mental archive capable of accessing information in seconds? As they work towards this goal, Archivists have become masters of storing knowledge and creating artificial intelligences fueled by magic. These techniques have yet to be perfected and institutionalized, and of all artificers, archivists are on the cutting edge of arcane science.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Archivist: Tools of the Trade</name>
+				<text>By the time you adopt this specialty at 3rd level, you're deeply familiar with employing its tools.</text>
+				<text>	Proficiencies. You gain proficiency with calligrapher's supplies and the forgery kit, assuming you don't already have them. You also gain calligrapher's supplies and a forgery kit for free—the result of tinkering you've done as you've prepared for this specialization.</text>
+				<text>	Crafting. If you craft a magic item in the scroll category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</text>
+			</feature>
+			<feature optional="YES">
+				<name>Archivist: Archivist Spells</name>
+				<text>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Archivist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</text>
+				<text/>
+				<text>Archivist Spells</text>
+				<text>Artificer Level    Spell</text>
+				<text>3rd                comprehend languages, dissonant whispers</text>
+				<text>5th                detect thoughts, locate object</text>
+				<text>9th                hypnotic pattern, tongues</text>
+				<text>13th               locate creature, phantasmal killer</text>
+				<text>17th               legend lore, modify memory</text>
+			</feature>
+			<feature optional="YES">
+				<name>Archivist: Artificial Mind</name>
+				<text>At 3rd level, you discover how to awaken a mind inside an object. Whenever you finish a long rest and your calligrapher's supplies are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.</text>
+				<text>	The magic item has the following properties.</text>
+				<text>	Telepathic Advisor. The artificial mind telepathically supplies you with advice and information about certain topics: while the item is on your person, you have proficiency in two skills of your choice; the item's main material determines which skills you can choose from, as shown on the Artificial Mind table in the Skill Proficiencies column, for the nature of the object affects the mind's knowledge.</text>
+				<text>	Manifest Mind. As a bonus action while the item is on your person, you can cause the mind to manifest as a Tiny spectral presence, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and invulnerable, and it sheds dim light in a 10-foot radius. You determine its appearance; the Artificial Mind table offers suggested appearances based on the object's main material.</text>
+				<text>	While manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. As an action, you can hear and see using the mind's senses, instead of your own, until your concentration ends (as if concentrating on a spell).</text>
+				<text>	As a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stops manifesting if it is ever more than 300 feet away from its magic item or if you dismiss it as a bonus action.</text>
+				<text>	When you cast an artificer spell on your turn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to your Intelligence modifier (at least once), and you regain all expended uses when you finish a long rest.</text>
+				<text>	Information Overload. As an action while the item is on your person, you can try to magically overload the thoughts of one creature you or the mind can see that is within 5 feet of the manifested mind, channeling a jumble of information from the artificial mind. Unless the target succeeds on an Intelligence saving throw against your spell save DC, the target takes 1d8 psychic damage, and the next attack roll against it before the end of your next turn has advantage, since it is temporarily too distracted to defend itself well. The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8) in this class.</text>
+				<text>	Whenever you deal damage with this feature, you can expend a spell slot to deal extra damage to the target. The extra damage is 2d8 for a 1st level spell slot, plus 1d8 for each spell level higher than first.</text>
+				<text/>
+				<text>Artificial Mind</text>
+				<text>Main Material                       Skill Proficiencies                                         Suggested Appearance</text>
+				<text>Animal {parchment, leather,bone}    Animal Handling, Insight, Medicine, Perception, Survival    A beast or a humanoid visage with antlers</text>
+				<text>Mineral {glass, stone, metal}       Deception, Intimidation, Performance, Persuasion            A robotic or golem-like face</text>
+				<text>Plant {paper, wood}                 Arcana, History, Investigation, Nature,Religion             A bespectacled visage or a treant</text>
+			</feature>
+		</autolevel>
+		<autolevel level="6">
+			<feature optional="YES">
+				<name>Archivist: Mind Network</name>
+				<text>At 6th level, you've learned how to use your artifices to access minds, both to communicate and to harm.</text>
+				<text>	Magical Telephony. While you have your Artificial Mind item on your person, you can communicate telepathically with anyone carrying an item bearing one of your artificer infusions, as the mind transmits your thoughts to each other. That person can also communicate telepathically with you as long as they have the item. This two-way communication can even cross planar boundaries.</text>
+				<text>	Psychic Damage. When you make a psychic damage roll for an artificer spell or for Information Overload, you gain a bonus to the damage roll equal to your Intelligence modifier (minimum bonus of +1).</text>
+			</feature>
+		</autolevel>
+		<autolevel level="14">
+			<feature optional="YES">
+				<name>Archivist: Pure Information</name>
+				<text>At 14th level, your Artificial Mind is able to receive and transmit more information than ever before.</text>
+				<text>	Mind Overload. When you expend a spell slot to increase the damage of Information Overload, the target must succeed on an Intelligence saving throw against your spell save DC or be stunned until the end of your next turn.</text>
+				<text>	Infoportation. As an action while your Artificial Mind magic item is on your person, you cause the mind to turn you into pure information, teleporting you to the unoccupied space nearest to the spectral mind or to an item bearing one of your artificer infusions, where you physically reappear.You can teleport in this way once for free and must finish a long rest before doing so again. You can also use this special ability by expending a spell slot of 2nd level or higher.</text>
+			</feature>
+		</autolevel>
+	</subclass>
+	<spellList class="Artificer (Archivist)">
+		<index name="Comprehend Languages"/>
+		<index name="Dissonant Whispers"/>
+		<index name="Detect Thoughts"/>
+		<index name="Locate Object"/>
+		<index name="Hypnotic Pattern"/>
+		<index name="Tongues"/>
+		<index name="Locate Creature"/>
+		<index name="Phantasmal Killer"/>
+		<index name="Legend Lore"/>
+		<index name="Modify Memory"/>
+	</spellList>
+</compendium>

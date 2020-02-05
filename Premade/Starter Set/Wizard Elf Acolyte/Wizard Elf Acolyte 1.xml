@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<version>32</version>
+		<uid>3704</uid>
+		<name>Wizard Elf Acolyte</name>
+		<race>
+			<source>1</source>
+			<name>High Elf</name>
+			<feat>
+				<name>Languages</name>
+				<text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</text>
+			</feat>
+			<feat>
+				<name>Extra Language</name>
+				<text>You can speak, read, and write one extra language of your choice.</text>
+			</feat>
+			<feat>
+				<name>Darkvision</name>
+				<text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Keen Senses</name>
+				<text>You have proficiency in the Perception skill.</text>
+				<proficiency>111</proficiency>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			</feat>
+			<feat>
+				<name>Trance</name>
+				<text>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</text>
+			</feat>
+			<feat>
+				<name>Elf Weapon Training</name>
+				<text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+			</feat>
+			<feat>
+				<name>Cantrip</name>
+				<text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>3</type>
+				<value>1</value>
+			</mod>
+			<proficiency>111</proficiency>
+		</race>
+		<class>
+			<source>1</source>
+			<id>3693</id>
+			<name>Wizard</name>
+			<wealth>4d4x10</wealth>
+			<proficiency>3</proficiency>
+			<proficiency>105</proficiency>
+			<proficiency>4</proficiency>
+			<proficiency>108</proficiency>
+			<numClassSkills>2</numClassSkills>
+			<armor>None</armor>
+			<weapons>Daggers, darts, light crossbows, longbows, longswords, quarterstaffs, shortbows, shortswords, slings</weapons>
+			<tools>None</tools>
+			<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+			<slotsCurrent>3,2,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Arcane Recovery</name>
+				<text>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+    For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.
+    You can recover either a 2nd-level spell slot or two 1st-level spell slots.</text>
+			</feat>
+			<autolevel>
+				<slots>3,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Arcane Recovery</name>
+					<text>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+    For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.
+    You can recover either a 2nd-level spell slot or two 1st-level spell slots.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>3,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Arcane Tradition</name>
+					<text>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>School of Evocation: Evocation Savant</name>
+					<text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>School of Evocation: Sculpt Spells</name>
+					<text>Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1+the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>3,4,2,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,0,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>4,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>4,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>School of Evocation: Potent Cantrip</name>
+					<text>Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>4,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>4,4,3,3,2,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>4,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>5,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>School of Evocation: Empowered Evocation</name>
+					<text>Beginning at 10th level, you can add your Intelligence modifier to the damage roll of any wizard evocation spell you cast</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>5,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>5,4,3,3,3,2,1,1,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>5,4,3,3,3,2,1,1,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>School of Evocation: Overchannel</name>
+					<text>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 5th level or lower that deals damage, you can deal maximum damage with that spell.
+    The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>5,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>5,4,3,3,3,2,1,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>5,4,3,3,3,3,1,1,1,1,</slots>
+				<feat>
+					<name>Spell Mastery</name>
+					<text>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. 
+    By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<scoreImprovement>1</scoreImprovement>
+				<slots>5,4,3,3,3,3,2,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<slots>5,4,3,3,3,3,2,2,1,1,</slots>
+				<feat>
+					<name>Signature Spells</name>
+					<text>When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.
+    If you want to cast either spell at a higher level, you must expend a spell slot as normal.</text>
+				</feat>
+			</autolevel>
+			<spellAbility>3</spellAbility>
+			<spell>
+				<source>1</source>
+				<name>Detect Magic</name>
+				<school>3</school>
+				<ritual>1</ritual>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Concentration, up to 10 minutes</duration>
+				<text>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.
+    The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</text>
+				<sclass>Bard</sclass>
+				<sclass>Cleric</sclass>
+				<sclass>Druid</sclass>
+				<sclass>Paladin</sclass>
+				<sclass>Ranger</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Mage Hand</name>
+				<school>2</school>
+				<time>1 action</time>
+				<range>30 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 minute</duration>
+				<text>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.
+    You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.
+    The hand can't attack, activate magic items, or carry more than 10 pounds.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Prestidigitation</name>
+				<school>8</school>
+				<time>1 action</time>
+				<range>10 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Up to 1 hour</duration>
+				<text>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:
+
+• You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.
+• You instantaneously light or snuff out a candle, a torch, or a small campfire.
+• You instantaneously clean or soil an object no larger than 1 cubic foot.
+• You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.
+• You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.
+• You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.
+
+If you cast this spell multiple times, you can have up to three of its non instantaneous effects active at a time, and you can dismiss such an effect as an action.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Warlock</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Sleep</name>
+				<school>4</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>90 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a pinch of fine sand, rose petals, or a cricket</materials>
+				<duration>1 minute</duration>
+				<text>This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).
+    Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.
+    Undead and creatures immune to being charmed aren't affected by this spell.
+    At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.</text>
+				<sclass>Bard</sclass>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Shield</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell</time>
+				<range>Self</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>1 round</duration>
+				<text>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Magic Missile</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>120 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.
+    At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Mage Armor</name>
+				<school>1</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<m>1</m>
+				<materials>a piece of cured leather</materials>
+				<duration>8 hours</duration>
+				<text>You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Burning Hands</name>
+				<school>5</school>
+				<level>1</level>
+				<time>1 action</time>
+				<range>Self (15 foot cone)</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15 foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.
+    The fire ignites any flammable objects in the area that aren't being worn or carried.
+    At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Shocking Grasp</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>Touch</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
+    The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+			<spell>
+				<source>1</source>
+				<name>Ray of Frost</name>
+				<school>5</school>
+				<time>1 action</time>
+				<range>60 feet</range>
+				<v>1</v>
+				<s>1</s>
+				<duration>Instantaneous</duration>
+				<text>A frigid beam of blue white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
+    The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</text>
+				<sclass>Sorcerer</sclass>
+				<sclass>Wizard</sclass>
+			</spell>
+		</class>
+		<background>
+			<source>1</source>
+			<name>Acolyte</name>
+			<align>Chaotic good</align>
+			<personality>I use polysyllabic words that convey the impression of erudition. Also, I've spent so long in the temple that I have little experience dealing with people on a casual basis.</personality>
+			<ideals>Knowledge. The path to power and self-improvement is through knowledge.</ideals>
+			<bonds>The tome I carry with me is the record of my life's work so far, and no vault is secure enough to keep it safe.</bonds>
+			<flaws>I'll do just about anything to uncover historical secrets that would add to my research.</flaws>
+			<feat>
+				<name>Languages</name>
+				<text>Two of your choice</text>
+			</feat>
+			<feat>
+				<name>Shelter of the Faithful</name>
+				<text>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.
+    You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</text>
+			</feat>
+			<proficiency>106</proficiency>
+			<proficiency>114</proficiency>
+		</background>
+		<unarmed>1</unarmed>
+		<abilities>10,13,14,15,12,8,</abilities>
+		<hpMax>8</hpMax>
+		<hpCurrent>8</hpCurrent>
+		<item>
+			<source>1</source>
+			<name>Shortsword</name>
+			<type>5</type>
+			<slot>2</slot>
+			<value>10.0</value>
+			<weight>2.0</weight>
+			<damage1H>1d6</damage1H>
+			<damageType>2</damageType>
+			<weaponProperty>1034</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Component pouch</name>
+			<text>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).</text>
+			<value>25.0</value>
+			<weight>2.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Spellbook</name>
+			<text>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</text>
+			<value>50.0</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Backpack</name>
+			<value>2.0</value>
+			<weight>5.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Ink (1 ounce bottle)</name>
+			<value>10.0</value>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Ink pen</name>
+			<value>0.02</value>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Parchment (one sheet)</name>
+			<quantity>10</quantity>
+			<value>0.1</value>
+		</item>
+		<item>
+			<name>Small knife</name>
+		</item>
+		<item>
+			<name>Tome of Historical Lore</name>
+		</item>
+		<item>
+			<name>Prayer Book</name>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Common clothes</name>
+			<value>0.5</value>
+			<weight>3.0</weight>
+		</item>
+		<item>
+			<source>1</source>
+			<name>Pouch</name>
+			<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section).</text>
+			<value>0.5</value>
+			<weight>1.0</weight>
+		</item>
+		<item>
+			<name>Holy Symbol (replace)</name>
+		</item>
+		<container>
+			<name>Money</name>
+			<carried>1</carried>
+			<item>
+				<name>Copper (cp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.01</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Silver (sp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.1</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Electrum (ep)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>0.5</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Gold (gp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>5</quantity>
+				<value>1.0</value>
+				<weight>0.02</weight>
+			</item>
+			<item>
+				<name>Platinum (pp)</name>
+				<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook, page 143</text>
+				<type>15</type>
+				<quantity>0</quantity>
+				<value>10.0</value>
+				<weight>0.02</weight>
+			</item>
+		</container>
+		<note>
+			<name>Wizard</name>
+			<text>Wizards are supreme magic-users. Drawing on the subtle weave of magic that permeates the cosmos, they cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. The mightiest wizards learn to conjure elementals from other planes of existence, glimpse the future, or turn slain foes into zombies.</text>
+		</note>
+		<note>
+			<name>Elf</name>
+			<text>Elves are a people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry.
+
+	Elves can live over 700 years. They are more often amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance, and they trust in diplomacy and compromise to resolve differences before they escalate to violence.
+
+	Most elves dwell in small forest villages hidden among the trees. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals, which they have no interest in mining.
+
+	In the Forgotten Realms, your people are named sun elves. Also called gold elves or sunrise elves, sun elves have bronze skin and hair of copper, black, or golden blond, and their eyes are golden, silver, or black. They are more reclusive than the other branch of high elves, the moon elves, but Oghma has called you to live among other peoples, rather than in the sanctuaries of your kin.
+
+Elves are considered children until they declare themselves adults, sometime after the hundredth birthday. Before this period, they are called by child names. On declaring adulthood, an elf selects an adult name. Every elf also bears a family name, typically a combination of Elvish words. Some elves traveling among other races translate their family names into Common.
+
+Child Names: Ara, Bryn, Del, Innil, Lael, Mella, Naeris, Phann, Rael, Rinn, Syllin, Vall
+
+Male Adult Names: Adran, Berrian, Carric, Erevan, Galinndan, Hadarai, Immeral, Paelias, Quarion, Riardon, Soveliss, Theren, Varis
+
+Female Adult Names: Althaea, Bethrynna, Caelynn, Ielenia, Leshanna, Meriele, Naivara, Quillathe, Silaqui, Thia, Vadania, Valanthe, Xanaphia
+
+Family Names (Common Translations): Amastacia (Starflower), Galanodel (Moonwhisper), Liadon (Silverfrond), Meliamne (Oakenheel), Siannodel (Moonbrook), Ilphelkiir (Gemblossom)</text>
+		</note>
+		<note>
+			<name>Background</name>
+			<text>You have spent your life dedicated to Oghma, all-seeing god of knowledge, and spent years learning the lore of the multiverse.
+
+	Personal Goal: Reconsecrate the Defiled Altar. Through visions delivered in your trances, your god has called you to a new mission. A goblin tribe has made its lair in an ancient ruin now called Cragmaw Castle, where they have defiled a shrine once sacred to Oghma. Now dedicated to the vile goblin god Maglubiyet, the altar is an offense to Oghma that must not stand.
+	You're sure Oghma has greater things in store for you if you can complete this quest. In the meantime, your visions suggest that Sister Garaele—a priest of Tymora, the goddess of luck—can aid you in the town of Phandalin.
+
+	Alignment: Chaotic Good. The pursuit and acquisition of knowledge is for the benefit of all. Kingdoms and laws are useful so far as they allow knowledge to flourish. Tyrants who seek to suppress and control it are the worst villains. You share your knowledge freely, and use what you have learned to help where you can.</text>
+		</note>
+		<note>
+			<name>Languages</name>
+			<text>Common, Elvish, Draconic, Dwarvish, Goblin</text>
+		</note>
+	</character>
+</pc>
